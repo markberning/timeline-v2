@@ -6687,5 +6687,328 @@ export const HAT_MAKES_MAN: ArtWorkContent = {
   },
 }
 
-export const ART_WORK_CONTENT: Record<string, ArtWorkContent> = { burial: BURIAL, demoiselles: DEMOISELLES, kahnweiler: KAHNWEILER, 'chair-caning': CHAIR_CANING, horta: HORTA, 'violin-jug': VIOLIN_JUG, 'three-women': THREE_WOMEN, 'the-portuguese': THE_PORTUGUESE, 'gris-breakfast': GRIS_BREAKFAST, 'three-musicians': THREE_MUSICIANS, 'stone-breakers': STONE_BREAKERS, studio: STUDIO, sower: SOWER, gleaners: GLEANERS, angelus: ANGELUS, gargantua: GARGANTUA, carriage: CARRIAGE, 'horse-fair': HORSE_FAIR, 'impression-sunrise': IMPRESSION_SUNRISE, grenouillere: GRENOUILLERE, cradle: CRADLE, 'moulin-galette': MOULIN_GALETTE, 'paris-street': PARIS_STREET, 'dance-class': DANCE_CLASS, absinthe: ABSINTHE, 'boating-party': BOATING_PARTY, 'gare-saint-lazare': GARE_SAINT_LAZARE, 'starry-night': STARRY_NIGHT, 'bedroom-arles': BEDROOM_ARLES, 'grande-jatte': GRANDE_JATTE, 'bathers-asnieres': BATHERS_ASNIERES, 'card-players': CARD_PLAYERS, 'mont-sainte-victoire-lauves': MONT_SAINTE_VICTOIRE_LAUVES, 'vision-sermon': VISION_SERMON, 'moulin-rouge': MOULIN_ROUGE, 'where-do-we-come-from': WHERE_DO_WE_COME_FROM, hat: WOMAN_WITH_A_HAT, 'green-stripe': GREEN_STRIPE, bonheur: BONHEUR, luxe: LUXE, 'open-window': OPEN_WINDOW, 'blue-nude': BLUE_NUDE, chatou: CHATOU, 'charing-cross': CHARING_CROSS, 'rue-pavoisee': RUE_PAVOISEE, 'city-rises': CITY_RISES, dog: DOG, galli: GALLI, cyclist: CYCLIST, 'unique-forms': UNIQUE_FORMS, farewells: FAREWELLS, 'bal-tabarin': BAL_TABARIN, automobile: AUTOMOBILE, 'abstract-speed': ABSTRACT_SPEED, fountain: FOUNTAIN, lhooq: LHOOQ, 'kitchen-knife': KITCHEN_KNIFE, 'mechanical-head': MECHANICAL_HEAD, 'hat-makes-man': HAT_MAKES_MAN }
+export const STIEGLITZ: ArtWorkContent = {
+  id: 'stieglitz',
+  name: "Ici, c'est ici Stieglitz",
+  shortName: 'Ici Stieglitz',
+  year: 1915,
+  artist: 'Francis Picabia',
+  artistId: 'picabia',
+  movement: 'Dada',
+  movementId: 'dada',
+  era: 'Modern',
+  eraId: 'mod',
+  medium: 'Ink, graphite, and pasted and printed papers on paper',
+  dimensions: '2 ft 5 7/8 in × 1 ft 8 in',
+  location: 'The Metropolitan Museum of Art, New York',
+  acquired: 'Alfred Stieglitz Collection, 1949 (acc. 49.70.14)',
+  accent: ART_ACCENTS.amber,
+  chain: { name: 'Works of Dada', index: 6, total: 9 },
+  hook: 'A portrait of the photographer Alfred Stieglitz that contains no face at all: he is drawn as a folding bellows camera, broken, its lens drooping, straining up toward the word IDEAL and getting nowhere because the gears are in neutral and the brake is on. Affection and mockery in one deadpan machine.',
+  heroImage: ART_IMG.picabiaStieglitz,
+  heroCredit: "Picabia, Ici, c'est ici Stieglitz, foi et amour, 1915 (cover of 291, nos. 5-6) · The Metropolitan Museum of Art, New York.",
+  heroAspect: 0.71, // the hero is the image file (1003 × 1418 px, ratio ≈ 0.71); upright, never cropped under heroFit: contain
+  heroFit: 'contain',
+  rights: 'pd-us', // published 1915 as the cover of 291 → US public domain; Picabia d. 1953 → worldwide PD only since 2024
+  stats: [
+    { v: '1915', k: 'Made' },
+    { v: '2′5⅞″ × 1′8″', k: 'Dimensions' },
+    { v: 'The Met', k: 'Now at' },
+  ],
+  sections: [
+    { id: 'circle', eyebrow: 'New York · 1915', dateLabel: '1915', title: 'A French painter, a wartime crossing, and the gallery called 291', blurb: 'Picabia flees the war in Europe, lands in New York, and falls in with the circle around the photographer Alfred Stieglitz, whose Fifth Avenue gallery and little magazine, both named 291, were the headquarters of modern art in America. Out of it comes a new kind of portrait.', progress: 0.08 },
+    { id: 'machine', eyebrow: 'The idea', dateLabel: '1915', title: 'A man drawn as a machine', blurb: 'Picabia portrays the people of the 291 circle not as faces but as machines, copied from advertisements and patent diagrams in a flat, deadpan, commercial style. The object-portrait, or mechanomorph, is the circle’s new thing (Marius de Zayas had already de-faced the portrait by 1913); Picabia pushes it furthest, and Stieglitz gets the cover.', progress: 0.30 },
+    { id: 'looking', eyebrow: 'The drawing', dateLabel: '2 ft 5 7/8 in × 1 ft 8 in', title: 'The broken camera that cannot reach the Ideal', blurb: 'The folding camera that is Stieglitz, its limp extended lens, the word IDEAL it strains toward, the automobile gearshift sitting in neutral, the hand-brake set, and the words FOI ET AMOUR (faith and love) that give the whole thing its tone.', progress: 0.54 },
+    { id: 'break', eyebrow: 'The break', dateLabel: '1915', title: 'Throwing the human figure out of the portrait', blurb: 'For centuries a portrait meant a likeness: a face, a body, a soul rendered by the artist’s hand. Picabia substitutes a labelled machine lifted from a catalogue, with printed words doing the characterizing. Portraiture becomes ready-made-and-caption, and that rupture feeds straight into Dada.', progress: 0.78 },
+    { id: 'afterlife', eyebrow: 'After', dateLabel: '1915–today', title: 'The sitter who kept his own caricature', blurb: 'Stieglitz, the man gently mocked as a stalled machine, owned the drawing, and it came to the Met from his own collection in 1949. The verbatim machine credo Picabia gave a New York newspaper that same autumn, and the question the picture never quite settles: homage, or satire?', progress: 0.96 },
+  ],
+  provenance: [
+    { year: '1915', who: 'Francis Picabia (the artist) / 291 magazine', place: 'New York', note: 'Made in New York in 1915 as the working mock-up and cover of the little magazine 291, nos. 5–6 (July–August 1915), with its cut-and-pasted strips of printed words and visible pencil corrections. (The Wikimedia file calls it the cover of No. 1; that is wrong, and No. 1 was March 1915.)', price: null },
+    { year: 'by the 1940s', who: 'Alfred Stieglitz (the photographer it portrays)', place: 'New York', note: 'The drawing entered the holdings of Alfred Stieglitz himself, the very man it caricatures. How and exactly when he acquired it is not spelled out in the record; what is documented is that it was his.', price: null },
+    { year: '1949–today', who: 'The Metropolitan Museum of Art', place: 'New York', note: 'Came to the Met in 1949 as part of the Alfred Stieglitz Collection, distributed from his estate after his death in 1946. Credit line: Alfred Stieglitz Collection, 1949. Accession 49.70.14. The Met catalogues the drawing under the short title "Here, This Is Stieglitz Here."', price: 'Alfred Stieglitz Collection, 1949', museum: true },
+  ],
+  figures: [
+    { name: 'Francis Picabia', role: 'The machine-painter', palette: ['#3a3a44', '#1c1c24', '#0a0a10'] },
+    { name: 'Alfred Stieglitz', role: 'The sitter, drawn as a camera', palette: ['#4a4a52', '#26262e', '#0c0c12'] },
+    { name: 'The magazine 291', role: 'Gallery, magazine, and circle', palette: ['#7a6a4a', '#3a3020', '#100c08'] },
+    { name: 'The machine as man', role: 'The circle’s new portrait', palette: ['#5a5a64', '#2c2c34', '#0e0e14'] },
+    { name: 'New York Dada', role: 'The cell this came out of', palette: ['#6a5a3a', '#332a1a', '#0e0a06'] },
+  ],
+  annotations: [
+    { label: 'The folding bellows camera', where: 'The whole central body of the drawing: the upright accordion-pleated camera that stands in for Stieglitz', detail: 'There is no face anywhere. The figure of Stieglitz is entirely a folding plate camera (read by scholars as the popular Vest Pocket Kodak, copied from a period advertisement), its pleated leather bellows and lens board standing upright like a body. Recognizing it as a real, advertised consumer camera is half the joke: the great artist of photography is drawn as a piece of mass-produced photographic hardware.' },
+    { label: 'The limp extended lens', where: 'The lens and bellows, pulled out but slack rather than aimed sharply', detail: 'The bellows are extended but disengaged, the lens drooping rather than focusing, a camera that cannot quite point itself. Scholars read it plainly as broken, even as sexual deflation. Whatever the reading, what is on the sheet is a precise mechanical thing drawn as failing to do the one thing it exists to do.' },
+    { label: 'The word IDEAL', where: 'Lettered toward the top, in heavy Gothic blackletter, on the lever plate the camera strains up toward', detail: 'At the top, in a heavy Gothic (blackletter) script, sits the word IDEAL. It is the thing the whole machine reaches for: the camera strains upward toward it. And, per the picture’s own logic, it never gets there. The lettering does the work a halo or an inscription would do in an old portrait, naming the sitter’s aspiration in block capitals.' },
+    { label: 'FOI ET AMOUR (faith and love)', where: 'Inscribed with the title phrase, low on the sheet', detail: 'The words FOI ET AMOUR, French for "faith and love," are inscribed along with the title phrase Ici, c’est ici Stieglitz ("Here, this is Stieglitz here"). This is the vocabulary of devotion, attached to a stalled machine, and it is what tips the whole drawing from a gag toward something fonder. The tone of the picture lives in the gap between those tender words and the broken mechanism they are pinned to.' },
+    { label: 'The gearshift in neutral', where: 'An automobile shift lever, drawn lodged out of gear', detail: 'An automobile gearshift, the lever that should drive the climb up to IDEAL, is drawn set in neutral (or park), out of gear. The mechanism that would deliver power to the rest of the machine is deliberately disengaged. The picture is built from machine parts that have been arranged, with a straight face, so that none of them can do their job.' },
+    { label: 'The engaged hand-brake', where: 'A set brake lever, the second "going nowhere" cue', detail: 'A hand-brake is shown engaged. Together with the neutral gear, it is the deadpan punchline of the drawing: all this faith and love, all this straining toward the Ideal, and the thing is simply parked. The standard reading is a portrait of idealism that has stalled, the 291 circle’s worry that their tireless champion had lost his drive, said gently, in the language of engineering.' },
+  ],
+  lineage: {
+    parents: [
+      { label: 'The 291 circle', mode: 'art' },
+      { label: 'De Zayas’s caricatures', mode: 'art' },
+      { label: 'Commercial advertising', mode: 'civ' },
+      { label: 'The machine age', mode: 'civ' },
+    ],
+    children: [
+      { label: 'New York Dada', mode: 'art' },
+      { label: 'Duchamp’s readymades', mode: 'art' },
+      { label: 'Text-as-image portraiture', mode: 'art' },
+    ],
+  },
+}
+
+// ─────────────────────────────────────────────────────────────
+// Work, The Elephant Celebes (1921), Max Ernst, Tate, London (T01988). The
+// Cologne-Dada canvas that tips Dada into Surrealism: collage logic carried
+// into oil paint. Painted 1921, three years before the 1924 Surrealist
+// manifesto, so "first Surrealist masterpiece" is scoped as a later judgment,
+// never a date-stamp. Title from a bawdy German schoolboy rhyme; "Celebes" is
+// the old name for Sulawesi. Corn-bin source is TRUE but its people/region
+// attribution is contested, so kept generic. KEY STATEMENT = Ernst's general
+// collage definition (no reliable Ernst quote about Celebes itself exists),
+// quoted in ONE translation, with Lautreamont named as the source he expands.
+// Quote-verification note: the collage-definition wording was verified to the
+// Tate/Wikipedia-cited text; lock it against a printed Ernst primary at
+// integration. (This caveat is a code comment, never reader prose.)
+// Acquisition: PURCHASED by the Tate from Penrose, 1975 (T01988); the sale
+// proceeds funded the Elephant Trust, so it was a sale, not a gift, not split.
+// Cologne Dada was co-founded 1919 by Ernst, Baargeld, and Arp, not a solo op.
+// Chapter prose in art-section-reader.tsx NARRATIVES.celebes (Cel… prefix).
+// ─────────────────────────────────────────────────────────────
+export const CELEBES: ArtWorkContent = {
+  id: 'celebes',
+  name: 'The Elephant Celebes',
+  shortName: 'Celebes',
+  year: 1921,
+  artist: 'Max Ernst',
+  artistId: 'ernst',
+  movement: 'Dada',
+  movementId: 'dada',
+  era: 'Modern',
+  eraId: 'mod',
+  medium: 'Oil on canvas',
+  dimensions: '4 ft 1 3/8 in × 3 ft 6 1/2 in',
+  location: 'Tate, London',
+  acquired: 'Purchased by the Tate from Roland Penrose, 1975 (T01988)',
+  accent: ART_ACCENTS.amber,
+  chain: { name: 'Works of Dada', index: 7, total: 9 },
+  hook: 'A monstrous boiler-bodied beast (built from a photograph of an African corn-bin) stands alone on a bare plain under flying fish, the Cologne Dada canvas where collage stops being scissors and glue and becomes a way of painting.',
+  heroImage: ART_IMG.ernstCelebes,
+  heroCredit: 'Ernst, The Elephant Celebes, 1921 · Tate, London',
+  heroAspect: 0.86, // 107.9 × 125.4 cm → W/H ≈ 0.86, portrait
+  heroFit: 'contain', // the whole portrait canvas, never cropped
+  rights: 'pd-us',
+  stats: [
+    { v: '1921', k: 'Painted' },
+    { v: '4′1⅜″ × 3′6½″', k: 'Dimensions' },
+    { v: 'Tate', k: 'Now at' },
+  ],
+  sections: [
+    { id: 'cologne', eyebrow: 'Cologne · 1921', dateLabel: '1921', title: 'Dada, and the picture that tips out of it', blurb: 'Max Ernst is a driving force of Cologne Dada, the anti-art movement (founded in 1919 with Johannes Baargeld and Hans Arp) born out of the wreckage of the First World War. Most Dada was provocation: cut, mock, deny that anything is art. Celebes is the strange exception, a still, almost silent dream-scene, painted with a straight face, that points past Dada toward something with no name yet.', progress: 0.08 },
+    { id: 'making', eyebrow: 'The making', dateLabel: '1921', title: 'A corn-bin becomes a monster', blurb: 'The “elephant” is not invented from nothing. Ernst built its body from a photograph of an African communal corn-bin (a clay grain silo on two stubby legs) found in an anthropological publication, gave it a riveted metal skin, and bolted on a tusked snout and a tiny horned head it never had. The title comes from a bawdy German schoolboy rhyme, not from the island the word once named.', progress: 0.32 },
+    { id: 'looking', eyebrow: 'The canvas', dateLabel: '4 ft 1 3/8 in × 3 ft 6 1/2 in', title: 'What is standing on the plain', blurb: 'The boiler body, the trunk that is a hose ending in a tusked trumpet, the too-small horned head, the headless female mannequin beckoning from the lower right, the fish swimming through the sky, and the bare flat horizon that turns the whole thing into a silent stage.', progress: 0.56 },
+    { id: 'break', eyebrow: 'The break', dateLabel: '1921 → 1924', title: 'Collage, painted', blurb: 'Ernst takes the collage operation (the chance collision of unrelated things) and executes it in oil, with a smooth, photographic finish that makes the impossible monster read as solidly, physically there. The seams vanish. That is the hinge from Dada into Surrealism, three years before André Breton’s 1924 manifesto gave the movement its name.', progress: 0.78 },
+    { id: 'afterlife', eyebrow: 'After', dateLabel: '1921–today', title: 'From the studio to the Tate', blurb: 'The canvas passed through the poet Paul Éluard to the English Surrealist Roland Penrose, who sold it to the Tate in 1975 and used the proceeds to found the Elephant Trust. It is the proof-of-concept the high Surrealists (Dalí, Tanguy, Magritte) would build on: paint the irrational with hard realist conviction so the impossible reads as fact.', progress: 0.96 },
+  ],
+  // Provenance: endpoints firm (Ernst → Tate, purchased 1975, T01988). Éluard
+  // (1921) and Penrose (1938) are the standard figures; Éluard's exact year is
+  // the softest of the chain. The 1975 acquisition is a PURCHASE, not a gift:
+  // Penrose sold it and the proceeds endowed the Elephant Trust.
+  provenance: [
+    { year: '1921', who: 'Max Ernst (the artist)', place: 'Cologne', note: 'Painted in 1921 while Ernst was a driving force of Cologne Dada.', price: null },
+    { year: '1921', who: 'Paul Éluard (poet, patron)', place: 'Paris', note: 'Acquired early by Ernst’s close friend the poet Paul Éluard, who took it to Paris. The standard date is 1921, the year the canvas was painted.', price: null },
+    { year: '1938', who: 'Roland Penrose (artist, collector)', place: 'London', note: 'Bought in 1938 by the English Surrealist artist and collector Roland Penrose (later Sir Roland Penrose), when Éluard sold off much of his collection.', price: null },
+    { year: '1975–today', who: 'Tate', place: 'London', note: 'Purchased by the Tate from Roland Penrose in 1975 (accession T01988); Penrose used the proceeds of the sale to found the Elephant Trust. On view.', price: null, museum: true },
+  ],
+  figures: [
+    { name: 'Max Ernst', role: 'The painter', palette: ['#8a6b3a', '#3a2e1c', '#0e0a06'] },
+    { name: 'Cologne Dada', role: 'The movement he co-founded', palette: ['#1c1c1c', '#a0a0a0', '#d6cf3f'] },
+    { name: 'The corn-bin photograph', role: 'The body’s real source', palette: ['#7a6a4a', '#3a3020', '#100c08'] },
+    { name: 'Lautréamont', role: 'The chance-meeting idea', palette: ['#3a4a6a', '#2e3848', '#0e1220'] },
+    { name: 'Surrealism', role: 'The next step, 1924', palette: ['#1c3a6a', '#c8a72a', '#0e1224'] },
+  ],
+  annotations: [
+    { label: 'The boiler / corn-bin body', where: 'The huge rounded mass at the center, standing on two stubby legs', detail: 'The “elephant” itself. Its true source is a photograph of an African communal corn-bin (a clay grain silo that stands on a squat pair of legs), which Ernst found in an anthropological publication and gave a riveted, metallic, boiler-like skin. The two legs are the silo’s legs. It is a corn-bin refigured; the exact people, region, and photographer behind that photo are contested in the scholarship, so it stays unpinned to one tribe or place. It reads as machine and animal at once.' },
+    { label: 'The tusked snout, a trunk that is a hose', where: 'Reaching out from the front of the body and curling back toward it', detail: 'A long, flexible tube ends in a tusked, trumpet-like mouth: the “elephant’s trunk” that is plainly not a trunk but a length of hose with a horn on the end. It loops back toward the body. This is where the “elephant” of the title meets the thing on the canvas, and they do not match.' },
+    { label: 'The little horned mechanical head', where: 'At the top of the form, small against the bulk below it', detail: 'A small horned head with a frilly metal collar sits where a head would go, but it is far too small for the body, like a bolt-on afterthought. The mismatch of scale is deliberate; it is part of what makes the creature feel wrong rather than merely invented.' },
+    { label: 'The headless female mannequin', where: 'Lower right, a pale figure standing apart from the beast', detail: 'A pale, headless female figure stands at the right with one gloved hand raised, as if beckoning or directing the monster. It is the classic de Chirico mannequin (human, but blank and dismembered) that Ernst had absorbed from reproductions, and it pulls the painting toward dream and dread rather than Dada joke.' },
+    { label: 'The flying fish', where: 'Up in the sky, toward the upper left', detail: 'Fish swim through the air. It is the single cleanest dream-logic violation in the picture: the wrong creatures in the wrong medium, stated flatly, with no explanation offered. Nothing in the scene reacts to them, which is the point.' },
+    { label: 'The bare horizon', where: 'A low, empty line under a flat, washed sky, across the whole lower background', detail: 'The emptiness does the work. A low horizon and a featureless sky isolate the beast, give it scale and silence, and turn the plain into a stage. (Also back there: a tower or totem-pole at the right and a small dark airplane-like shape trailing smoke.) The calm is exactly what separates this from a Dada provocation.' },
+  ],
+  lineage: {
+    parents: [
+      { label: 'Dada photo-collage', mode: 'art' },
+      { label: 'de Chirico’s metaphysical painting', mode: 'art' },
+      { label: 'Lautréamont’s chance meeting', mode: 'art' },
+      { label: 'Europe after the First World War', mode: 'civ' },
+    ],
+    children: [
+      { label: 'Surrealist painting', mode: 'art' },
+      { label: 'Dalí, Tanguy, Magritte', mode: 'art' },
+      { label: 'The painted dream-image', mode: 'art' },
+    ],
+  },
+}
+
+// ─────────────────────────────────────────────────────────────
+// Work, La Sainte Vierge (The Blessed Virgin), Francis Picabia, 1920,
+// Centre Pompidou / Musée National d'Art Moderne, Paris (AM 2008-91). A
+// Dada flagship work read. Authored through the art content pipeline
+// (fact pack → Opus → 5 gates → revise). Chapter prose in
+// art-section-reader.tsx NARRATIVES['sainte-vierge'] (Svg… prefix).
+// FACT HANDLING (gate-relevant): the WIRED image is the ORIGINAL DRAWING
+// at the Pompidou (gray ground, drips in the original direction), NOT
+// the magazine plate; the 391 no. 12 (March 1920) printed version was
+// CROPPED and MIRROR-REVERSED, flipping the drip direction — kept
+// separate, never conflated. The Commons file's "291" is a TYPO for
+// 391. No Picabia quote exists ABOUT the drawing itself, so the key
+// statement uses his 391 no. 12 Dada-manifesto lines (printed alongside
+// the drawing) and the separate Manifeste Cannibale Dada, each labeled.
+// The Cannibale was read 27 March 1920 at the Théâtre de la Maison de
+// l'Œuvre (the 3rd Dada soirée, pub. in Dadaphone / Dada no. 7), NOT the
+// Salle Gaveau (whose Festival Dada was a separate event, 26 May 1920).
+// Making-method (flung vs ink-dropper) is interpretive and hedged.
+// PD-US (published 1920); Picabia d. 1953 → also PD in France/EU since
+// 2024.
+// ─────────────────────────────────────────────────────────────
+export const SAINTE_VIERGE: ArtWorkContent = {
+  id: 'sainte-vierge',
+  name: 'La Sainte Vierge',
+  shortName: 'La Sainte Vierge',
+  year: 1920,
+  artist: 'Francis Picabia',
+  artistId: 'picabia',
+  movement: 'Dada',
+  movementId: 'dada',
+  era: 'Modern',
+  eraId: 'mod',
+  medium: 'India ink and graphite on paper',
+  dimensions: '1 ft 1 in × 9 1/2 in',
+  location: 'Centre Pompidou / Musée National d’Art Moderne, Paris',
+  acquired: 'Acquired 2008 (with the participation of Frieder Burda), acc. AM 2008-91',
+  accent: ART_ACCENTS.amber,
+  chain: { name: 'Works of Dada', index: 8, total: 9 },
+  hook: 'The holiest figure in Catholic France, the Virgin Mary, rendered as a single splatter of black ink on a gray sheet, captioned in Picabia’s hand and signed. No skill, no subject, no labor: just a flick of ink and a sacred title colliding to insult Church and Art at once.',
+  heroImage: ART_IMG.picabiaVierge,
+  heroCredit: 'Picabia, La Sainte Vierge, 1920 · Centre Pompidou, Paris',
+  heroAspect: 0.73, // 24 × 33 cm drawing → W/H ≈ 0.73, portrait
+  heroFit: 'contain', // the whole small sheet, never cropped
+  rights: 'pd-us', // published 1920 in 391 no. 12 → US public domain; Picabia d. 1953 → also PD in France/EU since 2024
+  stats: [
+    { v: '1920', k: 'Made' },
+    { v: '1′1″ × 9½″', k: 'Dimensions' },
+    { v: 'Centre Pompidou', k: 'Now at' },
+  ],
+  sections: [
+    { id: 'paris-dada', eyebrow: 'Paris · 1920', dateLabel: '1920', title: 'A wealthy provocateur and his anarchic little magazine', blurb: 'Picabia, an ex-Cubist millionaire turned Dada’s chief publisher, ran an irregular review called 391, full of lewd drawings, scrambled type, and attacks on good taste. Into issue 12 he dropped a blot titled for the Virgin.', progress: 0.08 },
+    { id: 'making', eyebrow: 'The making', dateLabel: 'March 1920', title: 'A drop of ink, a caption, a signature', blurb: 'The whole work is a single black ink blot let fall on a gray sheet, with the title lettered above and his name below in blue-violet ink. The drawing now in Paris and the magazine plate are mirror images, because 391 printed it cropped and reversed.', progress: 0.32 },
+    { id: 'looking', eyebrow: 'The sheet', dateLabel: '1 ft 1 in × 9 1/2 in', title: 'A stain offered as the Madonna', blurb: 'The blot, the drips that record gravity and chance, the hand-lettered “LA SAINTE VIERGE,” the signature claiming authorship over an accident, the bare ground around it, and the deliberate crudeness of all of it.', progress: 0.56 },
+    { id: 'break', eyebrow: 'The break', dateLabel: '1920', title: 'Both skill and subject, dethroned in one gesture', blurb: 'A flick of the wrist titled as a sacred image, where the content is the chance of the ink and the provocation of the name. The line runs forward to Surrealist automatism, art informel, and the poured paint of Action Painting.', progress: 0.78 },
+    { id: 'after', eyebrow: 'After', dateLabel: '1920–today', title: 'One image, several objects', blurb: 'There is no single Sainte Vierge: a drawing now at the Pompidou, a cropped and reversed magazine plate, a separate lithograph at Yale. The drawing was bought by the Musée National d’Art Moderne in 2008.', progress: 0.96 },
+  ],
+  provenance: [
+    { year: '1920', who: 'Francis Picabia (the artist)', place: 'Paris', note: 'Made in 1920 and reproduced, cropped and mirror-reversed, in Picabia’s own review 391, no. 12 (Paris, March 1920). Earlier ownership of the drawing before the 2008 purchase is not stated on the museum record.', price: null },
+    { year: '2008–today', who: 'Musée National d’Art Moderne, Centre Pompidou', place: 'Paris', note: 'Bought by the museum in 2008, with the participation of the collector Frieder Burda, for its Cabinet d’art graphique (Graphic Arts Cabinet). Accession AM 2008-91. No purchase figure is published in the sources.', price: 'Museum purchase, 2008 (with Frieder Burda)', museum: true },
+  ],
+  figures: [
+    { name: 'Francis Picabia', role: 'The provocateur', palette: ['#1c1c1c', '#a0a0a0', '#d6cf3f'] },
+    { name: 'Paris Dada', role: 'The movement around him', palette: ['#d97706', '#3a2e1c', '#0e0a06'] },
+    { name: '391', role: 'His own magazine, where it ran', palette: ['#8a7a3a', '#3a3020', '#100c08'] },
+    { name: 'The Catholic Church', role: 'The target of the blasphemy', palette: ['#3a4a6a', '#2a3048', '#0e1220'] },
+    { name: 'Chance', role: 'The thing that actually made the mark', palette: ['#5a5048', '#2e2a24', '#0e0c0a'] },
+  ],
+  annotations: [
+    { label: 'The splatter itself', where: 'The center of the sheet, the single dark mass that is the whole “image”', detail: 'One generous blot of black India ink, irregular and organic, with no contour and nothing you could read as a figure. There is no Madonna anywhere on the page except in the words above it. The literal fact is a stain; that the stain stands in for the Virgin is entirely the work of the title.' },
+    { label: 'The drips', where: 'Trailing off the main mass, fine runs where the wet ink ran before it dried', detail: 'Thin runs of ink trail away from the blot, the plain record of gravity and chance: ink let fall and allowed to move on its own. In the original drawing they run one way; the 391 plate is mirror-flipped, so there they run the other way.' },
+    { label: 'The caption, “LA SAINTE VIERGE”', where: 'Hand-lettered across the top of the sheet, above the blot', detail: 'The title is written out plainly in blue-violet ink, unceremonious, in Picabia’s own hand. It is the caption, not the mark, that performs the whole provocation: these three words are what turn a stain into “the Blessed Virgin.” Without them there is no work, only a blot.' },
+    { label: 'The signature', where: 'Below the blot, in the same blue-violet ink', detail: '“Francis Picabia,” inscribed underneath. It is the only conventional gesture of authorship on the page, a painter signing his picture, except that the picture is an accident. The signature claims an act of chance as a deliberate work of art, which is exactly the readymade move: the naming, not the making, is what is being signed.' },
+    { label: 'The bare ground', where: 'The empty gray paper surrounding the blot', detail: 'A near-empty sheet around the mark: no halo, no setting, no composition, none of the gold and drapery a Madonna is owed. The emptiness is doing work, not failing to. Maximum sacred subject, minimum means; the void around the stain is part of the insult.' },
+    { label: 'The deliberate crudeness', where: 'The whole sheet, the rough unfinished handling of every part of it', detail: 'Nothing here is refined, corrected, or finished. The lettering is plain, the blot is raw, the drips are left where they fell. For centuries a Holy Virgin was the supreme test of a painter’s polish; the roughness is the message, because skill and finish are precisely what Dada is refusing.' },
+  ],
+  lineage: {
+    parents: [
+      { label: 'Duchamp’s readymades', mode: 'art' },
+      { label: 'The magazine 391', mode: 'art' },
+      { label: 'Anti-clerical France', mode: 'civ' },
+    ],
+    children: [
+      { label: 'Surrealist automatism', mode: 'art' },
+      { label: 'Art informel / tachisme', mode: 'art' },
+      { label: 'Action Painting', mode: 'art' },
+    ],
+  },
+}
+
+export const DAUM: ArtWorkContent = {
+  id: 'daum',
+  name: 'Daum Marries Her Pedantic Automaton George',
+  shortName: 'Daum Marries',
+  year: 1920,
+  artist: 'George Grosz',
+  artistId: 'grosz',
+  movement: 'Dada',
+  movementId: 'dada',
+  era: 'Modern',
+  eraId: 'mod',
+  medium: 'Watercolour, pen and ink, and collage on watercolour board',
+  dimensions: '1 ft 4 1/2 in × 11 7/8 in',
+  location: 'Berlinische Galerie, Berlin',
+  acquired: 'Acquired by the Berlinische Galerie in 1995, with funds from the Stiftung Deutsche Klassenlotterie Berlin',
+  accent: ART_ACCENTS.amber,
+  chain: { name: 'Works of Dada', index: 9, total: 9 },
+  hook: 'A wedding announcement to a friend, in which Grosz paints himself as a clockwork robot, his half-naked bride beside him, and the machine-husband turns away from her body to do sums.',
+  heroImage: ART_IMG.groszDaum,
+  heroCredit: 'Grosz, "Daum" Marries Her Pedantic Automaton "George" in May 1920, John Heartfield Is Very Glad of It, 1920 · Berlinische Galerie, Berlin',
+  heroAspect: 0.72, // 30.2 × 42 cm → W/H ≈ 0.72, PORTRAIT, a small sheet
+  heroFit: 'contain', // the whole portrait sheet, never cropped
+  rights: 'pd-us',
+  stats: [
+    { v: '1920', k: 'Made' },
+    { v: '1′4½″ × 11⅞″', k: 'Dimensions' },
+    { v: 'Berlinische Galerie', k: 'Now at' },
+  ],
+  sections: [
+    { id: 'berlin', eyebrow: 'Berlin · 1920', dateLabel: 'May 1920', title: 'A wedding announcement, drawn in acid', blurb: 'Grosz comes home from the war to a Berlin of revolution, hyperinflation, and amputees, joins Berlin Dada alongside Heartfield, Hausmann and Höch, and marries Eva Peter the same month he makes this picture about the marriage.', progress: 0.08 },
+    { id: 'break', eyebrow: 'The break', dateLabel: '1919–1920', title: 'When Dada stopped playing and started accusing', blurb: 'Zurich Dada laughed and made nonsense. Berlin Dada took the scissors and the man-machine and turned them into a weapon, aimed at the bourgeois male and the militarist order.', progress: 0.32 },
+    { id: 'looking', eyebrow: 'The sheet', dateLabel: '1 ft 4½ in × 11⅞ in', title: 'A painted bride beside a pasted machine', blurb: 'Two opposed techniques on one small sheet: a soft hand-painted woman against a groom cut from press photographs, the irreal city behind them, the numbers he does instead of looking at her.', progress: 0.56 },
+    { id: 'reading', eyebrow: 'What it says', dateLabel: '1920', title: 'The husband who does sums at his own wedding', blurb: 'The joke, told straight: at the moment the bride bares her body and her desire, the automaton turns to his arithmetic. Sensuality against cold mechanism, with the marriage as the alibi for a portrait of a dead bourgeois man.', progress: 0.8 },
+    { id: 'afterlife', eyebrow: 'After', dateLabel: '1922–today', title: 'From a Malik portfolio to a Berlin museum', blurb: 'Grosz reproduced it in his 1922 portfolio as a meta-mechanical construction; one road from it runs to Heartfield’s anti-Nazi montage, the other into the cold Weimar realism of Neue Sachlichkeit; it surfaced in the Berlinische Galerie in 1995.', progress: 0.96 },
+  ],
+  provenance: [
+    { year: '1920', who: 'George Grosz (the artist)', place: 'Berlin', note: 'Made in 1920, the month of Grosz’s own marriage to Eva “Maud” Peter on 22 May 1920. The work is, among other things, an in-joke wedding announcement dedicated to his closest collaborator, John Heartfield.', price: null },
+    { year: '1922', who: 'Grosz / Malik-Verlag', place: 'Berlin', note: 'Reproduced (classed by Grosz as a “meta-mechanical construction”) in his Malik-Verlag portfolio Mit Pinsel und Schere: 7 Materialisationen (“With Brush and Scissors: 7 Materialisations”), which gathered his Dada works of 1919–1922.', price: null },
+    { year: '1922–1995', who: 'Owners not documented', place: 'unknown', note: 'The chain between Grosz’s studio and the museum is not documented in accessible sources, so no intervening owners are asserted here.', price: null },
+    { year: '1995–today', who: 'Berlinische Galerie', place: 'Berlin', note: 'Acquired by the Berlinische Galerie, the Berlin state museum of modern art, photography and architecture, in 1995, with funds from the Stiftung Deutsche Klassenlotterie Berlin. On view. (Public domain in the US as a work published before 1930; Grosz died in 1959, so any “©” notice on museum pages is an EU claim that runs through 2029.)', price: null, museum: true },
+  ],
+  figures: [
+    { name: 'George Grosz', role: 'The artist · and the automaton groom', palette: ['#8a4a3a', '#3a2018', '#100805'] },
+    { name: 'Eva “Maud” Peter', role: 'His bride · “Daum” is the anagram of “Maud”', palette: ['#b08a6a', '#5a3c2a', '#16100a'] },
+    { name: 'John Heartfield', role: 'The dedicatee · co-inventor of political photomontage', palette: ['#5a5046', '#2e2820', '#100c08'] },
+    { name: 'Berlin Dada', role: 'Grosz, Heartfield, Hausmann, Höch, Huelsenbeck', palette: ['#7a5a2a', '#3a2c14', '#0e0a05'] },
+    { name: 'The man-machine', role: 'Grosz’s standing emblem of the mechanised bourgeois male', palette: ['#7a7a72', '#3a3a34', '#101010'] },
+  ],
+  annotations: [
+    { label: 'The automaton groom (Grosz himself)', where: 'Right of centre, the smaller figure, a man with a whitish-grey head like a mask', detail: 'This is the “pedantic automaton ‘George’” of the title, and it is Grosz’s own self-portrait: a man pieced together from body and machine parts, his head a grey mask. What matters is what he does not do. He does not look at his bride. The groom at his own wedding has his attention somewhere else entirely.' },
+    { label: 'He is literally collaged', where: 'The groom’s body, set against the hand-painted bride', detail: 'Where the bride is drawn and painted by hand, the husband is assembled from photographs cut out of newspapers and magazines and pasted down (collage, also called photomontage when the scraps are press photographs). The two halves of the picture use two opposed techniques on purpose: living, painted flesh on one side, cut-and-pasted machine-man on the other. The individual clippings cannot be reliably identified, so what matters is the method, not which photo is which.' },
+    { label: '“Daum,” the bride', where: 'Beside the groom, a pale woman in underwear and a floppy grey hat', detail: 'The bride is rendered in soft, traditional ink and watercolour: undressed, sensual, turned toward the machine-man who will not turn toward her. “Daum” is an anagram of “Maud,” Grosz’s nickname for his wife, Eva (her surname is recorded as both Peter and Peters). She is a spectacle, not a person, the warm pole of an argument Grosz is making about men. Vivid painted flesh against cold pasted mechanism, the whole tension of the picture in one pairing.' },
+    { label: 'The machine parts', where: 'Through and around the groom: gears, fittings, apparatus', detail: 'Clockwork and machine fittings mark the husband as a wind-up mechanism rather than a man. This is the man-machine motif at the centre of Berlin Dada, Grosz’s recurring emblem of a rationalised, emotion-dead modern male (he built faceless robot-men the same year in his Republican Automatons, now at MoMA). The body is not a body; it is an apparatus.' },
+    { label: 'The numbers and diagrams', where: 'Near the automaton, figures and calculations', detail: 'The groom attends to what his publisher Wieland Herzfelde called “soberly pedantic arithmetical problems”: numbers, figures, diagrams, set right at the moment of intimacy. The arithmetic stands in for his emotional deadness. The exact sums shown are not the point, and are not reliably transcribed; the point is that a man is doing maths instead of looking at his half-naked bride.' },
+    { label: 'The irreal city behind them', where: 'The background: hard-edged architecture and perspective lines', detail: 'Behind the couple is an empty, de-peopled urban backdrop of architectural fragments and steep perspective, openly borrowed from the metaphysical city-and-mannequin paintings of Giorgio de Chirico, the same source Grosz mined for all his 1920 automaton pictures. It is a stage set for machines, not a place where people live.' },
+  ],
+  lineage: {
+    parents: [
+      { label: 'Cubist collage', mode: 'art' },
+      { label: 'de Chirico’s metaphysical city', mode: 'art' },
+      { label: 'The Weimar republic', mode: 'civ' },
+    ],
+    children: [
+      { label: 'Political photomontage', mode: 'art' },
+      { label: 'Heartfield’s anti-Nazi work', mode: 'art' },
+      { label: 'Neue Sachlichkeit (New Objectivity)', mode: 'art' },
+      { label: 'Weimar satire', mode: 'art' },
+    ],
+  },
+}
+
+export const ART_WORK_CONTENT: Record<string, ArtWorkContent> = { burial: BURIAL, demoiselles: DEMOISELLES, kahnweiler: KAHNWEILER, 'chair-caning': CHAIR_CANING, horta: HORTA, 'violin-jug': VIOLIN_JUG, 'three-women': THREE_WOMEN, 'the-portuguese': THE_PORTUGUESE, 'gris-breakfast': GRIS_BREAKFAST, 'three-musicians': THREE_MUSICIANS, 'stone-breakers': STONE_BREAKERS, studio: STUDIO, sower: SOWER, gleaners: GLEANERS, angelus: ANGELUS, gargantua: GARGANTUA, carriage: CARRIAGE, 'horse-fair': HORSE_FAIR, 'impression-sunrise': IMPRESSION_SUNRISE, grenouillere: GRENOUILLERE, cradle: CRADLE, 'moulin-galette': MOULIN_GALETTE, 'paris-street': PARIS_STREET, 'dance-class': DANCE_CLASS, absinthe: ABSINTHE, 'boating-party': BOATING_PARTY, 'gare-saint-lazare': GARE_SAINT_LAZARE, 'starry-night': STARRY_NIGHT, 'bedroom-arles': BEDROOM_ARLES, 'grande-jatte': GRANDE_JATTE, 'bathers-asnieres': BATHERS_ASNIERES, 'card-players': CARD_PLAYERS, 'mont-sainte-victoire-lauves': MONT_SAINTE_VICTOIRE_LAUVES, 'vision-sermon': VISION_SERMON, 'moulin-rouge': MOULIN_ROUGE, 'where-do-we-come-from': WHERE_DO_WE_COME_FROM, hat: WOMAN_WITH_A_HAT, 'green-stripe': GREEN_STRIPE, bonheur: BONHEUR, luxe: LUXE, 'open-window': OPEN_WINDOW, 'blue-nude': BLUE_NUDE, chatou: CHATOU, 'charing-cross': CHARING_CROSS, 'rue-pavoisee': RUE_PAVOISEE, 'city-rises': CITY_RISES, dog: DOG, galli: GALLI, cyclist: CYCLIST, 'unique-forms': UNIQUE_FORMS, farewells: FAREWELLS, 'bal-tabarin': BAL_TABARIN, automobile: AUTOMOBILE, 'abstract-speed': ABSTRACT_SPEED, fountain: FOUNTAIN, lhooq: LHOOQ, 'kitchen-knife': KITCHEN_KNIFE, 'mechanical-head': MECHANICAL_HEAD, 'hat-makes-man': HAT_MAKES_MAN, stieglitz: STIEGLITZ, celebes: CELEBES, 'sainte-vierge': SAINTE_VIERGE, daum: DAUM }
 export const ART_ARTIST_CONTENT: Record<string, ArtArtistContent> = { picasso: PICASSO }

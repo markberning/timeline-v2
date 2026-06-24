@@ -9595,7 +9595,573 @@ function HmkAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: s
 // REGISTRY (coordinator splices into NARRATIVES):
 //  'hat-makes-man': { cologne: HmkCologne, making: HmkMaking, looking: HmkLooking, break: HmkBreak, afterlife: HmkAfterlife },
 
+// ─────────────────────────────────────────────────────────────
+// Ici, c'est ici Stieglitz, foi et amour (Picabia, 1915) — the five chapters
+// ─────────────────────────────────────────────────────────────
+function StiCircle({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="New York · 1915" title="A French painter washes up in New York" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>I</DropCap>
+        n 1915 the First World War was a year old and tearing Europe apart, and a great many of its artists were getting out. One of them was <strong>Francis Picabia</strong> (1879&ndash;1953; pronounced &ldquo;pee-kah-BEE-ah&rdquo;), a wealthy, restless, fast-talking French painter who had already cycled through Impressionism, Cubism, and abstraction and was looking for the next thing. He crossed the Atlantic and landed in <strong>New York</strong>, and there he found, already up and running, a small American outpost of advanced modern art. Its center of gravity was a man named <strong>Alfred Stieglitz</strong>.
+      </p>
+      <p style={proseStyle}>
+        <strong>Alfred Stieglitz</strong> (1864&ndash;1946) was a photographer, but more than that he was an impresario, the person who did more than any one else to drag American taste toward the new. He had spent years arguing that photography was a real art, and he ran a tiny, hugely influential gallery on Fifth Avenue called, simply, <strong>&ldquo;291&rdquo;</strong> after its street number (its full name was the Little Galleries of the Photo-Secession). At 291 he showed New Yorkers their first C&eacute;zannes, their first Picassos, their first Matisses, years before any museum would touch them. He also published a companion little magazine, also called <em><strong>291</strong></em>, a thin, beautiful, experimental thing put out by the same circle. Gallery and magazine shared a name, and both meant Stieglitz.
+      </p>
+      <p style={proseStyle}>
+        Around that gallery and that magazine orbited a small group of painters, writers, and collectors, the caricaturist <strong>Marius de Zayas</strong>, the writers <strong>Paul Haviland</strong> and <strong>Agnes Meyer</strong>, and now Picabia, who fit right in. This loose New York cell is what historians later called <strong>New York Dada</strong>, though the word &ldquo;Dada&rdquo; itself would not be coined until the Cabaret Voltaire opened in Zurich the next year, in 1916. New York&rsquo;s machine-minded, deadpan version got there first, and on its own, out of the 291 circle. (Dada was the anti-art movement of the war years: it answered a civilization that had marched itself into the trenches with deliberate nonsense and a refusal to take art&rsquo;s old pieties seriously.) And in the summer of 1915, for a double issue of the magazine, the circle produced a portrait of a radically new kind, the human figure thrown out altogether.
+      </p>
+      <p style={proseStyle}>
+        The man on the cover would be Stieglitz himself. But there would be no face on that cover, and no body. There would be a broken camera. The reason runs back through what Picabia and the circle around him had just been doing to the portrait.
+      </p>
+    </article>
+  )
+}
+
+function StiMachine({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The idea" title="The object-portrait, or, a person drawn as a machine" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>P</DropCap>
+        icabia&rsquo;s signature move arrived almost the moment he reached America: he would draw people as <strong>machines</strong>. Not people surrounded by machines, not people with mechanical parts, but a portrait in which the sitter <em>is</em> a machine and nothing else. He did not dream the de-faced portrait up single-handedly. The Mexican caricaturist <strong>Marius de Zayas</strong>, already in the 291 circle, had since 1913 been making abstract &ldquo;absolute caricatures,&rdquo; rendering his subjects as arrangements of line and mathematical equation, including an abstract portrait of Stieglitz himself around 1912&ndash;13, and that example fed straight into what Picabia did next. What Picabia added was the <strong>machine</strong>: not abstraction, but a specific mechanical thing copied from an advertisement, made to stand in for a person. He called these <strong>object-portraits</strong>; art historians call them <strong>mechanomorphs</strong> (from the Greek for &ldquo;machine-shaped&rdquo;). For the summer 1915 double issue of <em>291</em>, he made a whole suite of them, one for each of the people who ran the magazine, and put Stieglitz on the cover. The others ran inside: de Zayas as the wiring diagram of an automobile&rsquo;s electrical system, the writer Paul Haviland as an unplugged portable lamp, Picabia himself as a car horn. Each machine was chosen to fit its man.
+      </p>
+      <p style={proseStyle}>
+        The style is the first surprise. These are not expressive, hand-wrought, soulful drawings. They are drawn cold and flat, in the deadpan manner of a <strong>commercial catalogue or a patent illustration</strong>, the clean impersonal line you would find in an advertisement or an instruction manual. Picabia even copied his machines from real ads. The source for the Stieglitz portrait is a magazine advertisement for the <strong>Vest Pocket Kodak</strong>, a popular folding camera of the day, the standard scholarly identification of where the image came from rather than a label written on the sheet. Picabia took the advertising diagram of a consumer camera and turned it into the likeness of America&rsquo;s foremost champion of photography.
+      </p>
+      <p style={proseStyle}>
+        And the choice of <em>which</em> machine is the joke&rsquo;s setup. Stieglitz spent his life on photography, so Picabia draws him as the tool of that life, a camera. But not a working camera. A broken one. The portrait is an argument about its sitter, made entirely in mechanical parts: a thing built for one purpose, drawn so that it can no longer perform it. The character of the man is encoded not in a face but in how his machine <em>fails</em>.
+      </p>
+      <p style={proseStyle}>
+        The object the Met holds is the working <strong>mock-up</strong> for that cover, and it tells on itself. It is a <strong>drawing and collage</strong>, not a painting and not (in the Met&rsquo;s case) a print: pen and ink, graphite, and strips of printed paper cut and pasted down, with the artist&rsquo;s pencil corrections still visible. It is, physically, a magazine layout caught in the act of being made, words pasted in, lines re-drawn, the seams left showing. That, too, is part of the Dada point: the picture refuses to pretend it is a precious, finished, hand-made &ldquo;art object.&rdquo; It admits it is assembly.
+      </p>
+    </article>
+  )
+}
+
+function StiLooking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The drawing" title="A camera that cannot reach the Ideal" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he sheet is modest in size, a little under <strong>two and a half feet tall by twenty inches wide</strong>, an upright portrait format, roughly the proportions of a magazine cover, which is exactly what it was for. And the first surprise is what is <em>not</em> there. There is no face. There is no figure. Standing upright in the middle of the sheet, where a person should be, is a <strong>camera</strong>: a folding plate camera with its leather <strong>bellows</strong> (the accordion-pleated tube that connects the lens to the body) pulled out, its lens board forward. The whole likeness of Stieglitz is this one piece of machinery, drawn upright like a standing man.
+      </p>
+      <p style={proseStyle}>
+        And the camera is doing badly. The bellows are extended, but they are <strong>slack and disengaged</strong>, the lens <strong>drooping</strong> rather than aimed sharply, hanging at half-mast. This is a camera that cannot quite point itself, cannot focus, cannot take the picture it exists to take. Scholars read that limp lens as broken, and several read it as something more pointedly bodily, a deflation, a loss of potency. Even without following that reading, the basic fact on the sheet is plain: the instrument is failing.
+      </p>
+      <p style={proseStyle}>
+        At the top of the sheet, on what reads as a lever plate, sits a single word in heavy <strong>blackletter</strong> (the dense, spiky, old-fashioned Gothic lettering you see on diplomas and beer labels): <strong>IDEAL</strong>. It is the thing the machine is straining up toward. The camera reaches for it. And here is the whole picture: it never gets there. Because between the camera and the word, Picabia has drawn two small, deadpan obstacles, and they are the punchline.
+      </p>
+      <p style={proseStyle}>
+        The first is an <strong>automobile gearshift</strong>, the lever that puts a car in gear, and it is drawn set in <strong>neutral</strong>, out of gear. The mechanism that should drive the climb up to IDEAL is disengaged; no power can reach the rest of the machine. The second is a <strong>hand-brake</strong>, and it is <strong>engaged</strong>, set, holding everything in place. Gears in neutral, brake on. The machine strains toward the Ideal with all its might and goes precisely nowhere, because it has been parked. Two ordinary mechanical details, drawn with an engineer&rsquo;s straight face, deliver a verdict no caption needs to spell out.
+      </p>
+      <p style={proseStyle}>
+        And then the words that change the temperature of the whole thing. Inscribed on the sheet, with the title phrase <em>Ici, c&rsquo;est ici Stieglitz</em> (&ldquo;Here, this is Stieglitz here&rdquo;), are three more: <strong>FOI ET AMOUR</strong>, French for <strong>&ldquo;faith and love.&rdquo;</strong> This is the vocabulary of devotion, of reverence, hung on a stalled and broken machine. The drawing is built out of the language of love, and it is a portrait of a man who can&rsquo;t get into gear. That contradiction is the whole picture.
+      </p>
+    </article>
+  )
+}
+
+function StiBreak({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The break · before" title="A portrait used to mean a face" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>F</DropCap>
+        or as long as portraits had existed, a portrait meant a <strong>likeness</strong>. You looked at a person and you rendered them: the face, the body, the bearing, and, if you were good, something of the psychology behind the eyes. A portrait&rsquo;s whole job was resemblance and inner life, the sitter&rsquo;s features and the sitter&rsquo;s soul, set down by the artist&rsquo;s own hand. Even the most violent experiment of the years just before, the Cubist portrait of around 1910 to 1914, which shattered a sitter into facets and angles, still began from a depicted human figure. It fractured a face. Identity still lived in the features.
+      </p>
+      <p style={proseStyle}>
+        Picabia throws the human figure out entirely. In its place he puts a <strong>machine</strong>, a labelled mechanical diagram, lifted from a commercial advertisement and drawn in a cool, flat, impersonal engineering style. The characterizing is done not by features but by <strong>printed words</strong> (IDEAL, FOI ET AMOUR) and by how the mechanism behaves. The sitter&rsquo;s soul, which a portraitist used to find in a glance, is now encoded in a limp lens and a brake left on. This is a genuine rupture. Portraiture stops being depiction and becomes something nearer to a <strong>ready-made fitted with a caption</strong>: the artist&rsquo;s celebrated &ldquo;hand&rdquo; and &ldquo;touch&rdquo; replaced by borrowed catalogue line-work and a few words of lettering.
+      </p>
+      <SectionHeader accent={accent} label="The break · after" title="Where this rupture went" />
+      <p style={proseStyle}>
+        These 1915 <em>291</em> mechanomorphs turn out to be founding documents of <strong>New York Dada</strong>, and they feed straight into the moves the whole movement would make: appropriating mass-produced imagery instead of inventing it, using the machine as a metaphor for the human (and, repeatedly, the erotic), letting text behave as image, and cultivating a deliberately cool, anti-expressive surface that refuses to perform sincerity. They run exactly parallel to <strong>Marcel Duchamp&rsquo;s readymades</strong> of these same years, the urinal, the bottle rack, the snow shovel, ordinary manufactured objects promoted to art by an act of choice rather than of making. Picabia and Duchamp were friends and collaborators in this New York circle, working the same vein from two directions: Duchamp choosing the object whole, Picabia drawing it as a portrait.
+      </p>
+      <p style={proseStyle}>
+        The template they set, a person or an idea conveyed by an appropriated image and a caption, in a flat impersonal style that hides the artist&rsquo;s hand, is one that <strong>Pop art</strong> and <strong>conceptual art</strong> would mine for the rest of the century. A great deal of later twentieth-century art is the working-out of the permission Picabia took here: that you could make a portrait without a face, out of found pictures and printed words, and mean every bit as much by it.
+      </p>
+    </article>
+  )
+}
+
+function StiAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The key statement" title="“The machine has become … perhaps the very soul”" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        hat same autumn, Picabia put the whole theory behind this picture into plain words. A New York newspaper, the <em>New-York Tribune</em>, ran an interview with the French artists then in the city, published on <strong>Sunday, October 24, 1915</strong>, under the headline &ldquo;French Artists Spur on an American Art.&rdquo; In it Picabia laid out his man-as-machine credo about as directly as he ever would:
+      </p>
+      <blockquote style={{ margin: '0 0 18px', padding: '4px 0 4px 18px', borderLeft: `3px solid ${accent}`, fontFamily: SERIF, fontSize: 18, lineHeight: 1.6, fontStyle: 'italic', color: INK }}>
+        <p style={{ margin: '0 0 12px' }}>The machine has become more than a mere adjunct of life. It is really a part of human life&hellip; perhaps the very soul.</p>
+        <p style={{ margin: 0 }}>Almost immediately upon coming to America it flashed on me that the genius of the modern world is in machinery, and that through machinery art ought to find a most vivid expression&hellip; I have enlisted the machinery of the modern world, and introduced it into my studio.</p>
+      </blockquote>
+      <p style={proseStyle}>
+        That is the engine of the whole 1915 project, in his own voice: the machine is not a prop but a stand-in for the human, even for the soul. A few notes on the quote, because it travels in slightly different forms. The headline is sometimes shortened to &ldquo;French Artists Spur on American Art,&rdquo; dropping the &ldquo;an&rdquo;; the longer version is correct. The &ldquo;soul&rdquo; line is stable across sources; the second passage is sometimes chained into one continuous sentence, but in the original the &ldquo;genius of the modern world is in machinery&rdquo; and the later vow to reach &ldquo;the pinnacle of mechanical symbolism&rdquo; are separate clauses, best kept apart. And the source is the interview itself, the 1915 <em>Tribune</em>, not some later Dada memoir: this is Picabia speaking in the very year he drew Stieglitz.
+      </p>
+      <SectionHeader accent={accent} label="Provenance" title="The man owned his own caricature" />
+      <p style={proseStyle}>
+        Here is the detail that complicates any easy reading of the picture as a hatchet job: <strong>Stieglitz kept it.</strong> The drawing entered the holdings of the very man it caricatures, and when his collection was distributed after his death in 1946, this sheet came to <strong>The Metropolitan Museum of Art</strong> in <strong>1949</strong>, as part of the Alfred Stieglitz Collection (accession 49.70.14). The man drawn as a stalled, broken camera owned the drawing of himself as a stalled, broken camera, and saw to it that it survived. The Met catalogues it today under a tidied short title, &ldquo;Here, This Is Stieglitz Here.&rdquo; (The drawing is the working layout; separate photomechanical relief-print copies of the published cover live at the National Portrait Gallery in Washington and the Mus&eacute;e d&rsquo;Orsay in Paris, which is why you may see the work described as a &ldquo;print.&rdquo; The thing the Met holds, and the thing we have been looking at, is the cut-and-pasted drawing.)
+      </p>
+      <SectionHeader accent={accent} label="Homage, or satire?" title="The question the picture will not settle" />
+      <p style={proseStyle}>
+        So which is it: an affectionate tribute, or a takedown? The answer is that it is both at once, and the picture is built to be both. The case for <strong>satire</strong> is the one most curators make, and it is strong. The camera is broken, the lens limp, the gears in neutral, the brake on; it strains toward IDEAL and cannot reach it. Within the <em>291</em> inner circle there was a real, specific worry in 1915 that Stieglitz, for years the tireless fighter for modern art in a country that did not want it, was <strong>losing his drive</strong>. Read that way, the drawing is a gentle needle: all your faith and love, old friend, and you are parked.
+      </p>
+      <p style={proseStyle}>
+        But the case for <strong>homage</strong> is just as real. The thing is made of the words <em>faith and love.</em> It was made <em>for</em> Stieglitz&rsquo;s own magazine, by a friend and ally inside his own circle, and many accounts read it as affectionate caricature among collaborators rather than mockery from outside. The clinching fact is the provenance: Stieglitz himself owned it, which is not what a man does with an insult. The fairest reading holds the two together: this is fond ribbing of a hero&rsquo;s idealism, a portrait that loves its subject and worries about him in the same deadpan breath. To insist it is only one or the other is to miss what makes it land. It is faith and love, drawn as a machine that has stalled, by someone who meant both words.
+      </p>
+    </article>
+  )
+}
+
+// REGISTRY (coordinator splices into NARRATIVES):
+//  stieglitz: { circle: StiCircle, machine: StiMachine, looking: StiLooking, break: StiBreak, afterlife: StiAfterlife },
+
+// ─────────────────────────────────────────────────────────────
+// The Elephant Celebes (Ernst, 1921) — the five chapters
+// ─────────────────────────────────────────────────────────────
+function CelCologne({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Cologne · 1921" title="Dada, and the picture that tips out of it" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>I</DropCap>
+        n <strong>1921</strong>, in the German city of <strong>Cologne</strong>, a 30-year-old painter named <strong>Max Ernst</strong> (1891&ndash;1976) was a driving force of one of the strangest movements art has produced. It was called <strong>Dada</strong>, and it had been born a few years earlier, in the middle of the <strong>First World War</strong>, out of disgust. A generation of young European artists had watched the supposedly civilized nations of Europe feed millions of men into the machine-guns and the mud, and concluded that the whole edifice of bourgeois culture (its manners, its logic, its idea of beautiful art) was a fraud that had ended in slaughter. So Dada set out to mock all of it. It was anti-art and anti-sense on purpose, a movement whose whole posture was to disrupt: cut things up, jam them together wrong, stage nonsense, and deny that anything was &ldquo;art&rdquo; at all.
+      </p>
+      <p style={proseStyle}>
+        Ernst was one of the founders of the Cologne branch of Dada in 1919, alongside the painter-poet <strong>Johannes Baargeld</strong> and the artist <strong>Hans Arp</strong> (1886&ndash;1966), who would become a lifelong friend. The three of them made Cologne one of Dada&rsquo;s wildest outposts. Ernst made <em>collages</em> (pictures assembled by gluing together cut-up pieces of other printed images) that spliced engravings from old catalogues and science manuals into impossible, deadpan machines. He co-organized a Dada show in 1920 that the public reached by walking through a pub urinal, and that the police briefly shut down. The mode was provocation. You were supposed to be unsettled, or offended, or made to laugh at the joke that art was over.
+      </p>
+      <p style={proseStyle}>
+        And then, in 1921, Ernst painted <em>The Elephant Celebes</em>, and it does not behave like that at all. It is not a provocation. It is <strong>quiet</strong>. A single monstrous form (part animal, part machine, part idol) stands alone on a bare plain under a flat, washed sky, and the longer you look at it the less sense it makes and the more inevitable it feels. There is no joke being told at you. There is a still, dreamlike <em>scene</em>, painted with a perfectly straight face, asking to be believed. Most Dada pulled the picture apart to show you it was a trick. This one builds a whole impossible world and dares you to walk into it. It is the picture where Dada tips over into something that did not yet have a name.
+      </p>
+    </article>
+  )
+}
+
+function CelMaking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The making · 1921" title="A corn-bin becomes a monster" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he beast at the center is the most famous fact about this painting, and the fact is surprising: the &ldquo;elephant&rdquo; is not invented out of Ernst&rsquo;s head. Its body began as a <strong>photograph of an African communal corn-bin</strong> &mdash; a large clay grain-storage silo that stands on a squat pair of legs &mdash; which Ernst came across in an <strong>anthropological publication</strong>. He took that hollow clay container, gave it a <strong>riveted, metallic, boiler-like skin</strong>, and bolted onto it appendages it never had: a tusked snout on a flexible hose, a frilly metal collar, a small horned head. The corn-bin&rsquo;s two stubby legs became the &ldquo;elephant&rsquo;s&rdquo; legs. So the monster is a real, ordinary, photographed object &mdash; a grain silo &mdash; refigured into something that reads as machine and animal at the same time.
+      </p>
+      <p style={proseStyle}>
+        Scholars still argue over <em>which</em> corn-bin. Ernst himself confirmed the source, but the trail forks: different accounts credit the original photograph to different photographers and place it with different peoples in different parts of Africa. What is solid is the general picture &mdash; a clay grain-bin on two legs, from an anthropological publication. The specific tribe and region sometimes asserted as settled fact are not settled, and the painting works without them.
+      </p>
+
+      <SectionHeader accent={accent} label="The title" title="A bawdy schoolboy rhyme, not an island" />
+      <p style={proseStyle}>
+        The title points two ways. <strong>&ldquo;Celebes&rdquo;</strong> is the old, Dutch-colonial-era name for the Indonesian island now called <strong>Sulawesi</strong>. But the painting is not about Indonesia, and Ernst did not arrive at the word through geography. He told the collector Roland Penrose (who would later own the canvas) that the title came from the opening line of a <strong>bawdy German schoolboys&rsquo; rhyme</strong>: <em>&ldquo;Der Elefant von Celebes&hellip;&rdquo;</em> (&ldquo;The elephant from Celebes&hellip;&rdquo;), a nonsense verse with sexual undertones that rhymes Celebes against other faraway-sounding place-names. So the word is the <em>title&rsquo;s</em> origin by way of a dirty rhyme remembered from childhood; the island is only what the word happens to mean. The picture is not &ldquo;about&rdquo; a place. It is about the rhyme, and the rhyme is just sound and mischief.
+      </p>
+      <p style={proseStyle}>
+        And it is not really about an elephant either. There is no elephant here. There is a grain silo with a hose for a trunk, given a name from a rhyme. Both halves of the title are a kind of misdirection &mdash; which is exactly the right preparation for standing in front of the thing itself.
+      </p>
+    </article>
+  )
+}
+
+function CelLooking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The canvas" title="What is standing on the plain" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he canvas is a little over <strong>four feet tall</strong>, a portrait shape, and almost the whole of it is given over to one thing: a huge, rounded, <strong>boiler-like body</strong> filling the center, standing on a stubby pair of legs. This is the &ldquo;elephant.&rdquo; Its surface is metallic, riveted, the color of a coal furnace, and it looks heavy and solidly <em>there</em> in a way that the impossible details around it have no right to be. Its real source is a photographed clay corn-bin; Ernst has kept the silo&rsquo;s squat two-legged stance and swapped its clay for iron.
+      </p>
+      <p style={proseStyle}>
+        The parts that do not belong reach out from the front. A long <strong>flexible tube</strong> ends in a <strong>tusked, trumpet-like mouth</strong> and curls back toward the body: the &ldquo;trunk&rdquo; that is plainly a hose with a horn on the end, looping back on itself. Up at the top sits a small <strong>horned head</strong> with a frilly metal collar, far too small for the bulk beneath it, bolted on like an afterthought. None of these pieces agrees with the others about what animal, or machine, or creature this is meant to be. That disagreement is the engine of the picture&rsquo;s unease.
+      </p>
+
+      <SectionHeader accent={accent} label="The dream-logic around it" title="A headless woman, and fish in the sky" />
+      <p style={proseStyle}>
+        In the lower right stands a <strong>headless female mannequin</strong>: a pale figure, blank where the head should be, set apart from the beast with one <strong>gloved hand raised</strong>, as if summoning it or pointing the way. This figure is borrowed: the blank, dismembered tailor&rsquo;s-dummy mannequin comes straight from <strong>Giorgio de Chirico</strong> (1888&ndash;1978), the Italian painter whose still, dread-filled empty plazas Ernst knew from reproductions and who is the clearest ancestor of this whole mood. Her presence pulls the picture out of Dada&rsquo;s loud register and into something colder and stranger.
+      </p>
+      <p style={proseStyle}>
+        In the sky, toward the upper left, <strong>fish are swimming through the air</strong>. It is the single clearest violation of sense on the canvas: the wrong creatures in the wrong element, stated without comment. Nothing reacts to them. Further back there is a tower or totem-pole at the right edge, and a small dark <strong>airplane-like shape trailing smoke</strong>. None of it connects to anything else. That refusal of things to connect <em>is</em> the subject. This is dream-logic: in a dream the impossible arrives fully furnished and unexplained.
+      </p>
+
+      <SectionHeader accent={accent} label="The emptiness" title="A bare horizon, doing the heavy lifting" />
+      <p style={proseStyle}>
+        What is <em>not</em> in the picture matters as much. Behind the monster there is almost nothing: a <strong>low, empty horizon</strong> under a flat, drained sky. Ernst gives no setting, no buildings, no crowd, nothing for scale except the bare line of the ground. And that emptiness is doing enormous work. It isolates the beast, lends it size and silence, and turns the whole canvas into a kind of stage with a single actor on it. Set the noise of Dada (the cut-up urinals, the staged provocations) against this: a vast quiet, a monster, and a horizon. The calm is precisely what marks this picture as a step <em>past</em> the movement Ernst was running. It is not a joke about images anymore. It is a place.
+      </p>
+    </article>
+  )
+}
+
+function CelBreak({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The break · before" title="The dream-image lived in two separate rooms" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>B</DropCap>
+        efore <em>Celebes</em>, the strange and the dreamlike lived in modern art in two places that had not yet met. One was <strong>de Chirico&rsquo;s</strong> metaphysical painting: uncanny, hand-painted scenes of empty plazas, long shadows, and mannequins, full of dread, but plainly invented and plainly painted. The other was <strong>Dada photo-collage</strong>, including Ernst&rsquo;s own: machine-creatures scissored out of printed pages and glued together, where the cuts and seams were left obvious on purpose, so that you always knew you were looking at a trick. Dada&rsquo;s whole stance was disruption. A painted dream that asked you to <em>believe</em> it as a single, coherent, solid scene was not yet anyone&rsquo;s program.
+      </p>
+
+      <SectionHeader accent={accent} label="The break" title="Collage, painted" />
+      <p style={proseStyle}>
+        Here is what <em>Celebes</em> does, and why it matters. Ernst takes the <strong>collage operation</strong> &mdash; the chance collision of unrelated things (a corn-bin, a hose, fish, a headless woman) &mdash; and instead of cutting and gluing, he <strong>executes it in oil paint</strong>, with a smooth, even, photographic finish. The seams vanish. There are no visible cuts, no torn edges; the impossible creature is rendered as solidly and convincingly as if a camera had found it standing on a real plain. The eye, given that deadpan realist finish, accepts the monster as physically <em>there</em>. That is the whole move: the same impossible juxtaposition Dada made out of scissors and glue, now made to look as real as a photograph.
+      </p>
+      <p style={proseStyle}>
+        That is the hinge from Dada into <strong>Surrealism</strong> &mdash; the movement, named a few years later, that set out to paint the contents of dreams and the unconscious mind. In <em>Celebes</em> the dream stops being a joke about images and becomes a believable world. The collage-mind stops being scissors and glue and becomes a way of <em>painting</em>.
+      </p>
+
+      <SectionHeader accent={accent} label="The dating" title="Three years before the word existed" />
+      <p style={proseStyle}>
+        This is why <em>Celebes</em> is so often called <strong>&ldquo;the first masterpiece of Surrealist painting.&rdquo;</strong> It is a real and widely repeated art-historical judgment, and a critical assessment rather than a date-stamp. Ernst painted this canvas in <strong>1921</strong>. <strong>Surrealism did not yet exist as a named movement.</strong> It was the writer <strong>Andr&eacute; Breton</strong> who founded and named it three years later, in his <em>Surrealist manifesto of 1924</em>. So <em>Celebes</em> predates the movement it is said to launch: often called the first masterpiece of Surrealist painting, though Ernst made it in 1921, three years before Surrealism had a name. It is the proof-of-concept, painted ahead of the theory &mdash; and the high Surrealists who followed (<strong>Salvador Dal&iacute;, Yves Tanguy, Ren&eacute; Magritte</strong>) all took up its lesson: paint the irrational with hard realist conviction, so the impossible reads as fact.
+      </p>
+    </article>
+  )
+}
+
+function CelAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The key statement" title="Ernst on collage (no quote survives about Celebes itself)" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        here is no reliable statement by Ernst about <em>Celebes</em> in particular. But there is a load-bearing statement that fits the painting exactly, because the painting <em>is</em> collage-logic carried into paint: Ernst&rsquo;s own general definition of collage. He described it as
+      </p>
+      <blockquote style={{ margin: '0 0 18px', padding: '4px 0 4px 18px', borderLeft: `3px solid ${accent}`, fontFamily: SERIF, fontSize: 18, lineHeight: 1.6, fontStyle: 'italic', color: INK }}>
+        <p style={{ margin: 0 }}>the systematic exploitation of the coincidental or artificially provoked encounter of two or more unrelated realities on an apparently inappropriate plane, and the spark of poetry created by the proximity of these realities.</p>
+      </blockquote>
+      <p style={proseStyle}>
+        The line circulates in several English translations of the same French sentence (you&rsquo;ll also see &ldquo;the chance meeting of two distant realities on an unfamiliar plane&rdquo;). They are renderings of one statement, not different claims.
+      </p>
+      <p style={proseStyle}>
+        And Ernst was not claiming to have invented the idea. He was generalizing a famous image from the 19th-century French writer who called himself <strong>Lautr&eacute;amont</strong>, whose book <em>Les Chants de Maldoror</em> praised something as <em>&ldquo;beautiful as the chance encounter of a sewing machine and an umbrella on a dissecting table.&rdquo;</em> That line &mdash; two ordinary, unrelated objects forced together on a third surface where neither belongs &mdash; is the whole recipe of <em>Celebes</em>: a corn-bin, a hose, and a headless woman, met on a bare plain that suits none of them. Ernst is the painter who turned Lautr&eacute;amont&rsquo;s sentence into oil.
+      </p>
+
+      <SectionHeader accent={accent} label="Provenance · 1921–1975" title="From a poet to a knight to the Tate" />
+      <p style={proseStyle}>
+        The painting&rsquo;s own travels are a small map of how Surrealism spread. (The <em>provenance</em>, again, is the documented chain of owners from the artist&rsquo;s hand to now.) Early on it passed to the poet <strong>Paul &Eacute;luard</strong> (1895&ndash;1952), Ernst&rsquo;s close friend and patron, who carried it to Paris around 1921. In <strong>1938</strong>, when &Eacute;luard sold off much of his collection, it was bought by the English Surrealist painter and collector <strong>Roland Penrose</strong> (1900&ndash;1984), the man who did more than anyone to bring Surrealism to Britain and who later wrote that Ernst gave him the title&rsquo;s schoolboy-rhyme origin. In <strong>1975</strong> Penrose <strong>sold it to the Tate</strong> in London, where it hangs today with the accession number <strong>T01988</strong>. He used the proceeds of that sale to found the <strong>Elephant Trust</strong>, which still supports artists, named for this very canvas.
+      </p>
+
+      <SectionHeader accent={accent} label="The afterlife" title="A doorway, and what walked through it" />
+      <p style={proseStyle}>
+        What Ernst built in 1921 turned out to be a door. The thing he proved on this one canvas &mdash; that you could paint a dream with the deadpan realism that makes the impossible look solid &mdash; became the working method of high Surrealist painting. <strong>Dal&iacute;&rsquo;s</strong> melting clocks, <strong>Tanguy&rsquo;s</strong> still alien plains, <strong>Magritte&rsquo;s</strong> tidy impossibilities are all paintings that ask you to believe an irrational scene because it is rendered with hard, convincing conviction. They are the children of the move Ernst made when he stopped cutting paper and started painting the dream straight. <em>The Elephant Celebes</em> is a Cologne Dada canvas that turned out to be standing, quietly, on the far side of a line nobody had drawn yet &mdash; the line into Surrealism &mdash; three years before the line had a name.
+      </p>
+    </article>
+  )
+}
+
+// REGISTRY (coordinator splices into NARRATIVES):
+//  celebes: { cologne: CelCologne, making: CelMaking, looking: CelLooking, break: CelBreak, afterlife: CelAfterlife },
+
+// ─────────────────────────────────────────────────────────────
+// La Sainte Vierge (Picabia, 1920) — the five sections
+// ─────────────────────────────────────────────────────────────
+function SvgParisDada({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Paris · 1920" title="A millionaire who set out to make art look ridiculous" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>F</DropCap>
+        rancis Picabia (1879&ndash;1953) was not a starving artist. He was a wealthy Parisian, the son of a Cuban-Spanish diplomat&rsquo;s family, who at one point owned more than a hundred cars and burned through several fortunes. He had painted his way through Impressionism and then Cubism (the movement we&rsquo;ve been following, where a thing is shown from many angles at once), and by 1920 he had left painting-as-usual behind to become something stranger: the chief publisher, financier, and provocateur of <strong>Dada</strong>.
+      </p>
+      <p style={proseStyle}>
+        Dada was the movement that came out of the First World War like a slap. It started in neutral Zurich in 1916, among artists and writers who had watched the most advanced nations in Europe spend four years feeding their young men into machine guns, and who concluded that the whole apparatus of Western reason, progress, good taste, and high culture had just proved itself a sham. Their response was an art of deliberate nonsense and provocation. The name itself, <em>Dada</em>, was reportedly picked at random from a dictionary (it is French baby-talk for a hobby-horse), chosen precisely because it means nothing. If civilization had marched so confidently into the trenches, Dada wanted no part of making sense.
+      </p>
+      <p style={proseStyle}>
+        Picabia&rsquo;s weapon in all this was a magazine. He ran an irregular, deliberately anarchic little review called <strong><em>391</em></strong>, which he kept going from 1917 to 1924, printing it wherever he happened to be (Barcelona, New York, Zurich, and finally Paris). It traded in lewd drawings, multilingual jokes, scrambled typography, and what one historian calls its &ldquo;exuberantly nihilistic&rdquo; attacks on &ldquo;good taste and sound morals.&rdquo; The title is <em>391</em>, with a 3; you will see it misprinted as <em>291</em>, after an earlier New York magazine, but Picabia&rsquo;s review was always <em>391</em>.
+      </p>
+
+      <SectionHeader accent={accent} label="Issue 12" title="The drawing that ran inside the magazine" />
+      <p style={proseStyle}>
+        Into <strong>issue 12</strong> of <em>391</em>, published in Paris in <strong>March 1920</strong>, Picabia dropped the small work we are here for. It carried a title that, in Catholic France, you did not say lightly: <em>La Sainte Vierge</em>, &ldquo;The Holy Virgin,&rdquo; the Virgin Mary, mother of Christ, the most venerated figure in French religious life and the very emblem of purity. And under that title sat&hellip; a stain. A single splatter of black ink. That collision is the entire work: the holiest possible name attached to a smear of ink.
+      </p>
+      <p style={proseStyle}>
+        The magazine around it was already doing this kind of thing. <em>391</em> was a permanent dare. Picabia used it to mock the art world that had made him rich, to needle the Church, to print insults dressed as poems. <em>La Sainte Vierge</em> is that program in its most compressed form: his smallest, most compressed gesture aimed at the biggest possible target. Chance and the readymade&rsquo;s naming-move, which Dada had been circling since Arp&rsquo;s chance collages and Duchamp&rsquo;s readymades, fired at the one subject guaranteed to give maximum offense. One drop of ink, one sacred caption, and a great deal of trouble.
+      </p>
+    </article>
+  )
+}
+
+function SvgMaking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The making · 1920" title="How do you “make” a stain?" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        here is very little making here, and that is the point. The work is <strong>India ink</strong> (a dense black drawing ink, called <em>encre de Chine</em> in French) let fall onto a sheet of gray paper, plus a few words and a signature added in blue-violet ink. The blot was applied and the ink was allowed to <strong>run by chance</strong>, gravity finishing the picture the artist started. That is essentially the whole technique.
+      </p>
+      <p style={proseStyle}>
+        Exactly how the ink got onto the page is a question popular accounts answer more confidently than they should. You will often read that Picabia <em>flung</em> or <em>threw</em> the ink, hurled it dramatically across the studio. The careful scholarly reading is quieter: the blot was most likely placed with an <strong>ink dropper or pipette</strong> from the bottle and then let run. Either way the crucial fact is the same: the shape of the mark was handed over to <strong>chance</strong> rather than chosen by a skilled hand. Whether he flung it or dripped it, he did not <em>draw</em> it. The dramatic &ldquo;flung across the room&rdquo; version is at arm&rsquo;s length here, because the sources do not actually support it.
+      </p>
+      <p style={proseStyle}>
+        Then he did the two small things that turn an accident into a work of art. He <strong>lettered the title</strong> across the top, &ldquo;LA SAINTE VIERGE,&rdquo; and he <strong>signed his name</strong> below. The medium line at the Centre Pompidou records all of it together: India ink, graphite pencil, and ink on paper. So it is not, strictly, &ldquo;just an ink splatter,&rdquo; even though that is how it is usually described. The lettering and the signature are part of the work, and they carry the entire blasphemy. The blot alone is nothing; the blot plus the words is the joke.
+      </p>
+
+      <SectionHeader accent={accent} label="One image, two versions" title="The drawing and the magazine plate run opposite ways" />
+      <p style={proseStyle}>
+        The image on this page is the <strong>original drawing</strong>, the actual blot-on-gray-paper now held by the Centre Pompidou. When the same image was printed in <em>391</em> no. 12, the magazine reproduced it <strong>cropped and mirror-reversed</strong>, flipped left-for-right like a reflection, so the <strong>drips run in opposite directions</strong> in the two versions: the way the ink trails off the blot in the drawing is the reverse of the way it trails off in the printed plate. That flip is the cleanest way to tell, at a glance, whether you are looking at the drawing or the magazine print.
+      </p>
+    </article>
+  )
+}
+
+function SvgLooking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The sheet" title="A stain, where the Madonna should be" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>I</DropCap>
+        n front of it, the first thing is an anticlimax, and the anticlimax is the work. The sheet is <strong>small</strong>, about <strong>thirteen inches tall by nine and a half wide</strong> (smaller than a sheet of letter paper, a thing you could hold in one hand), and most of it is empty gray ground. In the middle sits a single dark mass: one generous <strong>blot of black ink</strong>, irregular and organic, with no edge you could call a contour and nothing in it you could call a figure. This is the &ldquo;image&rdquo; of the Holy Virgin. There is no Virgin in it. There is a stain.
+      </p>
+      <p style={proseStyle}>
+        Off the main mass run the <strong>drips</strong>, fine trails of ink where the wet ink moved before it dried. They are the literal record of gravity and chance, the trace of a thing that was let happen rather than composed. (These drips run one way here; the <em>391</em> plate is flipped.) Nothing about them was designed. They are what the ink did when nobody was steering it.
+      </p>
+
+      <SectionHeader accent={accent} label="The words" title="Three words that do all the work" />
+      <p style={proseStyle}>
+        Across the top runs the <strong>caption</strong>: <em>LA SAINTE VIERGE</em>, hand-lettered in blue-violet ink, plain and unceremonious. This is the hinge of the whole thing. The blot is just a blot until those three words land on it; the instant they do, the stain becomes &ldquo;the Blessed Virgin,&rdquo; and the insult goes off. The work is not in the mark. The work is in the gap between the mark and the name, and the title is what opens that gap.
+      </p>
+      <p style={proseStyle}>
+        Below the blot is the <strong>signature</strong>, &ldquo;Francis Picabia,&rdquo; in the same blue-violet ink. It is the only conventional artistic gesture on the page, a painter putting his name to his picture. Except that what he is signing is an accident. The signature claims authorship over a thing chance made, which is precisely the provocation: he is asserting that choosing to drop the ink and naming the result is enough to count as making a work of art.
+      </p>
+      <p style={proseStyle}>
+        There is a sharper joke in the choice of subject. The Virgin is, in Catholic doctrine, the one human being conceived <strong>without stain</strong>, the &ldquo;immaculate&rdquo; one (the word literally means &ldquo;spotless&rdquo;). Picabia offers her, as her portrait, a literal <strong>stain</strong>. He gives the spotless Virgin a spot. It is a homage in the exact form of an insult, the meanest possible pun, and once you see it you cannot look at the blot the same way again.
+      </p>
+      <p style={proseStyle}>
+        There is one more turn here. The lettered title is writing; the blot is a picture; and the joke sits exactly between them, refusing to be either. The mark is, as one scholar puts it, <em>at once both not writing and not drawing</em>, which is its own small attack on the idea that a work has to commit to being one or the other.
+      </p>
+
+      <SectionHeader accent={accent} label="The ground" title="Why the emptiness counts" />
+      <p style={proseStyle}>
+        What is <strong>not</strong> there matters as much as what is. The blot sits in a near-empty field of gray paper: no halo, no blue robe, no setting, no composition, none of the gold and drapery a Madonna had been given for five hundred years. The emptiness is not laziness; it is the argument. Maximum sacred subject, absolute minimum of means. And nothing on the sheet is refined or finished: the lettering is plain, the blot is raw, the drips are left exactly where they fell. The deliberate crudeness is the message, because skill and finish are precisely the things Dada is refusing to give.
+      </p>
+    </article>
+  )
+}
+
+function SvgBreak({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The break · before" title="When a Virgin was the hardest thing a painter could do" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>F</DropCap>
+        or roughly five hundred years, a &ldquo;Holy Virgin&rdquo; was the summit of a painter&rsquo;s ambition. Raphael, Murillo, Bouguereau: a Madonna was where reverence for the most sacred subject and total mastery of the hand were supposed to meet, the picture by which a painter proved he could do everything. Even Cubism, the movement Picabia himself had just walked out of, still prized composition, the considered mark, the discipline of the surface. Across all of it, two things were never in question: the picture <em>depicted</em> something, and a skilled hand <em>made</em> it.
+      </p>
+
+      <SectionHeader accent={accent} label="The break · after" title="Both skill and subject, gone in one gesture" />
+      <p style={proseStyle}>
+        <em>La Sainte Vierge</em> dethrones <strong>both of those at once</strong>. A flick of the wrist, an accident, a chance stain, is titled as a sacred image, and that is the entire picture. What is on the page is no longer <strong>depiction</strong> (it depicts nothing) and no longer even <strong>drawing</strong> (no hand drew the shape). The content of the work is the <strong>gesture and the chance of the ink</strong>, plus the provocation of the name. Authorship has shrunk to a single choice and a caption. The painter&rsquo;s hand, the thing the whole tradition was built to celebrate, has been fired.
+      </p>
+      <p style={proseStyle}>
+        That sounds like pure destruction, and it partly is. But the strange thing about this little blot is how much of the next forty years of art is hiding inside it. Make <strong>chance and gesture</strong> the actual content of a work, and you are a step from the automatic drawing the Surrealists would make into a method within a few years, and from <strong>art informel</strong> and <strong>tachisme</strong>, the post-war European painting built entirely out of the blot and the smear (the French <em>tache</em> means, precisely, &ldquo;stain&rdquo;: Picabia&rsquo;s medium here is literally their name). Let the <strong>chance-made mark</strong> be the work itself, and you are on the road to gestural abstraction and the poured, dripped skeins of <strong>Action Painting</strong> a generation later. And let the <strong>title do the work instead of the hand</strong>, naming as the creative act, and you are inside the lineage that runs through Duchamp toward Conceptual art, where the idea is the art and the object is almost an afterthought.
+      </p>
+      <p style={proseStyle}>
+        None of that is a claim that Picabia sat down in 1920 and planned the next half-century. He made a one-off insult for a magazine. But the insult happened to put a finger on something real, that a mark made by chance and named by the artist could carry as much weight as a labored picture, and that idea turned out to have an enormous future. The smallest work in this whole sequence is one of the most far-reaching.
+      </p>
+    </article>
+  )
+}
+
+function SvgAfter({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="What it said" title="The manifesto printed beside the blot" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>P</DropCap>
+        icabia left no documented words about <em>this drawing</em> in particular, no line where he explains the blot. What survives instead is his framing of the whole Dada game, set down in the very same months, and it frames exactly what the blot was for. The clearest statement comes from his <strong>Dada Manifesto</strong>, printed in <em>391</em> no. 12, the issue that carried <em>La Sainte Vierge</em> itself:
+      </p>
+      <p style={{ ...proseStyle, fontStyle: 'italic', borderLeft: `3px solid ${accent}`, paddingLeft: 14, margin: '0 0 14px' }}>
+        &ldquo;Dada &hellip; wants nothing, absolutely nothing, and what it does is to make the public say: &lsquo;We understand nothing, nothing, nothing.&rsquo;&rdquo;
+      </p>
+      <p style={{ ...proseStyle, fontStyle: 'italic', borderLeft: `3px solid ${accent}`, paddingLeft: 14, margin: '0 0 14px' }}>
+        &ldquo;Art is a pharmaceutical product for idiots.&rdquo;
+      </p>
+      <p style={proseMutedStyle}>
+        (Both lines are from the &ldquo;Dada Manifesto&rdquo; in <em>391</em> no. 12, Paris, March 1920. That last line turns up in English as both &ldquo;for idiots&rdquo; and &ldquo;for imbeciles&rdquo;; both render the same French original, <em>un produit pharmaceutique pour imb&eacute;ciles</em>.)
+      </p>
+      <p style={proseStyle}>
+        Read the blot back through those two sentences and it stops being a riddle. A work that &ldquo;wants nothing&rdquo; and is built to make you &ldquo;understand nothing&rdquo; looks exactly like a stain captioned as a Madonna. And if &ldquo;art is a pharmaceutical product for idiots,&rdquo; then the right thing to hang in the place where a masterpiece goes is a smear of ink. The drawing is the manifesto, drawn.
+      </p>
+      <p style={proseStyle}>
+        A second, separate text from the same month sits beside it, kept separate on purpose. Picabia&rsquo;s <em>Manifeste Cannibale Dada</em> (&ldquo;Cannibal Dada Manifesto&rdquo;) was read aloud by Andr&eacute; Breton at the third Dada soir&eacute;e at the Th&eacute;&acirc;tre de la Maison de l&rsquo;&OElig;uvre on <strong>27 March 1920</strong>, with its flat little litany:
+      </p>
+      <p style={{ ...proseStyle, fontStyle: 'italic', borderLeft: `3px solid ${accent}`, paddingLeft: 14, margin: '0 0 14px' }}>
+        &ldquo;&hellip; like your idols: nothing / like your heroes: nothing / like your artists: nothing / like your religions: nothing.&rdquo;
+      </p>
+      <p style={proseMutedStyle}>
+        (From the <em>Manifeste Cannibale Dada</em>, read at the third Dada soir&eacute;e, Th&eacute;&acirc;tre de la Maison de l&rsquo;&OElig;uvre, 27 March 1920, and printed in <em>Dadaphone</em> / <em>Dada</em> no. 7. This one was <em>not</em> printed inside <em>391</em> no. 12, so it stays separate from the lines above; it belongs to the festival season, not the magazine that carried the drawing.) &ldquo;Like your religions: nothing&rdquo; is, in four words, the program of a Holy Virgin made of ink.
+      </p>
+
+      <SectionHeader accent={accent} label="After · the object" title="One image, several objects, and a 2008 sale" />
+      <p style={proseStyle}>
+        There is no single thing called <em>La Sainte Vierge</em>. The image exists as at least three separate objects. There is the <strong>drawing</strong> on gray paper, the one we have been looking at, now at the <strong>Centre Pompidou</strong> in Paris. There is the <strong>printed plate</strong> in <em>391</em> no. 12, cropped and mirror-reversed from the drawing, surviving in every copy of the magazine. And there is a separate <strong>lithograph</strong> of the image, on a larger sheet, held by the Yale University Art Gallery. Scholars even argue that Picabia probably made two closely related drawings in a single session on the same paper stock, one perhaps set aside. So &ldquo;the original&rdquo; is not a single, simple thing; it depends which object you mean.
+      </p>
+      <p style={proseStyle}>
+        The drawing&rsquo;s own life as an object is short on record. Its ownership before 2008 simply isn&rsquo;t set down on the museum&rsquo;s sheet, so no chain is invented for it here. What is documented is the end: in <strong>2008</strong> the <strong>Mus&eacute;e National d&rsquo;Art Moderne</strong>, the national museum of modern art at the Centre Pompidou, bought the drawing, with the participation of the German collector <strong>Frieder Burda</strong>, for its Cabinet d&rsquo;art graphique (its Graphic Arts Cabinet). It carries the accession number AM 2008-91. No price is published, so none is given here.
+      </p>
+      <p style={proseStyle}>
+        The work is in the <strong>public domain</strong>. It was published in 1920, in <em>391</em> no. 12, well before the cutoff that governs old works in the United States, and Picabia died in 1953, so copyright in France and the rest of the life-plus-seventy world expired in 2024. A museum may claim a right in its own <em>photograph</em> of the sheet under European law, but that does not fence off the underlying work. The blot itself belongs to everyone, which is a fitting end for a picture that set out to be worth nothing at all.
+      </p>
+    </article>
+  )
+}
+
+// REGISTRY (coordinator splices into NARRATIVES):
+//  'sainte-vierge': { 'paris-dada': SvgParisDada, making: SvgMaking, looking: SvgLooking, break: SvgBreak, after: SvgAfter },
+
+// ─────────────────────────────────────────────────────────────
+// "Daum" Marries Her Pedantic Automaton "George" (Grosz, 1920) — five chapters
+// ─────────────────────────────────────────────────────────────
+function DauBerlin({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Berlin · 1920" title="A wedding announcement, drawn in acid" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he title is a whole sentence, and worth reading start to finish: <em>&ldquo;Daum&rdquo; Marries Her Pedantic Automaton &ldquo;George&rdquo; in May 1920, John Heartfield Is Very Glad of It</em>. It announces a wedding. The bride is &ldquo;Daum,&rdquo; the groom is a &ldquo;pedantic automaton&rdquo; (an automaton is a clockwork machine built to move like a living thing) named &ldquo;George,&rdquo; the date is May 1920, and a man named <strong>John Heartfield</strong> is glad about it. Every piece of that is true, and every piece is also a joke, because the man who painted it was getting married himself that month, and the automaton named George is <strong>George Grosz</strong>, the painter, drawing himself as a robot at his own wedding.
+      </p>
+      <p style={proseStyle}>
+        <strong>George Grosz</strong> (1893&ndash;1959) had come home from the <strong>First World War</strong> to a Berlin that had lost it. Germany was defeated; the Kaiser had fled; a shaky new democracy, the <strong>Weimar Republic</strong> (named for the town where its constitution was written, because Berlin itself was too violent to meet in safely), was trying to hold a country that kept erupting into street-fighting. The pavements were full of war-cripples, men rebuilt from crutches and prosthetic limbs, begging beside well-fed profiteers. Grosz hated all of it: the generals, the war, and above all the comfortable, hypocritical German middle class he held responsible for the whole catastrophe. His drawings were already notorious for their venom.
+      </p>
+
+      <SectionHeader accent={accent} label="The circle" title="Berlin Dada, and the friend in the title" />
+      <p style={proseStyle}>
+        In 1919 Grosz joined <strong>Berlin Dada</strong>. <strong>Dada</strong> was the anti-art movement born in neutral Zurich in 1916 as a howl of disgust at the war (the name <em>Dada</em> means nothing on purpose, a scrap of baby-talk chosen because it refused to mean anything sensible). But the Berlin branch was different in temper from the Zurich original. Where Zurich Dada played nonsense games, the Berlin circle, Grosz, Raoul Hausmann, Hannah H&ouml;ch, Richard Huelsenbeck, and the brothers <strong>John Heartfield</strong> and Wieland Herzfelde, aimed the same scissors-and-nonsense spirit straight at German militarism and the bourgeoisie.
+      </p>
+      <p style={proseStyle}>
+        This was not a safe pose. The summer of 1920 brought the <strong>First International Dada Fair</strong>, the movement&rsquo;s loudest moment, and it ended with Grosz and his fellow organisers hauled into court and fined for <strong>insulting the German army</strong>. Berlin Dada&rsquo;s enemies were real enough to prosecute it.
+      </p>
+      <p style={proseStyle}>
+        The friend named in the title, <strong>John Heartfield</strong>, was Grosz&rsquo;s closest ally in that circle. (He was born <em>Helmut Herzfeld</em>; he anglicised his name to <em>John Heartfield</em> in protest against German anti-British war fever, a small act of Dada in itself.) Heartfield and Grosz were pioneering <strong>political photomontage</strong> together, the art of making pictures by cutting up and reassembling printed photographs, and Heartfield&rsquo;s brother Wieland ran the left-wing Malik-Verlag that published Grosz. So the title&rsquo;s closing clause, &ldquo;John Heartfield is very glad of it,&rdquo; is an inside joke between collaborators: a wedding announcement aimed at a friend, the way you might dedicate a private cartoon.
+      </p>
+
+      <SectionHeader accent={accent} label="May 1920" title="The bride called Daum" />
+      <p style={proseStyle}>
+        And there was a real wedding. On <strong>22 May 1920</strong>, Grosz married <strong>Eva Peter</strong> (the surname is recorded as both Peter and Peters). His pet name for her was <strong>Maud</strong>, and the bride in the title, <strong>&ldquo;Daum,&rdquo; is an anagram of &ldquo;Maud&rdquo;</strong>, the same four letters, rearranged. So the picture is, on its surface, a wedding portrait: Maud, scrambled into Daum, marrying her automaton George, in the very month it happened. What makes it a Dada picture rather than a keepsake is what Grosz does with that occasion, which is to turn his own marriage into a savage diagram of everything he thought was wrong with the men of his class.
+      </p>
+    </article>
+  )
+}
+
+function DauBreak({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The break · before" title="Dada that played, and collage that only built a surface" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        wo things came before this picture and set it off. The first is the kind of Dada it reacts against. <strong>Zurich Dada</strong>, the original, was abstract and playful: sound-poems, chance arrangements, nonsense performed at the Cabaret Voltaire, an anti-art that refused meaning on principle. It laughed; it did not accuse. The second is the kind of collage that existed before. A decade earlier Picasso and Braque had glued scraps of newspaper and oilcloth onto their Cubist pictures, but they used those scraps as neutral <strong>texture and form</strong>, a fragment chosen for how it looked on the surface, not for what it said.
+      </p>
+
+      <SectionHeader accent={accent} label="The break · after" title="The man-machine, and the scissors aimed at a target" />
+      <p style={proseStyle}>
+        Berlin Dada, and this picture, weaponise both of those tools. Take the <strong>man-machine</strong> first. Grosz casts himself, and through himself the respectable bourgeois male, as a <strong>clockwork automaton</strong>: emotionless, rationalised, sexually dead, kin to the war-veteran rebuilt from prosthetics that Grosz drew on the streets outside. This is the opposite of the Italian Futurists, who a few years earlier had <em>celebrated</em> the machine as speed and glory (Chapter on Futurism). Grosz turns the body-as-machine into a diagnosis: the modern man has been hollowed into an apparatus, and that is an accusation, not a hymn.
+      </p>
+      <p style={proseStyle}>
+        Then take the <strong>collage</strong>. The groom is literally cut out of press photographs and reassembled, the technique Grosz and Heartfield were pioneering, but here it is pointed at a target. Pasted reality, the actual printed image-world of 1920 Germany, is turned against the society that produced it. Collage stops being a formal game about a picture&rsquo;s surface and becomes <strong>political and sexual montage</strong>. Dada stops playing and starts shooting: the man-machine and the scissors become a satirical weapon aimed at the bourgeoisie.
+      </p>
+
+      <SectionHeader accent={accent} label="Grosz, in general" title="Drawings done as an act of protest" />
+      <p style={proseStyle}>
+        Grosz left no documented statement about this particular picture. But he said plenty, again and again, about why he drew at all, and it is worth hearing in his own words, kept as a <strong>general statement of his aims</strong> rather than a caption for this one sheet. Recalling his early work in his own memoirs and quoted ever since, Grosz described it like this:
+      </p>
+      <p style={italicStyle}>
+        &ldquo;My drawings expressed my despair, hate and disillusionment. I drew drunkards; puking men; men with clenched fists cursing at the moon&hellip;&rdquo;
+      </p>
+      <p style={proseStyle}>
+        That is the engine behind the wedding picture. Grosz also said, in much-quoted form, that he drew &ldquo;as an act of protest,&rdquo; trying to convince the world that it was ugly, sick and hypocritical; and he liked to say his art should serve as a kind of weapon in a political fight (the wording of that last claim circulates in several versions, so take the sense and not a quoted sentence). All of it is Grosz&rsquo;s standing creed, not a remark about Daum. The despair, the hate, the disillusionment is what he poured into a portrait of his own marriage.
+      </p>
+    </article>
+  )
+}
+
+function DauLooking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The sheet" title="Small, and built from two opposite techniques" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he first thing is scale. For all its fame this is a <strong>small sheet</strong>, about <strong>one foot four and a half inches tall by just under a foot wide</strong> (roughly 42 by 30 centimetres), <strong>portrait-shaped</strong>, taller than it is wide. It is not a wall-sized canvas. In fact it is not a canvas at all: it is a work on paper, made in <strong>watercolour, pen and ink, and collage on watercolour board</strong>. (It is sometimes described as &ldquo;on canvas,&rdquo; but the owning museum records a drawing-and-collage on board, and the museum is the authority.) That matters, because the whole picture turns on a contrast between two techniques, and both are visible on the surface.
+      </p>
+      <p style={proseStyle}>
+        The two techniques sit side by side. The <strong>bride is painted</strong>, by hand, in soft ink and watercolour: a pale, living woman. The <strong>groom is pasted</strong>, cut from photographs and reassembled into a machine. One half of the picture is drawn flesh; the other half is glued apparatus. Grosz did that on purpose, and it is the first thing to register, because the meaning of the whole image is carried by that split between a hand-made woman and a machine-made man.
+      </p>
+
+      <SectionHeader accent={accent} label="The groom" title="A robot with a mask for a head" />
+      <p style={proseStyle}>
+        The groom stands right of centre, the smaller of the two figures. He is the <strong>&ldquo;pedantic automaton &lsquo;George&rsquo;&rdquo;</strong> of the title, and he is Grosz&rsquo;s self-portrait: a man assembled from body parts and machine parts, his head a <strong>whitish-grey mask</strong>, gears and fittings marking him as a wind-up mechanism. His attention is <strong>not</strong> on his bride. The whole drama of the picture is in that turning-away: a husband at his own wedding who will not look at the woman beside him.
+      </p>
+      <p style={proseStyle}>
+        Around and behind the figures runs an <strong>irreal city</strong>: empty, hard-edged architecture and steep perspective lines, a place with no people in it. Grosz lifted this directly from <strong>Giorgio de Chirico</strong>, the Italian painter whose eerie, depopulated piazzas and faceless mannequins (his &ldquo;metaphysical&rdquo; pictures) Grosz drew on all through 1920. It is a stage set built for machines, not a street where anyone lives, and it presses the couple forward against a backdrop as cold as the groom himself.
+      </p>
+
+      <SectionHeader accent={accent} label="The clippings" title="A man you cannot read scrap by scrap" />
+      <p style={proseStyle}>
+        A collage like this is easy to over-read. The groom is built from photographs cut out of newspapers and magazines, but the <strong>individual clippings cannot be reliably identified</strong>, which paper, which photo, which machine, and the sources do not pin them down. The technique is the meaning here, not the inventory: a body made of pasted press-images, set against a bride made of paint. What the scraps add up to is a man assembled from the mass-media stream, not a man at all.
+      </p>
+    </article>
+  )
+}
+
+function DauReading({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The joke" title="He does sums while she undresses" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>N</DropCap>
+        ow the bride. &ldquo;Daum&rdquo; stands beside the machine-man, painted soft and pale in ink and watercolour: <strong>largely undressed</strong>, in underwear and a floppy grey hat, sensual, turned toward her husband. She is all living flesh and present desire. And the husband, at the very moment she offers herself, <strong>turns away to do arithmetic</strong>. Numbers, figures, calculations cluster around the automaton; he attends, as Grosz&rsquo;s publisher Wieland Herzfelde put it, to &ldquo;soberly pedantic arithmetical problems.&rdquo; That is the joke, told without a punchline: a wedding night in which the groom does sums.
+      </p>
+      <p style={proseStyle}>
+        The contrast is the entire point. <strong>Warm painted flesh against cold pasted mechanism.</strong> Desire on one side, calculation on the other. The marriage, as Herzfelde put it, comes between bride and groom &ldquo;like a shadow,&rdquo; because the groom is a machine and a machine cannot want anything; it can only compute. Grosz is not drawing a difficult marriage. He is drawing the impossibility of one, when the husband has been hollowed out into an apparatus.
+      </p>
+      <p style={proseStyle}>
+        It is worth saying that the bride is a spectacle here, not a person. The half-undressed woman offered up to the viewer&rsquo;s eye was the default visual grammar of the period, and Grosz reaches for it without questioning it: her body is a device in an argument about men. His own Berlin Dada colleague <strong>Hannah H&ouml;ch</strong> was, in these same years, turning her scissors on exactly that convention, cutting up the bride and the male gaze as her own subject. Grosz does not.
+      </p>
+
+      <SectionHeader accent={accent} label="The target" title="The marriage is the alibi" />
+      <p style={proseStyle}>
+        And the man being skewered is not really &ldquo;George&rdquo; the individual; he is a type. The <strong>man-machine</strong> was Grosz&rsquo;s standing emblem for the whole <strong>bourgeois male</strong> of postwar Germany: rationalised, emotion-dead, sexually finished, the respectable husband as a wind-up doll. The same year, Grosz painted two faceless robot-men in his <em>Republican Automatons</em> (now at the Museum of Modern Art) to make the same charge about the new republic&rsquo;s obedient citizens. (That picture, not this one, is the one sometimes wrongly tied to &ldquo;Marshal P&eacute;tain&rdquo;; this wedding picture has nothing to do with P&eacute;tain, and the short title for it is <em>&ldquo;Daum&rdquo; Marries Her Pedantic Automaton &ldquo;George.&rdquo;</em>)
+      </p>
+      <p style={proseStyle}>
+        So the wedding is the <strong>alibi</strong>. The real subject is the anti-bourgeois, anti-militarist satire that drove all of Grosz&rsquo;s work: the diagnosis that the comfortable German man had become a machine, dead to feeling, fit only to calculate, and that he carried that deadness into the most intimate room in his life. Grosz aimed the charge at his whole class, and, with characteristic nerve, cast himself, the groom, as its specimen.
+      </p>
+    </article>
+  )
+}
+
+function DauAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="1922" title="Brush and scissors, gathered in a portfolio" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>I</DropCap>
+        n <strong>1922</strong> Grosz gathered his Dada works of the previous years into a portfolio published by the family press, the Malik-Verlag, under a title that names the whole method: <em>Mit Pinsel und Schere: 7 Materialisationen</em>, &ldquo;With Brush and Scissors: 7 Materialisations.&rdquo; <strong>Brush and scissors</strong>, paint and collage, the two techniques the wedding picture sets against each other, are right there in the name. The work was reproduced inside it, classed by Grosz as one of his <strong>&ldquo;meta-mechanical constructions&rdquo;</strong> (in German, <em>metamechanische Konstruktionen</em>), his own genre-tag for the man-machine assembly, not a second line painted onto the picture. After that, the trail goes quiet.
+      </p>
+
+      <SectionHeader accent={accent} label="Provenance · 1995" title="Surfacing in a Berlin museum" />
+      <p style={proseStyle}>
+        The picture&rsquo;s ownership history (its <strong>provenance</strong>, the documented chain of who has held a work, from the artist&rsquo;s hand to now) has a long gap in the middle. Between Grosz&rsquo;s studio in 1920 and the museum, the accessible sources name no intervening owners, so none are invented here. Where the record picks up again is <strong>1995</strong>, when the work was acquired by the <strong>Berlinische Galerie</strong>, Berlin&rsquo;s state museum of modern art, photography and architecture, with funds from the <strong>Stiftung Deutsche Klassenlotterie Berlin</strong> (a Berlin lottery foundation that supports the city&rsquo;s cultural purchases). That is roughly seventy-five years after Grosz made it. It hangs in that collection today.
+      </p>
+      <p style={proseStyle}>
+        A note on the rights, because museum pages will show a &ldquo;&copy;&rdquo; on this image. The work was <strong>published in 1920</strong>, which makes it <strong>public domain in the United States</strong> (US copyright on a work this old turns on the date of publication). In Germany and the European Union, where copyright runs for the artist&rsquo;s life plus seventy years, it stays protected until the end of <strong>2029</strong> (Grosz died in 1959). The copyright notice you see is a European claim; it does not govern use in the United States.
+      </p>
+
+      <SectionHeader accent={accent} label="After" title="Two roads out of one small sheet" />
+      <p style={proseStyle}>
+        The collaborator named in the title, <strong>John Heartfield</strong>, went on to turn the cut-and-paste technique he and Grosz pioneered into the most ferocious <strong>anti-Nazi photomontages</strong> of the 1930s, the line of political collage that runs straight out of pictures like this one. Grosz&rsquo;s own road led the other way, into paint. The clinical, unsentimental Weimar realism that art history calls <strong>Neue Sachlichkeit</strong> (&ldquo;New Objectivity&rdquo;) took the cold diagnostic eye of this picture and dropped the Dada scissors; Grosz became one of its central figures, and you can already see it here in the surgical way the marriage is laid open. He himself, his name on a Nazi blacklist, left Germany for the United States in 1933, just before Hitler took power, and lived out most of his career in New York before dying in Berlin in 1959.
+      </p>
+      <p style={proseStyle}>
+        The wedding picture has aged into one of the defining images of <strong>Berlin Dada</strong>: a small sheet, barely a foot and a half tall, that holds the whole bitterness of the movement in a single domestic joke. A man marries a woman and turns away from her to do sums; the husband is a machine and the artist is the husband. It is one of the sharpest small things Berlin Dada made, Grosz&rsquo;s despair, hate and disillusionment, the creed he drew by, pointed for once not at the generals or the profiteers but at himself, at his own wedding, in the month it happened.
+      </p>
+    </article>
+  )
+}
+
+// REGISTRY (coordinator splices into NARRATIVES):
+//  daum: { berlin: DauBerlin, break: DauBreak, looking: DauLooking, reading: DauReading, afterlife: DauAfterlife },
+
 const NARRATIVES: Record<string, Record<string, NarrativeFn>> = {
+  stieglitz: { circle: StiCircle, machine: StiMachine, looking: StiLooking, break: StiBreak, afterlife: StiAfterlife },
+  celebes: { cologne: CelCologne, making: CelMaking, looking: CelLooking, break: CelBreak, afterlife: CelAfterlife },
+  'sainte-vierge': { 'paris-dada': SvgParisDada, making: SvgMaking, looking: SvgLooking, break: SvgBreak, after: SvgAfter },
+  daum: { berlin: DauBerlin, break: DauBreak, looking: DauLooking, reading: DauReading, afterlife: DauAfterlife },
+
   fountain: { case: FntCase, making: FntMaking, looking: FntLooking, break: FntBreak, afterlife: FntAfterlife },
   lhooq: { postcard: LhoPostcard, making: LhoMaking, pun: LhoPun, break: LhoBreak, afterlife: LhoAfterlife },
   'kitchen-knife': { fair: KnfFair, making: KnfMaking, looking: KnfLooking, reading: KnfReading, afterlife: KnfAfterlife },
