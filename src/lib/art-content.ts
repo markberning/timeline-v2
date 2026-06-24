@@ -205,6 +205,9 @@ export const ART_IMG = {
   warholMarilyn: 'https://upload.wikimedia.org/wikipedia/en/8/87/Marilyndiptych.jpg',
   warholBrillo: 'https://upload.wikimedia.org/wikipedia/en/d/d9/Brillo-Boxes-by-Andy-Warhol.jpg',
   lichtWhaam: 'https://upload.wikimedia.org/wikipedia/en/b/b7/Roy_Lichtenstein_Whaam.jpg',
+  // in-copyright Pop works with no Wikimedia file; small fair-use thumbnails from WikiArt / the Boty estate
+  oldenburgBurger: 'https://uploads1.wikiart.org/images/claes-oldenburg/floor-burger-giant-hamburger-1962.jpg',
+  botyManWorld: 'https://paulineboty.org/wp-content/uploads/2020/08/pauline-boty-its-a-mans-world-i-1964.jpg',
   lichtDrowning: 'https://upload.wikimedia.org/wikipedia/en/d/df/Roy_Lichtenstein_Drowning_Girl.jpg',
   // Dada (replicas / destroyed works, fair use)
   duchampBicycle: 'https://upload.wikimedia.org/wikipedia/en/thumb/2/2f/Marcel_Duchamp%2C_1916-17_studio_photograph.jpg/330px-Marcel_Duchamp%2C_1916-17_studio_photograph.jpg',
@@ -4501,8 +4504,8 @@ export const POP_ART: ArtMovementContent = {
     { id: 'marilyn', year: 1962, name: 'Marilyn Diptych', artist: 'Warhol', place: 'New York', size: 'l', blurb: 'Fifty silkscreened Marilyns from one publicity still, made weeks after her death, vivid on the left and fading to ghostly grays on the right. Celebrity, mass reproduction and death at once.', palette: ['#bf2f6a', '#d6cf3f', '#1c1c1c'], imageUrl: ART_IMG.warholMarilyn },
     { id: 'brillo', year: 1964, name: 'Brillo Boxes', artist: 'Warhol', place: 'New York', size: 'm', blurb: 'Plywood boxes silkscreened to look exactly like Brillo shipping cartons. If the art is identical to a grocery box, what makes it art? (The real carton was designed by James Harvey.)', palette: ['#bf2f25', '#3a4a8a', '#f0f0f0'], imageUrl: ART_IMG.warholBrillo },
     { id: 'whaam', year: 1963, name: 'Whaam!', artist: 'Lichtenstein', place: 'New York', size: 'l', blurb: 'A thirteen-foot war-comic panel: a fighter fires a rocket, the enemy plane erupting in a yellow-and-red “WHAAM!”, hand-painted Ben-Day dots and all.', palette: ['#d6cf3f', '#bf2f25', '#1c1c1c'], imageUrl: ART_IMG.lichtWhaam },
-    { id: 'floor-burger', year: 1962, name: 'Floor Burger', artist: 'Oldenburg', place: 'New York', size: 'm', blurb: 'A hamburger the size of a sofa, soft and sagging, painted canvas stuffed with foam. The most familiar object in the world made monstrous and absurd. (Under copyright; shown in words.)', palette: ['#a8702a', '#3a2a1c', '#15100a'] },
-    { id: 'its-a-mans-world', year: 1965, name: 'It’s a Man’s World', artist: 'Boty', place: 'London', size: 'm', blurb: 'The lone prominent woman of British Pop turns the gaze around, assembling the icons of male culture seen plainly from a woman looking back. Lost for decades, some works found in a barn. (Under copyright; shown in words.)', palette: ['#bf3a6a', '#3a5a4a', '#15140e'] },
+    { id: 'floor-burger', year: 1962, name: 'Floor Burger', artist: 'Oldenburg', place: 'New York', size: 'm', blurb: 'A hamburger the size of a sofa, soft and sagging, painted canvas stuffed with foam. The most familiar object in the world made monstrous and absurd.', palette: ['#a8702a', '#3a2a1c', '#15100a'], imageUrl: ART_IMG.oldenburgBurger, credit: 'Oldenburg, Floor Burger, 1962 · Art Gallery of Ontario · in copyright, shown small under fair use' },
+    { id: 'its-a-mans-world', year: 1965, name: 'It’s a Man’s World', artist: 'Boty', place: 'London', size: 'm', blurb: 'The lone prominent woman of British Pop turns the gaze around, assembling the icons of male culture seen plainly from a woman looking back. Lost for decades, some works found in a barn.', palette: ['#bf3a6a', '#3a5a4a', '#15140e'], imageUrl: ART_IMG.botyManWorld, credit: 'Boty, It’s a Man’s World I, 1964 · The estate of Pauline Boty · in copyright, shown small under fair use' },
   ],
   artists: [
     { id: 'hamilton', name: 'Hamilton', role: 'Father of British Pop', years: '1922–2011', palette: ['#bf2f6a', '#1f1f1f', '#7adff0'] },
@@ -9029,5 +9032,390 @@ export const MARILYN: ArtWorkContent = {
   },
 }
 
-export const ART_WORK_CONTENT: Record<string, ArtWorkContent> = { burial: BURIAL, demoiselles: DEMOISELLES, kahnweiler: KAHNWEILER, 'chair-caning': CHAIR_CANING, horta: HORTA, 'violin-jug': VIOLIN_JUG, 'three-women': THREE_WOMEN, 'the-portuguese': THE_PORTUGUESE, 'gris-breakfast': GRIS_BREAKFAST, 'three-musicians': THREE_MUSICIANS, 'stone-breakers': STONE_BREAKERS, studio: STUDIO, sower: SOWER, gleaners: GLEANERS, angelus: ANGELUS, gargantua: GARGANTUA, carriage: CARRIAGE, 'horse-fair': HORSE_FAIR, 'impression-sunrise': IMPRESSION_SUNRISE, grenouillere: GRENOUILLERE, cradle: CRADLE, 'moulin-galette': MOULIN_GALETTE, 'paris-street': PARIS_STREET, 'dance-class': DANCE_CLASS, absinthe: ABSINTHE, 'boating-party': BOATING_PARTY, 'gare-saint-lazare': GARE_SAINT_LAZARE, 'starry-night': STARRY_NIGHT, 'bedroom-arles': BEDROOM_ARLES, 'grande-jatte': GRANDE_JATTE, 'bathers-asnieres': BATHERS_ASNIERES, 'card-players': CARD_PLAYERS, 'mont-sainte-victoire-lauves': MONT_SAINTE_VICTOIRE_LAUVES, 'vision-sermon': VISION_SERMON, 'moulin-rouge': MOULIN_ROUGE, 'where-do-we-come-from': WHERE_DO_WE_COME_FROM, hat: WOMAN_WITH_A_HAT, 'green-stripe': GREEN_STRIPE, bonheur: BONHEUR, luxe: LUXE, 'open-window': OPEN_WINDOW, 'blue-nude': BLUE_NUDE, chatou: CHATOU, 'charing-cross': CHARING_CROSS, 'rue-pavoisee': RUE_PAVOISEE, 'city-rises': CITY_RISES, dog: DOG, galli: GALLI, cyclist: CYCLIST, 'unique-forms': UNIQUE_FORMS, farewells: FAREWELLS, 'bal-tabarin': BAL_TABARIN, automobile: AUTOMOBILE, 'abstract-speed': ABSTRACT_SPEED, fountain: FOUNTAIN, lhooq: LHOOQ, 'kitchen-knife': KITCHEN_KNIFE, 'mechanical-head': MECHANICAL_HEAD, 'hat-makes-man': HAT_MAKES_MAN, stieglitz: STIEGLITZ, celebes: CELEBES, 'sainte-vierge': SAINTE_VIERGE, daum: DAUM, 'song-of-love': SONG_OF_LOVE, harlequin: HARLEQUIN, 'masson-auto': MASSON_AUTO, treachery: TREACHERY, persistence: PERSISTENCE, 'object-fur': OBJECT_FUR, 'carrington-self': CARRINGTON_SELF, 'tanguy-divis': TANGUY_DIVIS, 'ernst-histoire': ERNST_HISTOIRE, 'autumn-rhythm': AUTUMN_RHYTHM, 'woman-i': WOMAN_I, 'orange-yellow': ORANGE_YELLOW, 'vir-heroicus': VIR_HEROICUS, 'still-cliff': STILL_CLIFF, 'liver-cocks-comb': LIVER_COCKS_COMB, 'mountains-sea': MOUNTAINS_SEA, chief: CHIEF, 'krasner-seasons': KRASNER_SEASONS, 'just-what-is-it': JUST_WHAT_IS_IT, 'rich-mans-plaything': RICH_MANS_PLAYTHING, flag: FLAG, 'soup-cans': SOUP_CANS, marilyn: MARILYN }
+// ─────────────────────────────────────────────────────────────
+// Work, Brillo Boxes (Andy Warhol, 1964). Works of Pop Art chain index 6 of 9.
+// Authored through the art content pipeline (fact pack → Opus → 5 gates → revise).
+// Chapter prose in art-section-reader.tsx NARRATIVES['brillo'] (Bril… prefix).
+// FACT HANDLING (per work-brillo-factpack.md + the three gates):
+//  • NOT a unique object: a series/type. Warhol's studio built hundreds across
+//    several campaigns and multiple carton designs (Brillo, Mott's, Heinz,
+//    Kellogg's, Del Monte, Campbell's). Anchored to MoMA's 1964 representative box.
+//  • NOT cardboard and NOT a readymade: each is a CARPENTER-BUILT PLYWOOD box,
+//    house-painted and silkscreened to imitate the printed cardboard carton.
+//  • The original Brillo carton graphic was designed by JAMES HARVEY (1929–1965),
+//    a commercial/package designer who was also an Abstract Expressionist painter,
+//    the authorship irony. Harvey took the appropriation with good humor; the
+//    "running away with my box" line was his gallery's tongue-in-cheek press
+//    release, not Harvey nursing a grudge. He died of cancer in 1965, at 35.
+//  • Carton design year best attested as 1961 (firm Stuart and Gunn formed 1959);
+//    "around 1960" acceptable only as a round figure.
+//  • KEY STATEMENT = the confirmed first sentence of Arthur C. Danto, "The
+//    Artworld," Journal of Philosophy, 15 Oct 1964, p. 581. The "…takes it up
+//    into the world of art…" continuation is UNVERIFIED, do NOT extend it.
+//  • 1968 Stockholm boxes were ~500 EMPTY CARDBOARD cartons sent flat-packed by
+//    the Brillo company and assembled by museum staff, NOT a Warhol-built
+//    "campaign/batch" and NOT genuine Warhols. The 1990 Malmö posthumous copies
+//    (ruled "copies," 2010) affect only that later batch, not the 1964 originals.
+//  • rights: 'in-copyright' (Warhol d. 1987; © AWF / ARS), shown small +
+//    credited under fair use; NOT pd-us. No prices in provenance.
+// ─────────────────────────────────────────────────────────────
+export const BRILLO: ArtWorkContent = {
+  id: 'brillo',
+  name: 'Brillo Boxes',
+  shortName: 'Brillo Boxes',
+  year: 1964,
+  artist: 'Andy Warhol',
+  artistId: 'warhol',
+  movement: 'Pop Art',
+  movementId: 'pop',
+  era: 'Modern',
+  eraId: 'mod',
+  medium: 'Synthetic polymer paint and silkscreen ink on wood',
+  dimensions: 'Each box 17 1/8 × 17 × 14 in (43.3 × 43.2 × 36.5 cm); shown as many boxes stacked',
+  location: 'Museum of Modern Art, New York (a representative example; many exist)',
+  acquired: 'A representative original of 1964; Brillo Boxes exist in many examples across major museums',
+  accent: ART_ACCENTS.violet,
+  chain: { name: 'Works of Pop Art', index: 6, total: 9 },
+  hook: 'Plywood boxes carpenter-built and silkscreened to look exactly like Brillo grocery cartons, stacked like a stockroom. If the art is identical to a shipping box, what is left to decide it is art? (The real carton was designed by an Abstract Expressionist, James Harvey.)',
+  heroImage: ART_IMG.warholBrillo,
+  heroCredit: 'Warhol, Brillo Boxes, 1964 · in copyright, shown small under fair use.',
+  heroAspect: 1.0, // a freestanding cube; the box reads roughly square
+  heroFit: 'contain', // the whole object, never cropped
+  rights: 'in-copyright', // 1964, Warhol d. 1987; © The Andy Warhol Foundation / ARS; NOT pd-us
+  stats: [
+    { v: 'April 1964', k: 'First shown' },
+    { v: '17″ × 17″ × 14″ each', k: 'Per box' },
+    { v: 'MoMA (one of many)', k: 'Representative' },
+  ],
+  sections: [
+    { id: 'factory', eyebrow: 'New York · 1963–64', dateLabel: '1963–64', title: 'A studio turned into a box factory', blurb: 'Warhol turns his studio, the Factory, into a small assembly line. Carpenters build plywood boxes to the exact size of supermarket shipping cartons; he and his assistants house-paint them and silkscreen brand graphics onto the sides, not just Brillo but Heinz, Mott’s, Del Monte, Kellogg’s, Campbell’s.', progress: 0.08 },
+    { id: 'making', eyebrow: 'The making', dateLabel: '1963–64', title: 'Wood pretending to be cardboard', blurb: 'Not cardboard, not a found object. Each box is solid plywood, hand-built, house-painted white, then silkscreened to imitate a printed carton. The graphic Warhol copied was itself designed by an Abstract Expressionist painter, James Harvey, in 1961, the irony folded into the work.', progress: 0.32 },
+    { id: 'looking', eyebrow: 'The object', dateLabel: '17 1/8 × 17 × 14 in each', title: 'The carton, on the floor, by the hundred', blurb: 'The red-white-and-blue logo, the wholesale line “24 GIANT SIZE PKGS,” the silkscreen ink sitting flat on hard wood, the tiny handmade imperfections a real carton would not have, and the box as a freestanding sculpture you walk around, stacked into a warehouse.', progress: 0.56 },
+    { id: 'break', eyebrow: 'The break', dateLabel: '1964', title: 'When the art object becomes the grocery box', blurb: 'For centuries you judged a sculpture by looking. Here the art object is made visually indistinguishable from the commercial object it copies, so the question that decides whether it is art moves off the eye and onto theory and context. The philosopher Arthur Danto built a whole philosophy of art on this box.', progress: 0.80 },
+    { id: 'afterlife', eyebrow: 'After', dateLabel: '1964–today', title: 'The boxes, the philosopher, and the fakes', blurb: 'First stacked across both rooms of the Stable Gallery in April 1964. There are many genuine examples, spread across major museums, and one later scandal: a 1990 batch made in Malmö, three years after Warhol’s death, that was ruled “copies.” That affects the later copies, not the 1964 originals.', progress: 0.96 },
+  ],
+  // Brillo Box is a series, not a unique object. Provenance is given as the work's
+  // public life (Stable Gallery 1964 → many genuine examples → the 1990 Malmö copies
+  // controversy), kept proportionate. No prices: the figures that survive are
+  // secondary and attach to specific examples / the faked batch, not the work.
+  provenance: [
+    { year: '1964', who: 'Andy Warhol (the artist)', place: 'New York', note: 'Hundreds of boxes built at the Factory in late 1963 and early 1964, across several consumer-carton designs. First shown at the Stable Gallery, New York, opening 21 April 1964, Warhol’s second solo show there, with the boxes stacked in rows several feet high across both rooms like a grocery stockroom (estimates run to about 400 boxes).', price: null },
+    { year: '1964–today', who: 'Many museums and collections', place: 'Worldwide', note: 'Not a single object: genuine examples are spread across major museums (the Museum of Modern Art and the Andy Warhol Museum among them) and private collections. For Warhol’s 1968 Stockholm retrospective the museum used roughly 500 empty cardboard Brillo cartons sent flat-packed by the Brillo company and assembled on-site, cardboard, not Warhol-built wood. The wired image is a representative original.', price: null, museum: true },
+    { year: '1990–2010', who: 'The Malmö “copies” controversy', place: 'Sweden', note: 'Three years after Warhol’s 1987 death, the museum director Pontus Hultén commissioned about 105 plywood Brillo boxes from a carpenter in Malmö, then certified and sold some as 1968 “originals” made to Warhol’s instructions. In 2010 the Andy Warhol Art Authentication Board classified them as “copies.” This concerns only that posthumous batch and does not touch the genuine 1964 originals.', price: null },
+  ],
+  figures: [
+    { name: 'Andy Warhol', role: 'The artist', palette: ['#7c3aed', '#2a1c3a', '#0e0814'] },
+    { name: 'James Harvey', role: 'Designed the real Brillo carton', palette: ['#bf2f25', '#3a4a8a', '#1a1010'] },
+    { name: 'Arthur C. Danto', role: 'Philosopher; built “The Artworld” on it', palette: ['#5a6354', '#39322a', '#120f0c'] },
+    { name: 'The Stable Gallery', role: 'Where the boxes were first stacked', palette: ['#6a5a4a', '#332820', '#0e0a06'] },
+    { name: 'The American supermarket', role: 'The carton’s real home', palette: ['#bf2f25', '#e8e2d4', '#3a4a8a'] },
+  ],
+  annotations: [
+    { label: 'The red-white-and-blue Brillo design', where: 'The face of any box, the logo band across the upper half', detail: 'A white ground (literally white house paint) carries the word BRILLO, the consonants printed navy and the vowels cherry red, with a swooping red wave arcing over the top of the logo. It is a deliberately patriotic, all-American supermarket palette, and Warhol reproduced it deadpan, exactly as it sat on the grocery shelf, with no painterly interpretation laid over it.' },
+    { label: 'The wholesale line, “24 GIANT SIZE PKGS”', where: 'Across the top of the side panel, in blue capitals', detail: 'Blue capitals advertise the carton’s contents: “24 GIANT SIZE PKGS.” That is wholesale-shipping language, not gallery language. It is the tell that the thing on the floor is a bulk delivery carton, the kind a stockboy slits open in the back of a store, not a single retail box and certainly not, by its own surface, a sculpture.' },
+    { label: 'The silkscreened logo, on solid wood', where: 'The printed surface itself, where the ink meets the box', detail: 'The graphics are not printed cardboard. They are silkscreen ink laid onto a solid wooden box, so the matte, slightly flattened ink sits on a hard painted surface rather than on the sheen and give of real corrugated card. This is the whole material joke: a hand-fabricated wooden object dressed, by printing, as a mass-produced paper one.' },
+    { label: 'The handmade imperfections a real carton lacks', where: 'Comparing two boxes closely, the registration and edges of the print', detail: 'Because each box was hand-painted and hand-pulled through a screen, no two are perfectly identical, and the print registration sits subtly off from a machine-printed shipping carton. The near-perfection is the point, and the small slips are where the human hand leaks back in. A real Brillo carton would be more uniform than the artwork pretending to be one.' },
+    { label: 'The stacking', where: 'The boxes en masse, ranked in rows on the floor', detail: 'A single box is striking; many boxes stacked in rows are the work. At the Stable Gallery in 1964 the boxes filled both rooms, piled several feet high like a grocery warehouse, so the “art” arrived as inventory. Quantity, repetition, and retail display became the form, and a viewer walking in met what looked like a delivery bay of merchandise.' },
+    { label: 'The box as sculpture', where: 'A single box, freestanding on the floor', detail: 'This is not a picture on a wall but a freestanding cube on the floor, a thing you walk around. That alone changes the question. A painted soup can is plainly a picture of a product; a three-dimensional box on the gallery floor occupies the exact same space and shape as the real carton, which is what lets it pass, by eye, for the everyday object itself.' },
+  ],
+  lineage: {
+    parents: [
+      { label: 'Marcel Duchamp’s readymade', mode: 'art' },
+      { label: 'Commercial package design', mode: 'art' },
+      { label: 'The American supermarket', mode: 'civ' },
+    ],
+    children: [
+      { label: 'Conceptual art', mode: 'art' },
+      { label: 'Institutional theories of art', mode: 'civ' },
+      { label: 'Appropriation art', mode: 'art' },
+    ],
+  },
+}
+
+// ─────────────────────────────────────────────────────────────
+// Work, Whaam! (1963), Roy Lichtenstein, Tate, London (T00897). Flagship
+// Pop Art work-read. Authored through the art content pipeline (fact pack →
+// Opus → 5 gates → revise). Chapter prose in art-section-reader.tsx
+// NARRATIVES['whaam'] (Wham… prefix). FACT HANDLING (per fact pack):
+// RIGHTS in-copyright — 1963, Lichtenstein d.1997; hero shown small +
+// credited under fair use, © Estate of Roy Lichtenstein, work Tate-owned.
+// SOURCE is a real, named panel: Irv Novick's art for "Star Jockey,"
+// DC Comics' All-American Men of War #89 (1962) — name it, and state the
+// appropriation/credit question honestly (Lichtenstein credited the comic,
+// not the artist). Scholars (Gravett) read the painting as a COMPOSITE
+// (Novick layout #89; firing plane likely Grandenetti #90; exploding plane
+// likely Heath "Aces Wild" #89) — flagged as hypothesis, not asserted.
+// BEN-DAY DOTS are HAND-PAINTED here (through a screen), not printed — the
+// single most-misstated fact. Medium = Magna, an early solvent-based acrylic
+// resin, alongside oil. Give the OVERALL diptych size (two panels),
+// ≈ 5 ft 8 in × 13 ft 4 in. Plane model is unsettled (F-86 in the comic,
+// often called a P-51) — not asserted in the body.
+// ─────────────────────────────────────────────────────────────
+export const WHAAM: ArtWorkContent = {
+  id: 'whaam',
+  name: 'Whaam!',
+  shortName: 'Whaam!',
+  year: 1963,
+  artist: 'Roy Lichtenstein',
+  artistId: 'lichtenstein',
+  movement: 'Pop Art',
+  movementId: 'pop',
+  era: 'Modern',
+  eraId: 'mod',
+  medium: 'Magna acrylic and oil on canvas (two panels)',
+  dimensions: '5 ft 8 in × 13 ft 4 in',
+  location: 'Tate, London',
+  acquired: 'Purchased 1966',
+  accent: ART_ACCENTS.violet,
+  chain: { name: 'Works of Pop Art', index: 7, total: 9 },
+  hook: 'A throwaway war-comic panel, blown up to thirteen feet and hand-painted dot for dot: a fighter fires a rocket, the enemy plane bursts into a yellow-and-red “WHAAM!”, and a picture of a man being killed is rendered as clean, bright, deadpan as an advertisement.',
+  heroImage: ART_IMG.lichtWhaam,
+  heroCredit: 'Lichtenstein, Whaam!, 1963 · Tate, London · in copyright, shown small under fair use; rights with the Estate of Roy Lichtenstein.',
+  heroAspect: 2.35, // ≈ 172.7 × 406.4 cm → W/H ≈ 2.35, a wide two-panel diptych
+  heroFit: 'contain', // both panels whole, never cropped
+  rights: 'in-copyright',
+  stats: [
+    { v: '1963', k: 'Painted' },
+    { v: '≈ 13 ft wide', k: 'Dimensions' },
+    { v: 'Tate', k: 'Now at' },
+  ],
+  sections: [
+    { id: 'source', eyebrow: 'New York · 1961–1963', dateLabel: '1961–1963', title: 'A painter who found his subject in the funny pages', blurb: 'A thirty-seven-year-old abstract painter switches, almost overnight, to copying comic strips and ads at huge scale. For Whaam! he reaches for the lowest source he can find: a single panel of a cheap DC war comic, drawn by Irv Novick.', progress: 0.08 },
+    { id: 'making', eyebrow: 'The making', dateLabel: '1963', title: 'How a comic panel becomes thirteen feet of canvas', blurb: 'Lichtenstein splits one comic frame into two big canvases, tightens the drawing, flattens the color to flat primaries inside hard black outlines, and lays the printer’s dots down by hand through a metal screen. The mechanical look is hand-labor.', progress: 0.34 },
+    { id: 'looking', eyebrow: 'The canvas', dateLabel: '5 ft 8 in × 13 ft 4 in', title: 'A killing, painted like an advertisement', blurb: 'Left panel: a fighter fires a rocket, with the pilot’s caption box along the top. Right panel: the enemy plane erupting, and the giant “WHAAM!” The violence is real; the handling is flat, bright, and deadpan, and that detachment is the content.', progress: 0.56 },
+    { id: 'break', eyebrow: 'The break', dateLabel: '1963', title: 'The worst of commercial art, hung as fine art', blurb: 'A war-comic panel on a mural-scale canvas, the Ben-Day dot turned into a high-art surface, a painting hand-made to look machine-made. Lichtenstein wanted the work to look “programmed,” and to hide the record of his hand.', progress: 0.78 },
+    { id: 'afterlife', eyebrow: 'After', dateLabel: '1963–today', title: 'From the Castelli wall to the Tate, and a credit still owed', blurb: 'Shown at Leo Castelli in 1963, bought by the Tate in 1966, and now one of the most famous works of Pop Art. And the question that trails it: the comic artists it copied were never named or paid.', progress: 0.96 },
+  ],
+  provenance: [
+    { year: '1963', who: 'Roy Lichtenstein (the artist)', place: 'New York', note: 'Painted in 1963 and shown that autumn in Lichtenstein’s second solo exhibition at the Leo Castelli Gallery, New York (28 September – 24 October 1963), handled by the dealer Leo Castelli.', price: null },
+    { year: '1966', who: 'Ileana Sonnabend (dealer)', place: 'Paris / New York', note: 'Passed through the dealer Ileana Sonnabend, Castelli’s former wife and a major early champion of Pop Art, who handled the sale to the Tate. (A negotiated figure of about £3,940 is reported in secondary sources but is not on the Tate’s own record, so we leave it out of the price column.)', price: null },
+    { year: '1966–today', who: 'Tate', place: 'London', note: 'Purchased by the Tate Gallery in 1966; accession T00897. Now at Tate Modern, on view.', price: 'Purchased 1966', museum: true },
+  ],
+  figures: [
+    { name: 'Roy Lichtenstein', role: 'The painter', palette: ['#d6cf3f', '#bf2f25', '#1c1c1c'] },
+    { name: 'Irv Novick', role: 'Drew the source comic panel', palette: ['#bf2f25', '#2a3a6a', '#14110c'] },
+    { name: 'DC Comics', role: 'Published All-American Men of War', palette: ['#1d4ed8', '#bf2f25', '#0e1014'] },
+    { name: 'The Ben-Day dot', role: 'The printer’s screen, painted by hand', palette: ['#d6cf3f', '#3a3c28', '#14140e'] },
+    { name: 'Leo Castelli', role: 'Dealer · showed it in 1963', palette: ['#3a4a6a', '#2e3848', '#0e1220'] },
+  ],
+  annotations: [
+    { label: 'Two panels, one action', where: 'The whole work: a left canvas and a right canvas, hung side by side with a seam between them', detail: 'This is a diptych, two separate canvases shown as one picture. Read it left to right: the firing plane on the left, the explosion on the right. The rocket’s long smoke trail is what stitches the two halves together, carrying your eye across the gap. Lichtenstein took a single comic frame and split it in two, so the cause sits on one canvas and the effect on the other.' },
+    { label: 'The firing plane (left)', where: 'The left panel, a fighter aircraft cutting diagonally down across the canvas', detail: 'A fighter plane angles down from the upper left, a rocket streaking away from it. This is the cause, the trigger pulled. (Which plane it is depends on who you ask: the source comic shows an F-86 Sabre, while popular descriptions often call it a P-51 Mustang, so the exact model is not worth asserting.) What matters is the clean diagonal: the whole left canvas is built around that single line of fire shooting toward the next panel.' },
+    { label: 'The exploding plane (right)', where: 'The right panel, the enemy aircraft erupting in a red-and-yellow fireball', detail: 'The enemy plane bursts into a red-and-yellow fireball that fills the right canvas. This is the effect, and it is a man being killed, but you would never know it from the handling: there is no gore, no smoke-blackened wreckage, just a clean graphic explosion in flat primary color. The horror of the subject and the cheerfulness of the picture are the whole tension of the work.' },
+    { label: 'The word “WHAAM!”', where: 'Across the upper right panel, the giant onomatopoeia in bold yellow-and-black lettering', detail: 'The blast is spelled out, comic-book style, in a huge yellow-edged “WHAAM!” detonating across the top of the right panel. The painting’s title is literally painted into the painting. Lichtenstein keeps the comic’s own device, the sound effect drawn as a picture, and lets it carry the violence the image refuses to.' },
+    { label: 'The yellow caption box (left)', where: 'Along the top edge of the left panel, a boxed line of hand-lettered text', detail: 'Across the top of the left panel runs a caption box carrying the pilot’s line, kept from the comic almost word for word: “I PRESSED THE FIRE CONTROL … AND AHEAD OF ME ROCKETS BLAZED THROUGH THE SKY …” It is the comic’s narrative voice, the breathless first-person of a war story, lifted intact and blown up to gallery scale. The text is part of the picture, not a label on it.' },
+    { label: 'The hand-painted Ben-Day dots', where: 'Anywhere across the flat color areas, especially the lighter passages of sky', detail: 'Look at the even areas of color and you will see a regular grid of dots. These are Ben-Day dots, the cheap printer’s dot-screen used to shade newsprint, named for the printer Benjamin Day. The crucial thing: here they are not printed. Lichtenstein laid every one down by hand, dabbing paint through a perforated metal screen, to imitate the look of mass reproduction. The most mechanical-looking surface in the painting is the most hand-made part of it.' },
+  ],
+  lineage: {
+    parents: [
+      { label: 'Comic-strip illustration', mode: 'art' },
+      { label: 'Abstract Expressionism', mode: 'art' },
+      { label: 'Postwar consumer America', mode: 'civ' },
+    ],
+    children: [
+      { label: 'Pop Art', mode: 'art' },
+      { label: 'Appropriation art', mode: 'art' },
+      { label: 'The image as readymade', mode: 'art' },
+    ],
+  },
+}
+
+// ─────────────────────────────────────────────────────────────
+// Work, Floor Burger (Giant Hamburger), Claes Oldenburg, 1962, Art Gallery of
+// Ontario, Toronto (acc. 66/29, credit "Purchase, 1967"). Flagship Pop Art
+// work-read, Works of Pop Art chain index 8 of 9. Authored through the art
+// content pipeline (fact pack → Opus → 5 gates → reconcile/revise). Chapter prose
+// in art-section-reader.tsx NARRATIVES['floor-burger'] (Flr… prefix). FACT HANDLING
+// (per work-floor-burger-factpack.md):
+//  • Title variants both correct: Giant Hamburger (original) / Floor Burger
+//    (current AGO standing title). Don't call either "wrong."
+//  • A SOFT SCULPTURE. AGO's exact medium line: "Canvas filled with foam rubber
+//    and cardboard boxes, painted with acrylic." Surface paint = acrylic on
+//    cotton-duck canvas; fill = foam rubber + cardboard cartons. Avoid "latex"/
+//    "vinyl."
+//  • Dimensions 132.1 × 226.1 cm → ~4 ft 4 in tall × ~7 ft 5 in across (landscape);
+//    describe informally as "about 7 feet across." Don't invent a single diameter.
+//  • One of a SET (made with Floor Cake and Floor Cone for the 1962 Store). Not
+//    "the first soft sculpture" full stop; one of his defining early floor-scale
+//    soft food sculptures. Keep the "this way" qualifier on any "no sculptor had
+//    used this way before" line (the technique grew from his 1962 Happenings props).
+//  • Acquisition year = 1967 (finalized 27 Jan 1967), despite the "66/29"
+//    accession prefix. Bought from the Sidney Janis Gallery for a token sum
+//    (US $2,000); no hard price asserted as a market figure.
+//  • Sewn + stuffed by Patty Mucha (then Patty Oldenburg) on her own home Singer
+//    machine (bought to make her own clothes); the sewn-soft technique came from
+//    the costumes she made for Oldenburg's Happenings. Oldenburg painted them.
+//    The current pickle is a replacement.
+//  • KEY STATEMENT = the verbatim Walker wording "...does something OTHER THAN
+//    sit on its ass in a museum" (1961, "I am for an art…," Martha Jackson
+//    Gallery), NOT "more than." Oldenburg later resisted calling it a manifesto.
+//  • rights: 'in-copyright' (1962, Oldenburg d. 2022) — shown small + credited
+//    under fair use; NOT pd-us.
+// ─────────────────────────────────────────────────────────────
+export const FLOOR_BURGER: ArtWorkContent = {
+  id: 'floor-burger',
+  name: 'Floor Burger',
+  shortName: 'Floor Burger',
+  year: 1962,
+  artist: 'Claes Oldenburg',
+  artistId: 'oldenburg',
+  movement: 'Pop Art',
+  movementId: 'pop',
+  era: 'Modern',
+  eraId: 'mod',
+  medium: 'Canvas filled with foam rubber and cardboard boxes, painted with acrylic',
+  dimensions: '4 ft 4 in × 7 ft 5 in',
+  location: 'Art Gallery of Ontario, Toronto',
+  acquired: 'Purchase, 1967 (acc. 66/29)',
+  accent: ART_ACCENTS.violet,
+  chain: { name: 'Works of Pop Art', index: 8, total: 9 },
+  hook: 'The cheapest, most disposable object in America, a fast-food hamburger, blown up to about seven feet across and then made soft, so the monument sags and slumps on the floor under its own weight instead of standing on a pedestal.',
+  heroImage: ART_IMG.oldenburgBurger,
+  heroCredit: 'Oldenburg, Floor Burger, 1962 · Art Gallery of Ontario · in copyright, shown small under fair use.',
+  heroAspect: 1.36, // 132.1 × 226.1 cm → ~226 wide / ~166 visual height of the seated form; landscape
+  heroFit: 'contain', // the whole sagging object, never cropped
+  rights: 'in-copyright', // 1962, Oldenburg d. 2022; shown small + credited under fair use; NOT pd-us
+  stats: [
+    { v: '1962', k: 'Made' },
+    { v: '~7 ft across · ~4 ft 4 in tall', k: 'Dimensions' },
+    { v: 'Art Gallery of Ontario', k: 'Now at' },
+  ],
+  sections: [
+    { id: 'store', eyebrow: 'New York · 1961–62', dateLabel: '1961–62', title: 'A shopkeeper-artist, selling soft food', blurb: 'Oldenburg rents a Lower East Side storefront, fills it with handmade painted copies of the goods in the neighborhood shops, and calls it The Store. For its 1962 uptown run at the Green Gallery he makes a set of room-scale soft food: a giant burger, a giant cake, a giant ice-cream cone.', progress: 0.08 },
+    { id: 'making', eyebrow: 'The making', dateLabel: '1962', title: 'Sewn on a home Singer, stuffed with foam and cartons', blurb: 'Not carved or cast: sewn from cotton-duck canvas by the artist Patty Mucha on her own home sewing machine, a technique she brought from the costumes she made for Oldenburg\'s performances, painted in acrylic by Oldenburg, and packed so full it needed upholstery foam and empty cardboard cartons fed in through a zipper underneath. A monument made like a cushion.', progress: 0.32 },
+    { id: 'looking', eyebrow: 'The object', dateLabel: '~4 ft 4 in × ~7 ft 5 in', title: 'A burger the size of a sofa, slumping', blurb: 'The swollen hand-painted bun, the thick dark patty wedged between, the findable seams of the sewn forms, the whole thing spreading and sagging on the floor under roughly 700 pounds of its own weight, the sliced pickle perched on top as the punchline. You stand over it and look down.', progress: 0.56 },
+    { id: 'break', eyebrow: 'The break', dateLabel: '1962', title: 'The monument that sags', blurb: 'A monument is hard, vertical, heroic, built to ennoble its subject and last. Oldenburg takes the least heroic object imaginable, makes it colossal, and then makes it soft, so it droops on the floor and cannot hold a pose. The everyday object becomes the monument, and the humor is the content, not a garnish.', progress: 0.78 },
+    { id: 'afterlife', eyebrow: 'After', dateLabel: '1967–today', title: 'The whopper that caused a scandal in Toronto', blurb: 'Bought by the Art Gallery of Ontario from the Sidney Janis Gallery in 1967 for a token US $2,000, to public uproar (students built a giant plywood ketchup bottle in protest). Conserved in 2012 and still on view, one of the defining objects of Pop Art\'s move into three dimensions.', progress: 0.96 },
+  ],
+  provenance: [
+    { year: '1962', who: 'Claes Oldenburg (the artist)', place: 'New York', note: 'Made in 1962 for the uptown showing of The Store at the Green Gallery (dealer Richard Bellamy), alongside Floor Cake and Floor Cone. Sewn and stuffed by the artist Patty Mucha (then Patty Oldenburg) on her own home Singer machine, the sewn-soft technique carried over from the costumes she made for Oldenburg\'s performances; painted by Oldenburg.', price: null },
+    { year: 'c. 1962–1967', who: 'Sidney Janis Gallery', place: 'New York', note: 'Handled by the Sidney Janis Gallery, New York, the dealer the Art Gallery of Ontario bought it from.', price: null },
+    { year: '1967–today', who: 'Art Gallery of Ontario', place: 'Toronto', note: 'Purchased from the Sidney Janis Gallery, finalized 27 January 1967, for a token sum (a reported US $2,000, a handshake figure rather than a market valuation). Credit line "Purchase, 1967"; accession 66/29 (the prefix reflects the 1966 fiscal cycle, but the AGO gives 1967 as the acquisition year). Conserved in 2012 by AGO conservator Sherry Phillips. On view; in copyright.', price: 'a token sum, reported at US $2,000', museum: true },
+  ],
+  figures: [
+    { name: 'Claes Oldenburg', role: 'The artist', palette: ['#a8702a', '#3a2a1c', '#15100a'] },
+    { name: 'Patty Mucha', role: 'Collaborator: sewed and stuffed the soft forms', palette: ['#7a5a3a', '#33281c', '#0e0a06'] },
+    { name: 'The Store', role: 'His soft-sculpture project, 1961–62', palette: ['#bf3a25', '#5a2a1c', '#15100a'] },
+    { name: 'Sidney Janis Gallery', role: 'Dealer the AGO bought it from', palette: ['#3a4a6a', '#2e3848', '#0e1220'] },
+    { name: 'Art Gallery of Ontario', role: 'Bought it in 1967, amid uproar', palette: ['#5a6a72', '#2e3a42', '#0e1014'] },
+  ],
+  annotations: [
+    { label: 'The giant sagging bun', where: 'The top of the object, the swollen pale dome capping the burger', detail: 'The top bun is a huge hand-painted dome, and it does not sit crisply the way a real bun does. It bulges and settles, the soft canvas pulling into folds where the stuffing has shifted under it. The freshness a real burger advertises is replaced by slump: the bun reads as something that has been sat on, sagging into its own weight.' },
+    { label: 'The patty', where: 'The dark disc wedged in the middle, between the two buns', detail: 'A thick dark disc jammed between the buns, and it is the densest, most solid-looking part of the whole thing. Conservators noted the patty and lower bun kept their shape best over the decades, so it reads as the heavy core the rest of the burger droops around, the one part that holds while everything above and below it gives way.' },
+    { label: 'The slump and the soft folds', where: 'The whole object where it meets the floor, the creases and spreading lower edge', detail: 'The burger spreads outward at the bottom, settling on the floor under roughly 700 pounds of its own weight. The creases and sags are not modeled or carved by the artist: they are where gravity, not Oldenburg, finished the shaping. This is the anti-monument in plain view, an object that cannot stand up or strike a pose because it is too soft to.' },
+    { label: 'The hand-painted canvas surface', where: 'Across the whole skin of the burger, the worked, slightly grimy finish', detail: 'The color is acrylic brushed onto cotton-duck canvas, not a printed wrapper or a molded plastic shell. There is visible brushwork and a slightly grubby, handled, worked-by-hand finish rather than a slick product render. It looks made, not manufactured, which is part of the joke: the most machine-made food in America, rendered by hand in paint on cloth.' },
+    { label: 'The scale you stand over', where: 'The footprint of the whole piece, sitting low and wide on the gallery floor', detail: 'It is about seven feet across and only about four feet tall, so it sits directly on the floor and the viewer looks down at it. A monument is usually something you crane up at on a pedestal; here you tower over a hamburger. It dwarfs you sideways while staying beneath you, which keeps the comedy and the colossal scale in the same object at once.' },
+    { label: 'The seams, the stitching, and the pickle', where: 'Along the joins of the sewn forms, and the sliced disc perched on top', detail: 'This thing was sewn. The seams of the stitched-and-stuffed forms are findable along the joins (Patty Mucha ran them up on her own home Singer machine), and the foam and cardboard cartons were packed in through zippers in the underside. Perched on top is a sliced pickle, the comic punctuation of the whole piece; the pickle now on the burger is a later replacement.' },
+  ],
+  lineage: {
+    parents: [
+      { label: 'Marcel Duchamp’s readymade', mode: 'art' },
+      { label: 'The Store (Oldenburg’s soft objects)', mode: 'art' },
+      { label: 'American fast food', mode: 'civ' },
+    ],
+    children: [
+      { label: 'Soft sculpture', mode: 'art' },
+      { label: 'Oldenburg’s giant public monuments', mode: 'art' },
+      { label: 'The everyday object as colossal monument', mode: 'art' },
+    ],
+  },
+}
+
+// ─────────────────────────────────────────────────────────────
+// Work, It's a Man's World I (Boty, 1964) with its companion It's a Man's World II
+// (1964–65). TWO SEPARATE CANVASES read as a pair, NOT a single diptych (common
+// error, per factpack §8). I = the field of famous MEN; II = the field of nameless
+// female NUDES. Boty was the only prominent woman of British Pop; died 1966 at 28
+// (malignant thymoma, NOT leukemia), her work lost for ~30 years then rediscovered.
+// In copyright (Boty d.1966) → shown small, fair use. Authored through the art
+// content pipeline. Chapter prose in art-section-reader.tsx
+// NARRATIVES['its-a-mans-world'] (Man… prefix).
+// HANDLED TRAPS: I-vs-II swap; "diptych"/one-canvas error; Ali = Cassius Clay (one
+// person); year = 1964 (the date of canvas I, the lead/hero; the PAIR runs 1964–65);
+// Thelonious Monk is a CERTAIN figure per the estate key, NOT tentative; the tentative
+// IDs are the matador, a SECOND unidentified jazz musician (Sonny Boy Williamson /
+// Lester Young floated), the Plains Indian and the USAF pilot; cancer = malignant
+// thymoma.
+// ─────────────────────────────────────────────────────────────
+export const ITS_A_MANS_WORLD: ArtWorkContent = {
+  id: 'its-a-mans-world',
+  name: 'It’s a Man’s World I',
+  shortName: 'It’s a Man’s World',
+  year: 1964, // the date of canvas I (the lead + hero); the PAIR runs 1964–65 (stats/prose)
+  artist: 'Pauline Boty',
+  artistId: 'boty',
+  movement: 'Pop Art',
+  movementId: 'pop',
+  era: 'Modern',
+  eraId: 'mod',
+  medium: 'Oil on canvas with collage',
+  dimensions: '5 ft 0 1/4 in × 4 ft 0 in',
+  location: 'Private collection',
+  acquired: 'Held by the estate of Pauline Boty; in a private collection (never publicly sold for a recorded price)',
+  accent: ART_ACCENTS.violet,
+  chain: { name: 'Works of Pop Art', index: 9, total: 9 },
+  hook: 'The only prominent woman of British Pop assembles a field of the world’s famous men, JFK, Lenin, Einstein, Elvis, and answers it on a second canvas with a stack of nameless female nudes. A feminist Pop voice years before the word, then lost in a barn for thirty years.',
+  heroImage: ART_IMG.botyManWorld,
+  heroCredit: 'Boty, It’s a Man’s World I, 1964 · The estate of Pauline Boty · in copyright, shown small under fair use.',
+  heroAspect: 0.81, // 122 × 153 cm → W/H ≈ 0.80, portrait
+  heroFit: 'contain', // the whole portrait canvas, never cropped
+  rights: 'in-copyright', // Boty d. 1966; in copyright in the US and UK (through 2036); NOT pd-us
+  stats: [
+    { v: '1964–65', k: 'Painted, the pair' },
+    { v: '5′0¼″ × 4′0″', k: 'Dimensions, I' },
+    { v: 'Private', k: 'Now in' },
+  ],
+  sections: [
+    { id: 'sole-sister', eyebrow: 'London · 1962–64', dateLabel: 'c. 1962', title: 'The only woman in the room', blurb: 'British Pop by the early 1960s was a celebrated, all-male enterprise. Pauline Boty, blonde, glamorous, and written off as a face, was one of its founders and the single prominent woman in it, and the one painter in the group filming whose own work nobody on screen asked her to explain.', progress: 0.08 },
+    { id: 'the-pair', eyebrow: 'The making', dateLabel: '1964–65', title: 'Two canvases, one title', blurb: 'Not one diptych but two separate paintings made as counterparts. It’s a Man’s World I gathers the world’s famous men, painted and collaged from media; It’s a Man’s World II answers with a field of nameless female nudes. Hold both, or the point goes missing.', progress: 0.30 },
+    { id: 'looking', eyebrow: 'The canvas', dateLabel: '5 ft 0 1/4 in × 4 ft 0 in', title: 'A field of the men who run the world', blurb: 'On Canvas I: JFK and the Zapruder frame, Lenin, Einstein and Proust, Elvis and the Beatles, Muhammad Ali, a Greek statue, grand facades, and a nuclear bomber overhead. Genius, glamour, power, and violence, all of it male.', progress: 0.54 },
+    { id: 'break', eyebrow: 'The break', dateLabel: 'Pop Art', title: 'A woman turns Pop’s own gaze around', blurb: 'British Pop put women on the canvas as imagery and almost never behind the brush. Boty takes Pop’s exact toolkit, the appropriated media face, and aims it at the system that made it, asking why men get to be people and women only get to be looked at. A feminist Pop voice years before the vocabulary existed.', progress: 0.76 },
+    { id: 'afterlife', eyebrow: 'After', dateLabel: '1966–today', title: 'A barn in Kent, and the recovery', blurb: 'Boty died of cancer in 1966 at 28, and her paintings went into a barn on her brother’s farm and were forgotten for nearly thirty years, until a curator tracked them down and a scholar rebuilt the case. The pair survives in private hands, the erasure now part of how the work reads.', progress: 0.96 },
+  ],
+  // Both canvases are in private collections (paulineboty.org marks each "private
+  // collection unless otherwise noted"); neither has a recorded permanent museum
+  // home and no purchase prices are documented, so every price field stays null.
+  // The provenance IS the rediscovery story (factpack §6): barn → Mellor → Barbican
+  // 1993 → Tate's scholarship → the art market into private hands.
+  provenance: [
+    { year: '1964–1966', who: 'Pauline Boty (the artist)', place: 'London', note: 'Painted 1964–65 as a pair, It’s a Man’s World I and II. Boty died on 1 July 1966, age 28; the bulk of her output passed to her family.', price: null },
+    { year: '1966–c.1990', who: 'The Boty family (storage)', place: 'Kent', note: 'After her death most of her paintings went into a barn on her brother’s farm in Kent and sat, largely forgotten, for nearly thirty years. The work effectively dropped out of the story of British Pop.', price: null },
+    { year: 'c.1990–1993', who: 'Rediscovery: David Alan Mellor', place: 'England', note: 'The curator David Alan Mellor sought out the surviving family, located and conserved a body of work, and showed it in The Sixties Art Scene in London at the Barbican, 1993. The scholar Dr. Sue Tate then built the art-historical reassessment.', price: null },
+    { year: '1993–today', who: 'Private collection (the estate)', place: 'Various', note: 'Through 1990s–2010s exhibitions (Brighton 1996–97; Christie’s "When Britain Went Pop" 2013; the Thyssen-Bornemisza Madrid "Pop Myths" 2014; Lugano 2018) and the art market the works re-entered view and settled largely into private hands. No public-museum permanent home and no recorded purchase price for either canvas.', price: null },
+  ],
+  figures: [
+    { name: 'Pauline Boty', role: 'The painter; British Pop’s sole woman', palette: ['#bf3a6a', '#3a5a4a', '#15140e'] },
+    { name: 'British Pop’s male founders', role: 'Hamilton & Paolozzi (the older Independent Group), then Blake, Boshier, Phillips, the all-male scene', palette: ['#5a6a72', '#2e3a42', '#0e1014'] },
+    { name: 'The icons of Canvas I', role: 'The famous men she assembled', palette: ['#7c3aed', '#2a1c3a', '#0e0814'] },
+    { name: 'It’s a Man’s World II', role: 'The answering canvas of nameless nudes', palette: ['#8a7a52', '#4a3c22', '#15110a'] },
+    { name: 'Mellor & Sue Tate', role: 'Rediscovered and reassessed the work', palette: ['#5a6354', '#39322a', '#120f0c'] },
+  ],
+  // Annotations are on Canvas I (the hero). Thelonious Monk is a CONFIRMED figure per
+  // the estate's source key. The matador, a SECOND (unidentified) jazz musician, the
+  // Plains Indian and the USAF pilot are estate-flagged TENTATIVE and hedged in the
+  // prose. Ali = Cassius Clay are the SAME man (he changed his name in 1964), listed
+  // once. Prose pointers only, no coordinates.
+  annotations: [
+    { label: 'The packed field of famous men', where: 'The whole canvas, read as a single crowded grid of male faces and figures', detail: 'The picture is a packed field of male faces and bodies, each one lifted from print or photographic media and re-painted or collaged in. Read it as a ranking of the world’s men, genius, glamour, power, and violence gathered into one frame, every position on it filled by a man. The crowdedness is the argument: this is the world, and it is entirely his.' },
+    { label: 'Cut and re-painted from the media', where: 'Throughout, in the way each face sits as a clipped image rather than a posed portrait', detail: 'These are not figures Boty drew from life. They are appropriated images, the same celebrity-and-media raw material the men of British Pop used, some pasted in as collage and some re-painted from the source. The work is oil on canvas with collage, the magazine page and the painted hand mixed on one surface, which is exactly the Pop method turned to a new purpose.' },
+    { label: 'The thinkers and the stars', where: 'Among the crowd of faces', detail: 'Look for Albert Einstein and Marcel Proust, the intellect, set beside Elvis Presley and the Beatles (John Lennon and Ringo Starr), the jazz pianist Thelonious Monk, and the film director Federico Fellini with the actor Marcello Mastroianni, the glamour. These are men Boty openly admired and desired, and naming them as admiration is part of the honesty of the picture, it is a fan’s love-letter as much as an indictment.' },
+    { label: 'Power, violence, and the jet overhead', where: 'The hardware and the political faces among the figures', detail: 'A Boeing B-52 nuclear bomber flies over a grand Italian estate; Lenin stands for revolution; and the frame of John F. Kennedy’s assassination, lifted from the Zapruder home movie, sits in the field. The world’s men, the picture says, also run its wars and its killings. Muhammad Ali, the boxer, appears too (he had just changed his name from Cassius Clay in 1964, the year of the painting) alongside a classical Greek statue (Hermes with the infant Dionysus), the physical ideal.' },
+    { label: 'The rose, the soft counter-note', where: 'A recurring painted flower threading through the canvas', detail: 'A painted rose recurs across the surface, Boty’s signature soft, sensual motif running against all the male hardware and politics. It is the one note in the picture that is hers rather than the world’s, a quiet floral counter-voice set among the bombers and the statesmen.' },
+    { label: 'The grand facades, and the tentative faces', where: 'The architecture behind the figures, and a handful of uncertain identifications', detail: 'Grand architectural facades back the crowd, the kind of stately European frontage that signals inherited power. A few figures the estate itself flags as uncertain, so point at them gently: a matador (probably the bullfighter El Cordobés), a second jazz musician it has not pinned down (Sonny Boy Williamson and Lester Young have both been floated), an American Plains Indian in a warbonnet, and a uniformed military pilot. Describe them by type rather than over-naming them; the estate’s own source key keeps these tentative.' },
+  ],
+  lineage: {
+    parents: [
+      { label: 'British Pop’s appropriated image', mode: 'art' },
+      { label: 'Mass-media photography', mode: 'art' },
+      { label: 'The male-run 1960s', mode: 'civ' },
+    ],
+    children: [
+      { label: 'Feminist art', mode: 'art' },
+      { label: 'The critique of the male gaze', mode: 'civ' },
+      { label: 'Rediscovered women of modernism', mode: 'art' },
+    ],
+  },
+}
+
+export const ART_WORK_CONTENT: Record<string, ArtWorkContent> = { burial: BURIAL, demoiselles: DEMOISELLES, kahnweiler: KAHNWEILER, 'chair-caning': CHAIR_CANING, horta: HORTA, 'violin-jug': VIOLIN_JUG, 'three-women': THREE_WOMEN, 'the-portuguese': THE_PORTUGUESE, 'gris-breakfast': GRIS_BREAKFAST, 'three-musicians': THREE_MUSICIANS, 'stone-breakers': STONE_BREAKERS, studio: STUDIO, sower: SOWER, gleaners: GLEANERS, angelus: ANGELUS, gargantua: GARGANTUA, carriage: CARRIAGE, 'horse-fair': HORSE_FAIR, 'impression-sunrise': IMPRESSION_SUNRISE, grenouillere: GRENOUILLERE, cradle: CRADLE, 'moulin-galette': MOULIN_GALETTE, 'paris-street': PARIS_STREET, 'dance-class': DANCE_CLASS, absinthe: ABSINTHE, 'boating-party': BOATING_PARTY, 'gare-saint-lazare': GARE_SAINT_LAZARE, 'starry-night': STARRY_NIGHT, 'bedroom-arles': BEDROOM_ARLES, 'grande-jatte': GRANDE_JATTE, 'bathers-asnieres': BATHERS_ASNIERES, 'card-players': CARD_PLAYERS, 'mont-sainte-victoire-lauves': MONT_SAINTE_VICTOIRE_LAUVES, 'vision-sermon': VISION_SERMON, 'moulin-rouge': MOULIN_ROUGE, 'where-do-we-come-from': WHERE_DO_WE_COME_FROM, hat: WOMAN_WITH_A_HAT, 'green-stripe': GREEN_STRIPE, bonheur: BONHEUR, luxe: LUXE, 'open-window': OPEN_WINDOW, 'blue-nude': BLUE_NUDE, chatou: CHATOU, 'charing-cross': CHARING_CROSS, 'rue-pavoisee': RUE_PAVOISEE, 'city-rises': CITY_RISES, dog: DOG, galli: GALLI, cyclist: CYCLIST, 'unique-forms': UNIQUE_FORMS, farewells: FAREWELLS, 'bal-tabarin': BAL_TABARIN, automobile: AUTOMOBILE, 'abstract-speed': ABSTRACT_SPEED, fountain: FOUNTAIN, lhooq: LHOOQ, 'kitchen-knife': KITCHEN_KNIFE, 'mechanical-head': MECHANICAL_HEAD, 'hat-makes-man': HAT_MAKES_MAN, stieglitz: STIEGLITZ, celebes: CELEBES, 'sainte-vierge': SAINTE_VIERGE, daum: DAUM, 'song-of-love': SONG_OF_LOVE, harlequin: HARLEQUIN, 'masson-auto': MASSON_AUTO, treachery: TREACHERY, persistence: PERSISTENCE, 'object-fur': OBJECT_FUR, 'carrington-self': CARRINGTON_SELF, 'tanguy-divis': TANGUY_DIVIS, 'ernst-histoire': ERNST_HISTOIRE, 'autumn-rhythm': AUTUMN_RHYTHM, 'woman-i': WOMAN_I, 'orange-yellow': ORANGE_YELLOW, 'vir-heroicus': VIR_HEROICUS, 'still-cliff': STILL_CLIFF, 'liver-cocks-comb': LIVER_COCKS_COMB, 'mountains-sea': MOUNTAINS_SEA, chief: CHIEF, 'krasner-seasons': KRASNER_SEASONS, 'just-what-is-it': JUST_WHAT_IS_IT, 'rich-mans-plaything': RICH_MANS_PLAYTHING, flag: FLAG, 'soup-cans': SOUP_CANS, marilyn: MARILYN, brillo: BRILLO, whaam: WHAAM, 'floor-burger': FLOOR_BURGER, 'its-a-mans-world': ITS_A_MANS_WORLD }
 export const ART_ARTIST_CONTENT: Record<string, ArtArtistContent> = { picasso: PICASSO }

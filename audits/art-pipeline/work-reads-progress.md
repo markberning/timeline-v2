@@ -51,3 +51,16 @@ daum (wave 2). All hero images already wired in ART_IMG.
 - [ ] wave 2 (stieglitz, celebes, sainte-vierge, daum) — queued
 
 ### Surrealism / AbEx / Pop — pending (9 each)
+
+## COMPLETE — all 54 newer Modern work-reads shipped (6/6 movements)
+- Fauvism 9/9 ✓ · Futurism 9/9 ✓ · Dada 9/9 ✓ · Surrealism 9/9 ✓
+- Abstract Expressionism 9/9 ✓ · Pop Art 9/9 ✓
+All through the mandatory 5-critic art pipeline (fact pack → author → fact/read/frame
+gates → reviser → splice → tsc → build → deploy → route-verify → commit), shipped in
+~5-work waves. Born-verified media throughout; the in-copyright works (AbEx, Pop, and
+the post-1930 Surrealists) show small/credited under fair use. Three works whose images
+were absent from Wikimedia were resolved per-work: Ernst's Histoire Naturelle (US-PD 1926)
+self-hosted from public/art/; Kline Chief + Krasner Seasons (in-copyright) via WikiArt /
+the Whitney CDN; Oldenburg Floor Burger + Boty It's a Man's World via WikiArt / the Boty
+estate site. Component-prefix collision caught + fixed once (autumn-rhythm Aut→Arh vs the
+Futurism Automobile read).

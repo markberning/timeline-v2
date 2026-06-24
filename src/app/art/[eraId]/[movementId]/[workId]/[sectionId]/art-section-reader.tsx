@@ -13288,7 +13288,549 @@ function MarAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: s
 // REGISTRY (coordinator splices into NARRATIVES):
 //  marilyn: { death: MarDeath, making: MarMaking, looking: MarLooking, break: MarBreak, afterlife: MarAfterlife },
 
+// ─────────────────────────────────────────────────────────────
+// Brillo Boxes (Warhol, 1964) — the five chapters
+// ─────────────────────────────────────────────────────────────
+function BrilFactory({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="New York · 1963–64" title="A studio that became a box factory" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>B</DropCap>
+        y late 1963 Andy Warhol had a problem most artists would envy: he was famous, and he needed to keep being startling. He had already shown his hand-painted <strong>Campbell&rsquo;s soup cans</strong> in Los Angeles in 1962 and started silkscreening Marilyns and dollar bills. His studio on East 47th Street, soon to be lined floor to ceiling in silver foil, was about to get the name it kept: <strong>the Factory</strong>. And in the winter of 1963 into 1964, Warhol turned the Factory into exactly that, a small factory, this time for boxes.
+      </p>
+      <p style={proseStyle}>
+        Here is what he made there. He hired <strong>carpenters to build plywood boxes</strong> to the exact dimensions of the cardboard shipping cartons that supermarkets received their stock in. Then he and his Factory assistants, chief among them <strong>Gerard Malanga</strong>, his principal silkscreen hand in these years, <strong>house-painted</strong> the bare wood and <strong>silkscreened the brand graphics</strong> onto the sides. (A <em>silkscreen</em>, the process at the center of all Warhol&rsquo;s work in these years, prints an image by pushing ink through a fine mesh stencil onto a surface below; it is how T-shirts and posters are mass-printed, which is exactly why he liked it.) They did this hundreds of times.
+      </p>
+      <p style={proseStyle}>
+        And not only Brillo. The Factory turned out boxes printed as <strong>Mott&rsquo;s Apple Juice, Kellogg&rsquo;s Corn Flakes, Del Monte Peach Halves, Campbell&rsquo;s Tomato Juice,</strong> and <strong>Heinz Tomato Ketchup</strong> as well. The Brillo box, the carton for the soap-and-steel-wool scouring pads that scrubbed American kitchen pots, simply became the one everyone remembered, partly because of how good its red-white-and-blue label looked stacked into a wall, and partly because of an argument it was about to start. &ldquo;Brillo Boxes&rdquo; is really the name for a whole grocery aisle of these things.
+      </p>
+      <p style={proseStyle}>
+        He unveiled them in April 1964 at his second solo show at the <strong>Stable Gallery</strong> in New York, and he did not hang a few on pedestals. He filled both rooms, floor to chest height, with the boxes <strong>stacked in rows like a stockroom</strong>. A visitor walked in off the street and met what looked, for a confused second, like a grocery warehouse, or a delivery bay where the truck had just unloaded. Except every carton was hand-built wood, painted and printed to look like cardboard. First, how the boxes were actually made, because almost everything people assume about that is wrong.
+      </p>
+    </article>
+  )
+}
+
+function BrilMaking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The making · not cardboard" title="Wood, dressed as cardboard" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he single most common mistake is the key to the whole work. People assume the Brillo boxes are <strong>cardboard cartons Warhol found and signed</strong>, the way <strong>Marcel Duchamp</strong> had taken a factory-made urinal in 1917, set it on a plinth, and called it art (the <em>readymade</em>, an ordinary manufactured object presented unchanged as a work). That is not what these are. Warhol&rsquo;s boxes are <strong>not cardboard, and they are not readymades.</strong>
+      </p>
+      <p style={proseStyle}>
+        Each one is a <strong>box of solid wood</strong>, plywood, built by a carpenter to the size of a real Brillo shipping carton. It was then <strong>painted</strong>, the ground laid in white house paint, and <strong>silkscreened</strong> with the Brillo graphics to imitate the look of the printed cardboard original. So the object is not a piece of grocery packaging promoted into art. It is a piece of sculpture, hand-fabricated in the studio, painstakingly disguised <em>as</em> grocery packaging. The work is the disguise. Duchamp took a real object and said it was art; Warhol built a fake object that looks like a real one, which is a different and stranger move, closer to simulation than to a found thing.
+      </p>
+
+      <SectionHeader accent={accent} label="James Harvey" title="The Abstract Expressionist who designed the real box" />
+      <p style={proseStyle}>
+        Now the irony that sits at the heart of the work. The famous Brillo design, that red-white-and-blue label with the swooping wave, was not invented by Warhol. It was designed, as ordinary commercial work, by a man named <strong>James Harvey</strong> (1929&ndash;1965). And Harvey was not just a packaging man. He was a working <strong>Abstract Expressionist painter</strong>, shown by a New York gallery, who paid the bills with a day job in commercial design, the way many painters did. He drew the Brillo carton in <strong>1961</strong> (he had joined the design firm Stuart and Gunn, formed in 1959; some accounts round the design to &ldquo;around 1960&rdquo;).
+      </p>
+      <p style={proseStyle}>
+        The commercial graphic Warhol &ldquo;appropriated&rdquo; as a deadpan found image had itself been <strong>made by an artist</strong>, a painter working in exactly the heroic, hand-made tradition Pop was reacting against. So when a Pop artist got the gallery show, the credit, and the money for reproducing Harvey&rsquo;s box, the art world noticed the irony. Harvey himself reportedly took it with good humor; the famous protest, &ldquo;Andy is running away with my box,&rdquo; came from a tongue-in-cheek press release his gallery put out, not from Harvey nursing a grudge. (He died of cancer the next year, in 1965, at thirty-five.) But the tangle the release pointed at is exactly what the whole work is secretly about: who made this image, and which version of it counts as art, the painter&rsquo;s design for a soap company, or the soap company&rsquo;s carton remade by a painter?
+      </p>
+
+      <SectionHeader accent={accent} label="The assembly line" title="Made by hand to look machine-made" />
+      <p style={proseStyle}>
+        The contradiction runs right down into the labor. Warhol&rsquo;s whole pose was to be a <strong>machine</strong>, to make art the impersonal way a factory makes cans, so the boxes were produced on something like an assembly line, in quantity, by assistants. And yet each one was <strong>built and printed by hand</strong>. The result is an object caught between two states: it is mass-production as performance, handwork pretending to be machine-work. Look closely at two boxes and you can find the small slips that prove a person did this, no two exactly alike. The boxes are hand-made objects whose entire subject is the look of not being hand-made. That is the engine of everything they go on to do.
+      </p>
+    </article>
+  )
+}
+
+function BrilLooking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The object" title="A carton on the floor" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>S</DropCap>
+        tand in front of one. It is a <strong>cube on the floor</strong>, not a picture on a wall, about <strong>17 inches tall and 17 wide and 14 deep</strong>, the size of a real supermarket carton you could pick up with both arms. (MoMA&rsquo;s box measures 17 1/8 by 17 by 14 inches, which is 43.3 by 43.2 by 36.5 centimeters; examples vary slightly, since each was built by hand.) That alone is worth pausing on. This is a <strong>sculpture you walk around</strong>, occupying the exact space and shape a grocery carton occupies. It is not a painting <em>of</em> a box. It is a box.
+      </p>
+
+      <SectionHeader accent={accent} label="The design" title="A patriotic supermarket palette" />
+      <p style={proseStyle}>
+        The surface is faithfully the real Brillo carton. The ground is <strong>white</strong> (literally white house paint), and across it runs the word <strong>BRILLO</strong> printed so the consonants read navy blue and the vowels cherry red, with a <strong>swooping red wave</strong> arcing over the top of the logo. It is a deliberately patriotic, all-American red-white-and-blue, the colors a soap brand reaches for to look wholesome and national. Along the top of the side panel, blue capitals read <strong>&ldquo;24 GIANT SIZE PKGS,&rdquo;</strong> the carton&rsquo;s contents stated in wholesale-shipping language; along the bottom runs the product promise, <strong>&ldquo;SHINES ALUMINUM FAST,&rdquo;</strong> and a small white <strong>&ldquo;New!&rdquo;</strong> with an exclamation point sits in a corner. Advertising copy, reproduced deadpan as the surface of a sculpture.
+      </p>
+
+      <SectionHeader accent={accent} label="The tells" title="Ink on wood, and the human slip" />
+      <p style={proseStyle}>
+        Two things give the disguise away, and both reward a close look. First, the <strong>print sits on wood</strong>. The graphics are silkscreen ink laid onto a hard painted wooden surface, so the ink reads matte and slightly flattened, sitting <em>on</em> the box rather than printed <em>into</em> corrugated card. There is no give, no fold, none of the soft sheen of real cardboard. Second, the <strong>imperfections</strong>. Because each box was hand-painted and hand-pulled through a screen, the print registration sits subtly off from a machine-printed carton, and no two are quite identical. Set two side by side and the tiny inconsistencies surface. The near-perfection is the point, and those small slips are exactly where the human hand leaks back in.
+      </p>
+
+      <SectionHeader accent={accent} label="The stack" title="Art that arrives as inventory" />
+      <p style={proseStyle}>
+        And then there is the multiplication, which is half the work and the half a single photograph cannot give you. A lone box is a clever object. The boxes by the hundred, <strong>stacked in rows several feet high</strong> the way they filled both rooms of the Stable Gallery, are something else. The &ldquo;art&rdquo; arrives as a <strong>warehouse of merchandise</strong>: quantity, repetition, retail display. There is no single masterwork box, no &ldquo;best&rdquo; one to single out; the rhythm of sameness across a stockroom is the form. A picture hangs alone and asks to be contemplated. These ask to be counted, like cans on a shelf, and that shift, from the unique object to the indistinguishable multiple, is what the box does next.
+      </p>
+    </article>
+  )
+}
+
+function BrilBreak({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The break · before" title="A sculpture was something you judged by looking" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>U</DropCap>
+        ntil this box, a sculpture was something you judged by <strong>looking</strong>. Its form, its surface, the handling of the material, the composition, all told you it was art and told you whether it was good. Even Pop&rsquo;s painted soup cans were still <strong>pictures of</strong> products, hung on a wall as obvious paintings; the art object and the everyday object stayed visibly distinct, however ordinary the subject. You could always tell the work of art from the thing it depicted, because one was a painting and the other was a can.
+      </p>
+
+      <SectionHeader accent={accent} label="The break · after" title="When the art is identical to the grocery box" />
+      <p style={proseStyle}>
+        <em>Brillo Box</em> closes that gap. It makes the art object <strong>visually indistinguishable from the commercial object it copies</strong>. Standing in the gallery, you cannot tell the Warhol from a real stockroom carton by eye, because in size, shape, and surface it <em>is</em> one. And the moment that is true, something strange happens to the whole question. If looking can no longer tell the art from the non-art, then the thing that <strong>decides</strong> whether it is art has to move <strong>off the retina</strong>, away from how it looks, and onto something you cannot see: who made it, why, where it stands, what idea it carries, what theory holds it up. Warhol weaponized <em>sameness</em> where every artist before had relied on <em>difference</em>.
+      </p>
+      <p style={proseStyle}>
+        This is a founding move of <strong>Conceptual art</strong> (art constituted by an idea rather than by a special appearance) and of the contextual and institutional theories that followed, the notion that what makes something art is an idea and an &ldquo;artworld&rdquo;, not a particular look. After this box, the old taunt &ldquo;but is it art?&rdquo; is permanently a question about <strong>framework</strong> rather than <strong>craft</strong>. You can no longer settle it by stepping closer and admiring the workmanship, because the workmanship is hidden inside a thing built to look like it has none.
+      </p>
+
+      <SectionHeader accent={accent} label="The key statement" title="A certain theory of art" />
+      <p style={proseStyle}>
+        The person this happened to, in the most consequential way, was a philosopher. <strong>Arthur C. Danto</strong> (1924&ndash;2013) walked into a show of these boxes and could not get past exactly the problem above: a thing that <em>is</em> art looked identical to a thing that is <em>not</em>. He worked the question into an essay, <strong>&ldquo;The Artworld,&rdquo;</strong> published in <em>The Journal of Philosophy</em> on <strong>15 October 1964</strong>, the same year as the show. The sentence that became foundational reads:
+      </p>
+      <blockquote style={{ margin: '0 0 18px', padding: '4px 0 4px 18px', borderLeft: `3px solid ${accent}`, fontFamily: SERIF, fontSize: 18, lineHeight: 1.6, fontStyle: 'italic', color: INK }}>
+        <p style={{ margin: 0 }}>What in the end makes the difference between a Brillo box and a work of art consisting of a Brillo box is a certain theory of art.</p>
+      </blockquote>
+      <p style={proseStyle}>
+        (That first sentence is the verified quotation, from page 581 of the 1964 essay. It is often extended in later books with a line about theory taking the box &ldquo;up into the world of art,&rdquo; but that continuation is not reliably confirmed against the original text, so we leave it where Danto&rsquo;s confirmed sentence ends.) The claim is the whole break stated as philosophy: the difference between the carton and the artwork is <strong>not visible</strong>. It is not in the object at all. It is in a <strong>theory and a context</strong>, what Danto called &ldquo;the artworld,&rdquo; the surrounding web of ideas and history and institutions that lets a thing count as art. The encounter turned Danto into a philosopher of art for the rest of his life, and he built from it his later, larger argument about the &ldquo;end of art,&rdquo; the idea that once art could look like anything at all, its long search for its own definition had reached a philosophical finish line. A grocery box did that.
+      </p>
+    </article>
+  )
+}
+
+function BrilAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Stable Gallery · April 1964" title="The boxes go on the floor" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he boxes first met the public at the <strong>Stable Gallery</strong> in New York, at Warhol&rsquo;s second solo show there, opening <strong>21 April 1964</strong>. He did not arrange a tasteful handful. He packed both rooms with the cartons <strong>stacked in rows several feet high</strong>, by some estimates around four hundred of them, so the gallery read as a grocery stockroom. Some visitors loved it; some left baffled; the gallery struggled to sell objects that looked exactly like free cardboard. The dealer <strong>Eleanor Ward</strong> later remembered the problem exactly: &ldquo;We all had visions of people walking down Madison Avenue with these boxes under their arms, but we never saw them.&rdquo; The show is the moment the work entered the world, and it is the show the philosopher Arthur Danto encountered.
+      </p>
+
+      <SectionHeader accent={accent} label="Not one object" title="A series, spread across the world" />
+      <p style={proseStyle}>
+        It helps to be clear about what kind of thing we are tracking, because <em>Brillo Box</em> has no single <strong>provenance</strong> (the documented chain of who has owned a work, from the artist&rsquo;s hand to now) the way a unique painting does. The Factory made <strong>hundreds</strong> of these boxes, across several campaigns and several carton designs, so genuine examples are <strong>spread across major museums and private collections</strong> rather than gathered in one place, the Museum of Modern Art and the Andy Warhol Museum among them. For Warhol&rsquo;s 1968 Moderna Museet retrospective in Stockholm, the museum could not afford to ship the heavy New York originals, so it had the Brillo company send roughly five hundred empty cardboard cartons, flat-packed, assembled on the spot: printed cardboard, not Warhol-built wood, and not counted as genuine Warhols. So when this read points at &ldquo;the&rdquo; Brillo box, it means a representative original of 1964, not a lone object you could go and stand in front of as the one true work.
+      </p>
+
+      <SectionHeader accent={accent} label="The Malmö copies" title="A scandal that touches the fakes, not the originals" />
+      <p style={proseStyle}>
+        There is one provenance scandal worth naming, and worth keeping in proportion. In <strong>1990</strong>, three years after Warhol&rsquo;s death in 1987, the museum director <strong>Pontus Hultén</strong> commissioned about <strong>105 plywood Brillo boxes</strong> from a carpenter in <strong>Malmö, Sweden</strong>, then certified and sold some as 1968 &ldquo;originals&rdquo; made to Warhol&rsquo;s instructions. The Swedish press exposed the affair, and in <strong>2010 the Andy Warhol Art Authentication Board ruled the Malmö batch &ldquo;copies.&rdquo;</strong> This matters as a caution, not a headline: it concerns a <strong>posthumous batch made by other hands</strong> long after Warhol was dead, and it does <em>not</em> impugn the genuine boxes Warhol&rsquo;s own studio built in 1964. The originals are exactly what they have always been.
+      </p>
+
+      <SectionHeader accent={accent} label="What it opened" title="The box that moved the question" />
+      <p style={proseStyle}>
+        What the boxes left behind is bigger than any one of them. They are the literal object on which a philosopher built a theory that art is constituted by an idea and a context rather than by a special look. Through that door came much of <strong>Conceptual art</strong>, the institutional and contextual theories of art, and a whole later practice of <strong>appropriation</strong> that takes an existing product or image and re-presents it as art. The deepest joke is one the work could not have planned: a sculpture built to be indistinguishable from a disposable grocery carton is now a treasured museum piece worth a great deal of money, the most precious thing in the room and the one that looks the most like trash. The carton was never the point. The question it forces, about what makes a thing art when looking can no longer tell you, has never since gone away.
+      </p>
+    </article>
+  )
+}
+
+// REGISTRY (coordinator splices into NARRATIVES):
+//  brillo: { factory: BrilFactory, making: BrilMaking, looking: BrilLooking, break: BrilBreak, afterlife: BrilAfterlife },
+
+// ─────────────────────────────────────────────────────────────
+// Whaam! (Lichtenstein, 1963) — the five chapters
+// ─────────────────────────────────────────────────────────────
+function WhamSource({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="New York · 1961" title="A serious painter walks into the funny pages" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>I</DropCap>
+        n <strong>1961</strong>, <strong>Roy Lichtenstein</strong> (1923&ndash;1997) was a thirty-seven-year-old painter and art teacher whose work nobody much wanted. He had been painting in the going style of the day, a loose, gestural abstraction in the long shadow of <strong>Abstract Expressionism</strong> (the dominant American movement of the 1950s, all big canvases and visible, emotional brushwork, the artist&rsquo;s own hand and feeling smeared across the surface). It was the serious thing to do, and Lichtenstein was not making a dent doing it. Then, the story goes, he painted a Disney character for his children, looked at it, and saw a way out. Almost overnight he switched to the most disreputable source material in America: <strong>comic strips and advertisements</strong>, copied straight, at the scale of fine-art paintings.
+      </p>
+      <p style={proseStyle}>
+        This was close to a provocation. The whole point of the comic strip and the ad was that they were <em>throwaway</em>: cheap, mass-printed, glanced at, and binned. They were commercial craft, the opposite of art, beneath the gallery wall by definition. Lichtenstein walked straight at that line. He later put his program bluntly: he was, he said, interested in what would normally be considered the worst aspects of commercial art. Not the prettiest, not the cleverest. The worst. The flattest, cheapest, most disposable printed images the culture produced, taken seriously and made big.
+      </p>
+
+      <SectionHeader accent={accent} label="The source" title="One panel of a cheap war comic, by Irv Novick" />
+      <p style={proseStyle}>
+        For the picture that would become <em>Whaam!</em>, he reached into exactly that bin. The source is a single panel from a war comic: a story called <em>&ldquo;Star Jockey,&rdquo;</em> printed in <strong>DC Comics&rsquo; <em>All-American Men of War</em> No. 89</strong>, cover-dated early <strong>1962</strong>. The artist who actually drew that panel was <strong>Irv Novick</strong> (1916&ndash;2004), a working comic-book illustrator turning out war stories on a deadline. (His name matters, and we&rsquo;ll come back to it, because the question of credit is one of the real arguments around this painting.) The original is a small frame on a newsprint page: a fighter plane firing, an enemy plane exploding, a caption, a sound effect. Cheap ink on cheap paper, meant to be read in a second and forgotten.
+      </p>
+      <p style={proseStyle}>
+        Even the source may not be a single hand. Scholars (notably <strong>Paul Gravett</strong>) read <em>Whaam!</em> as a composite: Novick&rsquo;s &ldquo;Star Jockey&rdquo; supplies the overall layout, but the firing plane is likely drawn from <strong>Jerry Grandenetti&rsquo;s</strong> &ldquo;Wingmate of Doom&rdquo; in the next issue, and the exploding plane from a <strong>Russ Heath</strong> drawing in &ldquo;Aces Wild,&rdquo; all stitched together. That is a reading, not a settled fact, so hold it loosely. But it only widens the question waiting at the end of this story: there may be more than one uncredited hand inside the picture.
+      </p>
+      <p style={proseStyle}>
+        That is the raw material. Not a myth, not a saint, not a battle out of history, the high subjects fine-art painting had drawn on for centuries. A two-bit war comic, the kind a kid bought for a dime. Lichtenstein&rsquo;s whole move is what he does with it next: he takes that disposable little frame and treats it as if it were worth thirteen feet of canvas and the seriousness of a history painting. How he did that is the next chapter.
+      </p>
+    </article>
+  )
+}
+
+function WhamMaking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The making · 1963" title="One frame, split into two canvases" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>L</DropCap>
+        ichtenstein did not simply enlarge Novick&rsquo;s panel like a photocopy. He rebuilt it. The first big decision was structural: he took the single comic frame and split it into a <strong>diptych</strong>, two separate canvases (the word just means a picture made of two joined panels). The firing plane went on the left canvas, the explosion on the right, and the rocket&rsquo;s smoke trail was stretched across the gap between them to tie the two halves into one action. That split is not in the comic. It is Lichtenstein pulling the cause and the effect apart and giving each its own wall-sized field, so the eye has to travel from the trigger to the blast.
+      </p>
+      <p style={proseStyle}>
+        Then there is the size. The finished work is roughly <strong>five feet eight inches tall and thirteen feet four inches wide overall</strong> (the two panels together), about thirteen feet of canvas. That is mural scale, the scale an old academic painter reserved for a coronation or a battle. A throwaway comic panel, meant to be inches across on a newsprint page, is here blown up until it dominates a room. The simple act of enlargement is half the work: at that size the cheap graphic clich&eacute;s of the comic stop being invisible and become the subject.
+      </p>
+
+      <SectionHeader accent={accent} label="The surface" title="Flat color, hard outlines, and dots laid down by hand" />
+      <p style={proseStyle}>
+        Up close, the surface is a careful imitation of cheap printing. Everything is reduced to <strong>flat primary color</strong> (red, yellow, blue) inside <strong>thick black outlines</strong>, with no modelling, no shadow, no shading, the visual economy of a comic page. The paint is mostly <strong>Magna</strong>, an early solvent-based acrylic resin (a forerunner of the water-based acrylics painters use now), worked alongside ordinary oil. It dries flat and even, with none of the loaded, expressive brushwork Lichtenstein had just walked away from. The hand is gone on purpose.
+      </p>
+      <p style={proseStyle}>
+        And then the part everyone gets wrong. Across the flat color areas runs a regular grid of dots, the texture you see if you put a comic page under a magnifying glass. These are <strong>Ben-Day dots</strong>, named for the 19th-century printer <strong>Benjamin Day</strong>: a mechanical dot-screen used to shade and tint cheap printing without paying for more ink. In a real comic the dots are <em>printed</em>, stamped on by a press. In <em>Whaam!</em> they are <strong>painted by hand</strong>. Lichtenstein laid down each field of dots himself, dabbing or scrubbing paint through a <strong>perforated metal screen</strong> held against the canvas, the way you&rsquo;d use a stencil. The single most mechanical-looking thing in the painting, the dot, is the most laborious hand-work in it. The picture only <em>looks</em> machine-printed. It was made slowly, by hand, to fake the machine.
+      </p>
+    </article>
+  )
+}
+
+function WhamLooking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The canvas · left panel" title="The plane, the rocket, and the pilot’s voice" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>S</DropCap>
+        tand at the left end, where the action starts. A <strong>fighter plane</strong> cuts diagonally down across the left canvas, and a <strong>rocket</strong> streaks away from it on a long trail of smoke. This is the cause: the trigger pulled, the shot fired. (Spotters argue about the plane. The source comic shows an F-86 Sabre; popular write-ups often call it a P-51 Mustang. The exact model was never the point.) The whole left panel is built around that one clean diagonal of fire, aimed across the gap at the next canvas.
+      </p>
+      <p style={proseStyle}>
+        Now read the box along the top. A <strong>yellow caption box</strong> runs across the upper edge of the left panel, carrying the pilot&rsquo;s line in black hand-lettering, kept almost exactly from the comic: <em>&ldquo;I pressed the fire control&hellip; and ahead of me rockets blazed through the sky&hellip;&rdquo;</em> This is the comic&rsquo;s narrative voice, the breathless first-person of a war story, lifted intact and blown up to gallery scale. The words are part of the picture, not a label on the wall, and they do something sly: they hand you the drama in print, so the image itself doesn&rsquo;t have to act it out.
+      </p>
+
+      <SectionHeader accent={accent} label="The canvas · right panel" title="The explosion, and the word for it" />
+      <p style={proseStyle}>
+        Walk to the right canvas and the rocket arrives. The <strong>enemy plane erupts</strong> in a <strong>red-and-yellow fireball</strong> that fills the panel. This is the effect, and it is worth saying plainly what it depicts: a man is being killed, his aircraft blown apart in the air. But look at how it is painted. There is no gore, no twisted metal, no smoke-blackened horror, just a clean, bright, almost cheerful graphic burst in flat primary color. The deadliest thing in the picture is rendered like a logo.
+      </p>
+      <p style={proseStyle}>
+        And over the top of it detonates the painting&rsquo;s title. The giant onomatopoeia <strong>&ldquo;WHAAM!&rdquo;</strong> bursts across the upper right in bold yellow-edged comic lettering, the sound effect drawn as a picture, the way comics have always done it. The word is doing the work the image refuses to: it supplies the noise, the violence, the punch, all of it kept safely in lettering. The title of the painting is painted into the painting.
+      </p>
+
+      <SectionHeader accent={accent} label="The handling" title="Why the detachment is the subject" />
+      <p style={proseStyle}>
+        Step back and take in the whole thirteen feet. What you are looking at is a scene of sudden death rendered with total cool: flat color, hard outlines, mechanical dots, not a flicker of feeling in the paint. This is the deadpan that <em>is</em> the content. Lichtenstein takes the most violent kind of imagery, war, killing, an aircraft exploding with a man inside it, and drains it of all drama in the handling, presenting it with the same flat, bright neutrality an advertisement uses to sell soap. The painting does not mourn the death or thrill to it. It just shows you how completely a culture had learned to package even killing as a clean, disposable graphic. The flatness is not a failure of feeling. It is the point.
+      </p>
+    </article>
+  )
+}
+
+function WhamBreak({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The break · before" title="What was beneath the gallery wall" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>F</DropCap>
+        or as long as there had been fine-art painting, it drew on <strong>high sources</strong>: myth, history, religion, the human figure, landscape, and, by the middle of the 20th century, the artist&rsquo;s own raw feeling poured out in visible brushwork. Abstract Expressionism, the style Lichtenstein came out of, prized exactly that, the gesture, the drip, the trace of the hand, paint as the record of a soul at work. Comic strips, advertising, and pulp illustration sat on the other side of an unspoken line. They were <strong>commercial craft</strong>: cheap, anonymous, machine-printed, made to sell and be thrown away. They did not hang in museums, and the line between the two was not supposed to be crossed.
+      </p>
+      <p style={proseStyle}>
+        <em>Whaam!</em> crosses it three ways at once. First, the <strong>source</strong>: the worst of commercial art, a throwaway war comic, becomes legitimate raw material for a serious painting. Second, the <strong>surface</strong>: the Ben-Day dot, the cheap mechanical texture of newsprint, becomes a deliberate fine-art surface, the look of mass reproduction turned into a thing you paint by hand and hang on a wall. Third, the <strong>hand</strong>: the work is made to look impersonal, machine-printed, &ldquo;programmed,&rdquo; the exact opposite of the expressive brushstroke it grew up next to. Hand-made to look machine-made. That inversion, human labor disguised as the machine, is the Pop break in a single image.
+      </p>
+
+      <SectionHeader accent={accent} label="The key statement" title="“I want to hide the record of my hand”" />
+      <p style={proseStyle}>
+        Lichtenstein said what he was after about as clearly as an artist ever does. In the catalogue for his 1967 retrospective at the Pasadena Art Museum, in conversation with the curator <strong>John Coplans</strong>, he put it this way:
+      </p>
+      <blockquote style={{ margin: '0 0 18px', padding: '4px 0 4px 18px', borderLeft: `3px solid ${accent}`, fontFamily: SERIF, fontSize: 18, lineHeight: 1.6, fontStyle: 'italic', color: INK }}>
+        <p style={{ margin: '0 0 12px' }}>&ldquo;I want my painting to look as if it has been programmed. I want to hide the record of my hand.&rdquo;</p>
+        <p style={{ margin: 0, fontStyle: 'normal', fontSize: 13.5, color: MUTED }}>&mdash; Roy Lichtenstein, in <em>Roy Lichtenstein</em> (Pasadena Art Museum, 1967), interview by John Coplans</p>
+      </blockquote>
+      <p style={proseStyle}>
+        Read it against everything we just saw being made. He wanted the painting to look <em>programmed</em>, as if a machine had output it, with no person visible in the doing. And he wanted to <strong>hide the record of his hand</strong>, the very thing Abstract Expressionism had built its whole religion on showing. The deep joke of <em>Whaam!</em> is that hiding the hand took an enormous amount of hand: every flat field, every black outline, every grid of dots laid down through a screen, all of it slow handwork performed to erase the evidence of handwork. The machine look is the most human thing about it.
+      </p>
+    </article>
+  )
+}
+
+function WhamAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Provenance · 1963–1966" title="From the Castelli wall to a national collection" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>W</DropCap>
+        ithin a few years <em>Whaam!</em> traveled a long way fast. In the autumn of <strong>1963</strong> it hung in Lichtenstein&rsquo;s second solo show at the <strong>Leo Castelli Gallery</strong> in New York (Castelli being the dealer who, more than anyone, made the market for American Pop Art). Three years later, in <strong>1966</strong>, it crossed the Atlantic: the <strong>Tate Gallery</strong> in London bought it, handled by the dealer <strong>Ileana Sonnabend</strong>, Castelli&rsquo;s former wife and another of Pop&rsquo;s great early champions. (You will see a price of about &pound;3,940 quoted for that sale; it comes from secondary sources rather than the Tate&rsquo;s own record, so treat it as a footnote, not a fact.) Within three years of being painted, a copied war-comic panel had entered a national collection, where it remains, accession T00897, now at Tate Modern and one of the most famous works of Pop Art, frequently named, with <em>Drowning Girl</em>, as Lichtenstein&rsquo;s signature image.
+      </p>
+
+      <SectionHeader accent={accent} label="The credit question" title="The artists who were never named" />
+      <p style={proseStyle}>
+        There is an argument that follows <em>Whaam!</em> around, and it deserves to be stated straight rather than smoothed over. Lichtenstein built the painting on someone else&rsquo;s drawing, <strong>Irv Novick&rsquo;s</strong> panel in <em>All-American Men of War</em> #89, and he did so the way he did across his comic-based work: he credited the genre, sometimes the comic, but <strong>not the artist</strong>. He sought no permission, named no illustrator, and paid no royalties. And the picture may owe more than one hand: the same scholars who read it as a composite place <strong>Russ Heath&rsquo;s</strong> and <strong>Jerry Grandenetti&rsquo;s</strong> drawings inside <em>Whaam!</em> itself, alongside others Lichtenstein drew from across his career, <strong>Tony Abruzzo</strong> and <strong>Jack Kirby</strong> among them, working professionals whose panels became famous paintings without their names attached. Decades later the comics artist <strong>Dave Gibbons</strong> called the practice &ldquo;copycat,&rdquo; arguing the work should really read <em>&ldquo;Whaam!, by Roy Lichtenstein, after Irv Novick.&rdquo;</em> The gap has been noted to persist: at the Tate, where the painting hangs, Novick&rsquo;s name has been absent from the work&rsquo;s own description.
+      </p>
+      <p style={proseStyle}>
+        Lichtenstein&rsquo;s defense was that he transformed what he took: that enlarging, splitting, recomposing, and recoloring a panel changed its purpose so completely that the result was a new thing, a comment on the image rather than the image. There is real truth in that; a thirteen-foot deadpan painting about how culture packages violence is plainly not a war comic. It is also the work that, more than almost any other, licensed what came after it, the appropriation art that would build whole careers on lifting and reframing the mass-media image. But both things are true at once, and the honest version of this picture holds them together: it is a landmark that opened high art to the everyday image, and it is built on the uncredited labor of working illustrators who never shared in the fame or the money. You can admire the break and still keep Novick&rsquo;s name in the room. The best way to look at <em>Whaam!</em> is to do both.
+      </p>
+    </article>
+  )
+}
+
+// REGISTRY (coordinator splices into NARRATIVES):
+//  whaam: { source: WhamSource, making: WhamMaking, looking: WhamLooking, break: WhamBreak, afterlife: WhamAfterlife },
+
+// ─────────────────────────────────────────────────────────────
+// Floor Burger (Claes Oldenburg, 1962) — the five chapters.
+// Flr… prefix. Shared helpers (SectionHeader, DropCap, proseStyle) reused;
+// no redefs/imports. In-copyright work: prose only, the wired hero carries the
+// rights line; no PD inline figures here.
+// ─────────────────────────────────────────────────────────────
+function FlrStore({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="New York · December 1961" title="An artist who opened a shop" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>I</DropCap>
+        n December 1961 a young American sculptor named <strong>Claes Oldenburg</strong> (1929&ndash;2022) rented a cramped storefront on East Second Street, on the Lower East Side of Manhattan, and turned it into something between an art installation and an actual shop. He filled it with handmade objects: rough plaster copies of the goods sold in the surrounding neighborhood stores, pieces of cake, slices of pie, shirts, dresses, hunks of meat, all of them lumpy, brightly painted, and openly fake, propped in the window and on the shelves as if they were for sale. He called the whole multi-year project <em>The Store</em>. It was an art gallery disguised as a cheap shop, and the merchandise was the art.
+      </p>
+      <p style={proseStyle}>
+        The idea behind it was a deliberate insult to good taste. The serious art of the moment looked inward and upward, toward private feeling and pure abstraction; Oldenburg pointed the other way, at the cheap, the greasy, the everyday commercial junk of the American street, and insisted that was the real subject. A few months earlier he had written a furious, joyful list of everything he wanted art to be instead of what it was, and one line of it became famous. He was <em>for</em> an art, he wrote, that did real work in the world:
+      </p>
+      <p style={{ ...proseStyle, paddingLeft: 16, borderLeft: `3px solid ${accent}`, fontStyle: 'italic' }}>
+        &ldquo;I am for an art that is political-erotical-mystical, that does something other than sit on its ass in a museum.&rdquo;
+      </p>
+      <p style={proseStyle}>
+        That line comes from a statement called <em>I am for an art&hellip;</em>, written in <strong>1961</strong> for the catalogue of an exhibition, <em>Environments, Situations, Spaces</em>, at the <strong>Martha Jackson Gallery</strong> in New York. (The wording matters, because it is often misquoted as &ldquo;does something <em>more</em> than&rdquo;; the Walker Art Center, which holds Oldenburg&rsquo;s archive, gives the line as &ldquo;<em>other</em> than.&rdquo; And Oldenburg later shrugged off the idea that it was a manifesto at all, calling it a literary effort, much of it written for the sound of the words.) Whatever he wanted to call it, the burger we are looking at is one of the things that statement produced.
+      </p>
+
+      <SectionHeader accent={accent} label="The Green Gallery · fall 1962" title="The Store goes uptown, and grows" />
+      <p style={proseStyle}>
+        In the fall of <strong>1962</strong>, <em>The Store</em> moved uptown for a show at Richard Bellamy&rsquo;s <strong>Green Gallery</strong> in midtown Manhattan, and for that version Oldenburg made something new and much larger. Instead of plaster objects at roughly life size, he built a set of food sculptures blown up to the scale of furniture: a giant hamburger, a giant slice of cake (<em>Floor Cake</em>), and a giant ice-cream cone (<em>Floor Cone</em>), each one big enough to share a room with. And he made them out of a material no sculptor had used this way before. He made them <strong>soft</strong>.
+      </p>
+      <p style={proseStyle}>
+        That is the word to hold onto, because it is the whole invention. A <strong>soft sculpture</strong> is exactly what it sounds like: a three-dimensional artwork made of pliable, yielding material, sewn from cloth and stuffed, rather than carved from stone or cast in bronze or welded from metal. It has no rigid skeleton. It droops. It can be squashed. Oldenburg did not invent the very idea single-handedly, and the burger was one of a set rather than the lone first example, but these 1962 floor pieces are where the soft sculpture became a serious, room-scale thing, and the hamburger is the most famous of them.
+      </p>
+    </article>
+  )
+}
+
+function FlrMaking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The making · 1962" title="Made the way a cushion is made" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he most surprising thing about <em>Floor Burger</em> is how it was built. It was not carved, modeled, or cast, the three ways sculpture had been made for thousands of years. It was <strong>sewn</strong>. The forms (the two buns, the patty, the trimmings) were cut and stitched out of <strong>cotton-duck canvas</strong>, the same heavy cloth a painter stretches for a picture, and the sewing was done by the artist <strong>Patty Mucha</strong> (then Patty Oldenburg) on her own portable <strong>Singer sewing machine</strong>, one she had bought to make her own clothes. Oldenburg designed the shapes and painted them; she sewed and stuffed them. Her sewing was not a service to the project but part of how this kind of object came to exist at all: the soft, sewn form was a technique she brought from the giant costumes and props she made for Oldenburg&rsquo;s <em>Happenings</em>, the staged, semi-improvised performance pieces he was making around the same time. The floor food grew straight out of that stage work, and the giant burger was assembled the way a sofa cushion is assembled, in a New York apartment, on a home machine.
+      </p>
+      <p style={proseStyle}>
+        Then it had to be filled, and at this scale that turned into a problem. The forms were so large that ordinary soft stuffing was not enough to give them their bulk, so the inside was packed with two things at once: <strong>upholstery foam rubber</strong>, the springy stuff inside a cushion, and <strong>empty cardboard cartons</strong> (ice-cream cartons, by most accounts) shoved in to take up the volume. The fill went in through a <strong>zipper sewn into the underside</strong> of each piece, so the whole giant burger could be opened up, stuffed, and closed again. The Art Gallery of Ontario, which owns it, records the materials plainly: canvas filled with foam rubber and cardboard boxes, painted with acrylic.
+      </p>
+      <p style={proseStyle}>
+        The surface is the last layer, and it is painted by hand. Oldenburg brushed <strong>acrylic paint</strong> straight onto the cotton-duck canvas, the toasted brown of the bun, the dark sear of the patty, with visible, worked brushwork rather than any printed or molded finish. (The painting is acrylic on canvas; loose descriptions sometimes call it latex or vinyl, but the gallery&rsquo;s own record says acrylic.) So the object is, oddly, half painting and half sculpture: a hand-brushed canvas surface wrapped around a sewn, stuffed, three-dimensional body.
+      </p>
+      <p style={proseStyle}>
+        And then it sat down. Stuffed with foam and cardboard, the finished burger weighs something like <strong>700 pounds</strong>, and because its skin is soft and its filling shifts, it settles. It cannot hold a crisp shape. The minute it was set on the floor, gravity began finishing what the sewing started, pulling the bun into folds and spreading the base outward. That sagging is not a defect or an accident of age; it is the whole point.
+      </p>
+    </article>
+  )
+}
+
+function FlrLooking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The object" title="A hamburger the size of a sofa" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he first fact about <em>Floor Burger</em> is its size, and it lands before anything else. It is about <strong>seven feet across</strong> and only about <strong>four feet four inches tall</strong> (the gallery records it at 132 by 226 centimeters), which means it is wider than a person is tall and sits low and heavy on the floor. The everyday object in the title (a fast-food hamburger, the cheapest hot meal in America) has been blown up to the scale of a piece of furniture. It is unmistakably a burger and unmistakably wrong, an ordinary thing swollen far past any size an ordinary thing should be.
+      </p>
+
+      <SectionHeader accent={accent} label="The parts" title="A swollen bun, a heavy patty, a pickle on top" />
+      <p style={proseStyle}>
+        It is built like a real burger, part for part. There is a <strong>top bun</strong>, a big hand-painted pale dome that bulges and settles rather than sitting crisp and fresh. There is the <strong>patty</strong>, a thick dark disc wedged in the middle, the densest and most solid-looking element of the whole thing (conservators found the patty and lower bun held their shape best over the years). And perched on top is a single sliced <strong>pickle</strong>, a small green disc that works as the comic full stop on the whole giant object. The pickle there now is a later replacement, but its job is the same: it is the one little detail that turns a monument into a joke.
+      </p>
+      <p style={proseStyle}>
+        And once you are close, the surface tells you it was <strong>sewn</strong>. The <strong>seams</strong> of the stitched-and-stuffed forms are findable along the joins where one shape meets the next, the bun against the patty, the trimmings against the bun, the soft canvas puckering slightly where the stitching pulls it. Tucked into the underside are the <strong>zippers</strong> the foam and cardboard were packed in through. This is not the smooth shell of a molded object; it is a giant cushion, and it shows its seams.
+      </p>
+
+      <SectionHeader accent={accent} label="The slump" title="Where gravity, not the artist, did the shaping" />
+      <p style={proseStyle}>
+        The thing that makes it unlike any sculpture before it is that it <strong>sags</strong>. Because the skin is soft canvas and the filling is foam and cardboard, the whole burger spreads and slumps on the floor under its roughly 700 pounds. The bun folds. The base creeps outward. And those creases and droops are not carved or modeled by Oldenburg: they are where <strong>gravity finished the shaping</strong>, settling the soft mass into a slouch. A bronze or a marble holds the exact pose the artist gave it forever; this object is still quietly sinking, doing the opposite of what a monument is supposed to do.
+      </p>
+
+      <SectionHeader accent={accent} label="The viewpoint" title="You stand over it, and look down" />
+      <p style={proseStyle}>
+        There is one more thing the scale does, and it is easy to miss. Because the burger is low and wide and sits directly on the floor, the viewer <strong>looks down at it</strong>. A monument is usually something raised on a pedestal that you crane your neck up toward; here the relationship is flipped. A person stands over a hamburger and gazes down at it the way you would look down at a meal on a table, except the meal is the size of a sofa. The object dwarfs you sideways, by sheer width, while staying entirely beneath you, and that mismatch (huge and yet lowly, overwhelming and yet underfoot) is the strange comic feeling the whole piece runs on.
+      </p>
+    </article>
+  )
+}
+
+function FlrBreak({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The break · before" title="What a monument was supposed to be" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>A</DropCap>
+        giant soft hamburger only mattered because of the thing it mocked. For most of Western history a <strong>monument</strong> was a fixed set of qualities. It was <strong>hard</strong>, bronze or marble or carved stone. It was <strong>vertical and heroic</strong>, a figure standing tall, usually raised on a pedestal so the viewer had to look up. It was built to <strong>last</strong>, to hold its exact pose for centuries, and built to <strong>ennoble</strong>, to honor a great man, a god, a battle, a myth. Sculpture, by long habit, stood up straight and asked to be admired. And the first wave of Pop Art around Oldenburg, the painters Andy Warhol and Roy Lichtenstein, had stayed flat on the wall, taking the consumer image but keeping it as a picture.
+      </p>
+
+      <SectionHeader accent={accent} label="The break" title="The monument becomes a hamburger, and sags" />
+      <p style={proseStyle}>
+        Oldenburg flips three things at once, and they are worth taking one at a time. First, the <strong>subject</strong>: the thing given the scale and seriousness of important sculpture is a fast-food hamburger, the least heroic, most disposable object in the modern world. The everyday consumer commodity becomes the monument. Second, and stranger, the <strong>medium contradicts the genre</strong>: by making the colossal burger <strong>soft</strong>, Oldenburg makes it <strong>anti-monumental</strong>. It cannot stand on a pedestal or strike a heroic pose. It cannot hold its shape unchanged; it droops on the floor and keeps drooping. A monument is meant to defy time and gravity; this one openly surrenders to both. The softness is not a quirk of materials; it is an argument, made in foam and canvas, against everything a monument claims to be.
+      </p>
+      <p style={proseStyle}>
+        Third, the <strong>humor is the content</strong>, not a decoration on top of a serious idea. The absurd scale and the comic slump are not garnish; they are the whole statement. The piece is funny on purpose, and its funniness is the meaning: the seriousness of a museum and the scale of a war memorial, lavished on a sagging hamburger with a pickle on top. Where an Abstract Expressionist canvas was anguished and inward and Warhol&rsquo;s cans were deadpan and cool, Oldenburg&rsquo;s burger is openly, physically comic, and it asks to be taken seriously precisely because it refuses to be solemn.
+      </p>
+
+      <SectionHeader accent={accent} label="The break · after" title="The door it opened" />
+      <p style={proseStyle}>
+        Once a sculpture could be soft, funny, and made of low, everyday stuff, a whole new register opened up. Oldenburg himself walked straight through it, into a long line of <strong>soft objects</strong> (a drooping <em>Soft Toilet</em>, slumping typewriters, sagging drainpipes and light switches) that took the same move and pointed it at the hard machinery of modern life. And from the floor pieces grew the giant public <strong>Pop monuments</strong> he later co-created with <strong>Coosje van Bruggen</strong>, colossal clothespins and shuttlecocks and trowels planted in city plazas, the everyday object as a deflatable, deadpan public statue. The slumping hamburger is the hinge: the moment the monument stopped having to stand up straight.
+      </p>
+    </article>
+  )
+}
+
+function FlrAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Provenance · 1967" title="A Toronto museum buys a $2,000 burger" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>A</DropCap>
+        fter the Green Gallery, the burger passed through the <strong>Sidney Janis Gallery</strong> in New York, and from there, in early <strong>1967</strong>, it crossed the border to Canada. The <strong>Art Gallery of Ontario</strong> in Toronto bought it, the deal finalized on <strong>27 January 1967</strong>, for a token sum reported at <strong>US $2,000</strong>. (The figure is a handshake price more than a market valuation, and the dates carry a small wrinkle: the accession number is 66/29, reflecting the 1966 fiscal cycle, but the gallery gives 1967 as the acquisition year, and the credit line reads simply &ldquo;Purchase, 1967.&rdquo; The <em>provenance</em>, by the way, is the documented chain of who has owned a work, from the artist&rsquo;s hand to now.)
+      </p>
+      <p style={proseStyle}>
+        The purchase caused an uproar. A public gallery had spent its money, and the public&rsquo;s, on a giant soft hamburger, and a fair share of Torontonians were furious. Students mounted a mocking protest, building their own giant artwork in reply, a roughly nine-foot plywood <strong>ketchup bottle</strong>, to point out the absurdity of the thing the museum had bought. The &ldquo;anyone could make this, and why did you pay for it&rdquo; objection arrived with the burger and has trailed it ever since, which is more or less the reception every one of these breakthrough Pop objects got on its first day.
+      </p>
+
+      <SectionHeader accent={accent} label="Conservation · 2012" title="How you repair a 700-pound soft sculpture" />
+      <p style={proseStyle}>
+        A soft sculpture ages in ways a bronze never does. Over decades the foam inside <em>Floor Burger</em> broke down and the great stuffed shape slowly lost its footing, so in <strong>2012</strong> the gallery&rsquo;s conservator <strong>Sherry Phillips</strong> led a careful restoration: the slumped internal foam and cartons were repositioned and given new support inside (cotton bags filled with a stable foam), and the painted surface was cleaned and re-adhered where it had flaked. It is the kind of repair that has more in common with fixing an old sofa than restoring a statue, which is exactly what you would expect of a monument built like a cushion. (One quieter note from the work&rsquo;s long life: even the pickle on top has been replaced over the years.)
+      </p>
+
+      <SectionHeader accent={accent} label="After" title="The slumping monument, still on the floor" />
+      <p style={proseStyle}>
+        The burger that scandalized Toronto in 1967 is now one of the prized works in the Art Gallery of Ontario&rsquo;s collection, on view as a landmark of Pop Art and of the soft sculpture Oldenburg helped invent. The thing he and Patty Mucha made out of canvas and foam in a New York apartment, the cheapest object in the world blown up huge and then made to sag, turned out to be one of the defining objects of Pop Art&rsquo;s move into three dimensions, and of the soft-sculpture idea it helped launch. It is still there, still on the floor, still slowly settling, exactly as a monument is not supposed to do, with a pickle on top.
+      </p>
+    </article>
+  )
+}
+
+// REGISTRY (coordinator splices into NARRATIVES):
+//  'floor-burger': { store: FlrStore, making: FlrMaking, looking: FlrLooking, break: FlrBreak, afterlife: FlrAfterlife },
+
+// ─────────────────────────────────────────────────────────────
+// It's a Man's World I & II (Boty, 1964–65) — the five chapters
+// ─────────────────────────────────────────────────────────────
+function ManSoleSister({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="London · 1962–64" title="The only woman in the room" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>B</DropCap>
+        y the early <strong>1960s</strong>, British <strong>Pop art</strong> (the movement that pulled its imagery straight out of advertising, comics, film stars, and the consumer world, treating mass culture as fit subject for a painting) was a recognized, celebrated, and almost entirely <strong>male</strong> enterprise. Its founders and stars were men: <strong>Richard Hamilton</strong> and <strong>Eduardo Paolozzi</strong> of the older Independent Group (a loose London circle of artists and critics who first chewed over American mass culture in the 1950s), then the younger wave of <strong>Peter Blake</strong>, <strong>Derek Boshier</strong>, and <strong>Peter Phillips</strong>. Women turned up in Pop almost only as <em>imagery</em>, Monroe, pin-ups, ad-bodies, the object painted on the canvas. They were rarely the hand holding the brush.
+      </p>
+      <p style={proseStyle}>
+        <strong>Pauline Boty</strong> (1938&ndash;1966) was the exception, the one widely acknowledged <strong>woman</strong> of British Pop and one of its co-founders. Her name was in the title of one of the movement&rsquo;s first shows, the November <strong>1961</strong> &ldquo;Blake, Boty, Porter, Reeve&rdquo; exhibition at the A.I.A. gallery; she was there at the founding, not a latecomer. And her gifts cut against her. She was blonde, glamorous, and photogenic, nicknamed &ldquo;the Wimbledon Bardot&rdquo; by her art-school classmates for her resemblance to the French film star <strong>Brigitte Bardot</strong>, and the art world treated her as a face more than a painter. The asymmetry was made literal on film. In <strong>1962</strong> the director <strong>Ken Russell</strong> made a BBC documentary, <em>Pop Goes the Easel</em>, featuring Boty alongside Blake, Boshier, and Phillips. Sixteen of her works appear on screen, yet, unlike her three male co-stars, <strong>she is never once asked to talk about her own work</strong>. That gap, the woman whose paintings are shown but whose voice is withheld, is the exact subject she would turn into a pair of pictures.
+      </p>
+      <p style={proseStyle}>
+        It would be easy to flatten Boty into a tidy proto-feminist martyr, blonde genius, early death, and she has been. The truer picture has more friction in it: real ambition, real inner conflict, conventional middle-class pulls alongside the radical ones. But the bare facts of how the world handled her, glamorous woman painter taken for a model, are not invented, and they are the soil the work grows out of. She had watched, from inside the room, exactly who got to be a person and who got to be looked at. Around <strong>1964</strong> she set out to paint it.
+      </p>
+    </article>
+  )
+}
+
+function ManThePair({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Not a diptych" title="Two canvases, one title" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>F</DropCap>
+        irst, clear up a confusion that haunts this work, because the meaning depends on getting it right. <em>It&rsquo;s a Man&rsquo;s World</em> is <strong>not a single painting</strong> and not a <strong>diptych</strong> (a single work made of two hinged or joined panels). It is <strong>two separate canvases</strong>, painted as counterparts under one shared title: <em>It&rsquo;s a Man&rsquo;s World I</em> and <em>It&rsquo;s a Man&rsquo;s World II</em>. One secondary source garbles this badly, describing a single &ldquo;diptych&rdquo; with nudes on one side and men on the other; that is wrong. They are two distinct pictures, made to be read as a pair. Boty built them as a question and its answer, and the answer only lands if you hold both.
+      </p>
+      <p style={proseStyle}>
+        <em>It&rsquo;s a Man&rsquo;s World I</em>, the canvas this read leads on, is the world <strong>of men</strong>. It is a packed field of famous, admired, powerful, dangerous <strong>male</strong> faces and figures, lifted from print and photographic media and worked into one surface. The medium itself is mixed: <strong>oil on canvas with collage</strong>, some figures painted, some pasted in as clippings, exactly the appropriated-media technique the male Pop artists used. The canvas is tall, a touch over <strong>five feet by four</strong> (about 153 by 122 cm), portrait orientation, a vertical field crowded with men.
+      </p>
+      <p style={proseStyle}>
+        <em>It&rsquo;s a Man&rsquo;s World II</em>, the slightly later companion (the pair runs <strong>1964&ndash;65</strong>, with <em>II</em> the later of the two), is the answer: the world&rsquo;s <strong>image of women</strong>. It is a stacked field of <strong>female nudes</strong>, re-painted, not pasted, from two sources at once, the soft-porn magazine and the old-master life-class tradition, set against the blue sky of an 18th-century English landscape garden (specifically the <strong>Pantheon at Stourhead</strong>, in Wiltshire).
+      </p>
+      <p style={proseStyle}>
+        The square canvas (about 125 by 125 cm) shows the women headless or anonymous, defined by their &ldquo;parts,&rdquo; interchangeable. The pairing flattens the supposed gap between the &ldquo;high&rdquo; art nude and the &ldquo;low&rdquo; pin-up, because <strong>both</strong>, the picture says, treat a woman as a thing to be looked at. Set side by side, the two canvases make a single sentence. In <em>I</em>, the men have <strong>names</strong>, achievements, slogans (&ldquo;I am the greatest&rdquo;). In <em>II</em>, the women have <strong>none</strong>: no names, no faces, no acts, just bodies. That contrast is the whole work. The men get to be people; the women get to be looked at. Boty is not adding women painters to Pop. She is using Pop&rsquo;s own raw material to ask why the line between person and object falls exactly where it does.
+      </p>
+    </article>
+  )
+}
+
+function ManLooking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The canvas" title="A crowd of the men who run the world" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he first fact about <em>It&rsquo;s a Man&rsquo;s World I</em> is sheer density. The tall canvas is <strong>packed</strong> with male faces and figures, dozens of them, each one a clipped or re-painted scrap of media tiled and overlapped into a single crowded field. There is no single subject to settle on, because the crowd <em>is</em> the subject. Read it as a ranking, an inventory of the world&rsquo;s men, in which every slot is filled by one. Genius, fame, power, and violence are all here, and all of them wear a man&rsquo;s face.
+      </p>
+
+      <SectionHeader accent={accent} label="The thinkers and the stars" title="Einstein and Elvis, openly admired" />
+      <p style={proseStyle}>
+        Among the crowd are the faces she knew by name. Here is <strong>Albert Einstein</strong> and the novelist <strong>Marcel Proust</strong>, the life of the mind. Beside them, the glamour: <strong>Elvis Presley</strong>; the Beatles <strong>John Lennon</strong> and <strong>Ringo Starr</strong>; the jazz pianist <strong>Thelonious Monk</strong>; the Italian film director <strong>Federico Fellini</strong> with the actor <strong>Marcello Mastroianni</strong>, the suave faces of 1960s cinema. These are not men Boty is sneering at. They are men she openly <strong>admired and desired</strong>, and the picture wears that admiration plainly. That doubleness is the heart of it: the canvas is at once a fan&rsquo;s love-letter to the men who make the things she loves <em>and</em> a flat statement that the making is entirely theirs.
+      </p>
+
+      <SectionHeader accent={accent} label="Power, violence, the jet" title="Lenin, the bomber, the Zapruder frame" />
+      <p style={proseStyle}>
+        Then the harder register sits lower. A <strong>Boeing B-52</strong>, the era&rsquo;s nuclear bomber, flies overhead, the hardware of the Cold War, set above a grand Italian estate. <strong>Lenin</strong> stands for revolution. And lifted into the field is one of the most loaded images of the decade: a frame of <strong>John F. Kennedy&rsquo;s assassination</strong>, taken from the <strong>Zapruder film</strong> (the amateur home-movie footage that captured the 1963 killing in Dallas). The world&rsquo;s men, the picture says without a word, also run its wars and order its deaths. The physical ideal joins them too, the boxer <strong>Muhammad Ali</strong> (who had changed his name from <strong>Cassius Clay</strong> in 1964, the very year of the painting) beside a classical <strong>Greek statue</strong> of <strong>Hermes</strong> holding the infant <strong>Dionysus</strong>. Strength and intellect and power, the full catalogue of male achievement, gathered onto one wall.
+      </p>
+
+      <SectionHeader accent={accent} label="The rose, and the uncertain faces" title="One soft note, and a few she leaves open" />
+      <p style={proseStyle}>
+        Threading through all the hardware is a recurring painted <strong>rose</strong>, Boty&rsquo;s signature soft, sensual motif, the one note on the canvas that is hers and not the world&rsquo;s, a quiet floral counter-voice running against the bombers and the statesmen. Behind the crowd rise grand architectural <strong>facades</strong>, the stately European frontages that read as inherited power, the world&rsquo;s rooms built and owned by its men.
+      </p>
+      <p style={proseStyle}>
+        A handful of figures in the field stay genuinely uncertain, and the estate that holds the work flags them as such, so it is worth pointing at them gently rather than over-naming them. There is a <strong>matador</strong> (probably the bullfighter <strong>El Cordobés</strong>); a second <strong>jazz musician</strong> the estate has not pinned down (names like <strong>Sonny Boy Williamson</strong> and <strong>Lester Young</strong> have been floated); an American <strong>Plains Indian</strong> in a warbonnet; and a uniformed <strong>military pilot</strong>. The estate&rsquo;s own source key keeps these open, so read them by type, the bullfighter, the unnamed jazzman, the warbonneted figure, the pilot, and leave the exact names loose. The named, certain figures, Einstein, Proust, Lenin, Elvis, the Beatles, Monk, Ali, Fellini and Mastroianni, the Kennedy frame, the bomber, the Hermes, carry the picture on their own.
+      </p>
+    </article>
+  )
+}
+
+function ManBreak({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The break · before" title="Pop put women on the canvas, not behind the brush" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>B</DropCap>
+        y <strong>1962&ndash;64</strong>, British Pop had a settled shape, and it was a man&rsquo;s shape. Hamilton, Paolozzi, Blake, Boshier, and Phillips were clipping ads, comics, film stars, and consumer imagery into a knowing celebration-and-critique of mass culture. Within that language, women appeared almost exclusively <strong>as imagery</strong>: Monroe&rsquo;s lips, the pin-up, the advertising body, the figure on the canvas to be looked at. The appropriated-media toolkit Pop had built was brilliant at consuming the female image and had no built-in place at all for a woman speaking about the <em>position</em> of women. The brush was a man&rsquo;s; the body on the canvas was hers.
+      </p>
+
+      <SectionHeader accent={accent} label="The break · after" title="A woman aims Pop’s own gaze back" />
+      <p style={proseStyle}>
+        Boty takes that exact toolkit, the appropriated, re-painted media image, the celebrity face, the deadpan field, and turns it back on the system that produced it. What makes the move sharp is that it comes from <em>inside</em>. She is not an outsider lobbing a critique at Pop; she is one of its founders, using the movement&rsquo;s own celebrated method against the world it flattered. <em>It&rsquo;s a Man&rsquo;s World I</em> names and ranks the men who run the world; <em>II</em> shows what that world does with women. And she did it <strong>before the vocabulary existed</strong>. Second-wave feminism had barely arrived in Britain: <strong>Nell Dunn&rsquo;s</strong> book of interviews with women, <em>Talking to Women</em>, came out in <strong>1965</strong>; <strong>Betty Friedan&rsquo;s</strong> <em>The Feminine Mystique</em> had only just reached the country. Boty was painting a fully feminist Pop argument years before there was a movement to name it. That this critique was then literally lost in a barn for thirty years is why it reads as a break recovered, rather than a break absorbed in its own time.
+      </p>
+
+      <SectionHeader accent={accent} label="The key statement" title="“Intellectually more clever than lots of men”" />
+      <p style={proseStyle}>
+        In the same year she finished the pair, Boty sat for one of those new interviews, with <strong>Nell Dunn</strong>, for the 1965 book <em>Talking to Women</em>. The line she gave there is the plainest gloss on the work she ever spoke:
+      </p>
+      <blockquote style={{ margin: '0 0 18px', padding: '4px 0 4px 18px', borderLeft: `3px solid ${accent}`, fontFamily: SERIF, fontSize: 18, lineHeight: 1.6, fontStyle: 'italic', color: INK }}>
+        <p style={{ margin: 0 }}>Lots of women are intellectually more clever than lots of men. But it&rsquo;s difficult for men to accept the idea.</p>
+      </blockquote>
+      <p style={proseStyle}>
+        That sentence is the two canvases in prose. The interview was recorded in <strong>1965</strong> and published by Nell Dunn the same year; it is the documented source for the line, and it is the cleanest thing Boty ever said about exactly the thing she painted. The men of <em>It&rsquo;s a Man&rsquo;s World I</em> are admitted to be admirable, clever, powerful, all of it. The quarrel is not with their gifts. It is with a world that cannot hold the obvious next thought, that women have the same gifts, and so it goes on letting men <em>be</em> people while women are only ever looked at. She painted the difficulty that sentence names, and gave the women in the answering canvas no faces at all.
+      </p>
+    </article>
+  )
+}
+
+function ManAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="1965–1966" title="A diagnosis, a daughter, and a death at 28" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        hen the story turns hard. In <strong>1965</strong>, at a routine pregnancy check-up, Boty was found to have a <strong>malignant thymoma</strong> (a cancerous tumour of the thymus gland, a small organ behind the breastbone, not leukemia, as the legend sometimes has it). Treating it would have required radiotherapy, and radiotherapy would have meant ending the pregnancy. She refused both. She carried her daughter, <strong>Katy</strong>, to term, gave birth in February <strong>1966</strong>, and died at the Royal Marsden on <strong>1 July 1966</strong>, age <strong>28</strong>. She had been a painter for only a few years.
+      </p>
+
+      <SectionHeader accent={accent} label="Provenance" title="A barn on a farm in Kent" />
+      <p style={proseStyle}>
+        Here is the work&rsquo;s life as an object, the <strong>provenance</strong> (the documented chain of who has owned a work of art, in order, from the artist&rsquo;s hand to where it sits now), and it is unlike any other in this set, because for thirty years the chain effectively stops. After Boty&rsquo;s death the bulk of her output, the two <em>Man&rsquo;s World</em> canvases among it, went into storage in a <strong>barn on her brother&rsquo;s farm in Kent</strong> and sat there, largely forgotten, for <strong>nearly thirty years</strong>. She was written almost entirely out of the history of British Pop. The paintings were not sold, not exhibited, not discussed. They were in a barn.
+      </p>
+
+      <SectionHeader accent={accent} label="c.1990–1993" title="Tracked down, and shown again" />
+      <p style={proseStyle}>
+        The recovery came late and from outside the family. Around <strong>1990</strong>, the curator <strong>David Alan Mellor</strong> sought out Boty&rsquo;s surviving relatives, located the stored work, and had it conserved; he then put it on the wall in his exhibition <em>The Sixties Art Scene in London</em> at the <strong>Barbican</strong> in <strong>1993</strong>. The scholar <strong>Dr. Sue Tate</strong> built the art-historical case that followed. Through the <strong>1990s and 2010s</strong>, the work re-entered view by way of exhibitions, Brighton in 1996&ndash;97, Christie&rsquo;s &ldquo;When Britain Went Pop&rdquo; in 2013, the Thyssen-Bornemisza in Madrid in 2014, Lugano in 2018, and the art market, settling largely into <strong>private hands</strong>. Both <em>Man&rsquo;s World</em> canvases remain in <strong>private collection</strong> today; neither has a recorded permanent museum home, and no purchase price is documented for either.
+      </p>
+      <p style={proseStyle}>
+        And the erasure became part of the work&rsquo;s meaning. A woman painted a pair of pictures about a world that let men be people and women be looked at, and then that world lost her pictures in a barn for three decades. The recovery did not just return some good paintings to the wall; it proved the argument the paintings were making. <em>It&rsquo;s a Man&rsquo;s World</em> reads now as a feminist Pop voice that arrived early, was buried, and had to be dug out, the last work in this whole run of Pop, and the one that turns Pop&rsquo;s own gaze back on the people who held the brush.
+      </p>
+    </article>
+  )
+}
+
+// REGISTRY (coordinator splices into NARRATIVES):
+//  'its-a-mans-world': { 'sole-sister': ManSoleSister, 'the-pair': ManThePair, looking: ManLooking, break: ManBreak, afterlife: ManAfterlife },
+
 const NARRATIVES: Record<string, Record<string, NarrativeFn>> = {
+  brillo: { factory: BrilFactory, making: BrilMaking, looking: BrilLooking, break: BrilBreak, afterlife: BrilAfterlife },
+  whaam: { source: WhamSource, making: WhamMaking, looking: WhamLooking, break: WhamBreak, afterlife: WhamAfterlife },
+  'floor-burger': { store: FlrStore, making: FlrMaking, looking: FlrLooking, break: FlrBreak, afterlife: FlrAfterlife },
+  'its-a-mans-world': { 'sole-sister': ManSoleSister, 'the-pair': ManThePair, looking: ManLooking, break: ManBreak, afterlife: ManAfterlife },
+
   'just-what-is-it': { tomorrow: JwiTomorrow, cutting: JwiCutting, looking: JwiLooking, break: JwiBreak, afterlife: JwiAfterlife },
   'rich-mans-plaything': { setting: RmpSetting, making: RmpMaking, looking: RmpLooking, reception: RmpReception, legacy: RmpLegacy },
   flag: { dream: FlgDream, making: FlgMaking, looking: FlgLooking, break: FlgBreak, afterlife: FlgAfterlife },
