@@ -177,6 +177,9 @@ export const ART_IMG = {
   oppenheimObject: 'https://upload.wikimedia.org/wikipedia/en/thumb/5/5d/Meret_Oppenheim._Object._Paris%2C_1936_-MoMA.png/330px-Meret_Oppenheim._Object._Paris%2C_1936_-MoMA.png',
   carringtonSelf: 'https://upload.wikimedia.org/wikipedia/en/e/ee/Self-Portrait_%28Inn_of_the_Dawn_Horse%29.jpg',
   tanguyDivis: 'https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Indefinite_Divisibility.jpg/500px-Indefinite_Divisibility.jpg',
+  // Histoire Naturelle (Ernst, 1926) is US-public-domain (pub. 1926) but absent from Wikimedia
+  // (EU copyright to 2047), so we self-host a faithful plate scan from the NGV. Basis: US PD.
+  ernstHistoire: '/art/ernst-histoire-fugitive.jpg',
   daliLobster: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Lobster_Telephone_Photo.jpg/500px-Lobster_Telephone_Photo.jpg',
   kahloTwoFridas: 'https://upload.wikimedia.org/wikipedia/en/f/f9/The_Two_Fridas.jpg',
   tanningBirthday: 'https://upload.wikimedia.org/wikipedia/en/thumb/4/4a/Dorothea_Tanning%2C_%22Birthday%22.jpg/500px-Dorothea_Tanning%2C_%22Birthday%22.jpg',
@@ -4351,7 +4354,7 @@ export const SURREALISM: ArtMovementContent = {
     { id: 'treachery', year: 1929, name: 'The Treachery of Images', artist: 'Magritte', place: 'Brussels', size: 'm', blurb: 'A carefully painted pipe over the tidy line “Ceci n’est pas une pipe,” this is not a pipe. The cleanest lesson in art about the gap between a word, an image, and the thing.', palette: ['#7a6a4a', '#3a3020', '#100c08'], imageUrl: ART_IMG.magrittePipe },
     { id: 'object-fur', year: 1936, name: 'Object (the fur teacup)', artist: 'Oppenheim', place: 'Paris', size: 'm', blurb: 'A teacup, saucer and spoon covered in gazelle fur, the genteel ritual of tea turned animal and faintly revolting. MoMA’s first acquisition of a work by a woman.', palette: ['#6a5038', '#3a2a1c', '#15100a'], imageUrl: ART_IMG.oppenheimObject },
     { id: 'carrington-self', year: 1938, name: 'Self-Portrait (Inn of the Dawn Horse)', artist: 'Carrington', place: 'Paris', size: 'm', blurb: 'The artist in jodhpurs with a lactating hyena beside her, a white rocking-horse floating behind her head, a real horse galloping out the window. A woman painting her own dream, not posing in a man’s.', palette: ['#3a5a4a', '#8a7a52', '#15140e'], imageUrl: ART_IMG.carringtonSelf },
-    { id: 'ernst-histoire', year: 1926, name: 'Histoire Naturelle (frottage)', artist: 'Ernst', place: 'Paris', size: 'm', blurb: 'Thirty-four “natural history” plates conjured by frottage: paper rubbed over grainy wood so leaves and creatures surface by chance. A field guide to things a floorboard dreamed up. (Under copyright; shown in words.)', palette: ['#5a4a2a', '#2a2218', '#0e0a06'] },
+    { id: 'ernst-histoire', year: 1926, name: 'Histoire Naturelle (frottage)', artist: 'Ernst', place: 'Paris', size: 'm', blurb: 'Thirty-four “natural history” plates conjured by frottage: paper rubbed over grainy wood so leaves and creatures surface by chance. A field guide to things a floorboard dreamed up.', palette: ['#5a4a2a', '#2a2218', '#0e0a06'], imageUrl: ART_IMG.ernstHistoire, credit: 'Ernst, The Fugitive (L’Évadé), plate 30 from Histoire Naturelle, 1926 · National Gallery of Victoria, Melbourne' },
     { id: 'tanguy-divis', year: 1942, name: 'Indefinite Divisibility', artist: 'Tanguy', place: 'New York', size: 'm', blurb: 'A vast, evenly lit nowhere-plain littered with smooth pale shapes like bones worn round by an invisible sea. The single landscape Tanguy painted for life.', palette: ['#5a6a6a', '#33403e', '#0e1412'], imageUrl: ART_IMG.tanguyDivis },
   ],
   artists: [
@@ -7411,5 +7414,353 @@ export const PERSISTENCE: ArtWorkContent = {
   },
 }
 
-export const ART_WORK_CONTENT: Record<string, ArtWorkContent> = { burial: BURIAL, demoiselles: DEMOISELLES, kahnweiler: KAHNWEILER, 'chair-caning': CHAIR_CANING, horta: HORTA, 'violin-jug': VIOLIN_JUG, 'three-women': THREE_WOMEN, 'the-portuguese': THE_PORTUGUESE, 'gris-breakfast': GRIS_BREAKFAST, 'three-musicians': THREE_MUSICIANS, 'stone-breakers': STONE_BREAKERS, studio: STUDIO, sower: SOWER, gleaners: GLEANERS, angelus: ANGELUS, gargantua: GARGANTUA, carriage: CARRIAGE, 'horse-fair': HORSE_FAIR, 'impression-sunrise': IMPRESSION_SUNRISE, grenouillere: GRENOUILLERE, cradle: CRADLE, 'moulin-galette': MOULIN_GALETTE, 'paris-street': PARIS_STREET, 'dance-class': DANCE_CLASS, absinthe: ABSINTHE, 'boating-party': BOATING_PARTY, 'gare-saint-lazare': GARE_SAINT_LAZARE, 'starry-night': STARRY_NIGHT, 'bedroom-arles': BEDROOM_ARLES, 'grande-jatte': GRANDE_JATTE, 'bathers-asnieres': BATHERS_ASNIERES, 'card-players': CARD_PLAYERS, 'mont-sainte-victoire-lauves': MONT_SAINTE_VICTOIRE_LAUVES, 'vision-sermon': VISION_SERMON, 'moulin-rouge': MOULIN_ROUGE, 'where-do-we-come-from': WHERE_DO_WE_COME_FROM, hat: WOMAN_WITH_A_HAT, 'green-stripe': GREEN_STRIPE, bonheur: BONHEUR, luxe: LUXE, 'open-window': OPEN_WINDOW, 'blue-nude': BLUE_NUDE, chatou: CHATOU, 'charing-cross': CHARING_CROSS, 'rue-pavoisee': RUE_PAVOISEE, 'city-rises': CITY_RISES, dog: DOG, galli: GALLI, cyclist: CYCLIST, 'unique-forms': UNIQUE_FORMS, farewells: FAREWELLS, 'bal-tabarin': BAL_TABARIN, automobile: AUTOMOBILE, 'abstract-speed': ABSTRACT_SPEED, fountain: FOUNTAIN, lhooq: LHOOQ, 'kitchen-knife': KITCHEN_KNIFE, 'mechanical-head': MECHANICAL_HEAD, 'hat-makes-man': HAT_MAKES_MAN, stieglitz: STIEGLITZ, celebes: CELEBES, 'sainte-vierge': SAINTE_VIERGE, daum: DAUM, 'song-of-love': SONG_OF_LOVE, harlequin: HARLEQUIN, 'masson-auto': MASSON_AUTO, treachery: TREACHERY, persistence: PERSISTENCE }
+export const OBJECT_FUR: ArtWorkContent = {
+  id: 'object-fur',
+  name: 'Object',
+  shortName: 'Object (fur teacup)',
+  year: 1936,
+  artist: 'Meret Oppenheim',
+  artistId: 'oppenheim',
+  movement: 'Surrealism',
+  movementId: 'sur',
+  era: 'Modern',
+  eraId: 'mod',
+  medium: 'Fur-covered cup, saucer, and spoon (Chinese gazelle fur)',
+  dimensions: 'cup 4 3/8 in across · saucer 9 3/8 in across · spoon 8 in long · overall height 2 7/8 in',
+  location: 'Museum of Modern Art, New York',
+  acquired: 'Purchase, 1946',
+  accent: ART_ACCENTS.green,
+  chain: { name: 'Works of Surrealism', index: 6, total: 9 },
+  hook: 'A teacup, saucer, and spoon wrapped in the speckled tan fur of a Chinese gazelle, so the cozy ritual of afternoon tea turns animal and faintly sickening: imagine the fur against your lip. MoMA visitors voted it the quintessential Surrealist object, and it made its 22-year-old maker famous overnight.',
+  heroImage: ART_IMG.oppenheimObject,
+  heroCredit: 'Oppenheim, Object, 1936 · MoMA, New York · in copyright, shown small under fair use; rights with the Oppenheim estate / ARS.',
+  heroAspect: 1.54, // the assembled set, wider than tall; never cropped
+  heroFit: 'contain',
+  rights: 'in-copyright',
+  stats: [
+    { v: '1936', k: 'Made (at 22)' },
+    { v: '3 pieces, 1 fur', k: 'Cup, saucer, spoon' },
+    { v: 'MoMA', k: 'Now at' },
+  ],
+  sections: [
+    { id: 'cafe', eyebrow: 'Paris · 1936', dateLabel: '1936', title: 'A fur bracelet, a café, and a dare', blurb: 'The story goes that Oppenheim was at a Paris café with Picasso and Dora Maar, wearing a fur-covered bracelet of her own design. The two of them admired it; Picasso joked you could cover anything in fur; she answered, “Even this cup and saucer?” Whether the line landed exactly that way or not, she went and made the cup.', progress: 0.08 },
+    { id: 'making', eyebrow: 'The making', dateLabel: '1936', title: 'Three things from a department store, and a pelt', blurb: 'No carving, no casting: she buys a plain cup, saucer, and spoon and wraps them in gazelle fur. And a note on the names, because three of them float around: Object is MoMA’s title; the famous French nickname, Luncheon in Fur, was coined by Breton, not by her.', progress: 0.30 },
+    { id: 'looking', eyebrow: 'The object', dateLabel: 'cup 4 3/8 in · saucer 9 3/8 in · spoon 8 in', title: 'Small, ordinary, and impossible to use', blurb: 'The whole tea service gone shaggy: cup, saucer, and spoon under one speckled tan fur; the lip you would drink from; the furred spoon (near twice the cup’s width) you can’t stir with; the way the fur cancels every function at once. And the shock of the scale: it is just a normal teacup.', progress: 0.54 },
+    { id: 'break', eyebrow: 'The break', dateLabel: '1936', title: 'The object becomes the sculpture', blurb: 'Sculpture used to mean a thing made, carved or modeled or cast. Object is bought and joined: a found-object assemblage where the artwork is the idea and the displacement, not the craft. And its content is a deliberate collision, the comfort of tea fused with the gag of fur in the mouth.', progress: 0.78 },
+    { id: 'afterlife', eyebrow: 'After', dateLabel: '1936–today', title: 'The fur cup, fame, and the trap of it', blurb: 'It travels to London, then to MoMA’s 1936–37 Surrealism show, where visitors crown it the quintessential Surrealist object and make Oppenheim instantly famous, a fame that boxed her in for decades. MoMA bought it; the work is the source of one of her best-known lines about taking your freedom.', progress: 0.96 },
+  ],
+  provenance: [
+    { year: '1936', who: 'Meret Oppenheim (the artist)', place: 'Paris', note: 'Made in Paris in 1936: an ordinary cup, saucer, and spoon (bought at a Paris department store) covered in Chinese gazelle fur. Shown that May at the Exposition surréaliste d’objets at the Charles Ratton gallery, Paris, the exhibition that formalized the Surrealist “object.”', price: null },
+    { year: '1936', who: 'London International Surrealist Exhibition', place: 'London', note: 'Traveled to the 1936 London International Surrealist Exhibition, where Alfred H. Barr Jr. of MoMA encountered it.', price: null },
+    { year: '1936–37', who: 'The Museum of Modern Art (exhibited)', place: 'New York', note: 'Shown in MoMA’s Fantastic Art, Dada, Surrealism (winter 1936–37), where visitors voted it the “quintessential Surrealist object.”', price: null },
+    { year: '1946–today', who: 'The Museum of Modern Art', place: 'New York', note: 'Credit line “Purchase,” acquisition dated 1946. Several sources note Barr bought it himself amid balking trustees; it entered MoMA’s study collection in 1946 and was formally accessioned into the permanent collection in 1963. MoMA’s public credit line still reads Purchase. The 1946 study-collection date is also the root of the widely-repeated “first work by a woman in MoMA’s collection” claim. On view.', price: 'Purchase (museum acquisition)', museum: true },
+  ],
+  figures: [
+    { name: 'Meret Oppenheim', role: 'The maker', palette: ['#6a5038', '#3a2a1c', '#15100a'] },
+    { name: 'André Breton', role: 'Surrealism’s founder; coined the French title', palette: ['#2e3a52', '#23303f', '#0c1018'] },
+    { name: 'Pablo Picasso', role: 'The café anecdote’s other half', palette: ['#5a4a3a', '#2a221c', '#0a0606'] },
+    { name: 'Dora Maar', role: 'Photographer; at the café table', palette: ['#5a6a52', '#39402e', '#12140e'] },
+    { name: 'Alfred H. Barr Jr.', role: 'MoMA director; brought it to New York', palette: ['#3a4a6a', '#2e3848', '#0e1220'] },
+  ],
+  annotations: [
+    { label: 'The fur swallows the whole set', where: 'All three pieces: cup, saucer, and spoon, each sheathed in the same speckled tan fur', detail: 'It is not one furred object but an entire tea service gone shaggy. Cup, saucer, and spoon are all wrapped in the same speckled tan fur of a Chinese gazelle, so the unity of a matched tea set survives, only now the matching material is pelt. That repetition is part of the unease: the fur is not an accident on one piece but a decision that has overtaken the place setting.' },
+    { label: 'The lip you would drink from', where: 'The rim of the cup, the edge that would meet your mouth', detail: 'Look at the lip of the cup, the edge you would actually drink from. That is where the whole queasy idea lives: fur meeting mouth, hair against the lip and the tongue. Porcelain belongs against the lips and fur belongs against skin, and the rim is where Oppenheim forces the two together. Most of the work’s force is bodily, and it is concentrated right here.' },
+    { label: 'The furred spoon', where: 'The spoon, its bowl and handle still legible under the fur', detail: 'The spoon’s shape stays readable beneath the pelt: you can still find the bowl and the handle. At 8 inches it runs nearly twice the cup’s width, a long thing for so small a cup. But a fur-coated spoon is the most useless of the three things, you can neither stir with it nor lift anything to your mouth. The fur does not disguise the spoon so much as defeat it, leaving the silhouette of a tool with the use stripped out.' },
+    { label: 'Use is denied, everywhere at once', where: 'The set as a whole: a cup that can’t hold tea cleanly, a saucer that can’t catch a drip, a spoon that can’t scoop', detail: 'The fur cancels every function in turn. A cup like this can’t hold tea without soaking; a saucer can’t catch a drip; a spoon can’t stir or scoop. It looks completely like a tea service and works like nothing. That total denial of use is the point of a Surrealist object: an everyday thing displaced just far enough that it stops being usable and starts being uncanny.' },
+    { label: 'Comfort and revulsion in one glance', where: 'The fur surface overall, soft and strokable at sight, sickening at the thought of the mouth', detail: 'The fur reads first as soft, strokable, even luxurious, the touch of a fine collar or muff. Then the mind places it in the mouth and the softness curdles into a small gag. Both responses fire almost at once, and the work holds them there. The disgust is not a flaw in the comfort; it is built on top of it, which is exactly why a cozy tea set is the right thing to fur.' },
+    { label: 'Small, ordinary, store-bought', where: 'The modest scale of the whole piece, a normal teacup under the pelt', detail: 'Note how modest it is. This is a normal-sized teacup, not a grand object, and the cup, saucer, and spoon underneath are plain store-bought goods. The unsettling charge comes from cheapness made strange, an everyday place setting turned uncanny, rather than from anything rare or grand. The disturbance is domestic, kitchen-scaled, which is part of why it sticks.' },
+  ],
+  lineage: {
+    parents: [
+      { label: 'Surrealism', mode: 'art' },
+      { label: 'Breton’s Surrealist object', mode: 'art' },
+      { label: 'Paris café culture', mode: 'civ' },
+    ],
+    children: [
+      { label: 'The found-object readymade tradition', mode: 'art' },
+      { label: 'Assemblage sculpture', mode: 'art' },
+      { label: 'Feminist readings of the body in the household object', mode: 'civ' },
+    ],
+  },
+}
+
+// ─────────────────────────────────────────────────────────────
+// Work, Self-Portrait (Inn of the Dawn Horse), Leonora Carrington, c.1937-38,
+// The Metropolitan Museum of Art (2002.456.1). IN COPYRIGHT (Carrington d.2011):
+// rights 'in-copyright', hero shown small/credited under fair use. DATE TRAP:
+// always "c.1937-38" in prose (Met's "ca. 1937-38"; begun London 1937, finished
+// Paris 1938); year:1938 is the sort field only. Dimensions match the Met exactly:
+// 65 x 81.2 cm = 25 9/16 x 32 in = 2 ft 1 9/16 in x 2 ft 8 in (do NOT round the
+// height to 1 5/8). The animal symbolism (hyena = wild kindred self, white horse =
+// freedom, rocking-horse = childhood) is SCHOLARLY READING, attributed softly, never
+// asserted as Carrington's stated fact. KEY STATEMENT = the muse refusal (Whitney
+// Chadwick source); the short form is the display quote, the longer "I thought it was
+// bullshit..." variant flagged. Max Ernst kept proportionate (it explains her entry
+// into Surrealism and the canvas's path to New York; this is HER self-portrait). Her
+// hair is DARK (the canvas shows dark hair; "red mane" is an unsourced overreach).
+// Chapter prose in art-section-reader.tsx NARRATIVES['carrington-self'] (Car… prefix).
+// ─────────────────────────────────────────────────────────────
+export const CARRINGTON_SELF: ArtWorkContent = {
+  id: 'carrington-self',
+  name: 'Self-Portrait',
+  shortName: 'Self-Portrait (Inn of the Dawn Horse)',
+  year: 1938,
+  artist: 'Leonora Carrington',
+  artistId: 'carrington',
+  movement: 'Surrealism',
+  movementId: 'sur',
+  era: 'Modern',
+  eraId: 'mod',
+  medium: 'Oil on canvas',
+  dimensions: '2 ft 1 9/16 in × 2 ft 8 in',
+  location: 'The Metropolitan Museum of Art',
+  acquired: 'The Pierre and Maria-Gaetana Matisse Collection, 2002 (2002.456.1)',
+  accent: ART_ACCENTS.green,
+  chain: { name: 'Works of Surrealism', index: 7, total: 9 },
+  hook: 'A 20-year-old woman paints herself in riding clothes in a locked dream-room, hand out to a lactating hyena, a rocking-horse floating on the wall and a real horse galloping free out the window: a female Surrealist as the dreamer, not the dreamed-of muse.',
+  heroImage: ART_IMG.carringtonSelf,
+  heroCredit: 'Carrington, Self-Portrait (Inn of the Dawn Horse), c.1937-38 · The Metropolitan Museum of Art · in copyright, shown small under fair use.',
+  heroAspect: 1.25, // 65 × 81.2 cm → W/H ≈ 1.25, landscape
+  heroFit: 'contain', // the whole canvas, never cropped
+  rights: 'in-copyright', // c.1937-38, Carrington d.2011; NOT public domain
+  stats: [
+    { v: 'c.1937–38', k: 'Painted' },
+    { v: '2′1⁹⁄₁₆″ × 2′8″', k: 'Dimensions' },
+    { v: 'The Met', k: 'Now at' },
+  ],
+  sections: [
+    { id: 'arrival', eyebrow: 'London → Paris · 1937–38', dateLabel: 'c.1937–38', title: 'A runaway debutante picks up a brush', blurb: 'At about twenty, a rebellious daughter of a wealthy Lancashire textile family has just walked out of that life, met the Surrealist painter Max Ernst, and crossed to France. She begins this canvas in London and finishes it in Paris, a participant in Surrealism from the start, not a bystander.', progress: 0.08 },
+    { id: 'making', eyebrow: 'The making', dateLabel: 'c.1937–38', title: 'A dream-room, furnished from her own head', blurb: 'Not a record of a real room. Carrington builds an enclosed interior and fills it with a private bestiary, the same creatures that walk through her stories of these years, painted with a flat, exact, storybook clarity that asks you to believe it.', progress: 0.32 },
+    { id: 'looking', eyebrow: 'The canvas', dateLabel: '2 ft 1 9/16 in × 2 ft 8 in', title: 'What is in the room', blurb: 'Carrington on the edge of a blue chair in white riding clothes, wild dark hair, one hand reaching toward a spotted hyena with heavy teats and human eyes; a white rocking-horse floating on the wall behind her, and through the curtain a white horse galloping free.', progress: 0.56 },
+    { id: 'break', eyebrow: 'The break', dateLabel: 'Surrealism', title: 'The dreamer, not the dream', blurb: 'In most Surrealism the woman is the object, the muse, the dreamed-of body men paint. Here a young woman Surrealist paints her own dream-symbolism and her own animal-kin self, in androgynous clothes, staring back: the seer, not the seen.', progress: 0.78 },
+    { id: 'afterlife', eyebrow: 'After', dateLabel: '1939–today', title: 'The escape it predicted came true', blurb: 'War broke, Ernst was interned, Carrington fled to Spain and a breakdown, then reached Mexico in 1942 to become a central figure of its Surrealism. The canvas she left behind travelled to New York with Ernst and ended, in 2002, at the Met.', progress: 0.96 },
+  ],
+  // Provenance: endpoints firm (Carrington/Ernst → Met 2002, 2002.456.1, credit
+  // line verbatim). The Pierre Matisse handoff is "after December 1942" per the
+  // factpack, so stated as approximate. No prices known or asserted.
+  provenance: [
+    { year: 'c.1938–1941', who: 'Leonora Carrington, then Max Ernst', place: 'France', note: 'Carrington left the painting with Ernst in France at the outbreak of the Second World War, when she fled the country.', price: null },
+    { year: '1941', who: 'Max Ernst', place: 'New York', note: 'Ernst carried the canvas to New York when he emigrated to the United States in 1941.', price: null },
+    { year: 'after 1942', who: 'Pierre Matisse (dealer)', place: 'New York', note: 'Ernst gave it to the art dealer Pierre Matisse (youngest son of Henri Matisse), reportedly after December 1942.', price: null },
+    { year: '1989', who: 'Maria-Gaetana Matisse', place: 'New York', note: 'Passed to his widow, Maria-Gaetana (Tana) Matisse, on Pierre Matisse&rsquo;s death in 1989.', price: null },
+    { year: '2002–today', who: 'The Metropolitan Museum of Art', place: 'New York', note: 'Given by the Pierre and Maria-Gaetana Matisse Foundation. Credit line: The Pierre and Maria-Gaetana Matisse Collection, 2002. Accession 2002.456.1. On view in the Modern wing.', price: null, museum: true },
+  ],
+  figures: [
+    { name: 'Leonora Carrington', role: 'The painter, age ~20 (her own self-portrait)', palette: ['#3a5a4a', '#8a7a52', '#15140e'] },
+    { name: 'The female hyena', role: 'Her animal-kin self (the scholars&rsquo; reading)', palette: ['#7a6a4a', '#3a3020', '#100c08'] },
+    { name: 'The white horse', role: 'Freedom, out the window (the scholars&rsquo; reading)', palette: ['#d8d2c4', '#6a7250', '#14140e'] },
+    { name: 'Max Ernst', role: 'Lover · carried it to New York', palette: ['#8a6b3a', '#3a2e1c', '#0e0a06'] },
+    { name: 'Whitney Chadwick', role: 'Historian · the muse quote', palette: ['#3a4a6a', '#2e3848', '#0e1220'] },
+  ],
+  annotations: [
+    { label: 'The spotted hyena, facing her', where: 'Lower center, between Carrington and the viewer, turned toward her', detail: 'A striped, spotted hyena stands in front of the chair, its head turned up toward Carrington and mirroring her outstretched hand. Look at two things: its eyes, which are unsettlingly human, and the row of heavy, pendulous teats along its belly, which read as engorged or lactating. Scholars read this female hyena as Carrington&rsquo;s self-surrogate, the wild, sexually-ambiguous animal she chose to stand for herself (the same creature stars in her story The Debutante of these years, where a hyena takes a young woman&rsquo;s place at a society ball). That reading is interpretation, well attested and reasonable, not a meaning Carrington stated about this canvas.' },
+    { label: 'The white rocking-horse, floating on the wall', where: 'Behind and above her head, hung against the back wall', detail: 'A pale rocking-horse, a child&rsquo;s toy, hangs weightless on the wall behind her, with no rockers touching any floor. It floats. Scholars tie it to childhood and to Carrington&rsquo;s own play Pénélope, about a girl in love with a rocking horse. Whatever it points to, on the canvas it simply hovers, the first sign that this room obeys dream-rules and not gravity.' },
+    { label: 'The white horse galloping outside', where: 'Through the parted curtain at the right, out in the open landscape', detail: 'Past a curtained window, set deliberately outside the enclosed room, a white horse runs free across a green landscape. It rhymes with the still rocking-horse indoors, the captive toy and the loose animal, and is widely read as Carrington&rsquo;s image of liberty and escape, placed pointedly beyond the walls she has painted herself inside of.' },
+    { label: 'Carrington in riding clothes', where: 'The seated central figure, dressed in pale jodhpurs and jacket', detail: 'She wears white jodhpurs (close-fitting riding breeches) and a jacket: androgynous riding dress, not the eroticized female nude that fills so much Surrealist painting. The choice is the argument. She presents herself as a rider, poised to move, clothed in her own terms rather than arranged as an object of desire.' },
+    { label: 'Her wild dark hair', where: 'Framing her face, loose and untamed', detail: 'A loose, untamed mane of dark hair springs out around her head and visually rhymes with the coats of the animals around her. The human figure and her bestiary are braided together by the paint itself, her hair answering the hyena&rsquo;s bristle and the horses&rsquo; manes.' },
+    { label: 'The blue chair', where: 'The seat beneath her, near the corner of the room', detail: 'She perches on the very front edge of a blue armchair rather than settling back into it, knees together, body tipped forward and alert. It is a domestic seat in a domestic room, and she sits in it like someone about to stand up and leave. The unease is the point: this is an interior she looks ready to walk out of.' },
+  ],
+  lineage: {
+    parents: [
+      { label: 'Surrealist painting', mode: 'art' },
+      { label: 'Max Ernst', mode: 'art' },
+      { label: 'de Chirico’s dream-interiors', mode: 'art' },
+      { label: 'An aristocratic life she fled', mode: 'civ' },
+    ],
+    children: [
+      { label: 'Mexican Surrealism', mode: 'art' },
+      { label: 'Women Surrealists as authors', mode: 'art' },
+      { label: 'The female dream-self in paint', mode: 'art' },
+    ],
+  },
+}
+
+// ─────────────────────────────────────────────────────────────
+// Work, Indefinite Divisibility (Divisibilité indéfinie), Yves Tanguy, 1942,
+// oil on canvas, 101.6 × 88.9 cm (40 × 35 in / 3 ft 4 in × 2 ft 11 in), upright
+// (portrait) canvas, Buffalo AKG Art Museum (formerly the Albright-Knox Art
+// Gallery; the Albright Art Gallery at acquisition), acc. RCA1945:2. American-
+// period Surrealist "dream landscape." Authored through the art content pipeline
+// (fact pack → Opus → 5 gates → revise). Chapter prose in art-section-reader.tsx
+// NARRATIVES['tanguy-divis'] (Tan… prefix). FACT HANDLING:
+// (1) RIGHTS in-copyright — 1942 work, Tanguy d.1955; © Estate of Yves Tanguy /
+// Artists Rights Society (ARS), New York; shown small under fair use, NOT pd-us.
+// (2) The invented forms are NON-REFERENTIAL per Tanguy and the AKG ("without
+// employing direct references to the real world"); "machine"/"marble-run"/"totem"
+// are third-party analogies (Artchive), phrased "reads like," never "is/depicts."
+// (3) Title pairing is the museum's own: Divisibilité indéfinie = Indefinite
+// Divisibility (indéfinie = "indefinite," not "infinie"/"infinite").
+// (4) Dimensions ft/in only; 101.6 cm is HEIGHT, 88.9 cm WIDTH (taller than wide;
+// the AKG's "89 cm" is a rounding of 88.9). (5) KEY STATEMENT = Tanguy's "the
+// painting develops before my eyes" method statement, attributed to Tanguy; the
+// original publication is unverified in the sources, so NO specific venue/date is
+// asserted (named as a documented statement of method, source-uncertainty flagged).
+// (6) One institution, three names over time (Albright Art Gallery 1945 → Albright-
+// Knox → Buffalo AKG, renamed 2023); never presented as different museums.
+// (7) Provenance: Pierre Matisse Gallery, NY → Albright Art Gallery June 22, 1945,
+// via the Room of Contemporary Art Fund; no prices in the record used here.
+// ─────────────────────────────────────────────────────────────
+export const TANGUY_DIVIS: ArtWorkContent = {
+  id: 'tanguy-divis',
+  name: 'Indefinite Divisibility',
+  shortName: 'Indefinite Divisibility',
+  year: 1942,
+  artist: 'Yves Tanguy',
+  artistId: 'tanguy',
+  movement: 'Surrealism',
+  movementId: 'sur',
+  era: 'Modern',
+  eraId: 'mod',
+  medium: 'Oil on canvas',
+  dimensions: '3 ft 4 in × 2 ft 11 in',
+  location: 'Buffalo AKG Art Museum',
+  acquired: 'Room of Contemporary Art Fund, 1945',
+  accent: ART_ACCENTS.green,
+  chain: { name: 'Works of Surrealism', index: 9, total: 9 },
+  hook: 'A vast, evenly lit nowhere-plain under a high horizon, littered with smooth pale objects that look like bone and stone and polished metal but match nothing on Earth, a wholly invented inner landscape painted with the hard, deep-shadowed precision of a thing actually seen.',
+  heroImage: ART_IMG.tanguyDivis,
+  heroCredit: 'Tanguy, Indefinite Divisibility, 1942 · Buffalo AKG Art Museum · © Estate of Yves Tanguy / ARS, New York · shown small under fair use',
+  heroAspect: 0.85, // 101.6 × 88.9 cm → W/H ≈ 0.87, an upright (portrait) canvas
+  heroFit: 'contain', // the whole canvas, never cropped
+  rights: 'in-copyright',
+  stats: [
+    { v: '1942', k: 'Painted' },
+    { v: '3′4″ × 2′11″', k: 'Dimensions' },
+    { v: 'Buffalo AKG', k: 'Now at' },
+  ],
+  sections: [
+    { id: 'world', eyebrow: 'Woodbury, Connecticut · 1942', dateLabel: '1942', title: 'One invented world, painted over and over', blurb: 'A self-taught painter who, by his own account, saw a de Chirico in a Paris window around 1923 and turned to painting builds a single deserted plain, scattered with smooth invented objects, and paints versions of it for the rest of his life. By 1942 he is an émigré in America, married to the painter Kay Sage.', progress: 0.08 },
+    { id: 'making', eyebrow: 'The making', dateLabel: '1942', title: 'A place that exists nowhere, painted as fact', blurb: 'Hard-edged, almost academic modeling, convincing weight, convincing recession, long cast shadows, all of it spent on objects that refer to nothing real. The whole effort goes into making a wholly fictitious scene read as a documented site, an American-period picture lit by the wide empty light of the New World.', progress: 0.30 },
+    { id: 'break', eyebrow: 'The break', dateLabel: '1942', title: 'Abstraction that looks real', blurb: 'A landscape used to depict a place, real or plausibly assembled from real things. Tanguy keeps the illusionistic finish of academic painting and pours it into a landscape that is wholly invented: the dream made to look like an observed fact, not a sketch or a smear.', progress: 0.54 },
+    { id: 'looking', eyebrow: 'The canvas', dateLabel: '3 ft 4 in × 2 ft 11 in', title: 'The stacked forms and the airless plain', blurb: 'The tall central pile-up of smooth shapes, the bone-and-stone objects scattered across the floor, their long hard shadows, the high horizon opening an endless desert distance, and the still, oppressive light with no visible sun. Plus the key statement: Tanguy on letting the painting surprise him.', progress: 0.78 },
+    { id: 'afterlife', eyebrow: 'After', dateLabel: '1942–today', title: 'The plain that everyone has seen since', blurb: 'Bought by the Albright Art Gallery (now the Buffalo AKG) in 1945, three years after it was made, from the Pierre Matisse Gallery, and held ever since. The invented-yet-solid object on an empty plain becomes a template for illusionistic Surrealism and, after it, a century of fantastic and science-fiction imagery.', progress: 0.96 },
+  ],
+  provenance: [
+    { year: '1942', who: 'Yves Tanguy (the artist)', place: 'Woodbury, Connecticut', note: 'Painted in 1942, about three years after Tanguy emigrated to the United States in 1939 and two years after his 1940 marriage to the American Surrealist painter Kay Sage. Handled by his American dealer.', price: null },
+    { year: '1942–1945', who: 'Pierre Matisse Gallery', place: 'New York', note: 'Tanguy’s New York dealer (a son of Henri Matisse), the gallery through which most of his American work reached collectors and museums.', price: null },
+    { year: '1945–today', who: 'Buffalo AKG Art Museum (then the Albright Art Gallery)', place: 'Buffalo, New York', note: 'Sold by the Pierre Matisse Gallery to the Albright Art Gallery on June 22, 1945, through the museum’s Room of Contemporary Art Fund, just three years after the picture was made. Accession RCA1945:2. The institution has since been renamed twice (Albright-Knox Art Gallery, then Buffalo AKG Art Museum in 2023); it is one museum, not three. The painting has stayed in the collection ever since.', price: 'Room of Contemporary Art Fund', museum: true },
+  ],
+  figures: [
+    { name: 'Yves Tanguy', role: 'The painter', palette: ['#5a6a6a', '#33403e', '#0e1412'] },
+    { name: 'Kay Sage', role: 'His wife · Surrealist painter', palette: ['#6a6354', '#39322a', '#120f0c'] },
+    { name: 'Giorgio de Chirico', role: 'The window painting that started him', palette: ['#3a4a6a', '#2e3848', '#0e1220'] },
+    { name: 'André Breton', role: 'Led the Surrealist circle he joined', palette: ['#4a5a3a', '#2a2a1c', '#0e0e08'] },
+    { name: 'Pierre Matisse', role: 'His New York dealer', palette: ['#5a4a3a', '#2a221c', '#0a0606'] },
+  ],
+  annotations: [
+    { label: 'The central stacked pile-up', where: 'Near the middle of the picture, the tall vertical assembly of smooth forms that rises higher than anything else', detail: 'A column of smooth, balanced shapes climbs near the center of the composition, piled and stacked so that it dominates the foreground and anchors the whole empty plain. It reads, to different viewers, like a totem, like a piece of invented machinery, even like a child’s marble-run, and those are viewers’ analogies, not the thing itself. Tanguy’s method is invention without a real-world source, so the honest description is what it does, not what it is: it is a tall stack of pale, modeled forms that corresponds to no nameable object, giving the deserted plain a single dominant event.' },
+    { label: 'The bone-and-stone objects', where: 'Scattered low across the plain, the smaller pale shapes resting on the ground around and below the central stack', detail: 'Across the floor of the scene lie smaller objects with the pale, rounded, weathered look of bones, pebbles, or worn stones, organic-seeming and smooth as if shaped by an invisible sea. Each is modeled with real volume and weight. None of them is actually a bone or a stone; they only resemble such things. They are invented, indeterminate forms, solid-looking and unidentifiable at once, which is exactly the effect Tanguy was after.' },
+    { label: 'The long, hard cast shadows', where: 'Stretching across the empty floor from the base of every form, dark and sharp-edged', detail: 'Each form throws a long, dark, hard-edged shadow across the floor of the plain, raked as if by a low, steady light. Those shadows are what make the invented objects feel physically present: they fix each shape to the ground and give it a place in real space. The device of deep, theatrical shadow on an empty plain is one Tanguy carried from Giorgio de Chirico, the painter whose dream-piazzas first turned him toward art.' },
+    { label: 'The high horizon and the endless distance', where: 'The line far back and high in the picture where the ground meets the sky', detail: 'The ground recedes a long way back to a horizon set high in the composition, opening an enormous, empty, desert-like distance behind the forms. The museum describes the effect plainly: the space appears infinite, like an endless desert. The high horizon is what gives the picture its sense of a vast nowhere, a plain that runs on past the edge of anything the eye can hold.' },
+    { label: 'The airless light with no sun', where: 'Across the whole scene, the even, sourceless glow that fills the plain', detail: 'The atmosphere reads as still and heavy, dense and oppressive, and yet the plain is bathed in a strong, warming light. No sun is visible anywhere. The light comes from nowhere and lands evenly, the way light behaves in a dream rather than in a landscape, and the air feels windless and lifeless. That sourceless, oppressive glow is a large part of why the scene feels unreal even as every object in it is painted as solidly as a stone.' },
+    { label: 'The illusionistic finish itself', where: 'Everywhere; the smooth, hard, modeled surface of every form', detail: 'The technique itself is the argument. The forms are rendered with smooth, hard, almost academic modeling, the gradual shading that makes a painted object look like a rounded solid you could pick up. The precision is the whole point of the picture. It is what makes a scene that exists nowhere read as an observed, documented place, and it is the thing that separates Tanguy from the loose, smeared, automatic wing of Surrealism.' },
+  ],
+  lineage: {
+    parents: [
+      { label: 'Giorgio de Chirico', mode: 'art' },
+      { label: 'Surrealism', mode: 'art' },
+      { label: 'Tanguy’s American exile', mode: 'civ' },
+    ],
+    children: [
+      { label: 'Illusionistic Surrealism', mode: 'art' },
+      { label: 'Biomorphic abstraction', mode: 'art' },
+      { label: 'Science-fiction and fantastic imagery', mode: 'art' },
+    ],
+  },
+}
+
+// ─────────────────────────────────────────────────────────────
+// Work, Histoire Naturelle (Natural History), Max Ernst, 1926. Portfolio of 34
+// collotypes (phototypie) AFTER frottage — photomechanical reproductions of
+// Ernst's pencil-rubbing drawings, NOT a single painting and NOT the original
+// rubbings. Frottages executed 1925 (technique discovered 10 Aug 1925, on the
+// floorboards of a seaside inn at Pornic); portfolio published 1926, Paris, by
+// Galerie Jeanne Bucher, preface by Hans (Jean) Arp. Edition ~300 (+6 hors-
+// commerce). Authored through the art content pipeline (fact pack → Opus → 5
+// gates → reconcile + revise). Chapter prose in art-section-reader.tsx NARRATIVES
+// ['ernst-histoire'] (Ern… prefix). FACT HANDLING (gate-guarded):
+//   • frottage = RUBBING a pencil over paper laid on a textured surface; grattage
+//     (1927) = SCRAPING wet paint — do NOT blur the two. This is frottage.
+//   • the plates are collotype REPRODUCTIONS after frottage, not "34 frottages."
+//   • the hero is one representative plate, The Fugitive (L'Évadé), plate 30,
+//     held by the National Gallery of Victoria, Melbourne; the looking section
+//     describes that plate. Confirmed exactly vs NGV (work 152522, acc. 2023.758.30).
+//   • KEY STATEMENT = Ernst's own account of the floorboard discovery from
+//     "Beyond Painting" (Au-delà de la peinture, 1936; English ed. Motherwell,
+//     Wittenborn, Schultz, 1948), quoted verbatim with a translation-variant flag.
+//   • chance was NOT new to the avant-garde (Dada/Arp used it a decade earlier);
+//     frottage's break is the REPEATABLE drawing-based method, not chance per se.
+//   • PD-US only (published 1926); in copyright France/EU to 2047, so no Commons
+//     asset — rights: 'pd-us' is the US status, not a hosting license.
+// ─────────────────────────────────────────────────────────────
+export const ERNST_HISTOIRE: ArtWorkContent = {
+  id: 'ernst-histoire',
+  name: 'Histoire Naturelle',
+  shortName: 'Histoire Naturelle',
+  year: 1926,
+  artist: 'Max Ernst',
+  artistId: 'ernst',
+  movement: 'Surrealism',
+  movementId: 'sur',
+  era: 'Modern',
+  eraId: 'mod',
+  medium: 'Portfolio of 34 collotypes after frottage',
+  dimensions: '10 1/4 in × 16 3/4 in (each plate, orientation varies)',
+  location: 'Edition of ~300; examples at MoMA, Tate, the National Gallery of Victoria and elsewhere',
+  acquired: 'A published portfolio, not a unique object; examples held across major print rooms, our hero plate at the National Gallery of Victoria, Melbourne',
+  accent: ART_ACCENTS.green,
+  chain: { name: 'Works of Surrealism', index: 8, total: 9 },
+  hook: 'A mock natural-history atlas whose 34 plates were not drawn but rubbed: pencil dragged over the grain of old floorboards until forests, feathers and staring eyes surfaced out of pure chance, and Ernst, who called himself a spectator of his own pictures, simply read them out.',
+  heroImage: ART_IMG.ernstHistoire,
+  heroCredit: 'Ernst, The Fugitive (L’Évadé), plate 30 from Histoire Naturelle, 1926 · National Gallery of Victoria, Melbourne',
+  heroAspect: 1.63, // a single landscape plate, ~26 × 42.5 cm → W/H ≈ 1.63
+  heroFit: 'contain', // the whole plate, never cropped
+  rights: 'pd-us',
+  stats: [
+    { v: '1925–26', k: 'Made / published' },
+    { v: '34 plates', k: 'Collotypes after frottage' },
+    { v: 'Jeanne Bucher', k: 'Published by' },
+  ],
+  sections: [
+    { id: 'floorboards', eyebrow: 'Pornic · 10 Aug 1925', dateLabel: '10 Aug 1925', title: 'The rainy night the floor started drawing', blurb: 'Stuck in a seaside inn on a wet evening, Ernst is transfixed by the grooved floorboards of his room, lays paper over them, rubs a pencil across, and watches the wood grain turn into images. A childhood vision in a panel of false mahogany had primed him for it. Frottage, as a deliberate method, is born.', progress: 0.08 },
+    { id: 'method', eyebrow: 'The making', dateLabel: '1925–1926', title: 'A pencil, a grainy surface, and a reader of accident', blurb: 'What frottage is, plainly: rub a soft pencil over paper laid on grained wood, leaves, sacking, breadcrust, until chance patterns surface, then read creatures and landscapes into them. Ernst gathers the drawings into a mock scientific atlas, and in 1926 Jeanne Bucher publishes 34 collotype reproductions, with a preface by Arp.', progress: 0.30 },
+    { id: 'looking', eyebrow: 'The plate', dateLabel: '10 1/4 in × 16 3/4 in', title: 'The Fugitive: an eye on a wheel, floating over wood', blurb: 'One representative plate, The Fugitive (L’Évadé), plate 30: a spoked disc like an eye or a wheel set into a finned, whiskered body, floating over a cross-hatched wood-grain ground, all in soft graphite-gray rubbing. Trace the grain and you are looking at floorboard, not landscape.', progress: 0.52 },
+    { id: 'break', eyebrow: 'The break', dateLabel: '1925', title: 'When the image stopped coming from the hand', blurb: 'For centuries a drawing was something the artist invented and executed; the marks came from the will. Frottage moves the image-source out into the chance texture of the world and turns the artist into someone who reads accident rather than inventing form, the visual cousin of Surrealist automatic writing.', progress: 0.76 },
+    { id: 'afterlife', eyebrow: 'After', dateLabel: '1926–today', title: 'The grain that ran forward into Surrealism', blurb: 'A 300-copy edition that scattered into the world’s print rooms, the proof-of-concept for chance and found texture as a repeatable engine for fine art. The line runs on to grattage, décalcomania, and the automatist abstraction that followed, with Ernst recast from author to spectator of his own pictures.', progress: 0.96 },
+  ],
+  provenance: [
+    { year: '1925', who: 'Max Ernst (the artist)', place: 'Pornic / Paris', note: 'Frottages executed in 1925, the technique discovered on 10 August 1925 on the floorboards of a seaside inn at Pornic. The original rubbings are separate works; the portfolio reproduces a selection of them.', price: null },
+    { year: '1926', who: 'Galerie Jeanne Bucher (publisher)', place: 'Paris', note: 'Published the portfolio in 1926 as 34 collotypes (phototypie) after frottage, with a preface by Hans (Jean) Arp. An edition of about 300 (plus 6 hors-commerce), printed on Japan and vellum papers; all but the hors-commerce copies signed by the artist.', price: null },
+    { year: '1926–today', who: 'Museum print rooms worldwide', place: 'New York · London · Melbourne · elsewhere', note: 'As a published edition, examples are held across major institutions: the Museum of Modern Art, New York (full portfolio, plus plates catalogued individually), Tate, London, the National Gallery of Victoria, Melbourne (which holds the plate shown here, The Fugitive), and German Ernst collections at Bonn and Brühl. Numbered copies still circulate at auction. No single acquisition; no canonical price.', price: null, museum: true },
+  ],
+  figures: [
+    { name: 'Max Ernst', role: 'The artist', palette: ['#5a5346', '#332e26', '#12100c'] },
+    { name: 'Hans (Jean) Arp', role: 'Wrote the preface', palette: ['#6a6354', '#39322a', '#120f0c'] },
+    { name: 'Jeanne Bucher', role: 'Published the portfolio', palette: ['#5a6a72', '#2e3a42', '#0e1014'] },
+    { name: 'André Breton', role: 'Led the Surrealists; automatism', palette: ['#3a4a6a', '#2e3848', '#0e1220'] },
+    { name: 'Sigmund Freud', role: 'The unconscious frottage taps', palette: ['#6a5a3a', '#332820', '#0e0a06'] },
+  ],
+  annotations: [
+    { label: 'The spoked eye, or wheel', where: 'Upper center of the plate, the round disc with radiating spokes set into the creature’s body', detail: 'The plate’s engine: a circular disc crossed by radiating spokes, so it reads at once as a single staring eye and as a wheel. The single eye is a recurring motif across the portfolio. Look at how the spokes are not drawn so much as found, ridges of rubbed graphite that the eye assembles into a rim and hub. Whether it is eye or wheel is left for you; the picture lets it flip between the two.' },
+    { label: 'The finned creature-body', where: 'Wrapped around and below the disc, the soft tapering form the “eye” sits inside', detail: 'The disc is lodged in a body: a fish-or-beast shape, finned and tapering, that gives the floating eye a creature to belong to. It is the “organism” the deadpan title (The Fugitive) asks you to read it as, a specimen in Ernst’s invented natural history. Nothing here is observed from life; the body is grain coaxed into anatomy.' },
+    { label: 'The whisker and blade forms', where: 'Springing out from the body, the thin curved spines and leaf-like blades around the creature', detail: 'Fine whisker-like spines and longer blade or feather shapes radiate from the body. Trace any one of them and it dissolves back into the parallel striations of the wood it was rubbed from. This is the portfolio’s vocabulary, leaves, feathers, stalks, antennae, all conjured from the same grain.' },
+    { label: 'The cross-hatched wood-grain ground', where: 'The whole field behind the creature, the striated, cross-hatched ground it floats over', detail: 'The “sky” or “ground” the creature floats over is the literal rubbing of grained, cross-hatched wood, the floorboard itself surfacing as texture. Follow the parallel striations and you are looking at the seam between board and image: it is landscape and lumber at the same time, and the picture never quite lets you forget the second.' },
+    { label: 'Frottage, the method itself', where: 'Everywhere, in the soft, even, graphite-gray rubbing that builds every form on the plate', detail: 'There is no outline, no hand-laid shading, no observed contour anywhere on the sheet. Every form is built from pencil dragged over a textured surface (frottage, from the French frotter, “to rub”) and then nudged into legibility. The “drawing” is found, not laid down, the accident does the drawing.' },
+    { label: 'It is a reproduction, and it shows', where: 'In the even, slightly velvety tone of the print, with none of the bite of an engraved line', detail: 'The plate has the smooth, faintly velvety tonality of a collotype, a photomechanical print, rather than the tooth of an original graphite rubbing or the bite of an etched line. Histoire Naturelle publishes the frottages; it is not the rubbings. What you are looking at is a photograph of a drawing, printed.' },
+  ],
+  lineage: {
+    parents: [
+      { label: 'Dada collage', mode: 'art' },
+      { label: 'Surrealist automatism', mode: 'art' },
+      { label: 'Chance and the unconscious', mode: 'civ' },
+    ],
+    children: [
+      { label: 'Grattage and décalcomania', mode: 'art' },
+      { label: 'Automatist abstraction', mode: 'art' },
+      { label: 'Chance as a method in art', mode: 'civ' },
+    ],
+  },
+}
+
+export const ART_WORK_CONTENT: Record<string, ArtWorkContent> = { burial: BURIAL, demoiselles: DEMOISELLES, kahnweiler: KAHNWEILER, 'chair-caning': CHAIR_CANING, horta: HORTA, 'violin-jug': VIOLIN_JUG, 'three-women': THREE_WOMEN, 'the-portuguese': THE_PORTUGUESE, 'gris-breakfast': GRIS_BREAKFAST, 'three-musicians': THREE_MUSICIANS, 'stone-breakers': STONE_BREAKERS, studio: STUDIO, sower: SOWER, gleaners: GLEANERS, angelus: ANGELUS, gargantua: GARGANTUA, carriage: CARRIAGE, 'horse-fair': HORSE_FAIR, 'impression-sunrise': IMPRESSION_SUNRISE, grenouillere: GRENOUILLERE, cradle: CRADLE, 'moulin-galette': MOULIN_GALETTE, 'paris-street': PARIS_STREET, 'dance-class': DANCE_CLASS, absinthe: ABSINTHE, 'boating-party': BOATING_PARTY, 'gare-saint-lazare': GARE_SAINT_LAZARE, 'starry-night': STARRY_NIGHT, 'bedroom-arles': BEDROOM_ARLES, 'grande-jatte': GRANDE_JATTE, 'bathers-asnieres': BATHERS_ASNIERES, 'card-players': CARD_PLAYERS, 'mont-sainte-victoire-lauves': MONT_SAINTE_VICTOIRE_LAUVES, 'vision-sermon': VISION_SERMON, 'moulin-rouge': MOULIN_ROUGE, 'where-do-we-come-from': WHERE_DO_WE_COME_FROM, hat: WOMAN_WITH_A_HAT, 'green-stripe': GREEN_STRIPE, bonheur: BONHEUR, luxe: LUXE, 'open-window': OPEN_WINDOW, 'blue-nude': BLUE_NUDE, chatou: CHATOU, 'charing-cross': CHARING_CROSS, 'rue-pavoisee': RUE_PAVOISEE, 'city-rises': CITY_RISES, dog: DOG, galli: GALLI, cyclist: CYCLIST, 'unique-forms': UNIQUE_FORMS, farewells: FAREWELLS, 'bal-tabarin': BAL_TABARIN, automobile: AUTOMOBILE, 'abstract-speed': ABSTRACT_SPEED, fountain: FOUNTAIN, lhooq: LHOOQ, 'kitchen-knife': KITCHEN_KNIFE, 'mechanical-head': MECHANICAL_HEAD, 'hat-makes-man': HAT_MAKES_MAN, stieglitz: STIEGLITZ, celebes: CELEBES, 'sainte-vierge': SAINTE_VIERGE, daum: DAUM, 'song-of-love': SONG_OF_LOVE, harlequin: HARLEQUIN, 'masson-auto': MASSON_AUTO, treachery: TREACHERY, persistence: PERSISTENCE, 'object-fur': OBJECT_FUR, 'carrington-self': CARRINGTON_SELF, 'tanguy-divis': TANGUY_DIVIS, 'ernst-histoire': ERNST_HISTOIRE }
 export const ART_ARTIST_CONTENT: Record<string, ArtArtistContent> = { picasso: PICASSO }

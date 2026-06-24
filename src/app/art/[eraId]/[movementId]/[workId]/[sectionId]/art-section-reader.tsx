@@ -10844,7 +10844,556 @@ function PerAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: s
 // REGISTRY (coordinator splices into NARRATIVES):
 //  persistence: { method: PerMethod, camembert: PerCamembert, looking: PerLooking, break: PerBreak, afterlife: PerAfterlife },
 
+// ─────────────────────────────────────────────────────────────
+// Object (Meret Oppenheim, 1936) — the five sections
+// In-copyright: no full inline figure of the work; the hero (shown small, credited
+// under fair use) carries the image. The café exchange with Picasso is the standard
+// REPORTED account, framed as "the story goes," never as documented fact. Three
+// titles are kept distinct: Object is MoMA's; Le Déjeuner en fourrure ("Luncheon in
+// Fur") is BRETON's coinage, not Oppenheim's. Gendered/sexual readings are presented
+// as later reception, not stated intent. The "first work by a woman at MoMA" claim is
+// stated AND scoped (1946 study-collection date; permanent collection only 1963).
+// KEY STATEMENT = the 1975 Basel Kunstpreis speech ("Freedom is not given to you; you
+// have to take it"), with the translation variant flagged. Name = "Meret" (no accent),
+// matching MoMA + most sources. MoMA accession number is [VERIFY]-only in the fact
+// pack, so none is asserted; the credit line "Purchase, 1946" with the
+// study-collection/1963 wrinkle is the documented surface.
+// NARRATIVES['object-fur'] = { cafe: ObjCafe, making: ObjMaking, looking: ObjLooking,
+//   break: ObjBreak, afterlife: ObjAfterlife }
+// ─────────────────────────────────────────────────────────────
+function ObjCafe({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Paris · 1936" title="The maker, and the movement she walked into" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>M</DropCap>
+        eret Oppenheim (1913&ndash;1985; pronounced &ldquo;MEH-ret OPP-en-hime&rdquo;) was a German-born Swiss artist who had come to Paris in 1932, at eighteen, and fallen straight into the circle around the Surrealists. Surrealism, founded in Paris in 1924 by the poet <strong>Andr&eacute; Breton</strong> (1896&ndash;1966), was the movement built on the idea that the unconscious mind, the part that runs your dreams without asking, should be let up onto the canvas and the page, short-circuiting the tidy rational mind that normally keeps it quiet. Oppenheim modeled for the photographer <strong>Man Ray</strong>, showed in the group&rsquo;s exhibitions, and was, at twenty-two (she turned twenty-three that autumn), one of its youngest and most striking members. That inner circle was overwhelmingly male, and the women in it were more often muses and models than recognized authors. She was also broke, supporting herself partly by designing things to sell.
+      </p>
+      <p style={proseStyle}>
+        One of those things was jewelry. She had designed a <strong>bracelet</strong>: a metal tube wrapped in fur, an animal warmth banded around the wrist. The couturi&egrave;re <strong>Elsa Schiaparelli</strong> (the daring Italian-French fashion designer who loved exactly this kind of strangeness) bought the design to sell in her shop. So in 1936 Oppenheim was walking around Paris with fur on her arm, and that small fact is where the most famous object in Surrealism is supposed to have begun.
+      </p>
+
+      <SectionHeader accent={accent} label="The café exchange" title="“Even this cup and saucer?”" />
+      <p style={proseStyle}>
+        The story goes like this, a well-repeated account rather than a documented transcript. Oppenheim was sitting at a Paris café (the retellings name the <strong>Caf&eacute; de Flore</strong>) with <strong>Pablo Picasso</strong> and his partner, the photographer <strong>Dora Maar</strong>. The two of them admired the fur bracelet, and Picasso joked that you could cover just about anything in fur. Oppenheim shot back, gesturing at the table, <strong>&ldquo;Even this cup and saucer?&rdquo;</strong> &mdash; and, as the tale continues, when her tea had gone cold she asked the waiter for <em>&ldquo;un peu plus de fourrure,&rdquo;</em> a little more fur.
+      </p>
+      <p style={proseStyle}>
+        Take the scene with a light hand. It is repeated by reputable sources and is broadly consistent, but it is a reported exchange with small variations from telling to telling: which café, the exact words, whether the &ldquo;more fur&rdquo; line really happened that afternoon. What is solid is the riposte to Picasso, kept attributed to her, and the result. Shortly after, Oppenheim went and did the thing the joke had named. She bought a cup, a saucer, and a spoon, and she covered them in fur.
+      </p>
+    </article>
+  )
+}
+
+function ObjMaking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The making · 1936" title="Bought, not made" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        here is almost nothing to the making, and that is the radical part. Oppenheim did not carve or model or cast anything. She went to a Paris department store, bought a plain white cup with its saucer and a metal teaspoon (ordinary goods, the kind of place setting in a thousand kitchens), and bought a piece of the speckled tan fur of a <strong>Chinese gazelle</strong>. Then she wrapped the cup, the saucer, and the spoon in the fur. The whole work is a purchase and a covering. The hand that made it spent more effort choosing than fabricating.
+      </p>
+      <p style={proseStyle}>
+        That economy is deliberate and it is the engine of the thing. A traditional sculpture announces its labor: marble cut, bronze poured, hours of craft you can see. <em>Object</em> hides all of that, because there isn&rsquo;t any. What it asks you to register instead is a <em>decision</em>, a displacement, one familiar thing put in contact with a wrong material. The fur is real fur and the cup is a real cup, and the only art is the joining.
+      </p>
+
+      <SectionHeader accent={accent} label="Three names, one cup" title="What it’s called, and who named it" />
+      <p style={proseStyle}>
+        Three different titles attach to this single object, and they are not interchangeable. <strong><em>Object</em></strong> is the plain title <strong>MoMA</strong> uses, often expanded, descriptively, to <em>Object (Fur-covered cup, saucer, and spoon)</em>, the medium pressed into service as a name. The romantic French nickname everyone repeats is <strong><em>Le D&eacute;jeuner en fourrure</em></strong>, usually rendered <strong>&ldquo;Luncheon in Fur&rdquo;</strong> (loose English versions like <em>Breakfast in Fur</em> are one more step removed).
+      </p>
+      <p style={proseStyle}>
+        Here is the trap: that French title was <strong>not Oppenheim&rsquo;s.</strong> <strong>Breton</strong>, the Surrealist leader, hung it on the cup as a literary pun, glancing at Manet&rsquo;s famous picnic painting <em>Le D&eacute;jeuner sur l&rsquo;herbe</em> and, more slyly, at the erotic novel <em>Venus in Furs</em>, an association Breton built into the name rather than one Oppenheim put in the cup. Her own working title was prosaic, roughly <em>cup, saucer and spoon covered with fur.</em> So when you see the witty French name credited to her, that is Breton&rsquo;s wit, not hers. Use <em>Object</em> as the real title; treat the French as the nickname a colleague hung on it.
+      </p>
+    </article>
+  )
+}
+
+function ObjLooking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The object" title="First, how small and ordinary it is" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>P</DropCap>
+        eople expecting an icon are often surprised by the scale. This is not a monument. The cup is about <strong>4 3/8 inches across</strong>, the saucer about <strong>9 3/8 inches</strong>, the spoon roughly <strong>8 inches</strong> long, and the whole assembled set stands only about <strong>2 7/8 inches</strong> tall. It is a normal teacup, exactly the size of the one you might have had your tea in this morning, and the cup, saucer, and spoon beneath the fur are plain, cheap, store-bought goods. The whole charge of the piece comes from something cheap and familiar made strange, not from anything grand.
+      </p>
+      <p style={proseStyle}>
+        And then the fur. Every one of the three pieces is sheathed in the same speckled tan gazelle fur. This is the first thing to register: it is not one furred object sitting on bare china, but a whole matched tea service gone shaggy, the unity of a place setting preserved and turned animal. The cup is furred, the saucer is furred, the spoon is furred, all in one pelt.
+      </p>
+
+      <SectionHeader accent={accent} label="The rim, and the spoon" title="Where the idea actually lives" />
+      <p style={proseStyle}>
+        Look at the <strong>lip of the cup</strong>, the edge you would drink from. That is where the work happens. Porcelain is made to meet the lips; fur is made to lie against skin; and the rim is the seam where Oppenheim presses the two into the same inch of space. To picture drinking from it is to feel hair on the tongue, and the whole queasy idea of the piece is concentrated right there, at the place you would put your mouth.
+      </p>
+      <p style={proseStyle}>
+        Now the <strong>spoon</strong>. Its shape stays legible under the pelt; you can still find the bowl and the handle. At 8 inches it runs nearly twice the cup&rsquo;s width, a long thing for so small a cup. And a fur-coated spoon is the most useless of the three things. You cannot stir with it; you cannot lift anything to your mouth with it. The fur does not hide the tool so much as cancel it, leaving the unmistakable silhouette of a spoon with the function stripped clean out.
+      </p>
+
+      <SectionHeader accent={accent} label="Comfort, then revulsion" title="Two responses, fired at once" />
+      <p style={proseStyle}>
+        Take in the whole set and notice that the fur cancels <strong>every</strong> use at the same time: a cup that can&rsquo;t hold tea without soaking, a saucer that can&rsquo;t catch a drip, a spoon that can&rsquo;t scoop. It looks completely like a tea service and works like nothing. And the surface that does the canceling reads, at first glance, as <strong>soft</strong>, strokable, even luxurious, the touch of a good fur collar. Then the mind sets it in the mouth, and the softness curdles. Both responses fire almost together: the pleasure of the pelt and the small gag of fur against the lip. The work holds you in that double take, and refuses to release you to one feeling or the other.
+      </p>
+    </article>
+  )
+}
+
+function ObjBreak({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The break · before" title="Sculpture meant a thing made" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        o feel why a furred teacup mattered, set it against what sculpture had always meant. For centuries a sculpture was a thing <em>made</em>: stone carved away, clay modeled up, bronze poured into a mold. The artist&rsquo;s labor was the point, and you could read it in the surface. And the prized materials, fine porcelain, good fur, signaled luxury and decorum: a teacup was a teacup, an emblem of polite ritual, and fur was the warmth on a wealthy collar. The two belonged to the same comfortable world and never touched. Nobody furred a cup, because there was no reason a maker would ever want one to be anything but a cup.
+      </p>
+
+      <SectionHeader accent={accent} label="The break · what she did" title="The found object becomes the sculpture" />
+      <p style={proseStyle}>
+        Oppenheim did two breaking things in one small piece. The first is about <em>how</em> it is made: nothing here is carved or cast. She <strong>buys</strong> a cup and a pelt and joins them, so the artwork becomes a <strong>found-object assemblage</strong> (a sculpture made by combining ready-made things rather than fabricating them). This is the Surrealist <strong>object</strong> as a category arriving as sculpture in its own right: the everyday thing displaced into art, charged with dream-logic and desire. Just weeks earlier, in May 1936, Breton had mounted the <em>Exposition surr&eacute;aliste d&rsquo;objets</em> in Paris to formalize exactly this idea, and <em>Object</em> became its type-specimen. The work is the <em>idea and the displacement</em>, not the craft. The choosing is the sculpting.
+      </p>
+      <p style={proseStyle}>
+        The second break is about <em>what</em> it does to you. Oppenheim fused two feelings that have no business together: the cozy ritual of tea and the gag reflex of fur in the mouth. That collision is not a side effect; it is the content. A domestic comfort-object, the most reassuring thing on a table, is turned uncanny and faintly obscene, and the unease is built on top of the comfort rather than instead of it. And the collision travels: <em>Object</em> became the canonical Surrealist object and a permanent reference point for found-object and assemblage art, for the uncanny everyday, and, later, for readings of the body lurking in the household thing. Those bodily and erotic readings are real and have made the work a touchstone, but they came <strong>after</strong>, from critics; Oppenheim neither fully endorsed them nor controlled them, and she grew wary of being reduced to the fur cup. Hold them as reception, not as a statement of what she set out to say.
+      </p>
+    </article>
+  )
+}
+
+function ObjAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Provenance · 1936" title="From a Paris show to a vote at MoMA" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he little cup moved fast. It debuted in Paris in May 1936 at Breton&rsquo;s <em>Exposition surr&eacute;aliste d&rsquo;objets</em> at the Charles Ratton gallery, then traveled that year to the <strong>London International Surrealist Exhibition</strong>, where <strong>Alfred H. Barr Jr.</strong>, the founding director of New York&rsquo;s <strong>Museum of Modern Art</strong>, saw it. Barr brought it into MoMA&rsquo;s landmark winter exhibition <em>Fantastic Art, Dada, Surrealism</em> (1936&ndash;37), and there something telling happened: visitors to the show voted <em>Object</em> the <strong>&ldquo;quintessential Surrealist object.&rdquo;</strong> Of everything in a large survey, the public picked the furred teacup as the one that most was what Surrealism meant.
+      </p>
+      <p style={proseStyle}>
+        On the way into MoMA&rsquo;s own collection, one nuance is worth keeping rather than flattening. MoMA&rsquo;s credit line reads <strong>&ldquo;Purchase,&rdquo;</strong> with the acquisition dated <strong>1946</strong>, and several sources say Barr bought it himself while conservative trustees balked. By those accounts it entered the museum&rsquo;s <strong>study collection in 1946</strong> and was formally accessioned into the permanent collection in <strong>1963</strong>; the public credit line still says Purchase.
+      </p>
+      <p style={proseStyle}>
+        That 1946 date is the root of a claim you will see everywhere: that <em>Object</em> was the <strong>first work by a woman to enter MoMA&rsquo;s collection</strong>, the distinction that earned Oppenheim the nickname &ldquo;the First Lady of MoMA.&rdquo; It is worth stating carefully. The claim hangs on the 1946 study-collection date; the work was not accessioned into the permanent collection until 1963, and the sources run from the confident (&ldquo;MoMA&rsquo;s first work by a female artist&rdquo;) to the hedged (she was <em>thought</em> to be the first woman in the collection). Take it as a widely-repeated distinction with a real asterisk, not a settled record.
+      </p>
+
+      <SectionHeader accent={accent} label="Famous at 22" title="The trap of one perfect object" />
+      <p style={proseStyle}>
+        The fame was instant and it was a cage. Oppenheim was <strong>twenty-two</strong> when she made <em>Object</em> in the spring of 1936 (she turned twenty-three that October), and the cup made her a celebrity of Surrealism almost overnight. But a single, perfect, unforgettable work can eclipse a whole life, and this one did: for decades she was &ldquo;the fur-teacup woman,&rdquo; the maker of one famous thing, while a long and varied career, poetry, painting, objects, sculpture, jewelry, ran on for another half-century behind it. She came to resent the reduction, both the reduction to the one object and the reduction to a &ldquo;woman Surrealist,&rdquo; a muse and a mascot rather than an artist with a full body of work.
+      </p>
+      <p style={proseStyle}>
+        That resentment hardened into one of the things she is best remembered for saying. Accepting the <strong>Art Award of the City of Basel</strong> (the Basler Kunstpreis) on <strong>16 January 1975</strong>, she spoke about what it took to be a woman and an artist, and ended on this:
+      </p>
+      <blockquote style={{ margin: '4px 0 16px', padding: '2px 0 2px 16px', borderLeft: `3px solid ${accent}`, fontFamily: SERIF, fontSize: 19, fontStyle: 'italic', lineHeight: 1.5, color: INK }}>
+        &ldquo;Freedom is not given to you &mdash; you have to take it.&rdquo;
+      </blockquote>
+      <p style={proseMutedStyle}>
+        Meret Oppenheim, from her 1975 Basel Kunstpreis acceptance speech. The line is genuinely hers, but it circulates in two near-identical translations of the same sentence, also rendered &ldquo;Freedom is not given; one has to take it.&rdquo; That is one saying in two English dresses, not two sayings.
+      </p>
+      <p style={proseStyle}>
+        It is a fitting line to leave the fur cup on. The object that made her famous nearly swallowed everything else she did, and the woman who made it spent her life insisting she was more than its maker, that no one was going to hand her a place in art and she would have to take it. The teacup is still in New York, still small, still impossible to drink from, and visitors still flinch at the rim. The flinch is the proof that it works.
+      </p>
+    </article>
+  )
+}
+
+// REGISTRY (coordinator splices into NARRATIVES):
+//  'object-fur': { cafe: ObjCafe, making: ObjMaking, looking: ObjLooking, break: ObjBreak, afterlife: ObjAfterlife },
+
+// ─────────────────────────────────────────────────────────────
+// Self-Portrait (Inn of the Dawn Horse) (Carrington, c.1937-38) — five chapters
+// ─────────────────────────────────────────────────────────────
+function CarArrival({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="London → Paris · 1937–38" title="A runaway debutante picks up a brush" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>L</DropCap>
+        eonora Carrington (1917&ndash;2011) was born into exactly the kind of life this painting is trying to get out of. Her father ran a wealthy Lancashire textile fortune; she was a <em>debutante</em> (a young upper-class woman formally presented to high society, the whole point of which was to be looked at, approved of, and married well). She hated it. She was expelled from convent schools, presented at court and bored stiff by it, and by her late teens she had decided, against ferocious family pressure, to become a painter instead of an ornament.
+      </p>
+      <p style={proseStyle}>
+        In <strong>1937</strong>, in London, she met the German Surrealist painter <strong>Max Ernst</strong> (1891&ndash;1976), then in his mid-forties and married. They became lovers, and she left England to live with him, first in Paris and then in a village in the south of France. This is how she walked into <strong>Surrealism</strong>, the movement, launched in Paris in the 1920s, that set out to paint the contents of dreams and the unconscious mind. Carrington did not arrive as anyone&rsquo;s pupil or anyone&rsquo;s muse. She arrived as an artist, and the proof is this canvas. She began it in London and finished it in Paris, around <strong>1937 to 1938</strong>, when she was about <strong>twenty</strong>.
+      </p>
+      <p style={proseStyle}>
+        That is young to make a picture this assured. And it is often called her first truly Surrealist painting, which is fair as a critical judgment, the moment her private world and the movement&rsquo;s methods locked together. What she made was not a portrait in any ordinary sense. It is a self-portrait that is also a dream, a sealed room she built and then put herself inside, surrounded by animals of her own choosing. What is in that room, and why a woman painting it in 1937 was doing something the men around her were not, is the rest of the story.
+      </p>
+    </article>
+  )
+}
+
+function CarMaking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The making · c.1937–38" title="A dream-room, furnished from her own head" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he first thing to understand about the making of this picture is that it is <strong>not a record of a real place</strong>. Carrington did not set up an easel in a room and paint what was there. She <em>built</em> the room, an enclosed interior of two walls meeting at a corner, a tiled floor, a curtained window, and then furnished it with things that obey the logic of a dream rather than the logic of a house: a rocking-horse that floats, a hyena that stands in the middle of the floor like a guest, a real horse running loose just outside the glass. Everything in it was chosen. The room is a stage she assembled to hold a set of private symbols.
+      </p>
+      <p style={proseStyle}>
+        Those symbols were not invented for the canvas either. The same creatures walk through the <strong>stories Carrington was writing in these very years</strong>. The hyena is the clearest case: in her short story <em>The Debutante</em>, written around 1937 to 1938, a young woman about to be presented at a society ball sends a hyena to take her place, dressed in her clothes, so she can stay home and read. The horse runs all through her later writing and her play <em>P&eacute;n&eacute;lope</em>, about a girl in love with a rocking horse. So the painting is not an isolated puzzle. It is one room in a private world she was building in words and paint at the same time, and the animals are its recurring cast.
+      </p>
+
+      <SectionHeader accent={accent} label="How it is painted" title="Flat, exact, and asking to be believed" />
+      <p style={proseStyle}>
+        Notice the <em>finish</em>. Carrington paints this impossible room with a flat, clean, almost storybook exactness: clear outlines, even light, every object set down with the patient solidity of an old illuminated manuscript or a tarot card. That precision is doing a job. The more matter-of-factly the floating rocking-horse and the human-eyed hyena are rendered, the more the eye accepts them as simply, calmly <em>there</em>. This is the shared trick of Surrealist painting at large, paint the irrational with hard, convincing conviction so the impossible reads as fact, and Carrington handles it with a steadiness that is striking in so young a painter. The dream is delivered deadpan, which is exactly what makes it convincing.
+      </p>
+    </article>
+  )
+}
+
+function CarLooking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The canvas" title="What is in the room" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>S</DropCap>
+        tart with the woman. Carrington sits near the corner of the room on the very front edge of a <strong>blue armchair</strong>, knees together, body tipped slightly forward. She is not reposing; she perches, alert, like someone about to stand up and go. She wears pale <strong>white jodhpurs</strong> (close-fitting riding breeches) and a jacket, androgynous riding clothes, and her dark hair springs out around her head in a loose, untamed mane. Hold that detail of the hair, because it is going to rhyme with everything else in the room.
+      </p>
+      <p style={proseStyle}>
+        Now follow her arm. Her hand reaches out, low and open, toward a <strong>spotted hyena</strong> standing in the middle of the floor and facing her, mirroring her pose. Look closely at the animal and two things register. Its eyes are <strong>unsettlingly human</strong>. And along its belly hang a row of heavy, pendulous <strong>teats</strong>, engorged, plainly those of a nursing female. The woman and the animal face each other like two halves of one thing, hand to muzzle, gaze to gaze.
+      </p>
+
+      <SectionHeader accent={accent} label="Above and outside" title="A horse that floats, a horse that runs" />
+      <p style={proseStyle}>
+        Lift your eyes to the wall behind her head, and you find a <strong>white rocking-horse</strong>, a child&rsquo;s toy, hanging in the air with nothing holding it up and no floor under its rockers. It floats. Then look to the right, through the parted <strong>curtain of the window</strong>, and out in the open green landscape a second <strong>white horse gallops free</strong>. The painting has set the two horses in deliberate opposition: the toy one, captive and weightless, trapped indoors on the wall; the living one, loose and running, placed pointedly <em>outside</em> the room. One is play and childhood; the other is escape. They face each other across the glass.
+      </p>
+      <p style={proseStyle}>
+        And see how the whole room rhymes. The woman&rsquo;s wild mane answers the hyena&rsquo;s bristling coat and the horses&rsquo; manes; the human figure and her animals are braided together by the paint itself, the same loose, springing line running through hair and hide. That visual kinship between the woman and the beasts is the painting&rsquo;s argument, made in form before anyone reaches for what it means.
+      </p>
+
+      <SectionHeader accent={accent} label="What the symbols are, and are not" title="A reading, held at arm’s length" />
+      <p style={proseStyle}>
+        Here the read has to slow down, because this is a picture people love to decode too confidently. The common scholarly reading goes like this: the sealed domestic room is the constrained aristocratic life she fled; the <strong>female hyena</strong> is a wild, sexually-ambiguous animal-self, a creature she used as her surrogate in her writing too; the <strong>galloping white horse</strong> is freedom and escape; the <strong>floating rocking-horse</strong> ties the dream to childhood. That reading is widely repeated, and it is reasonable, and it fits the stories she was writing. But it is <em>interpretation</em>, drawn from her biography and her fiction, not a key Carrington handed down. She left no statement explaining the symbols of this canvas. So take the hyena-as-self, horse-as-freedom reading as the best account we have, offered softly, rather than as a code the painting confesses to. The picture is more alive for not fully telling.
+      </p>
+    </article>
+  )
+}
+
+function CarBreak({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The break · before" title="In Surrealism, the woman was the object" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        o see why this self-portrait is a break, look at where women stood in Surrealism before it. Overwhelmingly, they stood inside the frame, not behind the easel. The woman in mainstream Surrealist painting was the <strong>object</strong>: the muse, the dreamed-of body, the male artist&rsquo;s living symbol of desire and the unconscious. The movement&rsquo;s founder, the writer <strong>Andr&eacute; Breton</strong>, made a slogan of &ldquo;convulsive beauty,&rdquo; and the women of Ernst, Magritte, Dal&iacute; and Man Ray are, again and again, beautiful bodies arranged to mean something for the man who painted them. Women appeared <em>in</em> Surrealist pictures far more often than they made them. The dreamer was a man; the woman was the dream.
+      </p>
+
+      <SectionHeader accent={accent} label="The break" title="The dreamer, not the dream" />
+      <p style={proseStyle}>
+        And here is a young woman Surrealist painting <strong>her own dream-symbolism and her own animal-kin self</strong>. She is both the one who sees and the thing seen, the seer rather than the object. Read off the choices, because each one reverses the usual arrangement. She dresses herself in androgynous <strong>riding clothes</strong> instead of the eroticized nude. She <strong>stares back out</strong> of the canvas instead of being arranged for a viewer&rsquo;s pleasure. She pairs herself not with a man&rsquo;s symbol but with a <em>female</em> animal of her own choosing, the lactating hyena, a creature she had already made her surrogate in her own stories. The picture quietly asserts authorship and autonomy: the woman is the maker of the dream, not a figure inside someone else&rsquo;s. That is the break, and Carrington made it at about twenty, in a movement that had cast her sex in the opposite role.
+      </p>
+    </article>
+  )
+}
+
+function CarAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The key statement" title="“I didn’t have time to be anyone’s muse”" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he sharpest gloss on this painting is a line Carrington said long after she painted it, when the art historian <strong>Whitney Chadwick</strong> asked her what it had been like to be a Surrealist muse. Carrington&rsquo;s answer was a flat refusal of the whole premise:
+      </p>
+      <blockquote style={{ margin: '0 0 18px', padding: '4px 0 4px 18px', borderLeft: `3px solid ${accent}`, fontFamily: SERIF, fontSize: 18, lineHeight: 1.6, fontStyle: 'italic', color: INK }}>
+        <p style={{ margin: 0 }}>I didn&rsquo;t have time to be anyone&rsquo;s muse&hellip; I was too busy rebelling against my family and learning to be an artist.</p>
+      </blockquote>
+      <p style={proseStyle}>
+        The line circulates in two forms: the short one above, and a blunter, longer version the Met itself quotes, which opens <em>&ldquo;I thought it was bullshit. I didn&rsquo;t have time to be anyone&rsquo;s muse&hellip;&rdquo;</em> Those are the same statement in fuller and shorter dress, not two different quotes. And note what the line is and is not: it is a general statement of her stance, not a sentence she ever said about <em>this</em> canvas. But it names exactly what the painting does. The picture is the refusal made in paint, four years or so before she put it into words, the woman who would not be the muse painting herself as the artist instead.
+      </p>
+
+      <SectionHeader accent={accent} label="The escape comes true" title="From the dream-room to Mexico" />
+      <p style={proseStyle}>
+        The escape this painting forecasts turned literal, and fast. When the <strong>Second World War</strong> broke out, Ernst, a German national in France, was interned as an enemy alien. Carrington fled south to <strong>Spain</strong>, where she suffered a severe breakdown and was institutionalized, an ordeal she later set down in her memoir <em>Down Below</em>. She left this canvas behind with Ernst, and he carried it to <strong>New York in 1941</strong> when he emigrated. Carrington&rsquo;s own road ran differently: she reached <strong>Mexico in 1942</strong> and stayed for the rest of her long life, becoming one of the central figures of Mexican Surrealism. The horse galloping out the window got where it was going. The painting had a long second life of its own: as the muse-refusal it makes in paint, it became a touchstone for the rewriting of Surrealism&rsquo;s story to put its women back behind the easel, not only inside the frame.
+      </p>
+
+      <SectionHeader accent={accent} label="Provenance · c.1938–2002" title="How it reached the Met" />
+      <p style={proseStyle}>
+        The canvas&rsquo;s own travels are short and a little melancholy. (The <em>provenance</em> is the documented chain of owners from the artist&rsquo;s hand to now.) Left with Ernst in France, it went with him to New York in 1941. Sometime after December 1942 Ernst gave it to the dealer <strong>Pierre Matisse</strong> (the youngest son of the painter Henri Matisse), in whose family it then stayed: it passed to his widow, <strong>Maria-Gaetana Matisse</strong>, on Pierre&rsquo;s death in 1989, and in <strong>2002</strong> the Pierre and Maria-Gaetana Matisse Foundation gave it to <strong>The Metropolitan Museum of Art</strong>, where it hangs today under the credit line &ldquo;The Pierre and Maria-Gaetana Matisse Collection, 2002&rdquo; and the accession number <strong>2002.456.1</strong>. The young woman&rsquo;s dream-room of escape ended on a wall in the Modern wing, a long way from the Lancashire drawing room she painted her way out of.
+      </p>
+    </article>
+  )
+}
+
+// REGISTRY (coordinator splices into NARRATIVES):
+//  'carrington-self': { arrival: CarArrival, making: CarMaking, looking: CarLooking, break: CarBreak, afterlife: CarAfterlife },
+
+// ─────────────────────────────────────────────────────────────
+// Indefinite Divisibility (Tanguy, 1942) — the five chapters
+// ─────────────────────────────────────────────────────────────
+function TanWorld({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Woodbury, Connecticut · 1942" title="One invented world, painted over and over" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>Y</DropCap>
+        ves Tanguy (1900&ndash;1955) built a single world and spent his life painting it. It is always the same place: a vast, deserted plain that recedes to a high horizon, scattered with smooth, pale objects that look like bone or stone or polished metal and resemble nothing that has ever existed. He had no art school behind him &mdash; he was entirely <strong>self-taught</strong> &mdash; and, by his own account, his turn to painting was sudden. Around <strong>1923</strong>, riding past a Paris gallery, he saw a painting by <strong>Giorgio de Chirico</strong> (1888&ndash;1978), the Italian painter of empty, shadow-raked dream-squares, in the shop window, and got off to look at it. As he told the story afterward, he resolved on the spot to become a painter, despite never having trained as one. The deep, theatrical shadow and the haunted emptiness of de Chirico stayed in his work for good.
+      </p>
+      <p style={proseStyle}>
+        He fell in with <strong>Andr&eacute; Breton</strong> (1896&ndash;1966) and the <strong>Surrealist</strong> circle in Paris in the mid-1920s. Surrealism, founded by Breton in 1924, was the movement that tried to put the unconscious mind &mdash; the layer of thought that runs under reason and good manners, in the Freud-soaked thinking of the day &mdash; directly onto the canvas. It ran in two broad channels: one that let the hand move at random and find images in the mess, and one that painted impossible things with hard, photographic precision. Tanguy became one of the purest practitioners of the second kind, the &ldquo;dream landscape&rdquo; painter who rendered an imagined world as crisply as if he had stood in it.
+      </p>
+
+      <SectionHeader accent={accent} label="The crossing" title="An émigré on a wider, emptier plain" />
+      <p style={proseStyle}>
+        With the Second World War closing over Europe, Tanguy <strong>emigrated to the United States in 1939</strong>. In <strong>1940</strong> he married the American Surrealist painter <strong>Kay Sage</strong> (1898&ndash;1963), in a wedding in Reno, Nevada, and the two of them eventually settled in <strong>Woodbury, Connecticut</strong>, where Tanguy would live out his life and become a naturalized American. <em>Indefinite Divisibility</em> is a picture from that American chapter, painted in <strong>1942</strong>: the work of a man who had carried his one invented plain across an ocean and was painting it again, now under the wide, dry, open light of a new country. The plain in it had no model in Connecticut, or anywhere. It never had.
+      </p>
+    </article>
+  )
+}
+
+function TanMaking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The making · 1942" title="A place that exists nowhere, painted as fact" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he signature of the picture is a paradox you can state in one line: it is the <strong>meticulous, illusionistic rendering of things that exist nowhere</strong>. Tanguy paints his invented objects with hard, almost academic precision &mdash; convincing weight, convincing shadow, convincing recession into deep space &mdash; so that wholly fictitious shapes read as solidly present as boulders in a field. The Buffalo AKG, which owns the picture, sums up the whole project in a sentence: &ldquo;Without employing direct references to the real world, Yves Tanguy painted surreal landscapes laden with strange, indeterminate forms.&rdquo; The effort goes not into inventing the forms &mdash; that part seems to have come easily &mdash; but into making the invention <em>convincing</em>.
+      </p>
+      <p style={proseStyle}>
+        The objects are deliberately not anything. They are smooth and modeled and weighted, yet the eye keeps reaching for a word &mdash; a machine, a stack of bones, a tower of polished stones &mdash; and the word keeps not fitting. Tanguy worked the other way around from a painter who draws an object and then renders it. He let strange, indeterminate forms surface, and then gave each one the full apparatus of academic painting: highlight, shadow, modeled curve, a cast shadow on the ground. The result is that you believe a place you cannot name, which is exactly the unease the picture trades in.
+      </p>
+
+      <SectionHeader accent={accent} label="The de Chirico in it" title="Borrowed shadow on an invented floor" />
+      <p style={proseStyle}>
+        At the center of the picture a <strong>tall assembly of stacked forms</strong> rises from the plain and dominates the foreground, throwing a long dark shadow across the empty ground. The deep, raking shadow is the clearest trace of de Chirico, the painter who had stopped Tanguy in the street twenty years earlier: that same theatrical, late-afternoon darkness pooling out from solid shapes onto a vacant floor. What it is a shadow <em>of</em> stays open, because Tanguy invented his forms from nothing, so naming them is the viewer&rsquo;s reflex and not the picture&rsquo;s claim. De Chirico had cast his shadows across recognizable arcades and statues. Tanguy casts the same kind of shadow across a floor and a set of objects he made up entirely. The borrowed device is doing new work: it lends the weight of a real, observed scene to a place that was never observed because it was never there.
+      </p>
+    </article>
+  )
+}
+
+function TanBreak({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The break · before" title="A landscape used to be a place" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>F</DropCap>
+        or as long as there had been landscape painting, a landscape depicted a <strong>place</strong> &mdash; a real view, or a plausible one stitched together from real things. Even the strangest pre-Surrealist landscapes obeyed this. De Chirico&rsquo;s dream-piazzas, eerie and empty as they are, are built from recognizable architecture: arcades, towers, statues, a train at the edge of the square. You always knew what you were looking <em>at</em>, even when the mood was a nightmare. And when earlier modern painters broke with tradition &mdash; the Cubists fracturing the picture, Kandinsky pushing toward abstraction &mdash; what they broke was the <strong>finish</strong>: they gave up smooth illusionistic rendering, flattened the picture, simplified or shattered it. To leave the real world behind, painting had always had to loosen its grip on convincing, solid description.
+      </p>
+
+      <SectionHeader accent={accent} label="The break · after" title="Abstraction that looks real" />
+      <p style={proseStyle}>
+        Tanguy does the opposite, and that is the whole break. He <strong>keeps the hard, illusionistic finish</strong> &mdash; the deep space, the cast shadows, the modeled solidity of academic painting &mdash; and pours all of it into a landscape that is <strong>wholly invented</strong>. The objects refer to nothing; there is no real-world source to recognize, no arcade or statue to name. It is <strong>abstraction that looks real</strong>: a fully fictitious inner world rendered with the precision of observed fact, so that the eye believes a place it cannot name. The break is not a loosening of technique but its reverse, photographic-seeming precision turned entirely to the service of pure invention. The dream is made to look like a documented site rather than a sketch or a smear.
+      </p>
+      <p style={proseStyle}>
+        That inversion turned out to be a template. This vein of Surrealism &mdash; precision-rendering of the impossible, the line that runs through Tanguy, <strong>Salvador Dal&iacute;</strong>, and <strong>Ren&eacute; Magritte</strong>, as against the loose, automatic wing of <strong>Joan Mir&oacute;</strong> and <strong>Andr&eacute; Masson</strong> &mdash; set the pattern for illusionistic dream-painting, and fed straight into the fantastic, science-fiction, and biomorphic-abstract imagery that came after. The smooth invented object sitting on an empty plain is a visual clich&eacute; now precisely because Tanguy made it convincing first.
+      </p>
+    </article>
+  )
+}
+
+function TanLooking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The canvas" title="The stacked forms and the airless plain" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>I</DropCap>
+        t is an intimate picture for so vast a space. The canvas stands about <strong>three feet four inches tall by two feet eleven inches wide</strong> (101.6 by 88.9 centimeters), an <strong>upright</strong> format, a little taller than it is wide, roughly the size of a tall window. Holding that near-square, portrait shape against the enormous distance painted inside it is part of the picture&rsquo;s spell: a small object on the wall that opens onto a plain without end.
+      </p>
+      <p style={proseStyle}>
+        Near the middle, a <strong>tall pile-up of smooth forms</strong> rises from the ground, stacked and balanced, climbing higher than anything else and anchoring the whole composition. It is the picture&rsquo;s single dominant event, the one thing the empty plain is built around. The urge is to name it, and the picture refuses every name. It reads, depending on the viewer, like a totem, like a piece of invented machinery, even like a child&rsquo;s marble-run, and every one of those is a viewer&rsquo;s analogy laid over the form, not the form&rsquo;s identity. What is actually there is a stack of pale, modeled, weighty shapes that match no nameable object, which is exactly what Tanguy intended.
+      </p>
+
+      <SectionHeader accent={accent} label="The plain and its shadows" title="Bone-pale objects, fixed to the ground by their shadows" />
+      <p style={proseStyle}>
+        Lower down, scattered across the floor of the scene, lie <strong>smaller objects</strong> with the pale, rounded, weathered look of bones, pebbles, or worn stones, smooth as if shaped by an invisible sea. They too are invented and unidentifiable, modeled with real volume but answering to nothing real. What fixes them, and fixes the central stack as well, are the <strong>shadows</strong>: each form throws a long, dark, hard-edged shadow across the plain, raked by a low, steady light. Those shadows are what make the made-up objects feel physically <em>there</em>, planting each shape on the ground and giving it a place in space. They are the borrowed de Chirico device doing its quiet, load-bearing work.
+      </p>
+      <p style={proseStyle}>
+        The ground runs a long way back to a <strong>horizon set high</strong> in the picture, opening an enormous empty distance behind the forms; the museum says the space appears infinite, like an endless desert. And the <strong>light</strong> is the strangest thing of all. The atmosphere reads as still and heavy, dense and oppressive, yet the whole plain is bathed in a strong, warming glow with <strong>no visible sun anywhere</strong>. The light comes from nowhere and lands evenly, the way light behaves in a dream and not in a landscape, over a windless, lifeless ground.
+      </p>
+      <p style={proseStyle}>
+        The <strong>technique</strong> itself is the argument. The forms are rendered with smooth, hard, almost academic modeling, the gradual shading that turns a painted shape into a solid you feel you could pick up. The precision is the point. It is the thing that makes a scene existing nowhere read as an observed, documented place, and it is what sets Tanguy apart from the loose, smeared, automatic wing of Surrealism. Nothing here is sketched or suggested. Everything is finished to the polish of a thing seen.
+      </p>
+
+      <SectionHeader accent={accent} label="The key statement" title="“The painting develops before my eyes”" />
+      <p style={proseStyle}>
+        Tanguy left a description of how he worked that fits this picture exactly, and it explains the strange, unplanned look of the plain. He said he could not begin with a plan or a sketch, because the picture had to surprise him as it went. The line is reproduced again and again and is consistently attributed to him. The catch is that the period source it came from is not pinned down in the available record, so it is given here as a documented statement of his method, attributed to Tanguy, rather than tied to a specific magazine or date:
+      </p>
+      <blockquote style={{ margin: '0 0 18px', padding: '4px 0 4px 18px', borderLeft: `3px solid ${accent}`, fontFamily: SERIF, fontSize: 18, lineHeight: 1.6, fontStyle: 'italic', color: INK }}>
+        <p style={{ margin: 0 }}>The painting develops before my eyes, unfolding its surprises as it progresses. It is this which gives me the sense of complete liberty, and for this reason I am incapable of forming a plan or making a sketch beforehand.</p>
+      </blockquote>
+      <p style={proseStyle}>
+        That method is visible in the result. A plain laid out to a plan would feel arranged; this one feels <em>found</em>, the forms surfacing where they happened to surface, the way images surface in a dream the dreamer is not steering. The hard precision and the unplanned arrangement pull against each other, and the friction between them &mdash; every object painted as solid fact, no object placed by design &mdash; is a large part of why the picture feels both utterly convincing and impossible to be in.
+      </p>
+    </article>
+  )
+}
+
+function TanAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Provenance" title="Three years from the easel to a museum wall" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he picture moved from Tanguy&rsquo;s studio into a public collection unusually fast. Painted in <strong>1942</strong>, it passed through his New York dealer, the <strong>Pierre Matisse Gallery</strong> (run by Pierre Matisse, a son of the painter Henri Matisse, and the main channel for Tanguy&rsquo;s American work), and on <strong>June 22, 1945</strong> it was sold to the <strong>Albright Art Gallery</strong> in Buffalo, New York, through the museum&rsquo;s <strong>Room of Contemporary Art Fund</strong> (accession RCA1945:2). That is the whole <em>provenance</em>, the documented chain of who has owned a work in order: artist, dealer, museum, in three short years, with the painting never passing through a private collector at all.
+      </p>
+      <p style={proseStyle}>
+        One thing to keep straight is that the museum has changed its name twice since, which can make a single picture look as if it has lived in three places. At the 1945 purchase it was the <strong>Albright Art Gallery</strong>; for decades after it was the <strong>Albright-Knox Art Gallery</strong>; and since a renovation and reopening in <strong>2023</strong> it has been the <strong>Buffalo AKG Art Museum</strong>. One institution, three names, one wall. <em>Indefinite Divisibility</em> has hung in it, under one name or another, ever since 1945.
+      </p>
+
+      <SectionHeader accent={accent} label="The plain that everyone has seen since" title="A nowhere that became a cliché" />
+      <p style={proseStyle}>
+        The picture&rsquo;s real afterlife is not in its ownership but in how thoroughly its world got absorbed. The Tanguy formula &mdash; a smooth, invented, solid-looking object sitting on an empty, evenly lit plain under a high horizon &mdash; became <strong>a template for illusionistic Surrealism</strong>, alongside the Dal&iacute; and Magritte vein the break draws on, and, after that, a current in a century of fantastic and science-fiction imagery: airless alien deserts, biomorphic shapes that look organic and are nothing, dream-plains rendered with hard, convincing finish. That image is so familiar now it can be hard to see as an invention. It is a clich&eacute; precisely because Tanguy made it convincing first, and made it stick.
+      </p>
+      <p style={proseStyle}>
+        A note on why this picture is shown small here. It is <strong>still under copyright</strong>: Tanguy painted it in 1942 and died in 1955, and the rights are actively held (© Estate of Yves Tanguy / Artists Rights Society, New York). So unlike the older paintings in these readings, which have passed into the public domain, this one is reproduced small and credited, for the purpose of talking about it. The invented world is free to roam an endless desert; the picture of it is not quite free in the same way.
+      </p>
+    </article>
+  )
+}
+
+// REGISTRY (coordinator splices into NARRATIVES):
+//  'tanguy-divis': { world: TanWorld, making: TanMaking, break: TanBreak, looking: TanLooking, afterlife: TanAfterlife },
+
+// ─────────────────────────────────────────────────────────────
+// Histoire Naturelle (Ernst, 1926) — the five chapters
+// ─────────────────────────────────────────────────────────────
+function ErnFloorboards({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Pornic · 10 August 1925" title="The rainy night the floor started drawing" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>O</DropCap>
+        n a wet evening in <strong>August 1925</strong>, a German-born painter named <strong>Max Ernst</strong> (1891&ndash;1976) was stuck indoors at a small seaside inn at <strong>Pornic</strong>, a fishing town on the Atlantic coast of France. He had nothing to do and a head full of nothing, and he found himself staring at the <strong>floor</strong>. The boards of his room were old and scrubbed, their grain worn into deep grooves by a thousand washings, and in the low light he could not stop looking at them. By his own account the grain began to behave like a picture, the way a water stain on a ceiling will start, if you let it, to look like a face.
+      </p>
+      <p style={proseStyle}>
+        He had felt this before. As a child Ernst had lain in bed in front of a panel of <strong>imitation mahogany</strong>, a cheap painted wood-grain, and watched it conjure half-asleep visions, faces and creatures swimming up out of the fake grain as he drifted off. The floorboards at Pornic woke that old habit of seeing. So he did the obvious experimental thing: he laid <strong>sheets of paper</strong> over the boards and <strong>rubbed a soft pencil</strong> back and forth across them, so that the ridges of the grain printed themselves onto the paper as a pattern of dark and light. (The technique he had just stumbled into is called <strong>frottage</strong>, pronounced &ldquo;fro-TAHZH,&rdquo; from the French <em>frotter</em>, &ldquo;to rub.&rdquo;)
+      </p>
+      <p style={proseStyle}>
+        What came up off the boards startled him. The rubbings did not look like wood any more. In his telling they &ldquo;lost the character of the material being studied&rdquo; and turned into something else entirely, forests, leaves, eyes, beasts, the sea. The grain of a floorboard had become a window onto a whole imaginary natural world, and all he had done was rub a pencil over it. He went on rubbing, that night and after, and out of the drawings he eventually assembled a kind of mock scientific picture-book of invented nature. He called it <em>Histoire Naturelle</em> &mdash; <strong>Natural History</strong>.
+      </p>
+      <p style={proseStyle}>
+        Two dates are worth keeping apart, because popular accounts collapse them. The <strong>frottages were made in 1925</strong>; the discovery on the floorboards is Ernst&rsquo;s own dated moment, <strong>10 August 1925</strong>. The <strong>portfolio was published a year later, in 1926</strong>, in Paris. Frottages 1925, portfolio 1926, two separate things, and the difference between them matters more than it sounds.
+      </p>
+    </article>
+  )
+}
+
+function ErnMethod({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The making · 1925" title="What frottage actually is" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>F</DropCap>
+        rottage is so simple a child does it on a coin and a piece of paper. You take a <strong>grainy, textured surface</strong> &mdash; weathered floorboards, the grain of a plank, a leaf, a piece of sacking, the crust of a loaf of bread &mdash; lay a sheet of paper over it, and <strong>rub a soft pencil across the paper</strong> so that the texture underneath surfaces as a pattern of marks. The high ridges come up dark; the grooves stay pale. What you get is not a drawing of the surface but a direct imprint of it, the texture itself transferred straight onto the page.
+      </p>
+      <p style={proseStyle}>
+        The ordinary part ends there, and Ernst&rsquo;s real move was what he did <em>after</em> the rubbing. He looked at the field of accidental marks and <strong>read images into them</strong>, the way you find a dog or a ship in a passing cloud, and then worked them up, nudging a grain pattern here, sharpening a shape there, until a forest or a feathered beast or a single staring eye stood clearly out of the chance texture. He was not inventing the forms out of his own head; he was <strong>finding</strong> them already latent in the marks the surface had handed him. The wood did half the work and the eye did the other half.
+      </p>
+      <p style={proseStyle}>
+        He extended it past floorboards fast. Any grained or rough surface would do, and the portfolio&rsquo;s plates are rubbed from a whole catalogue of them. The result is a mock <strong>natural-history atlas</strong>: the frottages are presented as if they were the engraved plates of a straight-faced scientific book about nature, complete with deadpan, taxonomic-sounding titles &mdash; <em>The Habit of Leaves</em>, <em>The Wheel of Light</em>, <em>Seismic Plants</em>, <em>The Fugitive</em>. Wood grain stands in for nature itself, and the joke and the uncanny both live in the gap between the solemn caption and the accident that produced the image.
+      </p>
+
+      <SectionHeader accent={accent} label="A book, not the rubbings" title="What got published, and who put it out" />
+      <p style={proseStyle}>
+        There is one distinction that matters for what you are looking at. <em>Histoire Naturelle</em> is <strong>not</strong> the original rubbings. In <strong>1926</strong> the Paris gallery of <strong>Jeanne Bucher</strong> published the portfolio as a set of <strong>34 plates</strong> (numbered I&ndash;XXXIV), and those plates are <strong>collotypes</strong> &mdash; photomechanical reproductions, a printing process that photographs a drawing and prints it with an even, slightly velvety tone &mdash; <em>after</em> the frottages. So the portfolio reproduces Ernst&rsquo;s pencil rubbings; it does not contain them. The original frottage drawings are separate works. Calling the portfolio &ldquo;34 frottages,&rdquo; as if the sheets were the rubbings themselves, gets it wrong: they are prints of the rubbings. The poet <strong>Hans Arp</strong> (also known as Jean Arp), Ernst&rsquo;s old Dada comrade, wrote the preface.
+      </p>
+      <p style={proseStyle}>
+        One more thing not to confuse, because the two words rhyme and the techniques are cousins. <strong>Frottage</strong> (1925) is <em>rubbing</em> a pencil over paper laid on a textured surface &mdash; a drawing technique, and the whole basis of <em>Histoire Naturelle</em>. <strong>Grattage</strong>, which Ernst developed a couple of years later, in 1927, is <em>scraping</em> wet paint off a canvas laid over a textured object &mdash; the oil-paint cousin of the same idea. <em>Histoire Naturelle</em> is frottage. Rubbing, not scraping. Keep them apart.
+      </p>
+    </article>
+  )
+}
+
+function ErnLooking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The plate" title="One sheet out of the thirty-four" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he portfolio has thirty-four plates; the one shown here is a single representative sheet, <strong>plate 30</strong>, titled <em>The Fugitive</em> (in French, <em>L&rsquo;&Eacute;vad&eacute;</em>, &ldquo;the escapee&rdquo;). It is a small, <strong>landscape-format</strong> plate, roughly <strong>ten and a quarter inches tall by sixteen and three-quarters inches wide</strong>, the look of pencil dragged over something grained, and it is strikingly quiet: no color, no hard outline, just a soft, even <strong>graphite-gray</strong> field. Everything on it was rubbed up, not drawn.
+      </p>
+
+      <SectionHeader accent={accent} label="The eye, or the wheel" title="A spoked disc at the heart of the sheet" />
+      <p style={proseStyle}>
+        At the center is the thing that holds the plate together: a round <strong>disc crossed by radiating spokes</strong>. It reads two ways at once. It is a single <strong>staring eye</strong> &mdash; a lone eye is one of the recurring motifs across the whole portfolio &mdash; and it is just as plainly a <strong>wheel</strong>, a rimmed hub with spokes running out to the edge. Look at how it is made: the spokes are not ruled lines but ridges of rubbed grain that your eye assembles into a rim and a hub. The picture never decides between eye and wheel, and it does not have to. Letting the shape flip between the two is the whole pleasure of it.
+      </p>
+
+      <SectionHeader accent={accent} label="The creature" title="A finned body for the floating eye" />
+      <p style={proseStyle}>
+        The disc does not float free. It is lodged inside a <strong>body</strong> &mdash; a soft, tapering, <strong>finned</strong> form, something between a fish and a beast, that gives the eye-wheel a creature to belong to. This is the &ldquo;organism&rdquo; the deadpan title asks you to take it for: a fugitive specimen in Ernst&rsquo;s invented natural history, the kind of thing a straight-faced atlas would caption and number. Nothing about it was observed from any animal. It is grain coaxed into anatomy, a body built out of the wood&rsquo;s own pattern.
+      </p>
+      <p style={proseStyle}>
+        Springing off the body are thin curved <strong>whisker-like spines</strong> and longer <strong>blade or feather shapes</strong>. Follow any one of them with your eye and it dissolves, after an inch, back into the parallel striations of the wood it was rubbed from. That is the portfolio&rsquo;s whole vocabulary in miniature &mdash; whiskers, blades, leaves, feathers, antennae &mdash; and all of it is the same trick: a recognizable natural part conjured out of nothing but rubbed grain.
+      </p>
+
+      <SectionHeader accent={accent} label="The ground" title="The floorboard, never quite hidden" />
+      <p style={proseStyle}>
+        The creature floats over a field of <strong>cross-hatched, striated grain</strong> &mdash; the &ldquo;ground&rdquo; or &ldquo;sky&rdquo; of the plate, and the literal rubbing of grained wood, the floorboard itself surfacing as texture. Trace the parallel striations across the lower half of the sheet and you are looking straight at the seam where board becomes image: it is a landscape and a plank at the same instant, and the plate will not let you settle on one. That oscillation, the eye flipping between &ldquo;this is texture&rdquo; and &ldquo;this is a creature in a place,&rdquo; is exactly the effect Ernst was after. It makes you do the seeing.
+      </p>
+      <p style={proseStyle}>
+        And keep one fact in view as you look: this is a <strong>reproduction</strong>. The plate has the smooth, faintly velvety tone of a collotype print, none of the bite of an engraved line and none of the tooth of an original graphite rubbing. You are looking at a photograph of a drawing, printed in a book. <em>Histoire Naturelle</em> publishes the frottages; the sheet in front of you is not the rubbing, but its careful, even-toned echo.
+      </p>
+    </article>
+  )
+}
+
+function ErnBreak({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The break · before" title="The image used to come from the hand" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>F</DropCap>
+        or as long as there had been drawing, a drawing was something an artist <strong>invented and executed</strong>. The marks began in the hand and the will: you decided what to put down and then you put it down, with skill, observing the world or composing from imagination, but in either case <em>originating</em> the picture. Even Dada collage, Ernst&rsquo;s own earlier mode, still worked by <strong>choosing and assembling</strong> fragments &mdash; the artist picked the pieces. Whatever else changed across the centuries, the <strong>source of the image was the artist.</strong> That was the floor under the whole practice. Nobody thought to question it because there was nothing obviously else for an image to come from.
+      </p>
+
+      <SectionHeader accent={accent} label="The break · after" title="The artist becomes a reader of accident" />
+      <p style={proseStyle}>
+        Frottage moved the source. In <em>Histoire Naturelle</em> the image does not begin in the hand; it begins in the <strong>chance texture of the world</strong>, the grain of a floorboard the artist did not make and cannot control. The pencil only transfers it. The artist&rsquo;s real job shifts from <strong>inventing form to reading accident</strong> &mdash; from author to, in Ernst&rsquo;s own word, <strong>spectator</strong> of his own pictures. He watches what the grain hands up and chooses what to see in it. Three things follow from that move.
+      </p>
+      <p style={proseStyle}>
+        First, <strong>chance and found texture become a repeatable, systematic engine for fine art</strong>. Chance was not new to the avant-garde &mdash; Ernst&rsquo;s own Dada circle, Arp included, had been letting accident arrange collages a decade earlier &mdash; but frottage turned it from a one-off gesture into a method you could run again and again, a generative procedure rather than a party trick, a line that runs straight forward to grattage, to d&eacute;calcomania (pressing and peeling paint), and on to the chance-driven abstraction that came after.
+      </p>
+      <p style={proseStyle}>
+        Second, it gives Surrealism a <strong>repeatable visual method for tapping the unconscious</strong>: the eye reading shapes into random marks is the picture-making cousin of <strong>automatic writing</strong>, the technique the poet <strong>Andr&eacute; Breton</strong> and his Surrealist circle used to let the unconscious mind write without the conscious mind censoring it. Frottage is the same maneuver with a pencil: in both, the trick is to get the deliberate, deciding mind out of the way &mdash; the writer lets the hand run, Ernst lets the floorboard supply the marks &mdash; so that whatever surfaces comes from somewhere other than conscious intention. That is precisely the prize the Surrealists were after. Breton had launched Surrealism as a movement only the year before, in <strong>1924</strong>, around exactly this idea, that the unconscious let off its leash was the real source of art, so frottage arrived as the perfect visual proof of a program barely a year old.
+      </p>
+      <p style={proseStyle}>
+        Third, it quietly demolishes the old idea of <strong>drawing skill</strong>: there is no modeling, no observed contour, no conventional draftsmanship anywhere on the sheet, and yet legible creatures and forests appear. The accident does the drawing.
+      </p>
+
+      <SectionHeader accent={accent} label="The key statement" title="Ernst, on the floorboards" />
+      <p style={proseStyle}>
+        Ernst set the discovery down himself, years later, in an essay called <em>Beyond Painting</em> (in French, <em>Au-del&agrave; de la peinture</em>, first published 1936; the English version appeared in 1948). It is the closest thing the technique has to a founding statement:
+      </p>
+      <blockquote style={{ margin: '4px 0 16px', padding: '2px 0 2px 16px', borderLeft: `3px solid ${accent}`, fontFamily: SERIF, fontSize: 18, fontStyle: 'italic', lineHeight: 1.55, color: INK }}>
+        &ldquo;&hellip; finding myself one rainy evening in a seaside inn, I was struck by the obsession that showed to my excited gaze the floor-boards upon which a thousand scrubbings had deepened the grooves. I decided then to investigate the symbolism of this obsession, and, in order to aid my meditative and hallucinatory faculties, I made from the boards a series of drawings by placing on them, at random, sheets of paper which I undertook to rub with black lead.&rdquo;
+      </blockquote>
+      <p style={proseStyle}>
+        And on what the rubbings turned into:
+      </p>
+      <blockquote style={{ margin: '4px 0 16px', padding: '2px 0 2px 16px', borderLeft: `3px solid ${accent}`, fontFamily: SERIF, fontSize: 18, fontStyle: 'italic', lineHeight: 1.55, color: INK }}>
+        &ldquo;The drawings thus obtained steadily lost &hellip; the character of the material being studied &mdash; wood &mdash; and assumed the aspect of unbelievably clear images.&rdquo;
+      </blockquote>
+      <p style={proseMutedStyle}>
+        The words are genuinely Ernst&rsquo;s, from <em>Beyond Painting</em> (English edition, ed. Robert Motherwell, 1948), and the dated discovery (a rainy evening, the seaside inn at Pornic, 10 August 1925) is his own and repeated by the museums. The exact wording, though, drifts between translations: &ldquo;black lead&rdquo; (graphite) is sometimes rendered &ldquo;soft pencil,&rdquo; &ldquo;floor-boards&rdquo; sometimes &ldquo;floorboards,&rdquo; the &ldquo;obsession&rdquo; phrased a few different ways. Read it, then, as Ernst&rsquo;s known account in the standard 1948 English text rather than one fixed, canonical original. The thought is firmly his; the precise phrasing is a translator&rsquo;s.
+      </p>
+    </article>
+  )
+}
+
+function ErnAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Provenance · 1926" title="An edition, not an object" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>B</DropCap>
+        ecause <em>Histoire Naturelle</em> is a <strong>published portfolio</strong> and not a unique painting, its &ldquo;provenance&rdquo; &mdash; the chain of who has owned a work of art &mdash; is not a single trail but a scatter. In <strong>1926</strong> the Paris gallery of <strong>Jeanne Bucher</strong> printed an edition of about <strong>300 copies</strong> (plus six set aside as hors-commerce, &ldquo;not for sale&rdquo;), on Japan and vellum papers, nearly all of them signed by Ernst. The portfolio went out into the world as a multiple, the way a book does, so that instead of one owner there are hundreds, and instead of one wall there are print rooms across several countries.
+      </p>
+      <p style={proseStyle}>
+        Where they landed is a list of the great collections. The <strong>Museum of Modern Art</strong> in New York holds the full portfolio and catalogues many of its plates individually. <strong>Tate</strong> in London holds it; German Ernst collections at <strong>Bonn</strong> and at the <strong>Max Ernst Museum</strong> in Br&uuml;hl have shown it; and the <strong>National Gallery of Victoria</strong> in Melbourne holds the very plate reproduced on this page, <em>The Fugitive</em>. Numbered copies of the edition still surface at auction now and again, which is exactly what you would expect of a published portfolio rather than a one-of-a-kind object. There is no headline sale, no single price to quote, no dramatic chain of hands. The work simply dispersed.
+      </p>
+
+      <SectionHeader accent={accent} label="The line forward" title="Chance, turned into a method everyone could use" />
+      <p style={proseStyle}>
+        What did not disperse was the idea. Frottage was a <strong>proof of concept</strong>: it showed that <strong>chance and found texture could be a real, repeatable engine for serious art</strong> &mdash; Dada had toyed with chance, but Ernst made it a method you could teach. Ernst himself carried it straight into <strong>grattage</strong> in 1927 (the scraping-paint cousin) and, around 1939, took up <strong>d&eacute;calcomania</strong> (pressing and peeling paint, a chance technique the Surrealist &Oacute;scar Dom&iacute;nguez had pioneered); the broader Surrealist program of letting accident and the unconscious supply the image runs through these techniques and on into the chance-driven abstraction that followed the war. The eye reading creatures out of random marks &mdash; cloud-gazing made into a discipline &mdash; turned out to be one of the twentieth century&rsquo;s most portable ideas.
+      </p>
+      <p style={proseStyle}>
+        And it leaves the artist in a strange new posture, which is really the point of the whole thing. Ernst stopped describing himself as the <strong>author</strong> of his pictures and started calling himself their <strong>spectator</strong>: the one who watches the floorboards draw and decides what he is looking at. The forms in <em>The Fugitive</em> &mdash; the eye that is also a wheel, the finned body, the whiskers that melt back into grain &mdash; were not, in his account, invented by him at all. They were already in the wood. He just rubbed a pencil over it and read them out.
+      </p>
+    </article>
+  )
+}
+
+// REGISTRY (coordinator splices into NARRATIVES):
+//  'ernst-histoire': { floorboards: ErnFloorboards, method: ErnMethod, looking: ErnLooking, break: ErnBreak, afterlife: ErnAfterlife },
+
 const NARRATIVES: Record<string, Record<string, NarrativeFn>> = {
+  'object-fur': { cafe: ObjCafe, making: ObjMaking, looking: ObjLooking, break: ObjBreak, afterlife: ObjAfterlife },
+  'carrington-self': { arrival: CarArrival, making: CarMaking, looking: CarLooking, break: CarBreak, afterlife: CarAfterlife },
+  'tanguy-divis': { world: TanWorld, making: TanMaking, break: TanBreak, looking: TanLooking, afterlife: TanAfterlife },
+  'ernst-histoire': { floorboards: ErnFloorboards, method: ErnMethod, looking: ErnLooking, break: ErnBreak, afterlife: ErnAfterlife },
+
   'song-of-love': { metaphysical: SngMetaphysical, making: SngMaking, looking: SngLooking, break: SngBreak, afterlife: SngAfterlife },
   harlequin: { paris: HrqParis, making: HrqMaking, looking: HrqLooking, break: HrqBreak, afterlife: HrqAfterlife },
   'masson-auto': { method: MsnMethod, making: MsnMaking, break: MsnBreak, looking: MsnLooking, afterlife: MsnAfterlife },
