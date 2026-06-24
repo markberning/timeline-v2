@@ -12644,7 +12644,657 @@ function KraAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: s
 // REGISTRY (coordinator splices into NARRATIVES):
 //  'krasner-seasons': { barn: KraBarn, making: KraMaking, looking: KraLooking, break: KraBreak, afterlife: KraAfterlife },
 
+// ─────────────────────────────────────────────────────────────
+// Just what is it that makes today's homes so different, so appealing?
+// (Hamilton, 1956) — the five chapters
+// ─────────────────────────────────────────────────────────────
+function JwiTomorrow({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="London · 1956" title="A poster for a show called This Is Tomorrow" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>I</DropCap>
+        n the years after the Second World War, London was grey, rationed, and broke, and the brightest, most abundant thing on the horizon was <strong>America</strong> &mdash; not the real America, but the one that came over in glossy magazines: refrigerators the size of wardrobes, cars with fins, kitchens full of gadgets, advertisements for a comfort that bombed-out Britain could only read about. A loose circle of young London artists, designers, architects and critics had started meeting at the <strong>Institute of Contemporary Arts</strong> to talk about exactly this stuff &mdash; ads, Hollywood, science fiction, car styling, comic books &mdash; not to sneer at it but to take it seriously, as the real folk culture of the modern world. They called themselves the <strong>Independent Group</strong>, and they are, in hindsight, where Pop art was first thought up.
+      </p>
+      <p style={proseStyle}>
+        One of them was a sharp, methodical painter and teacher named <strong>Richard Hamilton</strong> (1922&ndash;2011). In the summer of <strong>1956</strong>, the group took part in an exhibition at the <strong>Whitechapel Art Gallery</strong> in London with a title that captured the whole mood: <em>This Is Tomorrow</em>. It was a show about the near future, built by collaborating teams who each put up an environment of art, architecture and design; Hamilton’s own team paired him with his fellow group member <strong>John McHale</strong> and the architect <strong>John Voelcker</strong>. Hamilton was asked to make an image for the <strong>catalogue and the poster</strong>. What he made was a <strong>collage</strong>: a picture assembled by cutting images out of printed sources and pasting them down, rather than by drawing or painting them.
+      </p>
+      <p style={proseStyle}>
+        And the first surprising thing about it is its size. People who know it only from posters and book covers imagine something wall-sized; the actual object is about <strong>ten and a quarter inches tall by nine and three-quarter inches wide</strong>, roughly the size of a single sheet of letter paper. A small thing, made for reproduction, that would go on to be called the first iconic work of an entire movement. In the <em>This Is Tomorrow</em> catalogue it was printed in plain <strong>black and white</strong>; the version we know in color is the original collage itself, which is the one we are going to look at.
+      </p>
+    </article>
+  )
+}
+
+function JwiCutting({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The making · 1956" title="Nothing in it is drawn" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he most important thing to understand about how this picture was made is that Hamilton <strong>did not paint or draw a single mark of it</strong>. Every element is a photograph or an advertisement, cut out of a magazine with scissors and glued into place. The bodybuilder is a real photo of a real bodybuilder; the pin-up is a real pin-up; the television, the tape recorder, the tinned ham, the comic on the wall &mdash; each is an actual scrap of printed mass culture, lifted whole and reassembled into the shape of a living room.
+      </p>
+      <p style={proseStyle}>
+        The raw material was largely American, and it largely came from a friend. <strong>John McHale</strong> (1922&ndash;1978), a fellow member of the Independent Group and Hamilton’s teammate on the show, had been in the United States and shipped back a stack of <strong>American magazines</strong>, the glossy ad-heavy kind Britain didn’t yet produce. (McHale and the artist <strong>Magda Cordell</strong> are usually credited with feeding Hamilton this American image-bank.) Just how the credit for the picture splits between the two men is <strong>genuinely contested</strong>. Hamilton always called the collage his own, made in a single morning at the Cordells’ flat, with Cordell and <strong>Terry O’Reilly</strong> hunting down the photographs. McHale’s family later told it differently: that McHale supplied not just the magazines but a worked-out design for where each piece should go, and that Hamilton’s hand was closer to assembly than to authorship. Hamilton called that version absurd. What no one disputes is that the American image-bank was largely McHale’s, and that the finished object came out of Hamilton’s room; where exactly the authorship sits between them is a question the two camps never settled.
+      </p>
+      <p style={proseStyle}>
+        That division of labor, however it splits, is the whole point of how Pop would work. In an older idea of art, the artist’s skill is in the <em>making</em> of the image &mdash; the drawing, the brushwork, the modeling of light. Here the skill is in the <strong>choosing and the placing</strong>. The images already exist, churned out by the millions by advertisers and printers; the work is to curate and arrange them so the room adds up to an argument. The hand that used to draw now cuts and pastes. The talent has moved from the wrist to the eye.
+      </p>
+    </article>
+  )
+}
+
+function JwiLooking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The canvas" title="A living room that is all product" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>I</DropCap>
+        t pretends to be a fashionable modern <strong>living room</strong>, seen straight on, the kind of aspirational interior a furniture catalogue or a homes magazine would show you. There is a carpet, a sofa, a staircase climbing up at the right, a coffee table, framed pictures on the wall. It looks, at a glance, like an ad for a comfortable life. Then you start naming the things in it, and the room turns into something stranger: a catalogue of <em>everything that was being sold</em> in 1956, crammed into one space. Even the title is borrowed &mdash; it was lifted whole from a magazine advertisement.
+      </p>
+      <p style={proseStyle}>
+        Start with the two bodies, because they anchor the room. Standing on the carpet, center, is a flexed, oiled <strong>bodybuilder</strong> &mdash; a real man, the physique-magazine champion <strong>Irvin “Zabo” Koszewski</strong>, the masculine ideal posed for sale. (He is a Charles-Atlas <em>type</em>, the muscle-ad strongman, not Charles Atlas himself.) Reclining on the sofa to his left is a burlesque <strong>pin-up</strong>, near-nude, a fringed lampshade perched on her head &mdash; the feminine ideal, sold the same way. The man and the woman mirror each other across the room: both are advertisements made of skin, the body itself turned into product.
+      </p>
+      <p style={proseStyle}>
+        Now the thing the bodybuilder is holding, because it is the most-pointed-at object in twentieth-century collage. In one hand he grips an enormous <strong>lollipop</strong>, a Tootsie Pop blown up to the size of a tennis racket, and angled toward you so you can read its wrapper. The wrapper says, in fat block capitals, <strong>POP</strong>. It is a sweet; it is a gag; and it is, pointed at the viewer like that, the single word that would come to name a whole movement &mdash; though, as we’ll see, it didn’t name it from here.
+      </p>
+      <p style={proseStyle}>
+        Then the gadgets. A boxy <strong>television set</strong> sits to the right (a Stromberg-Carlson model in the source ad), and a reel-to-reel <strong>tape recorder</strong> (a Boosey &amp; Hawkes machine) sits on the floor in the foreground &mdash; the new household gods, entertainment and recording technology installed as casually as a side table. On the wall, where you’d hang a family portrait or a landscape, Hamilton has framed a <strong>romance-comic cover</strong> (a Jack Kirby <em>Young Romance</em>), pulp pinned up like an old master. Up the staircase runs a <strong>Hoover vacuum-cleaner ad</strong>, its hose stretched absurdly far (“Ordinary cleaners reach only this far”). Brand marks dot the room &mdash; a Ford badge among them &mdash; and a <strong>tinned ham</strong> sits on the coffee table like a centerpiece.
+      </p>
+      <p style={proseStyle}>
+        And then look up. Where the ceiling should be &mdash; plaster, a light fitting, the top of an ordinary room &mdash; Hamilton has pasted a photograph of the <strong>Earth seen from space</strong>, the curve of the planet filling the room’s lid. It is the most quietly outrageous move in the picture: the cosmos itself pulled indoors and made part of the furnishings, the whole world available as décor. Stand back and take in the sum of it. There is not one surface in this living room that isn’t somebody’s advertisement. The home, the place that’s supposed to be private and warm and yours, has been built entirely out of things for sale.
+      </p>
+    </article>
+  )
+}
+
+function JwiBreak({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The break" title="When advertising became fine-art material" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        o feel why this small collage is a break and not just a clever poster, consider what serious art was still <em>supposed</em> to be made of in 1956. Even the most modern painting drew its imagery from “high” sources: the human figure, landscape, myth, the formal puzzles of abstraction, the long tradition running back through the Paris avant-garde. When modern life did get into art, it was filtered through the artist’s own hand &mdash; a Cubist still life, Léger’s machine forms. Advertising, comics, brand logos, pin-ups: that was “low” material, the province of commercial designers, beneath the dignity of a gallery wall.
+      </p>
+      <p style={proseStyle}>
+        Hamilton walked straight across that line. He made a finished art object out of <strong>nothing but</strong> consumer and advertising imagery &mdash; magazine ads, a comic cover, brand marks, a pin-up, a bodybuilder, a photo of a tinned ham. Nothing is ennobled by being painted; the commercial image is admitted into art exactly as it came off the press. And the subject he chose for it is the sharp twist of the knife: the <strong>aspirational home</strong>, the very dream the ads were selling, reassembled until it reads as a <strong>catalogue of desire</strong> &mdash; every object in the room a thing you are meant to want and buy. The break Pop runs with is right here: that the imagery of advertising and mass culture is now legitimate, even primary, art material, and that the act of <strong>quoting and arranging found commercial images is itself the work</strong>.
+      </p>
+      <SectionHeader accent={accent} label="The key statement · 1957" title="Hamilton writes down what Pop is" />
+      <p style={proseStyle}>
+        A year after he made the collage, Hamilton wrote the sentence that reads almost like a caption to it. In a <strong>letter to the architects Alison and Peter Smithson, dated 16 January 1957</strong>, he set down a definition of the new thing he and his friends were after &mdash; not painting, but the <em>popular</em> culture they admired, with a list of the qualities he wanted art to take from it:
+      </p>
+      <blockquote style={{ margin: '0 0 18px', padding: '4px 0 4px 18px', borderLeft: `3px solid ${accent}`, fontFamily: SERIF, fontSize: 18, lineHeight: 1.6, fontStyle: 'italic', color: INK }}>
+        <p style={{ margin: '0 0 12px' }}>&ldquo;Pop Art is: Popular (designed for a mass audience), Transient (short-term solution), Expendable (easily forgotten), Low cost, Mass produced, Young (aimed at youth), Witty, Sexy, Gimmicky, Glamorous, Big Business.&rdquo;</p>
+        <p style={{ margin: 0, fontStyle: 'normal', fontSize: 13, opacity: 0.7 }}>&mdash; Richard Hamilton, letter to Peter and Alison Smithson, 16 January 1957</p>
+      </blockquote>
+      <p style={proseStyle}>
+        Eleven qualities, and every one of them describes the living room you just looked at. The text travels in slightly different forms: Hamilton wrote it as a stacked list with those little parentheticals, but some sources run it as one sentence, some drop the bracketed asides, and some give the date only as “1957.” The substance is stable. Read it back against the collage and the two line up almost item for item: <em>Popular, Mass produced, Sexy, Glamorous, Big Business</em>. The picture is the argument made in scissors and glue; the letter is the same argument made in words.
+      </p>
+    </article>
+  )
+}
+
+function JwiAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The name · scope it" title="Did the lollipop name Pop art?" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>B</DropCap>
+        ecause the word <strong>POP</strong> sits so boldly on that lollipop, the picture is forever credited with naming the whole movement. It is a lovely story, and it is probably not true. The term <strong>“Pop art”</strong> grew up inside the <strong>Independent Group’s</strong> own conversation in the mid-1950s, and the British critic <strong>Lawrence Alloway</strong> did the most to carry it into wider use. (Alloway is often said to have coined it in a 1958 essay, but that piece actually used “mass popular art”; the words “pop art” had already turned up in print in 1956, in an article by <strong>Alison and Peter Smithson</strong>.) And the first artwork to actually contain the word “POP” wasn’t Hamilton’s at all: it was a 1947 collage by <strong>Eduardo Paolozzi</strong>, <em>I Was a Rich Man’s Plaything</em>, where the word puffs out of a toy pistol, nearly a decade earlier. The naming was a group affair, not a christening by this one lollipop. So the “POP” on Hamilton’s sweet is a celebrated coincidence, not a documented baptism. Enjoy the pun; don’t bank the etymology.
+      </p>
+      <SectionHeader accent={accent} label="The versions" title="One original, two later remakes" />
+      <p style={proseStyle}>
+        Hamilton liked the idea enough to return to it. There are <strong>later versions</strong>, and it matters which one you are looking at. In <strong>1992</strong> he made a digital reworking, <em>Just what is it that makes today’s homes so different?</em>, built on a Quantel Paintbox computer and swapping in a female bodybuilder; in <strong>2004</strong> he made another, the wryly titled <em>Just what was it that made yesterday’s homes so different, so appealing? (upgrade)</em>. Those are separate works. The one in this read &mdash; the famous one, the founding one &mdash; is the small <strong>1956 paper collage</strong>, cut and pasted by hand, the one first printed in black and white for <em>This Is Tomorrow</em>.
+      </p>
+      <SectionHeader accent={accent} label="Where it went" title="A British icon, hanging in Germany" />
+      <p style={proseStyle}>
+        And that 1956 original now lives a little improbably far from the London it was made in. It belongs to the <strong>Sammlung Zundel</strong> (the Zundel Collection) and hangs at the <strong>Kunsthalle Tübingen</strong>, a museum in the south-German university town of Tübingen. The exact route it took from Hamilton’s table in 1956 to a German collection isn’t fully laid out in the public record, but the destination is firm: the most reproduced image in British Pop art is, today, a German museum holding.
+      </p>
+      <p style={proseStyle}>
+        It is worth ending on the modesty of the thing. A picture made of cut-up magazines for the catalogue of one London show, by a method anyone with scissors could copy, became the image that taught people what Pop art was before there was a Pop art to point to. Hamilton took the home, the most private room of modern life, and showed that it had quietly filled up with things for sale &mdash; the bodybuilder, the pin-up, the gadgets, the brands, the planet on the ceiling, and the lollipop in the middle that says, whether or not it named anything, exactly what all of it is.
+      </p>
+    </article>
+  )
+}
+
+// REGISTRY (coordinator splices into NARRATIVES):
+//  'just-what-is-it': { tomorrow: JwiTomorrow, cutting: JwiCutting, looking: JwiLooking, break: JwiBreak, afterlife: JwiAfterlife },
+
+// ─────────────────────────────────────────────────────────────
+// I was a Rich Man's Plaything (Paolozzi, 1947) — the five chapters.
+// rights: in-copyright — no inline reproduction of the collage; prose pointers only.
+// Reception ¶3 quote: "...unless one emphasises and arranges the images into patterns
+// of irony the point will be lost." Source: Eduardo Paolozzi in conversation with
+// J. G. Ballard and Frank Whitford, Studio International (tied to his Tate retrospective).
+// ─────────────────────────────────────────────────────────────
+function RmpSetting({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Austerity Britain · 1947" title="A window onto a country he had never seen" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>I</DropCap>
+        n <strong>1947</strong>, Britain was two years past the war and still living on <strong>ration books</strong> &mdash; the little coupon booklets that capped how much food, clothing and fuel a household could buy, because so much was still in short supply. Meat was rationed, sweets were rationed, and would stay that way for years. Into this gray, careful country leaked something bright and excessive from across the Atlantic: <strong>American magazines</strong>. Glossy ads for cars and soda, lurid pulp-fiction covers, full-color packaging for things you could not get here &mdash; the printed exhaust of a society that, to a young Briton queuing for bread, looked impossibly rich.
+      </p>
+      <p style={proseStyle}>
+        The young man cutting them up was <strong>Eduardo Paolozzi</strong> (1924&ndash;2005), born in <strong>Leith</strong>, the dock district of Edinburgh, to Italian immigrant parents who ran an ice-cream shop. He had trained as a sculptor, and would become one of post-war Britain&rsquo;s major ones &mdash; the <em>Newton</em> outside the British Library and the Tottenham Court Road tube mosaics are his &mdash; so these glued-up sheets were a private side-channel, not his day job. But he was a magpie for printed images, and he was hungry for exactly the material the magazines were full of. He had never been to America. He knew it only the way the rest of Britain did, through this stream of advertising, and to him it read as an &ldquo;exotic society, bountiful and generous&rdquo; &mdash; a place glimpsed entirely through its own salesmanship.
+      </p>
+      <p style={proseStyle}>
+        Where did the magazines come from? Largely from <strong>American servicemen</strong>, who had them and passed them on. (The collecting really got going during Paolozzi&rsquo;s years in <strong>Paris</strong>, 1947&ndash;49, where he was living when he made this collage; some of the material was picked up in London shops too.) The point is simply that this stuff was not freely on sale to him. It arrived as a gift or a leftover, secondhand, the way anything desirable arrived in 1947. He hoarded it &mdash; and then he did something almost no one had yet done with <em>this</em> material, the throwaway commercial print of the American magazine. He started gluing it down.
+      </p>
+    </article>
+  )
+}
+
+function RmpMaking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Paris · 1947–49" title="Cutting up the American dream" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he method could not be simpler, which is part of why it was so radical. Paolozzi took scissors to the magazines, cut out the fragments he liked, and pasted them onto a single sheet of <strong>card</strong> &mdash; a <strong>collage</strong> (from the French <em>coller</em>, &ldquo;to glue&rdquo;: a picture assembled from glued-on scraps rather than painted). No oil, no canvas, no drawing of his own to speak of. The picture is made of other people&rsquo;s printed pictures, rearranged. The Tate, which owns it, describes the object plainly as &ldquo;printed papers on card.&rdquo;
+      </p>
+      <p style={proseStyle}>
+        And it is <strong>small</strong>. It is about <strong>fourteen inches by nine</strong> (35.9 by 23.8 cm), smaller than a sheet of letter paper, a thing you could hold on your lap. Everything in it is packed into that little portrait-format sheet, which is its own kind of surprise for a picture this famous.
+      </p>
+      <p style={proseStyle}>
+        Even the <em>title</em> is a found object. <em>I was a Rich Man&rsquo;s Plaything</em> is not a phrase Paolozzi coined &mdash; he lifted it, word for word, off the largest clipping in the collage: the cover of a pulp confessions magazine called <strong><em>Intimate Confessions</em></strong>, a woman in red surrounded by sensational teaser lines like &ldquo;Daughter of Sin&rdquo; and &ldquo;Woman of the Streets.&rdquo; The title of the artwork is just the headline of the trashy magazine it is partly made of. The rest of what is stuck to the card &mdash; the pistol, the soda logo, the bomber, the pie &mdash; comes next.
+      </p>
+    </article>
+  )
+}
+
+function RmpLooking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The collage" title="What is actually stuck to the card" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he biggest thing on the sheet is the <strong>pin-up in red</strong>, and it sets the terms for everything else. She is the cover girl of <em>Intimate Confessions</em>, and the magazine&rsquo;s own cover lines are still printed around her &mdash; &ldquo;Daughter of Sin,&rdquo; &ldquo;Woman of the Streets,&rdquo; and the line that became the title. This is the anchor of the whole picture, and the first lesson in how it works: Paolozzi did not draw a glamorous woman, he <em>cut one out</em>, lines of cover-copy and all, and let the printed scrap do the work.
+      </p>
+      <p style={proseStyle}>
+        Then the famous detail. Over her, a man&rsquo;s <strong>hand and pistol</strong> fire the word <strong>&ldquo;POP!&rdquo;</strong> in a white comic-strip burst. It is worth being exact about, because it gets mythologized. Paolozzi did not letter that &ldquo;POP&rdquo; himself; he cut it, already printed, off the <strong>packaging of a toy pop-gun</strong>, where it meant nothing grander than the noise the toy makes. It is a gunshot sound effect, lifted whole. That it reads, decades later, like a prophecy of &ldquo;Pop art&rdquo; is a genuine coincidence, and the coincidence is worth getting right.
+      </p>
+      <p style={proseStyle}>
+        Around these two, the rest of the American hoard. In a lower corner, a fragment of a <strong>Coca-Cola</strong> advertisement &mdash; the single most recognizable badge of American consumer culture, dropped in whole, no comment attached. Lower left, a <strong>wartime bomber</strong> (usually identified as a Lockheed Hudson or Ventura type) under the slogan &ldquo;Keep &rsquo;em flying!&rdquo;, the just-ended war still leaking into the consumer pictures. A citrus-juice logo (&ldquo;Real Gold&rdquo;). And tucked among them, a cherry and a slice of <strong>cherry pie</strong> &mdash; the food-ad shorthand for American plenty &mdash; sitting unnervingly close to the gun and the pin-up.
+      </p>
+      <p style={proseStyle}>
+        The easiest thing to miss is <strong>how it is built</strong>. These are separate printed scraps, each with its own paper edge, its own typeface, its own slightly different color registration, butted and overlapped on the card with the <strong>seams left showing</strong>. Paolozzi did not blend them into one smooth image; the joins stay visible. The picture is openly an <em>assembly of mass-produced print</em>, and that visible, scrapbook construction is the point as much as any single fragment. It is not an illustration of consumer culture. It is consumer culture, cut up and glued down.
+      </p>
+    </article>
+  )
+}
+
+function RmpReception({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <>
+      <article style={{ padding: '18px 18px 40px' }}>
+        <SectionHeader accent={accent} label="The &ldquo;Bunk&rdquo; presentation" title="Thrown on a wall at the ICA" first />
+        <p style={proseStyle}>
+          <DropCap accent={accent}>P</DropCap>
+          aolozzi made this in <strong>1947</strong> and showed it to essentially no one for <strong>five years</strong>. It was not painted to hang in a gallery. It was private material, part of a growing pile of these glued-up sheets. The collage only met an audience in <strong>1952</strong> &mdash; and not on a wall, but on one. Paolozzi projected it, with a run of dozens of his other collages, using an <strong>epidiascope</strong> (a projector that throws an enlarged image of a flat object, like a magazine page, onto a screen) in what became known as his <strong>&ldquo;Bunk&rdquo; presentation</strong> &mdash; mostly a wordless flood of projected images, with little spoken commentary. The pictures did the arguing.
+        </p>
+        <p style={proseStyle}>
+          The setting matters. That session, at the <strong>ICA</strong> (the Institute of Contemporary Arts) in London, opened the <strong>Independent Group</strong> &mdash; a small, restless circle of British artists, architects and critics who met through the early 1950s to argue about exactly this: the flood of American advertising, science fiction, Hollywood and product design, and whether it was beneath serious attention or the most alive thing going. Paolozzi flicking up images of soda ads and pulp covers was, in effect, the opening shot. The name &ldquo;Bunk&rdquo; he took from the American industrialist <strong>Henry Ford</strong>, who had once said &ldquo;history is more or less bunk&rdquo; &mdash; a fittingly all-American shrug for a body of work made of all-American trash.
+        </p>
+        <p style={proseStyle}>
+          On his own method, Paolozzi put it this way: where a classical artist might make hundreds of drawings, he was choosing among hundreds of ready-made images, picking one to act as a <em>metaphor</em> for a feeling, but, as he warned, &ldquo;unless one emphasises and arranges the images into patterns of irony the point will be lost.&rdquo; That is the key to it. The cutting is easy. The <em>arranging</em> &mdash; gun over pin-up, pie beside bomber &mdash; is where the meaning lives.
+        </p>
+      </article>
+
+      <MeanwhileSheet
+        accent={accent}
+        region="London"
+        when="1956 · four years later"
+        title="The Independent Group puts Pop on a poster."
+        body="That same London circle staged the show 'This Is Tomorrow' in 1956, where Richard Hamilton's tiny collage of a muscle-man holding a giant lollipop reading 'POP' became the other founding image of British Pop. The argument Paolozzi opened in 1952 had become a movement."
+        palette={['#7c3aed', '#2a1c3a', '#0e0814']}
+        ctaLabel="Read 'Pop Art'"
+      />
+    </>
+  )
+}
+
+function RmpLegacy({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="After" title="The &ldquo;POP!&rdquo; that came a decade early" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he reason this small sheet of glued paper is in the textbooks is the printed <strong>&ldquo;POP!&rdquo;</strong> &mdash; but the easy version of the claim is wrong. What this 1947 collage actually holds is the <strong>first known appearance of the word &ldquo;pop&rdquo; inside a work of this kind</strong>, roughly <strong>a decade before</strong> the movement got the name. What it did <em>not</em> do is invent or name Pop Art. The term &ldquo;Pop art&rdquo; was coined and popularized later, in the 1950s (the critic <strong>Lawrence Alloway</strong> is usually credited). And the movement was emphatically <em>not</em> named after this burst &mdash; the &ldquo;POP!&rdquo; is a toy-gun sound effect, a coincidence, not a baptism. It prefigures Pop; it does not found it.
+      </p>
+      <p style={proseStyle}>
+        Two other things often get tangled with this one. There is also a <strong>1972 screenprint</strong> with this same title &mdash; a printed reproduction issued as part of Paolozzi&rsquo;s 1972 <em>BUNK!</em> screenprint portfolio, copies of which live in the V&amp;A and elsewhere. That is not this. <em>This</em> is the <strong>unique 1947 paper collage</strong>, the one-of-one original, and everything here describes the collage, not the print. And the two dates do not merge: <strong>made 1947, first shown 1952</strong>.
+      </p>
+      <p style={proseStyle}>
+        The collage&rsquo;s own afterlife was quiet. It was gathered with the others into the group the Tate catalogues as <em>Ten Collages from BUNK</em>, and in <strong>1971</strong>, around his Tate retrospective, Paolozzi <strong>gave</strong> them to the gallery &mdash; presented, not sold. It hangs today in the <strong>Tate</strong> in London as accession T01462, held in the prints and drawings collection, viewable by appointment. Up close, the real surprise is still the smallness: one of the most consequential gestures in twentieth-century art is a letter-paper-sized scrapbook of someone else&rsquo;s advertisements.
+      </p>
+      <p style={proseStyle}>
+        What makes it a <strong>break</strong> is what it treats as raw material. Serious art in 1940s Britain still filed pulp covers, soda ads, toy packaging and pin-ups under <em>throwaway</em> &mdash; beneath art. Collage itself was nothing new; the Cubists were gluing paper in 1912, and the Dada photomonteurs a generation earlier already cut commercial print &mdash; but they used it for shock or political montage, not as a celebration of consumer abundance. Paolozzi did the unthinkable thing: he treated the <strong>ready-made commercial image as the actual material and subject of art</strong>, lifting an ad, a pulp cover, a pop-gun wrapper intact and arranging them into a picture about glamour, consumption and the American mass-culture dream. He did it in <strong>austerity Britain in 1947</strong>, when those American goods were objects of longing, and he did it years before Pop Art existed as a named movement and roughly a decade before Warhol and Lichtenstein. The everyday printed surface of consumer capitalism had become, all at once, a legitimate thing to make a picture out of. The supermarket walked into the gallery, and it walked in here.
+      </p>
+    </article>
+  )
+}
+
+// REGISTRY (coordinator splices into NARRATIVES):
+//  'rich-mans-plaything': { setting: RmpSetting, making: RmpMaking, looking: RmpLooking, reception: RmpReception, legacy: RmpLegacy },
+
+// ─────────────────────────────────────────────────────────────
+// Flag (Jasper Johns, 1954–55), the five sections
+// ─────────────────────────────────────────────────────────────
+function FlgDream({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="New York · 1954" title="A 24-year-old burns it all and starts over" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>I</DropCap>
+        n 1954, a young painter named <strong>Jasper Johns</strong> (born in Augusta, Georgia, in 1930, and raised in South Carolina) was living in lower Manhattan, in a loft on Pearl Street, a few doors from another young artist, <strong>Robert Rauschenberg</strong> (1925&ndash;2008), who lived nearby on Fulton Street and would become his closest companion and partner for the next years. The two were in and out of each other&rsquo;s studios, working their way past the reigning style in parallel; what Johns did was not a lone-genius flash but a move he and Rauschenberg were pushing toward together. Johns was twenty-four, mostly unknown, and supporting himself with odd jobs. And around this time he did something drastic: he <strong>destroyed essentially every piece of art he then owned</strong>, clearing the decks so he could start over and find out what kind of painter he actually wanted to be.
+      </p>
+      <p style={proseStyle}>
+        What he started over with was a small set of ready-made, public images he didn&rsquo;t have to invent: <strong>flags, targets, numbers, letters, maps.</strong> He had a phrase for the kind of thing he was after &mdash; images that are <em>&ldquo;things the mind already knows.&rdquo;</em> The idea is that some pictures are so common, so completely fixed in everyone&rsquo;s head, that you stop actually looking at them: a target, a row of numerals, the Stars and Stripes. They are seen constantly and examined never. The instinct was close to <strong>Marcel Duchamp</strong>&rsquo;s readymade, the ordinary, already-made object the artist simply chooses rather than fashions; Johns took an image he hadn&rsquo;t composed and made it the whole subject of a painting, so that you would be forced to look hard at the thing you thought you already knew.
+      </p>
+
+      <SectionHeader accent={accent} label="The key statement" title="The flag that arrived in his sleep" />
+      <p style={proseStyle}>
+        And the first of those signs, the one that started it, came to him &mdash; by his own account &mdash; in a dream. Johns has told the story many times, and the wording everyone now repeats, the version enshrined in MoMA&rsquo;s own text for the painting, goes like this:
+      </p>
+      <blockquote style={{ margin: '0 0 18px', padding: '4px 0 4px 18px', borderLeft: `3px solid ${accent}`, fontFamily: SERIF, fontSize: 18, lineHeight: 1.6, fontStyle: 'italic', color: INK }}>
+        <p style={{ margin: 0 }}>One night I dreamed that I painted a large American flag, and the next morning I got up and I went out and bought the materials to begin it.</p>
+      </blockquote>
+      <p style={proseStyle}>
+        It is genuinely his own account, not a critic&rsquo;s invention, though the wording has shifted across his retellings over the years. What it tells you is plain enough: he did not labor toward the flag as a clever idea. The most loaded public image in America simply showed up, ready-made, in his sleep, and he went out the next morning and bought what he needed to build it.
+      </p>
+    </article>
+  )
+}
+
+function FlgMaking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The making" title="Why it is not oil on canvas" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he single most common thing said about this painting is also wrong, and getting it right unlocks the whole work. <em>Flag</em> is <strong>not &ldquo;oil on canvas.&rdquo;</strong> MoMA&rsquo;s own catalogue line reads: <strong>encaustic, oil, and collage on fabric mounted on plywood, three panels.</strong> Every part of that is a fact you can see, and the surprising one is the first word.
+      </p>
+      <p style={proseStyle}>
+        <strong>Encaustic</strong> is one of the oldest painting techniques there is: <strong>pigment suspended in hot, melted wax.</strong> You keep the wax molten on a heat source, mix your color into it, and brush it on while it&rsquo;s liquid &mdash; and here is the crucial part, because it controls everything about how the painting looks: the wax <strong>cools and hardens within seconds</strong> of touching the surface. So each stroke <em>freezes where it lands</em>. It does not flow into the next stroke, it does not blend, it does not smooth out. The red sets before it can run into the white. The result is a surface that builds up thick and uneven, full of <strong>drips, ridges, and crusts</strong> of pigmented wax. Where a normal oil painting wants to look seamless, an encaustic painting keeps the record of every separate touch.
+      </p>
+
+      <SectionHeader accent={accent} label="Newspaper and a bedsheet" title="A flag made of the everyday" />
+      <p style={proseStyle}>
+        Now the rest of the recipe, which is just as physical. Johns started not with a fresh canvas but with <strong>fabric</strong> &mdash; widely described as a <strong>cut bedsheet</strong> &mdash; which he mounted on plywood and penciled the flag&rsquo;s outline onto. Then, before the color, he laid down <strong>collage</strong>: strips of ordinary <strong>newspaper</strong>, dipped in the molten wax and pressed onto the fabric. Only then did the encaustic go over the top. Because the wax stays slightly translucent, the newsprint never fully disappears; you can still read scraps of printed words and ads through the red, white, and blue. He reportedly used inconsequential clippings, steering clear of headlines and political stories, so the literal stuff underneath the national symbol is just the throwaway printed paper of an ordinary day.
+      </p>
+      <p style={proseStyle}>
+        And it was built in <strong>three separate panels</strong>, mounted side by side on the plywood, not one continuous sheet. That is in MoMA&rsquo;s medium line, and it is part of the point: the flag is <em>fabricated</em>, assembled in sections, the way a real flag is sewn together rather than painted in one go. So the picture is constructed at every level &mdash; bedsheet, newsprint, wax, three joined panels. It is less a painting <em>of</em> a flag than a flag <em>made</em>, by hand, out of the slowest materials available. (The canvas is dated 1954 on the back; MoMA dates the finished work 1954&ndash;55, which is why you see both years.)
+      </p>
+    </article>
+  )
+}
+
+function FlgLooking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The canvas" title="Count the stars" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>S</DropCap>
+        tand in front of it. The picture is modest in size for how famous it is &mdash; about <strong>three and a half feet tall by five feet wide</strong>, a wide landscape rectangle. And here is what the famous image never gets: its stars. Count them &mdash; there are <strong>forty-eight</strong>, not fifty. A modern eye half-registers that as a mistake. It isn&rsquo;t. The United States flag carried <strong>forty-eight stars from 1912 until 1959</strong>, when Alaska and Hawaii were admitted as the forty-ninth and fiftieth states. Johns painted this in 1954&ndash;55, so a forty-eight-star canton is exactly, historically correct. The flag is right. It is your memory of <em>today&rsquo;s</em> flag that is wrong, and that little jolt &mdash; looking hard at the thing you were sure you knew &mdash; is the whole experience Johns was after.
+      </p>
+      <p style={proseStyle}>
+        Notice next where the flag <em>sits</em>, which is everywhere. The blue field is up in the top-left corner, where it always is, but the flag is not hung <em>inside</em> a picture. There is no sky, no pole, no wall, no shadow, no room around it. The flag runs <strong>clean to all four edges</strong> and fills the rectangle exactly. The thing depicted and the object you are looking at are the same size and the same shape. <strong>There is no background at all.</strong> Nothing recedes; nothing stands in front of anything. That absence is not an oversight; it is the entire move, and we&rsquo;ll come back to what it does in the next section.
+      </p>
+
+      <SectionHeader accent={accent} label="The surface" title="A handmade thing under a machine-made design" />
+      <p style={proseStyle}>
+        Now look <em>into</em> the surface rather than at the image, and a second painting appears under the first. The colored field is <strong>thick, lumpy, and crusted</strong> &mdash; ridges and drips of pigmented wax, each stroke frozen in place by the cooling encaustic. And down inside it, under the stripes and the canton, you can read <strong>scraps of newspaper</strong>: actual printed text, collaged on and left half-visible through the translucent wax. The everyday word-fabric of the city, literally underneath the national symbol.
+      </p>
+      <p style={proseStyle}>
+        Hold those two things together, because their friction is the painting. The flag&rsquo;s <em>design</em> is rigid, official, and impersonal &mdash; a fixed grid of stars, a set count of stripes, none of it Johns&rsquo;s to invent or arrange. But the <em>handling</em> is the opposite: loose, brushy, openly worked by hand, every touch left showing. The most impersonal image in American life, made by the most personal and laborious possible means. And the seams of the <strong>three joined panels</strong> are faintly there too, the reminder that this flag was assembled in pieces, like a real one. The regular known pattern pulling one way, the irregular human surface pulling the other &mdash; that tension is the engine of the whole picture.
+      </p>
+    </article>
+  )
+}
+
+function FlgBreak({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The break · before" title="What Johns was painting against" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        o feel why this small flag mattered so much, you have to know what filled the New York galleries when Johns made it. The reigning style was <strong>Abstract Expressionism</strong>: huge, non-representational canvases by painters like <strong>Jackson Pollock</strong>, <strong>Willem de Kooning</strong>, and <strong>Mark Rothko</strong>, meant to register the artist&rsquo;s inner state and the very act of painting &mdash; Pollock&rsquo;s poured skeins, de Kooning&rsquo;s slashing strokes, Rothko&rsquo;s floating fields of color. The whole program pointed <em>inward</em>, toward private feeling and the drama of the gesture, and <em>away</em> from any recognizable subject. A painting was supposed to be a window onto the artist&rsquo;s soul, and emphatically <em>not</em> a picture of an ordinary thing.
+      </p>
+
+      <SectionHeader accent={accent} label="The break" title="A known sign as the whole subject" />
+      <p style={proseStyle}>
+        Johns broke with all of that in the calmest way imaginable: he made the entire subject a <strong>common, flat, already-known sign.</strong> Not his inner state &mdash; the U.S. flag, a design he didn&rsquo;t invent, rendered at full size, frontal, edge to edge. There was nothing to <em>compose</em>; the flag&rsquo;s arrangement is given. There was no expressive scene, no feeling to externalize, no background to fall away into. And so something strange and specific happens that does not happen in an Abstract Expressionist canvas: the <strong>depiction and the object collapse into one rectangle.</strong> A Rothko is unmistakably a painting <em>of</em> nothing in particular; Johns&rsquo;s <em>Flag</em> is so flat, so frontal, and so exactly coextensive with its own image that you genuinely cannot say whether you are looking at <em>a painting of a flag</em> or simply <em>a flag.</em> The picture <em>is</em> its image. That collapse is the break.
+      </p>
+      <p style={proseStyle}>
+        And the <em>tone</em> of it was the other half of the shock. Where Abstract Expressionism was hot, anguished, and personal, Johns&rsquo;s touch with this loaded national symbol was <strong>cool, detached, deadpan</strong> &mdash; he simply set the flag down and let it be a flag, refusing to tell you whether it meant patriotism, irony, or nothing at all. (That detachment is real, even though, paradoxically, the wax surface is one of the most intensely hand-worked in modern painting. The <em>handling</em> is laborious; the <em>attitude</em> is impassive. Both at once.)
+      </p>
+
+      <SectionHeader accent={accent} label="The break · after" title="The door it opened, and where Johns really stands" />
+      <p style={proseStyle}>
+        By treating a flat, mass-culture sign as a perfectly good thing to paint, <em>Flag</em> opened a door. Within a few years <strong>Pop Art</strong> walked through it &mdash; <strong>Andy Warhol</strong> with his soup cans and <strong>Roy Lichtenstein</strong> with his blown-up comic panels, taking images straight from the culture with the same deadpan. And the work&rsquo;s flatness, literalness, and seriality fed forward into <strong>Minimalism</strong> and <strong>Conceptual art</strong> as well. It is routinely named one of the hinge pictures of postwar art.
+      </p>
+      <p style={proseStyle}>
+        There is one thing to place correctly. <strong>Johns is not, strictly, a Pop artist.</strong> Art historians usually file him under <strong>Neo-Dada</strong>, or call him <strong>proto-Pop</strong> &mdash; a forerunner rather than a card-carrying member like Warhol or Lichtenstein. <em>Flag</em> (1954&ndash;55) actually <em>predates</em> Pop&rsquo;s arrival by several years; it is one of the things that <em>made Pop possible</em>. So the right way to place this picture is as a <strong>bridge</strong>: it leads out of Abstract Expressionism and toward Pop, standing in the doorway between them. Not the first Pop painting, but the one that cleared the ground.
+      </p>
+    </article>
+  )
+}
+
+function FlgAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Castelli · 1958" title="An overnight reputation" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>F</DropCap>
+        or a few years <em>Flag</em> sat mostly unseen. Then, in <strong>January 1958</strong>, the dealer <strong>Leo Castelli</strong> (1907&ndash;1999) gave Johns his <strong>first solo exhibition</strong>, and it made him famous almost at once. The show was a sensation; one of the most influential galleries of the era launched one of the defining careers of the era, and <em>Flag</em> was at the center of it. (Provenance is the documented chain of who has owned a work, in order, from the artist&rsquo;s hand to now.)
+      </p>
+
+      <SectionHeader accent={accent} label="Provenance · 1958–1973" title="Too patriotic, or not patriotic enough?" />
+      <p style={proseStyle}>
+        What happened next is the best story in the painting&rsquo;s life, and it turns on the flag itself. <strong>Alfred H. Barr, Jr.</strong> (1902&ndash;1981), the founding director of the <strong>Museum of Modern Art</strong>, saw the Castelli show and wanted <em>Flag</em> for MoMA. But his trustees balked. This was the <strong>Cold War</strong>, and a committee worried that a painted American flag &mdash; a flag, made strange, hung in an art museum &mdash; might be read as <strong>&ldquo;unpatriotic,&rdquo;</strong> as if Johns were doing something disrespectful to the national symbol. The very loadedness that made the picture powerful made the museum nervous to own it.
+      </p>
+      <p style={proseStyle}>
+        Barr found a way around the problem. He persuaded the architect <strong>Philip Johnson</strong> (1906&ndash;2005) to <strong>buy <em>Flag</em> privately</strong>, with the understanding that it would come to MoMA later, once the heat had passed. It changed hands twice &mdash; Johnson bought it (for a sum reported at the time as around a thousand dollars, the figure attached to <em>Flag</em> in the 1958 Castelli deal) and then gave it to the museum &mdash; so MoMA never paid a cent for the painting it had been too cautious to buy. In <strong>1973</strong>, as Barr was retiring, Johnson <strong>gave the painting to the museum in Barr&rsquo;s honor</strong>, which is precisely what the credit line still records: <em>&ldquo;Gift of Philip Johnson in honor of Alfred H. Barr, Jr.&rdquo;</em> The painting MoMA had been too cautious to buy in 1958 it received, free, fifteen years later.
+      </p>
+
+      <SectionHeader accent={accent} label="After" title="The first of many flags" />
+      <p style={proseStyle}>
+        <em>Flag</em> was also a beginning for Johns himself. He returned to the motif again and again over the following years &mdash; <em>White Flag</em> (1955), <em>Three Flags</em> (1958), and a long line of later flag paintings and prints &mdash; but the MoMA picture, the one that came out of the dream, is the <strong>first</strong>. It hangs in New York today, in copyright and still owned by a living artist, the small wax-and-newspaper flag that walked American painting out of one era and into the next without ever raising its voice.
+      </p>
+    </article>
+  )
+}
+
+// REGISTRY (coordinator splices into NARRATIVES):
+//  flag: { dream: FlgDream, making: FlgMaking, looking: FlgLooking, break: FlgBreak, afterlife: FlgAfterlife },
+
+// ─────────────────────────────────────────────────────────────
+// Campbell's Soup Cans (Warhol, 1962) — the five sections
+// ─────────────────────────────────────────────────────────────
+function SupLunch({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="New York · 1961" title="The most successful illustrator who wanted to be an artist" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>B</DropCap>
+        y 1960, <strong>Andy Warhol</strong> (1928&ndash;1987) was one of the most sought-after commercial artists in New York. Through the 1950s he had drawn shoes for department stores, illustrated advertisements and record sleeves, and won awards for it, work that paid extremely well and that the fine-art world did not take seriously at all. Commercial art and fine art were two separate countries with a guarded border, and Warhol was a rich, successful citizen of the wrong one. What he wanted was to cross over: to hang in a gallery, to be an <em>artist</em>, not an illustrator-for-hire.
+      </p>
+      <p style={proseStyle}>
+        The problem was subject matter. The reigning American art of the moment was <strong>Abstract Expressionism</strong> (the heroic, gestural abstraction of painters like <strong>Jackson Pollock</strong> and <strong>Willem de Kooning</strong>), where the whole value of a canvas was the record of one artist&rsquo;s unrepeatable hand and inner storm. Warhol&rsquo;s gift ran the opposite way: he was flat, cool, impersonal, a man who could reproduce a label without leaving a fingerprint. So he asked friends what he should paint, and the famous answer, from a gallery owner named Muriel Latow, was blunt: paint something everybody sees every day, paint money, paint a can of soup.
+      </p>
+
+      <SectionHeader accent={accent} label="The lunch" title="“The same thing over and over again”" />
+      <p style={proseStyle}>
+        The soup can was not a random object. It was <em>his</em> object. When an interviewer later asked Warhol why he had painted Campbell&rsquo;s soup, he gave one of the great deadpan answers in modern art:
+      </p>
+      <p style={{ ...proseStyle, paddingLeft: 16, borderLeft: `3px solid ${accent}`, fontStyle: 'italic' }}>
+        &ldquo;I used to drink it. I used to have the same lunch every day, for twenty years, I guess, the same thing over and over again.&rdquo;
+      </p>
+      <p style={proseStyle}>
+        That is from his interview with the critic <strong>Gene Swenson</strong>, published as &ldquo;What is Pop Art?&rdquo; in <em>ARTnews</em> in <strong>November 1963</strong>. (The published interview was edited down from the recordings, so it is the standard, widely-cited version of what Warhol said rather than a raw transcript.) The answer is the whole sensibility in two sentences. No symbolism, no anguish, no deeper meaning offered. He ate the same soup every day for years, and so he painted it, or so the deadpan went. The repetition in his lunch is the repetition in the painting. The picture is not <em>about</em> Campbell&rsquo;s; in a real way, the picture simply <em>is</em> Campbell&rsquo;s, the thing he liked, reproduced.
+      </p>
+    </article>
+  )
+}
+
+function SupMaking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The making · 1962" title="Thirty-two cans, because there were thirty-two soups" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>I</DropCap>
+        n 1962 Warhol painted not one can but <strong>thirty-two</strong>. The number is not symbolic and it was not chosen for effect: there were thirty-two because that was exactly how many varieties of <strong>Campbell&rsquo;s condensed soup</strong> the company sold at the time, from Tomato to Beef to Onion to Pepper Pot. One canvas per flavor on the grocery shelf. The product line set the count, which is itself the joke and the method: Warhol did not compose a number of cans, he transcribed a catalog.
+      </p>
+      <p style={proseStyle}>
+        Each canvas is the same modest size, <strong>20 by 16 inches</strong> (about 50 by 41 centimeters), and they are separate paintings, thirty-two of them, not one big picture. That separateness matters. They can be hung in any order, and in fact <strong>Warhol never fixed a sequence</strong>; the museum that owns them now arranges them by the date each soup variety first reached the market (Tomato, the oldest, leading), but that is a curator&rsquo;s decision, not the artist&rsquo;s instruction.
+      </p>
+
+      <SectionHeader accent={accent} label="Hand-painted" title="Not silkscreens. Made by hand to look machine-made" />
+      <p style={proseStyle}>
+        The cans are almost always mistaken for silkscreens. They are not, and the correction tells you what the painting is really doing. <strong>These 1962 Soup Cans are not silkscreens.</strong> Warhol is famous for the silkscreen process (the mechanical stencil printing he used for his Marilyns and his Disasters), but that technique came slightly later in 1962 and after. The Soup Cans are among the <em>last</em> works Warhol made substantially by hand. He projected an image of a real can onto each blank canvas, traced the outline, and <strong>painted it in by hand</strong>. The little gold band of ornaments around each can&rsquo;s base he pressed on with a <strong>rubber hand stamp</strong>.
+      </p>
+      <p style={proseStyle}>
+        The strangeness is the point. The whole feeling of the work is mechanical, impersonal, mass-produced, as flat and anonymous as a printed label. And yet Warhol achieved that machine-made look <em>by hand</em>, one careful traced-and-painted can at a time. He was not reproducing a soup can with a machine; he was, painstakingly, by hand, <strong>imitating a machine</strong>. The deadpan uniformity that reads across the set is a performance of the impersonal, and the performer is a human hand. Which is exactly why that hand still shows, in the small slips from can to can.
+      </p>
+    </article>
+  )
+}
+
+function SupLooking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The set" title="The same can, thirty-two times" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he first thing the set does is refuse a focal point. Taken whole, all thirty-two together, the <strong>repetition reads as the subject</strong>. The same can, the same scale, the same straight-on view, the same red-and-white label, set down again and again across the wall in an even rank that itself reads like a stretch of supermarket shelving. There is no climax, no &ldquo;best&rdquo; can the eye is meant to settle on. The rhythm of sameness is the whole effect, and it lands before a single word on a label is read.
+      </p>
+
+      <SectionHeader accent={accent} label="The only variable" title="The names are all that change" />
+      <p style={proseStyle}>
+        Can to can, almost nothing changes. Each is the identical red-and-white Campbell&rsquo;s label, the flat split of <strong>red on the bottom and white on top</strong>, the script &ldquo;Campbell&rsquo;s&rdquo; wordmark across the white, the little gold medallion in the center. The <em>only</em> thing that varies from canvas to canvas is the <strong>variety name</strong> printed on the label&rsquo;s lower band: Tomato, Beef, Onion, Pepper Pot, Green Pea, and on through the line. The product, not the painter, decides what differs. That is the deadpan engine of the whole thing: it is a shelf being scanned, and the only news is the flavor.
+      </p>
+
+      <SectionHeader accent={accent} label="The gold band" title="The fleur-de-lis ring, stamped on by hand" />
+      <p style={proseStyle}>
+        At the base of each can runs a thin ring of small gold ornaments. Those are <strong>fleur-de-lis</strong> (a stylized lily shape, the decorative band Campbell&rsquo;s used on its real packaging). Here is the tell: Warhol did not paint that band freehand and he did not print it. He pressed it on with a <strong>rubber stamp</strong>, can after can. So even the most &ldquo;mechanical&rdquo;-looking detail in the whole picture, the part that looks most like factory printing, is the place where Warhol&rsquo;s actual hand is most literally present, pressing a stamp.
+      </p>
+
+      <SectionHeader accent={accent} label="The hand in the machine" title="The small slips that give it away" />
+      <p style={proseStyle}>
+        Set a few cans side by side and the human hand starts to peek through the machine surface: a letter set a touch off, an outline that doesn&rsquo;t quite match its neighbor, the gold band a hair higher or lower, a wobble in a curve. None of this is a flaw; it is the evidence. Because each can was traced and painted individually, no two are perfectly identical, and those tiny irregularities are the proof of thirty-two hand-made paintings dressed up as thirty-two printed labels. The picture argues for the impersonal and the mass-produced, and then quietly betrays the warm, fallible hand that made every inch of it.
+      </p>
+    </article>
+  )
+}
+
+function SupBreak({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The break · before" title="What high art was supposed to be" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        o feel why a soup can on a wall was a genuine shock, you have to know what serious American painting was supposed to look like in 1962. The reigning style, <strong>Abstract Expressionism</strong>, prized the exact opposite of a soup can. It was abstract, not pictures of things. It was <strong>heroic and individual</strong>, the canvas understood as the record of one artist&rsquo;s unrepeatable gesture, the trace of his hand and his inner life (Pollock&rsquo;s poured skeins, de Kooning&rsquo;s slashing brush). Subject matter was inward, emotional, or pure abstraction. The supermarket aisle, the grocery label, the cheap commodity, those were beneath fine art entirely, the province of the ad men Warhol had just escaped.
+      </p>
+
+      <SectionHeader accent={accent} label="The break" title="A grocery commodity on the wall, deadpan and serial" />
+      <p style={proseStyle}>
+        Into that, Warhol hangs a <strong>mass-market soup can</strong>, the whole subject of the picture, in flat, <strong>deadpan, near-identical repetition</strong> across thirty-two panels. There is no expressive gesture, no visible feeling, no hierarchy, no &ldquo;best&rdquo; can. The image is the packaging, reproduced as coolly as an advertisement reproduces it. At a stroke this collapses the line between commercial illustration and fine art, the country Warhol had spent his whole career stranded on the wrong side of. The lowly, ordinary, commercial thing walks straight into the gallery and hangs where a Pollock used to hang. The supermarket has come into the museum.
+      </p>
+      <p style={proseStyle}>
+        And the content of the picture turns out to be, simply, <strong>liking the thing</strong>. In the same 1963 <em>ARTnews</em> interview, Swenson asked Warhol whether liking ordinary commercial things was what Pop Art was all about, and Warhol&rsquo;s published answer was as flat as the label:
+      </p>
+      <p style={{ ...proseStyle, paddingLeft: 16, borderLeft: `3px solid ${accent}`, fontStyle: 'italic' }}>
+        &ldquo;Yes. It&rsquo;s liking things.&rdquo;
+      </p>
+      <p style={proseStyle}>
+        (It is often rounded to the smoother &ldquo;Pop art is about liking things,&rdquo; but Warhol&rsquo;s published words were &ldquo;It&rsquo;s liking things.&rdquo;) That is the argument the soup cans make: not anguish, not protest, not symbolism, but the open, unembarrassed embrace of a cheap commercial thing as the worthy subject of high art.
+      </p>
+
+      <SectionHeader accent={accent} label="What it put in question" title="The artist’s unique touch" />
+      <p style={proseStyle}>
+        Underneath the shock sits the deeper challenge, aimed straight at the generation Warhol was displacing. If a painting can be a faithful copy of a label, repeated, deliberately impersonal, made to look mechanical (and soon, in the silkscreens, literally mechanical), then what happens to <strong>the value of the unique artist&rsquo;s hand</strong>? That unrepeatable personal touch was the entire claim of Abstract Expressionism, the thing that made a canvas precious. Warhol&rsquo;s soup cans openly question whether it matters at all. They put <strong>authorship and originality themselves</strong> on the table, and propose that the artist might be a deadpan reproducer rather than an expressive originator. It is a real question, not a settled one: the same flatness that reads as a profound challenge to one viewer reads to another as a commercial illustrator dressing up a borrowed label and calling it art, and the picture leaves that argument open rather than winning it. That question, more than the soup, is the break, and it opens the door for Pop Art and for the appropriation and brand art that followed.
+      </p>
+    </article>
+  )
+}
+
+function SupAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Provenance · July 1962" title="Propped on a shelf, like a grocery aisle" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he Soup Cans were first shown not in New York but in <strong>Los Angeles</strong>, at the <strong>Ferus Gallery</strong>, opening <strong>9 July 1962</strong>. It was Warhol&rsquo;s first solo painting exhibition, arranged by the gallery&rsquo;s director, <strong>Irving Blum</strong>, who had seen Warhol&rsquo;s soup-can canvases at his apartment and offered him the show. And the display matched the subject perfectly: the thirty-two canvases were set out in a single row on a <strong>narrow shelf or ledge running along the wall</strong>, exactly like cans for sale on a grocery-store aisle. The retail display was imported, deadpan, into the gallery. Almost nothing sold; a handful of individual canvases went out, one reserved by the actor <strong>Dennis Hopper</strong>.
+      </p>
+      <p style={proseStyle}>
+        The early verdict was not kind. One critic dismissed Warhol as &ldquo;either a soft-headed fool or a hard-headed charlatan,&rdquo; a Los Angeles newspaper ran a cartoon mocking the show, and a rival dealer down the block stacked actual Campbell&rsquo;s cans in his window under a sign that read, in effect, do not be misled, get the original, our low price two for thirty-three cents. The &ldquo;anyone could do this&rdquo; reaction was there from the first day, and it is still the honest objection the picture has to answer.
+      </p>
+
+      <SectionHeader accent={accent} label="Kept whole" title="The token $1,000, and a set held together" />
+      <p style={proseStyle}>
+        Then Blum did something that decided the picture&rsquo;s whole future. He thought the thirty-two cans belonged <em>together</em>, as one work, and should never be split up and scattered. So he <strong>bought back</strong> the few that had sold and purchased the <strong>entire set of thirty-two from Warhol</strong>. The price was almost nothing: a token <strong>$1,000</strong>, paid in <strong>ten monthly installments of a hundred dollars</strong>. It was not a market valuation; it was a handshake to keep the group intact. Blum held the set for decades, eventually placing it on long-term loan to the National Gallery of Art in Washington from 1987.
+      </p>
+
+      <SectionHeader accent={accent} label="The Factory" title="The machine the cans only mimed" />
+      <p style={proseStyle}>
+        Within a year of the soup cans, Warhol made good on what the paintings had only mimed. He gave up the brush for the <strong>silkscreen</strong> and moved the work into a studio he called the <strong>Factory</strong>, where assistants like <strong>Gerard Malanga</strong> pulled the prints alongside him. Warhol said the quiet part out loud: he liked the screen because someone else could reproduce the design as well as he could, and openly wished more people would do his work for him. The soup cans had imitated a machine by hand; the Factory simply became one, and a shared one. The question the cans raised about the artist&rsquo;s unique touch, Warhol now answered with a workshop.
+      </p>
+
+      <SectionHeader accent={accent} label="To MoMA · 1996" title="The set that hangs together still" />
+      <p style={proseStyle}>
+        In <strong>1996</strong>, the <strong>Museum of Modern Art</strong> in New York acquired the <strong>intact thirty-two-canvas set</strong> (a partial gift from Blum plus a museum purchase, widely reported at around fifteen million dollars for the group), and crucially, it kept them <em>together</em>, just as Blum had insisted. So the journey closes neatly: a grocery commodity, painted by hand in 1962 to look mass-produced, lampooned in a Los Angeles gallery, bought whole for a token thousand dollars to keep it from being dispersed, and now hung as one work in the most famous museum of modern art in the world. The supermarket can that walked into the museum never left. All thirty-two flavors are still on the wall, in their even rank, exactly as many as Campbell&rsquo;s happened to sell.
+      </p>
+    </article>
+  )
+}
+
+// REGISTRY (coordinator splices into NARRATIVES):
+//  'soup-cans': { lunch: SupLunch, making: SupMaking, looking: SupLooking, break: SupBreak, afterlife: SupAfterlife },
+
+// ─────────────────────────────────────────────────────────────
+// Marilyn Diptych (Andy Warhol, 1962) — the five chapters.
+// Mar… prefix. Shared helpers (SectionHeader, DropCap, proseStyle) reused;
+// no redefs/imports. In-copyright work: prose only, the wired hero carries
+// the rights line; no PD inline figures here.
+// ─────────────────────────────────────────────────────────────
+function MarDeath({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="New York · August 1962" title="A star dies, and a printmaker reaches for her photograph" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>O</DropCap>
+        n <strong>5 August 1962</strong>, <strong>Marilyn Monroe</strong> (1926&ndash;1962) was found dead in her Los Angeles home. She was thirty-six, and at that moment the most famous face in the world. Within weeks, a thirty-three-year-old New York artist named <strong>Andy Warhol</strong> (1928&ndash;1987) was making picture after picture of that face. The <em>Marilyn Diptych</em> comes straight out of those weeks. It is not a memorial in the ordinary sense; it is something stranger. Warhol had already spent that year doing the thing that explains it.
+      </p>
+      <p style={proseStyle}>
+        Warhol had spent the late 1950s as a wildly successful <strong>commercial illustrator</strong>, drawing shoes and ad work for magazines, and he carried the habits of advertising straight into his fine art. By 1962 he had hit on his method and his subjects at once. That spring he showed thirty-two paintings of <strong>Campbell&rsquo;s Soup cans</strong>, one for each flavor, in a Los Angeles gallery, lining them up like cans on a grocery shelf. He was painting <strong>dollar bills</strong>, <strong>Coca-Cola bottles</strong>, the plain mass-produced stuff of American consumer life, and treating each one with the flat, deadpan attention you&rsquo;d give a product, not a still life. The question hanging over all of it was simple and rude: what happens when you make a painting out of the most common, machine-made, advertised things in the country?
+      </p>
+      <p style={proseStyle}>
+        And then Monroe died, and Warhol saw that a famous person was one more of those things. A movie star, in 1962, was not so different from a soup can: a brand, a package, an image manufactured and reproduced by the millions to be consumed. So he treated her exactly as he had been treating the cans. He did not invent a new image of her, did not sketch her from memory, did not reach for anything private. He went and found an existing photograph, the public, pre-packaged one, and set about reproducing it. The grief, if it is grief, is buried under a process that looks like an assembly line. That is the picture: a star turned into a product the week she stopped being a person. Whether that is a cold indictment of how a culture consumed Monroe, or Warhol coolly doing the same thing himself the week she died, is a question critics have never settled; the diptych refuses to say which, and that refusal is part of why it still unsettles.
+      </p>
+    </article>
+  )
+}
+
+function MarMaking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="One photograph" title="A 1953 publicity still, cropped to a mask" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>E</DropCap>
+        very one of the fifty faces in this work comes from a <strong>single photograph</strong>. Not fifty photos, not a sitting, not a range of moods, one image, used over and over. It is a <strong>publicity still</strong> (a posed promotional photo a film studio puts out to advertise a movie) made in <strong>1953</strong> for the film noir <em>Niagara</em>, the thriller that gave Monroe top billing and pushed her into full stardom. The photographer was <strong>Gene Kornman</strong>, a Hollywood studio cameraman. Warhol cropped the still tight, throwing away the rest of it and keeping only the head: the hair, the heavy-lidded eyes with their shadow, the parted lips. What he kept was not really a face so much as a <strong>mask</strong>, the glamour image at its most reducible, the few features that say &ldquo;Marilyn&rdquo; and nothing else.
+      </p>
+
+      <SectionHeader accent={accent} label="The technique" title="What a silkscreen is, and how he pulled fifty" />
+      <p style={proseStyle}>
+        The method is the whole point. The image is not painted. It is <strong>silkscreened</strong>, and that word needs unpacking. A <strong>silkscreen</strong> (or screenprint) is a stencil printing process: you take a fine mesh screen, block out the parts that should stay blank, and push ink through the open mesh onto whatever lies beneath, so the ink prints in the shape of the open areas. Warhol used a <strong>photographic</strong> version of this. As he described it himself: <em>&ldquo;you pick a photograph, blow it up, transfer it in glue onto silk, and then roll ink across it so the ink goes through the silk but not through the glue.&rdquo;</em> The photograph becomes the stencil. Then you press the screen onto the canvas, squeegee ink through it, lift it, move it over, and pull again. Same image, again and again, by hand but by machine logic, as fast as you can reposition the screen.
+      </p>
+      <p style={proseStyle}>
+        So here is how the diptych was built. Warhol took two large canvases. On the <strong>left</strong> one he first laid down blocks of bright <strong>acrylic</strong> color by hand, the patches of yellow for hair, pink for skin, red for the mouth, then printed the black photographic image on top in a grid, <strong>twenty-five times</strong>, five rows of five. On the <strong>right</strong> canvas he printed the same image, the same twenty-five times, but in <strong>black ink alone</strong>, no color underneath. That is the entire work: one photograph, one screen, fifty pulls across two panels. The hand that made it is barely a painter&rsquo;s hand at all. It is a printer&rsquo;s.
+      </p>
+      <p style={proseStyle}>
+        And because it is printing, it goes wrong, on purpose. Roll a screen by hand fifty times and the ink loads up and runs out; the screen lands a hair off-center; an impression clogs solid or starves to a ghost. Warhol did not fix any of this. He let the registration drift and the ink thin and the faces clog or fade, so that the &ldquo;same&rdquo; image is in fact slightly different every single time, never once a clean copy. Two paintings worth of the same dead movie star, reproduced by a process that quietly fails. That failure is not a flaw in the work. It is most of what the work is about.
+      </p>
+    </article>
+  )
+}
+
+function MarLooking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The canvas" title="Big, and split down the middle" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he first surprise is the <strong>size</strong>. People who know the image from postcards expect something small; in the room it is large, about <strong>six and three-quarter feet tall and nine and a half feet wide</strong> (the two panels joined run over nine feet across), a wall of a picture. The second thing that registers is that it is <strong>two canvases</strong>, set edge to edge, with a clear seam down the middle, and that the two halves are doing opposite things. The whole work hinges on that split, and the two sides are best read one at a time.
+      </p>
+
+      <SectionHeader accent={accent} label="The left panel" title="Color, flat and loud" />
+      <p style={proseStyle}>
+        The <strong>left</strong> panel is in <strong>color</strong>, and the color is hot and flat and slightly off. The hair is a single block of <strong>yellow</strong>, the face a flush of <strong>pink</strong>, the mouth a slash of <strong>red</strong>, the eyelids a band of <strong>turquoise</strong>, each laid down as a patch rather than a modeled, shadowed tone. And the color does not quite line up with the black face printed over it. The yellow of the hair runs past where the hair is; the red lipstick sits a fraction off the lips; the turquoise floats near, but not exactly on, the eyes. This is the <strong>off-register</strong> printing from the last chapter, left visible: color and image slightly misaligned, the way a cheaply printed comic or a smeared magazine ad goes a touch out of true. It reads as garish, mechanical, advertised, the look of mass print, not the look of a portrait.
+      </p>
+
+      <SectionHeader accent={accent} label="The right panel" title="Black-and-white, fading to nothing" />
+      <p style={proseStyle}>
+        Across the seam, on the <strong>right</strong> panel, the color is simply gone. It is <strong>black-and-white</strong>, the same face printed in black ink on bare canvas, and as the eye travels across it the printing <strong>degrades</strong>. Some faces are over-inked, clogged into dark blots where the features disappear. Others are starved, the ink thinning out, the face breaking up, growing fainter and fainter until, toward the <strong>far right edge</strong>, the last impressions all but <strong>dissolve into blank canvas</strong>. A recognizable face thins into a grey smudge and then into almost nothing. The machine is running out.
+      </p>
+      <p style={proseStyle}>
+        It is hard not to read this. The bright, alive, public Marilyn on the left; the same face draining away to nothing on the right. Color as life, fade as death; glamour on one side, oblivion on the other. This is the most widely held reading of the diptych, and it is a fair one. But it is a <strong>reading</strong>, not a stated program. Warhol did not title the panels &ldquo;life&rdquo; and &ldquo;death,&rdquo; and the critic <strong>David Bourdon</strong>, who knew him, noted that Warhol <strong>never assigned a definitive meaning</strong> to the relationship between the two halves. The fade is plainly there on the canvas; what it means is left for you, and Warhol kept his own answer to himself.
+      </p>
+
+      <SectionHeader accent={accent} label="The grid" title="Fifty of one face" />
+      <p style={proseStyle}>
+        The layout, across both panels, is <strong>fifty faces</strong> in even rows and columns, twenty-five a side, every one the same cropped Kornman still. The arrangement is not a gallery of portraits but a <strong>grid</strong>, the regular cells of a contact sheet, a strip of film frames, rows of product on a shelf. And once it reads as a grid, the argument it&rsquo;s making comes through without a word: a star is a <strong>quantity</strong>, an image stamped out by the million, identical units. The thing that makes Marilyn Marilyn, the unrepeatable person, is exactly what the repetition strips away. One face is a glamour shot; fifty is a product run, and the longer you look the emptier each one gets. That emptiness is the point, and Warhol said it out loud.
+      </p>
+    </article>
+  )
+}
+
+function MarBreak({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The break · before" title="A painting was a thing made by hand" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>F</DropCap>
+        or roughly five centuries, a painting was a unique object made by an artist&rsquo;s <strong>hand</strong>. Its value lived in the touch, the brushstroke, the trace of one maker doing something no one else could do quite the same way. The movement that ruled New York painting just before Pop, <strong>Abstract Expressionism</strong> (the gestural, large-scale abstraction of Pollock and de Kooning in the 1940s and &rsquo;50s), pushed this idea to its limit: the autographic mark, the spontaneous gesture, was treated as the direct print of the artist&rsquo;s own selfhood on the canvas. The most modern art going, in 1960, still rested on the romantic faith that the hand-made mark carried the soul.
+      </p>
+
+      <SectionHeader accent={accent} label="The break · after" title="A photograph, repeated by machine" />
+      <p style={proseStyle}>
+        The <em>Marilyn Diptych</em> pulls that floor out, in three moves. First, the image is <strong>not made by hand</strong>: it is a <strong>found photograph, mechanically reproduced</strong> across the canvas. The &ldquo;brushwork&rdquo; is squeegee drag and printing error. Second, the subject is not a patron, a saint, or the artist&rsquo;s inner life but a <strong>manufactured media star</strong>, handled exactly like a consumer product, the soup can and the movie star treated as the same kind of thing. High art and mass-culture imagery collapse into one. Third, and most radical, the <strong>artist stops being a hand</strong>. Warhol named his studio <strong>The Factory</strong>, worked with assistants and screens and serial output, and presented himself not as a singular genius but as a <strong>reproducer, a machine</strong>. The romantic artist-self that Abstract Expressionism worshipped is deliberately voided. He even said the quiet part out loud: <em>&ldquo;The reason I&rsquo;m painting this way is that I want to be a machine.&rdquo;</em> (That line comes from a 1963 interview with Gene Swenson in <em>Art News</em>; it is the canonical published quote, though the art historian Jennifer Sichel, working from Swenson&rsquo;s original tape in 2018, showed the printed text was edited, with queer content cut, and what Warhol actually said in context was looser, so take it as the famous edited version, not a clean transcript.)
+      </p>
+
+      <SectionHeader accent={accent} label="The key statement" title="“The better and emptier you feel”" />
+      <p style={proseStyle}>
+        The diptych&rsquo;s real subject, though, is the <strong>repetition itself</strong>, fifty of the same face, and on that Warhol left a sentence that fits the work exactly. He said:
+      </p>
+      <blockquote style={{ margin: '0 0 18px', padding: '4px 0 4px 18px', borderLeft: `3px solid ${accent}`, fontFamily: SERIF, fontSize: 18, lineHeight: 1.6, fontStyle: 'italic', color: INK }}>
+        <p style={{ margin: 0 }}>the more you look at the same exact thing, the more the meaning goes away, and the better and emptier you feel.</p>
+      </blockquote>
+      <p style={proseStyle}>
+        That is the diptych in one line. (The quote is a sourced Warhol statement, collected in <em>Andy Warhol: A Retrospective</em>, 1989; you will occasionally see it printed with a leading &ldquo;Because,&rdquo; but the wording above is the standard form.) Repetition does not deepen the image, it <strong>drains</strong> it. Stare at fifty Marilyns and the face stops meaning a person and starts meaning nothing in particular, the way a word repeated aloud fifty times turns to noise. Overexposure empties the picture out. The dazzling celebrity image and the blank fade on the right are the same fact stated twice: look long enough at the most looked-at face in the world, and there is nothing left inside it. The locus of meaning has moved, from the unique hand-made mark to the mechanically reproduced media image, and from the artist&rsquo;s interior to the empty surface of mass culture.
+      </p>
+      <p style={proseStyle}>
+        That draining-by-repetition was not a one-off. Across 1962 and 1963 Warhol turned the same screen-and-repeat process onto images of actual death, car crashes, the electric chair, suicides, news photographs of catastrophe, his so-called <strong>Death and Disaster</strong> works. The dead movie star sits right at the hinge between the soup cans and the disasters: the celebrity image and the catastrophe image, both reproduced until the feeling wears off. Seen that way, the fade on the right of the diptych is less a poetic accident than the opening of a subject Warhol would work for the next two years.
+      </p>
+    </article>
+  )
+}
+
+function MarAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Provenance" title="Two canvases, paired into one work" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>H</DropCap>
+        ere is the work&rsquo;s life as an object, the <strong>provenance</strong> (the documented chain of who has owned a work of art, in order, from the artist&rsquo;s hand to where it sits now). It starts with a detail that is part of the meaning. The two canvases were bought <strong>directly from Warhol</strong> in 1962, before he had gallery representation, by the American collectors <strong>Emily Hall Tremaine and Burton Tremaine</strong>, who were among the first serious buyers of his work. By the standard account, the two panels were not conceived from the start as a single picture: it was <strong>Emily Tremaine</strong> who suggested the two separate canvases, the colored one and the black-and-white one, be shown together as a <strong>diptych</strong>, and Warhol agreed. (That detail is widely repeated but anecdotal, so hold it as reported rather than documented.) From then on the two were treated as one work, and the life-and-death reading the picture now carries hangs on a pairing that may have been an afterthought.
+      </p>
+
+      <SectionHeader accent={accent} label="The word in the title" title="What a diptych is, and what it borrows" />
+      <p style={proseStyle}>
+        That pairing also handed the work its name and a whole layer of meaning. A <strong>diptych</strong> (pronounced &ldquo;DIP-tik&rdquo;) is, historically, a <strong>two-panel hinged altarpiece</strong>, a Christian devotional object, two painted wooden panels that fold together like a book, set up on an altar or carried for private prayer. By calling this work a <em>Diptych</em> and using that sacred two-panel format, Warhol (or the title that stuck to the work) casts Monroe as a modern, secular <strong>icon</strong>: the repeated face read like a litany of prayers, the gilded star treated as an object of something close to religious devotion. This is criticism, not an artist&rsquo;s statement, but it is hard to unsee once named, the supermarket and the altar in the same frame.
+      </p>
+
+      <SectionHeader accent={accent} label="Tate · 1980" title="Where it lives now" />
+      <p style={proseStyle}>
+        In <strong>1980</strong>, the Tremaines sold the <em>Marilyn Diptych</em> to the <strong>Tate Gallery in London</strong> (reportedly for around $270,000, a figure from secondary accounts). The Tate record reads, simply, <strong>&ldquo;Purchased 1980,&rdquo;</strong> accession <strong>T03093</strong>. It was not donated and not bequeathed; the museum bought it. It hangs today at <strong>Tate Modern</strong>, on the south bank of the Thames, and is one of the most reproduced images in the building, which is its own small joke, a work about the emptiness of reproduction, endlessly reproduced.
+      </p>
+      <p style={proseStyle}>
+        And the work&rsquo;s influence ran exactly along the line it opened. After this, the <strong>commodity image</strong> became fair game for serious art; the <strong>artist could become a brand</strong>, a name and a factory rather than a lone hand; and a whole later practice of <strong>appropriation</strong>, taking an existing photograph or product and re-presenting it as art, traces back through here. The face Warhol screened fifty times is now, half a century on, one of the most familiar images on earth, a picture about a star turned into a product that has itself become a product, sold on mugs and posters and tote bags, which is either the failure of the work&rsquo;s argument or its final proof.
+      </p>
+    </article>
+  )
+}
+
+// REGISTRY (coordinator splices into NARRATIVES):
+//  marilyn: { death: MarDeath, making: MarMaking, looking: MarLooking, break: MarBreak, afterlife: MarAfterlife },
+
 const NARRATIVES: Record<string, Record<string, NarrativeFn>> = {
+  'just-what-is-it': { tomorrow: JwiTomorrow, cutting: JwiCutting, looking: JwiLooking, break: JwiBreak, afterlife: JwiAfterlife },
+  'rich-mans-plaything': { setting: RmpSetting, making: RmpMaking, looking: RmpLooking, reception: RmpReception, legacy: RmpLegacy },
+  flag: { dream: FlgDream, making: FlgMaking, looking: FlgLooking, break: FlgBreak, afterlife: FlgAfterlife },
+  'soup-cans': { lunch: SupLunch, making: SupMaking, looking: SupLooking, break: SupBreak, afterlife: SupAfterlife },
+  marilyn: { death: MarDeath, making: MarMaking, looking: MarLooking, break: MarBreak, afterlife: MarAfterlife },
+
   'liver-cocks-comb': { setting: LvrSetting, making: LvrMaking, looking: LvrLooking, break: LvrBreak, afterlife: LvrAfterlife },
   'mountains-sea': { 'nova-scotia': MtsNovaScotia, making: MtsMaking, looking: MtsLooking, break: MtsBreak, afterlife: MtsAfterlife },
   chief: { railroad: ChfRailroad, projector: ChfProjector, looking: ChfLooking, break: ChfBreak, afterlife: ChfAfterlife },

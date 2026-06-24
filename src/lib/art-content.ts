@@ -8580,5 +8580,454 @@ export const KRASNER_SEASONS: ArtWorkContent = {
   },
 }
 
-export const ART_WORK_CONTENT: Record<string, ArtWorkContent> = { burial: BURIAL, demoiselles: DEMOISELLES, kahnweiler: KAHNWEILER, 'chair-caning': CHAIR_CANING, horta: HORTA, 'violin-jug': VIOLIN_JUG, 'three-women': THREE_WOMEN, 'the-portuguese': THE_PORTUGUESE, 'gris-breakfast': GRIS_BREAKFAST, 'three-musicians': THREE_MUSICIANS, 'stone-breakers': STONE_BREAKERS, studio: STUDIO, sower: SOWER, gleaners: GLEANERS, angelus: ANGELUS, gargantua: GARGANTUA, carriage: CARRIAGE, 'horse-fair': HORSE_FAIR, 'impression-sunrise': IMPRESSION_SUNRISE, grenouillere: GRENOUILLERE, cradle: CRADLE, 'moulin-galette': MOULIN_GALETTE, 'paris-street': PARIS_STREET, 'dance-class': DANCE_CLASS, absinthe: ABSINTHE, 'boating-party': BOATING_PARTY, 'gare-saint-lazare': GARE_SAINT_LAZARE, 'starry-night': STARRY_NIGHT, 'bedroom-arles': BEDROOM_ARLES, 'grande-jatte': GRANDE_JATTE, 'bathers-asnieres': BATHERS_ASNIERES, 'card-players': CARD_PLAYERS, 'mont-sainte-victoire-lauves': MONT_SAINTE_VICTOIRE_LAUVES, 'vision-sermon': VISION_SERMON, 'moulin-rouge': MOULIN_ROUGE, 'where-do-we-come-from': WHERE_DO_WE_COME_FROM, hat: WOMAN_WITH_A_HAT, 'green-stripe': GREEN_STRIPE, bonheur: BONHEUR, luxe: LUXE, 'open-window': OPEN_WINDOW, 'blue-nude': BLUE_NUDE, chatou: CHATOU, 'charing-cross': CHARING_CROSS, 'rue-pavoisee': RUE_PAVOISEE, 'city-rises': CITY_RISES, dog: DOG, galli: GALLI, cyclist: CYCLIST, 'unique-forms': UNIQUE_FORMS, farewells: FAREWELLS, 'bal-tabarin': BAL_TABARIN, automobile: AUTOMOBILE, 'abstract-speed': ABSTRACT_SPEED, fountain: FOUNTAIN, lhooq: LHOOQ, 'kitchen-knife': KITCHEN_KNIFE, 'mechanical-head': MECHANICAL_HEAD, 'hat-makes-man': HAT_MAKES_MAN, stieglitz: STIEGLITZ, celebes: CELEBES, 'sainte-vierge': SAINTE_VIERGE, daum: DAUM, 'song-of-love': SONG_OF_LOVE, harlequin: HARLEQUIN, 'masson-auto': MASSON_AUTO, treachery: TREACHERY, persistence: PERSISTENCE, 'object-fur': OBJECT_FUR, 'carrington-self': CARRINGTON_SELF, 'tanguy-divis': TANGUY_DIVIS, 'ernst-histoire': ERNST_HISTOIRE, 'autumn-rhythm': AUTUMN_RHYTHM, 'woman-i': WOMAN_I, 'orange-yellow': ORANGE_YELLOW, 'vir-heroicus': VIR_HEROICUS, 'still-cliff': STILL_CLIFF, 'liver-cocks-comb': LIVER_COCKS_COMB, 'mountains-sea': MOUNTAINS_SEA, chief: CHIEF, 'krasner-seasons': KRASNER_SEASONS }
+// ─────────────────────────────────────────────────────────────
+// Work, Just what is it that makes today's homes so different, so
+// appealing? (Richard Hamilton, 1956), Kunsthalle Tübingen (Sammlung
+// Zundel). Founding image of British Pop art. Authored through the art
+// content pipeline (fact pack → Opus → 5 gates → revise). Chapter prose
+// in art-section-reader.tsx NARRATIVES['just-what-is-it'] (Jwi… prefix).
+// FACT HANDLING (gate-scoped):
+//  • rights: 'in-copyright' (Hamilton d. 2011) — shown small + credited,
+//    fair use; NOT pd-us. Wired image MUST be the 1956 ORIGINAL collage,
+//    not the 1992 digital reworking or the 2004 "upgrade".
+//  • The "POP" lollipop as the source of the movement's NAME is a popular
+//    claim, NOT settled — scoped as "often cited," never asserted. The term
+//    grew up inside the Independent Group; Lawrence Alloway carried it into
+//    wider use (first print use of "Pop", Architectural Design, Feb 1958,
+//    used "mass popular art", NOT the phrase "Pop art"); the earliest print
+//    appearance of "pop art" is the Smithsons' 1956 Ark piece; the first
+//    artwork to carry the word "POP" was Paolozzi's 1947 collage.
+//  • John McHale supplied the American source images (and, his family later
+//    argued, much of the layout); Hamilton assembled the collage. Authorship
+//    between them is DISPUTED — hedge, never assert a clean split.
+//  • The muscleman is the real bodybuilder Zabo Koszewski (a Charles-Atlas
+//    TYPE, not Atlas himself). Dimensions in/ft-in only.
+// ─────────────────────────────────────────────────────────────
+export const JUST_WHAT_IS_IT: ArtWorkContent = {
+  id: 'just-what-is-it',
+  name: "Just what is it that makes today's homes so different, so appealing?",
+  shortName: 'Just what is it…',
+  year: 1956,
+  artist: 'Richard Hamilton',
+  artistId: 'hamilton',
+  movement: 'Pop Art',
+  movementId: 'pop',
+  era: 'Modern',
+  eraId: 'mod',
+  medium: 'Collage on paper',
+  dimensions: '10 1/4 in × 9 3/4 in',
+  location: 'Kunsthalle Tübingen (Sammlung Zundel), Germany',
+  acquired: 'Sammlung Zundel, held at the Kunsthalle Tübingen',
+  accent: ART_ACCENTS.violet,
+  chain: { name: 'Works of Pop Art', index: 1, total: 9 },
+  hook: 'A modern living room, the size of a sheet of letter paper, built entirely out of American magazine ads, a bodybuilder, a pin-up, a tinned ham, and a giant lollipop that reads POP. The founding image of British Pop art.',
+  heroImage: ART_IMG.hamiltonHomes,
+  heroCredit: "Hamilton, Just what is it that makes today's homes so different, so appealing?, 1956 · Kunsthalle Tübingen (Sammlung Zundel) · in copyright, shown small under fair use.",
+  heroAspect: 0.94, // 24.8 × 26 cm, W/H ≈ 0.94, portrait (en-dash range only in comment)
+  heroFit: 'contain', // the whole small collage, never cropped
+  rights: 'in-copyright',
+  stats: [
+    { v: '10¼″ × 9¾″', k: 'Dimensions' },
+    { v: '1956', k: 'Made' },
+    { v: 'Kunsthalle Tübingen', k: 'Now at' },
+  ],
+  sections: [
+    { id: 'tomorrow', eyebrow: 'London · 1956', dateLabel: '1956', title: 'A poster for a show called This Is Tomorrow', blurb: 'A loose circle of artists, designers and critics in London, the Independent Group, were chewing over American advertising and mass culture as if it were serious material. Hamilton built this small collage as the catalogue image and poster for their 1956 Whitechapel exhibition, This Is Tomorrow.', progress: 0.08 },
+    { id: 'cutting', eyebrow: 'The making', dateLabel: '1956', title: 'Cut from American magazines, composed by hand', blurb: 'Nothing in it is drawn. The American magazines came largely from John McHale; the finished collage came out of Hamilton’s room. Just how the credit splits between them is genuinely contested. The artist’s job here is choosing and placing the mass-produced image, not painting it.', progress: 0.32 },
+    { id: 'looking', eyebrow: 'The canvas', dateLabel: '10 1/4 in × 9 3/4 in', title: 'A living room that is all product', blurb: 'The bodybuilder with the POP lollipop, the pin-up on the couch, the boxy television and the tape recorder on the floor, the framed romance comic on the wall, the brand marks, and a ceiling that is the Earth seen from space.', progress: 0.56 },
+    { id: 'break', eyebrow: 'The break', dateLabel: '1956–1957', title: 'When advertising became fine-art material', blurb: 'A finished art object assembled out of nothing but ads, logos, a comic, a pin-up and a tinned ham, with the aspirational home reframed as a catalogue of desire. A year later Hamilton wrote the one-paragraph definition of Pop that reads like a caption to this very picture.', progress: 0.80 },
+    { id: 'afterlife', eyebrow: 'After', dateLabel: '1956–today', title: 'The collage that outlived a movement', blurb: 'Reproduced in black and white in the catalogue, then claimed for decades as the first iconic work of Pop. Hamilton reworked the subject in 1992 and 2004; the small 1956 original now hangs in Germany, in the Sammlung Zundel at the Kunsthalle Tübingen.', progress: 0.96 },
+  ],
+  provenance: [
+    { year: '1956', who: 'Richard Hamilton (the artist)', place: 'London', note: 'Made in 1956 as the catalogue image and poster for the This Is Tomorrow exhibition, Whitechapel Art Gallery, London, where it was reproduced in black and white. The American source images were largely supplied by John McHale (with Magda Cordell); Hamilton assembled the collage. How much McHale shaped the design is disputed, his family later claiming a larger hand than Hamilton allowed.', price: null },
+    { year: '1956–today', who: 'Sammlung Zundel · Kunsthalle Tübingen', place: 'Tübingen, Germany', note: 'Now in the Kunsthalle Tübingen, Tübingen, as part of the Sammlung Zundel (the Zundel Collection) held there. The full chain of ownership from 1956 to Tübingen is not detailed in the public record; the destination is firm. On view.', price: null, museum: true },
+  ],
+  figures: [
+    { name: 'Richard Hamilton', role: 'Assembled the collage', palette: ['#7a3a6a', '#3a2a3a', '#140e14'] },
+    { name: 'John McHale', role: 'Supplied the images (and, his family said, more)', palette: ['#3a4a6a', '#2e3848', '#0e1220'] },
+    { name: 'Eduardo Paolozzi', role: 'Put POP in a collage first, 1947', palette: ['#6a5a3a', '#332820', '#0e0a06'] },
+    { name: 'Alison & Peter Smithson', role: 'Got the 1957 definition by letter', palette: ['#5a6a52', '#39402e', '#12140e'] },
+    { name: 'Lawrence Alloway', role: 'Critic who carried the term', palette: ['#6a6354', '#39322a', '#120f0c'] },
+  ],
+  annotations: [
+    { label: 'The lollipop that reads POP', where: 'Held upright by the bodybuilder, center, the giant disc on a stick angled toward the viewer', detail: 'The muscleman grips an oversized Tootsie Pop lollipop, big as a tennis racket, and its wrapper spells POP in block capitals. It reads at once as a sweet, a sight gag, and a label. It is often pointed to as a likely source of the movement’s name, but that is a celebrated coincidence, not a settled fact: the term “Pop art” grew up inside the Independent Group’s own talk, and the first artwork to contain the word “POP” was Eduardo Paolozzi’s 1947 collage, not this one. A lovely pun, with the naming held as a maybe.' },
+    { label: 'The bodybuilder', where: 'Foreground center, the posed muscleman standing on the carpet', detail: 'A flexed, oiled bodybuilder, the male body sold as a sales image. He is a real man, Irvin “Zabo” Koszewski, lifted from a physique magazine (a Charles-Atlas TYPE, not Charles Atlas himself). He is the masculine half of the room’s pairing of bodies as product.' },
+    { label: 'The pin-up on the couch', where: 'Left of center, the seated near-nude woman lounging on the sofa', detail: 'A burlesque pin-up reclines on the settee, a fringed lampshade on her head, the female body offered up exactly as the muscleman offers the male one. The two figures mirror each other across the room: both are advertisements made of skin.' },
+    { label: 'The TV and the tape recorder', where: 'Right, the boxy television set; lower foreground, the reel-to-reel machine on the floor', detail: 'A television (a Stromberg-Carlson model in the source ad) and a reel-to-reel tape recorder (a Boosey & Hawkes machine) sit in the room as the new domestic gods. Entertainment and recording technology are installed as furniture, as central to the home as the sofa.' },
+    { label: 'The romance comic on the wall', where: 'Upper left, the framed picture hung where a painting would go', detail: 'Where a family portrait or a landscape would hang, Hamilton frames a romance-comic cover (a Jack Kirby Young Romance) like a gallery painting. Pulp pinned up where a Rembrandt belongs, the old hierarchy of high and low turned upside down on the wall.' },
+    { label: 'The vacuum ad, the brand marks, and the Earth ceiling', where: 'The Hoover ad running its hose up the staircase at right; brand marks scattered through the room; overhead, the planet filling the ceiling', detail: 'A Hoover vacuum-cleaner ad sends its hose absurdly up the stairs (“Ordinary cleaners reach only this far”); brand marks dot the room, a Ford badge among them; and the ceiling, where plaster should be, is a photograph of the planet seen from space. The cosmos itself is pulled indoors and made part of the décor. Every surface in the room is somebody’s advertisement.' },
+  ],
+  lineage: {
+    parents: [
+      { label: 'Dada collage', mode: 'art' },
+      { label: 'The Independent Group', mode: 'art' },
+      { label: 'American consumer culture', mode: 'civ' },
+    ],
+    children: [
+      { label: 'American Pop art', mode: 'art' },
+      { label: 'Appropriation art', mode: 'art' },
+      { label: 'The image-saturated home', mode: 'civ' },
+    ],
+  },
+}
+
+// ─────────────────────────────────────────────────────────────
+// Work, I was a Rich Man's Plaything (Eduardo Paolozzi, 1947) — the unique 1947
+// paper collage (Tate T01462), NOT the 1972 BUNK! screenprint edition. One of the
+// collages later gathered as Ten Collages from BUNK. Pop Art works chain, index 2
+// of 9. rights: in-copyright (Paolozzi d. 2005) — hero shown SMALL + credited under
+// fair use; chapters carry no inline reproductions of the collage. Chapter prose in
+// art-section-reader.tsx NARRATIVES['…'] (Rmp… prefix). Authored gates-first.
+// TRAPS handled: the printed "POP!" is cut from TOY POP-GUN packaging (coincidence,
+// NOT the source of the movement's name); title lifted from the Intimate Confessions
+// pulp cover; made 1947, first shown 1952 (the "Bunk" presentation, inaugural
+// Independent Group, ICA London, via epidiascope, mostly wordless); presented by the
+// artist 1971 (not purchased).
+// ─────────────────────────────────────────────────────────────
+export const RICH_MANS_PLAYTHING: ArtWorkContent = {
+  id: 'rich-mans-plaything',
+  name: "I was a Rich Man's Plaything",
+  shortName: "Rich Man's Plaything",
+  year: 1947,
+  artist: 'Eduardo Paolozzi',
+  artistId: 'paolozzi',
+  movement: 'Pop Art',
+  movementId: 'pop',
+  era: 'Modern',
+  eraId: 'mod',
+  medium: 'Collage (printed papers on card)',
+  dimensions: '14 1/8 in × 9 3/8 in',
+  location: 'Tate, London',
+  acquired: 'Presented by the artist, 1971 (acc. T01462)',
+  accent: ART_ACCENTS.violet,
+  chain: { name: 'Works of Pop Art', index: 2, total: 9 },
+  hook: 'A letter-paper-sized scrapbook of American ads and pulp covers, glued together in austerity Britain, with a printed "POP!" in it a decade before anyone called the movement that.',
+  heroImage: ART_IMG.paolozziPlaything,
+  heroCredit: "Paolozzi, I was a Rich Man's Plaything, 1947 · Tate, London · in copyright, shown small under fair use.",
+  heroAspect: 0.67, // support 359 × 238 mm, W/H = 238/359 ≈ 0.66 → 0.67 (portrait)
+  heroFit: 'contain', // the whole collage, never cropped
+  rights: 'in-copyright',
+  stats: [
+    { v: '1947', k: 'Made' },
+    { v: '14⅛″ × 9⅜″', k: 'Dimensions' },
+    { v: 'Tate', k: 'Now at' },
+  ],
+  sections: [
+    { id: 'setting', eyebrow: 'Austerity Britain · 1947', dateLabel: '1947', title: 'A window onto a country he had never seen', blurb: 'Two years after the war, Britain is still on ration books, and a young Scottish-Italian sculptor is collecting the bright American magazines that GIs leave behind, the cheap printed proof of a richer world across the Atlantic.', progress: 0.08 },
+    { id: 'making', eyebrow: 'Paris · 1947–49', dateLabel: '1947', title: 'Cutting up the American dream', blurb: 'In a Paris attic Paolozzi scissors apart ads, pulp covers and toy packaging and glues the scraps onto a single sheet of card, lifting the whole title straight off a magazine cover.', progress: 0.32 },
+    { id: 'looking', eyebrow: 'The collage', dateLabel: '14 1/8 in × 9 3/8 in', title: 'What is actually stuck to the card', blurb: 'The pin-up in red, the pistol firing "POP!", the Coca-Cola fragment, the bomber, the slice of cherry pie, all of it readymade commercial print, butted and overlapped with the seams left showing.', progress: 0.56 },
+    { id: 'reception', eyebrow: 'The "Bunk" presentation', dateLabel: '1952', title: 'Thrown on a wall at the ICA', blurb: 'Made in 1947, shown to no one for five years, then projected by epidiascope when the Independent Group, the London circle that would think Pop Art into being, first convened.', progress: 0.78 },
+    { id: 'legacy', eyebrow: 'After', dateLabel: '1952–today', title: 'The "POP!" that came a decade early', blurb: 'Often cited as the first appearance of the word inside a work of this kind, gathered into the BUNK! series, given by the artist to the Tate in 1971, and read backward as the moment the supermarket first walked into the gallery.', progress: 0.96 },
+  ],
+  provenance: [
+    { year: '1947', who: 'Eduardo Paolozzi (the artist)', place: 'Paris', note: 'Made during his Paris years (1947–49) out of American magazines, much of the raw material given to him by American servicemen. Kept by the artist; not exhibited at the time.', price: null },
+    { year: '1947–1952', who: 'Eduardo Paolozzi', place: 'Paris / London', note: 'One of a growing group of collages from cheap print. First shown publicly only in 1952, projected by epidiascope in the "Bunk" presentation at the ICA, London, when the newly formed Independent Group first convened.', price: null },
+    { year: '1952–1971', who: 'Eduardo Paolozzi', place: 'London', note: 'Held by the artist; later gathered with the others as the group Tate catalogues as Ten Collages from BUNK (dated 1947–52).', price: null },
+    { year: '1971–today', who: 'Tate', place: 'London', note: 'Presented to the Tate Gallery by the artist around his 1971 retrospective (given, not purchased). Accession T01462. Held in the Prints and Drawings collection, view by appointment.', price: 'presented by the artist', museum: true },
+  ],
+  figures: [
+    { name: 'Eduardo Paolozzi', role: 'The maker', palette: ['#7c3aed', '#2a1c3a', '#0e0814'] },
+    { name: 'American servicemen', role: 'Supplied the magazines', palette: ['#3a4a6a', '#2e3848', '#0e1220'] },
+    { name: 'Lawrence Alloway', role: 'Named "Pop art," later', palette: ['#b44d3b', '#3a2018', '#140a08'] },
+    { name: 'The Independent Group', role: 'Its first audience, 1952', palette: ['#6a7250', '#3a3c28', '#14140e'] },
+    { name: 'Henry Ford', role: 'Gave the BUNK! its name', palette: ['#1c1c1c', '#a0a0a0', '#d6cf3f'] },
+  ],
+  annotations: [
+    { label: 'The pulp-romance pin-up', where: 'The largest clipping, filling most of the sheet: a woman in red', detail: 'The biggest fragment is the cover of a pulp confessions magazine, Intimate Confessions, a woman in red ringed by its own sensational cover lines ("Daughter of Sin," "Woman of the Streets"). The title of the whole collage is lifted word for word off this cover, so even the name of the picture is a found object, not a phrase Paolozzi wrote.' },
+    { label: 'The "POP!" pistol burst', where: 'Over the pin-up: a man’s hand and pistol, firing a white cartoon burst', detail: 'A hand holding a pistol fires the word "POP!" in a white comic-strip burst. The "POP!" was not lettered by Paolozzi; it was cut intact from the packaging of a toy pop-gun, where it meant nothing more than the bang the toy makes. That printed 1947 "POP" is the famous detail, the word sitting inside a picture roughly a decade before "Pop art" was a phrase, and it is a coincidence: the movement was not named after this burst.' },
+    { label: 'The Coca-Cola logo', where: 'In a lower corner, a fragment of a soda advertisement', detail: 'A piece of a Coca-Cola advertisement is dropped in whole, the single most recognizable badge of American consumer culture, glued down without comment. To a Briton on ration books in 1947, a Coke logo read as a small bright emblem of a country with everything to spare.' },
+    { label: 'The WWII bomber', where: 'Lower left, an aircraft carrying a wartime slogan', detail: 'A wartime aircraft (usually identified as a Lockheed Hudson or Ventura type) flies across the lower left under the slogan "Keep ’em flying!" The war that had only just ended is still bleeding into the consumer imagery, the same printed stream selling both the bomber and the soda.' },
+    { label: 'The cherry pie', where: 'A cherry and a slice of pie, set among the rest', detail: 'A glossy cherry and a slice of cherry pie, the food-ad shorthand for American domestic plenty, sit jarringly close to the gun and the pin-up. Abundance, glamour and violence are all cut from the same magazines and pressed flat onto the same card.' },
+    { label: 'The magazine-cutting texture', where: 'Across the whole sheet, the visible edges where scraps meet', detail: 'Separate printed scraps, each with its own paper edge, typeface and color registration, are butted and overlapped on card. The seams are left showing on purpose. The picture is openly an assembly of mass-produced print, not a smooth illustration pretending to be one image.' },
+  ],
+  lineage: {
+    parents: [ { label: 'Dada photomontage', mode: 'art' }, { label: 'American advertising', mode: 'civ' }, { label: 'Post-war austerity Britain', mode: 'civ' } ],
+    children: [ { label: 'The Independent Group', mode: 'art' }, { label: 'British Pop Art', mode: 'art' }, { label: 'American Pop Art', mode: 'art' } ],
+  },
+}
+
+// ─────────────────────────────────────────────────────────────
+// Work, Flag (Jasper Johns, 1954–55), MoMA, New York (object 78805).
+// The Pop-Art chain's work-read, though Johns is art-historically
+// PROTO-Pop / Neo-Dada, NOT a card-carrying Pop artist; Flag PREDATES
+// Pop and helped make it possible. Authored through the art content
+// pipeline (fact pack → Opus → 5 gates → revise). Chapter prose in
+// art-section-reader.tsx NARRATIVES['flag'] (Flg… prefix).
+// FACT HANDLING (gate-checked): it is a 48-STAR flag, which is CORRECT
+// for 1954 (48 stars 1912–1959), NOT an error, a looking-point, never
+// "50 stars." MEDIUM is encaustic + oil + collage on fabric mounted on
+// plywood, three panels, NOT "oil on canvas." ENCAUSTIC = pigment in
+// hot/melted wax; defined on first use. The DREAM origin is Johns's OWN
+// account but the wording varies across his retellings, so it is
+// attributed loosely ("Johns has said" / per MoMA), never pinned to one
+// interview/date. The 1964 "Take an object…" note is a LATER statement
+// of method and is omitted from the reader. RIGHTS = in-copyright
+// (Johns b.1930, living): /en/ thumb, shown small under fair use, NOT
+// pd-us. Provenance carries the documented Castelli-deal figure (Flag
+// listed at ~$1,000 in the 1958 deal; Johnson bought it privately at
+// that order, gave it to MoMA in 1973), so MoMA itself never paid for it.
+// ─────────────────────────────────────────────────────────────
+export const FLAG: ArtWorkContent = {
+  id: 'flag',
+  name: 'Flag',
+  shortName: 'Flag',
+  year: 1955,
+  artist: 'Jasper Johns',
+  artistId: 'johns',
+  movement: 'Pop Art',
+  movementId: 'pop',
+  era: 'Modern',
+  eraId: 'mod',
+  medium: 'Encaustic, oil, and collage on fabric mounted on plywood (three panels)',
+  dimensions: '3 ft 6 1/4 in × 5 ft 0 5/8 in',
+  location: 'Museum of Modern Art, New York',
+  acquired: 'Gift of Philip Johnson in honor of Alfred H. Barr, Jr., 1973',
+  accent: ART_ACCENTS.violet,
+  chain: { name: 'Works of Pop Art', index: 3, total: 9 },
+  hook: 'The Stars and Stripes, life-size and edge to edge, built up in pigmented hot wax over strips of newspaper, by a 24-year-old who said the picture came to him in a dream. The bridge out of Abstract Expressionism: is it a painting of a flag, or just a flag?',
+  heroImage: ART_IMG.johnsFlag,
+  heroCredit: 'Johns, Flag, 1954–55 · Museum of Modern Art, New York · in copyright, shown small under fair use',
+  heroAspect: 1.43, // 107.3 × 153.8 cm → W/H ≈ 1.43, landscape
+  heroFit: 'contain', // the whole three-panel flag, never cropped
+  rights: 'in-copyright', // Johns b.1930, living → /en/ thumb, fair-use only, NOT pd-us
+  stats: [
+    { v: '1954–55', k: 'Painted' },
+    { v: '48', k: 'Stars (right for 1954)' },
+    { v: 'MoMA', k: 'Now at' },
+  ],
+  sections: [
+    { id: 'dream', eyebrow: 'New York · 1954', dateLabel: '1954', title: 'The painting that began in a dream', blurb: 'A 24-year-old from South Carolina destroys nearly all the art he owns and starts over with images he calls things the mind already knows: flags, targets, numbers. He has said the flag came to him in a dream, and the next morning he went out and bought the materials.', progress: 0.08 },
+    { id: 'making', eyebrow: 'The making', dateLabel: '1954–55', title: 'Built in hot wax over newspaper', blurb: 'Not oil on canvas. Strips of newsprint dipped in molten wax, laid on a cut bedsheet over plywood, then worked in encaustic, pigment in hot wax, so each stroke freezes in place and the surface comes out lumpy, crusted, and handmade.', progress: 0.32 },
+    { id: 'looking', eyebrow: 'The canvas', dateLabel: '3 ft 6 1/4 in × 5 ft 0 5/8 in', title: 'A flag that is also a painting of a flag', blurb: 'The 48-star field filling the panel edge to edge, the wax texture, the newsprint reading through the red and white, the brushy hand under the official design, the three joined panels, and the total absence of any background.', progress: 0.56 },
+    { id: 'break', eyebrow: 'The break', dateLabel: '1954–55', title: 'A known sign as the whole subject', blurb: 'After Abstract Expressionism made the canvas a field of private feeling, Johns took a flat, common, already-known sign and painted it cool and deadpan, so the picture and its image become the same rectangle. The door it opened led to Pop.', progress: 0.78 },
+    { id: 'afterlife', eyebrow: 'After', dateLabel: '1958–today', title: 'Too risky to buy, then a gift to MoMA', blurb: 'It debuts at Johns’s first solo show at Leo Castelli in 1958. MoMA’s Alfred Barr wants it but his trustees fear a painted flag could read as unpatriotic, so Philip Johnson buys it privately and gives it to the museum in Barr’s honor in 1973.', progress: 0.96 },
+  ],
+  provenance: [
+    { year: '1954–1958', who: 'Jasper Johns (the artist)', place: 'New York', note: 'Painted 1954–55 (the canvas is dated 1954 on the reverse). Held by Johns until his first solo exhibition.', price: null },
+    { year: '1958', who: 'Leo Castelli Gallery', place: 'New York', note: 'Shown in Johns’s first solo exhibition at the Leo Castelli Gallery, January 1958, the show that made his reputation overnight.', price: null },
+    { year: '1958–1973', who: 'Philip Johnson (architect)', place: 'New York / New Canaan', note: 'MoMA’s founding director Alfred H. Barr, Jr. wanted Flag for the museum, but trustees worried a painted American flag could read as unpatriotic in the Cold War. Barr’s workaround: the architect Philip Johnson bought it privately, with the understanding it would come to MoMA later. Flag was listed at around $1,000 in the 1958 Castelli deal, and Johnson is generally said to have paid on that order; the exact private terms are reported rather than firmly documented.', price: '~$1,000 (reported, 1958 Castelli deal)' },
+    { year: '1973–today', who: 'Museum of Modern Art', place: 'New York', note: 'In 1973, as Barr retired, Johnson gave Flag to MoMA, “Gift of Philip Johnson in honor of Alfred H. Barr, Jr.” The museum itself never paid for it. Object 78805. On view.', price: 'gift in honor of Barr', museum: true },
+  ],
+  figures: [
+    { name: 'Jasper Johns', role: 'The painter', palette: ['#a83232', '#3a4a8a', '#15110c'] },
+    { name: 'Robert Rauschenberg', role: 'Partner · fellow Neo-Dadaist', palette: ['#6a5a3a', '#332820', '#0e0a06'] },
+    { name: 'Leo Castelli', role: 'The dealer · 1958 solo show', palette: ['#5a6a72', '#2e3a42', '#0e1014'] },
+    { name: 'Alfred H. Barr, Jr.', role: 'MoMA director who wanted it', palette: ['#3a4a8b', '#d6cf3f', '#1a1a1a'] },
+    { name: 'Philip Johnson', role: 'Bought it · gave it to MoMA', palette: ['#1c1c1c', '#a0a0a0', '#8a7a52'] },
+  ],
+  annotations: [
+    { label: 'The 48-star field, filling the panel', where: 'The blue canton, top-left, with its grid of white stars, and the whole flag running clean to all four edges', detail: 'Count the stars: there are forty-eight, not fifty, and that is correct, not a mistake. The U.S. flag carried forty-eight stars from 1912 until 1959, when Alaska and Hawaii were admitted, so a 1954 flag has exactly this canton. The deeper point is where the flag sits: it is not in a picture, with sky or a pole or a wall around it. It is the picture, edge to edge, with no border and no room left over. That coextensiveness, the flag exactly filling the rectangle, is the whole engine of the work.' },
+    { label: 'The encaustic, a surface of hardened wax', where: 'Everywhere across the colored field; clearest where the red and white stripes catch the light', detail: 'The thick, uneven, crusted surface is encaustic: pigment suspended in hot, melted wax. Because the wax cools and sets within seconds of touching the support, each stroke freezes where it lands instead of blending into the next, so the red, white, and blue stay separate and the whole surface builds up into ridges, drips, and lumps. It is the opposite of a flat, machine-printed flag: a national sign rendered in one of the oldest, slowest, most physically handmade techniques in painting.' },
+    { label: 'Newspaper reading through the paint', where: 'Under the stripes and the blue canton, where scraps of printed text show through the wax', detail: 'Look into the colored areas and you can make out fragments of newsprint, actual strips of newspaper, dipped in the molten wax and collaged onto the fabric before the encaustic went over them, so the print stays half-visible through the translucent wax. Johns reportedly avoided headlines and political stories, using inconsequential clippings and ads, so the everyday printed word of the culture literally underlies the national symbol without commenting on it.' },
+    { label: 'A handmade hand under an official design', where: 'The contrast between the flag’s rigid geometry and the loose, brushy way every inch of it is worked', detail: 'The flag’s design is fixed and official: the stripes are a set width, the stars a set grid, none of it Johns’s to invent. But the way it is painted is anything but rigid, the touch is loose, irregular, openly by hand. That tension, between the regular known pattern and the obviously handmade surface, is the painting’s quiet drama: the most impersonal image imaginable, made by the most personal and laborious means.' },
+    { label: 'Three panels, joined', where: 'The two faint vertical seams where the three separate supports meet', detail: 'It is not one continuous sheet. The picture is built on three separate panels mounted on plywood, part of MoMA’s official medium line, not a guess. The flag is fabricated, in sections, the way a real flag is sewn together, which quietly reinforces the question the whole work poses: is this a depiction of a flag, or a constructed object that is itself a kind of flag?' },
+    { label: 'No background, no depth, no scene', where: 'The entire surface, there is nothing behind, around, or in front of the flag', detail: 'Nothing recedes. Nothing sits in front of anything else. There is no setting, no horizon, no space for a figure to stand and look at a flag. The flag is frontal, flat, and exactly the size and shape of the thing you are looking at. That refusal of any background is what forces the famous question, is it a flag, or a painting of a flag?, because the image and the object have collapsed into one.' },
+  ],
+  lineage: {
+    parents: [
+      { label: 'Abstract Expressionism', mode: 'art' },
+      { label: 'Marcel Duchamp’s readymade', mode: 'art' },
+      { label: 'Cold War America', mode: 'civ' },
+    ],
+    children: [
+      { label: 'Pop Art', mode: 'art' },
+      { label: 'Minimalism', mode: 'art' },
+      { label: 'Conceptual art', mode: 'art' },
+    ],
+  },
+}
+
+// ─────────────────────────────────────────────────────────────
+// Work, Campbell's Soup Cans, Warhol, 1962. MoMA. The 32-canvas set,
+// kept intact. Authored through the art content pipeline (fact pack → Opus →
+// 5 gates → revise). Chapter prose in art-section-reader.tsx
+// NARRATIVES['soup-cans'] (Sup… prefix).
+// FACT HANDLING per fact pack: the 1962 cans are HAND-PAINTED (projector-traced
+// outlines, hand-stamped gold fleur-de-lis), NOT silkscreened (silkscreens came
+// slightly later in 1962). 32 canvases = the 32 Campbell's condensed-soup varieties
+// then sold (count tracks the product line). First shown Ferus Gallery, LA, 9 July
+// 1962, on a narrow shelf like a grocery aisle. Warhol did NOT fix the order; MoMA
+// hangs them by each variety's market-introduction date. RIGHTS in-copyright
+// (Warhol d.1987) → hero shown small + credited under fair use, NOT pd-us. Blum
+// bought the full set from Warhol for $1,000, a token sum paid in ten monthly
+// installments of $100; MoMA acquired it intact 1996 (~$15M, partial gift +
+// purchase). KEY STATEMENT = the verbatim Swenson (ARTnews, Nov 1963) "twenty
+// years" lunch quote.
+// ─────────────────────────────────────────────────────────────
+export const SOUP_CANS: ArtWorkContent = {
+  id: 'soup-cans',
+  name: "Campbell's Soup Cans",
+  shortName: "Campbell's Soup Cans",
+  year: 1962,
+  artist: 'Andy Warhol',
+  artistId: 'warhol',
+  movement: 'Pop Art',
+  movementId: 'pop',
+  era: 'Modern',
+  eraId: 'mod',
+  medium: 'Synthetic polymer paint on thirty-two canvases',
+  dimensions: '32 canvases, each 20 × 16 in (50.8 × 40.6 cm)',
+  location: 'Museum of Modern Art, New York',
+  acquired: 'Gift of Irving Blum; additional funds / purchase, 1996',
+  accent: ART_ACCENTS.violet,
+  chain: { name: 'Works of Pop Art', index: 4, total: 9 },
+  hook: 'Thirty-two near-identical grocery soup cans, one per variety on the shelf, hand-painted to look machine-made and first propped on a ledge like a supermarket aisle, that put the brand itself on the wall where a Pollock used to hang.',
+  heroImage: ART_IMG.warholSoup,
+  heroCredit: "Warhol, Campbell's Soup Cans, 1962 · MoMA, New York · in copyright, shown small under fair use",
+  heroAspect: 1.72, // the 32-canvas set hung in two rows reads wide; shown small under fair use
+  heroFit: 'contain', // the whole set, never cropped
+  rights: 'in-copyright',
+  stats: [
+    { v: '1962', k: 'Painted' },
+    { v: '32 cans · 20″ × 16″ each', k: 'The set' },
+    { v: 'MoMA', k: 'Now at' },
+  ],
+  sections: [
+    { id: 'lunch', eyebrow: 'New York · 1961–62', dateLabel: '1961–62', title: 'A commercial artist, eating the same lunch', blurb: 'Warhol had spent the 1950s as one of New York’s most successful advertising illustrators, drawing shoes and ads. Now he wants in to fine art, and he reaches for the single most ordinary thing in his own kitchen: the Campbell’s soup can he ate for lunch, by his own account, for some twenty years.', progress: 0.08 },
+    { id: 'making', eyebrow: 'The making', dateLabel: '1962', title: 'Hand-painted to look mass-produced', blurb: 'Thirty-two canvases, one for each variety of Campbell’s condensed soup the company then sold. Not silkscreens: these early cans are traced from a projector and painted by hand, the little gold band at each base pressed on with a rubber stamp, made to look machine-made but made by hand.', progress: 0.30 },
+    { id: 'looking', eyebrow: 'The set', dateLabel: '32 canvases, each 20 × 16 in', title: 'The same can, thirty-two times', blurb: 'The grid reads as one thing first: the identical red-and-white label, the same head-on view, the same scale, repeated thirty-two times, where the only thing that changes is the variety name and the slight wobble of the hand that painted each one.', progress: 0.54 },
+    { id: 'break', eyebrow: 'The break', dateLabel: '1962', title: 'The supermarket walks into the museum', blurb: 'Against a generation that prized the heroic, unrepeatable gesture (Pollock, de Kooning), Warhol hangs a grocery commodity, deadpan and serial, with no “best” can and no visible feeling. It collapses the line between an ad and a painting and puts the artist’s unique touch openly in question.', progress: 0.78 },
+    { id: 'afterlife', eyebrow: 'After', dateLabel: '1962–today', title: 'Mocked first, then kept together', blurb: 'First shown at the Ferus Gallery in Los Angeles, propped on a shelf like a grocery aisle, where it was widely lampooned and barely sold. The dealer Irving Blum bought the whole set back to keep it intact, held it for decades, and sold it whole to MoMA in 1996, where the 32 cans still hang together.', progress: 0.96 },
+  ],
+  provenance: [
+    { year: '1962', who: 'Andy Warhol (the artist)', place: 'New York', note: 'Made in 1962 as a set of 32 canvases. First exhibited at the Ferus Gallery, Los Angeles, opening 9 July 1962, Warhol’s first solo painting show, arranged by the gallery’s director Irving Blum. The cans sat in a single row on a narrow ledge, like cans on a grocery-store aisle. The show was widely mocked and only a handful of individual canvases initially sold.', price: null },
+    { year: '1962–63', who: 'Irving Blum (Ferus Gallery)', place: 'Los Angeles', note: 'Blum reassembled the set, buying back the few sold canvases and purchasing the full 32 from Warhol to keep the group together. The price was a token $1,000, paid in ten monthly installments of $100, not a market figure.', price: 'a token $1,000, in ten $100 installments' },
+    { year: '1987–1996', who: 'Irving Blum, on long-term loan', place: 'Washington, D.C.', note: 'Blum held the intact set, placing it on long-term loan to the National Gallery of Art, Washington, from 1987 (the year of Warhol’s death).', price: null },
+    { year: '1996–today', who: 'Museum of Modern Art', place: 'New York', note: 'Acquired by MoMA in 1996 as the intact 32-canvas set, a partial gift of Irving Blum plus museum purchase, deliberately kept together rather than dispersed. (Widely reported at about $15 million for the group.) On permanent view.', price: 'partial gift of Blum + purchase', museum: true },
+  ],
+  figures: [
+    { name: 'Andy Warhol', role: 'The painter', palette: ['#bf2f25', '#d6cf3f', '#1c1c1c'] },
+    { name: 'Irving Blum', role: 'Dealer who kept the set whole', palette: ['#3a4a6a', '#2e3848', '#0e1220'] },
+    { name: 'Campbell Soup Company', role: 'The brand, and the subject', palette: ['#bf2f25', '#e8e2d4', '#c79338'] },
+    { name: 'Gene Swenson', role: 'Interviewer of the “twenty years” quote', palette: ['#5a6a72', '#2e3a42', '#0e1014'] },
+    { name: 'Dennis Hopper', role: 'Actor; early buyer at Ferus', palette: ['#6a5a4a', '#332820', '#0e0a06'] },
+  ],
+  annotations: [
+    { label: 'Thirty-two near-identical cans in a grid', where: 'The whole set at once, the even rank of canvases, before any single one', detail: 'The entire grid registers first, because the repetition is the subject, not any single can. The same can, the same scale, the same straight-on view, the same red-and-white label, set down thirty-two times. There is no climax and no “best” one; the rhythm of sameness across the wall is the point. Warhol called the picture out of the supermarket and then refused to rank it.' },
+    { label: 'The only thing that changes is the name', where: 'The lower band of each label, the script word naming the variety: Tomato, Beef, Onion, Pepper Pot', detail: 'Can to can, the sole variable is the variety name printed on the label’s lower band. There are thirty-two because that was the number of Campbell’s condensed-soup varieties the company then sold, so the product line, not the painter, decides what appears. Tomato, the oldest variety, is usually hung first.' },
+    { label: 'The red-and-white label', where: 'Each can, the flat split of the packaging: red lower half, white upper half', detail: 'The flat division (red bottom, white top, the script “Campbell’s” wordmark across the white, a gold medallion at the center) is the real Campbell’s packaging, copied deadpan. There is no painterly interpretation of it, no mood laid over it. The image is the label, reproduced as faithfully as an ad would reproduce it.' },
+    { label: 'The gold fleur-de-lis band', where: 'The ring of small gold ornaments running around each can near its base', detail: 'The ring of tiny gold fleur-de-lis (the stylized lily ornament) circles each can near its base. These were not painted freehand and they were not printed: Warhol pressed them on with a rubber hand stamp. It is the quiet tell that the “mechanical” look of the whole thing is, in fact, handwork.' },
+    { label: 'Slight hand-painted irregularities', where: 'Two or three cans compared closely, the lettering, the outline, the gold band, can to can', detail: 'Set two cans side by side and the small inconsistencies surface: a letter slightly off, an outline not quite matched, the gold band a hair different. These 1962 cans are individually hand-painted, traced from a projected image rather than silkscreened (the famous silkscreen process came slightly later). The human hand keeps peeking through the machine surface.' },
+    { label: 'The grocery-shelf grid', where: 'The way the set hangs, an even two-row rank, recalling the original Ferus ledge', detail: 'The even rank reads like a stretch of supermarket shelving, which is no accident: at the Ferus Gallery in 1962 the canvases were propped in a single row on a narrow ledge, like cans for sale on a grocery aisle. The retail display is imported bodily into the gallery. (The exact order is not fixed by Warhol; MoMA arranges the set by the date each soup variety reached the market.)' },
+  ],
+  lineage: {
+    parents: [
+      { label: 'Commercial illustration', mode: 'art' },
+      { label: 'Marcel Duchamp’s readymade', mode: 'art' },
+      { label: 'The American supermarket', mode: 'civ' },
+    ],
+    children: [
+      { label: 'Pop Art', mode: 'art' },
+      { label: 'Warhol’s silkscreens and the Factory', mode: 'art' },
+      { label: 'Appropriation and brand art', mode: 'art' },
+    ],
+  },
+}
+
+// ─────────────────────────────────────────────────────────────
+// Work, Marilyn Diptych (Andy Warhol, 1962), Tate, London (T03093,
+// "Purchased 1980"). Flagship Pop Art work-read, Works of Pop Art chain
+// index 5 of 9. Authored through the art content pipeline (fact pack →
+// Opus → 5 gates → revise). Chapter prose in art-section-reader.tsx
+// NARRATIVES['marilyn'] (Mar… prefix). FACT HANDLING (per
+// work-marilyn-factpack.md):
+//  • Made within weeks of Monroe's death (5 Aug 1962); one of the late-1962
+//    Marilyn silkscreens.
+//  • 50 images, 25 + 25, ALL from ONE 1953 publicity still for the film
+//    Niagara, photographed by Gene Kornman. Niagara (1953) gave her top
+//    billing and pushed her into full stardom; it was NOT her first lead
+//    (Don't Bother to Knock, 1952, was). Don't name another source film.
+//  • Left panel = color; right panel = black-and-white, printing degrading
+//    and fading toward blank canvas at the far edge.
+//  • It is a SILKSCREEN on canvas (photo-screened image + acrylic color
+//    ground), NOT a hand-painting.
+//  • Dimensions = OVERALL 205.4 × 289.6 cm = 6 ft 8 7/8 in × 9 ft 6 in,
+//    landscape. Each panel ~205.4 × 144.8 cm; never give a single panel's
+//    width as the whole work.
+//  • The life/death (celebrity/oblivion) reading is INTERPRETATION, widely
+//    held but never fixed by Warhol (Bourdon: he never assigned a definitive
+//    meaning) — attributed as a reading, not a stated program.
+//  • The objectification/exploitation question is held as an unsettled
+//    critical debate, named (not moralized), no side taken.
+//  • rights: 'in-copyright' (Warhol d. 1987; © AWF / ARS) — shown small +
+//    credited under fair use; NOT pd-us.
+//  • KEY STATEMENT = the sourced "the more you look at the same exact thing…"
+//    line. The "I want to be a machine" line is used for the artist-as-factory
+//    break WITH the Sichel-2018 edited-interview caveat.
+// ─────────────────────────────────────────────────────────────
+export const MARILYN: ArtWorkContent = {
+  id: 'marilyn',
+  name: 'Marilyn Diptych',
+  shortName: 'Marilyn Diptych',
+  year: 1962,
+  artist: 'Andy Warhol',
+  artistId: 'warhol',
+  movement: 'Pop Art',
+  movementId: 'pop',
+  era: 'Modern',
+  eraId: 'mod',
+  medium: 'Acrylic and silkscreen ink on canvas (two panels)',
+  dimensions: '6 ft 8 7/8 in × 9 ft 6 in',
+  location: 'Tate, London',
+  acquired: 'Purchased 1980 (acc. T03093)',
+  accent: ART_ACCENTS.violet,
+  chain: { name: 'Works of Pop Art', index: 5, total: 9 },
+  hook: 'Fifty Marilyns printed from a single publicity still, made within weeks of her death: bright color on the left, the black-and-white right panel fading out toward blank canvas. Not painted by hand but silkscreened, the movie star reproduced like a soup can.',
+  heroImage: ART_IMG.warholMarilyn,
+  heroCredit: 'Warhol, Marilyn Diptych, 1962 · Tate, London · in copyright, shown small under fair use.',
+  heroAspect: 1.42, // 205.4 × 289.6 cm → W/H ≈ 1.41, landscape (two joined panels)
+  heroFit: 'contain', // the whole two-panel work, never cropped
+  rights: 'in-copyright', // 1962, Warhol d. 1987; © The Andy Warhol Foundation / ARS; NOT pd-us
+  stats: [
+    { v: '50 faces', k: 'One photo, 25 per panel' },
+    { v: '6′8⅞″ × 9′6″', k: 'Dimensions' },
+    { v: 'Tate', k: 'Now at' },
+  ],
+  sections: [
+    { id: 'death', eyebrow: 'New York · August 1962', dateLabel: '1962', title: 'A star dies, and a printmaker reaches for her photograph', blurb: 'Marilyn Monroe died on 5 August 1962. Within weeks, Warhol, already silkscreening soup cans and dollar bills, was turning a single old publicity still of her face into picture after picture. The diptych comes out of that burst.', progress: 0.08 },
+    { id: 'making', eyebrow: 'The making', dateLabel: '1962', title: 'One photo, a screen, fifty pulls', blurb: 'Every one of the fifty faces comes from the same 1953 publicity still for the film Niagara, cropped tight to her features. Warhol burned it into a silk screen and squeegeed ink through it across two canvases, the same image reproduced by machine, never quite identical twice.', progress: 0.32 },
+    { id: 'looking', eyebrow: 'The canvas', dateLabel: '6 ft 8 7/8 in × 9 ft 6 in', title: 'Color on the left, the right side fading to nothing', blurb: 'The left panel blazes in flat hot color; the right is black-and-white, the printing clogging and starving and thinning out until the last faces dissolve into blank canvas. Off-register color, smears, the same grid of one cropped face fifty times.', progress: 0.56 },
+    { id: 'break', eyebrow: 'The break', dateLabel: 'Pop Art', title: 'The star as a mass-produced thing', blurb: 'For five centuries a painting was a thing made by hand. Warhol prints a found photograph by machine, treats a movie star exactly like a consumer product, and presents himself as a factory rather than an author. The key statement: "the more you look at the same exact thing… the better and emptier you feel."', progress: 0.78 },
+    { id: 'afterlife', eyebrow: 'After', dateLabel: '1962–today', title: 'From the Tremaines’ wall to the Tate', blurb: 'Bought straight off Warhol by the collectors Emily and Burton Tremaine, who reportedly suggested pairing the two canvases as one diptych. Sold to the Tate in 1980, where it hangs as one of the defining images of the century. The life-and-death reading it carries was never Warhol’s stated meaning.', progress: 0.96 },
+  ],
+  // Provenance endpoints firm (made 1962 → Tate 1980, "Purchased 1980," acc.
+  // T03093). The Tremaine ownership and the "Emily Tremaine suggested the
+  // diptych pairing" detail are widely reported but anecdotal → kept attributed
+  // as reported, not as documented fact. The reported $270,000 1980 price is
+  // secondary → kept out of the priced field, noted only as a museum purchase.
+  provenance: [
+    { year: '1962', who: 'Andy Warhol (the artist)', place: 'New York', note: 'The two canvases were silkscreened in 1962, within weeks of Monroe’s death. They were acquired directly from Warhol, before he had gallery representation, by the collectors below.', price: null },
+    { year: '1962–1980', who: 'Emily Hall Tremaine & Burton Tremaine', place: 'Connecticut / New York', note: 'Bought straight from Warhol. By the standard (anecdotal) account, Emily Tremaine suggested the two separate canvases be shown together as a single diptych; Warhol agreed, and from then on they were treated as one work.', price: null },
+    { year: '1980–today', who: 'Tate', place: 'London', note: 'The Tremaines sold the work to the Tate Gallery in 1980 (reportedly for about $270,000; the figure is secondary). Tate record: "Purchased 1980," accession T03093. © The Andy Warhol Foundation for the Visual Arts / Artists Rights Society (ARS), New York. On view at Tate Modern.', price: 'Purchased 1980 (museum purchase)', museum: true },
+  ],
+  figures: [
+    { name: 'Andy Warhol', role: 'The artist', palette: ['#7c3aed', '#2a1c3a', '#0e0814'] },
+    { name: 'Marilyn Monroe', role: 'The face; died 5 Aug 1962', palette: ['#d6b83a', '#a8485a', '#1a0e10'] },
+    { name: 'Gene Kornman', role: 'Photographed the 1953 Niagara still', palette: ['#5a6a72', '#2e3a42', '#0e1014'] },
+    { name: 'Emily & Burton Tremaine', role: 'First owners; paired the panels', palette: ['#8a7a52', '#4a3c22', '#15110a'] },
+    { name: 'David Bourdon', role: 'Critic; noted Warhol fixed no meaning', palette: ['#5a6354', '#39322a', '#120f0c'] },
+  ],
+  annotations: [
+    { label: 'Fifty faces, one face', where: 'The whole work, scanned as a single grid of repetition', detail: 'Step back and the two panels read as one field of repetition: fifty Marilyns, twenty-five on each side, every one printed from the same 1953 publicity still. There is no variety to hunt for. Sameness is the subject. The picture is built to be read as a quantity, a stack of the same image, the way you’d read rows of one product on a shelf rather than a gallery of different portraits.' },
+    { label: 'The bright color left versus the fading black-and-white right', where: 'The left panel against the right panel, read across the central seam', detail: 'The left panel is printed in flat, saturated color: yellow hair, a pink face, red lips, a band of turquoise over the eyes. Cross to the right panel and the color is gone. It is black-and-white, and as the eye travels right the printing thins, the faces growing fainter until the last ones dissolve toward blank canvas at the far edge. The literal fact is color on one side and a fading grey on the other; the reading of it as life against death, glamour against oblivion, is a widely held interpretation, and a fair one, but Warhol never fixed that meaning.' },
+    { label: 'The off-register printing and smears', where: 'Throughout both panels, clearest where the color slips off the face', detail: 'The reproduction is plainly imperfect. Blocks of color slide out of alignment with the features so the lips and eyes don’t sit on their own outlines; some impressions are clogged and over-inked, others starved and broken. This is the machine’s failure left in plain sight, not corrected. In a hand-painted portrait these would be mistakes; here the drift and the smear are the surface, the evidence that the image was pulled through a screen, not drawn.' },
+    { label: 'The cropped publicity-still face', where: 'Any single cell of the grid; the framing repeated fifty times', detail: 'The source photo is cropped tight: just hair, heavy-lidded eyes with shadow, and parted lips. It is a headshot, a glamour mask, not a portrait of a person, the face reduced to its few sellable features. Warhol took the public image, the one manufactured to sell a movie, and used exactly that, never reaching past it to anything private.' },
+    { label: 'The grid', where: 'The even rows and columns the faces line up in, across both panels', detail: 'The faces sit in regular rows and columns, evenly spaced, like the frames on a strip of film, the cells of a contact sheet, or cans on a supermarket shelf. This is the layout of mass production rather than of a painting, and it does its own quiet work: arranged this way, a movie star becomes a manufactured good, identical units rolling off a line.' },
+    { label: 'The two joined panels', where: 'The work as two equal canvases set side by side, the seam down the middle', detail: 'The work is two separate canvases set edge to edge, the historic format of a diptych, the two-panel hinged altarpiece of Christian devotion. That sacred two-panel shape casts the repeated face as something to be venerated. The seam down the center is also the divide the life-and-death reading hangs on, glamour on one side and the fade on the other, though the original two canvases were only paired into one work after the fact.' },
+  ],
+  lineage: {
+    parents: [
+      { label: 'Mass-media photography', mode: 'art' },
+      { label: 'Duchamp’s readymade', mode: 'art' },
+      { label: 'The 1950s consumer boom', mode: 'civ' },
+    ],
+    children: [
+      { label: 'Pop Art’s commodity image', mode: 'art' },
+      { label: 'The artist as brand', mode: 'civ' },
+      { label: 'Appropriation art', mode: 'art' },
+    ],
+  },
+}
+
+export const ART_WORK_CONTENT: Record<string, ArtWorkContent> = { burial: BURIAL, demoiselles: DEMOISELLES, kahnweiler: KAHNWEILER, 'chair-caning': CHAIR_CANING, horta: HORTA, 'violin-jug': VIOLIN_JUG, 'three-women': THREE_WOMEN, 'the-portuguese': THE_PORTUGUESE, 'gris-breakfast': GRIS_BREAKFAST, 'three-musicians': THREE_MUSICIANS, 'stone-breakers': STONE_BREAKERS, studio: STUDIO, sower: SOWER, gleaners: GLEANERS, angelus: ANGELUS, gargantua: GARGANTUA, carriage: CARRIAGE, 'horse-fair': HORSE_FAIR, 'impression-sunrise': IMPRESSION_SUNRISE, grenouillere: GRENOUILLERE, cradle: CRADLE, 'moulin-galette': MOULIN_GALETTE, 'paris-street': PARIS_STREET, 'dance-class': DANCE_CLASS, absinthe: ABSINTHE, 'boating-party': BOATING_PARTY, 'gare-saint-lazare': GARE_SAINT_LAZARE, 'starry-night': STARRY_NIGHT, 'bedroom-arles': BEDROOM_ARLES, 'grande-jatte': GRANDE_JATTE, 'bathers-asnieres': BATHERS_ASNIERES, 'card-players': CARD_PLAYERS, 'mont-sainte-victoire-lauves': MONT_SAINTE_VICTOIRE_LAUVES, 'vision-sermon': VISION_SERMON, 'moulin-rouge': MOULIN_ROUGE, 'where-do-we-come-from': WHERE_DO_WE_COME_FROM, hat: WOMAN_WITH_A_HAT, 'green-stripe': GREEN_STRIPE, bonheur: BONHEUR, luxe: LUXE, 'open-window': OPEN_WINDOW, 'blue-nude': BLUE_NUDE, chatou: CHATOU, 'charing-cross': CHARING_CROSS, 'rue-pavoisee': RUE_PAVOISEE, 'city-rises': CITY_RISES, dog: DOG, galli: GALLI, cyclist: CYCLIST, 'unique-forms': UNIQUE_FORMS, farewells: FAREWELLS, 'bal-tabarin': BAL_TABARIN, automobile: AUTOMOBILE, 'abstract-speed': ABSTRACT_SPEED, fountain: FOUNTAIN, lhooq: LHOOQ, 'kitchen-knife': KITCHEN_KNIFE, 'mechanical-head': MECHANICAL_HEAD, 'hat-makes-man': HAT_MAKES_MAN, stieglitz: STIEGLITZ, celebes: CELEBES, 'sainte-vierge': SAINTE_VIERGE, daum: DAUM, 'song-of-love': SONG_OF_LOVE, harlequin: HARLEQUIN, 'masson-auto': MASSON_AUTO, treachery: TREACHERY, persistence: PERSISTENCE, 'object-fur': OBJECT_FUR, 'carrington-self': CARRINGTON_SELF, 'tanguy-divis': TANGUY_DIVIS, 'ernst-histoire': ERNST_HISTOIRE, 'autumn-rhythm': AUTUMN_RHYTHM, 'woman-i': WOMAN_I, 'orange-yellow': ORANGE_YELLOW, 'vir-heroicus': VIR_HEROICUS, 'still-cliff': STILL_CLIFF, 'liver-cocks-comb': LIVER_COCKS_COMB, 'mountains-sea': MOUNTAINS_SEA, chief: CHIEF, 'krasner-seasons': KRASNER_SEASONS, 'just-what-is-it': JUST_WHAT_IS_IT, 'rich-mans-plaything': RICH_MANS_PLAYTHING, flag: FLAG, 'soup-cans': SOUP_CANS, marilyn: MARILYN }
 export const ART_ARTIST_CONTENT: Record<string, ArtArtistContent> = { picasso: PICASSO }
