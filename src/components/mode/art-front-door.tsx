@@ -108,6 +108,22 @@ function ArtHubIntro() {
           ))}
         </div>
       </div>
+
+      {/* Meet the makers — doorway to the Artists index */}
+      <div style={{ padding: '12px 18px 6px' }}>
+        <Link href="/art/artists" style={{
+          width: '100%', boxSizing: 'border-box', textDecoration: 'none',
+          border: `1px solid ${BORDER_STRONG}`, background: CARD_BG, color: 'var(--foreground)',
+          padding: '13px 16px', borderRadius: 10,
+          display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 12,
+        }}>
+          <span style={{ minWidth: 0 }}>
+            <span style={{ display: 'block', fontFamily: SERIF, fontSize: 15.5, fontWeight: 500, letterSpacing: -0.1 }}>The Artists</span>
+            <span style={{ display: 'block', marginTop: 2, fontFamily: SANS, fontSize: 12.5, color: MUTED }}>Meet the makers, sorted by movement.</span>
+          </span>
+          <span style={{ flexShrink: 0, fontFamily: SANS, fontSize: 16, color: ART_ACCENT }}>→</span>
+        </Link>
+      </div>
     </>
   )
 }

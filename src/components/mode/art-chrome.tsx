@@ -309,7 +309,7 @@ export function ArtAtAGlance({ summary, stats, faceoff, extras }: { summary: str
 // A circular artist headshot — a born-verified portrait/self-portrait where we
 // have one, biased up to the face (objectPosition), with a graceful fall back to
 // the artist's palette gradient when there's no photo or it fails to load.
-function ArtistAvatar({ photo, palette }: { photo?: string; palette: Palette }) {
+export function ArtistAvatar({ photo, palette }: { photo?: string; palette: Palette }) {
   const [failed, setFailed] = useState(false)
   const showImg = !!photo && !failed
   return (
@@ -325,17 +325,28 @@ function ArtistAvatar({ photo, palette }: { photo?: string; palette: Palette }) 
 export function ArtistsStrip({ artists, label = 'Artists' }: { artists: { id?: string; name: string; role?: string; years?: string; palette: Palette; photo?: string }[]; label?: string }) {
   return (
     <div style={{ padding: '20px 0 22px', borderBottom: `1px solid ${BORDER}` }}>
-      <div style={{ padding: '0 16px', marginBottom: 12 }}><Eyebrow>{label}</Eyebrow></div>
+      <div style={{ padding: '0 16px', marginBottom: 12, display: 'flex', alignItems: 'baseline', justifyContent: 'space-between', gap: 12 }}>
+        <Eyebrow>{label}</Eyebrow>
+        <Link href="/art/artists" style={{ fontFamily: SANS, fontSize: 11.5, fontWeight: 600, letterSpacing: 0.2, color: ART_ACCENT, textDecoration: 'none' }}>All artists →</Link>
+      </div>
       <div style={{ display: 'flex', gap: 12, overflowX: 'auto', scrollbarWidth: 'none', padding: '0 16px' }}>
-        {artists.map(a => (
-          <div key={a.id || a.name} style={{ flexShrink: 0, width: 84, display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 6 }}>
-            <ArtistAvatar photo={a.photo} palette={a.palette} />
-            <div style={{ textAlign: 'center' }}>
-              <div style={{ fontFamily: SERIF, fontSize: 13.5, lineHeight: 1.18, letterSpacing: -0.1, color: INK }}>{a.name}</div>
-              <div style={{ marginTop: 2, fontFamily: SANS, fontSize: 11, letterSpacing: 0.2, color: FAINT }}>{a.role || a.years}</div>
-            </div>
-          </div>
-        ))}
+        {artists.map(a => {
+          const card = (
+            <>
+              <ArtistAvatar photo={a.photo} palette={a.palette} />
+              <div style={{ textAlign: 'center' }}>
+                <div style={{ fontFamily: SERIF, fontSize: 13.5, lineHeight: 1.18, letterSpacing: -0.1, color: INK }}>{a.name}</div>
+                <div style={{ marginTop: 2, fontFamily: SANS, fontSize: 11, letterSpacing: 0.2, color: FAINT }}>{a.role || a.years}</div>
+              </div>
+            </>
+          )
+          const cellStyle: React.CSSProperties = { flexShrink: 0, width: 84, display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 6 }
+          // The roster links to the artist page only when the artist has an id;
+          // visual is identical whether wrapped in a link or a plain div.
+          return a.id
+            ? <Link key={a.id} href={`/art/artist/${a.id}`} style={{ ...cellStyle, textDecoration: 'none', color: INK }}>{card}</Link>
+            : <div key={a.name} style={cellStyle}>{card}</div>
+        })}
       </div>
     </div>
   )
