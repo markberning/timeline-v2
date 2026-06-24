@@ -8837,7 +8837,771 @@ function AutAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: s
 // REGISTRY (coordinator splices into NARRATIVES):
 //  automobile: { painter: AutPainter, making: AutMaking, looking: AutLooking, noise: AutNoise, afterlife: AutAfterlife },
 
+// ─────────────────────────────────────────────────────────────
+// Fountain (Duchamp, 1917) - the five chapters
+// ─────────────────────────────────────────────────────────────
+function FntCase({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="New York · April 1917" title="A show built on a promise it could not keep" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>I</DropCap>
+        n the spring of 1917, a group of New York artists opened a brand-new exhibition with a deliberately radical rule. The <strong>Society of Independent Artists</strong> modeled itself on the French <em>Soci&eacute;t&eacute; des Artistes Ind&eacute;pendants</em>, and it made a single, ringing promise: <strong>no jury, no prizes</strong>. There would be no panel of experts deciding what was good enough to hang. Anyone who paid the fee, six dollars (a one-dollar initiation plus five dollars of dues), could exhibit anything they liked, and it would be shown. The first exhibition opened on <strong>10 April 1917</strong> at the Grand Central Palace in Manhattan. It was meant to be the most open art show in America.
+      </p>
+      <p style={proseStyle}>
+        <strong>Marcel Duchamp</strong> (1887&ndash;1968), a French artist who had moved to New York two years earlier and was already notorious for his fractured, machine-like paintings, sat on the Society&rsquo;s board and ran its hanging committee. He had, in other words, helped write the no-jury rule. And he decided to test it. Under a fake name, he submitted the least &ldquo;artistic&rdquo; object he could think of.
+      </p>
+      <p style={proseStyle}>
+        The entry came in signed <strong>&ldquo;R. Mutt&rdquo;</strong> and titled <em>Fountain</em>. It was an ordinary <strong>urinal</strong>, a mass-produced porcelain plumbing fixture, laid on its back. Duchamp later said the name was a small joke stacked on a small joke: &ldquo;Mutt comes from Mott Works,&rdquo; the <strong>J. L. Mott Iron Works</strong>, a famous New York plumbing maker, which he twisted to &ldquo;Mutt&rdquo; with a wink at the popular comic strip <em>Mutt and Jeff</em>; and &ldquo;R.&rdquo; was for Richard, French slang for a man with money. (Whether the fixture actually came from Mott is, it turns out, disputed, but that was Duchamp&rsquo;s stated source.)
+      </p>
+
+      <SectionHeader accent={accent} label="The suppression" title="Hidden, not rejected" />
+      <p style={proseStyle}>
+        The show had <strong>no jury</strong>. That was its whole point. So <em>Fountain</em> could not be, and was not, formally &ldquo;rejected.&rdquo; What happened instead was quieter and, in its way, worse for the Society: the board <strong>suppressed</strong> it. The object was put out of sight, hidden behind a partition, and never shown to the public, even though the rules guaranteed acceptance to anyone who paid the fee. The Society broke its one promise the moment that promise was inconvenient.
+      </p>
+      <p style={proseStyle}>
+        Duchamp, who had submitted the urinal anonymously precisely to see whether the &ldquo;anything goes&rdquo; pledge was real, now had his answer. He <strong>resigned from the board in protest</strong>. The scandal was not that a urinal had been turned away by a panel of judges. It was that a show which swore it had no judges had quietly judged anyway. The whole episode was an experiment, and the Society had failed it.
+      </p>
+    </article>
+  )
+}
+
+function FntMaking({ accent, onZoom }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The making · 1917" title="Almost nothing was made" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he strangest thing about <em>Fountain</em> is how little there is to describe under &ldquo;the making.&rdquo; There is no canvas, no carving, no casting, no studio labor of the usual kind. Duchamp acquired a <strong>factory-made porcelain urinal</strong>, the sort sitting in any plumber&rsquo;s show window, turned it onto its back, and brushed the words <strong>&ldquo;R. Mutt 1917&rdquo;</strong> onto the rim in black paint. That is the sum of the physical work: a fixture bought, a fixture rotated, a fake name signed. He called objects like this <strong>readymades</strong>, a word he had been using since around 1915 for ordinary manufactured things he selected and declared to be art without altering them in any meaningful way. <em>Fountain</em> is the most famous of them.
+      </p>
+      <p style={proseStyle}>
+        And then the object did the thing that makes its whole history peculiar: it <strong>disappeared</strong>. After the 1917 show, the urinal was lost. There is no surviving original. Duchamp&rsquo;s biographer Calvin Tomkins offered the most likely explanation, which is also the most ordinary: it was probably <strong>thrown out as rubbish</strong>, the common fate of Duchamp&rsquo;s early readymades, which nobody at the time treated as precious. The single most influential object in modern art was almost certainly carted off with the trash.
+      </p>
+
+      <SectionHeader accent={accent} label="The photograph" title="Stieglitz makes the only record" />
+      <p style={proseStyle}>
+        Before it vanished, though, one thing saved it. Duchamp had the photographer <strong>Alfred Stieglitz</strong> (1864&ndash;1946), the most important photographer in America and a champion of modern art, photograph the urinal at his gallery, known as <strong>291</strong>. Stieglitz set it on a pedestal, lit it carefully so the white porcelain glowed, and made a single image. That photograph, reproduced in the spring of 1917, is the <strong>only surviving picture of the original object</strong>. Everything we know about how the lost <em>Fountain</em> actually looked, we know from this one photograph.
+      </p>
+      <PaintingFigure
+        imageUrl={ART_IMG.duchampFountain}
+        palette={['#b8b4ac', '#6a665e', '#2a2824']}
+        ratio="3/4"
+        alt="Alfred Stieglitz's 1917 photograph of Duchamp's Fountain, an inverted porcelain urinal on a pedestal"
+        caption={<>Alfred Stieglitz&rsquo;s 1917 photograph of <em>Fountain</em>, the only surviving image of the lost original. A 1917 public-domain photograph, first published in <em>The Blind Man</em> no. 2.</>}
+        rights={<>Public domain (US): the Stieglitz photograph was published in 1917, so its US copyright has expired.</>}
+        onZoom={onZoom}
+      />
+      <p style={proseStyle}>
+        The situation is genuinely odd. The thing that became the most discussed art object of the century is <strong>a photograph of a lost urinal</strong>, and everything that hangs in museums today carries the same fingerprint of absence.
+      </p>
+    </article>
+  )
+}
+
+function FntLooking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The photograph" title="A urinal that has stopped looking like one" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he first thing that registers in the photograph is the <strong>turn</strong>. The urinal is not mounted on a wall the way you have seen one a thousand times. It has been rotated about ninety degrees and laid on its back, so the flat rear and the row of drain holes face you. That single rotation does a surprising amount of work. Tipped out of its everyday position, the object is hard to read at a glance; the function drains out of it, and the smooth white shape starts to register as form rather than fixture. Duchamp did almost nothing to the thing, and yet by simply turning it he made it strange.
+      </p>
+      <p style={proseStyle}>
+        The only mark of a human hand anywhere on it is easy to miss. On the outer rim, toward the lower left as the photograph is framed, the signature <strong>&ldquo;R. Mutt 1917&rdquo;</strong> is brushed in black paint. It is worth sitting with how little that is. On a mass-produced factory object, the entire claim of authorship is a fake name in paint, the one gesture that is not the manufacturer&rsquo;s. The signature is the whole argument, and it is a lie about who made it, signed onto a thing nobody made by hand at all.
+      </p>
+
+      <SectionHeader accent={accent} label="The accidental figure" title="A cross between a Buddha and a Veiled Woman" />
+      <p style={proseStyle}>
+        Allowed to settle as pure shape, the white form quietly stops being plumbing. The rounded, symmetrical curve of the upturned bowl reads, to a lot of viewers, as a <strong>seated figure</strong>. Stieglitz himself caught it, writing that the urinal had &ldquo;an oriental look about it, a cross between a Buddha and a Veiled Woman,&rdquo; and critics have seen a seated Buddha or a robed Madonna in it ever since. The resemblance is an accident of an industrial mold, nobody designed it, but it is a real part of why the <em>photograph</em> became iconic and not just the idea behind it. The object got lucky in its own shape.
+      </p>
+
+      <SectionHeader accent={accent} label="The staging" title="The pedestal, the painting, and the light" />
+      <p style={proseStyle}>
+        Stieglitz set the urinal on a <strong>pedestal</strong>, the plinth that sculpture stands on. That is an argument made entirely by staging: put a thing on a base, light it, and frame it, and you are insisting it be treated as sculpture before a single word is said. Behind it, on the gallery wall, hangs an angular abstract painting, <strong>Marsden Hartley&rsquo;s <em>The Warriors</em></strong> of 1913, which places the photograph at the 291 gallery and surrounds the urinal with genuine avant-garde company. And the light itself persuades: Stieglitz lit the white porcelain so it <strong>glows out of a dark ground</strong>, smoothing the hard industrial object into something almost reverent. The framing is doing a great deal of the convincing the object cannot do for itself, which is precisely the point about where art-status actually comes from.
+      </p>
+    </article>
+  )
+}
+
+function FntBreak({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The break · before" title="Art was a thing you made" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>F</DropCap>
+        or roughly five centuries before 1917, the word &ldquo;art&rdquo; pointed at something an artist <strong>made</strong>, by hand, with skill, in a medium: paint on canvas, marble under a chisel, bronze poured into a mold. Value flowed from craft, from beauty, from the originality of the execution and the difficulty of the subject. Even the most radical modern movements before this moment kept that floor. The Cubists shattered the way a face was drawn and the Futurists smeared motion across a canvas, but they were still <strong>painting and sculpting</strong>. They changed how the hand worked. They never questioned that the hand worked at all. A Renaissance altarpiece asked, in effect, <em>how skillfully was this made?</em>
+      </p>
+
+      <SectionHeader accent={accent} label="The break · after" title="The artist’s real act is choosing" />
+      <p style={proseStyle}>
+        <em>Fountain</em> proposes something that pulls the floor out. It says the artist&rsquo;s essential act is not making but <strong>choosing</strong>. A manufactured object, untouched by the artist&rsquo;s hand, becomes art because an artist <strong>selected it, re-titled it, and re-framed it</strong> until its ordinary use fell away. This is the whole logic of the readymade: art as <strong>idea and decision</strong> rather than skill and craft. It cuts art loose from beauty and technique and relocates it in concept and context, in the choice, the title, the signature, the pedestal, the gallery, the institutions that quietly confer the status of &ldquo;art.&rdquo; Where the altarpiece asked how well a thing was made, <em>Fountain</em> asks a colder question: <em>who decided this is art, and why?</em>
+      </p>
+
+      <SectionHeader accent={accent} label="The key statement" title="“The Richard Mutt Case”" />
+      <p style={proseStyle}>
+        The defense of that idea was published, fast and in print, in the spring of 1917. A small Dada magazine called <strong><em>The Blind Man</em></strong> (no. 2, May 1917), edited by <strong>Marcel Duchamp, Henri-Pierre Roch&eacute;, and Beatrice Wood</strong>, ran the Stieglitz photograph opposite a short, unsigned editorial titled <strong>&ldquo;The Richard Mutt Case.&rdquo;</strong> The piece ran <strong>unsigned</strong>. It is often attributed to Duchamp, but it was the work of the magazine&rsquo;s editors, and scholarship frequently credits <strong>Beatrice Wood</strong> in particular. It is not, as you will sometimes see it captioned, simply &ldquo;by Duchamp.&rdquo; Here it is in full:
+      </p>
+      <blockquote style={{ margin: '0 0 18px', padding: '4px 0 4px 18px', borderLeft: `3px solid ${accent}`, fontFamily: SERIF, fontSize: 18, lineHeight: 1.6, fontStyle: 'italic', color: INK }}>
+        <p style={{ margin: '0 0 12px' }}>They say any artist paying six dollars may exhibit.</p>
+        <p style={{ margin: '0 0 12px' }}>Mr. Richard Mutt sent in a fountain. Without discussion this article disappeared and never was exhibited.</p>
+        <p style={{ margin: '0 0 12px' }}>What were the grounds for refusing Mr. Mutt&rsquo;s fountain:&mdash;</p>
+        <p style={{ margin: '0 0 6px' }}>1. Some contended it was immoral, vulgar.</p>
+        <p style={{ margin: '0 0 12px' }}>2. Others, it was plagiarism, a plain piece of plumbing.</p>
+        <p style={{ margin: '0 0 12px' }}>Now Mr. Mutt&rsquo;s fountain is not immoral, that is absurd, no more than a bathtub is immoral. It is a fixture that you see every day in plumbers&rsquo; show windows.</p>
+        <p style={{ margin: '0 0 12px' }}>Whether Mr. Mutt with his own hands made the fountain or not has no importance. He CHOSE it. He took an ordinary article of life, placed it so that its useful significance disappeared under the new title and point of view&mdash;created a new thought for that object.</p>
+        <p style={{ margin: 0 }}>As for plumbing, that is absurd. The only works of art America has given are her plumbing and her bridges.</p>
+      </blockquote>
+      <p style={proseStyle}>
+        The manifesto sits right in the middle of it: <em>He CHOSE it.</em> The capital letters are in the original. The whole new theory of art is in that one line. The hands did not matter; the choosing did. The text even names the mechanism, &ldquo;placed it so that its useful significance disappeared under the new title and point of view,&rdquo; which is exactly what the turn, the title, and the pedestal had done. After this, an artist could make art by deciding, and a great deal of the rest of the century is the working-out of that single sentence.
+      </p>
+
+      <SectionHeader accent={accent} label="The debate" title="Whose idea was it?" />
+      <p style={proseStyle}>
+        One open question runs underneath all of this. Some scholars, among them the Baroness&rsquo;s biographer <strong>Irene Gammel</strong> and the art historians <strong>Glyn Thompson</strong> and <strong>Julian Spalding</strong>, argue that <em>Fountain</em> did not originate with Duchamp at all but with <strong>Baroness Elsa von Freytag-Loringhoven</strong> (1874&ndash;1927), a German Dada poet and artist active in New York. Their case rests on a letter Duchamp wrote his sister Suzanne on 11 April 1917 (&ldquo;one of my female friends&rdquo; sent in the urinal), on a reading of the handwriting, and on the Baroness&rsquo;s presence in Philadelphia, where they argue this urinal model was sold. The claim has been strongly contested, notably in <em>The Burlington Magazine</em> in 2019 (essays by Bradley Bailey and by Dawn Ad&egrave;s and Alastair Brotchie), which argue the letter was mistranslated, surface a contemporary account that has Duchamp sending the urinal in himself, and note that the Baroness, famously outspoken to the end of her destitute life, <strong>never once claimed it</strong>. The debate is live, and the documentary weight currently sits with Duchamp&rsquo;s authorship, which is also the reading his protest resignation supports, since the resignation only makes sense if he was the one defied.
+      </p>
+    </article>
+  )
+}
+
+function FntAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Provenance · the missing original" title="Every museum Fountain is a replica" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>H</DropCap>
+        ere is the fact that catches almost everyone out: <strong>there is no original</strong>. The 1917 urinal is lost. So when you see <em>Fountain</em> in a museum, in London or Philadelphia or San Francisco, you are looking at a later, authorized copy. Duchamp sanctioned a string of full-size reproductions over the decades. In <strong>1950</strong> the dealer Sidney Janis bought a urinal at a Paris flea market and Duchamp signed it; that one went to the Philadelphia Museum of Art. In <strong>1963</strong> Ulf Linde made a version in Stockholm with Duchamp&rsquo;s blessing. And in <strong>1964</strong>, the Milan gallerist <strong>Arturo Schwarz</strong> fabricated an <strong>edition of eight</strong>, plus proofs, made to scaled drawings and signed by Duchamp. Counting all of them, about <strong>seventeen versions</strong> of <em>Fountain</em> now exist. The original is not among them.
+      </p>
+      <p style={proseStyle}>
+        The Schwarz copies are not even quite the same material as the thing they replace. The lost original was <strong>porcelain</strong>; the 1964 replicas are <strong>glazed earthenware, painted to resemble porcelain</strong>, with the &ldquo;R. Mutt 1917&rdquo; signature reproduced in black. So the museum object is a careful imitation, in a different clay, of a photograph of a thing that was thrown away. And those imitations are now treated as treasures. The <strong>Tate</strong> in London bought replica 2 of 8 in 1999; at the same Sotheby&rsquo;s sale that year, another of the eight changed hands for well over a million dollars. Authorized copies of a discarded urinal command the prices of masterpieces, which is its own quiet last joke on the whole question of where value comes from.
+      </p>
+
+      <SectionHeader accent={accent} label="The afterlife" title="The most influential object of the century" />
+      <p style={proseStyle}>
+        For something hidden in 1917 and lost soon after, <em>Fountain</em>&rsquo;s reach is hard to overstate. In a 2004 poll, five hundred British art-world professionals named it the <strong>most influential artwork of the twentieth century</strong>, ahead of Picasso&rsquo;s <em>Les Demoiselles d&rsquo;Avignon</em>. The reason is the idea it planted. <em>Fountain</em> is routinely called the foundation stone of <strong>Conceptual art</strong>, the art that lives in ideas rather than objects, and the direct ancestor of a great deal that followed: Andy Warhol and Pop art&rsquo;s embrace of the mass-produced, Minimalism&rsquo;s plain industrial objects, the found object dropped into a gallery and called a work. Each of them runs on the permission Duchamp took here, that the choosing is the art.
+      </p>
+      <p style={proseStyle}>
+        And the absence at the center never quite goes away. The thing itself is gone. What survives is a single photograph, an unsigned editorial, a handful of replicas in a different clay, and a question that will not close. That, in the end, is exactly the shape of what <em>Fountain</em> argued: not that a urinal is beautiful, but that art was never really in the object at all. It was in the choice, and the choice outlived the thing.
+      </p>
+    </article>
+  )
+}
+
+// REGISTRY (coordinator splices into NARRATIVES):
+//  fountain: { case: FntCase, making: FntMaking, looking: FntLooking, break: FntBreak, afterlife: FntAfterlife },
+
+// ─────────────────────────────────────────────────────────────
+// L.H.O.O.Q. (Duchamp, 1919) — the five sections. Lho… prefix.
+// Dada work-read. Authored through the art content pipeline.
+// FLAGS handled: it is a POSTCARD, not Leonardo’s panel; the 391 version is
+// moustache-only (Picabia forgot the goatee); the literal vulgar sense vs
+// Duchamp’s softened “fire down below” gloss; the sourced interview line keeps
+// the “not” (Crehan / WBAI / 1961 / Evidence, NOT the Sweeney interview); the
+// attack is on masterpiece-worship, NOT on Leonardo; Sapeck / the Incoherents
+// defaced her in 1883, so Duchamp was not the first; the 1919 original is
+// privately held, museums hold replicas/editions.
+// ─────────────────────────────────────────────────────────────
+function LhoPostcard({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Paris · 1919" title="A postcard, a pencil, and a pun" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>I</DropCap>
+        n <strong>1919</strong>, in Paris, <strong>Marcel Duchamp</strong> (1887&ndash;1968) bought a postcard. Not a special one: a cheap, mass-produced printed reproduction of the most famous painting on earth, Leonardo da Vinci&rsquo;s <em>Mona Lisa</em> (in French, <em>La Joconde</em>), the sort of card you could buy by the rack near the Louvre for a few centimes. He took a pencil. On the printed face he drew a <strong>moustache</strong> and a small <strong>goatee</strong>, and underneath the image he lettered five capital letters: <strong>L.H.O.O.Q.</strong> Then he called the result his art, and he meant it.
+      </p>
+      <p style={proseStyle}>
+        To feel how much nerve that took, you have to know who Duchamp already was. By 1919 he was the man who, two years earlier in New York, had bought a factory-made urinal, laid it on its back, signed it &ldquo;R. Mutt,&rdquo; titled it <em>Fountain</em>, and submitted it to an exhibition as sculpture. That was the <strong>readymade</strong>: Duchamp&rsquo;s idea that the artist&rsquo;s <em>choice</em>, not the artist&rsquo;s <em>hand</em>, is what makes a thing art. Pick an ordinary manufactured object, declare it art, and the declaring is the whole creative act. The urinal was a found object he barely touched. The <em>Mona Lisa</em> postcard would be something one notch stranger.
+      </p>
+      <p style={proseStyle}>
+        He had come back to Paris and into the orbit of the new <strong>Paris Dada</strong> circle. <strong>Dada</strong> was the anti-art movement born in neutral Zurich in 1916, in the middle of a world war chewing up a generation, by a handful of exiled poets and painters who decided that the civilization which had produced both the <em>Mona Lisa</em> and the machine gun no longer deserved to be taken seriously. Their answer was an art of nonsense, accident, and provocation. By 1919 Dada was crystallizing in Paris around figures like the poet <strong>Tristan Tzara</strong>, the writer <strong>André Breton</strong>, and Duchamp&rsquo;s old friend the painter <strong>Francis Picabia</strong>. Defacing the supreme sacred object of European art with a graffiti moustache was, in that company, exactly the right kind of joke: light on the surface and a bomb underneath.
+      </p>
+
+      <SectionHeader accent={accent} label="Jocondisme" title="Why the Mona Lisa was the perfect victim" />
+      <p style={proseStyle}>
+        Duchamp did not pick the <em>Mona Lisa</em> at random. By 1919 the painting was the object of something close to religious devotion in French culture, a worship the period itself nicknamed <strong>Jocondisme</strong> (Mona-Lisa-ism). It had a built-in cult and a fresh scandal: in <strong>1911</strong> the picture had been stolen from the Louvre in a sensational theft that ran in newspapers across the world, and its <strong>1913</strong> recovery turned it into front-page celebrity. By the end of the war it was less a painting than a relic, the thing you made a pilgrimage to and revered.
+      </p>
+      <p style={proseStyle}>
+        Duchamp was not even the first to tweak her. Back in <strong>1883</strong>, at a Paris show by a group of pranksters called the <strong>Incoherents</strong>, the artist <strong>Sapeck</strong> (Eugène Bataille) had printed a <em>Mona Lisa</em> smoking a pipe. Whether Duchamp knew that picture isn&rsquo;t recorded. What he added was the thing that made it stick: a pun, and a claim that the defaced card was, itself, his art.
+      </p>
+      <p style={proseStyle}>
+        That made it the ideal target for a gesture the French called <em>&eacute;pater le bourgeois</em>, &ldquo;to shock the middle class.&rdquo; Take the one image a respectable Parisian held most sacred, scribble a moustache on a cheap copy of it, attach a dirty pun, and call it art. The point was never that Leonardo was a bad painter. The point was the <em>worship</em>, the gilt-framed, hushed-museum reverence that the Dadaists thought was a fraud.
+      </p>
+    </article>
+  )
+}
+
+function LhoMaking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The making · 1919" title="The rectified readymade" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>F</DropCap>
+        irst, the fact the object is most often misremembered for: <strong>this is not Leonardo&rsquo;s painting.</strong> Duchamp did not deface the <em>Mona Lisa</em> itself, which never left the Louvre. He defaced a <strong>cheap printed postcard reproduction</strong> of it, a mass-produced copy you could buy for pocket change. The thing he altered was already a commercial product, a piece of the throwaway world of shops and tourist racks. That matters as much as the moustache.
+      </p>
+      <p style={proseStyle}>
+        Duchamp had a precise term for what he made. A plain readymade, like the urinal, is a found object he chose and barely touched. This one he <em>altered</em>, so he called it a <strong>rectified readymade</strong>: a found, mass-produced object that the artist has marked or changed. The change here is tiny. A moustache and a goatee in pencil on the printed face, five lettered capitals in the margin below. That is the entire intervention. He took a manufactured image and added a few graphite strokes, and the choosing-plus-marking is the whole of the art. The skill is in the idea, not the drawing.
+      </p>
+
+      <SectionHeader accent={accent} label="The gender play" title="Rrose Sélavy and the man in the picture" />
+      <p style={proseStyle}>
+        The moustache and goatee do something beyond vandalism: they turn the world&rsquo;s icon of female beauty into a man, or at least into something androgynous. That was not idle. Around this same moment, and surfacing the very next year, Duchamp was inventing a <strong>female alter ego</strong> for himself, a persona named <strong>Rrose S&eacute;lavy</strong>, a name that, said aloud in French, sounds like <em>&ldquo;Eros, c&rsquo;est la vie&rdquo;</em> (&ldquo;Eros, that&rsquo;s life&rdquo;). He would have himself photographed in drag as her and would sign works in her name. So a man putting a male moustache on a famously female face, while building himself a female second self, is all one tangled game about gender and identity, played across the same few years.
+      </p>
+
+      <SectionHeader accent={accent} label="1920" title="Picabia’s version, and the missing goatee" />
+      <p style={proseStyle}>
+        Two different objects get muddled here. In <strong>March 1920</strong>, Duchamp&rsquo;s friend <strong>Francis Picabia</strong> wanted to run the image in his Dada magazine, <em>391</em>. He could not wait for Duchamp&rsquo;s actual card to reach him, so, with Duchamp&rsquo;s consent, <strong>Picabia drew the moustache himself</strong>, straight onto his own reproduction, and printed it. He forgot the goatee. So the famous <em>391</em> version is <strong>moustache only</strong>, and it is a separate thing from Duchamp&rsquo;s 1919 card, which has both moustache and goatee. (Decades later, in 1942, Duchamp added the missing goatee by hand to a print and inscribed it, in French, &ldquo;Moustache by Picabia, goatee by Marcel Duchamp, April 1942.&rdquo;) Moustache <em>and</em> goatee is the 1919 original; moustache alone is Picabia&rsquo;s 1920 reproduction.
+      </p>
+      <p style={proseStyle}>
+        The picture is a 1919 picture; Picabia&rsquo;s <em>391</em> printing is 1920.
+      </p>
+    </article>
+  )
+}
+
+function LhoPun({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The key statement · the title" title="Elle a chaud au cul" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he title is the joke, and the joke is in your mouth, not on the card. <strong>L.H.O.O.Q.</strong> is a <strong>gramogram</strong>, a &ldquo;word&rdquo; spelled out by the sound of its letters rather than by what they spell on the page. Read the five letters aloud in French, one at a time, and the sounds run together into a sentence: <strong>&ldquo;Elle a chaud au cul.&rdquo;</strong> Nothing about the card tells you this. You have to pronounce the capitals in French to hear the obscenity hiding inside them, which is exactly why it can sit, innocent-looking, in a museum margin.
+      </p>
+      <p style={proseStyle}>
+        The meaning comes in two registers, and both are true. The <strong>literal</strong> sense is vulgar: <em>cul</em> is coarse French for the backside, the arse, so the line reads, bluntly, &ldquo;She has a hot ass,&rdquo; or &ldquo;She is hot in the arse,&rdquo; a crude way of saying the woman is sexually aroused, restless, randy. That is the obscenity the schoolboy hears. Duchamp himself, late in life and in English, offered a deliberately <em>softer</em> gloss: he rendered the line as <em>&ldquo;there is fire down below.&rdquo;</em> That is Duchamp being polite. His &ldquo;fire down below&rdquo; is a tidy translation of the same idea, not a literal rendering of <em>cul</em>; the actual word is rude. The vulgar literal sense and Duchamp&rsquo;s own genteel paraphrase are two registers of one line, not two competing facts.
+      </p>
+
+      <SectionHeader accent={accent} label="His own words" title="“It becomes a man”" />
+      <p style={proseStyle}>
+        Asked years later about the moustache, Duchamp described what it did to the face:
+      </p>
+      <p style={italicStyle}>
+        &ldquo;The curious thing about that moustache and goatee is that when you look at the <em>Mona Lisa</em> it becomes a man. It is not a woman disguised as a man; it is a real man, and that was my discovery, without realizing it at the time.&rdquo;
+      </p>
+      <p style={proseStyle}>
+        He said it in a radio interview with the critic <strong>Herbert Crehan</strong>, broadcast by <strong>WBAI</strong>, New York, in <strong>1961</strong> and published in the journal <em>Evidence</em>. The word <strong>&ldquo;not&rdquo;</strong> is load-bearing. A widely circulated version drops it and has Duchamp say the figure <em>is</em> &ldquo;a woman disguised as a man,&rdquo; which reverses his whole point. His point is the opposite: the figure does not merely look like a woman pretending; the moustache turns her into a genuine man. The pencil does not put on a costume; it changes the sex of the face.
+      </p>
+      <p style={proseStyle}>
+        And neither register of the joke insults Leonardo. The pun is about the woman in the picture; the gender line is about what two pencil marks can do. The thing being mocked is the reverence, the idea that this image is too holy to touch. Duchamp touches it, makes it dirty, makes it male, and dares you to be scandalized, which was always the test.
+      </p>
+    </article>
+  )
+}
+
+function LhoBreak({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The break · before" title="A masterpiece was a sacred original" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>B</DropCap>
+        efore Duchamp drew on it, here is what a masterpiece <em>was</em>. It was something you copied, revered, framed in gilt, and made pilgrimages to. The artwork was the one irreproducible original object, touched by the hand of a genius; the artist&rsquo;s job was to make beautiful, skilled, original things; and reproductions were lesser shadows of the real thing. The <em>Mona Lisa</em> was the supreme example of that whole order, the most sacred original of them all. To improve yourself, you studied it. To honor it, you kept your hands off.
+      </p>
+
+      <SectionHeader accent={accent} label="The break · after" title="The desecration is the art" />
+      <p style={proseStyle}>
+        Then Duchamp takes a ten-centime postcard of that sacred original, draws a graffiti moustache on it with a dirty pun underneath, and calls the result his art. Three ruptures land in one small gesture, and they are worth separating.
+      </p>
+      <p style={proseStyle}>
+        First, <strong>defacement becomes a creative act.</strong> The work is not a thing Duchamp made; it is a thing he <em>marked</em>. The gesture of altering, even of desecrating, a revered image is itself the artwork. Iconoclasm, the smashing of sacred images, becomes a medium you can work in. The damage is the painting.
+      </p>
+      <p style={proseStyle}>
+        Second, <strong>the readymade is turned on art itself.</strong> Duchamp had already declared a bottle rack and a urinal to be art by the act of choosing them. Here he aims that same move at <em>an existing canonical artwork</em>. Choosing a finished masterpiece and altering it collapses the line between making art and selecting it, between the original and the copy. The most revered object in the system is treated as just one more found object to pick up off the rack.
+      </p>
+      <p style={proseStyle}>
+        Third, <strong>appropriation.</strong> Duchamp takes someone else&rsquo;s already-finished, world-famous image, recontextualizes it, and signs the result as his own work. He authors a picture he did not draw. Mona-Lisa-baiting itself was older than Duchamp; the Incoherents had done a pipe-smoking version back in the 1880s. What was new was the <em>claim</em>: that the altered card, signed and titled, was a finished artwork, not a cartoon. That is the move, and it had a long future. <em>L.H.O.O.Q.</em> is widely cited as an early seed of <strong>appropriation art</strong>, the practice of making new art out of existing images: Pop&rsquo;s reuse of soup cans and comic strips, and later artists like <strong>Sherrie Levine</strong> and <strong>Elaine Sturtevant</strong> who re-photographed and remade other people&rsquo;s pictures outright. <em>L.H.O.O.Q.</em> is one of the first proofs that the source image can <em>be</em> the medium.
+      </p>
+      <p style={proseStyle}>
+        The break is not an attack on Leonardo, whose skill no Dadaist doubted. It is an attack on <strong>masterpiece-worship</strong>: the museum hush, the gilt frame, the bourgeois reverence that treats a painting as a relic. Duchamp did not think the <em>Mona Lisa</em> was bad. He thought the way people knelt to it was ridiculous, and he found the cheapest, funniest, most precise way to say so.
+      </p>
+    </article>
+  )
+}
+
+function LhoAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="After · the versions" title="A work he kept on remaking" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he afterlife of <em>L.H.O.O.Q.</em> is genuinely confusing, and it goes to the heart of what a readymade even is. There is no single, stable original sitting safely in one museum. There is, instead, a small crowd of versions, and telling them apart is half the story.
+      </p>
+      <p style={proseStyle}>
+        Start with what we already met. The <strong>1919 original</strong> is the small pencil-on-postcard card with both moustache and goatee. The version printed in Picabia&rsquo;s <em>391</em> in <strong>1920</strong> is a separate object, moustache only. Then Duchamp kept going. Over the following decades he made several further versions in differing sizes and media; one of these is held at the <strong>Mus&eacute;e National d&rsquo;Art Moderne, Centre Pompidou</strong>, in Paris. In the 1930s and 1940s he also folded miniature reproductions of the work into his <em>Bo&icirc;te-en-valise</em>, the &ldquo;box in a valise,&rdquo; a portable museum of tiny copies of his own art that he issued in editions; examples are at the <strong>Philadelphia Museum of Art</strong> and elsewhere.
+      </p>
+
+      <SectionHeader accent={accent} label="1965" title="The shave" />
+      <p style={proseStyle}>
+        The strangest sequel is the one with no moustache at all. In <strong>1965</strong> Duchamp issued <strong><em>L.H.O.O.Q. Shaved</em></strong> (in French, <em>L.H.O.O.Q. ras&eacute;e</em>): a plain, completely unaltered black-and-white <em>Mona Lisa</em> reproduction, mounted on card and put out as an invitation and an edition. The joke is that the moustache has been &ldquo;shaved off.&rdquo; It is a separate, later work, and it has no pencil marks on it whatsoever. The bare 1965 <em>Shaved</em> is not the mustachioed 1919 card. After half a century, Duchamp made a sequel to a graffiti gag whose entire content is the absence of the graffiti, which is about as Duchamp a thing as exists.
+      </p>
+
+      <SectionHeader accent={accent} label="Where the original isn’t" title="Museums hold the copies" />
+      <p style={proseStyle}>
+        So where is the 1919 original now? It is not pinned down. It passed through private hands (it is usually associated with the Mary Sisler collection) and is generally described as privately held, its current public location uncertain. The crucial thing to say plainly is that <strong>the museum pieces are not the 1919 original.</strong> The works at the Centre Pompidou, Philadelphia, and others are Duchamp&rsquo;s own later replicas, the <em>Bo&icirc;te-en-valise</em> reproductions, or the 1965 <em>Shaved</em> edition. No museum holds the little 1919 card itself.
+      </p>
+      <p style={proseStyle}>
+        Which is, in the end, the perfect ending for this particular object. Duchamp&rsquo;s whole life&rsquo;s argument was that the artist&rsquo;s <em>choice</em>, not the precious unique original, is what makes art. A work that survives mainly as a swarm of copies, editions, and remakes, with the &ldquo;real&rdquo; one lost somewhere in private hands, is a work that practices what it preached. The moustache on the postcard mocked the cult of the irreplaceable masterpiece. It is fitting that it never quite became one.
+      </p>
+    </article>
+  )
+}
+
+// REGISTRY (coordinator splices into NARRATIVES):
+//  lhooq: { postcard: LhoPostcard, making: LhoMaking, pun: LhoPun, break: LhoBreak, afterlife: LhoAfterlife },
+
+// ─────────────────────────────────────────────────────────────
+// Cut with the Kitchen Knife (Höch, 1919–20) — the five chapters
+// ─────────────────────────────────────────────────────────────
+function KnfFair({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Berlin · 1919" title="A city at war with itself" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>B</DropCap>
+        erlin in <strong>1919</strong> was not a calm place to make a calm picture. Germany had just lost the <strong>First World War</strong>; the Kaiser, <strong>Wilhelm II</strong>, had abdicated and fled in November 1918; and in his place a shaky new democracy, the <strong>Weimar Republic</strong> (named for the small city of Weimar, where its constitution was written because Berlin was too dangerous to meet in), was trying to govern a country in open revolt. That January, a Communist uprising, the <strong>Spartacist revolt</strong>, was crushed in the streets, and its two leaders, <strong>Karl Liebknecht</strong> and <strong>Rosa Luxemburg</strong>, were murdered by right-wing paramilitaries. Soldiers home from the trenches, generals from the old empire, street-fighting revolutionaries, and a wobbling new government were all crammed into one furious city. This is the Berlin the picture is literally cut from.
+      </p>
+      <p style={proseStyle}>
+        Into that city came <strong>Dada</strong>, the anti-art movement that had begun in neutral Zurich in 1916 as a howl of disgust at the war and the respectable culture that had marched into it. (The name <em>Dada</em> means nothing on purpose: a piece of baby-talk, a hobby-horse, a noise, chosen precisely because it refused to mean anything sensible.) By 1918 a Berlin branch had formed, and it was the most nakedly political of all the Dada chapters. Where Zurich Dada played nonsense games, <strong>Berlin Dada</strong> took the same scissors-and-nonsense spirit and aimed it straight at German militarism, the generals, and the new republic. Its weapons were the cabaret stunt, the leaflet, and a new visual technique we are about to meet.
+      </p>
+
+      <SectionHeader accent={accent} label="The circle" title="The men, and the one woman" />
+      <p style={proseStyle}>
+        The Berlin Dada circle was a band of brilliant, quarrelsome men: the painter and provocateur <strong>Raoul Hausmann</strong>; the savage caricaturist <strong>George Grosz</strong>; the brothers <strong>John Heartfield</strong> and <strong>Wieland Herzfelde</strong>, who ran a left-wing press; the self-appointed &ldquo;Oberdada&rdquo; (chief Dada) <strong>Johannes Baader</strong>. And there was <strong>Hannah Höch</strong> (1889&ndash;1978; pronounced &ldquo;HAH-nah HURK,&rdquo; the <em>ö</em> roughly like the vowel in &ldquo;her&rdquo;), the <strong>only woman in the group</strong>. (Say <em>Berlin</em> Dada specifically: other Dada cities, Zurich, Paris, New York, had women of their own. In Berlin, there was Höch.)
+      </p>
+      <p style={proseStyle}>
+        Her position in the circle was precarious in a way none of the men&rsquo;s was. She was Hausmann&rsquo;s partner for seven years, and she earned the rent the rest of them mostly didn&rsquo;t: from 1916 she worked at the giant <strong>Ullstein</strong> publishing house, designing patterns for embroidery and handicraft magazines aimed at women. That day job mattered, because it steeped her in exactly the world, mass-printed pictures, illustrated magazines, the cut-and-paste of layout, that she would turn into art. The men treated her, in the words she later wrote, as a sort of charming amateur. Grosz and Heartfield actively opposed letting her show with the group at all. When the group mounted its big public event in 1920, she was admitted only because <strong>Hausmann threatened to withdraw his own work</strong> if she was kept out. Hausmann himself later wrote, dismissively, that &ldquo;she was never a member of the club.&rdquo;
+      </p>
+
+      <SectionHeader accent={accent} label="Summer 1920" title="The First International Dada Fair" />
+      <p style={proseStyle}>
+        That big public event was the <strong>First International Dada Fair</strong> (the <em>Erste Internationale Dada-Messe</em>), held in the summer of <strong>1920</strong> at the gallery of a Berlin art dealer, Dr. Otto Burchard. It was a deliberate provocation, walls crammed with photomontages and slogans, a stuffed German officer with a pig&rsquo;s head hung from the ceiling, posters declaring &ldquo;Art is dead.&rdquo; And hanging in it, the woman who had nearly been barred from the room, was <em>Cut with the Kitchen Knife</em>, reportedly one of the most prominent and talked-about pieces in the whole show.
+      </p>
+      <p style={proseStyle}>
+        Its title is a sentence in itself: <em>Cut with the Kitchen Knife Dada Through the Last Weimar Beer-Belly Cultural Epoch of Germany</em> (in German, <em>Schnitt mit dem Küchenmesser DADA durch die letzte Weimarer Bierbauchkulturepoche Deutschlands</em>). Unpack it slowly. A <strong>kitchen knife</strong> is cutting; <strong>Dada</strong> is doing the cutting; what is being cut through is the <strong>&ldquo;beer-belly cultural epoch&rdquo;</strong> of Weimar Germany, the fat, complacent, militaristic old order. The picture is the cut. And a woman, the one the men nearly kept out, is the one holding the knife.
+      </p>
+    </article>
+  )
+}
+
+function KnfMaking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The break · medium" title="A picture with almost no paint in it" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>H</DropCap>
+        ere is the first thing that makes this work a break, and it is so basic it is easy to walk past: <strong>there is almost no painting in it at all</strong>, no invented figures, effectively no brushwork (a little watercolor tints a few edges, and that is the whole of the paint). Every face, every wheel, every letter, every scrap of map was <strong>cut from something already printed</strong>: illustrated magazines, newspapers, broadsides, product catalogues, journals. Höch went through the mass-produced picture-stream of 1919 Germany with a pair of scissors, lifted out the pieces she wanted, and pasted them onto paper into a new arrangement. This technique is <strong>photomontage</strong>: a picture assembled from cut-up photographs and printed type instead of drawn or painted from life.
+      </p>
+      <p style={proseStyle}>
+        Think about how strange that was as a thing to call art. For four hundred years a serious picture meant the trace of an artist&rsquo;s own hand: paint laid down by a skilled person to invent an image that did not exist before. Photomontage threw all of that out. The raw material was not pigment but the <strong>machine-made, mass-reproduced image</strong>, the same photographs millions of people were seeing in their newspapers. The artist&rsquo;s job was no longer to invent the image but to <strong>cut it out and rearrange it</strong>, to take the modern media stream and turn it against itself. The flood of printed pictures that the new century had unleashed became, in Höch&rsquo;s hands, the paint.
+      </p>
+
+      <SectionHeader accent={accent} label="Who invented it" title="A memoir feud, not a settled fact" />
+      <p style={proseStyle}>
+        You will read, often, that &ldquo;Höch and Hausmann invented photomontage.&rdquo; That sentence is contested. The two of them told an origin story from a <strong>1918 holiday on the Baltic Sea</strong>, where they saw a cheap commercial souvenir: a print of a uniformed soldier with a blank space for a head, so a customer could paste in his own photograph and own a picture of his &ldquo;heroic military life.&rdquo; They said they grasped, in that moment, the strange power of cut-and-paste. It is a good story. But cutting and pasting photographs together was a <strong>commercial trick going back to the 1850s</strong>, decades before Dada, and inside the Berlin group at least three other men, George Grosz, John Heartfield, and Johannes Baader, each separately claimed to have invented it too. No early works survive to prove any of the claims.
+      </p>
+      <p style={proseStyle}>
+        The Berlin Dadaists, with Höch and Hausmann at the front, did not invent cutting and pasting out of nothing; what they did was take a commercial novelty and make it a <strong>serious medium for art and for politics</strong>. The &ldquo;who was first&rdquo; argument inside the group is a memoir feud between rival old men, not a fact anyone can settle. What is not in dispute is that this picture is one of the founding monuments of political photomontage.
+      </p>
+
+      <SectionHeader accent={accent} label="The break · what it’s for" title="Collage as a political weapon" />
+      <p style={proseStyle}>
+        The second part of the break is what the medium is <em>aimed at</em>. Collage already existed: a decade earlier, Picasso and Braque had glued scraps of newspaper and oilcloth onto their Cubist canvases (Chapter on Cubism). But they used those scraps as neutral <strong>texture and form</strong>, a piece of caned chair, a fragment of headline, chosen for how it looked, not for what it said. Höch does the opposite. She keeps the photographs <strong>legible</strong>, the Kaiser is recognizably the Kaiser, Lenin is recognizably Lenin, and arranges them into a <strong>partisan map of a real political moment</strong>. This is not abstract play. It names the establishment, names the revolution, and physically takes a knife to the old order. Art has become agitprop.
+      </p>
+
+      <SectionHeader accent={accent} label="The break · who’s looking" title="A woman turning the scissors on the image-world" />
+      <p style={proseStyle}>
+        And the third part of the break is who is making it, and what she points the scissors at. Inside a movement that nearly shut her out, Höch used the same technique to ask a question the men were not asking: <strong>how were women being pictured</strong> in this new flood of mass media? The dancers, the film stars, the fashion plates, the cheerful magazine ideal of the modern &ldquo;New Woman&rdquo;: all of it was raw material she could cut up and re-aim. The standard reading of the title plays on this, treating the <strong>kitchen knife</strong> as a wink at a woman&rsquo;s domestic tool, scissors and shears doing the work that brushes and chisels did for the men. That reading is widespread and it is a fair one, but it is an interpretation, not something Höch ever said, so hold it as a reading and not a quote. What is plain is that the break here is double: photomontage as a new medium, and photomontage turned by a woman onto the question of who gets to make, and who gets pictured by, the modern image.
+      </p>
+    </article>
+  )
+}
+
+function KnfLooking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The work" title="Big, busy, and only pretending to be chaos" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>S</DropCap>
+        tand in front of it. The montage is large, about <strong>three feet nine inches tall by two feet eleven inches wide</strong> (roughly 114 by 90 centimeters), a <strong>portrait-shaped</strong> sheet, taller than it is wide, near poster size and one of the biggest photomontages anyone in Berlin Dada made. (You will sometimes see it listed as &ldquo;144 cm&rdquo; or with the width and height flipped; those are transcription slips. The long side is about 114 centimeters, and the work stands taller than it is wide.) The first impression is overwhelming: dozens of cut-out heads, bodies, gears, wheels, words, and machine parts packed edge to edge, a kaleidoscope that looks, at a glance, like pure chaos.
+      </p>
+      <p style={proseStyle}>
+        It is not chaos. It only performs chaos. Spend a minute and an organization rises out of it. The picture is built as a <strong>map of two warring camps</strong>, and once you see the division you cannot un-see it. The cut-out words <strong>&ldquo;dada&rdquo;</strong> and <strong>&ldquo;anti-dada&rdquo;</strong> act as labels, sorting the figures into two sides, with the knife&rsquo;s cut running as a rough diagonal <strong>from the lower right up to the upper left</strong> between them. One half is the old order; the other is the revolution. Everything in the picture belongs to one team or the other.
+      </p>
+
+      <SectionHeader accent={accent} label="Anti-dada" title="The Kaiser, the generals, the beer-belly order" />
+      <p style={proseStyle}>
+        The <strong>&ldquo;anti-dada&rdquo;</strong> camp, the establishment, gathers in the <strong>upper right</strong>. Its anchor is a large head of the deposed emperor, <strong>Kaiser Wilhelm II</strong>, and Höch has played her best joke on him: his famous upturned moustache has been snipped away and replaced with a pair of tiny <strong>upside-down wrestlers</strong>, two cut-out strongmen standing in for the bristling whiskers of imperial authority. Around him cluster the men of the old empire and the new republic, generals and government officials, the field marshal <strong>Paul von Hindenburg</strong> among them. (Scholars who have mapped the picture closely, above all the art historian <strong>Maud Lavin</strong>, read Hindenburg&rsquo;s head as set onto a belly-dancer&rsquo;s body, one of Höch&rsquo;s recurring tricks of sticking a pompous man&rsquo;s head on an absurd body. Take that exact pairing as a careful scholarly reading, not a label printed on the work; the picture is dense, and some of the identifications are interpretation.)
+      </p>
+
+      <SectionHeader accent={accent} label="Dada" title="Lenin, the radicals, the Dadaists, and Einstein" />
+      <p style={proseStyle}>
+        The <strong>&ldquo;dada&rdquo;</strong> camp, the revolution, spreads across the <strong>lower left</strong> and through the picture. Here are the Communists and radicals: <strong>Lenin</strong>, the founder of the new Soviet state; <strong>Karl Marx</strong>; the murdered Spartacist leader <strong>Karl Liebknecht</strong>; the Bolshevik <strong>Karl Radek</strong>. Here too are the Dadaists themselves, <strong>Hausmann, Grosz, Herzfelde, Baader</strong>, the men of Höch&rsquo;s own circle, planted firmly on the side of the cut. And nearby floats <strong>Albert Einstein</strong>, whose theory of relativity had just made him world-famous, standing in for modern science as another force overturning the old certainties. The division of the picture into these two camps is certain; some of the individual head-on-body pairings within each camp are scholarly readings, so trust the sides more than any single face-to-figure match.
+      </p>
+
+      <SectionHeader accent={accent} label="The dancers" title="Men’s heads on chorus-girl bodies" />
+      <p style={proseStyle}>
+        Now watch one device that runs through the whole picture, because it is Höch&rsquo;s sharpest tool. Again and again, a <strong>cut-out dancer&rsquo;s or performer&rsquo;s body carries the head of a serious man</strong>. The effect is instant deflation: take a general or a politician and stick his head on a leaping chorus girl, and his authority simply drains out of him. Scholars identify, among these swaps, the body of the celebrated dancer <strong>Niddy Impekoven</strong> juggling or balancing the head of the artist <strong>Käthe Kollwitz</strong>, and read the ballerina <strong>Anna Pavlova</strong> and the film stars <strong>Pola Negri</strong> and <strong>Asta Nielsen</strong> among the cut-up performers, all of them aligned on the Dada side. (The head-swapping is plain on the work; the specific name-to-figure matches are partly inferential, so hold the names loosely.) Through the whole thing run <strong>gears, ball bearings, and wheels</strong>, cut from machine catalogues, the cogs of the modern industrial world threaded between the people like the teeth of the city itself.
+      </p>
+    </article>
+  )
+}
+
+function KnfReading({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Lower right" title="The signature corner, given to women’s votes" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>N</DropCap>
+        ow go down to the <strong>lower-right corner</strong>, the small quiet spot where a painter would normally sign the canvas, because what Höch put there is the heart of the whole work. She pasted in a tiny <strong>map of Europe marking the countries where women had won the right to vote</strong>. This was a live, burning question in 1919: Germany itself had just granted women the vote in the new Weimar constitution that year, and across Europe the map of who could and could not vote was being redrawn. Putting that map in the corner turns the signature spot into a political statement: instead of &ldquo;made by Höch,&rdquo; the picture is signed, in effect, &ldquo;here is where women have power, and here is where they do not.&rdquo;
+      </p>
+      <p style={proseStyle}>
+        And then, at the <strong>upper-left of that little map</strong>, she pasted a photograph of <strong>her own face</strong>. A woman&rsquo;s self-portrait and a map of women&rsquo;s votes, together, occupying the exact corner where the artist signs, inside a picture made for a movement that nearly refused to let her exhibit. It is the most deliberate gesture in the work. (That the small self-portrait sits with the suffrage map is certain; the best-sourced placement of the map is the lower right, though a few accounts say only &ldquo;a corner.&rdquo;) Höch did not sign her name. She signed her face, and she put it next to the question of women&rsquo;s power.
+      </p>
+
+      <SectionHeader accent={accent} label="The lettering" title="A world revolution, softened into a Dada world" />
+      <p style={proseStyle}>
+        Look at the cut-out words again, because one of them was changed. At the lower right, near the map, the type reads <em>&ldquo;Die grosse Welt dada&rdquo;</em> (&ldquo;the great Dada world&rdquo;), and that phrasing is a second thought. Höch first had the word <strong>&ldquo;Weltrevolution&rdquo;</strong> (World Revolution) in this spot, an open call to overturn everything, and then replaced it with the milder, more playful Dada slogan. It is one of the few edits we can actually document in the work, and it tells you something about the moment: a picture that maps a revolution, pulling back at the last second from naming it outright, settling for Dada instead of Welt-revolution.
+      </p>
+
+      <SectionHeader accent={accent} label="Her own words" title="The men who wanted a New Woman, and would not change" />
+      <p style={proseStyle}>
+        For everything else in this picture we are reading, but on one subject we have Höch&rsquo;s own voice, and it is worth quoting because it is the key to why a woman&rsquo;s self-portrait is wedged into the corner of a Dada manifesto. Reflecting on the Dada men and their fashionable enthusiasm for the liberated modern woman, Höch wrote (here in English translation):
+      </p>
+      <p style={proseStyle}>
+        <em>&ldquo;None of these men were satisfied with just an ordinary woman. But neither were they inclined to abandon the (conventional) male / masculine morality toward the woman. Enlightened by Freud, in protest against the older generation &hellip; they all desired this &lsquo;New Woman&rsquo; and her groundbreaking will to freedom. But &hellip; they more or less brutally rejected the notion that they, too, had to adopt new attitudes &hellip;&rdquo;</em>
+      </p>
+      <p style={proseStyle}>
+        (The statement comes down to us as a translation and is excerpted, the ellipses are in the quoted source, so treat it as her sense rather than a polished sentence.) Read it against the picture and the whole thing snaps into focus. The men cut around her demanded a New Woman, free and modern, while keeping every old habit of treating women as lesser. Höch, the one woman they nearly barred from their own fair, answered with a picture that cuts up their generals and their revolutionaries alike, and then, in the corner, plants women&rsquo;s votes and her own face where the artist&rsquo;s name belongs. The kitchen knife in the title is cutting through the beer-belly culture of Weimar; it is also, quietly, cutting through the men in her own circle.
+      </p>
+    </article>
+  )
+}
+
+function KnfAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="1920 onward" title="From the fair to a long, quiet career" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>A</DropCap>
+        fter the <strong>1920 Dada Fair</strong>, where it had been one of the most-noticed pieces, the picture went where Höch went, which was nowhere far. Berlin Dada burned out within a couple of years; the men scattered and feuded. Höch kept working, in collage and photomontage, for another half-century. The years were not kind to that work&rsquo;s reputation in Germany: under the Nazis, who came to power in 1933, modern art of exactly this kind was branded <strong>&ldquo;degenerate,&rdquo;</strong> and Höch, blacklisted, spent the Third Reich living quietly on the edge of Berlin, keeping her own pictures and those of friends hidden. She survived the war, kept making art, and died in Berlin in <strong>1978</strong>, at the age of eighty-nine.
+      </p>
+
+      <SectionHeader accent={accent} label="Provenance · c. 1957" title="Into the national collection" />
+      <p style={proseStyle}>
+        The picture&rsquo;s ownership history (its <strong>provenance</strong>, the documented chain of who has held a work, from the artist&rsquo;s hand to now) is short and stayed close to Höch. It remained associated with her through her long Berlin life, and then entered the <strong>Nationalgalerie</strong>, the national gallery of (then West) Berlin, under the inventory number <strong>NG 57/61</strong>. That &ldquo;57&rdquo; points to an acquisition around <strong>1957</strong>, in Höch&rsquo;s own lifetime, while she was still living and working in the city. (The exact route into the collection, whether the gallery bought it, took it from the artist, or acquired it through a dealer, is not documented in the sources we have, so we will not guess at a buyer or a price.) It hangs there today, in the Staatliche Museen zu Berlin.
+      </p>
+      <p style={proseStyle}>
+        One note on the rights, because museum pages will show a &ldquo;©&rdquo; on this image. The work was <strong>published in 1920</strong>, which makes it <strong>public domain in the United States</strong> (US copyright on a work this old turns on the date of publication, not on when the artist died). In Germany and the rest of the European Union, where copyright runs for the artist&rsquo;s life plus seventy years, it stays protected until the end of <strong>2048</strong> (Höch died in 1978). The copyright notice you see is a European claim; it does not govern use in the United States.
+      </p>
+
+      <SectionHeader accent={accent} label="After" title="The picture that outgrew the men who nearly shut her out" />
+      <p style={proseStyle}>
+        For decades Höch was filed away as a minor figure, a footnote to the more famous Dada men, the girlfriend who did collages. That verdict has been almost entirely overturned. <em>Cut with the Kitchen Knife</em> is now read as the central masterpiece of Berlin Dada photomontage and one of the founding works of <strong>political collage</strong>, the technique that her circle-mate <strong>John Heartfield</strong> would soon turn into ferocious anti-Nazi photomontages, and that artists have used as a weapon ever since. It is also read as a landmark of <strong>feminist art</strong>, a woman cutting up the image-world to ask who controls it, decades before that question had a name.
+      </p>
+      <p style={proseStyle}>
+        There is a neatness to where it ended up. The men of Berlin Dada nearly kept Höch out of their own fair; one of them sniffed that she had &ldquo;never been a member of the club.&rdquo; A century later, the picture she made for that fair, with her own face pasted into the signature corner beside a map of women&rsquo;s votes, hangs in the national gallery as the work the whole movement is best remembered by. The knife cut through more than the beer-belly order. It cut her name into the center of a story that had tried to leave her at the edge.
+      </p>
+    </article>
+  )
+}
+
+// REGISTRY (coordinator splices into NARRATIVES):
+//  'kitchen-knife': { fair: KnfFair, making: KnfMaking, looking: KnfLooking, reading: KnfReading, afterlife: KnfAfterlife },
+
+// ─────────────────────────────────────────────────────────────
+// Mechanical Head (Hausmann, c.1920) — the five chapters
+// ─────────────────────────────────────────────────────────────
+function MchBerlin({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Berlin · 1919" title="Dada in the wreckage of a lost war" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>D</DropCap>
+        ada began in neutral <strong>Z&uuml;rich</strong> in 1916, in a cabaret full of exiles who decided that a civilization capable of the trenches of the First World War did not deserve to be taken seriously, and answered it with nonsense, accident and provocation. By 1919 it had jumped to <strong>Berlin</strong>, and in Berlin it grew teeth. Germany had lost the war. The streets were full of revolution, street-fighting, hunger and rage, and the new, fragile <strong>Weimar Republic</strong> (the German democracy founded in 1919 in the ruins of the empire) was being born in chaos. Berlin Dada became the most openly political wing of the whole movement.
+      </p>
+      <p style={proseStyle}>
+        Its core was a tight, combative group: <strong>Raoul Hausmann</strong> (1886&ndash;1971), the Austrian-born painter, poet and theorist at the center of it; his partner and collaborator <strong>Hannah H&ouml;ch</strong> (1889&ndash;1978), a major Dada artist in her own right; the photomontage propagandist <strong>John Heartfield</strong>; the savage caricaturist <strong>George Grosz</strong>; and the provocateurs <strong>Johannes Baader</strong> and <strong>Richard Huelsenbeck</strong>. They made photomontages, manifestos, poster-poems and staged scandals, all aimed at the German establishment that had marched a generation into the mud and then lost.
+      </p>
+      <p style={proseStyle}>
+        Hausmann was the group&rsquo;s restless inventor. He is one of the (disputed) inventors of <strong>photomontage</strong>, the technique of building a new image by cutting up and reassembling printed photographs; he and H&ouml;ch said the idea came to them on a 1918 Baltic holiday, looking at the framed soldier-portraits that hung in every house. He was also a <strong>sound poet</strong>, writing &ldquo;optophonetic&rdquo; poster-poems out of loose letters and raw phonemes. The drive underneath all of it is the same: make meaning by combining the found and the nonsensical. Around 1920 he aimed that drive at a new kind of object. He reached for a barber&rsquo;s wooden dummy head and a fistful of office and household junk, and assembled a head.
+      </p>
+    </article>
+  )
+}
+
+function MchBuilding({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The making · c.1920" title="A head you assemble instead of carve" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>F</DropCap>
+        irst, the date, which is genuinely uncertain and gets stated three different ways. The museum that owns the piece records it as 1919; recent scholarship leans toward 1920&ndash;21; popular accounts mostly just say 1920. The honest answer is <strong>c.1919&ndash;20</strong>, and nothing in the work depends on pinning it tighter than that.
+      </p>
+      <p style={proseStyle}>
+        Now the making, which is the whole point. Hausmann did not <strong>model</strong> this head in clay, did not <strong>carve</strong> it from wood or stone, did not <strong>cast</strong> it in bronze. He took a thing that already existed, a <strong>wooden wig-maker&rsquo;s dummy head</strong> (the smooth, featureless shop-fitting a barber or hatter props a wig or a hat on), and he <strong>fixed</strong> manufactured oddments to it. This is <strong>assemblage</strong>: a sculpture built by selecting and combining ready-made things rather than fashioning a form by hand. The artist&rsquo;s decision (this object, joined to that one), not the artist&rsquo;s carving hand, is what makes it art.
+      </p>
+
+      <SectionHeader accent={accent} label="The parts list" title="What is actually on it, by the museum’s own caption" />
+      <p style={proseStyle}>
+        Here is where care matters, because this is the single fact most often gotten wrong. There are two object lists in circulation. The one to trust is the <strong>Centre Pompidou&rsquo;s own caption</strong>, written by the museum that owns the piece. By that list, fixed to the wooden head are: a <strong>collapsible telescopic cup</strong>; a <strong>leather case</strong>; a <strong>pipe stem</strong>; a <strong>white card bearing the number &ldquo;22&rdquo;</strong>; a piece of a <strong>dressmaker&rsquo;s tape measure</strong>; a <strong>double-decimetre wooden ruler</strong>; a <strong>watch gear</strong> (a cog from a clock movement); and a <strong>roller of printer&rsquo;s type</strong>. About nine elements in all, on one dummy head.
+      </p>
+      <p style={proseStyle}>
+        The other list, the one repeated across encyclopedias and tour blogs, adds a <strong>segment of an old camera</strong> and a <strong>typewriter part</strong>, and calls the wallet a &ldquo;crocodile&rdquo; or jewel wallet. The museum&rsquo;s caption names neither a camera nor a typewriter. They may be in some descriptions; they are not in the catalogue of the people who hold the object, so we will keep them as &ldquo;often described&rdquo; and not assert them. What both lists agree on is the character of the haul: it is overwhelmingly the apparatus of <strong>measurement, money, time and standardization</strong>. A ruler. A tape. A watch. A number. A wallet. The tools that measure, time, price and process a person.
+      </p>
+      <p style={proseStyle}>
+        And there is a neat logic to who made this. The man who helped invent photomontage, who built faces out of cut-up photographs, has here done the same thing in three dimensions: instead of assembling a head from cut paper, he has assembled one from cut-loose manufactured objects. The <em>Mechanical Head</em> is photomontage stood up off the page.
+      </p>
+    </article>
+  )
+}
+
+function MchLooking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The object" title="A small thing, not life-size" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he first surprise is the scale. This is a <strong>small object</strong>, a little over a foot tall (about 1 ft 0 3/4 in, roughly 32.5&nbsp;cm), the height of a large bottle. It is not a life-size head. The photographs that make it famous tend to fill the frame and lend it a monumental air it does not have in the room; in person it is a modest, almost pocketable thing, which only sharpens the joke. A portrait of modern man, the size of an ornament.
+      </p>
+
+      <SectionHeader accent={accent} label="The face" title="The blank where the spirit should be" />
+      <p style={proseStyle}>
+        The face is a smooth, expressionless <strong>wooden dummy head</strong>, the features carved shut, the surface plainly that of a manufactured shop-fitting rather than a sculpted likeness. The grain, the seam, the fact that it is a found object are all visible. This is deliberate, and it is the heart of the thing. The title promises &ldquo;the spirit of our time,&rdquo; and the face where a spirit ought to be is <strong>empty</strong>: closed, vacant, blank. Whatever defines this man, it is not coming from inside the skull.
+      </p>
+
+      <SectionHeader accent={accent} label="The attachments" title="The gadgets bolted where thought should be" />
+      <p style={proseStyle}>
+        It comes, instead, from the outside, from the ring of objects fixed to the head. Following the museum&rsquo;s caption, here is what is attached. A <strong>collapsible telescopic cup</strong> and a small <strong>leather case</strong> and a <strong>pipe stem</strong> are bolted on, the everyday apparatus of drinking, money and habit, stuck to the skull as if they were the man&rsquo;s faculties. (Many descriptions also identify a camera segment and a typewriter part here; the museum&rsquo;s own caption lists neither, so treat those as the popular telling, not the catalogue.)
+      </p>
+      <p style={proseStyle}>
+        Then the instruments. A <strong>double-decimetre wooden ruler</strong> and a piece of a <strong>dressmaker&rsquo;s tape measure</strong>: the rationalized modern man literally wearing the tools that measure him. A <strong>white card</strong> with the bare number <strong>&ldquo;22&rdquo;</strong> on it, identity reduced to a figure, a filing label, the man as a statistic. And a <strong>watch gear</strong> and a <strong>roller of printer&rsquo;s type</strong>: the clock that times him and the print that processes him, time and text, the machinery of modern life, attached exactly where thought should be.
+      </p>
+      <p style={proseStyle}>
+        What the piece is actually mocking is a real post-war ideal: the dream of a man optimized like a machine, timed, measured and standardized. This was the age of <strong>Taylorism</strong> (the &ldquo;scientific management&rdquo; of the American engineer Frederick Taylor, which broke a worker&rsquo;s every motion into timed, measurable units), and the efficiency cult was crossing from American industry into Weimar Germany. Hausmann answers it with a hollow wooden head wearing exactly those instruments. The object-list cuts two ways at once: it is a verdict on the wartime machine that timed men into the trenches, and on the peacetime one that files a man as a wallet, a clocked workday and a number.
+      </p>
+      <p style={proseStyle}>
+        Take in the whole of it at once and the argument arrives without a caption. Here is a hollow wooden head, its face shut and vacant, with the instruments of measurement, money, time and standardization fixed to the outside of the skull. The man is not the head. The man is the gadgets bolted to it.
+      </p>
+    </article>
+  )
+}
+
+function MchBreak({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The break · before" title="A head was something you carved" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>F</DropCap>
+        or as long as there had been sculpture, a head meant a head <strong>carved or modelled</strong> by the artist&rsquo;s hand from a noble material: marble, bronze, clay. The point of it was to portray a person or to idealize one, and the human head in particular was the seat of mind and soul, the most serious thing a sculptor could make. Even the boldest modern sculptors before this still <strong>shaped</strong> the head: Rodin pressed it out of clay, Brancusi polished it down to an egg of stone. The material was worked. The hand was the art.
+      </p>
+
+      <SectionHeader accent={accent} label="The break · what changed" title="The artist’s choice, not the artist’s hand" />
+      <p style={proseStyle}>
+        Hausmann does none of that. He <strong>assembles</strong> the head out of <strong>found, ready-made junk</strong>, a barber&rsquo;s wooden dummy plus office and household oddments, and he <strong>fixes them rather than fashioning them</strong>. This is <strong>assemblage</strong>, or found-object sculpture: the work is the selecting and the combining, not the carving. The method itself was not new. <strong>Picasso</strong> had been gluing scavenged materials into Cubist constructions since around 1912, and <strong>Duchamp</strong> had declared a bicycle wheel art in 1913 (the <strong>readymade</strong>, his notion that an artist could make art simply by <em>choosing</em> a manufactured object). What Hausmann does that is new is turn the method on the <strong>human head</strong>, the most traditionally hand-carved subject of all, and make it carry a portrait of the age. The old seat of mind and soul becomes <strong>a thing built from cast-offs</strong>.
+      </p>
+      <p style={proseStyle}>
+        And the meaning of that move is the <strong>mechanization of man</strong>. The brain is vacant; identity is bolted on from without. Hausmann said as much himself. In his own later writing on the work he described the everyday man, in a line that has come down to us in several English translations, this way:
+      </p>
+      <p style={{ ...proseStyle, fontStyle: 'italic', borderLeft: `3px solid ${accent}`, paddingLeft: 14, margin: '0 0 14px' }}>
+        &ldquo;An average man has no more capabilities than those which chance has glued to the outside of his skull; his brain remains empty.&rdquo;
+      </p>
+      <p style={proseStyle}>
+        That is genuinely Hausmann, from his retrospective account of the piece, though the exact English wording varies from source to source: some translations open it with &ldquo;the everyday man,&rdquo; others tighten it to &ldquo;the average German,&rdquo; and the skull clause appears both as &ldquo;glued to the outside of his skull&rdquo; and &ldquo;glued to his skull, on the exterior,&rdquo; so read it as one careful translation rather than a fixed original. It is also the work, restated. The face is the empty brain. The cup, the ruler, the tape, the watch gear, the number 22, the type-roller are the capabilities chance has glued to the outside. The piece reads, too, as a flat verdict on the war just ended, the industrial slaughter that had reduced men to machines and lives to statistics: man as apparatus, the spirit emptied out.
+      </p>
+
+      <SectionHeader accent={accent} label="The break · after" title="The found object, made into a portrait" />
+      <p style={proseStyle}>
+        From here the line is direct. The found object glued to a base, made to stand for the modern condition, runs out of Dada into Surrealist object-sculpture and onward into <strong>Robert Rauschenberg&rsquo;s &ldquo;combines&rdquo;</strong> of the 1950s and the whole later tradition of <strong>assemblage</strong>. After the <em>Mechanical Head</em>, building a &ldquo;portrait&rdquo; of a person or an age out of cast-off manufactured things was a legitimate way to make a sculpture. The carving hand was no longer the only way to make a head.
+      </p>
+    </article>
+  )
+}
+
+function MchAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Provenance" title="The only one of its kind to survive" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>O</DropCap>
+        ne fact frames the whole afterlife of this piece: it is the <strong>only assemblage of its kind by Hausmann to survive</strong>. He is not known to have made a series of these; the others, if there were others, are gone. So the <em>Mechanical Head</em> carries the weight of the idea more or less alone, which is part of why it is so reproduced and so fought over. Precisely: the only one of its kind to survive, not the only assemblage he ever made.
+      </p>
+      <p style={proseStyle}>
+        Its ownership chain, the <strong>provenance</strong> (the documented record of who has held a work of art, in order, from the maker to now), is short. On the Centre Pompidou&rsquo;s own record, the piece passed to <strong>Hannah H&ouml;ch</strong>, Hausmann&rsquo;s partner and fellow Berlin Dadaist, around the time of their separation in <strong>1922</strong>, and stayed in her keeping until <strong>1966</strong>, when she returned it to him after repairs made for photography. Then, in <strong>1974</strong>, three years after Hausmann&rsquo;s death, the piece was bought by the <strong>Centre Pompidou</strong> in Paris (more precisely its Mus&eacute;e national d&rsquo;art moderne), inventory number AM 1974-6, where it remains on view.
+      </p>
+
+      <SectionHeader accent={accent} label="Rights" title="Public domain in the US, in copyright in Europe" />
+      <p style={proseStyle}>
+        A word on rights, because the two halves of the answer disagree and both are correct. The work was <strong>made and published around 1920</strong>, before 1930, which makes a faithful photograph of it <strong>public domain in the United States</strong>; that is the basis on which its image is freely shown. In Europe it is a different story: Hausmann died in 1971, so under the European term of the author&rsquo;s life plus seventy years the work stays <strong>in copyright in the EU</strong> through 2041, and the museum asserts that claim there. The same object, free in one place and protected in another, depending only on the law you happen to be standing in.
+      </p>
+
+      <SectionHeader accent={accent} label="The legacy" title="A portrait of the spirit of the age" />
+      <p style={proseStyle}>
+        What Hausmann left is small enough to hold in two hands and large enough to have changed what sculpture could be. He took the most serious form in the whole tradition, the human head, and he refused to carve it, refused to ennoble it, refused to fill it. He built it from junk and left it empty, and he was right that the gesture would read. A century on, the blank wooden face with its cup and its ruler and its watch gear still says the thing he meant it to say about the rationalized, quantified, money-and-clock-ruled modern man: that his spirit is vacant, and what defines him is only the apparatus chance has glued to the outside of his skull.
+      </p>
+    </article>
+  )
+}
+
+// REGISTRY (coordinator splices into NARRATIVES):
+//  'mechanical-head': { berlin: MchBerlin, building: MchBuilding, looking: MchLooking, break: MchBreak, afterlife: MchAfterlife },
+
+// ─────────────────────────────────────────────────────────────
+// The Hat Makes the Man (Max Ernst, 1920) — the five chapters
+// ─────────────────────────────────────────────────────────────
+function HmkCologne({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Cologne · 1919–1920" title="A Dada cell in a defeated city" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>I</DropCap>
+        n <strong>Cologne</strong> in <strong>1920</strong>, the First World War has been over for two years, and Germany lost it. The old empire has collapsed into the shaky new <strong>Weimar Republic</strong> (the democratic German state set up in 1919, named for the town where its constitution was written), the economy is sliding toward ruin, and a generation of young men has come home from the trenches convinced that the respectable bourgeois world that marched them off to die was a fraud from top to bottom. One of those men is a painter named <strong>Max Ernst</strong> (1891&ndash;1976), born near Cologne, trained loosely in philosophy and art, and back from four years in the German artillery with no patience left for the culture that produced the slaughter.
+      </p>
+      <p style={proseStyle}>
+        Ernst&rsquo;s answer was <strong>Dada</strong>, the international anti-art movement that had begun in neutral <strong>Zurich</strong> in 1916, in a nightclub called the Cabaret Voltaire, among artists and poets sitting out the war. Dada&rsquo;s whole program was refusal. If the civilized order had produced the trenches, then reason, good taste, beauty, and the very idea of a serious work of art were all suspect, and the right response was nonsense, provocation, and mockery. (The name itself is nonsense: depending on who you ask, &ldquo;dada&rdquo; is French baby-talk for a hobbyhorse, or just two syllables picked at random from a dictionary. The pointlessness was the point.) By 1919&ndash;1920 Dada had spread to Berlin, to Paris, to New York, and to Cologne, where Ernst founded the local cell with his friend <strong>Johannes Theodor Baargeld</strong> and, in close dialogue, the Alsatian artist <strong>Jean (Hans) Arp</strong>.
+      </p>
+      <p style={proseStyle}>
+        <strong>Cologne Dada</strong> shared the general project (ridicule the bourgeoisie, ridicule the war, ridicule the idea of modern man as an obedient, off-the-peg conformist), but Ernst&rsquo;s branch had a private tilt the others didn&rsquo;t. Where Berlin Dada was loud and political and Zurich Dada was performance, Ernst was quietly fascinated by chance, by accident, and by the strange logic of dreams. That fascination is why he is counted, a few years later, as a <strong>founder of Surrealism</strong>, the movement of the dreaming unconscious that grows directly out of work like this one. He is, in the standard telling, the first major visual artist to carry Dada over into the dream.
+      </p>
+      <p style={proseStyle}>
+        And the work that shows the crossing most clearly is almost too small and too modest to bear the weight: a sheet of paper about the size of a place mat, covered with hats clipped out of a mail-order catalogue.
+      </p>
+    </article>
+  )
+}
+
+function HmkMaking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The raw material" title="A page of hats for sale" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>E</DropCap>
+        rnst began with a single printed page from a commercial <strong>sales catalogue of men&rsquo;s hats</strong>. The catalogue came from his father-in-law, <strong>Jacob Straus</strong>, a Cologne hat manufacturer, and the page was the ordinary thing such a page always is: neat rows of orderable hat forms (bowlers, top hats, soft felts), each one drawn flat and evenly, the way merchandise is drawn so a customer can pick a model and a size. This is advertising. It is the lowest, most disposable kind of printed image there is. Ernst chose it on purpose, because the gap between &ldquo;a hat catalogue&rdquo; and &ldquo;a work of art&rdquo; was exactly the gap he wanted to leap.
+      </p>
+      <p style={proseStyle}>
+        Working over that page (in MoMA&rsquo;s accounting, with <strong>gouache, pencil, oil, and ink on cut-and-pasted printed paper</strong>, mounted on a second sheet), Ernst did three things. First he <strong>cut the hats out</strong>. Then he <strong>stacked them</strong>, one on top of another, into tall, teetering vertical towers, four of them across the sheet. Then he reached for a brush.
+      </p>
+
+      <SectionHeader accent={accent} label="From stack to figure" title="Wiring the merchandise into a body" />
+      <p style={proseStyle}>
+        Between and around the stacked hats, in the gaps the scissors left, Ernst drew and painted smooth <strong>tubes, cylinders, and a few cubes</strong>, washed in clear <strong>blue, red, green, and yellow</strong> gouache. These painted shapes do the connecting work. They run through the columns like necks and spines and legs, joining the separate cut hats into single standing things. And that is the moment the trick fires: stack enough merchandise into a vertical pile, wire it together with a bit of painted anatomy, and the eye reads it as a <strong>person</strong>. The hats become heads and torsos; the tubes become limbs; four piled-up towers of product become four figures standing in a row.
+      </p>
+
+      <SectionHeader accent={accent} label="The joke" title="You are what you buy" />
+      <p style={proseStyle}>
+        The joke is the whole work. Take the off-the-peg uniform of the respectable bourgeois man (the hat, the single most class-coded thing he wears), pile it up, and you have literally <strong>&ldquo;made the man.&rdquo;</strong> Identity, in Ernst&rsquo;s deadpan, is just the merchandise piled into a body shape. The figures have no faces, no hands, no selves; they are their hats and nothing else. It is a flat, withering little gag about a society that had decided a man was the sum of what he could be sold, aimed straight at the bourgeoisie that Dada blamed for the war.
+      </p>
+      <p style={proseStyle}>
+        There is a second reading running under the first, and it is a reading rather than a fact. The stacked, swelling towers are unmistakably bodily and upright, and the title has long been tied to <strong>Sigmund Freud</strong>, specifically to Freud&rsquo;s 1905 book on jokes and the unconscious, in which the hat turns up as a symbol of repressed masculine desire. By that read the consumer gag (you are what you buy) doubles as a sexual one (the hat as a stand-in for what the buttoned-up bourgeois cannot say). Ernst never spelled this out, so it is an interpretation the picture invites, not a meaning he documented. Either way, the figures are absurd, and the absurdity is the point: this is what happens when you build a human being out of an order form.
+      </p>
+    </article>
+  )
+}
+
+function HmkLooking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The sheet" title="Small, flat, and full of hats" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he work is tiny. It is about <strong>fourteen inches tall by eighteen inches wide</strong> (roughly 13⅞ by 17¾ in, the size of a place mat), and it is a flat <strong>sheet of paper</strong>, not a canvas. It reads <strong>landscape</strong>, wider than it is tall, and across that small horizontal field stand <strong>four vertical figures</strong> in a loose row, like specimens lined up for inspection. This is something you could pick up in both hands, not a wall-sized statement, and its modesty is part of its nerve.
+      </p>
+
+      <SectionHeader accent={accent} label="The towers" title="Columns that are nothing but hats" />
+      <p style={proseStyle}>
+        Top to bottom, each figure is a <strong>column of men&rsquo;s hats</strong> (bowlers, toppers, soft felts) cut from the catalogue and piled one on the next into a teetering tower. There is no anatomy in them at all; there is merchandise. The stacks lean and wobble rather than stand square, so the &ldquo;men&rdquo; look unstable, as if the whole product line might topple in a breeze. The hats themselves give away exactly what they are: <strong>flat, evenly lit, repetitive</strong>, rendered in the uniform style of commercial product illustration. That found, mechanical look is not a flaw. It is the announcement that these are advertising images, lifted whole, not things anyone sat down and drew.
+      </p>
+
+      <SectionHeader accent={accent} label="The joins" title="Painted tubes and colored bodies" />
+      <p style={proseStyle}>
+        Between the cut hats run the <strong>painted tubes</strong>, smooth drawn cylinders that act as necks, spines, and legs and fuse the stacks into single standing bodies. These are the only hand-made parts of the picture, and they are tinted in clear <strong>blue, red, green, and yellow</strong>, so the grey catalogue hats appear to be built from, or wearing, bright cylindrical torsos. The contrast does the work: the hats are dull, flat, mechanical; the joins are rounded, bodily, vivid. The seam between the found object and the painted limb is where the figure actually comes to life, which is to say it comes to life in exactly the place Ernst added by hand.
+      </p>
+
+      <SectionHeader accent={accent} label="The caption" title="A field guide written in nonsense" />
+      <p style={proseStyle}>
+        Along the lower edge, in Ernst&rsquo;s own handwriting, runs the <strong>caption</strong>, not a wall label added later but part of the work, the punchline written onto the picture. It is a line of deadpan, fake-scientific German that labels the stacked figures as if they were plant specimens in a botanical field guide, followed by a bracketed French proverb. The figures have been <em>filed</em>, classified, named in a register, as though a catalogue of merchandise were a catalogue of species. The flat bureaucratic deadpan is the comedy.
+      </p>
+      <p style={proseStyle}>
+        At full-sheet scale the argument is plain. Four men, and not one of them is anything but the hats he is wearing. The picture has reached into a sales catalogue, pulled out the most ordinary objects it could find, and proven that you can build a person out of them, which is, of course, a way of saying the person was never more than the objects to begin with.
+      </p>
+    </article>
+  )
+}
+
+function HmkBreak({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Before" title="A picture was something you made by hand" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>F</DropCap>
+        or all of the long history of Western painting up to this point, a picture was something an artist <strong>made</strong>, drew or painted, with the hand as the origin of every mark, working from observation or from imagination. Collage already existed: the Cubists <strong>Picasso</strong> and <strong>Braque</strong> had glued bits of newspaper and printed oilcloth into their canvases around 1912 (they called it <em>papier collé</em>, &ldquo;pasted paper&rdquo;). But in Cubism the pasted scrap was mostly a fragment, a patch of texture or pattern set into a picture that was still, fundamentally, composed by the painter&rsquo;s hand. The found material was an ingredient, not the dish.
+      </p>
+
+      <SectionHeader accent={accent} label="After" title="The advertisement, recombined into a figure" />
+      <p style={proseStyle}>
+        <em>The Hat Makes the Man</em> does something different in kind. The image is <strong>built from ready-made commercial print</strong>, illustrations lifted whole from a mail-order catalogue, recombined, not drawn. The &ldquo;subject&rdquo; of the picture is mass-produced advertising matter. And the recombination is <strong>absurd and figure-making</strong>: stacked merchandise becomes a person, glued together with a little painted anatomy and captioned in deadpan pseudo-scientific nonsense. This is the logic of <strong>Marcel Duchamp&rsquo;s readymade</strong> (the idea, a few years earlier, that an artist could simply <em>choose</em> a manufactured object, a bottle rack, a urinal, and declare it art) carried up off the gallery floor and into the picture plane.
+      </p>
+      <p style={proseStyle}>
+        The hinge is this. Take that same cut-and-paste, that same chance recombination of found commercial images, and read the uncanny figure it produces not as a joke about consumer society but as a glimpse of a <strong>dream</strong>, and you have walked out of Dada and into <strong>Surrealism</strong> (the movement, founded in Paris in 1924, of the dreaming unconscious). The mechanism is identical: irreconcilable images forced together on a surface that does not suit them. What changes is the destination. For the Dadaist, the dislocation is iconoclasm, an attack on art and reason. For the Surrealist who comes next, the very same dislocation becomes, in the standard account, a direct manifestation of unconscious thinking, a window onto the desires reason keeps locked away. <em>The Hat Makes the Man</em> stands exactly on that line. It is anti-art collage that has already started to dream.
+      </p>
+      <p style={proseStyle}>
+        Ernst said as much about these overpaintings of catalogue and textbook pages. His aim, he wrote, was &ldquo;to transform what previously had been merely banal pages of advertising into dramas that contained my most secret desires.&rdquo; Banal pages of advertising; secret desires. That sentence is the whole crossing in miniature: the lowest commercial print, turned into the theater of the unconscious. Within a year Ernst would paint <em>Celebes</em>, a looming dream-monster with a boiler for a body, often called the first masterpiece of Surrealist painting; within four years he would be a founding member of the Surrealist movement in Paris. The road to all of it runs through a page of hats.
+      </p>
+    </article>
+  )
+}
+
+function HmkAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The inscription" title="The caption, word for word" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he line Ernst wrote along the bottom of the sheet is the work&rsquo;s own statement of itself. In German it reads:
+      </p>
+      <p style={{ ...proseStyle, fontStyle: 'italic' }}>
+        &ldquo;bedecktsamiger stapel-mensch nacktsamiger wasserformer (&lsquo;edelformer&rsquo;) kleidsame nervatur auch !umpressnerven! (c&rsquo;est le chapeau qui fait l&rsquo;homme) (le style c&rsquo;est le tailleur)&rdquo;
+      </p>
+      <p style={proseStyle}>
+        The museum&rsquo;s circulating English rendering runs: &ldquo;seed-covered stacked-up man seedless waterformer (&lsquo;edelformer&rsquo;) well-fitting nervous system also tightly-fitted nerves! (the hat makes the man) (style is the tailor).&rdquo; That translation flattens what the German is doing. <strong>bedecktsamig</strong> and <strong>nacktsamig</strong> are real botanical terms: they mean <em>angiosperm</em> (a covered-seed plant, seeds enclosed in fruit) and <em>gymnosperm</em> (a naked-seed plant, like a conifer).
+      </p>
+      <p style={proseStyle}>
+        The common English &ldquo;seed-covered&rdquo; and &ldquo;seedless&rdquo; loses that covered-seed-versus-naked-seed pun entirely; the line is deliberate fake-botanical nonsense, classifying the stacked hat-men as if they were two species of plant. The English is a translation in circulation, not the literal content and not the title.
+      </p>
+      <p style={proseStyle}>
+        The title itself comes from the bracketed French at the end. <em>C&rsquo;est le chapeau qui fait l&rsquo;homme</em> (&ldquo;it is the hat that makes the man&rdquo;) turns the old cliché &ldquo;clothes make the man&rdquo; into something literal and a little sinister: here the man really <em>is</em> the hat, nothing more. And <em>le style c&rsquo;est le tailleur</em> (&ldquo;the style is the tailor&rdquo;) twists the famous saying that style is the man into a flat consumer joke: the style isn&rsquo;t the person at all, it&rsquo;s whoever cut the cloth. The caption is the picture confessing what it has done.
+      </p>
+
+      <SectionHeader accent={accent} label="Ernst on collage" title="Two realities that don’t belong together" />
+      <p style={proseStyle}>
+        Ernst kept returning, in his writing, to what collage actually was. His standard formulation describes it as <strong>&ldquo;the coupling of two realities, irreconcilable in appearance, upon a plane which apparently does not suit them.&rdquo;</strong> That is the whole method in one line: take two things that have no business together (a hat catalogue and a human figure, a boiler and an elephant), force them onto one surface, and let the shock of the mismatch do the work. (Ernst&rsquo;s idea here descends from a line he loved by the poet Lautréamont, about the chance meeting of an umbrella and a sewing machine on a dissecting table; the umbrella line is Lautréamont&rsquo;s, not Ernst&rsquo;s, but the taste for the impossible pairing is the same.) The hats and the man are exactly that coupling, and the caption files the result as a new species.
+      </p>
+
+      <SectionHeader accent={accent} label="Provenance" title="Made in Cologne, bought by MoMA in 1935" />
+      <p style={proseStyle}>
+        Ernst made it in <strong>Cologne in 1920</strong>. It is now in the <strong>Museum of Modern Art</strong> in New York, which bought it in <strong>1935</strong> from the French poet <strong>Paul Éluard</strong>, an early owner; the museum&rsquo;s credit line reads simply <strong>&ldquo;Purchase,&rdquo;</strong> meaning it was bought rather than given. (The &ldquo;© 2017&rdquo; on the museum&rsquo;s record is a rights-clearance date, not the date of acquisition.) The little hat-collage has been one of the foundation stones of MoMA&rsquo;s great holdings of Dada and Surrealism ever since.
+      </p>
+      <p style={proseStyle}>
+        A note on the materials, since the records do not all agree. MoMA&rsquo;s catalogue line gives the medium as <strong>gouache, pencil, oil, and ink on cut-and-pasted printed paper on paper</strong>; the support at the back is variously recorded as paper, as board, and (in German sources) as cardboard. What is not in doubt is the method: clipped commercial print, stacked and overpainted, on a small mounted sheet.
+      </p>
+
+      <SectionHeader accent={accent} label="Rights" title="Free here, still owned there" />
+      <p style={proseStyle}>
+        Because the collage was published in <strong>1920</strong>, it is in the <strong>public domain in the United States</strong>, which is why we can show it freely. Ernst died in 1976, so the work is <em>still in copyright in Europe</em> (the European term runs for the artist&rsquo;s life plus seventy years), and European and museum reproductions carry a rights line from the artists&rsquo; societies that manage his estate. The image is free where we are, in other words, but not free everywhere.
+      </p>
+      <p style={proseStyle}>
+        The sheet itself went on to a quiet kind of fame. Bought by the Museum of Modern Art, it became one of the anchor objects of the collection that, more than any other, taught the postwar English-speaking world what Dada and Surrealism even were: reproduced in the textbooks, hung as a touchstone, taught on MoMA&rsquo;s own learning pages. The angry little joke a discharged soldier cut out of his father-in-law&rsquo;s order forms is now a fixed point in the official story of modern art, the place where, by the standard account, the cut-and-paste of protest first tipped over into the cut-and-paste of dream.
+      </p>
+    </article>
+  )
+}
+
+// REGISTRY (coordinator splices into NARRATIVES):
+//  'hat-makes-man': { cologne: HmkCologne, making: HmkMaking, looking: HmkLooking, break: HmkBreak, afterlife: HmkAfterlife },
+
 const NARRATIVES: Record<string, Record<string, NarrativeFn>> = {
+  fountain: { case: FntCase, making: FntMaking, looking: FntLooking, break: FntBreak, afterlife: FntAfterlife },
+  lhooq: { postcard: LhoPostcard, making: LhoMaking, pun: LhoPun, break: LhoBreak, afterlife: LhoAfterlife },
+  'kitchen-knife': { fair: KnfFair, making: KnfMaking, looking: KnfLooking, reading: KnfReading, afterlife: KnfAfterlife },
+  'mechanical-head': { berlin: MchBerlin, building: MchBuilding, looking: MchLooking, break: MchBreak, afterlife: MchAfterlife },
+  'hat-makes-man': { cologne: HmkCologne, making: HmkMaking, looking: HmkLooking, break: HmkBreak, afterlife: HmkAfterlife },
+
   farewells: { station: FarStation, paris: FarParis, looking: FarLooking, futurism: FarFuturism, afterlife: FarAfterlife },
   'abstract-speed': { dog: AbsDog, making: AbsMaking, looking: AbsLooking, triptych: AbsTriptych, abstraction: AbsAbstraction },
   'bal-tabarin': { paris: BalParis, hall: BalHall, looking: BalLooking, simultaneity: BalSimultaneity, afterlife: BalAfterlife },

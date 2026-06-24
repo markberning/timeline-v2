@@ -6262,5 +6262,430 @@ export const AUTOMOBILE: ArtWorkContent = {
   },
 }
 
-export const ART_WORK_CONTENT: Record<string, ArtWorkContent> = { burial: BURIAL, demoiselles: DEMOISELLES, kahnweiler: KAHNWEILER, 'chair-caning': CHAIR_CANING, horta: HORTA, 'violin-jug': VIOLIN_JUG, 'three-women': THREE_WOMEN, 'the-portuguese': THE_PORTUGUESE, 'gris-breakfast': GRIS_BREAKFAST, 'three-musicians': THREE_MUSICIANS, 'stone-breakers': STONE_BREAKERS, studio: STUDIO, sower: SOWER, gleaners: GLEANERS, angelus: ANGELUS, gargantua: GARGANTUA, carriage: CARRIAGE, 'horse-fair': HORSE_FAIR, 'impression-sunrise': IMPRESSION_SUNRISE, grenouillere: GRENOUILLERE, cradle: CRADLE, 'moulin-galette': MOULIN_GALETTE, 'paris-street': PARIS_STREET, 'dance-class': DANCE_CLASS, absinthe: ABSINTHE, 'boating-party': BOATING_PARTY, 'gare-saint-lazare': GARE_SAINT_LAZARE, 'starry-night': STARRY_NIGHT, 'bedroom-arles': BEDROOM_ARLES, 'grande-jatte': GRANDE_JATTE, 'bathers-asnieres': BATHERS_ASNIERES, 'card-players': CARD_PLAYERS, 'mont-sainte-victoire-lauves': MONT_SAINTE_VICTOIRE_LAUVES, 'vision-sermon': VISION_SERMON, 'moulin-rouge': MOULIN_ROUGE, 'where-do-we-come-from': WHERE_DO_WE_COME_FROM, hat: WOMAN_WITH_A_HAT, 'green-stripe': GREEN_STRIPE, bonheur: BONHEUR, luxe: LUXE, 'open-window': OPEN_WINDOW, 'blue-nude': BLUE_NUDE, chatou: CHATOU, 'charing-cross': CHARING_CROSS, 'rue-pavoisee': RUE_PAVOISEE, 'city-rises': CITY_RISES, dog: DOG, galli: GALLI, cyclist: CYCLIST, 'unique-forms': UNIQUE_FORMS, farewells: FAREWELLS, 'bal-tabarin': BAL_TABARIN, automobile: AUTOMOBILE, 'abstract-speed': ABSTRACT_SPEED }
+// ─────────────────────────────────────────────────────────────
+// Work, Fountain, Marcel Duchamp, 1917, Dada. The original (a mass-produced
+// porcelain urinal signed "R. Mutt 1917") is LOST; every museum Fountain is a
+// later authorized replica. The hero is Alfred Stieglitz's 1917 photograph, the
+// only surviving image of the original (PD-US, published 1917 in The Blind Man
+// no. 2). Authored through the art content pipeline (fact pack → Opus → 5 gates
+// → revise). Chapter prose in art-section-reader.tsx NARRATIVES['fountain']
+// (Fnt… prefix). FACT HANDLING (gate-corrected):
+//  - SUPPRESSED, not "rejected by jury" — the 1917 Independents show had NO jury;
+//    the board hid it behind a partition despite the no-jury pledge.
+//  - The original was LOST (probably discarded as trash, per Tomkins), NOT smashed.
+//  - "The Richard Mutt Case" editorial ran UNSIGNED in The Blind Man no. 2;
+//    commonly credited to the editors (Duchamp / Roché / Beatrice Wood) and often
+//    to Wood specifically. NOT captioned "by Duchamp."
+//  - The Baroness von Freytag-Loringhoven authorship theory is presented as a
+//    LIVE, contested debate, never as settled fact in either direction.
+//  - Dimensions = the Tate replica (2/8), named as a replica; ft/in only.
+// ─────────────────────────────────────────────────────────────
+export const FOUNTAIN: ArtWorkContent = {
+  id: 'fountain',
+  name: 'Fountain',
+  shortName: 'Fountain',
+  year: 1917,
+  artist: 'Marcel Duchamp',
+  artistId: 'duchamp',
+  movement: 'Dada',
+  movementId: 'dada',
+  era: 'Modern',
+  eraId: 'mod',
+  medium: 'Readymade: a mass-produced porcelain urinal, laid on its back, signed “R. Mutt 1917.” The original is lost; every museum Fountain is a later authorized replica.',
+  dimensions: '1 ft 2 in × 1 ft 7 in × 2 ft (Tate replica, 2/8)',
+  location: 'No original survives; the Tate, London holds replica 2/8 (Schwarz edition, 1964)',
+  acquired: 'Tate replica purchased 1999 with assistance from the Friends of the Tate Gallery (T07573); the 1917 original was lost soon after it was made',
+  accent: ART_ACCENTS.amber,
+  chain: { name: 'Works of Dada', index: 1, total: 9 },
+  hook: 'A factory-made urinal laid on its back, signed with a fake name, and entered as sculpture into a show that had promised to refuse nothing, which then hid it. The whole work of art is the choosing.',
+  heroImage: ART_IMG.duchampFountain,
+  heroCredit: 'Alfred Stieglitz, photograph of Duchamp’s Fountain, 1917 · The Blind Man no. 2 (the only surviving image of the lost original)',
+  heroAspect: 0.77, // Stieglitz photo, Commons master 1416 × 1849 → W/H ≈ 0.77, portrait
+  heroFit: 'contain', // the whole photograph, never cropped
+  rights: 'pd-us', // Stieglitz photo published 1917 → US public domain (PD-US-expired)
+  stats: [
+    { v: '1917', k: 'Original (now lost)' },
+    { v: 'Porcelain urinal', k: 'Medium (readymade)' },
+    { v: 'Replicas only', k: 'No original survives' },
+  ],
+  sections: [
+    { id: 'case', eyebrow: 'New York · 1917', dateLabel: 'April 1917', title: 'The show that promised to refuse nothing', blurb: 'The first Society of Independent Artists exhibition opens on the French promise of no jury and no prizes: pay six dollars and hang anything. Someone signing “R. Mutt” sends in a urinal, and the board, caught in its own rule, hides it.', progress: 0.08 },
+    { id: 'making', eyebrow: 'The making', dateLabel: '1917', title: 'A urinal, a fake name, and a photograph', blurb: 'There is almost no “making.” Duchamp bought a fixture, turned it on its back, brushed “R. Mutt 1917” on the rim, and had Alfred Stieglitz photograph it. Then the object vanished, and the photograph became the work.', progress: 0.30 },
+    { id: 'looking', eyebrow: 'The photograph', dateLabel: 'May 1917', title: 'What is actually in the one surviving image', blurb: 'The inverted form, the painted signature, the silhouette critics read as a seated Buddha, the pedestal that quietly says “sculpture,” and the avant-garde painting hanging behind it in Stieglitz’s gallery.', progress: 0.52 },
+    { id: 'break', eyebrow: 'The break', dateLabel: '1917', title: 'Choosing instead of making', blurb: 'For centuries art was a thing made by hand with skill. Fountain proposes that the artist’s real act is to choose, name, and reframe, and that an untouched factory object can become art by decision alone. The defense ran in The Blind Man.', progress: 0.74 },
+    { id: 'afterlife', eyebrow: 'After', dateLabel: '1917–today', title: 'The lost object that conquered the century', blurb: 'The original was thrown out as trash; authorized copies of it now hang in the world’s great museums and sell for millions. A poll of the art world once named this missing urinal the most influential artwork of the twentieth century.', progress: 0.96 },
+  ],
+  provenance: [
+    { year: '1917', who: 'Marcel Duchamp (submitted as “R. Mutt”)', place: 'New York', note: 'Entered to the Society of Independent Artists exhibition in April 1917, suppressed by the board, then photographed by Alfred Stieglitz at his 291 gallery and reproduced in The Blind Man no. 2 (May 1917). The original object disappeared shortly after; biographer Calvin Tomkins’s best guess is that it was thrown out as rubbish.', price: null },
+    { year: '1950', who: 'Replica signed at Sidney Janis’s request', place: 'New York', note: 'No original survives. Duchamp authorized a sequence of full-size reproductions. The 1950 replica (the dealer Sidney Janis bought a urinal at a Paris flea market and Duchamp signed it) went to the Philadelphia Museum of Art.', price: null },
+    { year: '1963', who: 'Ulf Linde replica (Duchamp’s permission)', place: 'Stockholm', note: 'Made by Ulf Linde with Duchamp’s permission and signed by Duchamp the following year; now at the Moderna Museet, Stockholm.', price: null },
+    { year: '1964', who: 'Galleria Schwarz edition of 8 (Arturo Schwarz)', place: 'Milan', note: 'An edition of 8 glazed earthenware replicas, painted to resemble the lost porcelain original, fabricated to scaled drawings under Duchamp’s supervision and signed by him, plus proofs and a prototype (about 17 versions of Fountain now exist in total). These are the copies that filled the museums.', price: null },
+    { year: '1999', who: 'Tate (Schwarz replica 2/8)', place: 'London', note: 'The Tate purchased the 1964 Schwarz replica numbered 2/8 with assistance from the Friends of the Tate Gallery (accession T07573). At the same Sotheby’s sale that year, replica 5/8 changed hands, so authorized copies of a lost object now command serious money.', price: null, museum: true },
+  ],
+  figures: [
+    { name: 'Marcel Duchamp', role: 'Chose and submitted it', palette: ['#b8b4ac', '#6a665e', '#2a2824'] },
+    { name: '“R. Mutt”', role: 'The fake name on the entry form', palette: ['#9a8a5a', '#4a4232', '#14110a'] },
+    { name: 'Society of Independent Artists board', role: 'Suppressed it, despite the no-jury rule', palette: ['#6a5a3a', '#332820', '#0e0a06'] },
+    { name: 'Alfred Stieglitz', role: 'Photographed it (the only surviving image)', palette: ['#3a4a6a', '#2e3848', '#0e1220'] },
+    { name: 'Beatrice Wood', role: 'Co-editor of The Blind Man; often credited with the defense', palette: ['#8a4a3a', '#3a2620', '#120c0a'] },
+    { name: 'Baroness Elsa von Freytag-Loringhoven', role: 'Authorship claim on her behalf (contested)', palette: ['#7a6a72', '#3a3242', '#120f14'] },
+  ],
+  annotations: [
+    { label: 'The inverted urinal', where: 'The whole object, laid on its back rather than mounted on a wall', detail: 'The fixture has been rotated about ninety degrees from the way it normally hangs and set down on its back, so the flat back and the row of drain holes face you. Tipped out of its usual position, the everyday plumbing job is hard to read at a glance, and the smooth white shape starts to look like sculpture rather than hardware. That single turn, with no carving and no paint beyond a signature, is most of what Duchamp actually did to the thing.' },
+    { label: 'The “R. Mutt 1917” signature', where: 'Brushed in black paint on the outer rim of the form, toward the lower left as photographed', detail: 'The only authorial mark on a factory object is a fake name. Duchamp said “Mutt” came from the J. L. Mott Iron Works, a well-known New York plumbing manufacturer, which he altered to “Mutt” with a nod to the popular comic strip Mutt and Jeff, and that “R.” stood for Richard, French slang for a moneybags. Whether the urinal really came from Mott is itself disputed, a point that feeds the rival authorship claim (Mott may not have stocked this model). The signature is the entire claim of authorship, painted onto something the artist did not make.' },
+    { label: 'The seated-figure silhouette', where: 'The smooth, rounded, symmetrical outline of the upturned bowl', detail: 'Read the curved white shape on its own and it stops being plumbing. Stieglitz himself saw “an oriental look about it, a cross between a Buddha and a Veiled Woman,” and critics have echoed the seated-Buddha or Madonna reading ever since. The resemblance is an accident of an industrial mold, but it is a large part of why the photograph, and not only the idea, became iconic.' },
+    { label: 'The pedestal', where: 'The plinth or base Stieglitz stood the object on', detail: 'Stieglitz set the urinal on a pedestal, the standard furniture of sculpture display. It is a quiet, deliberate argument made by staging alone: put a thing on a plinth, light it, and frame it, and you are insisting it be treated as sculpture. The presentation does part of the persuading that the object cannot do for itself.' },
+    { label: 'The painting behind it', where: 'On the wall in the background of the photograph, the angular abstract composition', detail: 'The dark, jagged abstract picture hanging behind the urinal is Marsden Hartley’s The Warriors (1913). Its presence places the photograph at Stieglitz’s 291 gallery and surrounds the fixture with real avant-garde company, so the urinal is photographed not as a joke object but as one art work among others.' },
+    { label: 'The glaze and the light', where: 'Across the white porcelain, glowing against the dark wall', detail: 'Stieglitz lit the white surface so that it glows out of a dark ground, smoothing the hard industrial object into something almost reverent. The framing does real work: the photographer’s soft, careful light is a large part of why a urinal can look, in this single image, like a thing worth looking at.' },
+  ],
+  lineage: {
+    parents: [
+      { label: 'Duchamp’s Bicycle Wheel', mode: 'art', note: 'his first readymade, 1913: an ordinary object chosen, not made' },
+      { label: 'Cubist collage', mode: 'art', note: 'pasting real scraps into art opened the door to the found object' },
+      { label: 'The First World War', mode: 'civ', note: 'the carnage that made Dada distrust “high” art and reason itself' },
+    ],
+    children: [
+      { label: 'Conceptual art', mode: 'art', note: 'art as idea and decision rather than craft' },
+      { label: 'Pop and the found object', mode: 'art', note: 'Warhol’s mass-produced things, Minimalism’s industrial objects' },
+      { label: 'The art institution as subject', mode: 'civ', note: 'who confers art-status, and how, becomes the question itself' },
+    ],
+  },
+}
+
+export const LHOOQ: ArtWorkContent = {
+  id: 'lhooq',
+  name: 'L.H.O.O.Q.',
+  shortName: 'L.H.O.O.Q.',
+  year: 1919,
+  artist: 'Marcel Duchamp',
+  artistId: 'duchamp',
+  movement: 'Dada',
+  movementId: 'dada',
+  era: 'Modern',
+  eraId: 'mod',
+  medium: 'Rectified readymade (pencil on a printed postcard reproduction of the Mona Lisa)',
+  dimensions: '7¾ in × 4⅞ in',
+  location: 'The 1919 original is privately held, its current location not publicly fixed; museums hold authorized later replicas and editions (Centre Pompidou, Philadelphia Museum of Art, and others).',
+  acquired: 'No museum holds the 1919 original. The work survives publicly through Duchamp’s own later replicas, the Boîte-en-valise reproductions, and the 1965 L.H.O.O.Q. Shaved edition.',
+  accent: ART_ACCENTS.amber,
+  chain: { name: 'Works of Dada', index: 2, total: 9 },
+  hook: 'A ten-centime Mona Lisa postcard, a pencil moustache, and a five-letter dirty pun, aimed not at Leonardo but at the worship of the masterpiece.',
+  heroImage: ART_IMG.duchampLhooq,
+  heroCredit: 'Duchamp, L.H.O.O.Q., 1919.',
+  heroAspect: 0.77, // 1742 × 2250 px → W/H ≈ 0.77, portrait postcard
+  heroFit: 'contain', // the whole small card, never cropped
+  rights: 'pd-us',
+  stats: [
+    { v: '1919', k: 'Made' },
+    { v: '7¾″ × 4⅞″', k: 'Dimensions' },
+    { v: 'Five letters', k: 'The whole joke' },
+  ],
+  sections: [
+    { id: 'postcard', eyebrow: 'Paris · 1919', dateLabel: '1919', title: 'A postcard, a pencil, and a pun', blurb: 'Duchamp, back from New York and circling the new Paris Dada crowd, buys a cheap printed Mona Lisa postcard, draws a moustache and goatee on it in pencil, and letters five capitals underneath. He calls the result, with a straight face, his art.', progress: 0.08 },
+    { id: 'making', eyebrow: 'The making', dateLabel: '1919', title: 'The rectified readymade', blurb: 'How the object was actually made: a mass-produced reproduction altered with a few pencil strokes, Duchamp’s own term for it, and the gender play that ties it to his alter ego Rrose Sélavy. NOT Leonardo’s panel; a postcard. And the moustache-only version Picabia drew himself.', progress: 0.32 },
+    { id: 'pun', eyebrow: 'The key statement', dateLabel: '1919', title: 'Elle a chaud au cul', blurb: 'The whole obscenity hides in how you read the five letters aloud in French. The literal vulgar sense, Duchamp’s own softened gloss, and the sourced interview line about what the moustache does to the face, with the “not” that careless quoters drop.', progress: 0.56 },
+    { id: 'break', eyebrow: 'The break', dateLabel: '1919', title: 'Defacing the most revered painting on earth', blurb: 'Why this is a rupture and not a prank: the gesture of altering a sacred image becomes the artwork, the readymade is turned on an existing canonical work, and authorship is claimed over someone else’s finished image. The seed of appropriation art.', progress: 0.78 },
+    { id: 'afterlife', eyebrow: 'After', dateLabel: '1919–today', title: 'Versions, a shave, and where the original isn’t', blurb: 'The 1919 card vanishes into private hands while Duchamp keeps remaking it: the 391 reproduction, the Boîte-en-valise miniatures, and the 1965 Shaved version with the moustache gone. Museums hold the copies; the original’s public location is uncertain.', progress: 0.96 },
+  ],
+  provenance: [
+    { year: '1919', who: 'Marcel Duchamp (the artist)', place: 'Paris', note: 'Made in 1919: a pencil moustache and goatee, plus the lettered title, added to a cheap printed postcard reproduction of the Mona Lisa. A rectified readymade.', price: null },
+    { year: '1920', who: 'Reproduced by Francis Picabia in 391 (issue 12)', place: 'Paris', note: 'Picabia ran the image in his Dada magazine 391 in March 1920. He could not wait for Duchamp’s card to arrive, so, with Duchamp’s consent, he drew the moustache himself and forgot the goatee. That 391 image is therefore a separate, moustache-only object, not the 1919 original. Duchamp added the missing goatee by hand to a print in 1942 and inscribed the correction.', price: null },
+    { year: '20th century', who: 'Private hands (associated with the Mary Sisler collection)', place: 'Location not publicly fixed', note: 'The 1919 original passed through private collections and is generally described as privately held; no museum holding of the 1919 card is documented in the sources. The safe statement is that the original is in a private collection and its current public location is uncertain.', price: null },
+    { year: '1930s–1965', who: 'Duchamp’s own later versions and editions', place: 'Paris / New York', note: 'Duchamp remade the work over the years in differing sizes and media; one version is held at the Musée National d’Art Moderne, Centre Pompidou, Paris. Miniature reproductions appear in his Boîte-en-valise portable-museum boxes (examples at the Philadelphia Museum of Art and elsewhere). In 1965 he issued L.H.O.O.Q. Shaved, a plain unaltered Mona Lisa reproduction whose joke is that the moustache has been removed.', price: null, museum: true },
+  ],
+  figures: [
+    { name: 'Marcel Duchamp', role: 'The artist', palette: ['#7a6a4a', '#3a3020', '#100c08'] },
+    { name: 'Leonardo da Vinci · the Mona Lisa', role: 'The icon under the pencil', palette: ['#6a5a3a', '#332a1a', '#0e0a06'] },
+    { name: 'Francis Picabia · 391', role: 'Ran it first, moustache only', palette: ['#8a7a52', '#4a3c22', '#15110a'] },
+    { name: 'Rrose Sélavy', role: 'Duchamp’s female alter ego', palette: ['#a87880', '#5a3a4a', '#1a0e10'] },
+    { name: 'The masterpiece-cult', role: 'The real target, not Leonardo', palette: ['#7c6f5a', '#3a352a', '#100c08'] },
+  ],
+  annotations: [
+    { label: 'The pencil moustache', where: 'Across the upper lip of the printed face, center of the card', detail: 'Two short pencil strokes sit on top of the smooth printed lip. The graffiti is deliberately crude against the soft mechanical image beneath it. This is the first and most famous of the two added marks, and on the 391 version reproduced by Picabia it is the only one.' },
+    { label: 'The goatee', where: 'At the chin of the figure, just below the famous half-smile', detail: 'A small pointed pencil beard finishes the masculinizing of the face. Moustache plus goatee is the combination that defines the true 1919 original. A version with the moustache but no goatee is the 391 reproduction, where Picabia forgot the beard, not the card Duchamp drew.' },
+    { label: 'The Mona Lisa, untouched beneath', where: 'The whole card under the two pencil marks', detail: 'The half-smile, the folded hands, the hazy receding landscape of Leonardo’s portrait are all reproduced unaltered. Duchamp changed almost nothing. The entire work is the moustache, the beard, and the lettering; everything else is Leonardo, printed by a postcard press.' },
+    { label: 'The lettering below', where: 'In the margin under the image', detail: 'Five capital letters, L.H.O.O.Q., pencilled in the lower margin and separated by periods. The whole obscene joke lives in how those letters sound when you read them aloud in French. On the card itself they are just five quiet capitals.' },
+    { label: 'The cheap postcard print', where: 'The surface and scale of the object as a whole', detail: 'This is not a painting. It is a small commercial postcard reproduction, flat printed ink at roughly 7¾ by 4⅞ inches, the mechanical look of mass reproduction. The cheapness is part of the point: the most famous defacement in modern art is a thing you could hold in one hand and post for a few centimes.' },
+    { label: 'The collision of registers', where: 'The card as one whole gesture', detail: 'A sublime Renaissance icon, a schoolyard doodle, and an obscene wordplay all share one tiny card. The humor and the attack are inseparable; you cannot take the gag without taking the argument it carries about what a masterpiece is worth.' },
+  ],
+  lineage: {
+    parents: [
+      { label: 'The readymade · Fountain', mode: 'art' },
+      { label: 'Paris Dada', mode: 'art' },
+      { label: 'Mona Lisa worship', mode: 'civ' },
+    ],
+    children: [
+      { label: 'Appropriation art', mode: 'art' },
+      { label: 'Pop’s reuse of mass imagery', mode: 'art' },
+      { label: 'Rrose Sélavy', mode: 'art' },
+    ],
+  },
+}
+
+// ─────────────────────────────────────────────────────────────
+// Work, Cut with the Kitchen Knife Dada Through the Last Weimar
+// Beer-Belly Cultural Epoch of Germany (Schnitt mit dem Küchenmesser
+// DADA durch die letzte Weimarer Bierbauchkulturepoche Deutschlands),
+// Hannah Höch, 1919–20, Nationalgalerie, Berlin (Staatliche Museen,
+// inv. NG 57/61). Photomontage and collage, with watercolor; PD-US
+// (published 1920, before 1931) but still under EU copyright to 2048
+// (Höch d. 1978) → EN-tier image, rights: 'pd-us'. Authored through the
+// art content pipeline. Chapter prose in art-section-reader.tsx
+// NARRATIVES['kitchen-knife'] (Knf… prefix). FACT HANDLING (kept hedged
+// per fact pack):
+//  • Dimensions 114 × 90 cm (H×W) → PORTRAIT; "144 cm" / "90 × 144" are
+//    Wikipedia transcription errors, use 114.
+//  • Medium is canonically photomontage; catalogue records (lumen/SUNY,
+//    museum-aligned) add watercolor → carried in the medium string, and
+//    the prose says "almost no painting / effectively no brushwork,"
+//    never an absolute "not one brushstroke."
+//  • "Höch invented photomontage" is a CONTESTED memoir feud (Grosz,
+//    Heartfield, Baader each claimed it; cut-and-paste predates Dada to
+//    the 1850s) → framed as "pioneered as a fine-art/political medium."
+//  • "Kitchen knife = her scissors / a woman's domestic tool" is
+//    INTERPRETATION (Smarthistory/Khan Academy), NOT a Höch quote.
+//  • The verbatim Höch quote shipped is the "None of these men…"
+//    statement, cited as an English TRANSLATION (NMWA/Lavin).
+//  • Head-on-body pairings (Hindenburg-on-dancer; Lenin/Baader/Radek
+//    on performer bodies; Niddy Impekoven balancing Kollwitz; Pavlova/
+//    Pola Negri/Asta Nielsen as sources) are SCHOLARLY READINGS, flagged.
+//    Certain: two camps; Kaiser + wrestler-moustache; "die grosse Welt
+//    dada" (revised from "Weltrevolution"); suffrage map; Höch's self-
+//    portrait by the map.
+//  • Acquisition mechanism for NG 57/61 NOT confirmed → hedged in
+//    provenance (the "57" implies c. 1957; route not asserted).
+// ─────────────────────────────────────────────────────────────
+export const KITCHEN_KNIFE: ArtWorkContent = {
+  id: 'kitchen-knife',
+  name: 'Cut with the Kitchen Knife',
+  shortName: 'Cut with the Kitchen Knife',
+  year: 1919,
+  artist: 'Hannah Höch',
+  artistId: 'hoch',
+  movement: 'Dada',
+  movementId: 'dada',
+  era: 'Modern',
+  eraId: 'mod',
+  medium: 'Photomontage and collage (cut paper, with watercolor)',
+  dimensions: '3 ft 9 in × 2 ft 11 in',
+  location: 'Nationalgalerie, Berlin (Staatliche Museen)',
+  acquired: 'Nationalgalerie, Berlin (inv. NG 57/61); the inventory number points to a late-1950s acquisition, in Höch’s lifetime',
+  accent: ART_ACCENTS.amber,
+  chain: { name: 'Works of Dada', index: 3, total: 9 },
+  hook: 'A poster-sized photomontage that shreds and reassembles the whole Weimar republic out of the illustrated press, generals and dancers and machine parts, made by the only woman in Berlin Dada, with a corner map of where women could vote and her own face pasted where a painter would sign.',
+  heroImage: ART_IMG.hochKnife,
+  heroCredit: 'Höch, Cut with the Kitchen Knife…, 1919–20 · Nationalgalerie, Berlin',
+  heroAspect: 0.79, // 715 × 900 source → W/H ≈ 0.79, PORTRAIT (work is 114 × 90 cm, H×W)
+  heroFit: 'contain', // the whole portrait montage, never cropped
+  rights: 'pd-us',
+  stats: [
+    { v: '1919–20', k: 'Made' },
+    { v: '3′9″ × 2′11″', k: 'Dimensions' },
+    { v: 'Nationalgalerie', k: 'Now at' },
+  ],
+  sections: [
+    { id: 'fair', eyebrow: 'Berlin · 1919–1920', dateLabel: '1919–1920', title: 'The one woman in Berlin Dada', blurb: 'Postwar Berlin is in open political war and a circle of artists is using scissors and glue as weapons. Hannah Höch is the only woman among them, nearly barred from the group’s own 1920 fair until Raoul Hausmann threatens to pull his work, and she answers with a picture that maps the whole republic.', progress: 0.08 },
+    { id: 'making', eyebrow: 'The break', dateLabel: '1919–1920', title: 'A picture built from the mass-media stream', blurb: 'Almost no paint and no invented figure. Höch cuts every scrap from illustrated magazines, newspapers, catalogues, and journals, and reassembles the machine-made image-world itself into art, photomontage turned from a commercial trick into a political weapon and a critique of how women are pictured.', progress: 0.32 },
+    { id: 'looking', eyebrow: 'The canvas', dateLabel: '3 ft 9 in × 2 ft 11 in', title: 'A republic torn into two camps', blurb: 'A nearly four-foot kaleidoscope that only looks like chaos, organized as two warring sides, anti-dada and dada, with the Kaiser and the generals against the revolutionaries and the Dadaists, dancers’ bodies carrying men’s heads, gears and wheels everywhere.', progress: 0.56 },
+    { id: 'reading', eyebrow: 'What it says', dateLabel: '1919–1920', title: 'The suffrage map, and the men who wanted a New Woman', blurb: 'In the lower-right corner a tiny map of where women could vote, with Höch’s own self-portrait pasted at its upper-left, planted where a painter signs. And her own words on the Dada men who demanded a New Woman but would not change themselves.', progress: 0.8 },
+    { id: 'afterlife', eyebrow: 'After', dateLabel: '1920–today', title: 'From the Dada fair to the national collection', blurb: 'It hung as one of the most prominent pieces at the 1920 First International Dada Fair, stayed with Höch through her long Berlin life, and entered the Nationalgalerie around 1957, where it is now the most famous photomontage of the movement.', progress: 0.96 },
+  ],
+  provenance: [
+    { year: '1919–1920', who: 'Hannah Höch (the artist)', place: 'Berlin', note: 'Made in 1919–20 from cut press photographs and printed type. First shown publicly at the First International Dada Fair (Erste Internationale Dada-Messe), Berlin, summer 1920, at Dr. Otto Burchard’s gallery, where it was among the most prominent works.', price: null },
+    { year: '1920–1950s', who: 'Hannah Höch', place: 'Berlin', note: 'The montage stayed associated with Höch through her long life in Berlin (she died there in 1978). No intervening sale is documented in the sources.', price: null },
+    { year: 'c. 1957–today', who: 'Nationalgalerie, Staatliche Museen zu Berlin', place: 'Berlin', note: 'Held by the Nationalgalerie, Staatliche Museen zu Berlin (Preußischer Kulturbesitz), inventory NG 57/61. The number points to an acquisition around 1957, during Höch’s lifetime; the exact route (purchase, from the artist, or via a dealer) is not documented here, so none is asserted. On view. (Public domain in the US as a work published in 1920; any “©” notice on museum pages is an EU claim that runs to 2048.)', price: null, museum: true },
+  ],
+  figures: [
+    { name: 'Hannah Höch', role: 'The artist · the one woman in Berlin Dada', palette: ['#8a7a52', '#4a3c22', '#15110a'] },
+    { name: 'The Berlin Dada men', role: 'Hausmann, Grosz, Heartfield, Baader, Herzfelde', palette: ['#5a5046', '#2e2820', '#100c08'] },
+    { name: 'The Kaiser and the generals', role: 'The “anti-dada” camp · the old empire and the army', palette: ['#5a3a2a', '#2e2018', '#0e0806'] },
+    { name: 'The radicals and dancers', role: 'The “dada” camp · Lenin, Marx, the performers', palette: ['#8a1c1c', '#c79338', '#0d0606'] },
+    { name: 'The women of the suffrage map', role: 'Those who had won the vote · and Höch’s own face', palette: ['#6a7250', '#3a3c28', '#14140e'] },
+  ],
+  annotations: [
+    { label: 'The Kaiser, with a wrestler moustache', where: 'Upper right, the large head of Kaiser Wilhelm II in the “anti-dada” camp', detail: 'The deposed emperor Wilhelm II anchors the establishment corner, and his famous upturned moustache has been snipped off and replaced with a pair of tiny upside-down wrestlers. It is the whole montage in miniature: take the most pompous symbol of authority and deflate it with a cheap clipping from a sports page. This identification is certain and universally cited.' },
+    { label: 'The military around him', where: 'Upper right, the generals and Weimar government men ringing the Kaiser, including Hindenburg', detail: 'The old army and the new republic’s officials cluster in the upper-right “anti-dada” zone, the field marshal Paul von Hindenburg among them. Scholars (Maud Lavin, Smarthistory) read his head as set on a belly-dancer’s body, one of Höch’s recurring head-swaps that strips a man of his dignity. Treat the exact body-pairing as a scholarly reading; the camp and the figures are certain.' },
+    { label: 'The “dada” camp of radicals and Dadaists', where: 'Lower left and across the picture, the revolutionary and Dada figures opposite the establishment', detail: 'The other side gathers the revolution: the Communists and radicals Lenin, Karl Marx, Karl Liebknecht, and Karl Radek, the Dadaists themselves (Hausmann, Grosz, Herzfelde, Baader), and Albert Einstein nearby as the new science. The split into two warring camps is certain; some individual head-on-body matches are scholarly identifications, not labels on the work.' },
+    { label: 'The dancers carrying men’s heads', where: 'Across the lower and central field, small cut-out performer bodies topped with political and cultural heads', detail: 'A defining device: the cut-out bodies of dancers and film stars carry the heads of serious men, deflating their authority by sticking them on a chorus girl. Scholars identify the dancer Niddy Impekoven’s body balancing the artist Käthe Kollwitz’s head, and read Anna Pavlova, Pola Negri, and Asta Nielsen among the sources. These name-to-figure matches are partly inferential; the head-swapping motif itself is plain on the work.' },
+    { label: 'The lettering: “Die grosse Welt dada”', where: 'Lower right, the cut-out type reading roughly “the great Dada world,” with “dada” and “anti-dada” used as camp labels', detail: 'The printed words act as the picture’s captions, sorting the figures into “dada” and “anti-dada.” At the lower right the phrase “Die grosse Welt dada” (“the great Dada world”) reads out, and there is a documented edit here: Höch first had “Weltrevolution” (World Revolution) in this spot and replaced it with the milder Dada wording, softening an open call to revolution into a Dada slogan.' },
+    { label: 'The suffrage map, and Höch’s own face', where: 'Lower-right corner, a small map of Europe with her self-portrait pasted at its upper-left', detail: 'In the corner where a painter signs, Höch pasted a little map of Europe marking the countries where women had won the vote (Germany itself had just granted it in the 1919 Weimar constitution), and at the map’s upper-left she pasted a photograph of her own face. A woman, and the question of women’s political power, occupy the signature spot inside a movement that nearly shut her out. That the self-portrait sits with the map is certain (Khan Academy); the best-sourced placement is the lower right.' },
+  ],
+  lineage: {
+    parents: [
+      { label: 'Cubist collage', mode: 'art' },
+      { label: 'The illustrated mass press', mode: 'civ' },
+      { label: 'The Weimar revolution', mode: 'civ' },
+    ],
+    children: [
+      { label: 'Political photomontage', mode: 'art' },
+      { label: 'John Heartfield’s anti-Nazi work', mode: 'art' },
+      { label: 'Feminist art', mode: 'art' },
+    ],
+  },
+}
+
+// ─────────────────────────────────────────────────────────────
+// Work, Mechanical Head (The Spirit of Our Time) / Mechanischer
+// Kopf (Der Geist unserer Zeit), Raoul Hausmann, c.1919–20,
+// Centre Pompidou (MNAM), Paris. A flagship Dada work read.
+// Authored through the art content pipeline (fact pack → Opus →
+// 5 gates → revise). Chapter prose in art-section-reader.tsx
+// NARRATIVES['mechanical-head'] (Mch… prefix). FACT HANDLING
+// (gate-locked): the attached-object list follows POMPIDOU'S
+// AUTHORITATIVE caption ONLY (telescopic cup, leather case, pipe
+// stem, "22" card, dressmaker's-tape piece, double-decimetre
+// ruler, watch gear, printer's type-roller) — the popular list's
+// camera segment / typewriter / "crocodile" wallet are flagged
+// as "often described," NEVER asserted as the museum's. The date
+// stays "c.1919–20" in ALL PROSE (Pompidou records 1919;
+// scholarship suggests 1920–21); year:1920 is the integer SORT
+// field only — do NOT widen it to a range. The Hausmann "no more
+// capabilities than chance has glued to the outside of his skull"
+// line is QUOTED AS ONE TRANSLATION (it circulates in several,
+// incl. the meaning-shifting "the average German" variant), not
+// as the fixed original. Höch custody 1922–1966 comes from the
+// museum's own provenance field. PD-US by pre-1930 publication
+// (Hausmann d. 1971 → EU © through 2041, a separate EU-only
+// claim) → rights: 'pd-us'.
+// ─────────────────────────────────────────────────────────────
+export const MECHANICAL_HEAD: ArtWorkContent = {
+  id: 'mechanical-head',
+  name: 'Mechanical Head',
+  shortName: 'Mechanical Head',
+  year: 1920, // SORT FIELD ONLY; prose says c.1919-20; do not widen to a range
+  artist: 'Raoul Hausmann',
+  artistId: 'hausmann',
+  movement: 'Dada',
+  movementId: 'dada',
+  era: 'Modern',
+  eraId: 'mod',
+  medium: 'Assemblage: a wooden wig-maker’s dummy head with manufactured objects fixed to it',
+  dimensions: '1 ft 0 3/4 in × 8 1/4 in × 7 7/8 in',
+  location: 'Centre Pompidou (Musée national d’art moderne), Paris',
+  acquired: 'Purchase, 1974 (inv. AM 1974-6)',
+  accent: ART_ACCENTS.amber,
+  chain: { name: 'Works of Dada', index: 4, total: 9 },
+  hook: 'A barber’s blank wooden head with a tin cup, a ruler, a tape measure, a watch gear and a printer’s roller bolted to it, Berlin Dada’s portrait of the ordinary modern man as a vacant skull with his instruments stuck on the outside.',
+  heroImage: ART_IMG.hausmannHead,
+  heroCredit: 'Hausmann, The Spirit of Our Time (Mechanical Head), c.1920 · Centre Pompidou, Paris',
+  heroAspect: 1.16, // 783 × 674 photo → W/H ≈ 1.16, slightly landscape
+  heroFit: 'contain', // the whole small object, never cropped
+  rights: 'pd-us',
+  stats: [
+    { v: 'c.1920', k: 'Made' },
+    { v: '~1 ft tall', k: 'Dimensions' },
+    { v: 'Centre Pompidou', k: 'Now at' },
+  ],
+  sections: [
+    { id: 'berlin', eyebrow: 'Berlin · 1919', dateLabel: 'c.1919–20', title: 'Dada in the wreckage of a lost war', blurb: 'Germany has lost the First World War and the streets of Berlin are full of revolution, hunger and fury. Hausmann and a handful of friends turn Dada into the most openly political wing of the movement, and Hausmann, a painter, poet and inventor of photomontage, reaches for a barber’s dummy head and a fistful of office junk.', progress: 0.1 },
+    { id: 'building', eyebrow: 'The making', dateLabel: 'c.1920', title: 'A head you assemble instead of carve', blurb: 'He does not model the head or cast it. He takes a ready-made wooden wig-maker’s dummy and fixes manufactured oddments to it: a collapsible cup, a leather case, a pipe stem, a card reading “22,” a piece of a dressmaker’s tape, a wooden ruler, a watch gear and a printer’s type-roller. The choosing and the bolting, not the carving, are the art.', progress: 0.34 },
+    { id: 'looking', eyebrow: 'The object', dateLabel: '~1 ft tall', title: 'The empty face and the gadgets stuck to it', blurb: 'The smooth blank wooden face, deliberately vacant, and the ring of instruments of money, measurement and time fixed where thought should be. Following the museum’s own caption, item by item, and flagging the camera and typewriter that popular descriptions wrongly add.', progress: 0.58 },
+    { id: 'break', eyebrow: 'The break', dateLabel: 'c.1920', title: 'When a head could be built from junk', blurb: 'For centuries sculpture meant a head carved or modelled from a noble material by the artist’s hand. Hausmann assembles one from cast-off manufactured things and lets the human head become a thing built from junk, its spirit emptied out, the man defined by the apparatus bolted to the outside of his skull.', progress: 0.8 },
+    { id: 'afterlife', eyebrow: 'After', dateLabel: '1922–today', title: 'The only one of its kind to survive', blurb: 'Hannah Höch kept it for decades; the Centre Pompidou bought it in 1974. It is the only assemblage of its kind by Hausmann to survive, and it sits in the line that runs from Duchamp’s readymades to Rauschenberg’s combines: the found object glued to a base, made into a portrait of the modern condition.', progress: 0.96 },
+  ],
+  provenance: [
+    { year: 'c.1920–1922', who: 'Raoul Hausmann (the artist)', place: 'Berlin', note: 'Made in Berlin around 1919–20 (the date is genuinely uncertain: the museum records 1919, while later scholarship points to 1920–21). Hausmann kept it as the only assemblage of its kind he is known to have made that survives.', price: null },
+    { year: '1922–1966', who: 'Hannah Höch (Hausmann’s partner and Berlin Dada collaborator)', place: 'Berlin / Germany', note: 'On the Centre Pompidou’s own provenance record, the piece passed to Höch in 1922, around the time of her separation from Hausmann, and stayed with her until 1966, when she returned it to him after repairs made for photography. No sale figure is documented.', price: null },
+    { year: '1974–today', who: 'Centre Pompidou (Musée national d’art moderne)', place: 'Paris', note: 'Purchased by the museum in 1974, inventory AM 1974-6, where it has remained. On view.', price: 'Museum purchase, 1974', museum: true },
+  ],
+  figures: [
+    { name: 'Raoul Hausmann', role: 'The maker; co-founder of Berlin Dada', palette: ['#9a8a6a', '#3a3226', '#14100a'] },
+    { name: 'The everyman', role: 'The blank modern head the work satirizes', palette: ['#b8ad95', '#5a513e', '#1c160e'] },
+    { name: 'Berlin Dada', role: 'Höch, Heartfield, Grosz, Baader, Huelsenbeck', palette: ['#1c1c1c', '#a0a0a0', '#d6cf3f'] },
+    { name: 'Hannah Höch', role: 'Major Dada artist; partner; later its keeper', palette: ['#6a5a3a', '#39301f', '#120d06'] },
+    { name: 'The measuring instruments', role: 'Ruler, tape, watch gear: the man’s “faculties”', palette: ['#8a8472', '#4a4636', '#16130c'] },
+  ],
+  annotations: [
+    { label: 'The blank wooden face', where: 'The whole base form: a smooth, expressionless head with closed, carved-shut features', detail: 'The foundation is a barber’s or wig-maker’s wooden dummy, a found shop-fitting, not a sculpted likeness. Its face is deliberately vacant: the “spirit” the title promises is absent from the face itself. It reads plainly as a manufactured wooden object, which is the point, since there is no artist’s modelling hand here at all, only a chosen and re-used thing.' },
+    { label: 'The collapsible cup', where: 'Fixed to the head among the attached objects', detail: 'A collapsible, telescopic metal drinking cup (the museum’s gobelet téléscopique). One of the small apparatus of daily life bolted onto the skull as if it were one of the man’s own faculties: the thing he drinks from, stuck where a thought might be.' },
+    { label: 'The leather case and the pipe stem', where: 'Attached to the head alongside the cup', detail: 'A small leather case or wallet and a pipe stem, the everyday gear of pocket and habit. (Many popular descriptions style the wallet as a “crocodile” or jewel wallet and add a camera segment and a typewriter; the museum’s own caption names neither a camera nor a typewriter, so those stay as “often described,” not as fact.)' },
+    { label: 'The number “22”', where: 'On a white card fixed to the head', detail: 'A plain white card bearing the bare numeral 22. Identity reduced to a label, a figure, a filing number. It is the man-as-statistic motif made literal: not a name, a number.' },
+    { label: 'The measuring instruments', where: 'The ruler and the strip of tape attached to the head', detail: 'A double-decimetre wooden ruler and a piece of a dressmaker’s tape measure. The rationalized, quantified modern man wearing the very tools that measure him, the apparatus of standardization fixed to the outside of his head.' },
+    { label: 'The watch gear and the type-roller', where: 'Among the objects fixed to the dummy head', detail: 'A watch gear (a cog from a clock movement) and a roller of printer’s type. Time and standardized text, the machinery that runs and processes modern life, attached where thought should be. Together with the ruler, the tape and the “22,” the attachments are overwhelmingly instruments of measurement, money, time and print.' },
+  ],
+  lineage: {
+    parents: [
+      { label: 'Picasso’s Cubist construction', mode: 'art' },
+      { label: 'Duchamp’s readymade', mode: 'art' },
+      { label: 'Dada photomontage', mode: 'art' },
+      { label: 'The machine age', mode: 'civ' },
+    ],
+    children: [
+      { label: 'Surrealist object', mode: 'art' },
+      { label: 'Rauschenberg’s combines', mode: 'art' },
+      { label: 'Assemblage sculpture', mode: 'art' },
+    ],
+  },
+}
+
+export const HAT_MAKES_MAN: ArtWorkContent = {
+  id: 'hat-makes-man',
+  name: 'The Hat Makes the Man',
+  shortName: 'The Hat Makes the Man',
+  year: 1920,
+  artist: 'Max Ernst',
+  artistId: 'ernst',
+  movement: 'Dada',
+  movementId: 'dada',
+  era: 'Modern',
+  eraId: 'mod',
+  medium: 'Gouache, pencil, oil, and ink on cut-and-pasted printed paper on paper',
+  dimensions: '1 ft 1⅞ in × 1 ft 5¾ in',
+  location: 'Museum of Modern Art, New York',
+  acquired: 'Purchase, 1935 (from Paul Éluard)',
+  accent: ART_ACCENTS.amber,
+  chain: { name: 'Works of Dada', index: 5, total: 9 },
+  hook: 'Rows of men’s hats clipped from a sales catalogue, stacked into wobbly columns and wired together with painted tubes, so that merchandise alone adds up to a person, the joke that turns out to be the hinge from Dada to Surrealism.',
+  heroImage: ART_IMG.ernstHatMan,
+  heroCredit: 'Ernst, The Hat Makes the Man, 1920 · Museum of Modern Art, New York',
+  heroAspect: 1.28, // 35.2 × 45.1 cm → W/H ≈ 1.28, landscape; image 2000 × 1566
+  heroFit: 'contain', // the whole small sheet, never cropped
+  rights: 'pd-us',
+  stats: [
+    { v: '1920', k: 'Made' },
+    { v: '13⅞ × 17¾ in', k: 'Dimensions' },
+    { v: 'MoMA', k: 'Now at' },
+  ],
+  sections: [
+    { id: 'cologne', eyebrow: 'Cologne · 1920', dateLabel: '1919–1920', title: 'A Dada cell in a defeated city', blurb: 'A discharged German painter founds the local Dada group in a Cologne wrecked by a lost war, mocking the bourgeois order that produced it, and already drifting toward dream-logic while the other Dadaists stay angry.', progress: 0.08 },
+    { id: 'making', eyebrow: 'The making', dateLabel: '1920', title: 'A page of hats, scissors, and a brush', blurb: 'Ernst works over a single printed sample-page of men’s hats from his father-in-law’s catalogue, cuts the hats out, stacks them into teetering towers, and paints colored tubes between them so the stacks read as standing bodies.', progress: 0.32 },
+    { id: 'looking', eyebrow: 'The sheet', dateLabel: '13⅞ × 17¾ in', title: 'Merchandise that adds up to a man', blurb: 'The stacked catalogue hats as wobbly columns, the painted blue-red-green-yellow tubes that join them into figures, the flat advertising look of the cut hats, and the handwritten pseudo-scientific caption along the bottom.', progress: 0.56 },
+    { id: 'break', eyebrow: 'The break', dateLabel: '1920', title: 'The ready-made advertisement, made to dream', blurb: 'A picture built not from drawing but from mass-produced print, recombined into an absurd figure and labeled in deadpan nonsense. That is the turn that carries Dada’s anti-art collage over into Surrealism’s collage-as-dream.', progress: 0.78 },
+    { id: 'afterlife', eyebrow: 'The record', dateLabel: '1935–today', title: 'The inscription, the sources, and a place in the canon', blurb: 'The caption read word for word, Ernst on what collage actually was, and the sheet’s life as an object: bought by Paul Éluard, sold to MoMA in 1935, and made a fixed point in the official story of modern art.', progress: 0.96 },
+  ],
+  provenance: [
+    { year: '1920', who: 'Max Ernst (the artist)', place: 'Cologne', note: 'Made in 1920 in Cologne, the year Ernst’s Cologne Dada group was at its height. Built over a single printed hat-catalogue page with cut-and-pasted hats and added gouache, pencil, oil, and ink.', price: null },
+    { year: '1935', who: 'Museum of Modern Art (purchased from Paul Éluard)', place: 'New York', note: 'MoMA bought the work in 1935 from the French poet and Surrealist Paul Éluard, who had owned it; the museum’s credit line reads simply “Purchase,” so it was bought rather than received as a gift or bequest (accession 242.1935). (The “© 2017 Artists Rights Society / ADAGP” on the museum’s record is a rights-clearance year, not the acquisition date.) Long a foundation stone of MoMA’s Dada and Surrealism holdings.', price: 'Purchase', museum: true },
+  ],
+  figures: [
+    { name: 'Max Ernst', role: 'The maker; a founder of Surrealism', palette: ['#8a6b3a', '#3a2820', '#100c08'] },
+    { name: 'Cologne Dada', role: 'Ernst’s local Dada cell, 1919–1920', palette: ['#5a4a8a', '#2a2440', '#100c1c'] },
+    { name: 'Jacob Straus', role: 'Father-in-law; the hat catalogue’s source', palette: ['#6a6354', '#39322a', '#120f0c'] },
+    { name: 'The bourgeois “man”', role: 'The commodity the joke is aimed at', palette: ['#9a8458', '#4a3f28', '#15110a'] },
+    { name: 'Surrealism', role: 'The movement this collage points to', palette: ['#1c3a6a', '#c8a72a', '#0e1224'] },
+  ],
+  annotations: [
+    { label: 'The stacked catalogue hats', where: 'The four vertical “figures,” read top to bottom: each column is nothing but men’s hats piled one on another', detail: 'The towers are merchandise, not anatomy: bowlers, toppers, and soft felts cut from a printed sales-catalogue page and stacked into teetering columns. The literal fact on the sheet is a column of hats; the body is something the eye assembles, which is exactly the trick. The stacks lean and wobble rather than stand square, so the “men” look unstable, as if a stiff breeze would topple the whole product line.' },
+    { label: 'The painted connecting tubes', where: 'Between and around the printed hats, the smooth drawn cylinders running through the gaps', detail: 'Ernst has drawn and painted slick tubes, cylinders, and a few cubes into the spaces between the cut hats, and these read as necks, spines, and legs that fuse the stacked merchandise into single standing bodies. They are the only hand-made “anatomy” in the picture; everything else is clipped print. Where the hats are flat and mechanical, the tubes are rounded and bodily, so the join between found object and painted limb is where the figure actually comes alive.' },
+    { label: 'The colored vertical bodies', where: 'The connective passages, washed in clear blue, red, green, and yellow', detail: 'The painted joins are tinted in bright, clean gouache, so the grey catalogue hats appear to be built from, or wearing, vivid cylindrical torsos. The color does not sit on the hats; it lives in the made parts between them. That contrast, dull product against bright invention, is part of why the figures feel half-manufactured and half-dreamed.' },
+    { label: 'The handwritten caption', where: 'Along the lower edge, in Ernst’s own hand', detail: 'A line of deadpan pseudo-scientific German, followed by a bracketed French proverb. It labels the stacked figures as if they were botanical specimens in a field guide, fake-precise and absurd, and it is where the title comes from: c’est le chapeau qui fait l’homme, “the hat makes the man.” The caption is part of the work, not a wall label; it is the joke’s punchline written onto the picture itself.' },
+    { label: 'The catalogue-cut quality', where: 'The hats themselves, anywhere across the sheet', detail: 'The hats are flat, evenly lit, repetitive, and uniformly rendered in the giveaway style of commercial product illustration. That found, mechanical look is the whole point: these are advertising images lifted from print, not things Ernst drew. Once the rendering registers, the figures stop reading as portraits and start reading as a recombined order form.' },
+    { label: 'The phallic, Freudian read', where: 'The towers overall, swelling and upright', detail: 'The stacked, bulging columns are unmistakably bodily and erect, and the title is often tied to Freud’s writing on jokes, with the hat as a symbol of repressed bourgeois male desire. So the consumer gag (you are what you buy) doubles as a sexual one. This is interpretation, likely-inspired rather than documented by Ernst, so it sits beside the picture rather than inside it.' },
+  ],
+  lineage: {
+    parents: [
+      { label: 'Cubist collage', mode: 'art' },
+      { label: 'Duchamp’s readymade', mode: 'art' },
+      { label: 'Cologne Dada', mode: 'art' },
+      { label: 'A defeated, mass-producing Germany', mode: 'civ' },
+    ],
+    children: [
+      { label: 'Surrealism', mode: 'art' },
+      { label: 'Ernst’s Celebes', mode: 'art' },
+      { label: 'Photomontage', mode: 'art' },
+    ],
+  },
+}
+
+export const ART_WORK_CONTENT: Record<string, ArtWorkContent> = { burial: BURIAL, demoiselles: DEMOISELLES, kahnweiler: KAHNWEILER, 'chair-caning': CHAIR_CANING, horta: HORTA, 'violin-jug': VIOLIN_JUG, 'three-women': THREE_WOMEN, 'the-portuguese': THE_PORTUGUESE, 'gris-breakfast': GRIS_BREAKFAST, 'three-musicians': THREE_MUSICIANS, 'stone-breakers': STONE_BREAKERS, studio: STUDIO, sower: SOWER, gleaners: GLEANERS, angelus: ANGELUS, gargantua: GARGANTUA, carriage: CARRIAGE, 'horse-fair': HORSE_FAIR, 'impression-sunrise': IMPRESSION_SUNRISE, grenouillere: GRENOUILLERE, cradle: CRADLE, 'moulin-galette': MOULIN_GALETTE, 'paris-street': PARIS_STREET, 'dance-class': DANCE_CLASS, absinthe: ABSINTHE, 'boating-party': BOATING_PARTY, 'gare-saint-lazare': GARE_SAINT_LAZARE, 'starry-night': STARRY_NIGHT, 'bedroom-arles': BEDROOM_ARLES, 'grande-jatte': GRANDE_JATTE, 'bathers-asnieres': BATHERS_ASNIERES, 'card-players': CARD_PLAYERS, 'mont-sainte-victoire-lauves': MONT_SAINTE_VICTOIRE_LAUVES, 'vision-sermon': VISION_SERMON, 'moulin-rouge': MOULIN_ROUGE, 'where-do-we-come-from': WHERE_DO_WE_COME_FROM, hat: WOMAN_WITH_A_HAT, 'green-stripe': GREEN_STRIPE, bonheur: BONHEUR, luxe: LUXE, 'open-window': OPEN_WINDOW, 'blue-nude': BLUE_NUDE, chatou: CHATOU, 'charing-cross': CHARING_CROSS, 'rue-pavoisee': RUE_PAVOISEE, 'city-rises': CITY_RISES, dog: DOG, galli: GALLI, cyclist: CYCLIST, 'unique-forms': UNIQUE_FORMS, farewells: FAREWELLS, 'bal-tabarin': BAL_TABARIN, automobile: AUTOMOBILE, 'abstract-speed': ABSTRACT_SPEED, fountain: FOUNTAIN, lhooq: LHOOQ, 'kitchen-knife': KITCHEN_KNIFE, 'mechanical-head': MECHANICAL_HEAD, 'hat-makes-man': HAT_MAKES_MAN }
 export const ART_ARTIST_CONTENT: Record<string, ArtArtistContent> = { picasso: PICASSO }
