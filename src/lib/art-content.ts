@@ -7762,5 +7762,451 @@ export const ERNST_HISTOIRE: ArtWorkContent = {
   },
 }
 
-export const ART_WORK_CONTENT: Record<string, ArtWorkContent> = { burial: BURIAL, demoiselles: DEMOISELLES, kahnweiler: KAHNWEILER, 'chair-caning': CHAIR_CANING, horta: HORTA, 'violin-jug': VIOLIN_JUG, 'three-women': THREE_WOMEN, 'the-portuguese': THE_PORTUGUESE, 'gris-breakfast': GRIS_BREAKFAST, 'three-musicians': THREE_MUSICIANS, 'stone-breakers': STONE_BREAKERS, studio: STUDIO, sower: SOWER, gleaners: GLEANERS, angelus: ANGELUS, gargantua: GARGANTUA, carriage: CARRIAGE, 'horse-fair': HORSE_FAIR, 'impression-sunrise': IMPRESSION_SUNRISE, grenouillere: GRENOUILLERE, cradle: CRADLE, 'moulin-galette': MOULIN_GALETTE, 'paris-street': PARIS_STREET, 'dance-class': DANCE_CLASS, absinthe: ABSINTHE, 'boating-party': BOATING_PARTY, 'gare-saint-lazare': GARE_SAINT_LAZARE, 'starry-night': STARRY_NIGHT, 'bedroom-arles': BEDROOM_ARLES, 'grande-jatte': GRANDE_JATTE, 'bathers-asnieres': BATHERS_ASNIERES, 'card-players': CARD_PLAYERS, 'mont-sainte-victoire-lauves': MONT_SAINTE_VICTOIRE_LAUVES, 'vision-sermon': VISION_SERMON, 'moulin-rouge': MOULIN_ROUGE, 'where-do-we-come-from': WHERE_DO_WE_COME_FROM, hat: WOMAN_WITH_A_HAT, 'green-stripe': GREEN_STRIPE, bonheur: BONHEUR, luxe: LUXE, 'open-window': OPEN_WINDOW, 'blue-nude': BLUE_NUDE, chatou: CHATOU, 'charing-cross': CHARING_CROSS, 'rue-pavoisee': RUE_PAVOISEE, 'city-rises': CITY_RISES, dog: DOG, galli: GALLI, cyclist: CYCLIST, 'unique-forms': UNIQUE_FORMS, farewells: FAREWELLS, 'bal-tabarin': BAL_TABARIN, automobile: AUTOMOBILE, 'abstract-speed': ABSTRACT_SPEED, fountain: FOUNTAIN, lhooq: LHOOQ, 'kitchen-knife': KITCHEN_KNIFE, 'mechanical-head': MECHANICAL_HEAD, 'hat-makes-man': HAT_MAKES_MAN, stieglitz: STIEGLITZ, celebes: CELEBES, 'sainte-vierge': SAINTE_VIERGE, daum: DAUM, 'song-of-love': SONG_OF_LOVE, harlequin: HARLEQUIN, 'masson-auto': MASSON_AUTO, treachery: TREACHERY, persistence: PERSISTENCE, 'object-fur': OBJECT_FUR, 'carrington-self': CARRINGTON_SELF, 'tanguy-divis': TANGUY_DIVIS, 'ernst-histoire': ERNST_HISTOIRE }
+// ─────────────────────────────────────────────────────────────
+// Work, Autumn Rhythm (Number 30) (Jackson Pollock, 1950), The Metropolitan
+// Museum of Art (object 488978 / acc. 57.92). The FIRST Abstract Expressionism
+// work read. Authored through the art content pipeline (fact pack → Opus → 5
+// gates → revise). Chapter prose in art-section-reader.tsx
+// NARRATIVES['autumn-rhythm'] (Aut… prefix).
+// FACT HANDLING (gate-corrected):
+//  • MEDIUM is enamel / commercial house paint (Met "Enamel on canvas"), NOT oil.
+//  • PALETTE is mostly black/white/brown/tan WITH a faint trace of teal/turquoise
+//    blue (Wikipedia "a small amount of teal blue"; Met "turquoise drips") — never
+//    "no blue."
+//  • "Action painting" is Harold Rosenberg's term (ARTnews, Dec 1952), POST-dating
+//    the work — never attributed to Pollock.
+//  • The pour is CONTROLLED, not accidental: Pollock, "there is no accident"
+//    (William Wright interview, summer 1950), flagged as a condensation of the
+//    longer transcript.
+//  • SOURCES not lone-genius: pouring/dripping predates him (Siqueiros workshop
+//    1936, Janet Sobel's allover canvases credited by Greenberg, Navajo sand-
+//    painting, Surrealist automatism, Cubism); the new thing is the allover SCALE
+//    and the body-as-method. Stated in prose, not just lineage.
+//  • TITLE added later: made/shown as Number 30 (1950–52), retitled Autumn Rhythm
+//    by the 1955 Sidney Janis show ("later retitled," not "Pollock titled it").
+//  • "I am nature" is anecdotal/secondhand (Krasner) — flagged, not asserted.
+//  • Dimensions: 266.7 × 525.8 cm → 8 ft 9 in × 17 ft 3 in (the 269.9 × 528.3 cm
+//    figure is the SAME canvas measured with depth, not a different work).
+// rights: in-copyright (1950, Pollock d.1956; © Pollock-Krasner Foundation / ARS,
+// New York) → hero shown small under fair use, NOT pd-us.
+// ─────────────────────────────────────────────────────────────
+export const AUTUMN_RHYTHM: ArtWorkContent = {
+  id: 'autumn-rhythm',
+  name: 'Autumn Rhythm (Number 30)',
+  shortName: 'Autumn Rhythm',
+  year: 1950,
+  artist: 'Jackson Pollock',
+  artistId: 'pollock',
+  movement: 'Abstract Expressionism',
+  movementId: 'abex',
+  era: 'Modern',
+  eraId: 'mod',
+  medium: 'Enamel on canvas',
+  dimensions: '8 ft 9 in × 17 ft 3 in',
+  location: 'The Metropolitan Museum of Art',
+  acquired: 'George A. Hearn Fund, 1957 (acc. 57.92)',
+  accent: ART_ACCENTS.blue,
+  chain: { name: 'Works of Abstract Expressionism', index: 1, total: 9 },
+  hook: 'A wall of poured and dripped line, almost nine feet tall and over seventeen wide, made on the studio floor from all four sides. No figure, no center, nothing depicted: the subject is the act of painting itself.',
+  heroImage: ART_IMG.pollockAutumn,
+  heroCredit: 'Pollock, Autumn Rhythm (Number 30), 1950 · The Metropolitan Museum of Art · in copyright, shown small under fair use.',
+  heroAspect: 1.98, // 266.7 × 525.8 cm → W/H ≈ 1.97, landscape
+  heroFit: 'contain', // the whole ~9 × 17 ft canvas, never cropped
+  rights: 'in-copyright', // 1950, Pollock d.1956; © Pollock-Krasner Foundation / ARS; NOT pd-us
+  stats: [
+    { v: '1950', k: 'Painted' },
+    { v: '8′9″ × 17′3″', k: 'Dimensions' },
+    { v: 'The Met', k: 'Now at' },
+  ],
+  sections: [
+    { id: 'floor', eyebrow: 'Springs, Long Island · 1950', dateLabel: '1950', title: 'The painter who took the canvas off the wall', blurb: 'In a barn studio on Long Island, at the peak of his drip years, Pollock unrolls a length of raw, unprimed canvas onto the floor and walks around it. The picture is not made at an easel; it is made on the ground, from all four sides.', progress: 0.08 },
+    { id: 'making', eyebrow: 'The making', dateLabel: '1950', title: 'Poured, flung, and controlled', blurb: 'No brush touches the cloth in the usual way. Pollock trails liquid house paint off sticks and hardened brushes, letting it drip, pool, and spatter. Hans Namuth’s 500-plus photographs and two films of him at work show the build was deliberate and methodical, not a random splatter.', progress: 0.32 },
+    { id: 'looking', eyebrow: 'The canvas', dateLabel: '8 ft 9 in × 17 ft 3 in', title: 'A web with no center', blurb: 'Black, white, brown, and tan skeins (with one faint trace of teal-blue) looping edge to edge in one allover field. No figure, no horizon, nothing depicted; the raw canvas shows through the gaps, and at over seventeen feet wide it surrounds you.', progress: 0.56 },
+    { id: 'break', eyebrow: 'The break', dateLabel: 'Abstract Expressionism', title: 'When the act became the subject', blurb: 'Western painting was built on a window: a figure on a ground, a focal point, paint describing a thing. Pollock dissolves all of it. There is no center and nothing depicted; the paint is the record of his body moving, and the act of painting is the content.', progress: 0.78 },
+    { id: 'afterlife', eyebrow: 'After', dateLabel: '1950–today', title: 'Number 30 becomes Autumn Rhythm', blurb: 'Shown first as Number 30, retitled only by 1955. Pollock died in a car crash in 1956; a year later the Met bought it from his estate, where it became one of the defining American paintings of the century. The "action painting" label arrived after he was gone.', progress: 0.96 },
+  ],
+  // Provenance endpoints firm (made 1950 → Met 1957, George A. Hearn Fund, acc.
+  // 57.92, credit line verbatim). The ~$20,000-plus-trade purchase figure is
+  // well-sourced but secondary, so kept out of the priced field and noted only as
+  // an estate purchase. No prices asserted as fact.
+  provenance: [
+    { year: '1950–1956', who: 'Jackson Pollock (the artist)', place: 'Springs, East Hampton, New York', note: 'Painted in 1950 in his Long Island studio. Shown as Number 30 at the Betty Parsons Gallery (Nov.–Dec. 1950) and at MoMA’s 15 Americans (1952); shown as Autumn Rhythm at the Sidney Janis Gallery (1955). Held until Pollock’s death on 11 August 1956.', price: null },
+    { year: '1956–1957', who: 'The estate of Jackson Pollock', place: 'New York', note: 'Held by the estate after Pollock’s death; the Met’s Robert Beverly Hale arranged the purchase from the estate, reportedly for about $20,000 plus a trade of another Pollock (the price is well-sourced but secondary).', price: null },
+    { year: '1957–today', who: 'The Metropolitan Museum of Art', place: 'New York', note: 'Acquired in 1957, the year after Pollock’s death, through the George A. Hearn Fund. Accession 57.92. © The Pollock-Krasner Foundation / Artists Rights Society (ARS), New York. On permanent view.', price: 'George A. Hearn Fund (museum purchase)', museum: true },
+  ],
+  figures: [
+    { name: 'Jackson Pollock', role: 'The painter', palette: ['#2a2620', '#a8966a', '#0e0c08'] },
+    { name: 'Lee Krasner', role: 'Painter; the more-established artist when they met; brought him into the scene', palette: ['#6a5a4a', '#332820', '#0e0a06'] },
+    { name: 'Hans Namuth', role: 'Photographed and filmed him at work, 1950–51', palette: ['#5a6a72', '#2e3a42', '#0e1014'] },
+    { name: 'Clement Greenberg', role: 'Critic; champion of the field picture', palette: ['#5a6354', '#39322a', '#120f0c'] },
+    { name: 'Harold Rosenberg', role: 'Critic; coined "action painting," 1952', palette: ['#8a4a2a', '#4a2c18', '#15100a'] },
+    { name: 'Robert Beverly Hale', role: 'Met curator; arranged the 1957 purchase', palette: ['#8a7a52', '#4a3c22', '#15110a'] },
+  ],
+  annotations: [
+    { label: 'The skeins of black, white, brown, tan, and a touch of teal', where: 'Everywhere across the surface, the looping tangle of poured lines', detail: 'The whole field is a web of looping lines in a tight, nearly colorless palette: black, white, brown, and a creamy tan, with one faint accent of teal-blue. There are almost no saturated hues; the autumnal browns and buffs are where the later title "Autumn" came from. Trace any one black line and watch it dive under and over the others, and you are reading the order of the layers, the last skeins laid on top of the first.' },
+    { label: 'The rhythm with no center', where: 'The composition as a whole, scanned for a place to rest', detail: 'Look for a focal point and there isn’t one. Every region is as busy, and as finished, as every other; there is no top-to-bottom or near-to-far hierarchy, no climax, nowhere for the eye to land. The looping lines set up an even, continuous pulse across the entire field. This is what gets called allover composition: weight spread equally to all four edges, the picture with no middle.' },
+    { label: 'Nothing is depicted', where: 'The whole canvas, searched for a figure, a horizon, a thing', detail: 'Hunt for a person, a landscape, an object, a window onto any scene, and you will find none. Nothing sits in front of anything else; foreground and background have collapsed into one continuous woven surface. The picture is not of anything. The paint refers only to itself and to the act that put it there, which is the hardest and most important thing to see in it.' },
+    { label: 'The drips, pools, and spatters', where: 'Throughout, readable up close as the physics of how it was made', detail: 'You can read how each mark was made. Thin trailed lines are where paint streamed off a stick; fatter, propulsive arcs are where it was flung; small pools are where it puddled and dried; fine spatters are flicked off a loaded brush. Liquid commercial enamel, house paint, behaving as liquid. Each mark is the frozen track of one movement of his arm or his whole body.' },
+    { label: 'The raw canvas showing through', where: 'In the gaps between the skeins, the bare tan cloth', detail: 'The pale tan canvas left exposed between the poured lines is not a painted background. It is the untouched, unprimed cloth itself, doing the job a painted "ground" usually does. Pollock never primed or stretched it before working; that bare fabric is part of the picture, not something hidden under it. Where most paintings bury the canvas, this one leaves it in plain sight.' },
+    { label: 'The scale you stand inside', where: 'The full span of the work, about 8 ft 9 in tall and 17 ft 3 in wide', detail: 'At roughly nine feet tall and over seventeen feet wide, the picture fills your whole field of vision when you stand close. The work surrounds you, the way Pollock was surrounded by it on the floor while he made it. The size is doing argumentative work: it puts your body where his was, inside the field rather than in front of a framed view.' },
+  ],
+  lineage: {
+    parents: [
+      { label: 'Surrealist automatism', mode: 'art' },
+      { label: 'Native American sand painting', mode: 'civ' },
+      { label: 'Cubism’s flat field', mode: 'art' },
+      { label: 'Janet Sobel’s allover drip canvases', mode: 'art' },
+    ],
+    children: [
+      { label: 'Color Field painting', mode: 'art' },
+      { label: 'Minimalism’s non-relational surface', mode: 'art' },
+      { label: 'Performance and process art', mode: 'art' },
+    ],
+  },
+}
+
+// ─────────────────────────────────────────────────────────────
+// Work, Woman I (Willem de Kooning, 1950–52), Museum of Modern Art, New York
+// (object 79810 / accession 478.1953). Flagship Abstract Expressionism work-read.
+// Authored through the art content pipeline (fact pack → Opus → 5 gates → revise).
+// Chapter prose in art-section-reader.tsx NARRATIVES['woman-i'] (Wmn… prefix).
+// FACT HANDLING (gate-corrected, per work-woman-i-factpack.md):
+//  • Medium = "Oil and metallic paint on canvas" (MoMA's exact line); do NOT add
+//    enamel or charcoal (charcoal was process/underdrawing, not the catalog medium).
+//  • Dimensions = 192.7 × 147.3 cm = 6 ft 3 7/8 in × 4 ft 10 in, PORTRAIT. Width is
+//    147.3 cm (58 in); Wikipedia's "150 cm" is wrong and is rejected.
+//  • rights: 'in-copyright' (de Kooning d. 1997) — shown small + credited, fair use.
+//  • Schapiro rescue = the standard, well-attested account, presented as account
+//    not verbatim-verified scene (degree of influence has been questioned).
+//  • "numerous" preparatory studies, NOT "200" (no reliable source for a count).
+//  • Grin collaged from a Camel "T-Zone" cigarette ad in the STUDIES; in the
+//    finished canvas the mouth is painted, echoing that source.
+//  • "~50 times painted/effaced/repainted" = a documented characterization, not an
+//    audited count. Worked 1950 → summer 1952 ≈ two years.
+//  • Misogyny reading kept a DEBATE, not adjudicated; de Kooning was ambivalent.
+//  • KEY STATEMENT = the sourced "Mesopotamian idols … with this smile" (Sylvester
+//    interview, recorded 1960, pub. Location, Spring 1963). The famous "flesh was
+//    the reason oil paint was invented" is genuine-but-uncited → attributed
+//    cautiously, never as the primary/dated quote.
+// ─────────────────────────────────────────────────────────────
+export const WOMAN_I: ArtWorkContent = {
+  id: 'woman-i',
+  name: 'Woman I',
+  shortName: 'Woman I',
+  year: 1952,
+  artist: 'Willem de Kooning',
+  artistId: 'de-kooning',
+  movement: 'Abstract Expressionism',
+  movementId: 'abex',
+  era: 'Modern',
+  eraId: 'mod',
+  medium: 'Oil and metallic paint on canvas',
+  dimensions: '6 ft 3 7/8 in × 4 ft 10 in',
+  location: 'Museum of Modern Art, New York',
+  acquired: 'Purchase, 1953',
+  accent: ART_ACCENTS.blue,
+  chain: { name: 'Works of Abstract Expressionism', index: 2, total: 9 },
+  hook: 'A grinning, more-than-life-size woman with staring eyes and bared teeth, built and destroyed in the same slashing strokes as the pure abstraction all around her, painted and scraped off roughly fifty times over two years, given up for lost, and finished. The painting that refused to drop the human figure when everyone said it was dead.',
+  heroImage: ART_IMG.deKooningWoman,
+  heroCredit: 'de Kooning, Woman I, 1950–52 · MoMA, New York · in copyright, shown small under fair use.',
+  heroAspect: 0.76, // 147.3 × 192.7 cm → W/H ≈ 0.764, PORTRAIT (taller than wide)
+  heroFit: 'contain', // the whole portrait canvas, never cropped
+  rights: 'in-copyright', // de Kooning d. 1997 → shown small + credited, fair use
+  stats: [
+    { v: '1950–52', k: 'Painted' },
+    { v: '~50×', k: 'Painted over' },
+    { v: 'MoMA', k: 'Now at' },
+  ],
+  sections: [
+    { id: 'figure', eyebrow: 'New York · 1950', dateLabel: '1950', title: 'Going back to the figure on purpose', blurb: 'With Abstract Expressionism pushing toward total abstraction (Pollock’s drips, Rothko’s and Newman’s color fields), de Kooning does the unthinkable and paints a recognizable woman. To his peers it reads almost as a betrayal of abstraction’s hard-won purity.', progress: 0.08 },
+    { id: 'making', eyebrow: 'The making', dateLabel: '1950–1952', title: 'Two years, fifty times over, given up for lost', blurb: 'He paints, scrapes, effaces and repaints the figure on the order of fifty times across roughly two years, working from numerous studies, before pulling the canvas off the stretcher and abandoning it. A single studio visit, the standard account says, brings him back to finish it.', progress: 0.32 },
+    { id: 'looking', eyebrow: 'The canvas', dateLabel: '6 ft 3 7/8 in × 4 ft 10 in', title: 'The grin, the eyes, the flesh, the violence', blurb: 'The huge staring eyes, the bared toothy smile (echoing a mouth clipped from a cigarette ad in the studies), the massive body in smeared pinks and ochres, and the slashing brushstrokes that keep building the figure and tearing it apart at once.', progress: 0.56 },
+    { id: 'break', eyebrow: 'The break', dateLabel: '1950–52', title: 'Figure and paint-violence, the same event', blurb: 'The woman is not drawn and then painted; she is made and unmade in the very same gestural strokes as the abstraction around her, so figure and ground become one violent action. The break is keeping the human image AND the radical action-painting surface, when the orthodoxy said you had to choose.', progress: 0.78 },
+    { id: 'afterlife', eyebrow: 'After', dateLabel: '1953–today', title: 'The picture MoMA found frightening, and bought', blurb: 'The six Women detonate at the Sidney Janis Gallery in 1953; MoMA buys this one that same year over reluctant trustees who called it frightening. Ever since it carries a debate (idol? pin-up? misogyny?) that de Kooning, ambivalent, never settled.', progress: 0.96 },
+  ],
+  provenance: [
+    { year: '1950–1953', who: 'Willem de Kooning (the artist)', place: 'New York', note: 'Worked on the canvas from 1950 into the summer of 1952, painting, scraping and repainting the figure on the order of fifty times, then abandoned and resumed it. First shown publicly in his Women exhibition at the Sidney Janis Gallery, New York, in 1953.', price: null },
+    { year: '1953', who: 'Sidney Janis Gallery', place: 'New York', note: 'Debuted with the rest of the Women series at the Sidney Janis Gallery in 1953, the show that launched the series publicly and detonated the New York art world.', price: null },
+    { year: '1953–today', who: 'Museum of Modern Art', place: 'New York', note: 'Acquired by The Museum of Modern Art the same year, 1953, by purchase. The acquisition committee approved it only reluctantly, recording that it found the picture quite frightening but felt it had intense vitality and liked the quality of the color. Credit line: Purchase. Accession 478.1953. On view.', price: 'Purchase (museum acquisition)', museum: true },
+  ],
+  figures: [
+    { name: 'Willem de Kooning', role: 'The painter', palette: ['#bf6a5a', '#3a4a6a', '#15110c'] },
+    { name: 'Jackson Pollock', role: 'The drip-abstraction orthodoxy he broke from', palette: ['#1c1c1c', '#d6cf3f', '#bf2f25'] },
+    { name: 'Meyer Schapiro', role: 'The studio visit that, by the standard account, rescued it', palette: ['#5a6a72', '#2e3a42', '#0e1014'] },
+    { name: 'Sidney Janis', role: 'Dealer; showed the Women, 1953', palette: ['#6a5a4a', '#332820', '#0e0a06'] },
+    { name: 'Elaine de Kooning', role: 'Painter; his wife, in the studio years', palette: ['#8a7a52', '#4a3c22', '#15110a'] },
+  ],
+  annotations: [
+    { label: 'The bared teeth / grin', where: 'Center of the face, the wide toothy smile splitting the head', detail: 'The single most arresting feature: a broad toothy smile that hovers between a billboard’s cheerful American grin and a snarl. In the preparatory studies the mouth was literally a smile clipped from a magazine, a Camel cigarette “T-Zone” advertisement, and pasted on; in the finished canvas the mouth is painted, but it still carries that ad-smile source. De Kooning himself tied the grin to ancient idols rather than to a particular woman.' },
+    { label: 'The huge staring eyes', where: 'Upper part of the face, two enormous fixed eyes aimed straight out at you', detail: 'The eyes are oversized, frontal, and unblinking, fixed directly on the viewer. This is the “ferocious,” “frightening” stare the MoMA acquisition committee recoiled from. They are the part of the picture that makes the figure feel confrontational rather than posed, an idol staring you down rather than a sitter being observed.' },
+    { label: 'The slashing brushstrokes', where: 'Everywhere, but read them where they cut across the shoulders, arms and background', detail: 'The marks attack the canvas: fast, thick, drippy, scraped. They are the same gestural violence you would see in a purely abstract action painting of the moment, except here they are building a body. Paint is action, not description. The figure is assembled out of the same slashing energy de Kooning’s abstract peers used to leave the figure behind entirely.' },
+    { label: 'The body dissolving into the background', where: 'Around the edges of the figure, where the woman meets the space around her', detail: 'There is almost no stable edge between the figure and the room behind her. Arms, shoulders and ground bleed into one another, so the woman keeps coming together and falling apart as you look. Figure and ground are not separated; they are the same churning surface, which is exactly the point of the break.' },
+    { label: 'The pink and ochre flesh tones', where: 'Across the body and limbs, the smeared warm pinks, ochres and reds', detail: 'The body is built from insistently fleshly color, smeared pinks, ochres and reds rather than a neutral or abstract palette. De Kooning made the point that, in a moment when serious painting had gone abstract, painting a figure plainly “flesh-colored” had itself become the daring, almost transgressive choice.' },
+    { label: 'The scraped, reworked surface', where: 'The whole surface, where thin drippy passages sit next to thick matte slabs and scraped-down areas', detail: 'Years of painting-over leave the surface a record of its own history. Thin drippy passages sit beside thick matte slabs; scraped-down areas show ghosts of effaced earlier states. The picture carries the documented marks of being made and unmade roughly fifty times, so the surface is itself a record of two years of attack and repair.' },
+  ],
+  lineage: {
+    parents: [
+      { label: 'Gestural abstraction', mode: 'art' },
+      { label: 'Picasso’s distorted figures', mode: 'art' },
+      { label: 'The billboard / pin-up', mode: 'civ' },
+    ],
+    children: [
+      { label: 'Figurative action painting', mode: 'art' },
+      { label: 'Pop’s use of advertising', mode: 'art' },
+      { label: 'The body as paint-violence', mode: 'art' },
+    ],
+  },
+}
+
+// ─────────────────────────────────────────────────────────────
+// Work, No. 61 (Rust and Blue) (Rothko, 1953), ArtWorkContent. The MOCA / Panza
+// Collection canvas — rust/brown rectangles on a blue field, NOT the 1956
+// "Orange and Yellow" at Buffalo AKG (the slug `orange-yellow` is misleading;
+// see audits/art-pipeline/work-orange-yellow-factpack.md §8). Dimensions FT/IN
+// only. rights: in-copyright (Rothko d.1970) — figures render as degraded
+// reference cards, hero shown small under fair use. Chapter prose in
+// art-section-reader.tsx NARRATIVES['orange-yellow'] (Rth… prefix).
+// FRAMING handled: Rothko HATED "colorist"/"abstractionist"/"color-field" — the
+// work is about emotion, color is the vehicle; the titles are descriptive tags,
+// not names Rothko gave; the means are physical (thinned washes), not mystical.
+// ─────────────────────────────────────────────────────────────
+export const ORANGE_YELLOW: ArtWorkContent = {
+  id: 'orange-yellow',
+  name: 'No. 61 (Rust and Blue)',
+  shortName: 'No. 61 (Rust and Blue)',
+  year: 1953,
+  artist: 'Mark Rothko',
+  artistId: 'rothko',
+  movement: 'Abstract Expressionism',
+  movementId: 'abex',
+  era: 'Modern',
+  eraId: 'mod',
+  medium: 'Oil on canvas',
+  dimensions: '9 ft 7 in × 7 ft 8 in',
+  location: 'The Museum of Contemporary Art, Los Angeles (MOCA)',
+  acquired: 'The Panza Collection (acc. 84.9), entered MOCA in 1984',
+  accent: ART_ACCENTS.blue,
+  chain: { name: 'Works of Abstract Expressionism', index: 4, total: 9 },
+  hook: 'Three soft slabs of rust and blue, floating on a blue field at nine feet tall, built to make you feel something before you can name it (by the painter who hated being called a colorist).',
+  heroImage: ART_IMG.rothkoNo61,
+  heroCredit: 'Rothko, No. 61 (Rust and Blue), 1953 · MOCA, Los Angeles · in copyright, shown small under fair use',
+  heroAspect: 0.8, // 233.7 × 292.7 cm → W/H ≈ 0.80 (tall / portrait)
+  heroFit: 'contain', // whole canvas, never cropped
+  rights: 'in-copyright',
+  stats: [
+    { v: '9 ft 7 in', k: 'Tall' },
+    { v: '~18 in', k: 'Meant to stand from' },
+    { v: 'MOCA', k: 'Now at' },
+  ],
+  sections: [
+    { id: 'idiom', eyebrow: 'New York · 1953', dateLabel: '1953', title: 'The format he would paint for the rest of his life', blurb: 'By 1953 Rothko had spent four or five years on one idea: two or three soft-edged rectangles of color, stacked and hovering in a colored field. No. 61 is a classic instance, and the point was never the color.', progress: 0.08 },
+    { id: 'making', eyebrow: 'The making', dateLabel: 'How it was built', title: 'Thin washes, and a glow from underneath', blurb: 'Layer over layer of heavily thinned oil, scrubbed on so the under-colors shine up through the top ones and no edge is ever hard. The plain physical recipe behind what he called inner light.', progress: 0.34 },
+    { id: 'looking', eyebrow: 'The canvas', dateLabel: '9 ft 7 in × 7 ft 8 in', title: 'A rust block, a blue block, and the room they make', blurb: 'The stack top to bottom, the feathered edges, the planes that advance and recede, the ground seeping through, and a scale built for the body, not the wall. There are no objects in it at all.', progress: 0.56 },
+    { id: 'break', eyebrow: 'Why this is a break', dateLabel: 'What changed', title: 'Handing the whole emotional job to color', blurb: 'Before, color described an object or set a mood for a scene. Rothko removes the object, the line, the horizon, and asks pure color at enveloping scale to carry the feeling by itself: felt close, felt bodily, felt before it is understood. His own words on what the pictures are for.', progress: 0.78 },
+    { id: 'afterlife', eyebrow: 'After', dateLabel: '1953 to today', title: 'From the Panza Collection to a wall in Los Angeles', blurb: 'No early sale story to tell; the canvas passed to the great Milanese collector Giuseppe Panza and, in 1984, into MOCA with the rest of his holdings. The idea behind it (a field of color that does what a figure used to do) outran the man.', progress: 0.96 },
+  ],
+  provenance: [
+    { year: '1953', who: 'Mark Rothko (the artist)', place: 'New York', note: 'Painted in 1953, four or five years into the mature, "classic" idiom of stacked soft rectangles. Carried, descriptively, as No. 61 (Rust and Blue), and also as Brown, Blue, Brown on Blue; Rothko favored numbers, not titles.', price: null },
+    { year: 'by the 1970s to 80s', who: 'Count Giuseppe Panza di Biumo', place: 'Varese / Milan', note: 'Acquired by the Milanese collector whose Abstract Expressionist and Minimalist holdings became "The Panza Collection," one of the most important private collections of postwar American art in Europe.', price: null },
+    { year: '1984 to today', who: 'The Museum of Contemporary Art, Los Angeles', place: 'Los Angeles', note: 'Entered MOCA in 1984 as part of the museum’s acquisition of the Panza Collection. Credit line: "The Museum of Contemporary Art, Los Angeles, The Panza Collection." Accession 84.9. Copyright is held by the artist’s heirs (© Kate Rothko Prizel & Christopher Rothko / Artists Rights Society, New York).', price: null, museum: true },
+  ],
+  figures: [
+    { name: 'Mark Rothko', role: 'The painter', palette: ['#7a2a1c', '#2a3a72', '#140c14'] },
+    { name: 'Selden Rodman', role: 'Recorded the key statement (conversation 1956, pub. 1957)', palette: ['#5a4a3a', '#2e261c', '#0e0a06'] },
+    { name: 'Giuseppe Panza di Biumo', role: 'Collector · first known owner', palette: ['#4a5a4a', '#28301c', '#0e120a'] },
+    { name: 'Jackson Pollock', role: 'The other pole of the movement', palette: ['#1c1c1c', '#c8a72a', '#0e0e0a'] },
+    { name: 'Helen Frankenthaler', role: 'Carried the stained field forward', palette: ['#3a6a7a', '#c87a52', '#142028'] },
+  ],
+  annotations: [
+    { label: 'The stack', where: 'Top to bottom, the major blocks: a warm rust-maroon rectangle up high, a paler bridging band, and a deep blue-violet block below, all set on a blue ground', detail: 'The whole "subject" of the painting is these few soft slabs of color and the room they make between them. There is no figure, no horizon, no object anywhere in it. Read the blocks in order, top to bottom, and you have seen essentially everything that is depicted: the picture is the stack and the field, and nothing else.' },
+    { label: 'The feathered edges', where: 'Anywhere two areas meet (none of the rectangles has a ruled border)', detail: 'No block has a hard, drawn edge. Each one frays and breathes into the color around it, as if it had been exhaled onto the canvas rather than outlined. That softness is doing real work: it is what keeps the rectangles from reading as flat panels stuck on a wall and makes them seem to float instead.' },
+    { label: 'Color that advances and recedes', where: 'Hold your eye on the warm block, then the blue, for a few seconds each', detail: 'Look steadily and the warm rust block seems to float forward while the blue drops back, then the two trade places. Nothing on the canvas actually moves, but the planes will not hold still; they pulse and breathe. That instability is built into the picture, not imagined into it.' },
+    { label: 'The glow from underneath', where: 'Inside the blocks, where one hue seems lit from within rather than painted on', detail: 'The surface is built from many thin, scrubbed-on washes of thinned paint, so the lower layers shine up through the top ones. The color looks lit from behind, an effect Rothko called inner light. Hunt for the places where one color bleeds up through another; that is the physical recipe, not a trick of the eye.' },
+    { label: 'The ground showing through', where: 'In the gaps where the blue field seeps around and between the rectangles', detail: 'The blocks do not sit on top of a background. The blue ground pushes up around and between them, so the rectangles dissolve into the field rather than resting on it. That is why the whole picture reads as one continuous breathing surface instead of shapes-on-a-backdrop.' },
+    { label: 'The scale, and where you stand', where: 'The sheer height: the canvas is over nine feet tall, taller than a person', detail: 'At more than nine feet, the painting is built for the body, not the wall. Rothko wanted it seen close, roughly eighteen inches away, so the color fills your whole field of vision and you stand inside it. The absence of any object is the point: with nothing to look at, there is only the field to be in.' },
+  ],
+  lineage: {
+    parents: [ { label: 'The "multiforms"', mode: 'art' }, { label: 'Abstraction (Kandinsky)', mode: 'art' }, { label: 'Postwar New York', mode: 'civ' } ],
+    children: [ { label: 'Color Field painting', mode: 'art' }, { label: 'Helen Frankenthaler', mode: 'art' }, { label: 'The Rothko Chapel', mode: 'art' } ],
+  },
+}
+// REGISTRY (coordinator splices into ART_WORK_CONTENT):
+//  'orange-yellow': ORANGE_YELLOW,
+
+// ─────────────────────────────────────────────────────────────
+// Work, Vir Heroicus Sublimis (Barnett Newman, 1950–51), MoMA, New York
+// (acc. 240.1969). Flagship Abstract Expressionism color-field work read.
+// Authored through the art content pipeline (fact pack → Opus → 5 gates →
+// revise). Chapter prose in art-section-reader.tsx NARRATIVES['vir-heroicus']
+// (Nwm… prefix). RIGHTS: in-copyright (Newman d.1970) — hero shown small,
+// fair use; NEVER pd-us. FACT HANDLING (gate-locked): "zip" is Newman's OWN
+// term; FIVE zips; meant to be seen CLOSE (the 1951 Betty Parsons notice is a
+// real artifact, quoted verbatim, not a modern interpretation); height 242.2
+// cm (MoMA label), NOT the Wikipedia 242.3; the key statement is the
+// Tate-confirmed "The Sublime Is Now" fragment, NOT the unsourced "I declare
+// the space" line. Do not call it a "stripe painting." NOTE: the `looking`
+// section title here MUST match NwmLooking's SectionHeader in PART B.
+// ─────────────────────────────────────────────────────────────
+export const VIR_HEROICUS: ArtWorkContent = {
+  id: 'vir-heroicus',
+  name: 'Vir Heroicus Sublimis',
+  shortName: 'Vir Heroicus Sublimis',
+  year: 1951,
+  artist: 'Barnett Newman',
+  artistId: 'newman',
+  movement: 'Abstract Expressionism',
+  movementId: 'abex',
+  era: 'Modern',
+  eraId: 'mod',
+  medium: 'Oil on canvas',
+  dimensions: '7 ft 11 3/8 in × 17 ft 9 1/4 in',
+  location: 'Museum of Modern Art, New York',
+  acquired: 'Gift of Mr. and Mrs. Ben Heller, 1969',
+  accent: ART_ACCENTS.blue,
+  chain: { name: 'Works of Abstract Expressionism', index: 5, total: 9 },
+  hook: 'An almost eighteen-foot wall of pure red, broken by five thin vertical bands Newman called zips, built to be stood inches from so the color floods your whole field of vision and the painting stops being a thing you look at and becomes a space you stand inside.',
+  heroImage: ART_IMG.newmanVir,
+  heroCredit: 'Newman, Vir Heroicus Sublimis, 1950–51 · MoMA, New York · in copyright, shown small under fair use',
+  heroAspect: 2.24, // 541.7 × 242.2 cm → W/H ≈ 2.24, wide landscape
+  heroFit: 'contain', // the whole ~8 × 18 ft canvas, never cropped
+  rights: 'in-copyright',
+  stats: [
+    { v: '1950–51', k: 'Painted' },
+    { v: '~18 ft wide', k: 'Dimensions' },
+    { v: 'MoMA', k: 'Now at' },
+  ],
+  sections: [
+    { id: 'sublime', eyebrow: 'New York · 1948', dateLabel: 'Dec 1948', title: 'A painter writes that the sublime is now', blurb: 'Two years before he begins the canvas, Newman publishes a short, fierce essay arguing that American abstraction can reach the exalted directly, without myth or beauty or the weight of European tradition, by making it here, now, out of ourselves. The painting is the essay turned into red.', progress: 0.08 },
+    { id: 'making', eyebrow: 'The making', dateLabel: '1950–51', title: 'One enormous red, and five marks', blurb: 'Newman strips a painting down to almost nothing: a single saturated red stretched nearly eighteen feet, broken only by five thin vertical bands he called zips, no two alike. The zip is the heart of his whole language, the single human mark asserted against an undivided field.', progress: 0.32 },
+    { id: 'looking', eyebrow: 'The canvas', dateLabel: '7 ft 11 3/8 in × 17 ft 9 1/4 in', title: 'The field, the five zips, and the break', blurb: 'The immense red, the five differing verticals that cut it, the slight inflections in the surface, the total absence of any image, and the way the zips divide the field yet charge it into a measured, living space. This is where the break is: scale and immersion become the content.', progress: 0.56 },
+    { id: 'parsons', eyebrow: 'Betty Parsons Gallery · 1951', dateLabel: 'Apr–May 1951', title: 'Stand close, the notice said', blurb: 'When the painting was first shown, Newman tacked a typed instruction to the gallery wall telling visitors to view the big pictures from a short distance, not across the room. The immersion was not a later interpretation; he asked for it, in writing, on the wall.', progress: 0.78 },
+    { id: 'afterlife', eyebrow: 'After', dateLabel: '1961–today', title: 'Heller’s wall, then MoMA’s', blurb: 'Bought from Newman around 1961 by the collector Ben Heller, who lived with it, then given by the Hellers to the Museum of Modern Art in 1969, where it hangs now. The hard edge and the bare field it pioneered seeded the Minimalists who came next.', progress: 0.96 },
+  ],
+  provenance: [
+    { year: '1950–1961', who: 'Barnett Newman (the artist)', place: 'New York', note: 'Painted 1950–51 and first shown at the Betty Parsons Gallery, New York, 23 April–12 May 1951, the show where Newman posted the close-viewing notice. Held by the artist into the early 1960s.', price: null },
+    { year: 'c. 1961', who: 'Ben (and Sally) Heller', place: 'New York', note: 'Bought directly from Newman by the collector Ben Heller, who hung it at home. The exact purchase figure is not documented in the sources, so none is given here.', price: null },
+    { year: '1969–today', who: 'Museum of Modern Art', place: 'New York', note: 'Given to MoMA in 1969 by Ben and Sally Heller, credited "Gift of Mr. and Mrs. Ben Heller." Accession 240.1969. On view. © Barnett Newman Foundation / Artists Rights Society (ARS), New York.', price: 'Gift of Mr. and Mrs. Ben Heller', museum: true },
+  ],
+  figures: [
+    { name: 'Barnett Newman', role: 'The painter', palette: ['#bf2f25', '#3a1410', '#1c0a08'] },
+    { name: 'Betty Parsons', role: 'Dealer; the 1951 show', palette: ['#5a4a3a', '#2a221c', '#0a0606'] },
+    { name: 'Mark Rothko', role: 'Color-field peer, different idiom', palette: ['#8a1c1c', '#c79338', '#0d0606'] },
+    { name: 'Clyfford Still', role: 'Fellow field painter, friend', palette: ['#3a3a3a', '#1c1c1c', '#0a0a0a'] },
+    { name: 'Ben Heller', role: 'Collector; gave it to MoMA', palette: ['#3a4a6a', '#2e3848', '#0e1220'] },
+  ],
+  annotations: [
+    { label: 'The immense red field', where: 'Almost the entire surface, edge to edge', detail: 'Nearly the whole canvas is one saturated red, close to a cadmium red, spanning roughly eighteen feet, over a hundred square feet of it. There is no figure and no horizon in it, nothing to hunt for. The amount of red is itself the first fact, and Newman wants the quantity to hit you before anything else does.' },
+    { label: 'The five zips', where: 'Five thin vertical bands crossing the red, spaced unevenly across the width', detail: 'Five thin vertical bands cut the red top to bottom. Zip is Newman’s own word for them, not a critic’s; he coined it for these marks. They are not a tidy pattern: each is only an inch or two wide, and no two share a width, a color, or the same firmness of edge.' },
+    { label: 'How the five zips differ', where: 'Reading across the verticals, left to right', detail: 'Near the center-left, a pale, light zip reads almost like a gap, a seam of light between two planes of red; just to its right a darker maroon band seems to sink slightly behind the surface; others sit crisp and flat on top of it. Some edges are taped sharp, some waver and bleed. The differences are the point.' },
+    { label: 'The slight variations in the red', where: 'Across the whole field, visible only up close', detail: 'The red is not a dead machine color. Stand near it and the enormous field shows subtle shifts and brushed inflection across its span, faint changes in density and warmth that vanish entirely from across the room. The "monochrome" is alive with handwork; it rewards looking at the paint itself.' },
+    { label: 'The absence of any image', where: 'Everywhere; the thing that is not there', detail: 'No figure, no landscape, no symbol, nothing depicted. The content is the red field and the five marks that assert themselves against it, not an arrangement of recognizable things. Newman kept only color, scale, and the single human gesture of the zip.' },
+    { label: 'How the zips divide yet activate the field', where: 'The intervals between the verticals, across the whole width', detail: 'The intervals are measured, not random: they set up a near-perfect square at the center and looser, asymmetrical spaces toward the edges. That measuring stops the empty field from going inert and turns it into charged space and human presence, which is why this is a color-field painting about the sublime, not a "red painting with stripes."' },
+  ],
+  lineage: {
+    parents: [
+      { label: 'The Sublime Is Now (1948)', mode: 'art' },
+      { label: 'Color-field painting', mode: 'art' },
+      { label: 'Postwar New York', mode: 'civ' },
+    ],
+    children: [
+      { label: 'Color Field abstraction', mode: 'art' },
+      { label: 'Minimalism', mode: 'art' },
+      { label: 'Scale as content', mode: 'art' },
+    ],
+  },
+}
+
+// ─────────────────────────────────────────────────────────────
+// Work, 1957-D No. 1 (Clyfford Still, 1957), Buffalo AKG Art Museum
+// (formerly the Albright-Knox Art Gallery; renamed 2023), accession
+// K1959:26. A flagship Abstract Expressionism work read. Authored
+// through the art content pipeline (fact pack → Opus → 5 gates →
+// revise). Chapter prose in art-section-reader.tsx NARRATIVES['still-cliff']
+// (Stl… prefix). FACT HANDLING (gate-corrected):
+//   • Title is a DATE-CODE title (year + letter + number), Still's neutral
+//     non-referential scheme; it is NOT a "PH" number ("PH" = PHotograph
+//     inventory number, the order works were photographed). Do not conflate.
+//   • The color quote ends "…fuse into a living spirit" — it is NOT the same
+//     statement as "life and death merging in fearful union." Kept separate;
+//     the color quote is used verbatim as the KEY STATEMENT, with its source.
+//   • "Life-lines" is NOT Still's documented term (it is a 2019 film title);
+//     the rifts are described as torn / flame-like / jagged color-edges.
+//   • Still's CLAIM TO PRIORITY among the field-painters is folded into StlBreak,
+//     strictly SCOPED ("his claim and the field's partial nod, not a scoreboard").
+//   • His combativeness is given as REPUTATION, not the narrator's verdict.
+//   • Credit line is the 1959 Knox gift, distinct from Still's own 1964 gift
+//     of 31 paintings. Image verified against the file: black-dominant field,
+//     jagged yellow/beige verticals, white flecks, bare-canvas patches.
+//   • IN-COPYRIGHT (Still d. 1980 → not PD) → shown small, credited, fair use.
+// ─────────────────────────────────────────────────────────────
+export const STILL_CLIFF: ArtWorkContent = {
+  id: 'still-cliff',
+  name: '1957-D No. 1',
+  shortName: '1957-D No. 1',
+  year: 1957,
+  artist: 'Clyfford Still',
+  artistId: 'still',
+  movement: 'Abstract Expressionism',
+  movementId: 'abex',
+  era: 'Modern',
+  eraId: 'mod',
+  medium: 'Oil on canvas',
+  dimensions: '9 ft 5 in × 13 ft 3 in',
+  location: 'Buffalo AKG Art Museum, Buffalo, New York',
+  acquired: 'Gift of Seymour H. Knox, Jr., 1959 (acc. K1959:26)',
+  accent: ART_ACCENTS.blue,
+  chain: { name: 'Works of Abstract Expressionism', index: 6, total: 9 },
+  hook: 'A wall of black, nine by thirteen feet, troweled on with a palette knife and torn through by jagged shards of yellow, painted by a man with a reputation as the most combative figure in American art, who refused titles, quit the galleries, and sealed away most of what he made.',
+  heroImage: ART_IMG.stillCliff,
+  heroCredit: 'Still, 1957-D No. 1, 1957 · Buffalo AKG Art Museum · in copyright, shown small under fair use',
+  heroAspect: 1.40, // 287.02 × 403.86 cm → W/H ≈ 1.41, landscape
+  heroFit: 'contain', // the whole ~9½ × 13¼ ft canvas, never cropped
+  rights: 'in-copyright', // Still d. 1980 → not public domain; shown small under fair use
+  stats: [
+    { v: '1957', k: 'Painted' },
+    { v: '9′5″ × 13′3″', k: 'Dimensions' },
+    { v: 'Buffalo AKG', k: 'Now at' },
+  ],
+  sections: [
+    { id: 'independent', eyebrow: 'New York · 1950s', dateLabel: '~1952–1959', title: 'The painter who quit the room', blurb: 'By reputation the most combative of the New York abstractionists. He cut ties with commercial galleries, stopped showing in public for about seven years, refused descriptive titles, and would later seal most of his life’s work away from view entirely.', progress: 0.08 },
+    { id: 'making', eyebrow: 'The making', dateLabel: '1957', title: 'Paint laid on with a knife', blurb: 'Not brushed but troweled: thick crusted oil pushed across a wall-sized canvas with a palette knife, the colored areas ending in torn, ragged, flame-like edges rather than drawn lines. A field, not an arrangement of shapes.', progress: 0.32 },
+    { id: 'looking', eyebrow: 'The canvas', dateLabel: '9 ft 5 in × 13 ft 3 in', title: 'A wall of black, torn open to yellow', blurb: 'A predominantly black field jolted through by jagged verticals of yellow and beige, white flecks stranded across the yellow, a few patches of bare unpainted canvas, and a matte surface that swallows the light rather than reflecting it.', progress: 0.56 },
+    { id: 'break', eyebrow: 'The break', dateLabel: '1957', title: 'A field built from torn color, and what it refused', blurb: 'No central subject, no balanced design, no figure against a ground: one continuous skin of color punctured by rifts, running to the very edge of the frame. Still pushed abstraction past style into a flat existential statement, and matched it by walking out of the art world.', progress: 0.80 },
+    { id: 'afterlife', eyebrow: 'After', dateLabel: '1959–today', title: 'The city he chose, and the estate he sealed', blurb: 'Bought and given to the museum in Buffalo by Seymour H. Knox, Jr., the start of a bond that brought Buffalo dozens of Still paintings. The rest he willed intact to one American city, unseen until the Clyfford Still Museum opened in Denver in 2011.', progress: 0.96 },
+  ],
+  provenance: [
+    { year: '1957', who: 'Clyfford Still (the artist)', place: 'New York', note: 'Painted in 1957, with one of Still’s deliberately neutral date-code titles (year, letter, number) chosen so nothing would steer the viewer.', price: null },
+    { year: '1959', who: 'Seymour H. Knox, Jr.', place: 'Buffalo', note: 'Acquired by Seymour H. Knox, Jr., board president of the Albright-Knox Art Gallery, and given to the museum the same year. Credit line: Gift of Seymour H. Knox, Jr., 1959. This 1959 gift is distinct from Still’s own later gift of 31 paintings in 1964.', price: null },
+    { year: '1959–today', who: 'Buffalo AKG Art Museum', place: 'Buffalo, New York', note: 'Held since 1959 by the Albright-Knox Art Gallery, the same institution renamed the Buffalo AKG Art Museum in 2023. Accession K1959:26. In the permanent collection.', price: 'gift', museum: true },
+  ],
+  figures: [
+    { name: 'Clyfford Still', role: 'The painter', palette: ['#1a1814', '#c8a72a', '#0c0a08'] },
+    { name: 'Seymour H. Knox, Jr.', role: 'Bought it and gave it to Buffalo', palette: ['#3a4a6a', '#2e3848', '#0e1220'] },
+    { name: 'Gordon M. Smith', role: 'Director who won Still’s trust', palette: ['#5a6a72', '#2e3a42', '#0e1014'] },
+    { name: 'Mark Rothko', role: 'Color-field peer; soft rectangles', palette: ['#8a3a2a', '#3a1c14', '#0e0806'] },
+    { name: 'Barnett Newman', role: 'Color-field peer; the vertical “zip”', palette: ['#7a1c1c', '#2a2a2a', '#0d0606'] },
+  ],
+  annotations: [
+    { label: 'The torn color-edges', where: 'Wherever a yellow form meets the black, all across the canvas', detail: 'Where one color ends and the next begins, the boundary is ragged and irregular, like torn paper or the edge of a flame, never a ruled or drawn line. This is Still’s signature move: the field looks ripped open rather than designed, as if a sheet of black were being peeled back to show yellow beneath. The literal fact is the jagged seam; reading it as cliffs, bark, or a wound is interpretation, and a fair one.' },
+    { label: 'The palette-knife impasto', where: 'Across the whole surface, strongest in the built-up yellow shards', detail: 'The paint is troweled on in heavy, crusted layers with a palette knife rather than brushed flat, so up close the surface is thick and tactile, the marks of the knife standing in ridges you could read as texture. The picture is as much a built crust of oil as it is an image, and the muscle of the making is left visible.' },
+    { label: 'The black field and its rifts', where: 'The whole canvas: a dominant black jolted by yellow and beige', detail: 'A single color dominates, here a deep, encompassing black, and it is pierced by sudden jolts of yellow and beige that run mostly vertically. The largest yellow forms break upward through the dark like sheets pulled apart. The black is not a background behind the yellow so much as the other half of the same torn field; there is no figure sitting in front of a ground.' },
+    { label: 'The matte, light-swallowing surface', where: 'Everywhere; clearest in the broad black areas', detail: 'The oil is dry and absorbent rather than glossy, so the picture takes the light in instead of bouncing it back. That dull, non-reflective black is part of the painting’s somber weight: it reads less like a polished object to admire than like a flat, absorbing wall, which is exactly the un-decorative effect Still wanted.' },
+    { label: 'The patches of bare canvas', where: 'Near the lower part of the picture, small unpainted areas amid the black', detail: 'In a few places the raw, unpainted canvas is simply left showing, neither black nor yellow but the pale fabric itself. Far from a slip, these bare patches are part of the surface Still let stand, a reminder that the picture is paint pushed across cloth, with the cloth allowed to breathe through in spots.' },
+    { label: 'The towering scale, and the absence of any image', where: 'The picture as a whole, at roughly 9½ by 13¼ feet', detail: 'At nearly ten feet tall and over thirteen wide, the canvas exceeds your body and fills your field of vision, meant to be stood before rather than looked at across a room. And there is nothing in it to recognize: no figure, no horizon, no object, no symbol, and no descriptive title to supply one. You are left with color, torn edge, and sheer scale, which is the entire content.' },
+  ],
+  lineage: {
+    parents: [
+      { label: 'Abstract Expressionism', mode: 'art' },
+      { label: 'The sublime in landscape', mode: 'art' },
+      { label: 'A combative independence', mode: 'civ' },
+    ],
+    children: [
+      { label: 'Color Field painting', mode: 'art' },
+      { label: 'The all-over abstract field', mode: 'art' },
+      { label: 'The Clyfford Still Museum, Denver', mode: 'civ' },
+    ],
+  },
+}
+
+export const ART_WORK_CONTENT: Record<string, ArtWorkContent> = { burial: BURIAL, demoiselles: DEMOISELLES, kahnweiler: KAHNWEILER, 'chair-caning': CHAIR_CANING, horta: HORTA, 'violin-jug': VIOLIN_JUG, 'three-women': THREE_WOMEN, 'the-portuguese': THE_PORTUGUESE, 'gris-breakfast': GRIS_BREAKFAST, 'three-musicians': THREE_MUSICIANS, 'stone-breakers': STONE_BREAKERS, studio: STUDIO, sower: SOWER, gleaners: GLEANERS, angelus: ANGELUS, gargantua: GARGANTUA, carriage: CARRIAGE, 'horse-fair': HORSE_FAIR, 'impression-sunrise': IMPRESSION_SUNRISE, grenouillere: GRENOUILLERE, cradle: CRADLE, 'moulin-galette': MOULIN_GALETTE, 'paris-street': PARIS_STREET, 'dance-class': DANCE_CLASS, absinthe: ABSINTHE, 'boating-party': BOATING_PARTY, 'gare-saint-lazare': GARE_SAINT_LAZARE, 'starry-night': STARRY_NIGHT, 'bedroom-arles': BEDROOM_ARLES, 'grande-jatte': GRANDE_JATTE, 'bathers-asnieres': BATHERS_ASNIERES, 'card-players': CARD_PLAYERS, 'mont-sainte-victoire-lauves': MONT_SAINTE_VICTOIRE_LAUVES, 'vision-sermon': VISION_SERMON, 'moulin-rouge': MOULIN_ROUGE, 'where-do-we-come-from': WHERE_DO_WE_COME_FROM, hat: WOMAN_WITH_A_HAT, 'green-stripe': GREEN_STRIPE, bonheur: BONHEUR, luxe: LUXE, 'open-window': OPEN_WINDOW, 'blue-nude': BLUE_NUDE, chatou: CHATOU, 'charing-cross': CHARING_CROSS, 'rue-pavoisee': RUE_PAVOISEE, 'city-rises': CITY_RISES, dog: DOG, galli: GALLI, cyclist: CYCLIST, 'unique-forms': UNIQUE_FORMS, farewells: FAREWELLS, 'bal-tabarin': BAL_TABARIN, automobile: AUTOMOBILE, 'abstract-speed': ABSTRACT_SPEED, fountain: FOUNTAIN, lhooq: LHOOQ, 'kitchen-knife': KITCHEN_KNIFE, 'mechanical-head': MECHANICAL_HEAD, 'hat-makes-man': HAT_MAKES_MAN, stieglitz: STIEGLITZ, celebes: CELEBES, 'sainte-vierge': SAINTE_VIERGE, daum: DAUM, 'song-of-love': SONG_OF_LOVE, harlequin: HARLEQUIN, 'masson-auto': MASSON_AUTO, treachery: TREACHERY, persistence: PERSISTENCE, 'object-fur': OBJECT_FUR, 'carrington-self': CARRINGTON_SELF, 'tanguy-divis': TANGUY_DIVIS, 'ernst-histoire': ERNST_HISTOIRE, 'autumn-rhythm': AUTUMN_RHYTHM, 'woman-i': WOMAN_I, 'orange-yellow': ORANGE_YELLOW, 'vir-heroicus': VIR_HEROICUS, 'still-cliff': STILL_CLIFF }
 export const ART_ARTIST_CONTENT: Record<string, ArtArtistContent> = { picasso: PICASSO }

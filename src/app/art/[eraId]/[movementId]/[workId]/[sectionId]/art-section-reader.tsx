@@ -11388,7 +11388,738 @@ function ErnAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: s
 // REGISTRY (coordinator splices into NARRATIVES):
 //  'ernst-histoire': { floorboards: ErnFloorboards, method: ErnMethod, looking: ErnLooking, break: ErnBreak, afterlife: ErnAfterlife },
 
+// ─────────────────────────────────────────────────────────────
+// Autumn Rhythm (Number 30) (Pollock, 1950) — the five chapters
+// ─────────────────────────────────────────────────────────────
+function ArhFloor({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Springs, Long Island · 1950" title="The painter who took the canvas off the wall" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>I</DropCap>
+        n the summer of <strong>1950</strong>, in a converted barn behind a small farmhouse in <strong>Springs</strong>, a hamlet at the eastern end of Long Island, New York, <strong>Jackson Pollock</strong> (1912&ndash;1956) was doing the strangest thing in American painting, which was painting on the floor. He had moved out from New York City a few years earlier with the painter <strong>Lee Krasner</strong> &mdash; when they met the more established of the two, and the one who pulled him into the New York avant-garde and its critics &mdash; whom he had married, fixed up the barn as a studio, and arrived at the way of working he is remembered for. He did not stand at an easel. He unrolled a long length of <strong>raw, unprimed canvas</strong> (plain cloth, never stretched on a frame or sealed with the white primer painters normally lay down first) straight onto the studio floor, and he walked around it.
+      </p>
+      <p style={proseStyle}>
+        This was the height of what gets called his <strong>drip</strong> or <strong>pour</strong> period, roughly <strong>1947 to 1950</strong>, the few years in which he made the pictures he is remembered for. <em>Autumn Rhythm</em> is one of the largest and best of them, made near the end of that run, when he had complete command of the method and had not yet started to doubt it.
+      </p>
+      <p style={proseStyle}>
+        To feel why the floor mattered, you have to picture the alternative. For five centuries a Western painter stood in front of a canvas hung upright, the way you stand in front of a window, and worked into a vertical surface at arm’s length, brush in hand. Pollock laid the surface flat and got <em>over</em> it, around it, on every side of it. For now hold the plain physical fact: the picture we are going to look at was made by a man walking around a sheet of canvas on a barn floor, looking down at it, never once stepping back to a wall.
+      </p>
+
+      <SectionHeader accent={accent} label="Why this is a beginning" title="The first canvas of a new American painting" />
+      <p style={proseStyle}>
+        This is the first work in our walk through <strong>Abstract Expressionism</strong>, the loose group of painters working in New York in the late 1940s and 1950s (Pollock, Krasner, <strong>Willem de Kooning, Mark Rothko, Franz Kline</strong>, and more) who made the city, for the first time, the center of advanced Western painting, a place that role had always belonged to Paris. They did not share a single style. What they shared was a conviction that a painting could be a direct, unplanned, emotionally charged act rather than a depiction of something out in the world. Pollock’s poured canvases are the most extreme version of that idea, and <em>Autumn Rhythm</em> is one of the clearest.
+      </p>
+    </article>
+  )
+}
+
+function ArhMaking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The making · 1950" title="House paint, off the end of a stick" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>S</DropCap>
+        tart with the material, because the first surprise of <em>Autumn Rhythm</em> is what it is made of. It is not oil paint. The Met records the medium plainly as <strong>enamel on canvas</strong>, and that means <strong>commercial enamel, ordinary house paint</strong>, the glossy liquid stuff you would buy in a can to paint a porch railing. Pollock used it because it was cheap, because it poured, and because it dried hard and bright. So when you read &ldquo;painting&rdquo; here, picture the consistency of thin syrup, not the buttery paste an oil painter pushes around with a brush.
+      </p>
+      <p style={proseStyle}>
+        And he did not push it around with a brush, not in the usual sense. He <strong>poured and flung it</strong>, straight from the can or trailed off the end of a <strong>stick, a hardened dried-out brush, a basting syringe, or a trowel</strong>, holding the tool above the canvas and letting the liquid fall. The paint drips, streams, pools, and spatters onto the cloth under its own weight and the speed of his arm.
+      </p>
+      <p style={proseStyle}>
+        Because the canvas was flat on the floor, he could move all the way around it and work from <strong>all four sides</strong>, with no fixed up or down, no top edge, no bottom. The finished picture records the motion of his <em>whole body</em> moving over and around the surface, walking, crouching, stepping back in, rather than the small motion of a hand at an easel.
+      </p>
+
+      <SectionHeader accent={accent} label="The key statement" title="“On the floor I am more at ease”" />
+      <p style={proseStyle}>
+        He wrote down why, three years earlier, in a short statement called &ldquo;My Painting&rdquo; for the little one-issue magazine <strong><em>Possibilities</em></strong> (no. 1, Winter 1947&ndash;48). It is the cleanest thing he ever said about the method, and it is the key to everything in this picture:
+      </p>
+      <blockquote style={{ margin: '0 0 18px', padding: '4px 0 4px 18px', borderLeft: `3px solid ${accent}`, fontFamily: SERIF, fontSize: 18, lineHeight: 1.6, fontStyle: 'italic', color: INK }}>
+        <p style={{ margin: '0 0 12px' }}>My painting does not come from the easel. I hardly ever stretch my canvas before painting. I prefer to tack the unstretched canvas to the hard wall or the floor&hellip;</p>
+        <p style={{ margin: 0 }}>On the floor I am more at ease. I feel nearer, more a part of the painting, since this way I can walk around it, work from the four sides and literally be <em>in</em> the painting.</p>
+      </blockquote>
+      <p style={proseStyle}>
+        Read that last line twice, because it is the whole program: <em>literally be in the painting</em>. Not in front of it, looking at a scene through it. Inside it, standing where the marks land. (The statement runs on into the often-quoted line that follows: &ldquo;When I am <em>in</em> my painting, I&rsquo;m not aware of what I&rsquo;m doing&hellip; the painting has a life of its own. I try to let it come through.&rdquo;)
+      </p>
+
+      <SectionHeader accent={accent} label="Not random" title="“There is no accident”" />
+      <p style={proseStyle}>
+        Here is the single most common thing said about this picture, and it is wrong: that it is a random splatter, paint thrown at a canvas by chance. Pollock denied exactly this, on the record. In an interview with <strong>William Wright</strong> in the summer of <strong>1950</strong> (the same year he made <em>Autumn Rhythm</em>), he insisted he <strong>controlled</strong> the pour. The most-quoted form of what he said is a compressed one:
+      </p>
+      <p style={{ ...proseStyle, fontStyle: 'italic', borderLeft: `3px solid ${accent}`, paddingLeft: 14, margin: '0 0 14px', color: INK }}>
+        &ldquo;I can control the flow of paint: there is no accident.&rdquo;
+      </p>
+      <p style={proseStyle}>
+        (That punchy sentence is a condensation of a longer passage in the transcript, where he said that with experience it is possible to control the flow of paint to a great extent, and that he denied the accident. It is fairly quoted as his statement on control, just not a single unbroken sentence.) The point stands either way. He had spent years learning how a given height of pour, a given speed of arm, a given thickness of paint would land. The photographer <strong>Hans Namuth</strong>, who shot <strong>more than 500 photographs</strong> and <strong>two short films</strong> of Pollock at work in 1950&ndash;51, left a record that scholars have used to reconstruct the order of the layers in <em>Autumn Rhythm</em>: the build was <strong>deliberate and methodical</strong>, laid in over months, not flung down in a fit. (The films caught Pollock mid-pour and did as much as anything to fix the public image of him as a painter of pure action &mdash; though, tellingly, the famous color one shows him working on glass, not on this canvas.) Call it controlled, or choreographed. Do not call it accidental.
+      </p>
+
+      <SectionHeader accent={accent} label="Where it came from" title="None of it was invented from nothing" />
+      <p style={proseStyle}>
+        It is tempting to picture all this arriving from nowhere, a man alone in a barn inventing a new art. Pouring and dripping paint was not itself new; he had seen it done. Pollock had worked in the New York workshop of the Mexican muralist <strong>David Alfaro Siqueiros</strong> in 1936, where artists dripped and poured industrial paint in what they called &ldquo;controlled accidents.&rdquo; He had watched <strong>Navajo sand-painters</strong> build an image flat on the ground, working it from all sides &mdash; his own &ldquo;literally be <em>in</em> the painting&rdquo; nods straight at them. He had absorbed the Surrealists&rsquo; <strong>automatism</strong> (letting the hand move before the mind catches up) and <strong>Cubism&rsquo;s</strong> flat, edge-to-edge field. And in the mid-1940s the critic Clement Greenberg credited the allover drip canvases of <strong>Janet Sobel</strong> as a direct influence on Pollock. What was his own was the leap to scale, and to making the moving body the method and the subject at once.
+      </p>
+
+      <SectionHeader accent={accent} label="A caution" title="What he didn’t quite say" />
+      <p style={proseStyle}>
+        Two careful notes, because the legends crowd in fast here. First, you will see the phrase <strong>&ldquo;action painting&rdquo;</strong> attached to Pollock as if it were his word. It was not. The critic <strong>Harold Rosenberg</strong> coined it in &ldquo;The American Action Painters,&rdquo; an essay in <em>ARTnews</em> in <strong>December 1952</strong>, two years <em>after</em> this canvas was made; it is a label the critics put on the work, not a thing Pollock said while painting it. Second, you will see the line <strong>&ldquo;I am nature&rdquo;</strong> quoted as Pollock’s manifesto. That one is anecdotal, remembered second-hand by Lee Krasner long afterward, with no contemporary document behind it. It is a nice story, but it is hearsay, and we are not going to lean a reading of the painting on it.
+      </p>
+    </article>
+  )
+}
+
+function ArhLooking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The canvas" title="A web that fills the wall" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>S</DropCap>
+        tand in front of it, and the first thing the picture does is refuse to be taken in at a glance. It is enormous: <strong>about 8 feet 9 inches tall by 17 feet 3 inches wide</strong> (a yard taller than a person, and the width of a small room). At that size, standing close, it fills your whole field of vision, edge to edge, with no border of wall to frame it. The work surrounds you, which, as the last chapter showed, is exactly the relation Pollock had to it while he made it, on the floor.
+      </p>
+      <p style={proseStyle}>
+        And what fills it is a <strong>web</strong>: an allover tangle of looping, poured lines in a tight, nearly colorless palette of <strong>black, white, brown, and tan</strong>, with only a faint trace of teal-blue. There are no strong, saturated hues &mdash; no red, no green, and only that one whisper of cool blue against the warm browns. The autumnal browns and creamy buffs carry the warmth, and they are where the later title &ldquo;Autumn&rdquo; comes from, though the title was an afterthought. The lines loop and cross and dive under and over one another in rhythmic, layered skeins, laid down in pass after pass until the whole surface hums.
+      </p>
+
+      <SectionHeader accent={accent} label="No center" title="Look for the focal point. There isn’t one." />
+      <p style={proseStyle}>
+        Now try to find the <strong>focal point</strong>, the place the picture wants your eye to go. You will fail, and the failure is the point. There is <strong>no center</strong>. Every square inch of the canvas carries roughly equal weight; the top is as busy as the bottom, the left as the right, the corners as the middle. There is no important area and no background area, no near and no far, no climax. Your eye keeps moving and never settles, because there is nowhere built for it to rest. This is what gets called an <strong>allover composition</strong>: the design spread evenly to all four edges, with the weight distributed everywhere at once. It is one of the most genuinely new things in twentieth-century painting, and you are looking right at it.
+      </p>
+
+      <SectionHeader accent={accent} label="No object" title="Nothing in here is a picture of anything" />
+      <p style={proseStyle}>
+        Hunt now for a <strong>thing</strong>: a figure, a face, a horizon, a tree, a window onto any scene at all. There is none. The picture is not <em>of</em> anything. Nothing sits in front of anything else; the usual relationship of a figure standing out against a background (what painters call <strong>figure and ground</strong>) has collapsed entirely, so that foreground and background are one continuous woven surface. The paint refers only to itself and to the act that put it there. This is the part that is genuinely hard to do in front of an unfamiliar painting, because every instinct trained on five centuries of pictures is to read the marks <em>as</em> something. The instinct is to read them as a thing; there is no thing there to find. The marks are the subject.
+      </p>
+
+      <SectionHeader accent={accent} label="The marks themselves" title="Drips, pools, spatters, and the bare cloth" />
+      <p style={proseStyle}>
+        So look at the marks as marks, and you can read the <em>physics</em> of how each one was made. The thin, even, trailing lines are where the liquid enamel streamed off a stick held above the canvas. The fatter, propulsive arcs are where it was flung with a snap of the arm. The small dark blots are <strong>pools</strong>, where paint puddled and dried thick. The fine flecks are <strong>spatters</strong>, flicked off a loaded brush. Each one is the frozen track of a single movement of his arm or his body, which is why people say the painting is a record of an action: it literally is, mark by mark.
+      </p>
+      <p style={proseStyle}>
+        And the gaps repay a look too. Between the skeins you can see the <strong>raw, unprimed canvas</strong> itself, the pale tan cloth, left bare. That is not a painted background; it is the untouched fabric, doing the job an artist usually fills in. Pollock left it showing on purpose. It means the &ldquo;ground&rdquo; of the picture, the thing everything sits on, is the real material of the picture, in plain sight, not an illusion painted over it. The cloth is part of the work, not under it.
+      </p>
+    </article>
+  )
+}
+
+function ArhBreak({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The break · before" title="Painting had always been a window" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        o see why <em>Autumn Rhythm</em> counts as a break and not just an oddity, you have to picture clearly what it broke from. Since the Renaissance, a Western painting was understood as a kind of <strong>window</strong>. You looked through the flat surface into an illusion of space, and inside that space sat a <strong>subject</strong>: a body, a saint, a landscape, a bowl of fruit. The picture had a <strong>figure and a ground</strong> (a thing, and the background it stood out against), a <strong>focal point</strong> the composition was built around, and a clear hierarchy of important areas and lesser ones. Paint described <em>something</em>. Even most earlier abstraction kept a composed center, an edge, a top and bottom, a sense of forms arranged in a space. The window stayed.
+      </p>
+
+      <SectionHeader accent={accent} label="The break · after" title="The window dissolves" />
+      <p style={proseStyle}>
+        <em>Autumn Rhythm</em> dissolves all of it at once, and that combination is the break. There is the <strong>allover field</strong> with no focal point, every inch weighted the same, the eye with nowhere to land. There is <strong>no figure and ground</strong>: foreground and background have fused into one continuous woven surface, with nothing in front of anything. And there is <strong>no depicted object</strong> at all: the picture is not of a thing, so there is no window and nothing on the far side of it. Take away the center, take away figure and ground, take away the subject, and what is a painting then? Pollock’s answer is the whole point of him.
+      </p>
+
+      <SectionHeader accent={accent} label="The act, made visible" title="The painting is the record of an event" />
+      <p style={proseStyle}>
+        His answer is that the painting becomes the <strong>record of an act</strong>. With nothing depicted, what the canvas actually carries is the trace of <em>the body that made it</em>: every poured line is the frozen track of a movement, a fling, a step around the canvas on the floor. The subject of the picture is the <strong>act of painting it</strong>. It is, in effect, the physical residue of Pollock moving through time and space over the cloth, painting as a kind of recorded performance. (This is the insight the critic <strong>Harold Rosenberg</strong> reached for, a couple of years later in 1952, when he wrote that for these painters the canvas had become &ldquo;an arena in which to act&rdquo; rather than a space in which to reproduce a thing. The phrase is his, and it came after; but it names what is already happening here.)
+      </p>
+      <p style={proseStyle}>
+        That is the hinge, and it is enormous. Once a painting can be the record of an act rather than the image of a thing, the door is open: to the great fields of pure color the next generation would pour, to the bare non-relational surfaces of Minimalism, to the whole later idea that the <em>process</em> of making could itself be the art. The allover field, the loss of figure and ground, and the act made into the subject, all at once, in one seventeen-foot canvas on a barn floor, is why <em>Autumn Rhythm</em> sits at the front of this story and not in a footnote.
+      </p>
+    </article>
+  )
+}
+
+function ArhAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The title · 1950–1955" title="It started life as Number 30" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>O</DropCap>
+        ne thing to clear up before anything else, because the title misleads almost everyone: this painting is <strong>not</strong> a picture of autumn. It does not depict a season, or anything else. And it did not begin life with that name. When Pollock first showed it, at the <strong>Betty Parsons Gallery</strong> in New York in late <strong>1950</strong>, and again at the Museum of Modern Art’s <em>15 Americans</em> show in <strong>1952</strong>, it was simply <strong><em>Number 30</em></strong>. From 1947 on, Pollock <strong>numbered</strong> his pictures instead of naming them, precisely so a title would not tell you what to see or impose a meaning the paint did not contain.
+      </p>
+      <p style={proseStyle}>
+        The lyrical title <strong><em>Autumn Rhythm</em></strong> attached only <strong>later</strong>, by the time of the <strong>Sidney Janis Gallery</strong> show in <strong>1955</strong>. (Some scholars argue the poetic title was Pollock’s own choice; the exact circumstances of the renaming are not pinned to a document, so it is fairest to say the painting was <em>later retitled</em>, not that Pollock sat down and named it in 1955.) Either way, the warm browns and tans that earned it the word &ldquo;Autumn&rdquo; were already on the canvas; the name came afterward, to a picture that was never of a season at all.
+      </p>
+
+      <SectionHeader accent={accent} label="The painter · 1956" title="The crash" />
+      <p style={proseStyle}>
+        Pollock did not have long after this. The drip pictures of 1947&ndash;50 were the peak; the years after were harder, with more drinking and less work. On <strong>11 August 1956</strong>, driving near his home in Springs, drunk, he crashed his car and was killed, at the age of <strong>forty-four</strong>. He had become famous in his own lifetime, splashed across magazines as the wild American painter, but he never made anything that surpassed the canvases of those three or four years, and he never sold most of them for much.
+      </p>
+
+      <SectionHeader accent={accent} label="Provenance" title="To the Met, a year after he died" />
+      <p style={proseStyle}>
+        A year after his death, in <strong>1957</strong>, <em>Autumn Rhythm</em> entered <strong>The Metropolitan Museum of Art</strong>. The Met’s curator <strong>Robert Beverly Hale</strong> arranged the purchase from Pollock’s estate (the price is reported at around $20,000 plus a trade of another Pollock, a figure that is well-sourced but secondary), and it came in through the museum’s <strong>George A. Hearn Fund</strong>, accession number <strong>57.92</strong>. It has hung at the Met ever since, one of the defining American paintings of the century, on permanent view in New York.
+      </p>
+      <p style={proseStyle}>
+        And the label everyone uses for it, <strong>&ldquo;action painting,&rdquo;</strong> only really stuck after the man himself was gone, coined by Harold Rosenberg in 1952 and cemented over the decade that followed. It fits the picture better than most labels fit most pictures: a canvas that is, genuinely, the frozen record of an action. But it arrived from outside, from a critic, after the fact. Pollock’s own word for what he did was plainer. He said he wanted to be <em>in</em> the painting. Stand close to the seventeen-foot web of black and tan and white, with no center and no edge to hold onto, and you can feel what he meant.
+      </p>
+    </article>
+  )
+}
+
+// REGISTRY (coordinator splices into NARRATIVES):
+//  'autumn-rhythm': { floor: ArhFloor, making: ArhMaking, looking: ArhLooking, break: ArhBreak, afterlife: ArhAfterlife },
+
+// ─────────────────────────────────────────────────────────────
+// Woman I (de Kooning, 1950–52) — the five chapters
+// ─────────────────────────────────────────────────────────────
+function WmnFigure({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="New York · 1950" title="Going back to the figure on purpose" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>B</DropCap>
+        y 1950, <strong>Willem de Kooning</strong> (1904&ndash;1997; a Dutch-born painter who had jumped ship to New York as a young man and become a central figure of the <strong>New York School</strong>, the loose group of postwar American painters now lumped together as the Abstract Expressionists) was at the front of the most aggressive painting in the world. And the front of that painting had a rule. The rule was <strong>pure abstraction</strong>. <strong>Jackson Pollock</strong> was pouring and flinging house paint across canvases on the floor, building all-over webs of dripped line with no figure in them at all. <strong>Mark Rothko</strong> and <strong>Barnett Newman</strong> were floating great soft rectangles and single vertical stripes of pure color, what later got called <em>color-field</em> painting. The recognizable human body was treated as the thing that serious modern painting had finally, triumphantly outgrown. To paint a person, frontally, sitting there, was to be a generation behind.
+      </p>
+      <p style={proseStyle}>
+        De Kooning broke the rule. He went back to <strong>the figure</strong>: a large, frontal, seated <strong>woman</strong>. Not as a study, not as a private exercise, but as the most ambitious picture he had ever attempted. To his peers and to many of the critics who championed the New York School, this looked close to a <strong>betrayal</strong>, a desertion of abstraction&rsquo;s hard-won purity at the exact moment it was winning. The whole avant-garde had agreed the figure was dead. De Kooning sat one down in his studio and started painting her.
+      </p>
+      <p style={proseStyle}>
+        And he was not retreating to old-fashioned figure painting, the calm illusion of a body sitting in a believable room. He kept the whole violent, all-over, paint-flinging surface of the abstraction around him, and he used it on a woman. The figure and the action-painting were going to happen in the same strokes, at the same time, on the same canvas. That collision is the picture, and it cost him two years.
+      </p>
+    </article>
+  )
+}
+
+function WmnMaking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The making · 1950–52" title="Two years, fifty times over" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he making of <em>Woman I</em> became legendary, and the legend is mostly true. De Kooning worked the canvas from <strong>1950 into the summer of 1952</strong>, roughly <strong>two years</strong>, and he did not work it the way you would imagine a painting being made. He <strong>built the figure, scraped it off, painted over it, and built it again</strong>, over and over. MoMA&rsquo;s own account of the picture describes the canvas being painted, effaced and repainted on the order of <strong>fifty times</strong>. That is the shape of it rather than an audited tally: a surface attacked and rebuilt dozens of times, so that the finished painting sits on top of a stack of destroyed earlier ones.
+      </p>
+      <p style={proseStyle}>
+        He worked from <strong>numerous preparatory studies</strong>, drawings and small works he made and remade as he went, restarting the figure repeatedly. (You will sometimes see a precise count attached to those studies; there is no reliable source for a number, so the word is simply &ldquo;many.&rdquo;) Charcoal came into it too, but as <em>drawing</em>: he drew and redrew the figure in charcoal directly on the canvas as he worked, an underdrawing that is part of his process rather than part of the finished medium. The catalog medium, MoMA&rsquo;s exact line, is <strong>oil and metallic paint on canvas</strong>, the metallic paint a real, slightly industrial glint mixed into the surface.
+      </p>
+
+      <SectionHeader accent={accent} label="Given up for lost" title="The canvas off the stretcher" />
+      <p style={proseStyle}>
+        Well into the second year, de Kooning <strong>gave up</strong>. He pulled the painting off its stretcher (the wooden frame a canvas is tacked onto) and set it aside, beaten, as a failure. After all that labor, the figure would not resolve, and he abandoned it.
+      </p>
+      <p style={proseStyle}>
+        What happened next is the famous part. The art historian <strong>Meyer Schapiro</strong> (1904&ndash;1996; one of the most respected critics and scholars of the era, a man whose opinion carried real weight) came by the studio, looked at the abandoned canvas, and encouraged de Kooning to keep going. De Kooning went back to it and finished it. The critic <strong>Peter Schjeldahl</strong> later called that visit &ldquo;history&rsquo;s luckiest studio visit.&rdquo; How much the visit actually changed his mind has been argued ever since, and exactly what was said is not on record; the bones are well documented, though: he gave the picture up, Schapiro came by, he came back and finished it. The painting that hangs in New York is the one he came back to.
+      </p>
+    </article>
+  )
+}
+
+function WmnLooking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The canvas" title="More than life-size, and staring at you" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he painting is <strong>portrait orientation</strong>, taller than it is wide, about <strong>six feet four inches tall by four feet ten inches across</strong> (192.7 by 147.3 cm), so the woman is <strong>larger than life-size</strong> and looms over you. She is frontal, seated, and she fills the canvas. The first thing the picture does is <em>confront</em> you, not invite you.
+      </p>
+      <p style={proseStyle}>
+        The <strong>face</strong> is where everyone goes. Two things hit at once: the <strong>enormous staring eyes</strong>, fixed and frontal and aimed straight out at you, and below them the <strong>bared toothy grin</strong>, a wide smile splitting the head. The grin is the strangest thing in the picture. It reads, at first, like the broad cheerful smile off an advertisement, the kind of <strong>American billboard smile</strong> that sells you something. And that is not an accident of resemblance: in the <em>preparatory studies</em>, the mouth was a smile de Kooning <strong>literally clipped from a magazine</strong>, a glistening grin from a Camel cigarette &ldquo;T-Zone&rdquo; advertisement, and pasted onto the figure. In the finished canvas the mouth is painted rather than collaged, but it still carries that ad-smile in its bones. Cheerful pin-up and bared snarl, in the same set of teeth.
+      </p>
+      <p style={proseStyle}>
+        De Kooning&rsquo;s own explanation of the grin reached past the billboard, all the way back to the ancient world:
+      </p>
+      <blockquote style={{ margin: '0 0 18px', padding: '4px 0 4px 18px', borderLeft: `3px solid ${accent}`, fontFamily: SERIF, fontSize: 18, lineHeight: 1.6, fontStyle: 'italic', color: INK }}>
+        &ldquo;Maybe the grin. It&rsquo;s rather like the Mesopotamian idols, you know. They always stand up straight looking to the sky with this smile, like they were just astonished about the forces of nature&hellip; That I was very conscious of.&rdquo;
+      </blockquote>
+      <p style={proseStyle}>
+        That is the key thing he said about her, from a 1960 interview (published in the little magazine <em>Location</em> in 1963). Not a portrait of a particular woman and not, by his own account, an attack on one: an <strong>idol</strong>, a frontal staring grinning figure out of the deep past, set down in the middle of modern New York.
+      </p>
+
+      <SectionHeader accent={accent} label="The body" title="Flesh, and the daring of painting it" />
+      <p style={proseStyle}>
+        The <strong>body</strong> is massive, frontal, built in smeared <strong>pinks, ochres and reds</strong> that make it insistently <em>fleshly</em>. De Kooning made a sharp point about that color. In the same interview he noted that it had once been daring to paint a figure red or blue, the way the early modernists shocked people, &ldquo;I think now it is just as daring to make it flesh-colored.&rdquo; (A more famous line &mdash; &ldquo;flesh was the reason oil paint was invented&rdquo; &mdash; floats around attached to him, though without a fixed source.) The flesh tones are the point either way: in a moment when serious painting had gone abstract, painting a body plainly as <em>flesh</em> was the transgressive move.
+      </p>
+
+      <SectionHeader accent={accent} label="The surface" title="Slashing strokes, and a body that won’t hold still" />
+      <p style={proseStyle}>
+        How it is painted is where <em>Woman I</em> stops being a picture of a woman and becomes something stranger. The marks <strong>slash</strong>. They are fast, thick, drippy, scraped, the same gestural violence Pollock and the rest used for pure abstraction, here building a body instead of avoiding one. The <strong>edges</strong> give it away: there is almost no stable line between the figure and the space around her. Arms, shoulders and background <strong>bleed into one another</strong>, so the woman keeps coming together and falling apart as your eye moves. She is not sitting calmly inside a room; she is being made and unmade in the same churning paint as everything around her.
+      </p>
+      <p style={proseStyle}>
+        And the whole surface is a <strong>record of its own making</strong>. Thin drippy passages sit beside thick matte slabs; scraped-down areas show the ghosts of earlier states underneath; a metallic glint catches here and there. This is the visible residue of those two years, the painting and effacing and repainting roughly fifty times. The picture does not hide the violence it took to make it. It is the violence it took to make it.
+      </p>
+    </article>
+  )
+}
+
+function WmnBreak({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The break · before" title="The figure was supposed to be dead" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        o see what <em>Woman I</em> broke, you have to see what the rule was in 1950. The leading edge of Abstract Expressionism had pushed <strong>toward total abstraction</strong>. Pollock&rsquo;s all-over drip canvases had no figure in them at all; the color-field fields of Rothko and Newman were pure floating color and nothing else. The recognizable human figure was treated as the thing modern painting had finally <strong>outgrown</strong> &mdash; serious avant-garde painting was non-objective, meaning it depicted no thing, no person, no scene. The figure was, by common agreement, finished.
+      </p>
+
+      <SectionHeader accent={accent} label="The break" title="Figure and paint-violence, one event" />
+      <p style={proseStyle}>
+        De Kooning <strong>refused to give up the figure</strong>, and then did something more radical than simply keeping it: he <strong>fused the figure with full gestural abstraction</strong>. The woman is not drawn first and painted second, a body set carefully inside an illusion of space. She is <strong>built and destroyed in the very same violent brush-marks as the abstraction around her</strong>, so that figure and ground, image and paint-action, become the <em>same event</em>. The female body turns into a <strong>site of paint-violence</strong> &mdash; scraped, repainted, smeared, half-dissolved &mdash; rather than a subject depicted sitting calmly in a believable room. The abstraction is not the background to the woman; the woman <em>is</em> the abstraction, given a face and teeth and eyes.
+      </p>
+
+      <SectionHeader accent={accent} label="The break · after" title="You could keep the figure and the fury both" />
+      <p style={proseStyle}>
+        What this proved is the whole reason the picture matters. Gestural abstraction did <strong>not</strong> require abandoning the human image. You could keep the figure <em>and</em> keep the radical, all-over, action-painting surface; you did not have to choose. <em>Woman I</em> reopened the figure for a postwar avant-garde that had declared it dead, and it made de Kooning the great <strong>counter-argument</strong> to the idea that abstraction&rsquo;s only honest endpoint was pure non-objectivity. Younger painters took the permission and ran with it: <strong>Grace Hartigan</strong> and <strong>Larry Rivers</strong> built gestural figures in his wake, and the young <strong>Robert Rauschenberg</strong> answered him directly, talking de Kooning into handing over a drawing so he could rub it out and show the blank sheet as <em>Erased de Kooning Drawing</em> (1953), the era&rsquo;s most famous tribute-by-attack. The gestural-figurative line he reopened runs straight on toward <strong>Pop art</strong> too: that grin was collaged from an <strong>advertisement</strong>, and an artist building a serious painting out of a clipped cigarette ad was, a few years early, doing exactly what Pop would soon make its whole program. The picture points backward to ancient idols and forward to the billboard at once. That double reach, refusing the orthodoxy of its own moment in both directions, is the break.
+      </p>
+    </article>
+  )
+}
+
+function WmnAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="New York · 1953" title="The picture the museum found frightening" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>I</DropCap>
+        n <strong>1953</strong>, the six <em>Women</em> went on the wall at the <strong>Sidney Janis Gallery</strong> in New York, and they detonated. This was the show that launched the series publicly, and <em>Woman I</em> was the first and most famous of the six numbered canvases. It split the room: here was <strong>one of the most prominent</strong> of the Abstract Expressionists turning his back on pure abstraction and hanging up a row of ferocious grinning women. To the painters who had bet everything on non-objective art it looked like apostasy; to others it looked like the most alive painting in the city.
+      </p>
+      <p style={proseStyle}>
+        The <strong>Museum of Modern Art</strong> bought <em>Woman I</em> that same year. It did not buy it comfortably. The acquisition committee approved it only <strong>grudgingly</strong>, and left one of the franker notes in museum history: they <strong>found the picture quite frightening, but felt that it had intense vitality and liked the quality of the color</strong>. They were unsettled, and they bought it anyway, because it was undeniable. The credit line reads simply <em>Purchase</em>; the accession number is 478.1953; it has hung in MoMA ever since.
+      </p>
+
+      <SectionHeader accent={accent} label="The debate" title="Idol, pin-up, or attack?" />
+      <p style={proseStyle}>
+        Ever since, the painting has carried a <strong>controversy</strong> that it has never quite resolved, and the fair thing is to lay out the sides rather than pick one. Later critics, feminist critics especially, read the snarling, devouring, more-than-life-size female as an act of <strong>misogyny</strong>, the woman as a thing torn apart by a male painter&rsquo;s aggression. The art historian <strong>Carol Duncan</strong> made the canonical version of that case in her 1989 essay &ldquo;The MoMA&rsquo;s Hot Mamas.&rdquo; It is a serious reading and the picture invites it: the violence is real and it is aimed at a female body.
+      </p>
+      <p style={proseStyle}>
+        De Kooning himself was <strong>ambivalent</strong>, and resisted the verdict. He insisted the grin and the figure came partly out of <strong>humor</strong>, and partly out of the whole long image-history of women in art, &ldquo;the idol, the Venus, the nude,&rdquo; rather than out of hatred. He tied the grin to those ancient Mesopotamian idols, astonished at the forces of nature, not to any real woman he wanted to savage. Both of these are on the table at once, and the picture does not settle the question for you. It is genuinely a <strong>debate</strong>, not a solved case: a painting violent enough to read as an attack, made by a man who said it was an idol and a joke, hanging in a museum that admitted it was frightening and bought it anyway. The fact that it can hold all of that at once is a large part of why it never lets you go.
+      </p>
+    </article>
+  )
+}
+
+// REGISTRY (coordinator splices into NARRATIVES):
+//  'woman-i': { figure: WmnFigure, making: WmnMaking, looking: WmnLooking, break: WmnBreak, afterlife: WmnAfterlife },
+
+// ─────────────────────────────────────────────────────────────
+// No. 61 (Rust and Blue) (Rothko, 1953) — the five chapters
+// ─────────────────────────────────────────────────────────────
+function RthIdiom({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="New York · 1953" title="The format he would paint for the rest of his life" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>B</DropCap>
+        y <strong>1953</strong>, <strong>Mark Rothko</strong> (1903&ndash;1970) had been painting the same kind of picture, with endless small variations, for four or five years, and he would go on painting it until his death. It is one of the most recognizable formats in twentieth-century art, and it is very simple to describe: <strong>two or three soft-edged rectangles of glowing color, stacked one above another, hovering against a colored ground</strong> that shows through and around them. <em>No. 61 (Rust and Blue)</em> is a textbook instance of it &mdash; a rust-maroon block up high, a paler band, and a deep blue-violet block below, all breathing against and within a blue field.
+      </p>
+      <p style={proseStyle}>
+        He did not arrive there in one step. Rothko was born <strong>Marcus Rothkowitz</strong> in the city of Dvinsk in the Russian Empire (now Daugavpils, in Latvia), came to the United States as a child, and spent the 1930s and early 1940s painting recognizable things &mdash; city scenes, figures in subway stations, then, under the influence of the Surrealists who fled to New York during the war, strange mythic and biomorphic shapes. After the war he passed through a phase the literature calls the <strong>&ldquo;multiforms&rdquo;</strong>: clusters of soft, fuzzy, blotted patches of color floating against a single-hued background, with the drawn line already gone. Then he pared even those down. By <strong>1949&ndash;50</strong> the blots had resolved into the stacked rectangles, and the format was set.
+      </p>
+      <p style={proseStyle}>
+        He was one figure in a crowded postwar scene in New York &mdash; the loose group later called <strong>Abstract Expressionism</strong>, or the <strong>New York School</strong> &mdash; and he sat on its quiet, contemplative wing, about as far as you could get from the flung-paint &ldquo;action painting&rdquo; of <strong>Jackson Pollock</strong> at the opposite pole. What follows is his move, not the whole movement&rsquo;s.
+      </p>
+      <p style={proseStyle}>
+        A word on the name, because three different things tangle here. Rothko mostly <strong>numbered</strong> his canvases rather than naming them; he distrusted titles as labels that told a viewer what to think. The parenthetical color tags &mdash; <em>Rust and Blue</em>, and the alternate <em>Brown, Blue, Brown on Blue</em> the museum also carries &mdash; are <strong>descriptive, after-the-fact</strong> ways of telling his many numbered, near-identical pictures apart. They are not titles he handed the work. (And because he numbered year by year, there is more than one Rothko &ldquo;No. 61&rdquo; floating around; this is specifically the 1953 rust-on-blue canvas now at MOCA.) The route slug for this read happens to read <em>orange-yellow</em>, which points at a different, brighter Rothko entirely &mdash; a 1956 picture in Buffalo. This is not that one. This is the rust and blue.
+      </p>
+
+      <SectionHeader accent={accent} label="Not a picture of anything" title="Why there is nothing in it to look at" />
+      <p style={proseStyle}>
+        The thing that throws people first is that there is <strong>no subject</strong>. No figure, no landscape, no horizon, no object, not even a recognizable shape with a name. The whole of what is depicted is a handful of soft color slabs and the field they sit in. To a viewer trained on five centuries of painting-as-a-window &mdash; onto saints, battles, fruit, a face &mdash; this can look like a picture with the picture removed, or like decoration: a nicely colored panel for a nicely colored wall.
+      </p>
+      <p style={proseStyle}>
+        Rothko spent a good deal of his life insisting it was the opposite of that, and getting irritated when people missed it. He was, by every account, allergic to the idea that these were exercises in pretty color. He rejected the label <strong>&ldquo;colorist.&rdquo;</strong> He rejected <strong>&ldquo;abstractionist.&rdquo;</strong> He was no fonder of the art-historical tag that later got pinned to him, <strong>&ldquo;color-field painter&rdquo;</strong>; what the museums file his movement under is not how he thought of the work at all. As far as he was concerned the rectangles were not the point and the color relationships were not the point. They were a <strong>vehicle</strong>, and what they carried was raw human feeling. We will come to his own blunt words for it later. For now, the thing to carry into the next chapter is that the format is simple, the intent is not, and the two should not be confused.
+      </p>
+    </article>
+  )
+}
+
+function RthMaking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The recipe" title="Thin paint, laid on in layers" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he look of a Rothko is the result of a plain, physical method, and it is worth getting the method straight before reaching for any words about transcendence. He did not lay down flat, opaque slabs of color. He built each area from <strong>many thin, scrubbed-on washes of heavily thinned oil paint</strong> &mdash; pigment let down with a lot of solvent and binder until it was closer to a stain than a coat &mdash; brushed on layer over layer, sometimes a great many layers, each one fairly transparent.
+      </p>
+      <p style={proseStyle}>
+        Because every layer is thin enough to see through, the <strong>colors underneath shine up through the ones on top</strong>. A red is not just red; it is a red sitting over an orange sitting over a darker ground, all of them faintly visible at once, the way you can see a few inches down into water. That is what produces the quality people describe as a glow, a sense that the color is <strong>lit from within</strong> rather than painted on the surface. Rothko himself reached for the phrase <strong>&ldquo;inner light.&rdquo;</strong> There is nothing supernatural in the mechanism, though: it is layered, semi-transparent paint, and you can name exactly why it does what it does.
+      </p>
+
+      <SectionHeader accent={accent} label="The edges" title="Why nothing is ever drawn" />
+      <p style={proseStyle}>
+        The second decision is what happens at the borders. Rothko never <strong>drew</strong> the rectangles &mdash; there is no ruled line, no taped edge, no hard boundary anywhere. He let each block <strong>bleed into the ground</strong> instead of sitting on top of it, feathering the wash out at the margins until the rectangle dissolves into the field around it. This is why the forms seem to <strong>advance, recede, and pulse</strong> rather than stay put: a hard-edged shape reads as a flat object pinned to a backdrop, but a soft-edged one, sharing its color with the field, refuses to settle at any one distance from your eye. Stare and the warm block floats forward; look again and it drops back. The instability is engineered, brushstroke by feathered brushstroke.
+      </p>
+
+      <SectionHeader accent={accent} label="The size" title="Big on purpose, and meant to be seen close" />
+      <p style={proseStyle}>
+        And then there is the scale, which was deliberate and which Rothko stated plainly. This canvas stands over <strong>nine feet tall</strong> &mdash; taller than the person standing in front of it. That is not grandeur for its own sake. In a statement he wrote in 1951 he put it directly: <em>&ldquo;I paint very large pictures&hellip; precisely because I want to be very intimate and human. To paint a small picture is to place yourself outside your experience&hellip; However if you paint the larger picture, you are in it.&rdquo;</em> A small picture is a thing across the room you look <em>at</em>; a picture this size, seen close, is a field you stand <em>inside</em>. He reportedly wanted these works hung low and viewed from about <strong>eighteen inches away</strong>, so the color fills your whole field of vision and there is no &ldquo;outside&rdquo; the painting left to stand in. The absence of any object is what makes that possible: with nothing in the field to point at, there is only the field to be in.
+      </p>
+    </article>
+  )
+}
+
+function RthLooking({ accent, onZoom }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The canvas" title="A tall field, and three soft slabs" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he painting is large and <strong>tall</strong> &mdash; about <strong>nine feet seven inches high by seven feet eight inches wide</strong>, portrait orientation, a standing rectangle taller than you are. Before any color registers, the format alone tells you something: this is built to be a presence in a room, not a panel you glance at in passing. Stand close, the way it wants you to, and the edges of the canvas drop out of your vision and there is only the field.
+      </p>
+      <p style={proseStyle}>
+        Now read the <strong>stack</strong>, top to bottom. High up sits a warm <strong>rust-maroon rectangle</strong>. Below it runs a <strong>paler bridging band</strong>. Below that sits a deep <strong>blue-violet block</strong>. All three float against a <strong>blue ground</strong> that surrounds them and shows between them. That is the entire cast of the picture: a few soft slabs of color and the field they hang in. There is nothing else &mdash; no object, no figure, no line, no horizon to anchor it. The &ldquo;subject&rdquo; is the stack and the room it makes.
+      </p>
+
+      <SectionHeader accent={accent} label="The edges" title="Exhaled, not drawn" />
+      <p style={proseStyle}>
+        Where two areas meet, there is no <strong>line</strong>. Every block frays softly into the color around it, the edges feathered and breathing, as if the rectangle had been <strong>exhaled onto the canvas</strong> rather than outlined on it. That softness is the difference between a Rothko and a flag. A hard edge would make these read as flat colored panels stuck to a wall; the feathered edge lets them hover.
+      </p>
+
+      <SectionHeader accent={accent} label="The motion that isn’t there" title="Color that advances and recedes" />
+      <p style={proseStyle}>
+        Hold your eye on the warm rust block for a few seconds, then on the blue. The warm color seems to <strong>float forward</strong> while the blue <strong>drops back</strong> &mdash; and then, if you keep looking, the two quietly trade places. Nothing on the canvas is moving. But the planes will not stay at a fixed distance from your eye; they advance and recede and pulse against one another. Warm colors tend to come forward and cool ones to fall back, and Rothko sets a warm block and a cool one in the same field precisely so they cannot agree on which is nearer. The picture breathes.
+      </p>
+
+      <SectionHeader accent={accent} label="The glow" title="Lit from underneath" />
+      <p style={proseStyle}>
+        Inside the blocks, the color does not sit flat; it seems <strong>lit from behind</strong>, as if a light were burning a few layers down. That is the <strong>inner light</strong> from the last chapter, the visible result of those thin scrubbed washes. The looking work here is just to find it: hunt for the spots where one hue clearly bleeds up through another. That is the physical fact of the surface, and it is why the color reads as luminous rather than painted.
+      </p>
+
+      <SectionHeader accent={accent} label="The field" title="Where the blocks dissolve into the blue" />
+      <p style={proseStyle}>
+        Finally, the <strong>ground</strong> &mdash; the blue that seeps around and between the rectangles. The blocks are not floating on top of a backdrop; the blue pushes up around their feathered edges so that they <strong>dissolve into it</strong>. That is why the whole picture reads as one continuous, breathing surface rather than shapes arranged on a background. Pull back the eighteen inches Rothko wanted, and the rust, the band, the blue-violet, and the blue field stop being four colored areas and become a single luminous wall.
+      </p>
+    </article>
+  )
+}
+
+function RthBreak({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The break · before" title="Color was the servant of something else" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>F</DropCap>
+        or most of the history of Western painting, <strong>color did a job for something else</strong>. It described an object, modeled the roundness of a body, filled in a drawn composition, set the mood for a scene. Whatever a picture made you feel was carried by what it <strong>depicted</strong>: a grieving face, a storm over a valley, a crucifixion. Even the first wave of abstraction kept this priority quietly in place. <strong>Kandinsky</strong> and <strong>Mondrian</strong> took recognizable things out of the picture, but they kept <strong>structure</strong> &mdash; line, geometry, balanced composition &mdash; as the load-bearing element, with color still functioning as an attribute of the shapes. The shape held the picture up; the color colored it in.
+      </p>
+
+      <SectionHeader accent={accent} label="The break · after" title="The whole emotional job, handed to color" />
+      <p style={proseStyle}>
+        Rothko takes out the object, the line, the drawn composition, and the horizon, and asks <strong>pure color, at enveloping scale, to carry the emotional content by itself</strong>. Three soft rectangles dissolving into a field are not a &ldquo;picture of&rdquo; anything. The composition isn&rsquo;t so much <em>balanced</em> as <em>dissolved</em> &mdash; edges feather, planes float, the ground pushes through. What is left is not an image to read but an <strong>encounter</strong>: you stand close, the color surrounds you, and the work is built to produce a felt state &mdash; awe, grief, elevation &mdash; rather than to be admired for its arrangement. The decisive claim is that a field of color, with nothing in it, can do the emotional work that a depicted figure used to do, and can be <strong>felt before it is understood</strong>.
+      </p>
+      <p style={proseStyle}>
+        That reframes abstraction itself. It stops being a <strong>formal exercise</strong> &mdash; an interesting problem in shape and balance &mdash; and becomes something closer to a <strong>spiritual or emotional event</strong>. This is the high statement of what the museums call Color Field painting, and it feeds straight into the next generation: the stained, soaked canvases of <strong>Helen Frankenthaler</strong> and <strong>Morris Louis</strong>, and the immersive rooms of color that reach their endpoint in the <strong>Rothko Chapel</strong> in Houston, a single dark space he was commissioned to design in 1964 and did not live to see open.
+      </p>
+
+      <SectionHeader accent={accent} label="The key statement" title="“Tragedy, ecstasy, doom”" />
+      <p style={proseStyle}>
+        The clearest account of what the pictures are <em>for</em> came from Rothko himself, in a conversation the critic <strong>Selden Rodman</strong> recorded in 1956 and published in his 1957 book <em>Conversations with Artists</em>. It is the canonical statement, and it is worth having in full, because it refuses the very reading most people reach for first:
+      </p>
+      <blockquote style={{ margin: '0 0 18px', padding: '4px 0 4px 18px', borderLeft: `3px solid ${accent}`, fontFamily: SERIF, fontSize: 18, lineHeight: 1.6, fontStyle: 'italic', color: INK }}>
+        <p style={{ margin: '0 0 12px' }}>I am not an abstractionist&hellip; I am not interested in the relationship of color or form or anything else. I&rsquo;m interested only in expressing basic human emotions &mdash; tragedy, ecstasy, doom and so on &mdash; and the fact that a lot of people break down and cry when confronted with my pictures shows that I communicate those basic human emotions&hellip; The people who weep before my pictures are having the same religious experience I had when I painted them. And if you, as you say, are moved only by their color relationships, then you miss the point.</p>
+      </blockquote>
+      <p style={proseStyle}>
+        That last line is the whole argument with the art history wrapped around him. <em>If you are moved only by their color relationships, then you miss the point.</em> The viewer he wanted was the one who broke down weeping in front of the canvas; the connoisseur admiring the lovely rust-against-blue was, in his view, looking straight past the thing the painting was made to do. It is also why the labels grate so badly: to call him a <strong>colorist</strong> is to praise him for exactly the surface he said was beside the point. The color is the means. The feeling is the end.
+      </p>
+      <p style={proseStyle}>
+        The line is misquoted constantly. Versions drop the &ldquo;and so on,&rdquo; or swap em-dashes for commas, or render the opening as &ldquo;the relationship of color <em>to</em> form&rdquo; &mdash; the reprinted Rodman wording is &ldquo;the relationship of color <strong>or</strong> form or anything else.&rdquo; And it comes from the 1956 Rodman conversation, not, as is sometimes claimed, from a 1947 essay or a wall text at the Museum of Modern Art.
+      </p>
+    </article>
+  )
+}
+
+function RthAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Provenance" title="No sale story, and one great collector" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>U</DropCap>
+        nlike a nineteenth-century picture with a long, gossipy chain of dealers and scandals, <em>No. 61</em> has a short and quiet life as an object: no famous first buyer, no auction-room drama, no renaming fight. It was painted in <strong>1953</strong>, in New York, in the middle of Rothko&rsquo;s most productive run of the stacked-rectangle pictures, and its history is mostly the history of one collection.
+      </p>
+      <p style={proseStyle}>
+        That collection belonged to <strong>Count Giuseppe Panza di Biumo</strong> (1923&ndash;2010), a Milanese collector who, from the late 1950s onward, assembled one of the most important private holdings of postwar American art anywhere in Europe &mdash; Abstract Expressionism first, then Pop and Minimalism. &ldquo;The Panza Collection&rdquo; became a name in its own right. Panza bought across the New York School with real conviction at a time when much of Europe still wasn&rsquo;t sure this work mattered, and the rust-and-blue Rothko was one of the pictures he held.
+      </p>
+
+      <SectionHeader accent={accent} label="MOCA · 1984" title="Into a museum that barely existed yet" />
+      <p style={proseStyle}>
+        In <strong>1984</strong>, the painting entered <strong>The Museum of Contemporary Art, Los Angeles</strong> &mdash; MOCA &mdash; as part of the museum&rsquo;s acquisition of a large block of the Panza Collection. MOCA was then a brand-new institution (founded in 1979, its permanent Grand Avenue building not yet open), and the Panza purchase was the foundational coup that gave the young museum a serious permanent collection overnight. The canvas carries the credit line &ldquo;The Museum of Contemporary Art, Los Angeles, The Panza Collection,&rdquo; accession number <strong>84.9</strong>, and it has been a MOCA picture ever since.
+      </p>
+      <p style={proseStyle}>
+        Because Rothko died in <strong>1970</strong>, the painting is still under copyright; it is administered by the artist&rsquo;s heirs, Kate Rothko Prizel and Christopher Rothko, through the Artists Rights Society in New York. (That is why you will see it reproduced small and credited, here and elsewhere, rather than splashed full-bleed: it is a living copyright, not a public-domain image.)
+      </p>
+
+      <SectionHeader accent={accent} label="What he refused" title="The murals he gave back" />
+      <p style={proseStyle}>
+        Two things from his last decade say more about what he thought these pictures were than any statement does. In <strong>1958</strong> he took a commission to paint a cycle of murals for the <strong>Four Seasons</strong> restaurant in the new Seagram Building in Manhattan &mdash; and then, after roughly two years of work and a dinner in the room, he handed the money back and withdrew the paintings, unable to stomach the idea of his work hanging as expensive decoration over the meals of the rich. (Nine of those murals became a quiet room of their own at the Tate in London.) The refusal is the clearest thing he ever did: if the paintings were only handsome color, there would have been nothing to refuse.
+      </p>
+
+      <SectionHeader accent={accent} label="The afterlife" title="The idea that outran the man" />
+      <p style={proseStyle}>
+        Rothko&rsquo;s own end was bleak &mdash; he took his life in his New York studio in 1970, at the height of his fame &mdash; but the move he made in pictures like this one only grew. The claim that a field of color, with nothing in it, could carry the emotional weight that a depicted figure used to carry turned out to be one of the most consequential ideas in postwar painting. It runs straight through the stained fields of <strong>Frankenthaler</strong> and the soaked veils of <strong>Morris Louis</strong>, and it reaches its purest form in the <strong>Rothko Chapel</strong> in Houston &mdash; an octagonal, non-denominational room of fourteen of his darkest canvases that he was commissioned to design in <strong>1964</strong> and controlled down to the architecture, the scale, and the light, building not a wall of pictures but a single space to stand inside. He did not live to see it open: it was dedicated in <strong>1971</strong>, a year after his death. People still enter it, sit, and weep &mdash; which was, by his own account, always the point.
+      </p>
+      <p style={proseStyle}>
+        And it is worth ending where the labels began, because the picture argues against them every time someone stands close to it. It is not, finally, a study in color relationships, however beautiful the rust against the blue happens to be. It is a tall, breathing field built to be felt before it is understood &mdash; one of the clearest cases anyone ever made that abstraction could be an emotional encounter and not just a formal one.
+      </p>
+    </article>
+  )
+}
+
+// REGISTRY (coordinator splices into NARRATIVES):
+//  'orange-yellow': { idiom: RthIdiom, making: RthMaking, looking: RthLooking, break: RthBreak, afterlife: RthAfterlife },
+
+// ─────────────────────────────────────────────────────────────
+// Vir Heroicus Sublimis (Barnett Newman, 1950–51) — the five chapters.
+// Nwm… prefix. NARRATIVES keys = section ids (sublime/making/looking/
+// parsons/afterlife). Key statement = Tate-confirmed The Sublime Is Now
+// fragment (1948); "zip" is Newman's own word; FIVE zips; the 1951 Betty
+// Parsons close-viewing notice is quoted verbatim as a real artifact.
+// NwmLooking's SectionHeader title MUST match the `looking` entry in the
+// PART-A sections[] array ("The field, the five zips, and the break").
+// ─────────────────────────────────────────────────────────────
+function NwmSublime({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="New York · December 1948" title="A painter writes that the sublime is now" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        wo years before he laid a brush on this canvas, <strong>Barnett Newman</strong> (1905&ndash;1970) published a short, combative essay. It ran in a little New York art magazine called <em>The Tiger&rsquo;s Eye</em> in December 1948, and it was titled <em>The Sublime Is Now</em>. Newman was a New York painter, the son of Polish-Jewish immigrants, in his early forties and not yet famous, working among the loose group of artists later called the <strong>Abstract Expressionists</strong> (Jackson Pollock, Mark Rothko, Willem de Kooning, and the rest, the first American painters to matter to the wider art world on their own terms). The essay was his manifesto, and this painting is that essay turned into red.
+      </p>
+      <p style={proseStyle}>
+        To feel the argument you need the word in the title. The <strong>sublime</strong> is an old idea in European art and philosophy: not mere beauty, which is pleasant and well-proportioned, but the <em>overwhelming</em>, the exalted, the sense of something vast and terrible and larger than yourself, the feeling you get standing under a thunderhead or at the lip of a canyon. For two centuries European painters had reached the sublime by <em>depicting</em> it, painting storms and Alps and shipwrecks inside a frame, a vastness shown to you through a window. Newman&rsquo;s claim was that this whole apparatus, the myth, the storm, the borrowed European grandeur, was no longer needed.
+      </p>
+      <p style={proseStyle}>
+        Here is the line that matters, the one the painting sets out to prove. Newman wrote that American painters were
+        {' '}<em>&ldquo;asserting man&rsquo;s desire for the exalted, for a&hellip; relationship to the absolute emotions.&rdquo;</em>{' '}
+        Strip the philosophy off it and the wager is simple and enormous: the exalted does not have to be inherited from Europe or pictured through nature. It can be <em>made</em>, here and now, out of nothing but pure painting and the encounter you have with it standing in the room. The sublime is not back then or over there. It is now.
+      </p>
+      <p style={proseStyle}>
+        That is a large promise for an essay to make, and Newman knew it sat there as a promissory note, the way Futurism&rsquo;s manifesto had sat unbacked until someone painted a canvas to cash it. He had to make a painting that produced the exalted directly, with no storm to lean on. In 1950 he started the biggest one he had ever attempted, and he gave it a Latin title that says the theme out loud: <em>Vir Heroicus Sublimis</em>, which translates as <strong>&ldquo;Man, Heroic and Sublime.&rdquo;</strong>
+      </p>
+    </article>
+  )
+}
+
+function NwmMaking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The making · 1950–51" title="One enormous red, and five marks" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>W</DropCap>
+        hat Newman built over 1950 and 1951 is, on paper, almost nothing. A single field of saturated <strong>red</strong>, close to a cadmium red, stretched across a canvas nearly <strong>eighteen feet wide and almost eight feet tall</strong>, over a hundred square feet of it. And running down through that red, five thin <strong>vertical bands</strong>, each only an inch or two wide. That is the entire painting. No figure. No horizon. No image of anything. The red, and the five marks.
+      </p>
+      <p style={proseStyle}>
+        The bands have a name, and it is Newman&rsquo;s own. He called them <strong>zips</strong>. Not a critic&rsquo;s coinage tacked on later, his word, for the vertical mark that had become the whole engine of his art. He had hit on it a few years earlier, around 1948, when a single band of tape down a small red canvas stopped being a division of the field and started being the thing the field was <em>about</em>. From then on the zip was his signature and his subject: a single upright mark, the trace of one human presence asserted against an undivided expanse. Newman tied it to the first act of creation in Genesis, light divided from dark, the first separating gesture, a single figure standing up in an empty world. He had even argued, in an earlier essay, that the first man was an artist. That is why the painting&rsquo;s title is about heroic man. The zip is the man.
+      </p>
+      <p style={proseStyle}>
+        Crucially, the five zips here are not a pattern. No two are alike. They differ in width, in color, and in how their edges are made: some are taped clean and sit crisp and flat on the surface; some are brushed and waver; one reads pale, almost like a gap of light, and another, darker, seems to sink a little behind the red. Newman placed them at uneven intervals, measured by eye, so that the spaces between them are charged, not regular. He cared about exactly where each one fell the way a composer cares about exactly where a beat lands.
+      </p>
+      <p style={proseStyle}>
+        And the red itself is worked, though you have to be close to see it. It looks, from across a room, like one flat machine-made wall of color. It is not. Newman is not a Rothko, whose color floats and feathers; his red is flatter and harder, his zips crisp where Rothko&rsquo;s rectangles dissolve. But the surface is not dead either, and that fact, how near you are meant to stand, turns out to be the whole point.
+      </p>
+    </article>
+  )
+}
+
+function NwmLooking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The canvas" title="The field, the five zips, and the break" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>S</DropCap>
+        tand in front of it, and the first thing to do is the hardest: let the red register as red. Almost the entire surface, edge to edge, nearly eighteen feet of it, is one saturated field of color, and your instinct will be to look <em>for</em> something in it, the way you look for the subject in a normal painting. There is nothing to find. No figure, no scene, no horizon. The quantity of red is itself the fact. Take it in as sheer color and sheer amount first, because the scale is doing work that a glance from across the room will miss.
+      </p>
+      <p style={proseStyle}>
+        Now find the marks. Five thin <strong>vertical bands</strong>, the zips, cut the red from top to bottom, spaced unevenly across the width. Count them; there are five, and they are easy to undercount because they are quiet against all that red. And once you have them, look at how unalike they are. Near the center-left, a pale, light zip reads almost like a seam of light, a gap between two planes of red. Just to its right, a darker maroon band seems to slip slightly <em>behind</em> the surface. Others sit crisp and flat on top of it; some edges are razor-clean, some waver and bleed. Each zip is its own event, none a repeat of the one before.
+      </p>
+      <p style={proseStyle}>
+        Look harder at the red between them. From a distance it pretends to be a dead, flat wall of color; up close it is nothing of the kind. The brushwork moves across the span in faint shifts of warmth and density, the red running a touch warmer where the brush dragged thick and cooler where it pulled thin, so the field acquires a slow, breathing life that is invisible from twenty feet away and only resolves when you are close enough to read the paint as paint. That difference, between the flat wall it looks like and the worked surface it is, is the first reason the distance you stand at decides what the painting can do.
+      </p>
+
+      <SectionHeader accent={accent} label="The break · scale" title="Why this is new: you stand inside it" />
+      <p style={proseStyle}>
+        Here is where the painting breaks with everything before it. Even the most radical European abstraction, Cubism&rsquo;s shards, Mondrian&rsquo;s grids, Kandinsky&rsquo;s color, still <strong>composed within the frame</strong>: an arrangement of forms balanced against each other, a designed object you read at a contemplative distance, a picture to stand back from. And the sublime, in that older tradition, was something a painter <em>depicted</em>, a storm or an Alp shown to you through the window of the canvas. Newman &mdash; alongside the other New York painters edging toward the bare color field in those same years, Clyfford Still and Mark Rothko among them, with Still usually credited as the first to arrive at it &mdash; threw out both halves of that. The undivided field was a discovery several of them reached at once; what is unmistakably Newman&rsquo;s is the zip, and the wager that the field could be made to deliver the <em>sublime</em>. There is almost nothing here to &ldquo;read,&rdquo; no composition of parts, just one immense color and a handful of upright marks. And he made the painting so large, and asked you to stand so near, that it stops being an object across the room and becomes a space you are standing <em>inside</em>.
+      </p>
+      <p style={proseStyle}>
+        That is the move: <strong>scale and immersion become the content</strong>, not the framing. At eighteen feet wide and seen from a few feet away, the red floods your entire field of vision until there is no edge, no &ldquo;outside&rdquo; the picture, nothing but the color and you in it. Your own bodily relation to the surface, the sense of being engulfed, <em>is</em> the subject. The size is not grandeur for show; it is the mechanism that produces the feeling. This is the wager of <em>The Sublime Is Now</em> made physical: the exalted is not pictured for you to look at, it is generated in the here-and-now encounter with the paint. Newman makes the sublime out of pure painting and your standing body, with no storm, no myth, and none of the borrowed weight of European tradition.
+      </p>
+      <p style={proseStyle}>
+        And the five zips are what keep the field from going inert. Their intervals are measured: they set up a near-perfect square at the center of the canvas and looser, asymmetrical spaces toward the edges, so the empty red stops being a blank and becomes a charged, articulated space. The marks do not decorate the red. They make it <em>register</em> as space and as human presence. Which is exactly why it misses the entire painting to call it a red picture with stripes. The verticals are not stripes; they are zips, charged with everything Newman packed into that word, and the red is not a background; it is the field they bring to life.
+      </p>
+    </article>
+  )
+}
+
+function NwmParsons({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Betty Parsons Gallery · 1951" title="A typed notice on the wall" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he painting was first shown in the spring of 1951, at the <strong>Betty Parsons Gallery</strong> in New York, the dealer who handled most of the Abstract Expressionists in those early years, in a Newman solo show that ran from 23 April to 12 May. And there Newman did something that takes the immersion out of the realm of interpretation and turns it into documented fact. He <strong>tacked a typed notice to the gallery wall.</strong>
+      </p>
+      <p style={proseStyle}>
+        The notice read:
+        {' '}<em>&ldquo;There is a tendency to look at large pictures from a distance. The large pictures in this exhibition are intended to be seen from a short distance.&rdquo;</em>{' '}
+        That is the whole instruction, in Newman&rsquo;s own deadpan. He was not asking you to admire the canvas from across the gallery like a normal big painting. He was telling you to walk up to it, close, closer than feels comfortable, until the red surrounded you and the painting became the environment you were standing in. The engulfment of standing close is not a clever modern theory laid on the work afterward. Newman asked for it, in writing, on the wall, the first time anyone saw the picture.
+      </p>
+      <p style={proseStyle}>
+        It is worth pausing on how odd that was. Painters do not usually post operating instructions. The notice tells you Newman knew the painting could fail if you treated it wrong, that taken in at a glance from twenty feet it really would flatten into a red wall with a few lines, the very thing his detractors accused it of being. Seen from a few feet, the same canvas does the thing it was built to do. The distance is not incidental to the work. It is part of the work, and Newman cared enough to spell it out.
+      </p>
+      <p style={proseStyle}>
+        Most viewers in 1951 did not get it. Color-field abstraction this severe, a single hue and a handful of marks, baffled even sympathetic critics, and Newman&rsquo;s reputation took years to catch up to the paintings. But the few who stood where he told them to stand reported the thing he was after: not a picture admired, but a space entered. That experience, the red closing over their whole field of view, is what the notice was protecting.
+      </p>
+    </article>
+  )
+}
+
+function NwmAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Provenance · c. 1961" title="The collector who lived with it" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>F</DropCap>
+        or its first decade the painting stayed with Newman. Then, around <strong>1961</strong>, it found the owner who would carry it the rest of the way: the New York collector <strong>Ben Heller</strong>, who bought it directly from the artist. (The <strong>provenance</strong>, the documented chain of who has owned a work of art from the artist&rsquo;s hand to now, is short and clean for this picture. No figure for the sale survives in the record, so none is given here.) Heller was one of the most committed private champions of the Abstract Expressionists, and he did the thing the painting most wanted: he <em>lived with it</em>, hung it at home, at the scale and the distance Newman intended.
+      </p>
+      <p style={proseStyle}>
+        In <strong>1969</strong>, Ben and Sally Heller gave the painting to the <strong>Museum of Modern Art</strong> in New York, where it has hung ever since. The credit line on the wall still reads, plainly, <em>&ldquo;Gift of Mr. and Mrs. Ben Heller.&rdquo;</em> Newman lived to see it enter the museum; he died the next year, in 1970, his standing as a major painter finally secure after the long years of being misread.
+      </p>
+      <p style={proseStyle}>
+        By the time the painting reached the museum, the younger artists were already looking at it. Where Newman&rsquo;s peers prized the loaded, gestural brushstroke, he had given the opposite: ruler-straight edges, a field barely inflected, a single hue held flat across an enormous surface. To the painters and sculptors who would soon be called the <strong>Minimalists</strong> &mdash; Frank Stella, Donald Judd, Carl Andre &mdash; that cool, impersonal severity read as a permission slip. They took the hard edge and the whole undivided field and dropped the sublime; the field, and scale as content, outlived the metaphysics Newman had built them for. The same flat-color field fed the strain of postwar abstraction called <strong>Color Field</strong> painting, the route that ran on through Kenneth Noland and others. Newman&rsquo;s wager about the exalted stayed his own, but the means he invented to make it became common property.
+      </p>
+      <p style={proseStyle}>
+        What the picture asks of the people who pass it at MoMA is exactly what the 1951 notice asked. Stand close. Let the red close over you until the edges fall away and you are not in front of a painting but inside a field of color held taut by five quiet marks. Newman bet, in an essay, that the exalted could be made now, out of pure paint and a standing body, with none of Europe&rsquo;s old machinery. <em>Vir Heroicus Sublimis</em> is the bet paid in full: man, heroic and sublime, not pictured for you, but produced in the room, the moment you walk up close.
+      </p>
+    </article>
+  )
+}
+
+// REGISTRY (coordinator splices into NARRATIVES):
+//  'vir-heroicus': { sublime: NwmSublime, making: NwmMaking, looking: NwmLooking, parsons: NwmParsons, afterlife: NwmAfterlife },
+
+// ─────────────────────────────────────────────────────────────
+// 1957-D No. 1 (Clyfford Still, 1957) — the five chapters
+// ─────────────────────────────────────────────────────────────
+function StlIndependent({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="New York · 1950s" title="The painter who quit the room" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>I</DropCap>
+        n the New York of the late 1940s and 1950s, a loose group of American painters were making the first art movement the United States could call its own, the one we now call <strong>Abstract Expressionism</strong> (abstract, meaning it pictures no recognizable thing; expressionist, meaning the picture is about feeling and force rather than likeness). <strong>Jackson Pollock</strong> dripped and flung paint across canvas on the floor. <strong>Mark Rothko</strong> stacked soft, glowing rectangles of color. <strong>Barnett Newman</strong> split a single field of color with a thin vertical stripe he called a &ldquo;zip.&rdquo; And among them, by reputation the least clubbable and most combative of them, was <strong>Clyfford Still</strong> (1904&ndash;1980), a painter from the rural northern plains who trusted almost no one and explained almost nothing.
+      </p>
+      <p style={proseStyle}>
+        Still was furiously independent, by temperament and on principle. He came to see the whole system that surrounds painting, the commercial galleries that sell it, the critics who interpret it, the collectors who trade it, as a machine that compromised the work and the viewer alike. So in the early 1950s he started pulling out of it. He cut his ties with commercial galleries. He <strong>declined to show his work in public from roughly 1952 to 1959</strong>, nearly seven years of silence in the middle of his most productive decade. He refused to explain his paintings, and he refused to give them descriptive names. In 1961 he would move to a farm near Westminster, Maryland, and step out of the New York scene almost entirely.
+      </p>
+      <p style={proseStyle}>
+        That refusal extended even to the titles. Still would not call a painting <em>Black and Yellow</em> or <em>Sublime</em> or anything that pointed at a subject or a mood. Instead he used flat, neutral codes built from the date: a year, a letter, a number. The painting in front of us is named <strong><em>1957-D No. 1</em></strong>, which tells you only that it was made in 1957 and nothing else. He said so plainly: he wanted his pictures &ldquo;without titles of any kind,&rdquo; because, in his own words, he wanted no <em>&ldquo;allusions to interfere with or assist the spectator.&rdquo;</em> A title is a hint, and Still refused to hint. You were to stand in front of the paint with no story handed to you, and deal with it on its own terms or not at all. These date-codes are not the same as the &ldquo;PH&rdquo; numbers sometimes attached to Still paintings. &ldquo;PH&rdquo; stands for PHotograph, an inventory number for the order in which works were photographed, a librarian&rsquo;s tool, not the artist&rsquo;s title. <em>1957-D No. 1</em> is a date-code, not a PH number.
+      </p>
+      <p style={proseStyle}>
+        So this is the man whose painting we are about to read: someone who walked out of the gallery, padlocked the explanations, stripped the titles down to a date, and dared you to make something of the silence. The picture is the same gesture as the life.
+      </p>
+    </article>
+  )
+}
+
+function StlMaking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The making · 1957" title="Paint laid on with a knife, not a brush" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>H</DropCap>
+        ow it is physically made is half the meaning. Most oil paintings are <strong>brushed</strong>: pigment carried across the canvas in strokes, thin enough that the picture sits more or less flat on the surface. Still did something else. He worked much of this paint on with a <strong>palette knife</strong> (a flat, blunt blade, like a small flexible trowel), pushing thick oil across the canvas in heavy, crusted layers. This is <strong>impasto</strong>, paint laid on so thick it stands up off the surface in ridges, and Still uses it not as an accent but as the whole skin of the picture. Up close the surface is built up, tactile, the drag-marks of the knife frozen in the buildup. The painting is, in a real sense, a crust.
+      </p>
+      <p style={proseStyle}>
+        And the colored areas do not end the way painted shapes usually end. There is no clean outline, no drawn boundary, nothing ruled. Where one color meets another, the edge is <strong>torn</strong>: ragged, irregular, flame-like, the way a sheet of paper rips rather than the way a line is drawn. Still does this on purpose and does it everywhere, so that a field of yellow seems to have been peeled out of the black around it, or the black to have been pulled back to reveal the yellow underneath. The picture reads as one continuous skin of color that has been <em>ripped open</em>, not as a set of shapes arranged on a backdrop.
+      </p>
+
+      <SectionHeader accent={accent} label="A field, not an arrangement" title="Why there is no “composition” to find" />
+      <p style={proseStyle}>
+        That word, <strong>field</strong>, is the one to hold onto, because it marks how different this is from almost everything that came before it. For centuries a picture was an <em>arrangement</em>: things placed within the frame, balanced against one another, a subject set off against a background, the whole worked into a resolved design. Even the abstraction around Still kept some of that logic, Rothko&rsquo;s rectangles hovering in their soft order, Newman&rsquo;s single zip dividing a calm plane. Still threw the arrangement out. He built instead an all-over field, color spread edge to edge with no center to settle on, no figure standing in front of a ground, no balanced design to admire. The eye finds no comfortable place to rest, because there is no arrangement to read, only a surface and its rifts.
+      </p>
+      <p style={proseStyle}>
+        So the making and the meaning are the same fact. The troweled crust, the torn edges, the refusal of a composition: each is a way of insisting that the painting is not a designed picture of anything but a raw, continuous thing in its own right.
+      </p>
+    </article>
+  )
+}
+
+function StlLooking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The canvas" title="A wall of black, torn open to yellow" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>S</DropCap>
+        tand in front of it, and the first fact is the size. The canvas is roughly <strong>nine and a half feet tall by thirteen and a quarter feet wide</strong>, a wall of a painting that exceeds your own body and fills your field of vision. You cannot take it in with a glance, and you are not meant to. It is built to be stood <em>before</em>, the way you stand before a cliff face, rather than looked <em>at</em> from across the room. The scale is part of the content: the field is large enough to surround you.
+      </p>
+      <p style={proseStyle}>
+        Then the color. The picture is dominated by <strong>black</strong>, a deep, encompassing, matte black that takes up most of the canvas. Torn up through it, mostly vertical, are jagged shards of <strong>yellow and beige</strong>, the largest of them breaking upward like sheets of light pulled apart in the dark. Across the yellow, here and there, are small <strong>flecks of white</strong>, stranded bright against the surrounding color. And in a few places, low down, the raw <strong>unpainted canvas</strong> is simply left showing, pale fabric breathing through the black. That is the whole inventory: black, yellow, beige, a few white flecks, some bare cloth. There is nothing to recognize and nothing to name.
+      </p>
+
+      <SectionHeader accent={accent} label="The edges" title="Every boundary is a tear" />
+      <p style={proseStyle}>
+        Nowhere does the yellow meet the black in a clean line. The boundary is ragged and irregular, like torn paper or the licking edge of a flame, never ruled, never drawn. This is the thing that defines a Still: the field looks <em>ripped</em>, not designed. The yellow does not sit on top of the black like a shape on a background; the two interlock along a torn seam, as if the surface were a single skin that had been pulled apart. People reach for images to describe it, cliffs, peeling bark, a wound, jagged lightning, and any of those can help you feel it, but the plain fact on the canvas is simply the torn edge, repeated all across the picture.
+      </p>
+
+      <SectionHeader accent={accent} label="The surface" title="A black that swallows the light" />
+      <p style={proseStyle}>
+        The surface does something deliberate with light. The black is not glossy. It is <strong>matte</strong>, dry, absorbent, so it takes the light in rather than bouncing it back at you. The picture does not gleam; it sits there and swallows the room&rsquo;s light like a hole. That dullness is deliberate and it is doing work: it gives the black its somber, heavy, anti-decorative weight, more like a flat absorbing wall than a polished object made to be admired. And up close that same surface is thick and crusted, the troweled ridges of the palette knife standing off the canvas, so the painting is felt as a built-up mass of paint as much as it is seen as an image.
+      </p>
+      <p style={proseStyle}>
+        The sum of it: a field of black the size of a wall, torn open by verticals of yellow, matte and light-swallowing, with no figure, no horizon, no object, no symbol, and a title that is only a date. You are left with color, torn edge, scale, and weight, and nothing else to hold. What that refusal of everything else means is the work the next section takes up.
+      </p>
+    </article>
+  )
+}
+
+function StlBreak({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The break · before" title="A picture had always been an arrangement" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        o feel why this counts as a break, set it against what painting had been. For centuries, and right up to the abstraction of Still&rsquo;s own moment, a picture was understood as an <strong>arrangement</strong>: parts placed within a frame and balanced against each other, a subject set off against its background, the whole resolved into a design. That inheritance came down from the European tradition, where the job of a painter was to compose, to arrange a scene so the eye could read it as a balanced, resolved order. Even the new abstraction around him kept that logic in part: Rothko&rsquo;s rectangles hover in their soft hierarchy, Newman divides a single field with his vertical zip. There is still, in each, a sense of parts in relation, of a design you can read.
+      </p>
+
+      <SectionHeader accent={accent} label="The break" title="One torn field, running to the edge" />
+      <p style={proseStyle}>
+        Still threw the arrangement out. He built an <strong>all-over field made of torn, vertical color-shards</strong>, troweled and ripped rather than drawn and composed, so the picture reads as a single continuous skin punctured by rifts rather than as a set of related shapes. And with that, several things that had defined a painting are simply gone. There is <strong>no central motif</strong>, nothing the picture is &ldquo;of.&rdquo; There is <strong>no figure against a ground</strong>, no hierarchy of important shape over backdrop. There is <strong>no balanced design</strong>: the field just runs to the frame, and seems to strain against its edges, as though it would keep going past them if the canvas let it. He refused the European idea of the picture as a composed arrangement, and he refused it completely.
+      </p>
+      <p style={proseStyle}>
+        But the deeper break is in what Still asked abstraction to <em>be</em>. He did not treat it as a new style, one more way of arranging paint. He pushed it past style into an uncompromising existential claim, the painting as a raw, sublime, almost moral force rather than a designed and decorative object. And he matched that claim with his life: walking out of the galleries, refusing the titles, sealing his estate. The painting and the stance are one gesture. Where the European tradition had composed and balanced and resolved, Still rejected both the inherited <strong>composition</strong> and the <strong>art market</strong> at once, and put a wall of torn black in their place.
+      </p>
+      <p style={proseStyle}>
+        Still also believed he had gotten there first. He held that he, not Rothko or Newman, had broken through to the torn, edge-to-edge color field, and that the others were latecomers to ground he had already opened; he even thought Newman&rsquo;s vertical line was lifted from him. Art history half agrees: a real strand of it credits Still as the earliest of the field-painters to arrive at this kind of abstraction, working at a deliberate distance from New York. But it is contested, and it was his grievance as much as a settled fact, so it stands as his claim and the field&rsquo;s partial nod to it, not a scoreboard.
+      </p>
+
+      <SectionHeader accent={accent} label="In his own words" title="“Fuse into a living spirit”" />
+      <p style={proseStyle}>
+        Still rarely explained himself, which makes the one statement he kept returning to worth quoting exactly. He wanted the paint to stop being merely paint and become something more:
+      </p>
+      <blockquote style={{ margin: '0 0 18px', padding: '4px 0 4px 18px', borderLeft: `3px solid ${accent}`, fontFamily: SERIF, fontSize: 18, lineHeight: 1.6, fontStyle: 'italic', color: INK }}>
+        &ldquo;I never wanted color to be color. I never wanted texture to be texture, or images to become shapes. I wanted them all to fuse into a living spirit.&rdquo;
+        <span style={{ display: 'block', marginTop: 8, fontStyle: 'normal', fontSize: 14, color: MUTED }}>&mdash; Clyfford Still (Clyfford Still Museum Archives)</span>
+      </blockquote>
+      <p style={proseStyle}>
+        Against the canvas it lines up exactly. Not color as decoration, not texture as effect, not shapes to be arranged, but black and yellow and crusted paint fused into one charged, continuous thing. (His other famous line, that his pictures were &ldquo;life and death merging in fearful union,&rdquo; is a separate statement, made about other work, not this same sentence.) What follows from the break is the movement it helped open: the torn, full-bleed color field, alongside Rothko and Newman, pointed the way to <strong>Color Field painting</strong> and to abstraction as a total environment you stand inside, a moral and existential claim rather than a designed picture.
+      </p>
+    </article>
+  )
+}
+
+function StlAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Provenance · 1959" title="The city he decided to trust" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>F</DropCap>
+        or a man who refused the art world, Still made one large exception, and it explains where this painting hangs. The <strong>provenance</strong>, the documented chain of who has owned a work from the artist&rsquo;s hand to now, is short here. Still painted <em>1957-D No. 1</em> in 1957. Two years later, in <strong>1959</strong>, it was acquired and given to the <strong>Albright-Knox Art Gallery</strong> in Buffalo, New York, by <strong>Seymour H. Knox, Jr.</strong>, the museum&rsquo;s board president, whose name is on the credit line to this day: <em>Gift of Seymour H. Knox, Jr., 1959.</em>
+      </p>
+      <p style={proseStyle}>
+        That gift was the start of a bond between the wary painter and one museum. The Albright-Knox&rsquo;s director, <strong>Gordon M. Smith</strong>, and Knox courted Still&rsquo;s trust over years, and in 1959 Smith handed Still complete control to stage his first large-scale museum survey, the show that broke his seven-year public silence. Satisfied with how Buffalo handled his work, Still later gave the museum <strong>31 of his own paintings in 1964</strong> (a separate event from Knox&rsquo;s 1959 gift, and easy to confuse with it). Between the two, Buffalo became the great public holder of his art for decades. The institution is the same one, expanded and renamed the <strong>Buffalo AKG Art Museum</strong> in 2023, where <em>1957-D No. 1</em> hangs now.
+      </p>
+
+      <SectionHeader accent={accent} label="The sealed estate" title="The work he kept from the world" />
+      <p style={proseStyle}>
+        Buffalo got what it got because Still trusted it. Almost everything else, he sealed away. He kept the bulk of his output out of galleries and out of sale during his lifetime, and willed it intact to a single American city, on the condition it be kept together. So when he died in 1980, the vast majority of what he had made, <strong>roughly 95% of his lifetime output</strong> (something on the order of 825 paintings, plus well over a thousand works on paper), was simply unseen. It stayed that way for three decades, until the <strong>Clyfford Still Museum</strong> opened in <strong>Denver in 2011</strong>, built to house that sealed estate and finally show it.
+      </p>
+      <p style={proseStyle}>
+        It is a fitting end for the painting and the man. The picture refuses to be a designed image, refuses a title, refuses to explain; the painter refused the galleries, refused the critics, and refused to let most of his work be seen at all on anyone&rsquo;s terms but his own. <em>1957-D No. 1</em> is one of the few he let out into the world, and it carries the whole stance in it: a wall of torn black, nine by thirteen feet, that asks nothing of you and hands you nothing, and waits to be stood in front of.
+      </p>
+    </article>
+  )
+}
+
+// REGISTRY (coordinator splices into NARRATIVES):
+//  'still-cliff': { independent: StlIndependent, making: StlMaking, looking: StlLooking, break: StlBreak, afterlife: StlAfterlife },
+
 const NARRATIVES: Record<string, Record<string, NarrativeFn>> = {
+  'autumn-rhythm': { floor: ArhFloor, making: ArhMaking, looking: ArhLooking, break: ArhBreak, afterlife: ArhAfterlife },
+  'woman-i': { figure: WmnFigure, making: WmnMaking, looking: WmnLooking, break: WmnBreak, afterlife: WmnAfterlife },
+  'orange-yellow': { idiom: RthIdiom, making: RthMaking, looking: RthLooking, break: RthBreak, afterlife: RthAfterlife },
+  'vir-heroicus': { sublime: NwmSublime, making: NwmMaking, looking: NwmLooking, parsons: NwmParsons, afterlife: NwmAfterlife },
+  'still-cliff': { independent: StlIndependent, making: StlMaking, looking: StlLooking, break: StlBreak, afterlife: StlAfterlife },
+
   'object-fur': { cafe: ObjCafe, making: ObjMaking, looking: ObjLooking, break: ObjBreak, afterlife: ObjAfterlife },
   'carrington-self': { arrival: CarArrival, making: CarMaking, looking: CarLooking, break: CarBreak, afterlife: CarAfterlife },
   'tanguy-divis': { world: TanWorld, making: TanMaking, break: TanBreak, looking: TanLooking, afterlife: TanAfterlife },
