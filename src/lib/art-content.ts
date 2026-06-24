@@ -7010,5 +7010,406 @@ export const DAUM: ArtWorkContent = {
   },
 }
 
-export const ART_WORK_CONTENT: Record<string, ArtWorkContent> = { burial: BURIAL, demoiselles: DEMOISELLES, kahnweiler: KAHNWEILER, 'chair-caning': CHAIR_CANING, horta: HORTA, 'violin-jug': VIOLIN_JUG, 'three-women': THREE_WOMEN, 'the-portuguese': THE_PORTUGUESE, 'gris-breakfast': GRIS_BREAKFAST, 'three-musicians': THREE_MUSICIANS, 'stone-breakers': STONE_BREAKERS, studio: STUDIO, sower: SOWER, gleaners: GLEANERS, angelus: ANGELUS, gargantua: GARGANTUA, carriage: CARRIAGE, 'horse-fair': HORSE_FAIR, 'impression-sunrise': IMPRESSION_SUNRISE, grenouillere: GRENOUILLERE, cradle: CRADLE, 'moulin-galette': MOULIN_GALETTE, 'paris-street': PARIS_STREET, 'dance-class': DANCE_CLASS, absinthe: ABSINTHE, 'boating-party': BOATING_PARTY, 'gare-saint-lazare': GARE_SAINT_LAZARE, 'starry-night': STARRY_NIGHT, 'bedroom-arles': BEDROOM_ARLES, 'grande-jatte': GRANDE_JATTE, 'bathers-asnieres': BATHERS_ASNIERES, 'card-players': CARD_PLAYERS, 'mont-sainte-victoire-lauves': MONT_SAINTE_VICTOIRE_LAUVES, 'vision-sermon': VISION_SERMON, 'moulin-rouge': MOULIN_ROUGE, 'where-do-we-come-from': WHERE_DO_WE_COME_FROM, hat: WOMAN_WITH_A_HAT, 'green-stripe': GREEN_STRIPE, bonheur: BONHEUR, luxe: LUXE, 'open-window': OPEN_WINDOW, 'blue-nude': BLUE_NUDE, chatou: CHATOU, 'charing-cross': CHARING_CROSS, 'rue-pavoisee': RUE_PAVOISEE, 'city-rises': CITY_RISES, dog: DOG, galli: GALLI, cyclist: CYCLIST, 'unique-forms': UNIQUE_FORMS, farewells: FAREWELLS, 'bal-tabarin': BAL_TABARIN, automobile: AUTOMOBILE, 'abstract-speed': ABSTRACT_SPEED, fountain: FOUNTAIN, lhooq: LHOOQ, 'kitchen-knife': KITCHEN_KNIFE, 'mechanical-head': MECHANICAL_HEAD, 'hat-makes-man': HAT_MAKES_MAN, stieglitz: STIEGLITZ, celebes: CELEBES, 'sainte-vierge': SAINTE_VIERGE, daum: DAUM }
+export const SONG_OF_LOVE: ArtWorkContent = {
+  id: 'song-of-love',
+  name: 'The Song of Love',
+  shortName: 'The Song of Love',
+  year: 1914,
+  artist: 'Giorgio de Chirico',
+  artistId: 'de-chirico',
+  // chain tag only — de Chirico is a Metaphysical FORERUNNER, NOT a Surrealist; see SngMetaphysical
+  movement: 'Surrealism',
+  movementId: 'sur',
+  era: 'Modern',
+  eraId: 'mod',
+  medium: 'Oil on canvas',
+  dimensions: '2 ft 4 3/4 in × 1 ft 11 1/4 in', // 73 × 59.1 cm, portrait
+  location: 'Museum of Modern Art, New York',
+  acquired: 'Nelson A. Rockefeller Bequest, 1979 (acc. 950.1979)',
+  accent: ART_ACCENTS.green,
+  chain: { name: 'Works of Surrealism', index: 1, total: 9 },
+  hook: 'A Greek marble head, a pink rubber surgical glove, and a green ball, nailed together on a wall in an empty sunlit square, painted a decade before Surrealism existed by a man who was never a Surrealist.',
+  heroImage: ART_IMG.chiricoSongLove,
+  heroCredit: 'de Chirico, The Song of Love, 1914 · MoMA, New York',
+  heroAspect: 0.81, // 59.1 × 73 cm → W/H ≈ 0.81, portrait
+  heroFit: 'contain', // the whole small upright panel, never cropped
+  rights: 'pd-us', // published 1914 → US public domain (pre-1929)
+  stats: [
+    { v: '1914', k: 'Painted' },
+    { v: '2′4¾″ × 1′11¼″', k: 'Dimensions' },
+    { v: 'MoMA', k: 'Now at' },
+  ],
+  sections: [
+    { id: 'metaphysical', eyebrow: 'Paris · 1914', dateLabel: 'June–July 1914', title: 'A painter making a private weather', blurb: 'In Paris, an Italian raised in Greece is making small pictures of silent arcaded squares lit by a hard, sourceless noon. He calls it Metaphysical painting, and he wants one thing from it: the enigma, the sense that an ordinary place is hiding something it will not say.', progress: 0.08 },
+    { id: 'making', eyebrow: 'The making', dateLabel: 'mid-1914', title: 'Nailing unrelated things to a wall', blurb: 'On a low wall in an open architectural setting de Chirico fixes a plaster classical head, an oversized rubber surgeon’s glove, and sets a green ball on the ground below. The poet Apollinaire noted that summer that de Chirico had bought the glove for exactly the strangeness it would lend the pictures.', progress: 0.32 },
+    { id: 'looking', eyebrow: 'The canvas', dateLabel: '2 ft 4 3/4 in × 1 ft 11 1/4 in', title: 'The head, the glove, the ball, the train', blurb: 'A small upright panel, under two and a half feet tall: the antique head and the pink glove tacked to the wall, the green sphere on the ground, the arcade framing the space, and a tiny locomotive trailing smoke on the horizon. Everything calm, legible, and wrong.', progress: 0.56 },
+    { id: 'break', eyebrow: 'The break', dateLabel: '1914 vs 1924', title: 'A bridge built before there was a road', blurb: 'The picture fuses unrelated objects by dream-logic, not by subject or place, and renders the impossible with deadpan clarity. That is the operating principle Surrealism would build on, except de Chirico did it ten years early. The break here predates the movement it belongs to.', progress: 0.78 },
+    { id: 'afterlife', eyebrow: 'After', dateLabel: '1922–today', title: 'The reproduction that turned Magritte', blurb: 'In 1922 the poet Marcel Lecomte showed René Magritte a reproduction of this picture, and Magritte said his eyes saw thought for the first time. The canvas passed through the Paris trade to Nelson Rockefeller, who bought it in 1950 and left it to MoMA in 1979, where it hangs now.', progress: 0.96 },
+  ],
+  provenance: [
+    { year: '1914', who: 'Giorgio de Chirico (the artist)', place: 'Paris', note: 'Painted in Paris, June–July 1914, during de Chirico’s metaphysical period before the First World War scattered the Paris avant-garde.', price: null },
+    { year: 'by 1928', who: 'Paul Guillaume, then Marcel Raval', place: 'Paris', note: 'The picture passed from de Chirico through the Paris dealer Paul Guillaume (whom Apollinaire had introduced to de Chirico in 1914), then to the dealer Marcel Raval by 1928.', price: null },
+    { year: '1950', who: 'Nelson A. Rockefeller', place: 'New York', note: 'Bought by the American collector and politician Nelson A. Rockefeller from Marcel Raval in October 1950. No purchase figure survives in the record, so the price is left blank.', price: null },
+    { year: '1979–today', who: 'Museum of Modern Art', place: 'New York', note: 'Acquired by MoMA in 1979 by bequest, on Rockefeller’s death. Credit line: Nelson A. Rockefeller Bequest; accession 950.1979. On view.', price: 'bequest', museum: true },
+  ],
+  figures: [
+    { name: 'Giorgio de Chirico', role: 'The painter', palette: ['#3a5a6a', '#7a6a4a', '#1c1a14'] },
+    { name: 'Guillaume Apollinaire', role: 'Poet · noted the pink glove', palette: ['#5a6a72', '#2e3a42', '#0e1014'] },
+    { name: 'René Magritte', role: 'Turned to Surrealism by a reproduction', palette: ['#3a4a6a', '#2e3848', '#0e1220'] },
+    { name: 'Marcel Lecomte', role: 'Showed Magritte the reproduction', palette: ['#6a7250', '#3a3c28', '#14140e'] },
+    { name: 'Nelson A. Rockefeller', role: 'Owner · bequeathed it to MoMA', palette: ['#8a7a52', '#4a3c22', '#15110a'] },
+  ],
+  annotations: [
+    { label: 'The pink rubber glove', where: 'Left of center, tacked flat to the wall: a large, limp surgeon’s glove hanging like a pinned specimen', detail: 'A big rubber surgeon’s glove is nailed to the wall, fingers drooping, the single most unsettling thing in the picture. It is a hollow mould of a hand, so it reads as the absence of the person who should be inside it. Sources call it red or pink (Apollinaire, who knew de Chirico that summer, called it pink), so it reads pink or red rather than one colour fixed as documented fact.' },
+    { label: 'The marble head', where: 'Upper left, fixed to the same wall beside the glove: a serene classical sculpted head in profile', detail: 'Beside the glove hangs the white head of a classical statue, calm and idealized, a relic of antiquity set against the modern glove. Secondary scholarship overwhelmingly identifies it as the Apollo Belvedere, the famous Roman marble; MoMA’s own short description keeps it generic, a classical Greek head. The hedged reading is the honest one: a classical head, commonly called the Apollo Belvedere, not labelled so by the museum.' },
+    { label: 'The green ball', where: 'Lower center, on the ground below the wall: a single plain green sphere', detail: 'A green ball sits on the paving below the wall, almost toy-like, with nothing to explain why it is there. Its very plainness deepens the strangeness of its company, an ordinary round object keeping silent company with a god’s head and a surgical glove.' },
+    { label: 'The wall and the arcade', where: 'Filling the picture: the low wall the objects hang on, and the arcaded building framing the space around it', detail: 'The objects are mounted on a low wall, and an arcaded building (a row of arches on columns) frames the open space, a recurring de Chirico stage-set. The light is hard and sourceless, a flat noon that flattens every surface and throws long shadows, so the square feels deserted and over-lit at once.' },
+    { label: 'The little train on the horizon', where: 'Upper right, far back over the wall: a small locomotive trailing a plume of smoke under a hard blue sky', detail: 'Over the wall, on the horizon, a small locomotive pulls a line of smoke across a bright sky. The railway recurs all through de Chirico’s early work and is usually read as a nod to his father, Evaristo, a railway engineer who built lines in Greece, where the artist was born. The autobiography is a common reading rather than a certain fact; what is plainly there is a modern, moving train pulled into a still dream.' },
+    { label: 'The deadpan stillness', where: 'The picture as a whole: small in scale, calm in finish, rendered with diagrammatic clarity', detail: 'Everything is painted with a flat, almost diagrammatic calm at small scale, under two and a half feet tall. The unease does not come from any visual distortion (nothing is smeared or fractured) but from how reasonably impossible things are shown. The calm legibility is the trap, and it is exactly what reproductions lose, since they tend to make the small panel feel monumental.' },
+  ],
+  lineage: {
+    parents: [
+      { label: 'Metaphysical painting', mode: 'art' },
+      { label: 'Böcklin’s symbolist dreamscapes', mode: 'art' },
+      { label: 'Nietzsche’s enigma', mode: 'art' },
+      { label: 'The Italian arcaded piazza', mode: 'civ' },
+    ],
+    children: [
+      { label: 'Surrealism', mode: 'art' },
+      { label: 'Magritte’s painted impossibilities', mode: 'art' },
+      { label: 'The dream image in modern art', mode: 'art' },
+    ],
+  },
+}
+
+export const HARLEQUIN: ArtWorkContent = {
+  id: 'harlequin',
+  name: 'The Harlequin’s Carnival',
+  shortName: 'Harlequin’s Carnival',
+  year: 1925,
+  artist: 'Joan Miró',
+  artistId: 'miro',
+  movement: 'Surrealism',
+  movementId: 'sur',
+  era: 'Modern',
+  eraId: 'mod',
+  medium: 'Oil on canvas',
+  dimensions: '2 ft 2 in × 3 ft 5/8 in',
+  location: 'Buffalo AKG Art Museum, Buffalo',
+  acquired: 'Room of Contemporary Art Fund, 1940',
+  accent: ART_ACCENTS.green,
+  chain: { name: 'Works of Surrealism', index: 2, total: 9 },
+  hook: 'A small room boiling over with squiggles, single eyes and ears, drifting musical notes and half-animal sprites, painted, Miró said, out of the hallucinations his own hunger produced. The founding picture of Surrealism’s playful, automatist stream.',
+  heroImage: ART_IMG.miroHarlequin,
+  heroCredit: 'Miró, The Harlequin’s Carnival, 1924–25 · Buffalo AKG Art Museum',
+  heroAspect: 1.39, // 66 × 93 cm → W/H ≈ 1.41 (museum), landscape; framed crop ≈ 1.39
+  heroFit: 'contain', // the whole small canvas, never cropped
+  rights: 'pd-us',
+  stats: [
+    { v: '1924–25', k: 'Painted' },
+    { v: '2′2″ × 3′⅝″', k: 'Dimensions' },
+    { v: 'Buffalo AKG', k: 'Now at' },
+  ],
+  sections: [
+    { id: 'paris', eyebrow: 'Paris · 1924–25', dateLabel: '1924–1925', title: 'A starving painter in a Surrealist Paris', blurb: 'Joan Miró is in Paris just as André Breton publishes the first Manifesto of Surrealism, the document that puts dreams, the unconscious, and automatism (letting the hand draw without a plan) at the center of art. He works at the heart of the circle forming around it, and he is also too poor to eat properly, and that hunger is about to walk straight into the painting.', progress: 0.08 },
+    { id: 'making', eyebrow: 'The making', dateLabel: '1924–1925', title: 'Hunger, a trance, and a carefully built picture', blurb: 'Miró said the imagery came from hallucinations brought on by his hunger, not from his dreams, and that he distanced himself from the pure dream-painting Breton’s circle wanted. But the canvas that looks so spontaneous was, by his own account, meditated on at length and revised as he worked. Source and execution are two different things here.', progress: 0.32 },
+    { id: 'looking', eyebrow: 'The canvas', dateLabel: '2 ft 2 in × 3 ft 5/8 in', title: 'A room full of living squiggles', blurb: 'The moustached harlequin with his pipe, the ladder that carries an eye and an ear, the cat batting a ball of yarn, the black notes drifting in the air, the window with its dark triangle and globe, and the swarm of small biomorphic creatures that fill every inch of the room.', progress: 0.56 },
+    { id: 'break', eyebrow: 'The break', dateLabel: '1924–1925', title: 'From the still life on the table to the dream in the air', blurb: 'For centuries a picture organized itself around recognizable things in real space; even Cubism fractured real guitars and bottles. Miró floats an invented vocabulary of biomorphic shapes that answers to no observed scene. He swaps the sober academic still life for a weightless little universe where objects are alive. That is the break.', progress: 0.78 },
+    { id: 'afterlife', eyebrow: 'After', dateLabel: '1940–today', title: 'How a Paris dream-room reached Buffalo', blurb: 'Held up as one of the touchstone early Surrealist paintings and among Miró’s greatest works, the canvas entered the Albright-Knox Art Gallery (now the Buffalo AKG Art Museum) in 1940, through the museum’s pioneering Room of Contemporary Art Fund, where it has stayed ever since.', progress: 0.96 },
+  ],
+  provenance: [
+    { year: '1924–1940', who: 'Joan Miró (the artist), then Paris dealers/collectors', place: 'Paris', note: 'Painted in Paris across 1924–25. The early ownership chain before 1940 (the Paris dealers and collectors who handled it in the 1920s–30s) is not pinned down in the sources used here, so it is left unstated rather than invented.', price: null },
+    { year: '1940–today', who: 'Albright-Knox Art Gallery / Buffalo AKG Art Museum', place: 'Buffalo, New York', note: 'Entered the Albright-Knox Art Gallery (renamed the Buffalo AKG Art Museum in 2023) in 1940, through the museum’s Room of Contemporary Art Fund, an early endowment dedicated to buying living artists. Accession RCA1940:8. On view.', price: 'Room of Contemporary Art Fund (museum purchase)', museum: true },
+  ],
+  figures: [
+    { name: 'Joan Miró', role: 'The painter', palette: ['#bf2f25', '#1d4ed8', '#c8b84a'] },
+    { name: 'André Breton', role: 'Wrote the Surrealist manifesto', palette: ['#1c3a6a', '#2e3848', '#0e1220'] },
+    { name: 'The Harlequin', role: 'Commedia clown, reimagined', palette: ['#bf2f25', '#1d4ed8', '#1c1208'] },
+    { name: 'Room of Contemporary Art', role: 'The 1940 fund that bought it', palette: ['#3a5a3a', '#2a3a28', '#0e140e'] },
+  ],
+  annotations: [
+    { label: 'The moustached harlequin', where: 'Center-left, a tall guitar-shaped figure standing upright, wearing the costume cues', detail: 'The traditional commedia-dell’arte Harlequin (the diamond-patterned clown of old Italian comedy) reimagined as a near-musical body. He wears a face split red on one side and blue on the other, a diamond-patterned tunic, a curling moustache, and smokes a pipe; some accounts add a small admiral’s hat. There is a dark hole in his belly, commonly read as a sign of Miró’s own hunger and poverty in this period. The costume cues are on the canvas; the belly-hole-as-hunger is a reading the museum offers, not a label painted on it.' },
+    { label: 'The ladder with an eye and an ear', where: 'Left side, a ladder standing on its own', detail: 'A ladder that is also a creature: it carries a single eye and a single ear, an everyday object given sense organs. The ladder is a motif Miró returned to again and again, usually read as a sign of flight, escape, or climbing toward something. Here it stands and looks back at you, which is exactly the kind of impossible aliveness the whole room runs on.' },
+    { label: 'The cat and the ball of yarn', where: 'Lower right, a cat-like creature playing with a round, threaded shape', detail: 'A cat-like sprite bats at what looks like a ball of wool or yarn. Miró’s own writing about the painting talks about a ball of yarn and cats, so the motif is his, not a museum invention, though the exact wording of that passage wobbles between sources and is best treated as a vivid description rather than a fixed quote. On the canvas: a cat, and something round it is playing with.' },
+    { label: 'Musical notes in the air', where: 'Drifting through the upper and central room', detail: 'Small black musical notes float free in the room. The museum describes the revelers “playing, singing, dancing, and celebrating, with music literally in the air,” and the notes are the literal sign of that: the whole scene is a noisy carnival of sound, a party you are meant to half-hear.' },
+    { label: 'The window with the black triangle and globe', where: 'Upper right, an opening onto a sky', detail: 'An opening reads as a window onto a small patch of sky. Inside it sit a dark triangle and a round dark sphere or globe. The triangle is often read as the Eiffel Tower (a nod to the Paris setting) and the sphere as the world or the globe, but those are the standard interpretations rather than facts the museum states, so hold them as “commonly read as,” not as caption.' },
+    { label: 'The swarm of small creatures', where: 'Filling the rest of the room, top to bottom', detail: 'Every remaining inch teems with small hybrid sprites: half-animal, half-human, half-object shapes, plus insects, fish, and winged beings, all playing and singing and dancing. The museum calls them hybrid creatures with the characteristics of both humans and animals. This biomorphic crowd (biomorphic meaning soft, rounded, organic, life-like shapes) is the carnival itself.' },
+  ],
+  lineage: {
+    parents: [
+      { label: 'Breton’s Surrealist manifesto', mode: 'art' },
+      { label: 'Automatism', mode: 'art' },
+      { label: 'Paris in the 1920s', mode: 'civ' },
+    ],
+    children: [
+      { label: 'Miró’s biomorphic language', mode: 'art' },
+      { label: 'Abstract Expressionism', mode: 'art' },
+      { label: 'Surrealism’s automatist stream', mode: 'art' },
+    ],
+  },
+}
+
+// ─────────────────────────────────────────────────────────────
+// Work, Automatic Drawing (Dessin automatique), André Masson, 1924,
+// ink on paper, 23.5 × 20.6 cm (9 1/4 × 8 1/8 in), portrait/upright sheet,
+// The Museum of Modern Art, New York (object 38201). Founding work read for
+// Surrealist automatism. Authored through the art content pipeline (fact pack
+// → Opus → 5 gates → revise). Chapter prose in art-section-reader.tsx
+// NARRATIVES['masson-auto'] (Msn… prefix). FACT HANDLING (gate-corrected):
+// (1) WHICH 1924 sheet — this is the MoMA 38201 upright drawing, NOT À Louis
+// Aragon / À Paul Éluard (both 1924), Birth of Birds (c.1925), or the 1926 sand
+// painting Battle of Fishes; the wired image (ART_IMG.massonAuto) is verified by
+// eye as 38201. (2) NOT "pure" trance automatism — Masson let the marks stand
+// but consciously elaborated some after the fact (MoMA / Hyperallergic); say so.
+// (3) Trance / hunger / drugs belong to his broader PRACTICE, never pinned to
+// THIS sheet. (4) "Purchase" credit only — fund and acquisition year NOT
+// confirmed (MoMA record blocked), so no year/fund invented. (5) Dimensions
+// ft/in; 23.5 cm is HEIGHT, 20.6 cm WIDTH (taller than wide). (6) The Breton
+// "psychic automatism in its pure state" key statement is the 1924 Manifesto,
+// Seaver/Lane translation, attributed to BRETON (not Masson). PD-US (published
+// 1924); Masson d. 1987, so NOT PD in France/EU — US-PD basis is publication.
+// (7) Masson→Pollock is CAUSAL via Masson's WWII US exile (1941–45) and his
+// 1940s return to automatism, not a tidy line from one 1924 sheet; no sourced
+// verbatim Pollock quote exists, so the link is stated as documented influence,
+// never as something Pollock "said."
+// ─────────────────────────────────────────────────────────────
+export const MASSON_AUTO: ArtWorkContent = {
+  id: 'masson-auto',
+  name: 'Automatic Drawing',
+  shortName: 'Automatic Drawing',
+  year: 1924,
+  artist: 'André Masson',
+  artistId: 'masson',
+  movement: 'Surrealism',
+  movementId: 'sur',
+  era: 'Modern',
+  eraId: 'mod',
+  medium: 'Ink on paper',
+  dimensions: '9 1/4 in × 8 1/8 in',
+  location: 'Museum of Modern Art, New York',
+  acquired: 'Purchase',
+  accent: ART_ACCENTS.green,
+  chain: { name: 'Works of Surrealism', index: 3, total: 9 },
+  hook: 'A small sheet covered in one racing, unbroken line, drawn fast with no subject decided in advance, out of which hands and birds and a fish keep half-surfacing and dissolving again, one of the first times the unconscious itself was let hold a drawing pen.',
+  heroImage: ART_IMG.massonAuto,
+  heroCredit: 'Masson, Automatic Drawing, 1924 · The Museum of Modern Art, New York',
+  heroAspect: 0.88, // 20.6 × 23.5 cm → W/H ≈ 0.88, an upright (portrait) sheet
+  heroFit: 'contain', // the whole small sheet, never cropped
+  rights: 'pd-us',
+  stats: [
+    { v: '1924', k: 'Drawn' },
+    { v: '9¼″ × 8⅛″', k: 'Dimensions' },
+    { v: 'MoMA', k: 'Now at' },
+  ],
+  sections: [
+    { id: 'method', eyebrow: 'Paris · 1924', dateLabel: '1924', title: 'The hand let off the leash', blurb: 'Breton has just defined Surrealism as "psychic automatism," letting the hand move without conscious control so that what surfaces comes from below deliberate thought. Masson is the painter who carries that method out of writing and into line, starting in the winter of 1923.', progress: 0.08 },
+    { id: 'making', eyebrow: 'The making', dateLabel: '1924', title: 'Pen to paper, no subject, no plan', blurb: 'Fast marks across a small sheet with nothing decided in advance, the hand moving "like a medium channeling a spirit," and then, out of the lacelike web, fragments of bodies starting to suggest themselves. Made largely automatically, with some conscious shaping after the fact.', progress: 0.32 },
+    { id: 'break', eyebrow: 'The break', dateLabel: '1924', title: 'A drawing that records the hand, not a thing seen', blurb: 'For centuries a drawing was the record of something seen or imagined and then composed. Here it is the record of the unconscious hand itself: process over depiction, the mark generating the subject instead of the subject dictating the mark.', progress: 0.56 },
+    { id: 'looking', eyebrow: 'The canvas', dateLabel: '9 1/4 in × 8 1/8 in', title: 'One line, and the bodies that almost form in it', blurb: 'The single continuous skein of ink, the half-emergent hands and birds and a breast and a fish, the floating field with no ground or horizon, and the speed you can read in the whip of the mark. Plus the key statement: Breton’s own definition of the method.', progress: 0.78 },
+    { id: 'afterlife', eyebrow: 'After', dateLabel: '1924–today', title: 'The line that runs to Pollock', blurb: 'A small sheet that ends up in MoMA by purchase, and a method that carries forward: the automatic line is the ancestor of Abstract Expressionism’s gesture, a debt Pollock and the historians of his work openly acknowledge.', progress: 0.96 },
+  ],
+  provenance: [
+    { year: '1924', who: 'André Masson (the artist)', place: 'Paris', note: 'Drawn in 1924, the year Breton’s first Manifesto of Surrealism defined the method. One of a small cluster of automatic drawings Masson made that year; the earlier ownership chain (artist to dealer or collector to MoMA) is not documented in the sources.', price: null },
+    { year: 'by acquisition', who: 'Museum of Modern Art', place: 'New York', note: 'In MoMA’s collection by purchase; object 38201, ink on paper, 23.5 × 20.6 cm. The credit line is recorded simply as "Purchase"; the acquisition year and the named fund are not in the available record, so neither is stated here.', price: 'Purchase', museum: true },
+  ],
+  figures: [
+    { name: 'André Masson', role: 'The draftsman', palette: ['#4a5a3a', '#2a2a1c', '#0e0e08'] },
+    { name: 'André Breton', role: 'Defined automatism', palette: ['#3a4a6a', '#2e3848', '#0e1220'] },
+    { name: 'Joan Miró', role: 'Studio neighbor on the rue Blomet', palette: ['#bf3a25', '#3a4a6a', '#1c1208'] },
+    { name: 'Michel Leiris', role: 'Writer in the circle', palette: ['#6a6354', '#39322a', '#120f0c'] },
+    { name: 'Jackson Pollock', role: 'Carried the line forward', palette: ['#1c1c1c', '#c8b84a', '#bf2f25'] },
+  ],
+  annotations: [
+    { label: 'The one continuous line', where: 'Everywhere; the ink can be followed almost anywhere on the sheet before it stops', detail: 'The drawing is built from a single nervous skein of line that loops back on itself, and most of the sheet can be travelled along it without the pen ever seeming to lift. That unbroken racing line is the physical trace of a hand that was not stopping to plan. It is the most important thing on the page, because it is the evidence that the mark came first and the image, if any, came after.' },
+    { label: 'Hands surfacing out of the tangle', where: 'In the denser knots of line, where fingers and a curved palm briefly resolve', detail: 'In places the line almost settles into a hand, fingers spreading, and then dissolves back into the web before it becomes a whole figure. Hands are one of the fragments Masson’s automatic line keeps half-forming. Nothing here is a drawn-then-filled hand; it is a hand the eye finds in marks that were not made to depict one.' },
+    { label: 'Birds half-forming', where: 'Toward the upper reaches of the web, where a wing or a beak-shape catches', detail: 'A wing-curve, the dart of a beak: birds are another of the recurring shapes that surface and sink in Masson’s automatic sheets. They are suggestions, not illustrations, the line tipping for a moment toward a recognizable creature and then racing on past it.' },
+    { label: 'A breast and a fish in the line', where: 'Among the half-figures across the field, where a soft curve and a tapering body read as a breast and a fish', detail: 'Among the fragments, a rounded breast-curve and the tapering body of a fish briefly read out of the tangle. These body-and-creature fragments (hands, birds, a breast, a fish) are the ones that recur across Masson’s automatic drawings: the line keeps almost condensing into a body or an animal and then letting it go.' },
+    { label: 'No ground, no horizon', where: 'The sheet as a whole; there is no floor line and no sky', detail: 'Nothing tells you which way is up or where a "floor" would be. The marks float in an unanchored, all-over field rather than sitting inside a described space. That refusal of a fixed ground is part of why the drawing reads as a record of an act rather than a view of a scene; there is no scene for it to be a view of.' },
+    { label: 'The speed in the mark', where: 'At the turns, where the line whips and overshoots', detail: 'At the turns the line races past and overshoots, and elsewhere it thickens into a worried knot before shooting across an open patch. That whip and that uneven rhythm are the pace of the drawing made visible: this is a fast mark, and the velocity is part of what you are looking at, not a flaw in it.' },
+  ],
+  lineage: {
+    parents: [
+      { label: 'Automatic writing', mode: 'art' },
+      { label: 'Breton’s 1924 Manifesto', mode: 'art' },
+      { label: 'The Paris avant-garde', mode: 'civ' },
+    ],
+    children: [
+      { label: 'Surrealist automatism', mode: 'art' },
+      { label: 'Abstract Expressionism', mode: 'art' },
+      { label: 'Gesture as subject', mode: 'art' },
+    ],
+  },
+}
+
+// ─────────────────────────────────────────────────────────────
+// Work, The Treachery of Images (La trahison des images / Ceci n'est pas une pipe),
+// Magritte, 1929. LACMA, acc. 78.7. The CANONICAL 1929 oil and the wired image
+// (ART_IMG.magrittePipe) — NOT the 1964 L'air et la chanson gouache (Art Institute
+// of Chicago), NOT the 1966 Les deux mystères. Authored through the art content pipeline.
+// Chapter prose in art-section-reader.tsx NARRATIVES['treachery'] (Trc… prefix).
+// FACT HANDLING per fact pack: dimensions = LACMA 60.3 × 81.1 cm (23 3/4 × 31 15/16 in);
+// the 63.5 × 93.98 cm figure is stale → refused. Caption verbatim "Ceci n'est pas une
+// pipe" (period; apostrophe in n'est). Magritte gloss attributed to Torczyner (1977)
+// p. 71, NOT over-specified as to occasion. Foucault essay 1968 (journal) / book 1973.
+// Provenance has NO prices (the ~$115,000 auction figure is secondary → omitted).
+// rights pd-us via 1929 publication; the Magritte-d.1967 / EU-copyright caveat does
+// not block US use.
+// ─────────────────────────────────────────────────────────────
+export const TREACHERY: ArtWorkContent = {
+  id: 'treachery',
+  name: 'The Treachery of Images',
+  shortName: 'The Treachery of Images',
+  year: 1929,
+  artist: 'René Magritte',
+  artistId: 'magritte',
+  movement: 'Surrealism',
+  movementId: 'sur',
+  era: 'Modern',
+  eraId: 'mod',
+  medium: 'Oil on canvas',
+  dimensions: '1 ft 11 3/4 in × 2 ft 7 15/16 in',
+  location: 'Los Angeles County Museum of Art (LACMA)',
+  acquired: 'Purchased with funds provided by the Mr. and Mrs. William Preston Harrison Collection, 1978',
+  accent: ART_ACCENTS.green,
+  chain: { name: 'Works of Surrealism', index: 5, total: 9 },
+  hook: 'A pipe painted as plainly as a catalogue illustration, set over the tidy line “Ceci n’est pas une pipe,” this is not a pipe, and the sentence is true: what hangs on the wall is an image of a pipe, not a pipe, which is the whole argument.',
+  heroImage: ART_IMG.magrittePipe,
+  heroCredit: 'Magritte, The Treachery of Images, 1929 · LACMA',
+  heroAspect: 1.43, // wired image file (MagrittePipe.jpg) measures 500 × 349 px → W/H ≈ 1.43; heroFit contain fits it whole
+  heroFit: 'contain', // the whole modest canvas, never cropped
+  rights: 'pd-us',
+  stats: [
+    { v: '1929', k: 'Painted' },
+    { v: '1′11¾″ × 2′7¹⁵⁄₁₆″', k: 'Dimensions' },
+    { v: 'LACMA', k: 'Now at' },
+  ],
+  sections: [
+    { id: 'proposition', eyebrow: 'Brussels · 1929', dateLabel: '1929', title: 'A picture that turns into a sentence', blurb: 'Magritte paints a single ordinary pipe and writes underneath it, in a tidy hand, “Ceci n’est pas une pipe” (“this is not a pipe”). The contradiction is not a trick. The sentence is literally true, and that is the point.', progress: 0.08 },
+    { id: 'making', eyebrow: 'The making', dateLabel: '1929', title: 'The word-and-image experiments', blurb: 'By 1929 Magritte had spent two years prying apart the thing, the picture of the thing, and the word for the thing. The same year he laid the idea out as a diagram-essay, “Words and Images.” The pipe is that idea at its cleanest.', progress: 0.30 },
+    { id: 'looking', eyebrow: 'The canvas', dateLabel: '1 ft 11 3/4 in × 2 ft 7 15/16 in', title: 'A pipe, a blank ground, a line of schoolroom script', blurb: 'A plainly painted brown pipe floating on an empty tan field, no shadow, no room, and below it the cursive caption, the whole thing laid out like a teaching plate that refuses to confirm its own lesson.', progress: 0.54 },
+    { id: 'break', eyebrow: 'The break', dateLabel: '1929', title: 'Word and image at war on one surface', blurb: 'For centuries a realistic picture quietly asserted “this is that.” Magritte sets the picture and the sentence against each other on the same canvas, and turns a painting into a philosophical proposition about representation itself.', progress: 0.78 },
+    { id: 'afterlife', eyebrow: 'After', dateLabel: '1932–today', title: 'From a dealer’s wall to Foucault to LACMA', blurb: 'It passed through the Brussels Surrealists, crossed to an American artist-collector, and reached Los Angeles in 1978. Along the way the philosopher Michel Foucault wrote a whole essay on it, and the captioned pipe became one of the most reproduced images in modern art.', progress: 0.96 },
+  ],
+  provenance: [
+    { year: '1929–c. 1932', who: 'René Magritte (the artist), via Galerie Le Centaure', place: 'Brussels', note: 'Painted in 1929 and handled by the Brussels gallery Galerie Le Centaure, which represented Magritte in this period.', price: null },
+    { year: 'c. 1932', who: 'E. L. T. Mesens', place: 'Brussels', note: 'Acquired by the Belgian Surrealist artist and dealer Edouard Léon Théodore Mesens, a close associate of Magritte who built a major Surrealist collection.', price: null },
+    { year: '1957', who: 'William N. and Noma Copley', place: 'New York / Paris', note: 'Acquired by the American painter and collector William (“Bill”) Copley and his wife Noma; Copley was both an artist and an energetic dealer-collector of Surrealism.', price: null },
+    { year: '1978', who: 'Los Angeles County Museum of Art', place: 'Los Angeles', note: 'Sold at auction in 1978 and acquired by LACMA, accession 78.7, “Purchased with funds provided by the Mr. and Mrs. William Preston Harrison Collection.” No reliable purchase figure is published, so none is given.', price: 'museum purchase (Harrison Collection funds)', museum: true },
+    { year: '1978–today', who: 'Los Angeles County Museum of Art', place: 'Los Angeles', note: 'On view at LACMA, where it has remained since 1978 as the canonical version of the captioned-pipe motif.', price: null, museum: true },
+  ],
+  figures: [
+    { name: 'René Magritte', role: 'The painter', palette: ['#7a6a4a', '#3a3020', '#100c08'] },
+    { name: 'E. L. T. Mesens', role: 'Brussels Surrealist; early owner', palette: ['#5a5042', '#2e281f', '#0e0a06'] },
+    { name: 'William Copley', role: 'American artist; later owner', palette: ['#3a4a6a', '#2a2218', '#0e0a06'] },
+    { name: 'Michel Foucault', role: 'Wrote the essay on it', palette: ['#1c1c1c', '#a0a0a0', '#5a5040'] },
+  ],
+  annotations: [
+    { label: 'The pipe', where: 'Center of the canvas, bowl to the right, stem to the left', detail: 'A single brown briar tobacco pipe sits in the middle of the canvas. It is painted plainly and competently, smoothly modeled, evenly lit, with no painterly flourish, the way a pipe would be drawn in a smoker’s catalogue. The literal fact is exactly this: it is a painted pipe, which is to say a picture of a pipe and not a pipe.' },
+    { label: 'No shadow, no anchor', where: 'Under and around the pipe', detail: 'The pipe casts no shadow and rests on nothing. It floats on the ground rather than sitting on a surface, which strips away any sense of a real place or a real object and leaves only the depicted thing, the sign by itself.' },
+    { label: 'The empty ground', where: 'The whole field behind the pipe', detail: 'Behind the pipe is a flat, neutral light-brown field. No table, no room, no horizon, no context of any kind. The blankness removes everything that would make this a scene and isolates the image so the eye has nothing to read but the pipe and the words.' },
+    { label: 'The caption', where: 'Below the pipe, centered', detail: 'Under the pipe runs the line “Ceci n’est pas une pipe” (“This is not a pipe”) in a tidy, handwritten-looking cursive. The lettering deliberately recalls a copybook or a labeled diagram, the visual grammar of a school lesson.' },
+    { label: 'The lesson-plate layout', where: 'The overall arrangement: object on top, label beneath', detail: 'Object above, words below: the whole picture is laid out like an educational chart, the kind that says “this is a ___.” Magritte borrows that format precisely so he can break its promise, because the label here refuses to confirm the object above it.' },
+    { label: 'The deadpan handling', where: 'The flat, even finish across the whole surface', detail: 'Nothing in the painting signals a joke or a wink. The contradiction is delivered with a completely straight face, in calm, illustrational paint. That flatness is the argument: a plain picture and an outright denial sit, untroubled, on one surface.' },
+  ],
+  lineage: {
+    parents: [
+      { label: 'Surrealist word-images', mode: 'art' },
+      { label: 'de Chirico’s dream-worlds', mode: 'art' },
+      { label: 'Commercial illustration', mode: 'civ' },
+    ],
+    children: [
+      { label: 'Conceptual art', mode: 'art' },
+      { label: 'Pop’s sign-play', mode: 'art' },
+      { label: 'The image-as-sign', mode: 'civ' },
+    ],
+  },
+}
+
+// ─────────────────────────────────────────────────────────────
+// Work, The Persistence of Memory (La persistencia de la memoria), Dalí, 1931.
+// MoMA, New York (object 162.1934, "Given anonymously," 1934).
+// Authored through the art content pipeline (fact pack → Opus → 5 gates → revise).
+// Chapter prose in art-section-reader.tsx NARRATIVES['persistence'] (Per… prefix).
+// RIGHTS: in-copyright (1931, NOT pd-us; Dalí d. 1989). Hero shown small + credited
+// under fair use; never assert free reproduction.
+// FACT HANDLING per fact pack: FOUR pocket-watches, only THREE soft (the orange,
+// ant-covered one is HARD/closed), never "all four melt." The Einstein/relativity
+// reading is one Dalí REJECTED (a denied source/intent, not a false reading); his
+// stated source is runny camembert, given as HIS account, not proven fact. The central
+// draped creature is WIDELY READ as a profile self-portrait (kin to The Great
+// Masturbator), stated as interpretation. The camembert KEY STATEMENT is a genuine Dalí
+// line but its wording is unstable across translations, attributed to Dalí, not
+// presented as one canonical original. No invented prices (the $250/Julien Levy first
+// sale is secondary → kept out of prices).
+// ─────────────────────────────────────────────────────────────
+export const PERSISTENCE: ArtWorkContent = {
+  id: 'persistence',
+  name: 'The Persistence of Memory',
+  shortName: 'Persistence of Memory',
+  year: 1931,
+  artist: 'Salvador Dalí',
+  artistId: 'dali',
+  movement: 'Surrealism',
+  movementId: 'sur',
+  era: 'Modern',
+  eraId: 'mod',
+  medium: 'Oil on canvas',
+  dimensions: '9 1/2 in × 1 ft 1 in',
+  location: 'Museum of Modern Art, New York',
+  acquired: 'Given anonymously, 1934',
+  accent: ART_ACCENTS.green,
+  chain: { name: 'Works of Surrealism', index: 4, total: 9 },
+  hook: 'The melting watches: four pocket-watches on a deserted Catalan shore, three of them gone soft as wet cheese, painted with academic precision on a canvas smaller than a sheet of paper. The image that taught a mass audience what “surreal” looks like.',
+  heroImage: ART_IMG.daliPersistence,
+  heroCredit: 'Dalí, The Persistence of Memory, 1931 · MoMA, New York · in copyright, shown small under fair use; rights with the Salvador Dalí estate.',
+  heroAspect: 1.39, // 24.1 × 33 cm → W/H ≈ 1.39, landscape
+  heroFit: 'contain', // the whole small canvas, never cropped
+  rights: 'in-copyright',
+  stats: [
+    { v: '9½″ × 1′1″', k: 'Dimensions' },
+    { v: '4 watches, 3 soft', k: 'On the canvas' },
+    { v: 'MoMA', k: 'Now at' },
+  ],
+  sections: [
+    { id: 'method', eyebrow: 'Catalonia / Paris · 1931', dateLabel: '1929–1931', title: 'A method for going a little mad on purpose', blurb: 'Dalí joins the Surrealists and brings his own engine: the paranoiac-critical method, a way of courting a near-hallucinatory state to let dream-logic surface, then painting it with the cold exactness of an academic master. He called the results hand-painted dream photographs.', progress: 0.08 },
+    { id: 'camembert', eyebrow: 'The making', dateLabel: '1931', title: 'The night the cheese went soft', blurb: 'By Dalí’s own telling, the soft watches arrived one evening over a runny Camembert melting in the heat. He looked from the cheese to the landscape he was painting and saw the limp timepieces. His account, repeated for life, never an externally documented event.', progress: 0.30 },
+    { id: 'looking', eyebrow: 'The canvas', dateLabel: '9 1/2 in × 1 ft 1 in', title: 'Four watches, a fly, and a sleeping face', blurb: 'The three melting watches draped over a block, a dead branch, and a fleshy creature; the fourth watch hard, orange, and swarmed by ants; a single fly; the boneless profile-head at center; the golden Catalan cliffs behind. And the shock of the scale: it is tiny.', progress: 0.54 },
+    { id: 'break', eyebrow: 'The break', dateLabel: '1931', title: 'Time made soft, painted as fact', blurb: 'Dalí fused flawless academic illusionism with impossible dream-objects and made time itself sag. The hardest, most rule-bound thing imaginable, a precision watch, melts like cheese, rendered so convincingly the eye accepts it. Not relativity (Dalí rejected that): camembert.', progress: 0.78 },
+    { id: 'afterlife', eyebrow: 'After', dateLabel: '1932–today', title: 'How a tiny canvas became the icon of Surrealism', blurb: 'Shown in New York in 1932, given anonymously to MoMA in 1934, and from there made, for the general public, one of the most recognizable images of Surrealism. The melting watch slipped loose into cartoons and ads, and Dalí became the movement’s public face.', progress: 0.96 },
+  ],
+  provenance: [
+    { year: '1931', who: 'Salvador Dalí (the artist)', place: 'Portlligat / Paris', note: 'Painted in 1931, the small canvas worked up in Dalí’s Catalan-coast milieu and Paris.', price: null },
+    { year: '1932', who: 'Julien Levy Gallery', place: 'New York', note: 'Exhibited at the Julien Levy Gallery, New York, in 1932, the painting’s first New York showing. A first sale of about $250 is widely repeated but rests on secondary sources, not a MoMA catalog line.', price: null },
+    { year: '1934–today', who: 'Museum of Modern Art', place: 'New York', note: 'Given anonymously to MoMA in 1934; the donor was never publicly named. Object number 162.1934, credit line “Given anonymously.” On permanent view ever since.', price: null, museum: true },
+  ],
+  figures: [
+    { name: 'Salvador Dalí', role: 'The painter', palette: ['#3a6a7a', '#c8a04a', '#1c2422'] },
+    { name: 'Gala Dalí', role: 'His wife and lifelong muse', palette: ['#7a3a4a', '#3a2a2e', '#140e10'] },
+    { name: 'André Breton', role: 'Surrealism’s founder; let him in', palette: ['#2e3a52', '#23303f', '#0c1018'] },
+    { name: 'Julien Levy', role: 'New York dealer; first showed it', palette: ['#5a6a52', '#39402e', '#12140e'] },
+    { name: 'Ilya Prigogine', role: 'Chemist; asked if it meant Einstein', palette: ['#6a6354', '#39322a', '#120f0c'] },
+  ],
+  annotations: [
+    { label: 'The three soft watches', where: 'Draped across the scene: one folding over the edge of the hard rectangular block at left, one sagging from the bare branch of the dead tree, one slumping over the fleshy creature in the foreground', detail: 'Three of the four pocket-watches have gone soft, melting and sagging like wet cloth, yet each keeps its hands, its numerals, even the little winding stem. That is the trick: Dalí makes a precision instrument behave like draped fabric while painting it with the cold exactness of an academic master. These are the “soft watches” the whole painting is named for, and there are exactly three of them.' },
+    { label: 'The orange watch, swarmed by ants', where: 'Toward the lower left, lying face-down on the hard block', detail: 'The fourth watch is the odd one out: a closed pocket-watch, its case a deep orange, lying face-down and crawling with ants. It is the only watch that has NOT gone soft, hard and shut while the others melt, and the only one being devoured. Ants haunt Dalí’s work as a sign of decay and rot, tied to a childhood horror of decomposition. So the painting is not “four melting clocks”: three melt, this one stays hard and is eaten alive.' },
+    { label: 'The single fly', where: 'On the face of one of the soft watches', detail: 'A lone fly rests on one of the limp watches, a tiny, almost photographic touch that rewards a close look. It is the kind of hyper-real detail that makes the impossible objects around it feel like things you could pick up, which is exactly the point of what Dalí called a “hand-painted dream photograph.”' },
+    { label: 'The fleshy face-creature at center', where: 'In the foreground center, the soft boneless form lying on the ground, draped by a melting watch', detail: 'A soft, eyelashed, boneless head-form lies on the ground with one watch slung over it. The eyelashes and the long nose give it away as a profile, and it is widely read as a distorted self-portrait of Dalí, a relative of the central head in his earlier The Great Masturbator (1929). Read as a sleeper, it is half the point: a dream-image of someone dreaming. This is the standard scholarly reading, an interpretation rather than a label Dalí signed off on, so it holds as “widely read as,” not as fact.' },
+    { label: 'The dead tree and its bare branch', where: 'At left, a leafless, lopped tree growing out of the hard rectangular block', detail: 'A single dead, leafless tree rises at left, almost geometric, growing straight out of the hard block, with one melting watch hanging from its lone drooping limb. The deadness and the bareness deepen the stillness and the sense of decay that runs through the whole scene.' },
+    { label: 'The Catalan cliffs, sea, and horizon', where: 'The far background, a band of glowing cliffs and calm sea under a luminous sky', detail: 'Behind everything stretches a band of golden, sunlit cliffs and a still sea: the rocks of Cap de Creus on the Costa Brava, near Dalí’s home at Portlligat (the shadowed height is sometimes identified as Puig Pení, on thinner evidence). The sharp, sunstruck far landscape set against the dim foreground is what makes the impossible objects in front read as hyper-real fact.' },
+  ],
+  lineage: {
+    parents: [
+      { label: 'Surrealism', mode: 'art' },
+      { label: 'Academic illusionism', mode: 'art' },
+      { label: 'The Catalan coast', mode: 'civ' },
+    ],
+    children: [
+      { label: 'The melting-watch icon', mode: 'art' },
+      { label: 'Pop-culture surrealism', mode: 'civ' },
+      { label: 'Dalí, public showman', mode: 'civ' },
+    ],
+  },
+}
+
+export const ART_WORK_CONTENT: Record<string, ArtWorkContent> = { burial: BURIAL, demoiselles: DEMOISELLES, kahnweiler: KAHNWEILER, 'chair-caning': CHAIR_CANING, horta: HORTA, 'violin-jug': VIOLIN_JUG, 'three-women': THREE_WOMEN, 'the-portuguese': THE_PORTUGUESE, 'gris-breakfast': GRIS_BREAKFAST, 'three-musicians': THREE_MUSICIANS, 'stone-breakers': STONE_BREAKERS, studio: STUDIO, sower: SOWER, gleaners: GLEANERS, angelus: ANGELUS, gargantua: GARGANTUA, carriage: CARRIAGE, 'horse-fair': HORSE_FAIR, 'impression-sunrise': IMPRESSION_SUNRISE, grenouillere: GRENOUILLERE, cradle: CRADLE, 'moulin-galette': MOULIN_GALETTE, 'paris-street': PARIS_STREET, 'dance-class': DANCE_CLASS, absinthe: ABSINTHE, 'boating-party': BOATING_PARTY, 'gare-saint-lazare': GARE_SAINT_LAZARE, 'starry-night': STARRY_NIGHT, 'bedroom-arles': BEDROOM_ARLES, 'grande-jatte': GRANDE_JATTE, 'bathers-asnieres': BATHERS_ASNIERES, 'card-players': CARD_PLAYERS, 'mont-sainte-victoire-lauves': MONT_SAINTE_VICTOIRE_LAUVES, 'vision-sermon': VISION_SERMON, 'moulin-rouge': MOULIN_ROUGE, 'where-do-we-come-from': WHERE_DO_WE_COME_FROM, hat: WOMAN_WITH_A_HAT, 'green-stripe': GREEN_STRIPE, bonheur: BONHEUR, luxe: LUXE, 'open-window': OPEN_WINDOW, 'blue-nude': BLUE_NUDE, chatou: CHATOU, 'charing-cross': CHARING_CROSS, 'rue-pavoisee': RUE_PAVOISEE, 'city-rises': CITY_RISES, dog: DOG, galli: GALLI, cyclist: CYCLIST, 'unique-forms': UNIQUE_FORMS, farewells: FAREWELLS, 'bal-tabarin': BAL_TABARIN, automobile: AUTOMOBILE, 'abstract-speed': ABSTRACT_SPEED, fountain: FOUNTAIN, lhooq: LHOOQ, 'kitchen-knife': KITCHEN_KNIFE, 'mechanical-head': MECHANICAL_HEAD, 'hat-makes-man': HAT_MAKES_MAN, stieglitz: STIEGLITZ, celebes: CELEBES, 'sainte-vierge': SAINTE_VIERGE, daum: DAUM, 'song-of-love': SONG_OF_LOVE, harlequin: HARLEQUIN, 'masson-auto': MASSON_AUTO, treachery: TREACHERY, persistence: PERSISTENCE }
 export const ART_ARTIST_CONTENT: Record<string, ArtArtistContent> = { picasso: PICASSO }

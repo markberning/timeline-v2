@@ -10156,7 +10156,701 @@ function DauAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: s
 // REGISTRY (coordinator splices into NARRATIVES):
 //  daum: { berlin: DauBerlin, break: DauBreak, looking: DauLooking, reading: DauReading, afterlife: DauAfterlife },
 
+function SngMetaphysical({ accent, onZoom }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Paris · 1914" title="An Italian raised in Greece, painting empty squares" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>I</DropCap>
+        n the early summer of <strong>1914</strong>, in Paris, a young painter named <strong>Giorgio de Chirico</strong> (1888&ndash;1978) was making small, quiet, deeply strange pictures that almost no one yet understood. He was Italian by family but born in <strong>Volos, in Greece</strong>, where his father worked as a railway engineer, and he had grown up among the ruins and the hard Mediterranean light that would haunt everything he painted. By 1914 he was twenty-six, living in Paris, and the avant-garde poet <strong>Guillaume Apollinaire</strong> had begun championing him as one of the most original minds in the city.
+      </p>
+      <p style={proseStyle}>
+        What de Chirico was making had a name. He called it <em>pittura metafisica</em>, <strong>Metaphysical painting</strong>, a style he had been developing since about 1910 (later partly alongside the painter Carlo Carr&agrave;). The word &ldquo;metaphysical&rdquo; here does not mean spiritual or occult; it means the feeling of something beyond the physical, a charge of meaning hidden inside ordinary things. His pictures are nearly all the same kind of place: a silent <strong>Italian-style piazza</strong> (a town square) ringed by <strong>arcades</strong> (rows of arches on columns), deserted, lit by a flat, hard, sourceless noon that throws long shadows and lets no air move. Into these dead-still squares he would set down, with the calm logic of a dream, objects that have no business being together.
+      </p>
+      <p style={proseStyle}>
+        He was after one effect above all: the <strong>enigma</strong>, the sense that an ordinary square, at a strange hour, is concealing something it will not tell you. (He liked the idea so much that he once inscribed a 1911 self-portrait with a Latin motto, &ldquo;<em>Et quid amabo nisi quod aenigma est?</em>&rdquo; &mdash; &ldquo;And what shall I love if not the enigma?&rdquo; &mdash; a line he borrowed from the German philosopher <strong>Friedrich Nietzsche</strong>, whose vision of empty, ominous afternoons saturates his early work. The motto belongs to that self-portrait, not to <em>The Song of Love</em>, but it is the credo behind all of it.) De Chirico had absorbed that mood as a student in Munich, partly from the Swiss painter <strong>Arnold B&ouml;cklin</strong>, whose dreamlike scenes of silent classical architecture stand directly behind these squares.
+      </p>
+      <p style={proseStyle}>
+        The most-repeated error about this picture is worth correcting up front: <strong>de Chirico was not a Surrealist.</strong> The Surrealist movement, the one Andr&eacute; Breton would launch with a manifesto, did not exist in 1914; it was founded a full <strong>decade later, in 1924</strong>. De Chirico is its great <strong>forerunner</strong>, the painter the Surrealists would later worship as a prophet of their own program, but he came before them and was never one of them (in fact, by the time the movement formed he had largely turned against the modern avant-garde and they fell out). The picture in front of us is a 1914 Metaphysical painting that fed a movement which did not yet exist.
+      </p>
+    </article>
+  )
+}
+
+function SngMaking({ accent, onZoom }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The making · mid-1914" title="Three things that do not belong together" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>M</DropCap>
+        oMA dates the painting precisely: Paris, <strong>June&ndash;July 1914</strong>, on the eve of the First World War that would scatter the whole Paris avant-garde within weeks. <em>The Song of Love</em> (in French, <em>Le Chant d&rsquo;amour</em>) is the most famous single image de Chirico ever made, and it is built from a method that sounds almost like a joke until you stand in front of the result: he took objects that have nothing to do with one another and nailed them together on a wall.
+      </p>
+      <p style={proseStyle}>
+        The objects are three. A <strong>plaster head of a classical statue</strong>, white and serene, the face of an idealized ancient god, hangs beside an oversized <strong>rubber surgeon&rsquo;s glove</strong>, limp and drooping, the kind a doctor pulls on, tacked flat to the wall. On the ground below sits a single <strong>green ball</strong>. There is no story that connects a god&rsquo;s head, a surgical glove, and a child&rsquo;s ball. They are bound together only the way a dream binds things, by sitting in the same frame and refusing to explain themselves.
+      </p>
+      <p style={proseStyle}>
+        The glove is not an invention de Chirico dreamed up at the easel; it was a real object he went out and bought. <strong>Apollinaire</strong>, who was close to him that summer, recorded in July 1914 that de Chirico had picked up a <strong>pink rubber glove</strong> precisely for the uncanny charge it would lend his pictures. (Different sources call the glove pink or red; Apollinaire&rsquo;s word was pink. Either way it reads as a warm, soft, slightly repellent flesh-tone against the cool wall.) That is the engine of the whole method: an ordinary modern thing, bought in a shop, set down beside an antique god so that both turn strange.
+      </p>
+      <p style={proseStyle}>
+        And then, far back, the modern world arrives in miniature. Over the wall, on the horizon, de Chirico put a small <strong>locomotive trailing smoke</strong>, the railway motif that runs through nearly all his early work. It is usually read as a quiet nod to his railway-engineer father, though that reading is interpretation, not documented fact. What matters is the collision: a steam train, a god&rsquo;s head, a doctor&rsquo;s glove, and a green ball, gathered into one small silent square as if it were the most natural thing in the world.
+      </p>
+    </article>
+  )
+}
+
+function SngLooking({ accent, onZoom }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The canvas" title="A small panel, calmly impossible" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>I</DropCap>
+        t is small &mdash; that is the first thing reproductions get wrong. They make <em>The Song of Love</em> feel monumental, but the real panel is about <strong>two feet five inches tall by under two feet wide</strong> (73 by 59 centimetres), upright, smaller than a kitchen tray stood on end. Everything in it is rendered with a flat, deadpan, almost diagrammatic clarity, and that clarity is the trap. The strangeness does not come from any distortion (nothing is smeared, fractured, or melted) but from how calmly impossible things are laid out as plain fact.
+      </p>
+      <p style={proseStyle}>
+        Two objects hang on a low wall that fills much of the picture. To the upper left is the <strong>marble head</strong>: the white profile of a classical statue, calm and idealized, the kind of face carved on an ancient god. Scholars have long called it the <strong>Apollo Belvedere</strong> (a celebrated antique marble of the god Apollo), though that specific name is the scholars&rsquo; identification, not MoMA&rsquo;s wall text, which keeps it to a generic classical Greek head. Either way, it is antiquity itself, the calm of a vanished classical order, fixed to the wall.
+      </p>
+      <p style={proseStyle}>
+        Beside it, tacked flat to the same wall, is the <strong>pink rubber glove</strong>, fingers hanging slack. It is a hollow mould of a hand, which is why it reads as eerie: it is the shape of a person with the person taken out, the absence of a body where a body should be. The serene marble god and the limp modern glove, side by side on the same nails, are the picture&rsquo;s central shock, the antique and the surgical pinned together.
+      </p>
+      <p style={proseStyle}>
+        On the ground below the wall sits the <strong>green ball</strong>, a single plain sphere with nothing to account for it. Around and behind everything runs the <strong>arcade</strong>, the row of arches that frames the open square, lit by that hard, sourceless daylight that flattens the surfaces and stretches the shadows long. And far off, over the wall in the upper right, the tiny <strong>locomotive</strong> pulls its plume of <strong>smoke</strong> under a bright sky, dragging the moving modern world into the frozen tableau.
+      </p>
+      <p style={proseStyle}>
+        Nothing in the square connects by ordinary logic. The head does not belong with the glove; the glove does not belong with the ball; none of them belong with the distant train. They cohere only as a dream coheres, and the picture is serene on its surface and uneasy all the way down. It is the enigma de Chirico was always after: a <strong>song of love</strong> sung in a language no one in the square can hear.
+      </p>
+    </article>
+  )
+}
+
+function SngBreak({ accent, onZoom }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The break · before" title="Objects used to belong to one world" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>B</DropCap>
+        efore this picture, the things in a painting were expected to belong together. A still life&rsquo;s fruit and jug share a table; a landscape&rsquo;s trees and river share a place; a portrait&rsquo;s sitter and chair share a room. Even <strong>Cubism</strong>, the most radical style in Paris in 1914, did not break that rule the way de Chirico did. Cubism fractured <em>how</em> a single subject was seen, splintering one guitar or one face into facets; it did not throw a god&rsquo;s head, a rubber glove, and a child&rsquo;s ball into one silent square and let them stand there unexplained.
+      </p>
+      <p style={proseStyle}>
+        That is the break. <em>The Song of Love</em> binds its objects by <strong>dream-logic</strong> rather than by subject, place, or visual analysis. An antique head, a modern surgical glove, a green ball, and a distant train coexist in a still, over-lit piazza, and the result is a feeling de Chirico chased all his life: <strong>metaphysical disquiet</strong>, the sense that the scene <em>means</em> something it is withholding. The picture is legible and serene on the surface and deeply uneasy underneath, and that gap between the calm and the unease is the whole effect.
+      </p>
+      <p style={proseStyle}>
+        The strangest thing about this break is its timing. Incongruous objects rendered with deadpan clarity to generate unease is the exact operating principle <strong>Surrealism</strong> would be built on, the movement of Magritte and Dal&iacute; and Ernst that turned dream-images into a program. But Surrealism was not founded until <strong>1924</strong>. De Chirico painted this in <strong>1914</strong>. He fed the movement its central image a full decade before the movement existed, which makes this break unusual: <strong>a bridge built before there was a road on the other side</strong>. Breton&rsquo;s Surrealists, when they arrived, treated him as the prophet who had gotten there first.
+      </p>
+      <p style={proseStyle}>
+        How completely it landed is best measured by one painter. In <strong>1922</strong>, eight years after de Chirico made it, the Belgian poet <strong>Marcel Lecomte</strong> showed the young <strong>Ren&eacute; Magritte</strong> a <em>reproduction</em> of <em>The Song of Love</em> (not the canvas itself, just a printed copy). Magritte&rsquo;s account of that moment is the single most-cited proof of this picture&rsquo;s power, and it belongs here, in his own words:
+      </p>
+      <figure style={{ margin: '6px 0 18px', paddingLeft: 16, borderLeft: `3px solid ${accent}` }}>
+        <blockquote style={{ ...italicStyle, margin: 0 }}>
+          &ldquo;It was one of the most moving moments of my life: my eyes saw thought for the first time.&rdquo;
+        </blockquote>
+        <figcaption style={{ ...proseMutedStyle, fontStyle: 'normal', margin: '8px 0 0', fontSize: 15 }}>
+          &mdash; Ren&eacute; Magritte, on first seeing a reproduction of <em>The Song of Love</em>, 1922
+        </figcaption>
+      </figure>
+      <p style={proseMutedStyle}>
+        Translations vary: the French <em>la pens&eacute;e</em> is sometimes rendered &ldquo;my eyes saw the mind for the first time,&rdquo; though &ldquo;thought&rdquo; is the standard English. And the picture Magritte saw was a reproduction Lecomte showed him, not the original canvas.
+      </p>
+      <p style={proseStyle}>
+        That is the after. Magritte spent the rest of his career painting plainly rendered impossible things (a pipe that is not a pipe, raining men in bowler hats), and the whole of it traces back to the morning he saw a printed copy of this square. The break in <em>The Song of Love</em> is that it built the Surrealist image in 1914 and then waited a decade for the world to catch up.
+      </p>
+    </article>
+  )
+}
+
+function SngAfterlife({ accent, onZoom }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Provenance · 1914" title="From a Paris studio to a New York wall" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he painting&rsquo;s life as an object (its <em>provenance</em>, the documented chain of who has owned it, in order, from the artist&rsquo;s hand to now) is short and clean. It was painted in Paris in mid-1914, weeks before the First World War broke up the city&rsquo;s avant-garde. De Chirico himself would leave for Italy when the war came, and the small panel passed through the Paris dealer <strong>Paul Guillaume</strong> (whom Apollinaire had introduced to de Chirico in 1914) and then to the dealer <strong>Marcel Raval</strong> by 1928, working its way through the European art trade toward America.
+      </p>
+      <p style={proseStyle}>
+        Its great owner was <strong>Nelson A. Rockefeller</strong> (1908&ndash;1979), the American collector, philanthropist, and politician (a four-term governor of New York and, briefly, vice president of the United States) and one of the most serious collectors of modern art of his generation. He bought <em>The Song of Love</em> from Raval in <strong>October 1950</strong>. No purchase figure survives in the record, so the price is unknown.
+      </p>
+      <p style={proseStyle}>
+        Rockefeller died in <strong>1979</strong>, and in his will he left the painting to the <strong>Museum of Modern Art</strong> in New York. The credit line on the wall reads, to this day, &ldquo;Nelson A. Rockefeller Bequest,&rdquo; and the accession number is 950.1979. There it hangs now, a small upright square a few minutes&rsquo; walk from the city&rsquo;s busiest streets, where a god&rsquo;s head and a pink glove keep their silent company on a wall.
+      </p>
+      <p style={proseStyle}>
+        A last word on what the picture became. De Chirico painted it in 1914 and lived until 1978, long enough to watch the movement he never joined turn his early Metaphysical squares into sacred objects, and long enough to grow prickly about it. He had moved on; the Surrealists kept him frozen as their prophet. But the verdict that matters is the one a single reproduction delivered in 1922, when a young Belgian looked at a printed copy of this square and felt that his eyes had seen the mind for the first time. A small panel, under two and a half feet tall, painted a decade before its movement existed, did the one thing de Chirico always wanted a picture to do: it kept its secret, and made you feel the keeping.
+      </p>
+    </article>
+  )
+}
+
+// REGISTRY (coordinator splices into NARRATIVES):
+//  'song-of-love': { metaphysical: SngMetaphysical, making: SngMaking, looking: SngLooking, break: SngBreak, afterlife: SngAfterlife },
+
+function HrqParis({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Paris · 1924–25" title="A starving painter in a Surrealist Paris" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>I</DropCap>
+        n the winter of 1924 a young Catalan painter named <strong>Joan Mir&oacute;</strong> (1893&ndash;1983; the surname is roughly &ldquo;mee-ROH&rdquo;) was living in <strong>Paris</strong>, and he was hungry. Not metaphorically. He had come up from <strong>Barcelona</strong>, splitting these years between Paris and his family&rsquo;s farm at <strong>Mont-roig</strong> in Catalonia, where the landscape and folk vocabulary he was steadily inventing took shape; and he was poor enough in these Paris years that, by the account the holding museum gives, he could once feed a dinner guest only a plate of <strong>radishes</strong>. That fact climbs straight into the painting, hole and all.
+      </p>
+      <p style={proseStyle}>
+        He had also walked into the middle of something. Paris in 1924 was the birthplace of <strong>Surrealism</strong>, an art and literary movement that had just been given its founding document. In <strong>1924</strong> the poet <strong>Andr&eacute; Breton</strong> (1896&ndash;1966), the movement&rsquo;s organizer and chief theorist, published the first <em>Manifesto of Surrealism</em>. It argued that the truest material for art was not the visible world but the <strong>unconscious</strong>: dreams, free association, and above all <strong>automatism</strong>, the practice of letting your hand make marks, or your pen write words, without a conscious plan steering it, so that whatever was underneath could surface on its own.
+      </p>
+
+      <SectionHeader accent={accent} label="Why this picture matters" title="A touchstone of a movement being born" />
+      <p style={proseStyle}>
+        Mir&oacute; never formally joined Breton&rsquo;s circle, but he was at its center in a more literal way than that sounds: his Paris studio was on the <strong>rue Blomet</strong>, next door to the painter <strong>Andr&eacute; Masson</strong>, and Masson&rsquo;s studio was the room where the writers and painters who became Surrealism gathered (Masson, Michel Leiris, Robert Desnos, and the rest). Mir&oacute; and Masson, drawing without a plan, are often credited with starting Surrealism as a way of <em>painting</em>, not just writing. The picture Mir&oacute; made across <strong>1924 and 1925</strong> became one of the touchstone works of that early Surrealism, widely counted among his greatest. Its title is <em>The Harlequin&rsquo;s Carnival</em> (in French, <em>Carnaval d&rsquo;Arlequin</em>; the museum that owns it titles it <em>Carnival of Harlequin</em>, and all three are the same picture). A <strong>harlequin</strong> is the diamond-patterned clown of old Italian street comedy, and a <strong>carnival</strong> is a riot of costume and noise, so the title alone promises a party. What Mir&oacute; delivered is a small room so crammed with dancing, half-alive shapes that it looks like the inside of a dream having a party with itself.
+      </p>
+      <p style={proseStyle}>
+        Two things, then, are sitting in the room with him as he begins: a brand-new theory that says paint what rises from the unconscious, and a body that has not had enough to eat. The next chapter is about what those two things did when they met.
+      </p>
+    </article>
+  )
+}
+
+function HrqMaking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The making" title="Out of a hunger, not a dream" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>M</DropCap>
+        ir&oacute; himself was at pains to correct the easy story. That story is that this is a painted dream, the unconscious transcribed while he slept. That is not what he said. By his own account the strange creatures came from <strong>hallucinations brought on by hunger</strong>, the way a starving person can begin to see things that are not there, and he was careful to separate that from the dream-painting Breton&rsquo;s group prized. The line the museum quotes is the clearest statement he left about how this picture came to be:
+      </p>
+      <p style={{ ...proseStyle, fontStyle: 'italic', borderLeft: `3px solid ${accent}`, paddingLeft: 14, margin: '0 0 14px', color: INK }}>
+        &ldquo;I tried to capture the hallucinations that my hunger produced in me. It&rsquo;s not that I painted what I saw in my dreams, as Breton and his lot predicated in those days, but that hunger provoked in me a sort of trance.&rdquo;
+      </p>
+      <p style={proseMutedStyle}>
+        Joan Mir&oacute;, on <em>The Harlequin&rsquo;s Carnival</em>, as quoted in the Buffalo AKG account of the work.
+      </p>
+      <p style={proseStyle}>
+        The line does two jobs at once. It ties the boiling imagery directly to his empty stomach, and it gently shoves away from Breton&rsquo;s pure dream-painting. He described coming home at the end of a foodless day and, &ldquo;in a kind of trance,&rdquo; drawing the forms that became the picture. So the <em>source</em> of the imagery is real, bodily hunger, not a remembered dream.
+      </p>
+
+      <SectionHeader accent={accent} label="Looks automatic, was composed" title="The trap in the word ‘automatic’" />
+      <p style={proseStyle}>
+        Now the second correction, which matters just as much. The picture <em>looks</em> like pure automatism, like marks that spilled out unplanned, and that look is exactly why it&rsquo;s a Surrealist icon. But Mir&oacute; was equally clear that the canvas itself was <strong>deliberately built and revised</strong>, not poured out in one unguided rush. In another statement the museum records, he described a planned, considered process:
+      </p>
+      <p style={{ ...proseStyle, fontStyle: 'italic', borderLeft: `3px solid ${accent}`, paddingLeft: 14, margin: '0 0 14px', color: INK }}>
+        &ldquo;After long meditation on what I proposed to do, I began to paint, and as I painted I introduced all the changes I believed to be appropriate.&rdquo;
+      </p>
+      <p style={proseStyle}>
+        Held apart, the two halves give the whole truth of how it was made. The <em>hallucinations of hunger</em> supplied the cast of creatures; the <em>execution</em> was meditated on at length and adjusted as he went. The spontaneous, automatist surface is partly a constructed effect, a careful arrangement made to feel like an accident. That is a much better picture of the artist than the legend of a man hallucinating onto a canvas: hunger lit the imagery, and a disciplined hand laid it down. None of which means he literally starved at the easel, or that the whole picture is an unmediated vision. He was poor, he was hungry, that hunger was the well he drew the imagery from, and the painting on top of it he composed.
+      </p>
+    </article>
+  )
+}
+
+function HrqLooking({ accent, onZoom }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The canvas" title="A small room, packed to the corners" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he size surprises people. For a picture this famous, <em>The Harlequin&rsquo;s Carnival</em> is small: about <strong>2 feet 2 inches tall and a hair over 3 feet wide</strong> (66 by 93 centimeters, by the holding museum&rsquo;s measurement), an intimate easel painting you could carry under one arm, not a mural. All of the chaos below is packed into that modest rectangle. The width is sometimes given as 90.5 centimeters elsewhere; the museum that owns it says 93, and on a question of its own catalogue the museum wins.
+      </p>
+      <p style={proseStyle}>
+        The setting is a single <strong>interior</strong>, a room with a checkered floor, a table, and a window, and every inch of it is alive with soft, rounded, organic shapes the books call <strong>biomorphic</strong> (meaning life-shaped: forms that read as half-human, half-animal, half-object). The museum describes them as hybrid creatures with the characteristics of both humans and animals, &ldquo;playing, singing, dancing, and celebrating, with music literally in the air.&rdquo; It is a party of invented little beings. A few are worth finding.
+      </p>
+
+      <SectionHeader accent={accent} label="The host" title="The moustached harlequin with his pipe" />
+      <p style={proseStyle}>
+        Center-left stands the <strong>harlequin</strong> himself, and he is not a man so much as a near-musical body, tall and guitar-shaped. Mir&oacute; gives him the clown&rsquo;s costume cues: a face split <strong>red on one side and blue on the other</strong>, a <strong>diamond-patterned</strong> tunic (the harlequin&rsquo;s traditional checks), a curling <strong>moustache</strong>, a <strong>pipe</strong> in his mouth, and, by some accounts, a little admiral&rsquo;s hat. A dark <strong>hole</strong> is punched through his stomach. That hole is commonly read as the artist&rsquo;s own hunger made visible, the empty belly of the man who painted him. The costume is plainly on the canvas; the belly-as-hunger is the reading the museum offers, and a persuasive one.
+      </p>
+
+      <SectionHeader accent={accent} label="The objects that came alive" title="The ladder, the cat, the notes in the air" />
+      <p style={proseStyle}>
+        Now the things in the room that have quietly grown senses. To the left, a <strong>ladder</strong> stands on its own and has become a creature: it carries a single <strong>eye</strong> and a single <strong>ear</strong>. The ladder is one of Mir&oacute;&rsquo;s recurring motifs, usually read as flight or escape, a way of climbing up and out, and here it watches and listens. Lower right, a <strong>cat</strong>-like sprite bats at a round, threaded shape that looks like a <strong>ball of yarn</strong>; Mir&oacute;&rsquo;s own writings about the painting mention a ball of yarn and cats, so the motif is genuinely his. Through the whole upper room drift small black <strong>musical notes</strong>, the literal sign of the &ldquo;music in the air&rdquo;: the carnival is loud, and you are meant to half-hear it.
+      </p>
+
+      <PaintingFigure
+        onZoom={onZoom}
+        palette={['#bf2f25', '#1d4ed8', '#1c1208']}
+        imageUrl={ART_IMG.miroHarlequin}
+        ratio="7/5"
+        alt="Miró, The Harlequin's Carnival, the whole canvas"
+        caption={<>Mir&oacute;,{' '}<em>The Harlequin&rsquo;s Carnival</em>, 1924&ndash;25. Buffalo AKG Art Museum.</>}
+        rights="Public domain in the US (pre-1931 publication; Miró d. 1983, so still under copyright in many countries). Wikimedia Commons."
+      />
+
+      <SectionHeader accent={accent} label="The window, and the crowd" title="A triangle, a globe, and a swarm of sprites" />
+      <p style={proseStyle}>
+        Upper right, an opening reads as a <strong>window</strong> onto a small patch of sky, and inside it sit a dark <strong>triangle</strong> and a round dark <strong>sphere</strong>. These two are the most interpreted marks on the canvas: the triangle is often read as the <strong>Eiffel Tower</strong> (a wink at the Paris setting) and the sphere as the <strong>globe</strong>, the world seen through the window. Those readings are conventions, not labels the museum prints, so take them as &ldquo;commonly read as&rdquo; rather than fact. What is certainly there is a window, a triangle, and a dark ball.
+      </p>
+      <p style={proseStyle}>
+        Everything left over teems. The rest of the room is filled with a <strong>swarm of small creatures</strong>: hybrid sprites that are part animal and part human, plus insects, fish, and winged things, all of them playing and singing and dancing. This biomorphic crowd is the carnival itself, the celebration the title promises, painted not as people in costume but as a roomful of living shapes. Step back and the whole small canvas reads as one cheerful, weightless party, which is exactly the effect Mir&oacute; was after.
+      </p>
+    </article>
+  )
+}
+
+function HrqBreak({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The break · before" title="A picture used to obey the world" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        o feel why this little room mattered, set it beside what came before. For centuries a painting organized itself around <strong>recognizable things in real space</strong>. A still life was a table with nameable objects (a jug, a loaf, a lemon) sitting where you could imagine reaching for them. A history painting set real figures in a real room. Even <strong>Cubism</strong>, the radical movement just before this one, fractured and re-faceted <em>real</em> things: it broke a guitar or a bottle or a person into planes, but you were still meant to reassemble a guitar. The picture, however strangely, still answered to the seen world. It obeyed.
+      </p>
+
+      <SectionHeader accent={accent} label="The break · after" title="An invented vocabulary that answers to nothing on a table" />
+      <p style={proseStyle}>
+        Mir&oacute; cut that cord. In <em>The Harlequin&rsquo;s Carnival</em> there is no observed scene underneath the shapes, no still life on a table that the squiggles are a stylized version of. He floats an <strong>invented vocabulary</strong>: squiggles, dots, single eyes and ears, ladders that look back at you, notes drifting in the air, half-animal sprites, a wholly biomorphic cast that corresponds to nothing you could photograph. The forms come from <em>inside</em>, from the hunger-hallucinations and the unconscious the Surrealists prized, not from a motif arranged on a tabletop. And the real-world rules of space go with the still life: nothing has proper weight, nothing casts a settling shadow, objects are alive and the room ignores gravity.
+      </p>
+      <p style={proseStyle}>
+        That is the break. Painting stops <strong>depicting the seen world</strong> and starts <strong>staging the unconscious</strong> as a populated little universe, a room you could never walk into because it never existed anywhere but in a hungry man&rsquo;s head. It swaps the sober <strong>academic still life</strong>, objects sitting obediently on a table, for a <strong>playful, weightless Surrealist world</strong> where a ladder has an ear and the music is visible. The grim, fevered dream-paintings of some other Surrealists pushed the unconscious toward menace; Mir&oacute; pushed it toward a nursery-bright party. Either way the move underneath is the same one, and this is one of the pictures that made it: a canvas that answers to no scene, only to what was rising from below.
+      </p>
+    </article>
+  )
+}
+
+function HrqAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <>
+      <article style={{ padding: '18px 18px 40px' }}>
+        <SectionHeader accent={accent} label="After · 1940" title="From a Paris dream-room to Buffalo" first />
+        <p style={proseStyle}>
+          <DropCap accent={accent}>T</DropCap>
+          he painting Mir&oacute; built out of his hunger has had a quiet, lucky afterlife: it found one home early and stayed there. In <strong>1940</strong>, only fifteen years after it was finished, it crossed the Atlantic and entered an American museum, the <strong>Albright-Knox Art Gallery</strong> in <strong>Buffalo, New York</strong> (renamed the <strong>Buffalo AKG Art Museum</strong> in 2023). It has been there ever since. The earlier chain of Paris dealers and collectors who handled it in the 1920s and 1930s is not nailed down in the records used here, so it is better left blank than guessed at; what is documented is the moment it reached Buffalo.
+        </p>
+        <p style={proseStyle}>
+          And the way it got there is itself a small piece of art history. The museum bought it through its <strong>Room of Contemporary Art Fund</strong> (its accession number, the museum&rsquo;s catalogue tag, is RCA1940:8). The Room of Contemporary Art was an unusually forward-looking program for an American museum in 1940, an endowment set up specifically to buy the work of <em>living</em> modern artists at a time when most institutions still waited for an artist to be safely dead and canonical. Mir&oacute; was very much alive (he would live until 1983), and a teeming Surrealist dream-room was exactly the kind of risk the fund existed to take.
+        </p>
+
+        <SectionHeader accent={accent} label="The standing" title="One of the pictures Surrealism is measured by" />
+        <p style={proseStyle}>
+          Time has been kind to that bet. <em>The Harlequin&rsquo;s Carnival</em> is now held up as one of the touchstone paintings of early Surrealism and among the greatest things Mir&oacute; ever made, the picture where his lifelong vocabulary of squiggles, single eyes, ladders, and biomorphic sprites first arrived in full. The cast of little creatures he assembled in that cold, hungry Paris room would populate his work for the next half-century. It just moved to a wall in Buffalo, where you can still stand in front of it, small as it is, and hear the music in the air.
+        </p>
+      </article>
+
+      <MeanwhileSheet
+        accent={accent}
+        region="Paris"
+        when="1924 · the same moment"
+        title="Surrealism gets its founding document."
+        body="As Miró fills his small canvas with hunger-born sprites, André Breton publishes the first Manifesto of Surrealism in Paris, the text that puts dreams, the unconscious, and automatism at the center of a new movement. The painters and poets gathering around Breton are arguing on the page about what the unconscious can do to art; a Catalan painter a few streets away is quietly proving it on canvas, in a room full of living squiggles."
+        palette={['#1c3a6a', '#c8a72a', '#0e1224']}
+        ctaLabel="Read ‘Surrealism’"
+      />
+    </>
+  )
+}
+
+// REGISTRY (coordinator splices into NARRATIVES):
+//  harlequin: { paris: HrqParis, making: HrqMaking, looking: HrqLooking, break: HrqBreak, afterlife: HrqAfterlife },
+
+// ─────────────────────────────────────────────────────────────
+// Automatic Drawing (Masson, 1924) — the five chapters
+// ─────────────────────────────────────────────────────────────
+function MsnMethod({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Paris · 1924" title="The hand let off the leash" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>I</DropCap>
+        n the autumn of <strong>1924</strong>, in Paris, a poet named <strong>Andr&eacute; Breton</strong> (1896&ndash;1966) published a pamphlet that gave a name to a new movement and, more usefully, a method. The movement was <strong>Surrealism</strong>. The method was <strong>automatism</strong>, and the whole drawing here is one sheet of it, so the word is worth being plain about. To work automatically is to let the hand move <em>without conscious control</em>, fast enough to outrun the part of you that edits and corrects, so that whatever surfaces onto the page comes from below deliberate thought. That &ldquo;below&rdquo; is <strong>the unconscious</strong>: the layer of the mind, in the Freud-soaked thinking of these men, that runs under reason and taste and good manners and is supposedly truer for it. Switch those filters off, the wager goes, and the deeper thing leaks straight onto the paper.
+      </p>
+      <p style={proseStyle}>
+        Breton had arrived at the idea first in <strong>words</strong>. Back in <strong>1919</strong>, with his friend <strong>Philippe Soupault</strong>, he had written <em>Les Champs magn&eacute;tiques</em> (&ldquo;The Magnetic Fields&rdquo;) by <strong>automatic writing</strong>: racing the pen across the page, transcribing whatever phrases came, refusing to stop and shape them. The point was to catch the mind in the act of thinking, before the writer-self could tidy it. Five years later the <em>Manifesto of Surrealism</em> built a whole program on that experiment, and defined Surrealism itself as &ldquo;psychic automatism.&rdquo; His exact words, the ones this drawing answers, come at the end, in front of the sheet they describe.
+      </p>
+
+      <SectionHeader accent={accent} label="From writing into line" title="The painter who picked up the pen" />
+      <p style={proseStyle}>
+        Automatic <em>writing</em> already existed. The open question in 1924 was whether you could do the same thing with a <strong>drawing</strong> hand &mdash; whether a pen could be turned loose on a blank sheet the way it had been turned loose on a blank page. The man who answered, and who became the method&rsquo;s leading practitioner, was <strong>Andr&eacute; Masson</strong> (1896&ndash;1987). Starting in the <strong>winter of 1923</strong>, before the manifesto even appeared, Masson was among the very first to draw this way: pen to paper with <em>no subject and no composition decided in advance</em>, the hand moving fast and the marks allowed to fall where they would.
+      </p>
+      <p style={proseStyle}>
+        He did not invent the loose idea of an &ldquo;automatic&rdquo; drawing from nothing &mdash; the Dada artist <strong>Jean (Hans) Arp</strong> had made chance-driven works a few years earlier &mdash; but Masson is the figure who tied automatic drawing to Breton&rsquo;s program and made it a Surrealist instrument. He had reasons of his own to want a way of making images that did not require composing them. He was a badly wounded veteran of the <strong>First World War</strong>, carrying what we would now call trauma, and across his wider practice he pushed himself into altered states to loosen his grip on the pen: working in a kind of semi-trance, sometimes after long stretches without food or sleep, sometimes under the influence of drugs, often alongside the writers and painters in his orbit on the rue Blomet, among them <strong>Joan Mir&oacute;</strong>, <strong>Michel Leiris</strong>, and <strong>Antonin Artaud</strong>. (That is his <em>practice</em> in general; no source ties any one of those conditions to this particular small sheet, so read them as the weather Masson worked in, not as a caption for this drawing.)
+      </p>
+    </article>
+  )
+}
+
+function MsnMaking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The making · 1924" title="Pen to paper, no subject, no plan" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he procedure was almost nothing, which is the point. Masson sat down with a small sheet of paper and a pen of ink, and he did not decide first what to draw. There was no subject in his head to be set down, no scene to be arranged, no figure to be placed. He simply began to move the hand, and to move it <strong>fast</strong> &mdash; faster than judgment could intervene to correct a line or improve a shape. MoMA, which owns the sheet, describes the hand in exactly this register: moving across the paper &ldquo;like a medium channeling a spirit.&rdquo; The line is laid down before the deciding mind can catch up to it.
+      </p>
+      <p style={proseStyle}>
+        What you get from that, at first, is a tangle: a fine, lacelike web of pen marks with no obvious picture in it. And then the second thing happens, the thing that made the method interesting rather than merely random. As Masson worked, he &ldquo;soon found hints of images emerging from the abstract, lacelike web of pen marks.&rdquo; The line, racing along with no plan, kept <em>almost</em> resolving into something &mdash; a hand, a bird, a fragment of a body &mdash; and then dissolving again. The image was not decided in advance and then drawn; it surfaced, half-formed, out of marks that were made for their own sake.
+      </p>
+
+      <SectionHeader accent={accent} label="Not pure all the way down" title="The conscious touch he allowed himself" />
+      <p style={proseStyle}>
+        Here is the part the romantic version of the story leaves out, and it matters. The legend of automatism is a pure trance with zero conscious input, the artist a passive channel and nothing more. That is the <em>ideal</em>; it is not quite how the sheet was finished. The sources are explicit that Masson let the automatic marks stand but then, at times, <strong>elaborated on them with conscious changes or additions</strong> &mdash; once a shape suggested itself in the tangle, he might coax it a little, let it stand, nudge the web toward the form it was tipping into. (In his related <strong>sand paintings</strong> of a couple of years later he did this more openly, going back in with pencil to draw figures out of the poured ground.) So the description is not &ldquo;pure&rdquo; automatism but a drawing that is <em>largely</em> automatic, with conscious shaping after the fact. The hand ran free; the eye, afterward, chose what to keep.
+      </p>
+      <p style={proseStyle}>
+        That distinction is the difference between a slogan and a fact. &ldquo;Psychic automatism in its pure state&rdquo; is Breton&rsquo;s definition of an aim. The sheet in front of us is the aim pursued by a real hand that could not entirely stop being an artist. Both things are true at once, and the drawing is more interesting for it.
+      </p>
+    </article>
+  )
+}
+
+function MsnBreak({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The break · before" title="A drawing used to be a record of a thing" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>F</DropCap>
+        or as long as there had been drawings, a drawing was a record of something <strong>seen or imagined and then composed</strong>. The artist chose a subject &mdash; a face, a tree, a saint, a vision &mdash; set it in a space, and laid down marks that described it. The hand was the obedient servant of a picture the mind had already chosen. The skill on show was depiction and control: how truly, how gracefully, the marks could be made to render the thing. Even the wildest pre-Surrealist drawing, the most visionary or the most violent, was still the hand <em>executing</em> a picture decided in advance. The marks served the subject.
+      </p>
+
+      <SectionHeader accent={accent} label="The break · after" title="Now the drawing records the hand itself" />
+      <p style={proseStyle}>
+        Masson turns that around. Here the drawing is a record of the <strong>unconscious hand itself</strong> &mdash; <strong>process over depiction</strong>. There is no prior subject. The line is laid down faster than judgment can intervene, and the &ldquo;image&rdquo; is whatever the viewer (and, after the fact, Masson) can find <em>in</em> the marks. The picture is no longer a window onto a chosen scene; it is a <strong>trace of an act</strong>, evidence of mark-making rather than a description of a thing. The inversion is the whole break: instead of the subject dictating the mark, the mark generates the subject. The line moves first, and the image is a guest that arrives in it.
+      </p>
+      <p style={proseStyle}>
+        That sounds like a small studio quirk and is in fact a hinge in the history of art. If the mark can come before the subject, then mark-making itself &mdash; the speed, the pressure, the unplanned path of the hand &mdash; can be the real content of a picture. That is the idea that runs forward, two decades later, into <strong>Abstract Expressionism</strong> and the dripped, poured, gestural canvases of the 1940s and &rsquo;50s, where the act of painting becomes the subject. The line from Masson to that moment is not invented after the fact: <strong>Jackson Pollock</strong> openly admired Masson&rsquo;s automatism, and the automatic line is one of the things he took from it. A small sheet of racing ink is one of the places that whole future opens.
+      </p>
+    </article>
+  )
+}
+
+function MsnLooking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The canvas" title="One line, and the bodies that almost form in it" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>I</DropCap>
+        t is small. The sheet is about <strong>nine and a quarter inches tall by eight and an eighth wide</strong> (a touch over 23 by 20 centimeters), an <strong>upright</strong> page you could hold in two hands &mdash; taller than it is wide, not a wide horizontal sheet, which is one quick way to know you are looking at this drawing and not at one of the other automatic sheets Masson made the same year. The smallness is part of the meaning: this is an intimate trace of a single hand, not a grand statement on a wall.
+      </p>
+      <p style={proseStyle}>
+        The <strong>line</strong> is almost the whole drawing. Pick a point anywhere in the ink and follow it, and you can travel most of the sheet without the pen seeming to lift off. It is one continuous, nervous skein that loops back on itself, doubles, races, and knots &mdash; a single unbroken thread laid down by a hand that was not stopping to plan. The <strong>speed</strong> is in it too: the line whips past a turn and overshoots, thickens into a worried tangle, then shoots across an open patch. That uneven rhythm is the pace of the drawing made visible. This is a fast mark, and its velocity is part of what you are looking at.
+      </p>
+
+      <SectionHeader accent={accent} label="The half-figures" title="Hands, birds, a breast, a fish" />
+      <p style={proseStyle}>
+        Let the eye go soft, the way shapes form in a cloud, and a second layer comes up. Out of the tangle, <strong>fragments of bodies and creatures half-emerge</strong> and sink back. A <strong>hand</strong> nearly resolves, fingers spreading, and then dissolves before it becomes a whole figure. A <strong>bird</strong> catches for a moment in a wing-curve or the dart of a beak. A soft rounded curve reads as a <strong>breast</strong>; a tapering body reads as a <strong>fish</strong>. None of these is drawn-then-finished the way you would draw a hand on purpose. Each is a shape the eye <em>finds</em> in marks that were not made to depict it &mdash; the line tipping, again and again, toward a recognizable body or animal and then letting it go. The drawing never settles into one whole figure. It stays at the threshold, all almost.
+      </p>
+      <p style={proseStyle}>
+        What is <strong>not</strong> there matters as much: no ground, no floor, no horizon. Nothing tells you which way is up or where a body would stand. The marks float in an unanchored, all-over field rather than sitting inside a described space. There is no scene for the drawing to be a view of, which is exactly right for a picture that is a record of an act and not a window onto a place.
+      </p>
+
+      <SectionHeader accent={accent} label="The key statement" title="“Psychic automatism in its pure state”" />
+      <p style={proseStyle}>
+        The sentence that defines what this drawing is reaching for was published the same year, by Breton, in the <em>Manifesto of Surrealism</em>. He wrote it as a mock-dictionary entry, defining the new word the way a dictionary would. Here it is, in the standard English translation by <strong>Richard Seaver and Helen R. Lane</strong> (<em>Manifestoes of Surrealism</em>, 1969):
+      </p>
+      <blockquote style={{ margin: '0 0 14px', padding: '4px 0 4px 18px', borderLeft: `3px solid ${accent}`, fontFamily: SERIF, fontSize: 18, lineHeight: 1.6, fontStyle: 'italic', color: INK }}>
+        <p style={{ margin: '0 0 12px' }}>SURREALISM, <em>n.</em> Psychic automatism in its pure state, by which one proposes to express &mdash; verbally, by means of the written word, or in any other manner &mdash; the actual functioning of thought.</p>
+        <p style={{ margin: 0 }}>ENCYCLOPEDIA. <em>Philos.</em> Surrealism is based on the belief in the superior reality of certain forms of previously neglected associations, in the omnipotence of dream, in the disinterested play of thought.</p>
+      </blockquote>
+      <p style={proseStyle}>
+        That is the program this sheet belongs to: an attempt to express &ldquo;the actual functioning of thought&rdquo; directly, not a thing seen but the mind in the act of running. Set against the drawing, the phrase &ldquo;in any other manner&rdquo; is doing quiet work &mdash; Breton wrote it for words, and Masson is the one proving that the &ldquo;other manner&rdquo; could be a pen on a blank sheet. The one caution the picture itself has already taught us holds here: &ldquo;in its <em>pure</em> state&rdquo; is Breton&rsquo;s ideal, and the sheet is that ideal pursued by a real hand that elaborated some of the marks afterward.
+      </p>
+    </article>
+  )
+}
+
+function MsnAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Provenance" title="A small sheet, into MoMA by purchase" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        his is one of several automatic drawings Masson made in <strong>1924</strong>, a small cluster that share the plain habit of the line and not much else; the bare title &ldquo;Masson, <em>Automatic Drawing</em>, 1924&rdquo; is attached to more than one sheet, which is a real trap. The one we have been looking at is the drawing the <strong>Museum of Modern Art</strong> in New York holds under that plain title: ink on paper, the small upright sheet, MoMA&rsquo;s object number 38201. (The <em>provenance</em>, the documented chain of who has owned a work in order, is thin for this sheet before it reached the museum; the sources do not lay out the earlier owners, so the chain stays unstated.)
+      </p>
+      <p style={proseStyle}>
+        The museum records how it came in with a single word: <strong>Purchase</strong>. The exact year MoMA bought it, and the named fund the money came from, are not in the record we can read, so no year or fund is given here. What is solid is the end state: the small 1924 sheet is in MoMA&rsquo;s collection by purchase, where it stands as the textbook example of Surrealist automatic drawing.
+      </p>
+
+      <SectionHeader accent={accent} label="The line that kept running" title="From a Paris pen to American paint" />
+      <p style={proseStyle}>
+        The drawing&rsquo;s real afterlife is not in its ownership but in its <strong>method</strong>. The idea that the mark could come before the subject &mdash; that an unplanned, racing line could be the real content of a picture &mdash; did not stay in 1924. It crossed the Atlantic, and so did Masson: he spent the war years (<strong>1941&ndash;1945</strong>) in exile in the United States, drawing automatically again after years away from the method, and the younger New York painters watched him do it. When the <strong>Abstract Expressionists</strong> there in the 1940s made the act of painting itself the subject of the canvas, the automatic line was one of their inheritances, and <strong>Jackson Pollock</strong>&rsquo;s debt to Masson&rsquo;s automatism is one of the best-documented lineages in modern art. The poured and dripped canvases that became the most famous American paintings of the century have a grandparent in a nine-inch French sheet covered in one continuous line.
+      </p>
+      <p style={proseStyle}>
+        One footnote on rights, because it is genuinely two-sided. The drawing was first published in France in <strong>1924</strong>, which puts it in the <strong>public domain in the United States</strong> &mdash; the basis is the early date of publication, not anything about the artist&rsquo;s life. Masson, though, lived a very long time and died in <strong>1987</strong>, so by the life-plus-seventy rule the work is <em>not</em> public domain in France or the rest of the European Union for decades yet. It appears here on the US public-domain footing. The line that was meant to escape every rule still runs into one or two on its way to your screen.
+      </p>
+    </article>
+  )
+}
+
+// REGISTRY (coordinator splices into NARRATIVES):
+//  'masson-auto': { method: MsnMethod, making: MsnMaking, break: MsnBreak, looking: MsnLooking, afterlife: MsnAfterlife },
+
+// ─────────────────────────────────────────────────────────────
+// The Treachery of Images (Magritte, 1929) — the five sections
+// ─────────────────────────────────────────────────────────────
+function TrcProposition({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Brussels · 1929" title="A picture that turns into a sentence" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he first thing in the painting is the plainest thing in the world: a <strong>pipe</strong>. A single brown tobacco pipe, bowl on the right, stem on the left, painted with the cool, even competence of an illustration in a catalogue. Underneath it, in a tidy, almost schoolroom hand, runs a line, and the line says: <em>&ldquo;Ceci n&rsquo;est pas une pipe.&rdquo;</em> That is French for <strong>&ldquo;This is not a pipe.&rdquo;</strong> A picture of a pipe, captioned, in careful cursive, with the words <em>this is not a pipe.</em>
+      </p>
+      <p style={proseStyle}>
+        The instinct is to call it a joke, or a riddle, or some clever Surrealist nonsense. It is none of those. The sentence is <strong>literally true.</strong> The thing hanging on the wall of the museum in Los Angeles really is not a pipe. You cannot pick it up. You cannot fill it with tobacco. You cannot light it or smoke it. It is paint arranged on canvas in the shape of a pipe, which is to say it is an <em>image</em> of a pipe. And an image of a pipe is not a pipe, any more than a photograph of your mother is your mother, or the word &ldquo;water&rdquo; is something you can drink. Magritte has written a true sentence under a picture, and it only feels like a contradiction because we are so used to looking <em>through</em> a painted pipe to an imagined real one that we forget we are looking at paint.
+      </p>
+      <p style={proseStyle}>
+        The painter is <strong>René Magritte</strong> (1898&ndash;1967), a Belgian artist who, by 1929, had settled into the deadpan style that would define his Surrealism. <strong>Surrealism</strong> was the art movement, launched in Paris in 1924, that set out to unsettle ordinary reality, often by dredging up dream-logic and the unconscious mind. Most Surrealists did this with melting, fantastical, hallucinatory images. Magritte did the opposite. He painted ordinary objects with the bland clarity of a department-store ad, and then arranged them into a situation that quietly short-circuits the eye. <em>The Treachery of Images</em> is the purest thing he ever made in that vein, because there is no fantasy in it at all, just a pipe, a blank background, and a true sentence that feels like a lie.
+      </p>
+      <p style={proseStyle}>
+        The work travels under several names. Its formal title is <em>The Treachery of Images</em>, in French <em>La trahison des images</em>. The line painted across the bottom, <em>Ceci n&rsquo;est pas une pipe</em>, is so famous that people often use it as the title too. The proper title is <em>The Treachery of Images</em>; the painted line is its most famous caption, and the two are different things. Magritte returned to this captioned pipe more than once across his career, so several pictures carry that line. The original and canonical one is the <strong>1929 oil now in Los Angeles</strong>, and that distinction matters once the other versions come up.
+      </p>
+      <p style={proseStyle}>
+        Everything in this painting depends on one move that has to be felt before it can be thought about: the gap between a thing and the picture of a thing. The picture holds that gap open with both hands. The plain fact that started it is this: a true sentence, written under a picture, and the truth of it is the whole point.
+      </p>
+    </article>
+  )
+}
+
+function TrcMaking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The making · 1929" title="Prying three things apart" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he pipe did not arrive out of nowhere. By 1929 Magritte had spent the better part of two years in Paris, working through a run of pictures that scholars now call his <strong>word-image</strong> paintings, all of them probing one stubborn little gap. The gap is this. When you think about a pipe, three completely different things get fused in your mind so fast you never notice the seam: there is the <strong>thing</strong> itself (a real pipe you could smoke), there is the <strong>picture</strong> of the thing (a painted or drawn pipe), and there is the <strong>word</strong> for the thing (the letters p-i-p-e, or the sound &ldquo;pipe&rdquo;). We treat all three as if they were the same. They are not. None of them is the others. A drawing of a pipe is not a pipe; the word &ldquo;pipe&rdquo; is not a pipe; and a picture of a pipe with the word underneath is not a pipe twice over.
+      </p>
+      <p style={proseStyle}>
+        Magritte made that gap the subject of a whole series. He would paint an object and then label it with the wrong word, or paint a word where the object should be, or set image and text side by side so they argued. The raw move, a word that fights the object it labels, was not invented here. The Dadaists had already mislabeled things to jam the machinery of sense: Francis Picabia, in his mechanical drawings for the journal <em>391</em> around 1917, drew a propeller and captioned it <em>&acirc;ne</em> (&ldquo;donkey&rdquo;). What Magritte added was rigor and calm. He narrowed the prank into a single clean proposition about representation and painted it with a straight face. The captioned pipe is the cleanest and most ruthless of his word-image works, because it strips the experiment down to one object, one sentence, and a blank field, and then refuses to blink.
+      </p>
+
+      <SectionHeader accent={accent} label="Words and Images" title="The same year, the idea written out as a diagram" />
+      <p style={proseStyle}>
+        The clearest proof of what he was after sits in another document from the very same year. In 1929 Magritte published a short illustrated essay, <em>Les mots et les images</em> (&ldquo;Words and Images&rdquo;), in the Surrealist journal <em>La R&eacute;volution surr&eacute;aliste</em> (&ldquo;The Surrealist Revolution&rdquo;). It is not a painting. It is a page of small diagrams and blunt propositions about exactly this gap, and one of its lines is the key to the whole pipe: <em>an object never performs the same function as its name or its image.</em> That is the captioned pipe in a sentence. The picture and the essay are twins, made in the same year by a man who had decided, very deliberately, to put the thing and the picture and the word in front of you at once and let them fail to line up.
+      </p>
+
+      <SectionHeader accent={accent} label="What the painter said" title="“Could you stuff my pipe?”" />
+      <p style={proseStyle}>
+        Magritte was usually cool and unhelpful when people asked him to explain his pictures, but he did once explain this one, and it is worth quoting in full because it is the painting talking. The remark is recorded by the collector and writer Harry Torczyner, in his book <em>Magritte: Ideas and Images</em> (1977), and it runs:
+      </p>
+      <p style={proseStyle}>
+        <em>&ldquo;The famous pipe. How people reproached me for it! And yet, could you stuff my pipe? No, it&rsquo;s just a representation, is it not? So if I had written on my picture &lsquo;This is a pipe,&rsquo; I&rsquo;d have been lying!&rdquo;</em>
+      </p>
+      <p style={proseStyle}>
+        That is the whole defense, and it is airtight. The painted pipe cannot be stuffed, cannot be smoked, because it is a <strong>representation</strong> (a stand-in, an image of a thing, not the thing). So the only honest caption is the one that denies it. To have written &ldquo;This is a pipe&rdquo; under a picture of a pipe would have been the lie. &ldquo;This is not a pipe&rdquo; is the truth. Magritte repeated the point in different words over the years; this wording is the one recorded by Torczyner. He was not playing a trick on the viewer. He was refusing to play the trick that every other picture of a pipe plays automatically: the silent, confident lie that says <em>this is the thing,</em> when it never is.
+      </p>
+    </article>
+  )
+}
+
+function TrcLooking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The canvas" title="A pipe, painted as plainly as possible" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he size surprises people. The painting is small and wide: about <strong>two feet across and just under two feet tall</strong> (the kind of modest, near-tabletop canvas you could carry under one arm), painted in <strong>oil on canvas</strong>, the standard mix of pigment in linseed oil that European painters had used for centuries. For all that it looks printed, it is the brushed, hand-painted thing, not a poster or a print. Everything that follows happens inside that small landscape frame, and the modesty is part of the deadpan. This is not a grand statement-sized picture. It is the size of a diagram.
+      </p>
+      <p style={proseStyle}>
+        In the center of the canvas sits a single <strong>brown briar tobacco pipe</strong>, bowl to the right, stem reaching off to the left. The way it is painted is the first half of the argument. It is rendered with smooth, even, unglamorous clarity: gentle modeling on the bowl, a soft sheen along the stem, no visible brushwork to speak of, no flourish, no drama. It looks less like a &ldquo;painting&rdquo; of a pipe than like an <strong>illustration</strong> of one, the kind you would find in a smoker&rsquo;s mail-order catalogue or pinned up as a teaching plate in a classroom. That choice is deliberate. The plainer and more matter-of-fact the pipe, the more it reads as a generic <em>example</em> of a pipe, a sign rather than a portrait, which is exactly what Magritte needs it to be.
+      </p>
+      <p style={proseStyle}>
+        It is no accident that he could paint like an advertisement. Before he painted full-time, Magritte earned his living as a commercial artist in Brussels: a spell as a wallpaper-factory draughtsman, then years designing posters, advertisements, and sheet-music covers in the crisp Art Deco style of the 1920s, until a 1926 contract with the Galerie Le Centaure freed him to paint. The flat, even, ad-man&rsquo;s finish was a trade he already owned, and he turned it on the pipe on purpose.
+      </p>
+
+      <SectionHeader accent={accent} label="The ground" title="Floating on nothing" />
+      <p style={proseStyle}>
+        The pipe is sitting on nothing. There is <strong>no shadow</strong> under it, no table, no shelf, no surface of any kind. The pipe simply floats in the middle of a flat, neutral, <strong>light tan-brown field</strong> that fills the whole rest of the canvas. No room, no horizon, no window, no context. Magritte has scrubbed away everything that would tell you this is a scene, a place, a moment. What is left is the bare image, hung in a void. That emptiness does quiet, heavy work: it stops the pipe from reading as &ldquo;a pipe on a table in a room&rdquo; and leaves it as what it actually is on the canvas, a depicted object, a sign with nothing around it but blank ground.
+      </p>
+
+      <SectionHeader accent={accent} label="The caption" title="A line in schoolroom cursive" />
+      <p style={proseStyle}>
+        Below the pipe, centered, runs the famous line: <em>Ceci n&rsquo;est pas une pipe.</em> The <em>style</em> of the writing matters as much as the words. It is a tidy, even, handwritten-looking <strong>cursive</strong>, the kind of careful schoolroom script a teacher would chalk on a board or a copybook would print at the top of a page for a child to copy out. It is not a painter&rsquo;s flourish and not a printed label. It is the handwriting of a <em>lesson.</em> And that is the trap closing, because the whole painting is built in the shape of an educational chart: an object on top, a label underneath, exactly the layout of every &ldquo;this is a ___&rdquo; teaching plate from childhood. Magritte borrows that format precisely so he can break its promise. The chart format swears that the label below names the thing above. This one refuses. The lesson-plate says, in its neat little hand, that the thing above is <em>not</em> what it so plainly looks like.
+      </p>
+
+      <SectionHeader accent={accent} label="The deadpan" title="Calm illustration and flat denial on one surface" />
+      <p style={proseStyle}>
+        The final effect is in the <strong>tone.</strong> Nothing anywhere in the picture signals that a joke is being told. There is no wink, no exaggeration, no surreal melting or distortion, none of the lurid dream-imagery the word &ldquo;Surrealism&rdquo; might lead you to expect. The pipe is calm. The ground is calm. The lettering is calm. The contradiction (a clear picture of a pipe, captioned <em>this is not a pipe</em>) is delivered with a completely straight face, in the most untroubled paint imaginable. That flatness <em>is</em> the argument. By making the picture so cool and so plain, Magritte makes a perfectly ordinary illustration and an outright denial of that illustration share one small canvas without any visible strain at all. The two things that should not be able to sit together (the image that says &ldquo;pipe&rdquo; and the sentence that says &ldquo;not a pipe&rdquo;) sit together perfectly calmly, because, once you see it, they were never actually in conflict. The picture was never a pipe. The caption just says so out loud.
+      </p>
+    </article>
+  )
+}
+
+function TrcBreak({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The break · before" title="Five hundred years of the silent “this is that”" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        o feel why this small brown picture is a turning point, you have to know the contract it broke. For centuries, a realistic painting made a promise so quietly that nobody noticed it was a promise. The picture <em>resembled</em> a thing, and by resembling it, the picture silently <strong>asserted</strong> that thing. A painted apple said, under its breath, &ldquo;here is an apple.&rdquo; A portrait said &ldquo;here is the duke.&rdquo; Resemblance and assertion traveled together, locked, and the whole point of the picture was that you looked <em>through</em> the painted surface to the real thing it stood for, as if the canvas were a window. Words, on the rare occasions they appeared in a painting at all (a title, an inscription on a scroll, a motto carved into stone), only reinforced the image. Text was the picture&rsquo;s servant. It agreed.
+      </p>
+
+      <SectionHeader accent={accent} label="The break · after" title="The picture and the sentence pulled apart" />
+      <p style={proseStyle}>
+        Magritte severs the two with one stroke. He puts the word and the image on the <strong>same surface</strong> and sets them at war. The picture says &ldquo;pipe.&rdquo; The sentence says &ldquo;not a pipe.&rdquo; And the unbearable, brilliant thing is that <em>both are correct,</em> because the painted pipe was never a pipe to begin with. The old contract, where the picture both resembles and affirms, is broken in two places at once. First, the canvas stops being a window onto a thing and becomes an <strong>argument about the gap</strong> between a sign and the thing it stands for, between representation and reality. Second, the text is no longer the image&rsquo;s obedient servant; it has become the image&rsquo;s <strong>adversary,</strong> a caption that contradicts instead of confirming. The label and the picture, which had agreed for five hundred years, are caught in the act of disagreeing, and the disagreement is the whole work.
+      </p>
+
+      <SectionHeader accent={accent} label="The proposition" title="A painting that argues" />
+      <p style={proseStyle}>
+        That is the break: Magritte turns a painting into a <strong>philosophical proposition about representation itself.</strong> Not a picture of something, but a claim about what pictures are. It is the moment representation is caught looking at its own machinery, the moment a painting stops pointing at the world and starts pointing at the act of pointing. And it left a long fuse. The idea that a work of art can be, at bottom, an <em>idea</em> about signs, that a picture can argue rather than depict, is the conceptual seed that later movements would harvest directly: <strong>Conceptual art</strong> a generation on (which made the idea the artwork), <strong>Pop art</strong>&rsquo;s play with logos and labels and brand-signs, the appropriation artists who treated every image as a quotable sign. They all run back, in part, to a man in Brussels who painted a pipe as plainly as he could and then told the truth about it underneath. Decades later the French philosopher <strong>Michel Foucault</strong> wrote an entire essay on this picture, using it to pick apart the old marriage of resemblance and assertion in Western art. The painting was so clean a piece of philosophy that a philosopher could build a book on it.
+      </p>
+    </article>
+  )
+}
+
+function TrcAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Provenance" title="Out of Brussels, across the Atlantic" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>H</DropCap>
+        ere is the picture&rsquo;s life as an object, its <strong>provenance</strong> (the documented chain of who has owned a work of art, in order, from the painter&rsquo;s hand to wherever it sits now). It is a tidy chain. Magritte painted it in <strong>1929</strong>, and in this period his work in Brussels was handled by the <strong>Galerie Le Centaure</strong>, the gallery that represented him. Around <strong>1932</strong> the painting passed to <strong>E. L. T. Mesens</strong> (Edouard L&eacute;on Th&eacute;odore Mesens), a Belgian Surrealist who was both an artist and a dealer and a close associate of Magritte, and who assembled one of the important early Surrealist collections.
+      </p>
+      <p style={proseStyle}>
+        In <strong>1957</strong> it crossed the Atlantic, to the American painter and collector <strong>William Copley</strong> (1919&ndash;1996) and his wife <strong>Noma</strong>. Copley is a fine figure to have on a provenance line, because he was not a banker buying trophies; he was a working Surrealist painter himself, and an energetic, generous dealer-collector who did as much as anyone to carry European Surrealism into American art. Then, in <strong>1978</strong>, the painting was sold at auction and bought by the <strong>Los Angeles County Museum of Art</strong>, LACMA, &ldquo;purchased with funds provided by the Mr. and Mrs. William Preston Harrison Collection,&rdquo; accession number 78.7. Figures sometimes cited for that 1978 sale come from secondary reports, not LACMA&rsquo;s own record. It has hung at LACMA ever since.
+      </p>
+
+      <SectionHeader accent={accent} label="Which pipe is THE pipe" title="One original, several later cousins" />
+      <p style={proseStyle}>
+        A point worth pinning down, because Magritte muddied it himself. He liked this idea so much that he came back to the captioned pipe more than once across his life. There is a later version, a <strong>1964</strong> gouache (paint with a chalky, opaque finish) sometimes titled <em>L&rsquo;air et la chanson</em> (&ldquo;The Tune and Also the Words&rdquo;), now at the Art Institute of Chicago, with the same line in it. And in <strong>1966</strong>, near the end of his life, he painted <em>Les deux myst&egrave;res</em> (&ldquo;The Two Mysteries&rdquo;), which cheekily shows the captioned-pipe picture itself, sitting on an easel, with a second, larger pipe floating beside it. So more than one Magritte pipe says &ldquo;this is not a pipe.&rdquo; The one that counts, the original and the canonical, the one this whole story is about, is the <strong>1929 oil now at LACMA.</strong> That is the picture wired into this page. The 1964 gouache and the 1966 easel-painting are its later cousins, not it.
+      </p>
+
+      <SectionHeader accent={accent} label="Foucault, and the second life" title="When a painting became a piece of philosophy" />
+      <p style={proseStyle}>
+        The picture&rsquo;s deepest afterlife, though, is not about owners at all. It is about a philosopher. The Frenchman <strong>Michel Foucault</strong> (1926&ndash;1984), one of the most influential thinkers of the twentieth century, was so taken with Magritte&rsquo;s pipe that he wrote a short essay on it and borrowed its line for the title: <em>Ceci n&rsquo;est pas une pipe.</em> The essay first appeared in a journal in <strong>1968</strong> and was expanded into a small book in <strong>1973</strong>; the English translation, by James Harkness, carries the plain title <em>This Is Not a Pipe.</em> Foucault used the pipe to take apart the old assumption that a picture both resembles its subject and silently asserts &ldquo;this is that.&rdquo; Magritte, he argued, had pried resemblance and assertion apart and left them lying on the table for everyone to see.
+      </p>
+      <p style={proseStyle}>
+        Partly through Foucault, and partly through sheer endless reproduction (the painting has been parodied, T-shirted, and quoted more than almost any image in modern art), the captioned pipe became a permanent fixture. It is now the stock emblem of a single idea that has long since escaped the painting: that a representation is not the reality it stands for, that the map is not the territory, that the picture of the thing is not the thing. A small brown pipe over a tidy line of schoolroom cursive, painted in Brussels in 1929 and hanging today in Los Angeles, turned out to be one of the most quietly consequential arguments ever made in paint. It said, plainly and truthfully, the one thing realistic pictures had spent five hundred years quietly not saying: <em>this is not a pipe.</em>
+      </p>
+    </article>
+  )
+}
+
+// REGISTRY (coordinator splices into NARRATIVES):
+//  treachery: { proposition: TrcProposition, making: TrcMaking, looking: TrcLooking, break: TrcBreak, afterlife: TrcAfterlife },
+
+// ─────────────────────────────────────────────────────────────
+// The Persistence of Memory (Dalí, 1931) — the five sections
+// In-copyright: no full inline figure of the work; the hero (shown small, credited
+// under fair use) carries the image. References to other in-copyright Dalí works use
+// the RestrictedFigure card, never PaintingFigure.
+// NARRATIVES['persistence'] = { method: PerMethod, camembert: PerCamembert,
+//   looking: PerLooking, break: PerBreak, afterlife: PerAfterlife }
+// ─────────────────────────────────────────────────────────────
+function PerMethod({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Catalonia · 1929" title="The newcomer with a method for going mad on purpose" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>S</DropCap>
+        urrealism, when <strong>Salvador Dal&iacute;</strong> (1904&ndash;1989) walked into it, was already a going concern. It had been founded in Paris in 1924 by the poet <strong>Andr&eacute; Breton</strong> (1896&ndash;1966), who defined it, roughly, as the attempt to put the logic of dreams onto the canvas and the page: to let the unconscious mind, the part that runs your dreams without asking permission, do the talking, and to short-circuit the tidy rational mind that normally keeps it quiet. By the late 1920s the movement&rsquo;s painters had split into two broad camps. One, around <strong>Joan Mir&oacute;</strong> and <strong>Andr&eacute; Masson</strong>, worked loose and abstract, letting the hand wander and seeing what shapes turned up. The other, around <strong>Max Ernst</strong>, <strong>Yves Tanguy</strong>, and <strong>Ren&eacute; Magritte</strong>, painted eerie, dreamlike scenes but in a fairly conventional, recognizable way.
+      </p>
+      <p style={proseStyle}>
+        Dal&iacute;, a young Catalan from the seaside town of Figueres, arrived in Paris around 1929 and was formally welcomed into the group, and he brought something neither camp had: a technique for manufacturing the dream-state on demand. He called it the <strong>paranoiac-critical method</strong>, and the name is more frightening than the idea. In plain terms, it meant this: Dal&iacute; would deliberately work himself into a delirious, near-hallucinatory frame of mind, the kind in which an anxious person &ldquo;sees&rdquo; faces in wallpaper or animals in clouds, and let those unstable, irrational associations come flooding up. (&ldquo;Paranoiac&rdquo; here is borrowed from the psychology of the day, meaning a mind that compulsively reads hidden connections into ordinary things; &ldquo;critical&rdquo; is the cold, controlling half that stands back and judges what surfaced.) Then, crucially, he would paint what he had &ldquo;seen&rdquo; not in a wild, loose hand but with the opposite: the licked, exact, photographic finish of a nineteenth-century academic master, the kind of painter who could render a buckle or a strand of hair so precisely it fooled the eye.
+      </p>
+      <p style={proseStyle}>
+        That combination is the whole of Dal&iacute;. He courted madness to find the image, then used iron craft to make it look like a fact. He had a phrase for the result: he called such pictures <strong>&ldquo;hand-painted dream photographs.&rdquo;</strong> A photograph does not argue with you. It simply records what was in front of the lens. Dal&iacute; wanted his impossible scenes to land with exactly that flat, undeniable authority, so that the eye would accept the impossible the way it accepts a snapshot. The painting made in 1931 is the most famous thing that method ever produced.
+      </p>
+    </article>
+  )
+}
+
+function PerCamembert({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The making · 1931" title="The night the cheese went soft" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>H</DropCap>
+        ere is how <strong>Dal&iacute; said</strong> the painting came to him. By his own telling, repeated across his writings and interviews for the rest of his life, the soft watches arrived one evening in 1931. He and his wife, <strong>Gala</strong>, had finished dinner; she had gone out with friends to the cinema, and he had stayed home alone with a headache, contemplating, of all things, the remains of a <strong>Camembert</strong> (a soft French cheese) that had been sitting out and gone runny and over-ripe in the heat, sagging into a puddle on its plate. Pondering this &ldquo;super-soft&rdquo; cheese, he then walked back to the landscape he had been painting that day, a bare Catalan shore under a luminous sky, already finished but waiting for its subject. And he &ldquo;saw&rdquo; the limp watches draped across it. He added them, he said, in a couple of hours, and went to bed.
+      </p>
+      <p style={proseStyle}>
+        It is Dal&iacute;&rsquo;s account, not an externally documented event: there is no second witness to the cheese, and Dal&iacute; spent his career building his own legend with a showman&rsquo;s relish. He told the story, told it consistently, and the leap it describes (seeing one soft thing inside another) is exactly the kind the paranoiac-critical method runs on. But the only source for how it happened is Dal&iacute;, one of the great self-mythologizers of the twentieth century, on the subject of his own painting.
+      </p>
+
+      <SectionHeader accent={accent} label="The reading he denied" title="It is not about Einstein, and he said so" />
+      <p style={proseStyle}>
+        Which brings us to the thing almost everyone &ldquo;knows&rdquo; about this painting, and which <strong>Dal&iacute; himself rejected.</strong> Look up the melting watches and you will be told, confidently, that they are about <strong>Albert Einstein</strong> and the theory of relativity: that the drooping clocks are Dal&iacute;&rsquo;s vision of time made flexible, bent and slowed by physics, a painted illustration of how relativity dissolved the old absolute clockwork time. It is the single most common interpretation of the picture. It is also one that Dal&iacute; explicitly disavowed.
+      </p>
+      <p style={proseStyle}>
+        The cleanest evidence is on the record. When the chemist <strong>Ilya Prigogine</strong> (1917&ndash;2003), a future Nobel laureate, asked Dal&iacute; directly whether the soft watches had been inspired by relativity, Dal&iacute; said no. They were inspired, he answered, by &ldquo;the surrealist perception of a Camembert melting in the sun.&rdquo; That is, by the cheese, not the physics. Some critics still read relativity into the picture as an unconscious symbol of time made elastic; what is settled is that Dal&iacute; denied it as his source. People see Einstein in the soft watches, and it is easy to see why. But Dal&iacute; said it was camembert, and on the question of his own painting he gets the last word. If anything resists time in this picture, it is not the clocks. It is the painting&rsquo;s grip on the public, which has not loosened in ninety years.
+      </p>
+    </article>
+  )
+}
+
+function PerLooking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The canvas" title="First, the shock of the scale" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>P</DropCap>
+        eople who only know this painting from posters and coffee mugs are almost always startled when they meet it at <strong>MoMA</strong> in New York, and the reason is its size. They expect a wall-sized masterpiece, the way an icon &ldquo;should&rdquo; be big. The real canvas is roughly <strong>nine and a half inches tall by a little over a foot wide</strong>, smaller than an ordinary sheet of letter paper. You could cover it with a place mat. Everything Dal&iacute; does here is done at jewel scale, with a tiny brush, in a space you could hide under one hand. One of the most reproduced images in Surrealism is a miniature.
+      </p>
+      <p style={proseStyle}>
+        Now the scene. A bare, sun-flooded coastal plain runs back to a luminous sky. The foreground is in shadow; the far distance is in hard, golden sunlight. And lying across this empty stage are <strong>four pocket-watches</strong> (the kind that live on a chain in a waistcoat, not clocks on a wall, a small distinction worth getting right). Here is the count that matters, because nearly everyone gets it wrong: there are four watches, and <strong>only three of them are soft.</strong>
+      </p>
+
+      <SectionHeader accent={accent} label="The three soft ones" title="A precision instrument behaving like cloth" />
+      <p style={proseStyle}>
+        The three melting watches come first. One folds limply over the edge of a <strong>hard rectangular block</strong> at the left (a plinth, or a table). One sags off the bare <strong>branch of the dead tree</strong>. One slumps over the strange fleshy form lying in the foreground. They droop and pool like wet fabric, like the runny cheese itself, and yet each one keeps every working part: its hands, its numbered face, even the little winding stem on top. That is the disquiet of the thing. A pocket-watch is the hardest, most rule-bound object you can name, a precision instrument whose entire job is to stay exact and never bend. Dal&iacute; paints it sagging like a slice of melting cheese while leaving it perfectly, legibly a watch. The impossible is rendered as fact.
+      </p>
+
+      <SectionHeader accent={accent} label="The hard one, and the fly" title="The watch that stayed shut, and is being eaten" />
+      <p style={proseStyle}>
+        The fourth watch breaks the rule the other three follow. Toward the lower left, lying face-down on the hard block, is a <strong>closed pocket-watch, deep orange</strong>, its lid shut. It has not gone soft at all. It is hard, and it is crawling with <strong>ants.</strong> This is the detail people miss when they call the painting &ldquo;four melting clocks&rdquo;: three melt, and the fourth stays rigid and shut and is being devoured. Ants run all through Dal&iacute;&rsquo;s work as a sign of decay and rot, rooted in a childhood horror of decomposition, so the one hard watch is also the one rotting. Near it, on the face of one of the soft watches, sits a single <strong>fly</strong>, a tiny, near-photographic touch that rewards the close look and quietly insists, again, on the &ldquo;dream photograph&rdquo; realism.
+      </p>
+
+      <SectionHeader accent={accent} label="The sleeping face" title="A boneless profile, widely read as Dalí himself" />
+      <p style={proseStyle}>
+        At the center of the foreground lies the strangest form of all: a soft, fleshy, <strong>eyelashed creature</strong>, boneless, draped by one of the melting watches, lying on the ground like something asleep. The long lashes and the heavy nose mark it as a <strong>profile head</strong>, seen from the side. Art historians have long read it as a <strong>distorted self-portrait of Dal&iacute;</strong>, an approximation of his own face in profile, kin to the very similar boneless head at the center of his earlier painting <em>The Great Masturbator</em> (1929). This is the standard scholarly reading rather than a certainty: what art historians see, an interpretation, not a caption Dal&iacute; signed. Read as a sleeper, it gives the whole picture its frame. This is a dream-image, and at its center lies someone dreaming.
+      </p>
+
+      <SectionHeader accent={accent} label="The far shore" title="The real Catalan coast, doing the heavy lifting" />
+      <p style={proseStyle}>
+        Behind the watches and the sleeping head, the one stretch of solid, recognizable reality: a band of <strong>glowing golden cliffs and a still sea</strong> under a clear sky. This is a real place. It is the rugged coast Dal&iacute; grew up beside, the rocks of <strong>Cap de Creus</strong> on the Costa Brava, near his home at <strong>Portlligat</strong> (the shadowed height in the distance is sometimes identified as Puig Pen&iacute;, though on thinner evidence). The choice is what sells the whole illusion. Set the soft, impossible watches against a faithfully painted real coastline, in real sunlight, and the eye, having accepted the cliffs, has no foothold to reject the watches. The realism of the place is what makes the impossibility of the objects feel like simple fact.
+      </p>
+    </article>
+  )
+}
+
+function PerBreak({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The break · before" title="Time was the one thing nobody touched" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        o see what Dal&iacute; broke, you have to see what painting still took for granted in 1931. Surrealist painting at that moment ran in two lanes, neither of which had done this. Mir&oacute; and Masson made loose, abstract, blobby organic shapes; Ernst, Tanguy, and Magritte made dream-scenes that were eerie but painted in a recognizable, even gentle way. And underneath both lanes sat an assumption so old nobody questioned it: in Western painting, <strong>solid objects were solid, and time was a given.</strong> A clock was a clock. It was the very emblem of order, measure, and reason, the most reliable object in the room. Nobody melted it, because there was no reason a painter would ever want a clock to behave like anything but a clock.
+      </p>
+
+      <SectionHeader accent={accent} label="The break · what he did" title="He made time go soft, and painted it like a photograph" />
+      <p style={proseStyle}>
+        Dal&iacute;&rsquo;s move was to fuse two things that had no business together. From the academic tradition he took <strong>flawless illusionism</strong>: the licked, photographic, fool-the-eye finish of a salon master, every surface convincing. From Surrealism he took the <strong>impossible dream-object.</strong> And he aimed the first at the second. He took the hardest, most rule-bound thing imaginable, a precision watch, and made <strong>time itself go soft</strong>, the clock drooping like wet cheese, while painting the impossibility so convincingly that the eye simply accepts it. That is the whole break in one image: not a clock that <em>symbolizes</em> the collapse of time, but a clock you are made to <em>believe</em> has gone soft, because it is rendered with the same flat authority as the real cliffs behind it. This is the &ldquo;hand-painted dream photograph&rdquo; doing its work. The method lets dream-logic surface, the canvas becoming a kind of inkblot where a soft head can also read as terrain, and the academic craft makes that dream-logic look like reportage.
+      </p>
+      <p style={proseStyle}>
+        And here is the line that ties it all together, in Dal&iacute;&rsquo;s own words. His signature explanation of the soft watches reached straight back to the paranoiac-critical method and the cheese:
+      </p>
+      <blockquote style={{ margin: '4px 0 16px', padding: '2px 0 2px 16px', borderLeft: `3px solid ${accent}`, fontFamily: SERIF, fontSize: 19, fontStyle: 'italic', lineHeight: 1.5, color: INK }}>
+        &ldquo;the soft watches are nothing more than the soft, extravagant, solitary, paranoiac-critical Camembert of time and space.&rdquo;
+      </blockquote>
+      <p style={proseMutedStyle}>
+        The line is genuinely Dal&iacute;&rsquo;s, the sentence that fuses his soft watches to his method and his cheese in one breath. But it circulates in several translations, and the exact wording shifts from source to source: you will also find it as &ldquo;nothing but the tender, extravagant and solitary paranoiac-critical Camembert of time and space,&rdquo; and as the &ldquo;paranoiac-critical camembert cheese of space and time.&rdquo; It reads, then, as Dal&iacute;&rsquo;s known formulation rather than one fixed, canonical original. The thought is firmly his; the precise phrasing is a translator&rsquo;s.
+      </p>
+    </article>
+  )
+}
+
+function PerAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Provenance · 1932" title="A New York gallery, then a museum, anonymously" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he tiny canvas did not stay long in Europe. In <strong>1932</strong> it was shown at the <strong>Julien Levy Gallery</strong> in New York, the dealer who was busy introducing Surrealism to America, and that was the painting&rsquo;s first New York appearance. (A first sale of about $250 is often repeated, but it rests on secondary sources rather than a museum record, so take the figure loosely.) Two years later, in <strong>1934</strong>, the painting entered the <strong>Museum of Modern Art</strong> in New York, where it has hung ever since. The credit line is one of the most evocative in the building, because it names no one: <strong>&ldquo;Given anonymously.&rdquo;</strong> The donor who handed Dal&iacute;&rsquo;s melting watches to MoMA was never publicly identified, and the museum still lists the work, object number 162.1934, simply as an anonymous gift.
+      </p>
+      <p style={proseStyle}>
+        One more practical note, since this is one of the few works in this whole series still under copyright. <em>The Persistence of Memory</em> was painted in 1931, which puts it after the cutoff for the public domain in the United States (works published from the late 1920s on are still protected), and Dal&iacute; did not die until 1989, so the image is not free to reproduce: the rights sit with the Dal&iacute; estate and the physical painting with MoMA. That is why, on this page, it appears small and credited rather than full-bleed. The picture earns its fame; the law still owns its copy.
+      </p>
+
+      <SectionHeader accent={accent} label="The icon" title="The painting that taught a mass audience the word “surreal”" />
+      <p style={proseStyle}>
+        From that anonymous gift, something rare happened: a single small painting became the public face of an entire movement. More than any Mir&oacute; or Ernst or Magritte, <em>The Persistence of Memory</em> is the image that taught a mass audience what <strong>&ldquo;surreal&rdquo; looks like.</strong> If you have ever called a strange dream or an uncanny coincidence &ldquo;surreal,&rdquo; the picture in the back of your mind, whether you know it or not, is probably this one. The melting watch slipped its frame entirely and became a free-floating cultural sign, copied into cartoons, parodied in advertisements, printed on every gift-shop surface a museum sells. And Dal&iacute;, with his waxed mustache and his appetite for cameras, leaned into it, becoming Surrealism&rsquo;s great public showman, the artist the general public could actually name.
+      </p>
+      <p style={proseStyle}>
+        There is a small irony in the title to close on. The painting is called <em>The Persistence of Memory</em>, and almost everything Dal&iacute; said about it points to softness, melting, decay, the runny cheese, the dissolving of time. Yet the one thing that has genuinely refused to melt is the painting&rsquo;s hold on us. Nine and a half inches of canvas, painted in an afternoon by a young Catalan who claimed a cheese showed him the way, have outlasted many a grander, larger, more &ldquo;important&rdquo; picture of its century. The watches went soft. The memory persisted.
+      </p>
+    </article>
+  )
+}
+
+// REGISTRY (coordinator splices into NARRATIVES):
+//  persistence: { method: PerMethod, camembert: PerCamembert, looking: PerLooking, break: PerBreak, afterlife: PerAfterlife },
+
 const NARRATIVES: Record<string, Record<string, NarrativeFn>> = {
+  'song-of-love': { metaphysical: SngMetaphysical, making: SngMaking, looking: SngLooking, break: SngBreak, afterlife: SngAfterlife },
+  harlequin: { paris: HrqParis, making: HrqMaking, looking: HrqLooking, break: HrqBreak, afterlife: HrqAfterlife },
+  'masson-auto': { method: MsnMethod, making: MsnMaking, break: MsnBreak, looking: MsnLooking, afterlife: MsnAfterlife },
+  treachery: { proposition: TrcProposition, making: TrcMaking, looking: TrcLooking, break: TrcBreak, afterlife: TrcAfterlife },
+  persistence: { method: PerMethod, camembert: PerCamembert, looking: PerLooking, break: PerBreak, afterlife: PerAfterlife },
+
   stieglitz: { circle: StiCircle, machine: StiMachine, looking: StiLooking, break: StiBreak, afterlife: StiAfterlife },
   celebes: { cologne: CelCologne, making: CelMaking, looking: CelLooking, break: CelBreak, afterlife: CelAfterlife },
   'sainte-vierge': { 'paris-dada': SvgParisDada, making: SvgMaking, looking: SvgLooking, break: SvgBreak, after: SvgAfter },
