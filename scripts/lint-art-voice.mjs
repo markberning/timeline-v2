@@ -15,6 +15,7 @@ const FILES = [
   'src/app/art/[eraId]/[movementId]/s/[sectionId]/movement-narratives.tsx',
   'src/app/art/[eraId]/[movementId]/[workId]/[sectionId]/art-section-reader.tsx',
   'src/lib/art-content.ts',
+  'src/lib/art-content-nro.ts',
 ]
 
 // STRICT rules (ship-blocking under --strict). These encode the LOCKED voice rules:

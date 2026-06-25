@@ -8,6 +8,10 @@
 // Images use Wikimedia Special:FilePath URLs with a palette fallback.
 
 import { ART_ACCENTS } from './art-data'
+// Neoclassical & Romantic era data (built from the gated fact packs). Lives in its
+// own module to keep this file manageable; type-only deps point back here (erased at
+// runtime), and its only runtime dep is ART_ACCENTS from art-data, so there is no cycle.
+import { NEOCLASSICISM, ROMANTICISM, NRO_ERA } from './art-content-nro'
 
 export type Palette = [string, string, string]
 
@@ -3955,7 +3959,7 @@ export const MOULIN_ROUGE: ArtWorkContent = {
   },
 }
 
-export const ART_ERA_CONTENT: Record<string, ArtEraContent> = { mod: MODERN_ERA }
+export const ART_ERA_CONTENT: Record<string, ArtEraContent> = { nro: NRO_ERA, mod: MODERN_ERA }
 // ─────────────────────────────────────────────────────────────
 // Movement, Fauvism (1905–1908). The first 20th-century movement: color cut
 // loose from describing anything. Authored through the art content pipeline
@@ -4776,7 +4780,7 @@ export const ABSTRACT_EXPRESSIONISM: ArtMovementContent = {
   ],
 }
 
-export const ART_MOVEMENT_CONTENT: Record<string, ArtMovementContent> = { real: REALISM, imp: IMPRESSIONISM, postimp: POST_IMP, fauv: FAUVISM, fut: FUTURISM, dada: DADA, sur: SURREALISM, abex: ABSTRACT_EXPRESSIONISM, pop: POP_ART, cubism: CUBISM }
+export const ART_MOVEMENT_CONTENT: Record<string, ArtMovementContent> = { neoclassicism: NEOCLASSICISM, romanticism: ROMANTICISM, real: REALISM, imp: IMPRESSIONISM, postimp: POST_IMP, fauv: FAUVISM, fut: FUTURISM, dada: DADA, sur: SURREALISM, abex: ABSTRACT_EXPRESSIONISM, pop: POP_ART, cubism: CUBISM }
 // ─────────────────────────────────────────────────────────────
 // Work, Woman with a Hat (Femme au chapeau), Matisse, 1905, SFMOMA (acc. 91.161).
 // The card image + flagship WORK read for Fauvism. Authored through the art content
