@@ -15,6 +15,7 @@ import {
  type Narrative,
 } from '@/components/mode/art-reader'
 import { ART_IMG } from '@/lib/art-content'
+import { NRO_IMG } from '@/lib/art-content-nro'
 
 const CEZANNE = ['#5a7042', '#8a7848', '#1c1a12'] as [string, string, string]
 const PIC = ['#c0a06c', '#3d3a2e', '#8a6b3a'] as [string, string, string]
@@ -5661,7 +5662,1296 @@ const AbexWeaponNarrative: Narrative = ({ accent }) => (<>
  </article>
  </>)
 
+// ════ NEOCLASSICISM movement read ════
+// ── Neoclassicism palettes (figure fallbacks) + per-artist rights lines ──
+const N_STONE = ['#8a7a5a', '#4a3c2a', '#14100a'] as [string, string, string]
+const N_STEEL = ['#5a6470', '#2e3640', '#10141a'] as [string, string, string]
+const N_BLOOD = ['#8a4830', '#4a2418', '#160a06'] as [string, string, string]
+const N_ROCOCO = ['#c8a6c0', '#9a7a6a', '#3a2c28'] as [string, string, string]
+const N_GOLD = ['#a8884a', '#5a4420', '#16100a'] as [string, string, string]
+const PD_DAVID = 'Public domain worldwide (Jacques-Louis David died 1825). Wikimedia Commons.'
+const PD_INGRES = 'Public domain worldwide (Jean-Auguste-Dominique Ingres died 1867). Wikimedia Commons.'
+const PD_FRAGONARD = 'Public domain worldwide (Jean-Honoré Fragonard died 1806). Wikimedia Commons.'
+const PD_VIGEE = 'Public domain worldwide (Élisabeth Vigée Le Brun died 1842). Wikimedia Commons.'
+const PD_KAUFFMAN = 'Public domain worldwide (Angelica Kauffman died 1807). Wikimedia Commons.'
+const PD_GROS = 'Public domain worldwide (Antoine-Jean Gros died 1835). Wikimedia Commons.'
+
+// ── 1. A scholar's creed and a buried city ──────────────────
+const CreedNarrative: Narrative = ({ accent, onZoom }) => (<>
+ <article style={{ padding: '18px 18px 40px' }}>
+ <SectionHeader accent={accent} label="Europe · 1750s" title="Tired of pretty" first />
+ <p style={proseStyle}>
+ <DropCap accent={accent}>M</DropCap>
+ ost movements begin by inventing something new. This one begins by deciding that everything new had been
+ a mistake, and that the way forward was a thousand years back. Around the middle of the eighteenth century
+ the educated classes of Europe grew tired of the art they had, which was{' '}<strong>Rococo</strong>{' '}(the
+ light, ornamental style of the early 1700s, all pastel color, curling lines, and aristocratic flirtation).
+ Rococo was made to please a small rich world, and it pleased it expertly. The Neoclassicists looked at it
+ and saw a dessert trolley where a meal should be.
+ </p>
+ <p style={proseStyle}>
+ The picture they pointed to as proof was Jean-Honoré Fragonard&rsquo;s{' '}<em>The Swing</em>{' '}(painted around
+ 1767). A young woman in a froth of pink kicks a slipper into the air as she swings through a feathery green
+ garden; below her, half-hidden in the bushes, a young man lies back to look straight up her billowing
+ skirts, while an unsuspecting older man works the ropes behind. It is witty, it is gorgeous, it is paint
+ turned to whipped cream, and it is about nothing on earth except pleasure. That, said the new generation,
+ was exactly the problem. Art had become a toy.
+ </p>
+ <PaintingFigure
+ onZoom={onZoom}
+ palette={N_ROCOCO}
+ imageUrl={NRO_IMG.fragonardSwing}
+ ratio="4/5"
+ alt="Fragonard, The Swing"
+ caption={<>The Rococo at its most charming and most weightless: a girl swinging in pink, kicking off a slipper, while a hidden lover peers up her skirts. Pastel, curving, feathery, and about nothing but delight. This is the art the Neoclassicists set out to bury.</>}
+ credit={<>Fragonard,{' '}<em>The Swing</em>, c.1767 · Wallace Collection, London</>}
+ rights={PD_FRAGONARD}
+ />
+
+ <SectionHeader accent={accent} label="Reason wants an art" title="The age of Reason needs a look" />
+ <p style={proseStyle}>
+ The hunger for something sterner had a source, and it was the{' '}<strong>Enlightenment</strong>{' '}(the
+ eighteenth-century movement of thinkers who put reason, evidence, and public-spiritedness above tradition
+ and royal authority). An age that prized clarity, order, and civic virtue (the idea that a good citizen
+ owes duty to the community, not just to himself) wanted an art to match: serious, rational, and morally
+ useful, the opposite of Rococo&rsquo;s private fun. The obvious model lay in the deep past. Ancient Greece
+ and the Roman Republic had built a civilization on exactly those public virtues, and their sculpture had
+ already been admired for centuries as the high-water mark of human art. The way forward, plainly, was the
+ way back: to{' '}<strong>antiquity</strong>{' '}(the world of the ancient Greeks and Romans), to be imitated
+ rather than improved upon.
+ </p>
+ <p style={proseStyle}>
+ Then antiquity, conveniently, came up out of the ground. For centuries the buried Roman towns near Naples
+ had been a rumor under the farmland. Now they were dug. The excavation of{' '}<strong>Herculaneum</strong>{' '}
+ began in 1738 and of{' '}<strong>Pompeii</strong>{' '}in 1748, both towns smothered by Vesuvius in AD 79 and
+ sealed ever since, both now ordered open under Charles of Bourbon, the King of Naples. For the first time
+ Europeans were looking not at later copies of Roman art but at Roman daily life itself, the rooms, the
+ wall paintings, the furniture, the design, lifted whole out of the ash. It was as if the ancient world had
+ sent up a sample crate. Artists and aristocrats poured south to see it, and the new craze for the antique
+ acquired a name in France even before it had a doctrine:{' '}<em>le go&ucirc;t grec</em>, &ldquo;the Greek
+ taste,&rdquo; current by 1757.
+ </p>
+
+ <SectionHeader accent={accent} label="Winckelmann" title="A creed written by a man who couldn't paint" />
+ <p style={proseStyle}>
+ The doctrine arrived next, and it came not from a painter but from a scholar. Johann Joachim Winckelmann
+ (1717&ndash;1768) was a German librarian and antiquarian, often called the father of art history, a man
+ who loved Greek sculpture with an intensity that reads today like a religious conversion. In 1755, in
+ Dresden, he published a slim essay (its first printing ran to about fifty copies) with a long title that
+ amounts to a single command:{' '}<em>Thoughts on the Imitation of Greek Works in Painting and Sculpture</em>.
+ Stop inventing, it told artists. Stop chasing novelty. The road to greatness runs through imitating the
+ Greeks, and the supreme quality of Greek art, the thing every painter should chase, he named in a phrase
+ that became the whole movement&rsquo;s motto:{' '}<strong>&ldquo;a noble simplicity and quiet
+ grandeur&rdquo;</strong>{' '}({' '}<em>eine edle Einfalt und eine stille Gr&ouml;&szlig;e</em>{' '}in his
+ German), in both pose and expression. Not drama. Not display. A calm, restrained, dignified gravity, like
+ a Greek statue that has nothing left to prove.
+ </p>
+ <p style={proseStyle}>
+ One honest footnote travels with that famous line. The English everyone now quotes, &ldquo;quiet
+ grandeur,&rdquo; is the modern standard translation. When the line first crossed into English, in the
+ Swiss-British painter Henry Fuseli&rsquo;s translation of 1765, it read &ldquo;a noble simplicity and{' '}<em>sedate</em>{' '}
+ grandeur.&rdquo; The sense is the same; the smoother wording is later. It is a small thing, but Winckelmann
+ wrote the creed of an art obsessed with getting the antique exactly right, so it is worth getting his own
+ words exactly right too.
+ </p>
+ <p style={proseStyle}>
+ So the founding text of a movement of severe, drawn, moral paintings is a piece of art criticism, written
+ by a man who could not paint. The first to try translating it into an actual picture was Winckelmann&rsquo;s
+ own friend, the German painter Anton Raphael Mengs, whose ceiling fresco (a painting laid straight onto
+ wet plaster){' '}<em>Parnassus</em>{' '}of 1761 (Apollo among the Muses, arranged with the cool clarity of a{' '}
+ <strong>frieze</strong>, a band of figures set in a shallow line across the surface, like the carved relief
+ that runs across a temple) is often called the first programmatic Neoclassical painting: the doctrine turned,
+ gingerly, into paint. It would take another thirty years, and a
+ Frenchman with no gift for gentleness, to turn the creed into something that could frighten people.
+ </p>
+ </article>
+
+ <MeanwhileSheet
+ region="Rome"
+ title="Everyone is studying in the same ruins."
+ body="The movement was international because its school was a single city. Through these decades Rome was the finishing academy of European art, and now Pompeii was the field trip. Winckelmann, Mengs, the sculptor Canova, the painters Angelica Kauffman and Benjamin West all passed through the same ancient streets. They came home from different countries having looked at the same stones, which is why a German's creed could become a Frenchman's revolution."
+ />
+ </>)
+
+// ── 2. David draws the line ─────────────────────────────────
+const LineNarrative: Narrative = ({ accent, onZoom }) => (<>
+ <article style={{ padding: '18px 18px 40px' }}>
+ <SectionHeader accent={accent} label="Jacques-Louis David" title="The man who made the creed a body" first />
+ <p style={proseStyle}>
+ <DropCap accent={accent}>J</DropCap>
+ acques-Louis David (1748&ndash;1825) was the painter Neoclassicism had been waiting for: French, fiercely
+ ambitious, and possessed of a hardness of hand that suited the new severity exactly. He had trained in the
+ usual way, won the{' '}<strong>Prix de Rome</strong>{' '}(the state prize that paid for years of study in
+ Italy) that sent young French painters to Rome, and there, among the ruins and the
+ antique sculpture Winckelmann worshipped, he burned the Rococo out of himself. What he came back with was a
+ way of painting that looked like nothing the Salon was used to. To see the size of the change, it helps to
+ set his breakthrough beside the Fragonard.
+ </p>
+ <p style={proseStyle}>
+ Where Fragonard&rsquo;s color is pastel, David&rsquo;s is severe and local: stone gray, steel, the dull
+ red of dried blood, each thing its own plain color with no sugary haze over it. Where Fragonard&rsquo;s
+ brushwork is feathery and shows, David&rsquo;s is smooth to the point of invisibility, so that his figures
+ read like carved and painted marble rather than strokes of paint. Where Fragonard composes on swinging soft
+ curves, David lines his figures up across a shallow stage like a carved relief on a Roman tomb, the action
+ pressed right to the front and lit hard from the side. And where Fragonard&rsquo;s subject is a flirtation,
+ David&rsquo;s is a vow to die. The single deepest swap is the one the whole movement turns on: clear
+ <strong> line</strong>{' '}replaces soft color as the thing that carries the picture. You could trace every
+ figure in a David with a pencil and lose almost nothing. That is{' '}<strong>line over color</strong>, the
+ conviction that drawing (the firm edge, the contour) is the true bones of painting and color only its skin.
+ </p>
+
+ <SectionHeader accent={accent} label="Oath of the Horatii" title="Three swords and a vow" />
+ <p style={proseStyle}>
+ The picture that announced all of this was the{' '}<em>Oath of the Horatii</em>, painted in Rome in 1784 and
+ shown at the Salon (the official annual exhibition in Paris, the one show that made or broke a French
+ career) the next year. The story is from early Roman legend: three brothers of the Horatii family step
+ forward to fight three champions of a rival city, settling a war by single combat to spare both armies.
+ David paints the moment of their oath. Look at the structure of it. On the left, the three brothers throw
+ out their arms in a single rigid salute toward their father, every line of their bodies taut and parallel,
+ soldiers turned to clenched springs. In the center the old father lifts up three swords in his fists, the
+ bright steel the hard focus of the whole canvas. And on the right, in a heap of soft curves that pointedly
+ break the men&rsquo;s straight lines, the women of the family collapse, weeping, already grieving the deaths
+ the men have not yet died. Three round arches behind divide the scene into the men, the swords, and the
+ women: duty, the weapon, and the cost.
+ </p>
+ <PaintingFigure
+ onZoom={onZoom}
+ palette={N_STONE}
+ imageUrl={NRO_IMG.oathHoratii}
+ ratio="5/4"
+ alt="David, Oath of the Horatii"
+ caption={<>Three brothers fling out their arms in a single rigid salute; their father lifts three swords; the women crumple in grief at the right. Hard line, a shallow friezelike stage, severe local color, and a subject of stark civic duty. The image that announced the new style.</>}
+ credit={<>David,{' '}<em>Oath of the Horatii</em>, 1784&ndash;85 · 10 ft 10 in &times; 13 ft 11 in · Louvre, Paris</>}
+ rights={PD_DAVID}
+ />
+ <p style={proseStyle}>
+ A word of care about what this picture is, because it is almost always told wrong. It is endlessly
+ described as a deliberate call to revolution, a prophecy of 1789 painted to summon France to overthrow its
+ king. It was nothing of the kind. The{' '}<em>Oath of the Horatii</em>{' '}was a royal commission, ordered for
+ the Crown through the comte d&rsquo;Angiviller, the official who ran the king&rsquo;s buildings and art, and
+ it was painted in 1784, five full years before the Revolution began. Its subject, men sacrificing
+ everything private for the good of the state, became a revolutionary banner only later, read back into the
+ picture once France had a revolution to read it through. David did not paint a prophecy. He painted the
+ king&rsquo;s commission about Roman duty, in a style hard enough that history could pick it up afterward and
+ carry it.
+ </p>
+
+ <SectionHeader accent={accent} label="The Death of Socrates" title="Reason takes the poison" />
+ <p style={proseStyle}>
+ Three years on, David painted the calmest and perhaps the most perfect statement of the whole creed:{' '}
+ <em>The Death of Socrates</em>{' '}(1787). The Greek philosopher Socrates, condemned to death by an Athenian
+ court for his teaching and offered the choice of execution, has chosen to drink a cup of hemlock (a deadly
+ poison) rather than flee or recant. David paints the instant before he drinks. Socrates sits upright on his
+ prison cot, his body that of a much younger and stronger man than he was, one hand reaching almost
+ absent-mindedly for the cup a turned-away jailer holds out, the{' '}<em>other</em>{' '}hand raised with a
+ finger pointed up, because he is still in the middle of making a point. He is arguing as he dies. Around him
+ his students fall apart, clutching their heads, looking away, unable to watch; the man holding out the
+ poison cannot meet his eye. Only Socrates is steady. It is the movement&rsquo;s ideal in a single body:
+ reason facing death without the smallest tremor, still teaching as the dark comes up. Everything the style
+ stood for (clarity, restraint, moral seriousness, a calm gravity drawn with a hard edge) is concentrated in
+ that raised, pointing hand.
+ </p>
+ <PaintingFigure
+ onZoom={onZoom}
+ palette={N_STONE}
+ imageUrl={NRO_IMG.deathSocrates}
+ ratio="3/2"
+ alt="David, The Death of Socrates"
+ caption={<>Socrates reaches for the cup of poison without looking at it, his other hand still raised in mid-argument, calm among students who cannot bear to watch. Reason meeting death without a flinch. The whole Neoclassical creed compressed into one pointing finger.</>}
+ credit={<>David,{' '}<em>The Death of Socrates</em>, 1787 · 4 ft 3 in &times; 6 ft 5&frac14; in · The Metropolitan Museum of Art, New York</>}
+ rights={PD_DAVID}
+ />
+ </article>
+ </>)
+
+// ── 3. The official style of the Revolution ─────────────────
+const RevolutionNarrative: Narrative = ({ accent, onZoom }) => (<>
+ <article style={{ padding: '18px 18px 40px' }}>
+ <SectionHeader accent={accent} label="Paris · 1789" title="The painter becomes a politician" first />
+ <p style={proseStyle}>
+ <DropCap accent={accent}>W</DropCap>
+ hen the French Revolution came in 1789, David did not merely cheer it from the studio. He climbed inside
+ it. He is the rare case of a great painter who became, for a few violent years, an actual revolutionary
+ official, and the facts of it are worth stating plainly, neither softened nor sensationalized, because they
+ are how the severe Roman style became the literal look of the new French state.
+ </p>
+ <p style={proseStyle}>
+ David was elected a deputy to the{' '}<strong>National Convention</strong>{' '}(the revolutionary assembly that
+ governed France and abolished the monarchy). He sat with the{' '}<strong>Montagnards</strong>, the most
+ radical faction, and when the deposed king Louis XVI was put on trial, David voted for his execution, making
+ himself a{' '}<strong>regicide</strong>{' '}(a killer of a king); his royalist wife divorced him over the vote.
+ He joined the Jacobin Club, the engine room of the radical Revolution, became an ally of its leader
+ Maximilien Robespierre, sat on the feared Committee of General Security that hunted the Revolution&rsquo;s
+ enemies, and for a stretch served as President of the Convention itself. Contemporaries called him &ldquo;the
+ Robespierre of the brush.&rdquo; And he ran the Revolution&rsquo;s images: he designed and staged its great
+ public festivals and funerals as vast open-air Neoclassical theater, antiquity brought to life in the streets
+ of Paris, the most famous being the Festival of the Supreme Being in June 1794 (a vast open-air pageant
+ staged to swap out Christian worship for a new state religion of reason and civic virtue).
+ </p>
+
+ <SectionHeader accent={accent} label="The Death of Marat" title="A murdered man painted as a saint" />
+ <p style={proseStyle}>
+ Out of all that came the strangest and greatest picture of his career, and one of the strangest in all of
+ European art: a piece of government propaganda that is also a masterpiece. Jean-Paul Marat was a radical
+ journalist and a fellow Montagnard deputy, a friend of David&rsquo;s, who suffered from a painful skin
+ disease that forced him to spend hours soaking in a medicinal bath, where he also worked. On 13 July 1793 a
+ young woman named Charlotte Corday, who blamed him for the Revolution&rsquo;s bloodshed, talked her way into
+ his rooms and stabbed him to death in that bath. The Convention asked David, Marat&rsquo;s friend and the
+ Revolution&rsquo;s image-maker, to paint him. What he produced was{' '}<em>The Death of Marat</em>{' '}(1793).
+ </p>
+ <p style={proseStyle}>
+ It shows almost nothing, and that is its power. Marat lies slumped sideways in the bath, dead, the wound
+ under his collarbone the only violence visible, a white turban around his head, his face calm and almost
+ tender. One bare arm hangs down out of the bath and across a plain wooden packing box, the pen still loose in
+ the fingers; the other hand still holds the letter Corday used to get in. A spreading bloodstain darkens the
+ water. And above all of it, taking up the entire top half of the canvas, is nothing: a great dim empty void
+ of brown wall. Anyone raised on Christian painting recognizes the shape instantly. The slumped body, the
+ fallen arm, the bare skin, the somber emptiness, this is the composition of a{' '}<strong>piet&agrave;</strong>{' '}
+ or a deposition (the standard image of Christ&rsquo;s dead body taken down from the cross and mourned), the
+ holiest image in Western art. David has lifted that sacred shape and emptied the God out of it. A murdered
+ revolutionary is laid out as a secular martyr, scripture without heaven, propaganda raised to the pitch of a
+ holy relic. It is, at once, a thing made to whip up a faction and a genuinely great painting, and it does not
+ stop being either by being the other.
+ </p>
+ <PaintingFigure
+ onZoom={onZoom}
+ palette={N_BLOOD}
+ imageUrl={NRO_IMG.deathMarat}
+ ratio="4/5"
+ alt="David, The Death of Marat"
+ caption={<>The murdered Marat slumped dead in his bath, pen still in his fallen hand, a plain wooden box at his side, and above him a vast empty void. David borrows the shape of a pietà (Christ taken down from the cross) and empties the God out of it. A revolutionary painted as a secular saint.</>}
+ credit={<>David,{' '}<em>The Death of Marat</em>, 1793 · 5 ft 5 in &times; 4 ft 2&frac38; in · Royal Museums of Fine Arts of Belgium, Brussels</>}
+ rights={PD_DAVID}
+ />
+
+ <SectionHeader accent={accent} label="Napoleon" title="The same brush, a new master" />
+ <p style={proseStyle}>
+ The radical Revolution devoured itself. When Robespierre fell in the coup of July 1794 (the{' '}
+ <strong>Thermidor</strong>, named for the month in the Revolution&rsquo;s new calendar), David, his ally, was
+ arrested and jailed, and was lucky to be released under an amnesty the next year. He had backed the losing
+ side of a terror, and he needed a new patron. He found one in the soldier who rose out of the
+ Revolution&rsquo;s wreckage to make himself emperor: Napoleon Bonaparte. David rallied to him completely and
+ became his official painter, the image-maker of the Empire as he had been of the Republic.
+ </p>
+ <p style={proseStyle}>
+ His grandest piece of Napoleonic myth-making is{' '}<em>Napoleon Crossing the Alps</em>{' '}(painted 1801&ndash;05).
+ Bonaparte sits a rearing white horse on a mountain pass, his cloak streaming straight out in a gold-and-red
+ banner, one gauntleted hand thrown up to point the way over the mountains, his face cool and certain in the
+ middle of a storm. In the rock beneath the horse&rsquo;s hooves are carved three names: Bonaparte, and below
+ him Hannibal and Charlemagne, the two earlier conquerors who had crossed the same Alps, so that the picture
+ quietly enrolls Napoleon in a line of legends. It is heroic myth, not reporting. The real Napoleon made the
+ crossing days after his army, in fair weather, on the back of a sure-footed mule led by a guide, which is
+ sensible and unpaintable. David gave the legend the horse. There are five versions of the picture; the first,
+ commissioned by Charles IV of Spain, hangs at the Ch&acirc;teau de Malmaison.
+ </p>
+ <PaintingFigure
+ onZoom={onZoom}
+ palette={N_STEEL}
+ imageUrl={NRO_IMG.napoleonAlps}
+ ratio="4/5"
+ alt="David, Napoleon Crossing the Alps"
+ caption={<>Bonaparte on a rearing white horse, cloak streaming, pointing the way over the pass, the names of Hannibal and Charlemagne carved in the rock beneath him. Heroic legend, not reportage. The real crossing was made on a mule, in fair weather, behind the army.</>}
+ credit={<>David,{' '}<em>Napoleon Crossing the Alps</em>, 1801&ndash;05 · 8 ft 6&frac38; in &times; 7 ft 3 in · Ch&acirc;teau de Malmaison, Rueil-Malmaison</>}
+ rights={PD_DAVID}
+ />
+ <p style={proseStyle}>
+ So the same severe style, born to preach Roman civic virtue, served first a Republic that killed its king and
+ then an Empire that crowned a general. The look did not change. The owner did. Neoclassicism is the rare case
+ in the history of art of a style that became, for a generation, a government&rsquo;s official propaganda
+ machine, with its greatest painter sitting inside the government running it.
+ </p>
+
+ <SectionHeader accent={accent} label="Élisabeth Vigée Le Brun" title="The royalist who painted the Queen" />
+ <p style={proseStyle}>
+ While David was bending the official art world toward the Republic, the most sought-after portrait painter in
+ France was at work on the woman that Republic would behead. &Eacute;lisabeth Vig&eacute;e Le Brun
+ (1755&ndash;1842) became Marie Antoinette&rsquo;s favored portraitist around 1778, painting the Queen and her
+ family more than thirty times, and she was one of the most successful painters of the whole age, of either
+ sex, with something near six hundred and sixty portraits to her name by the end. In 1783 she was admitted to
+ the{' '}<strong>Acad&eacute;mie royale</strong>{' '}(France&rsquo;s official art establishment, the body that
+ trained painters, ran the Salon, and decided what the public was allowed to see), one of a tiny handful of
+ women ever let in.
+ </p>
+ <p style={proseStyle}>
+ The Revolution that handed David his power made her a fugitive. A committed royalist bound to the doomed
+ court, she fled Paris at midnight on 5 October 1789, the night the crowd set out to march on Versailles, and
+ spent the next twelve years working her way across Italy, Austria, Russia, and Germany, painting aristocrats
+ in one capital after another until an amnesty let her come home. Late in life she set the whole journey down
+ in three volumes of memoirs that shaped how the age would be remembered. The same upheaval runs through both
+ careers from opposite ends: David stayed and voted to kill the king, and Vig&eacute;e Le Brun packed in the
+ dark and ran. The same Acad&eacute;mie, the same decade, opposite sides of the same blade.
+ </p>
+ <PaintingFigure
+ onZoom={onZoom}
+ palette={N_ROCOCO}
+ imageUrl={NRO_IMG.vigeeDaughter}
+ ratio="4/5"
+ alt="Vigée Le Brun, Self-portrait with Her Daughter Julie"
+ caption={<>The painter holds her young daughter Julie, both of them looking straight out at us, and she is smiling with her lips parted and her teeth showing, which the academic rulebook of the day flatly forbade in a serious portrait. Warmth turned into a quiet rule-break.</>}
+ credit={<>Vig&eacute;e Le Brun,{' '}<em>Self-portrait with Her Daughter Julie</em>, 1786 · 3 ft 5 in &times; 2 ft 9 in · Louvre, Paris</>}
+ rights={PD_VIGEE}
+ />
+ </article>
+
+ <MeanwhileSheet
+ region="Paris"
+ title="The Revolution is also an antique costume drama."
+ body="David's politics and his classicism were one thing, not two. The Revolution dressed itself in ancient Rome on purpose: it called its assembly a Senate's heir, named months and virtues after Roman models, and staged its festivals as classical processions, which David designed. The same men who admired the stoic Romans of his paintings were trying, in deadly earnest, to be them. The art and the politics were quoting the same dead republic."
+ />
+ </>)
+
+// ── 4. Ingres and the cult of line ──────────────────────────
+const IngresNarrative: Narrative = ({ accent, onZoom }) => (<>
+ <article style={{ padding: '18px 18px 40px' }}>
+ <SectionHeader accent={accent} label="Jean-Auguste-Dominique Ingres" title="The pupil who outlived the cause" first />
+ <p style={proseStyle}>
+ <DropCap accent={accent}>D</DropCap>
+ avid&rsquo;s most gifted pupil carried the creed deep into a century that was busy abandoning it.
+ Jean-Auguste-Dominique Ingres (1780&ndash;1867) trained in David&rsquo;s studio and made line, the firm
+ contour, the primacy of drawing, into a lifelong religion. His battle cry was that &ldquo;a thing well drawn
+ is always well painted&rdquo;: get the drawing right, he insisted, and the picture is essentially made;
+ color is only a finish coat. He held that position with a stubbornness that outlasted the whole
+ Neoclassical moment, and it set up the central fight of the era, which arrives at the end of this story.
+ </p>
+ <p style={proseStyle}>
+ First he, too, dressed power. His{' '}<em>Napoleon I on his Imperial Throne</em>{' '}(1806) shows the emperor
+ seated dead front, frozen and symmetrical, swallowed in ivory, gold, and white ermine, holding the scepter
+ and the hand of justice, staring out without expression. It is less a portrait of a man than an icon of an
+ office, deliberately stiff and cold, closer to a gilded Byzantine emperor (the rigid, frontal, gold-ground
+ icon style of medieval Eastern Christianity, built to feel timeless rather than alive) or a pagan god of
+ judgment than to anything alive. Ingres has pushed line and finish all the way into ritual rigidity. The Salon of 1806 disliked
+ it, finding it strange and frozen, which it is, on purpose.
+ </p>
+ <PaintingFigure
+ onZoom={onZoom}
+ palette={N_GOLD}
+ imageUrl={NRO_IMG.napoleonThrone}
+ ratio="2/3"
+ alt="Ingres, Napoleon I on his Imperial Throne"
+ caption={<>Napoleon enthroned head-on, frozen and symmetrical in ivory, gold, and ermine, an icon of an office rather than a likeness of a man. Ingres pushes line and finish all the way into ritual stiffness, closer to a Byzantine emperor than to a living general.</>}
+ credit={<>Ingres,{' '}<em>Napoleon I on his Imperial Throne</em>, 1806 · 8 ft 6 in &times; 5 ft 3&frac34; in · Mus&eacute;e de l&rsquo;Arm&eacute;e, Paris</>}
+ rights={PD_INGRES}
+ />
+
+ <SectionHeader accent={accent} label="Grande Odalisque" title="A back with too many bones" />
+ <p style={proseStyle}>
+ Ingres&rsquo;s most famous picture is where his worship of line tips into something almost perverse. The{' '}
+ <em>Grande Odalisque</em>{' '}(1814) shows an{' '}<strong>odalisque</strong>{' '}(a woman of a harem, the
+ enclosed women&rsquo;s quarters of an Ottoman household) reclining with her back to us, turning her cool,
+ blank face over one shoulder. The harem here is pure invention. Ingres never set foot in the East; the
+ cool tiled scene is an{' '}<strong>Orientalist</strong>{' '}fantasy (a European daydream of an imagined
+ East, conjured to license a nude and a whiff of the exotic), a projection of the Ottoman world rather
+ than a report from it, owed the same plain honesty as the harem scenes Delacroix would later paint after
+ actually traveling to Morocco. It was painted for
+ Napoleon&rsquo;s sister Caroline Murat, the Queen of Naples. And the back is wrong. Ingres has drawn it
+ impossibly long and smooth, a perfect unbroken S-curve of pale flesh that no real spine could produce, because
+ he cared more about the sweep of the line than about the skeleton underneath it. When the picture was shown at
+ the Salon of 1819, critics jeered that the woman had two or three vertebrae too many, an insult aimed squarely
+ at Ingres&rsquo;s competence as a draughtsman: he can&rsquo;t even count the bones in a back. The funny part is
+ that they undercounted. When a team of doctors actually measured the distortion in a 2004 study, they found it
+ came to roughly five extra vertebrae, with the pelvis pulled out of true as well, and argued it was no error
+ at all but a deliberate stretch, anatomy bent on purpose for the sake of the curve. The 1819 critics thought
+ they had caught a mistake. They had caught a choice.
+ </p>
+ <PaintingFigure
+ onZoom={onZoom}
+ palette={N_STONE}
+ imageUrl={NRO_IMG.grandeOdalisque}
+ ratio="16/9"
+ alt="Ingres, La Grande Odalisque"
+ caption={<>A reclining nude seen from behind, her back drawn into one long, impossibly smooth S-curve of flesh. Critics in 1819 sneered that she had two or three vertebrae too many; a 2004 study measured nearer five, and called it deliberate. Line bent past anatomy for the sake of the curve.</>}
+ credit={<>Ingres,{' '}<em>La Grande Odalisque</em>, 1814 · 3 ft &times; 5 ft 4 in · Louvre, Paris</>}
+ rights={PD_INGRES}
+ />
+
+ <SectionHeader accent={accent} label="The Apotheosis of Homer" title="A closed pantheon of genius" />
+ <p style={proseStyle}>
+ Late in his career Ingres painted the movement&rsquo;s grandest summary and, in a way, its tombstone. The{' '}
+ <em>Apotheosis of Homer</em>{' '}(1827) was made as a ceiling for the Louvre, and an{' '}
+ <strong>apotheosis</strong>{' '}is the raising of a person to the rank of a god. It shows the ancient Greek
+ poet Homer enthroned before a Greek temple, crowned by a winged figure of Victory, while the great writers and
+ artists of all the centuries since are ranged below him in perfect symmetry, paying homage, an entire Western
+ tradition lined up to bow to its source. It is severe, balanced, frozen, and backward-facing: genius treated
+ as a closed and finished club, with the door shut behind antiquity. Painted the same decade in which a younger
+ generation was breaking loudly toward color and feeling, it reads now as Neoclassicism gazing fixedly at the
+ past while the present walked off in the other direction.
+ </p>
+ <PaintingFigure
+ onZoom={onZoom}
+ palette={N_STONE}
+ imageUrl={NRO_IMG.apotheosisHomer}
+ ratio="3/2"
+ alt="Ingres, The Apotheosis of Homer"
+ caption={<>Homer enthroned and crowned by Victory before a Greek temple, the great writers and artists of every age ranged below him in perfect symmetry to pay homage. Late Neoclassicism as a closed pantheon of genius, gazing at the past with the door shut behind it.</>}
+ credit={<>Ingres,{' '}<em>The Apotheosis of Homer</em>, 1827 · 12 ft 8 in &times; 16 ft 9&frac12; in · Louvre, Paris</>}
+ rights={PD_INGRES}
+ />
+
+ <SectionHeader accent={accent} label="Beyond David" title="The movement was bigger than one studio" />
+ <p style={proseStyle}>
+ France and David dominate the story, but the antique revival ran across borders and across every medium. In
+ Rome the sculptor Antonio Canova carved the same calm, idealized antiquity in white marble. In Britain the
+ American-born painter Benjamin West painted a modern death at the grand scale once kept for ancient heroes.
+ And the movement had women at its very founding, working at the top of it.
+ </p>
+ <p style={proseStyle}>
+ Angelica Kauffman (1741&ndash;1807), Swiss-born and working between London and Rome, was one of only two
+ women, with the flower painter Mary Moser, among the thirty-four artists who founded the{' '}
+ <strong>Royal Academy of Arts</strong>{' '}in London in 1768 (Britain&rsquo;s official art establishment, the
+ institution that trained painters and decided who got shown, the British twin of the French Acad&eacute;mie).
+ It was not a door that stayed open. The Royal Academy would not elect another woman a full member until 1936,
+ a gap of one hundred and sixty-eight years. And Kauffman did not work the genres women were usually steered
+ into, portraits and still life. She painted history (large narrative scenes drawn from myth and antiquity),
+ the category the academies ranked highest and guarded most jealously, and she painted it at the level of the
+ men who founded the school beside her.
+ </p>
+ <PaintingFigure
+ onZoom={onZoom}
+ palette={N_GOLD}
+ imageUrl={NRO_IMG.kauffmanAriadne}
+ ratio="3/2"
+ alt="Kauffman, Ariadne Abandoned by Theseus"
+ caption={<>Ariadne, left on the shore of Naxos as the ship of Theseus slips away behind her, painted by one of the two women who founded the Royal Academy. Kauffman worked in history painting, the most prestigious and most fiercely male-guarded category of all.</>}
+ credit={<>Kauffman,{' '}<em>Ariadne Abandoned by Theseus</em>, 1774</>}
+ rights={PD_KAUFFMAN}
+ />
+ </article>
+
+ <MeanwhileSheet
+ region="London"
+ title="Two founders allowed in only as pictures on the wall."
+ body="The limit on the two women is caught, without meaning to be, in Johann Zoffany's group portrait of the Royal Academicians (1771–72). The male founders gather together in person, a roomful of artists at work. Kauffman and Moser appear only as two framed portraits hanging on the wall behind them, in the room but not of it. Founders of the academy, painted as pictures on its wall."
+ />
+ </>)
+
+// ── 5. The rules everyone broke ─────────────────────────────
+const RulesNarrative: Narrative = ({ accent, onZoom }) => (<>
+ <article style={{ padding: '18px 18px 40px' }}>
+ <SectionHeader accent={accent} label="Line vs color" title="The fight that became the academy" first />
+ <p style={proseStyle}>
+ <DropCap accent={accent}>I</DropCap>
+ ngres did not carry the cult of line into the nineteenth century unopposed. The other half of the era grew up
+ directly against him, and the quarrel between them became the spine of the whole period. On one side stood the{' '}
+ <strong>Ingristes</strong>, Ingres&rsquo;s camp, who held that drawing was the foundation of all good
+ painting. On the other stood the{' '}<strong>colorists</strong>, led by the young Romantic Eug&egrave;ne
+ Delacroix, who held that color and emotion and movement were the living heart of a picture and that
+ Ingres&rsquo;s cool perfect line was a corpse. It was an old fight in fresh clothes: a century and a half
+ earlier French painters had split exactly this way over the merits of drawing versus color, and now Ingres and
+ Delacroix were fighting it again across the Salon, line against color, calm against passion, the antique
+ against the storm.
+ </p>
+ <p style={proseStyle}>
+ That opposing camp was{' '}<strong>Romanticism</strong>, Neoclassicism&rsquo;s sibling and opposite, which grew
+ up inside the same era answering reason with feeling, line with color, the calm Greek with the shipwreck and
+ the firing squad. The two did not take turns politely. They overlapped and snarled at each other for decades,
+ which is why this stretch of European painting is best understood not as one style following another but as a
+ single argument, Reason against Feeling, carried on by people who genuinely could not stand each other&rsquo;s
+ work.
+ </p>
+
+ <SectionHeader accent={accent} label="Antoine-Jean Gros" title="The storm rises inside the temple" />
+ <p style={proseStyle}>
+ The tidy version of the story is that Romanticism attacked Neoclassicism from the outside. It is half true.
+ The other half is that Romanticism grew up inside David&rsquo;s own studio, in the work of his most
+ celebrated pupil. Antoine-Jean Gros (1771&ndash;1835) kept everything David had drilled into him, the
+ monumental scale, the grand history-painting ambition, the public subject, and poured into it exactly what
+ David had drained out: vivid color, raw feeling, the horror of war. The civic format stayed; the cool blood
+ ran hot.
+ </p>
+ <p style={proseStyle}>
+ His{' '}<em>Bonaparte Visiting the Plague Victims of Jaffa</em>{' '}(1804) takes a Davidian machine and fills
+ it with sickness and dread. In a plague hospital on the Syrian coast, Napoleon stands bare-handed among the
+ dying and reaches out to touch the swollen sore on a stricken soldier&rsquo;s body. Look closely at what the
+ picture is doing, because the honest account matters. The visit was real; Napoleon did go to the plague
+ hospital at Jaffa in 1799. The touch is the construction. The image deliberately borrows the old legend of
+ the royal touch (the belief that a true king could heal disease with his bare hand), and it was made to bury
+ a darker rumor, that Napoleon had ordered plague-stricken soldiers dosed with fatal opium so they would not
+ slow his retreat. Gros recasts a possible murderer as a healer-king. The propaganda lives in that
+ outstretched hand, painted with a Romantic intensity a full generation before Romanticism had a name.
+ </p>
+ <PaintingFigure
+ onZoom={onZoom}
+ palette={N_BLOOD}
+ imageUrl={NRO_IMG.grosJaffa}
+ ratio="4/3"
+ alt="Gros, Bonaparte Visiting the Plague Victims of Jaffa"
+ caption={<>Napoleon stands bare-handed in a plague hospital and reaches to touch a dying soldier&rsquo;s sore, the gesture of the old healer-king. The visit happened; the touch is a propaganda construction. David&rsquo;s grand civic format filled with horror and color, Romanticism stirring inside the Neoclassical machine.</>}
+ credit={<>Gros,{' '}<em>Bonaparte Visiting the Plague Victims of Jaffa</em>, 1804 · 17 ft 5 in &times; 23 ft 7 in · Louvre, Paris</>}
+ rights={PD_GROS}
+ />
+ <p style={proseStyle}>
+ Four years later{' '}<em>Napoleon on the Battlefield of Eylau</em>{' '}(1808) drops even the flattery and
+ shows the field the morning after the slaughter, a frozen plain of corpses and begging wounded with the
+ Emperor riding numbly through the wreckage. That unflinching horror is the Romantic core planted inside a
+ government commission, and Gros&rsquo;s pupils carried it forward: the young men who would build
+ Romanticism, G&eacute;ricault and Delacroix among them, learned the grand scale and the high feeling
+ from him. Gros himself never made his peace with the movement he had helped father. When the critics turned
+ on his late return to cold classical subjects, he drowned himself in 1835. He had proved that the storm
+ could rise from inside the temple, that the rebellion against the severe style was partly bred by the severe
+ style itself.
+ </p>
+
+ <SectionHeader accent={accent} label="The afterlife" title="The wall every later rebel pushed against" />
+ <p style={proseStyle}>
+ Whatever the colorists thought of it, Neoclassicism won the long argument in one decisive way: it became the
+ rulebook. David&rsquo;s and Ingres&rsquo;s drawing-first discipline (master the contour, study the antique,
+ finish the surface, choose a serious subject) hardened into{' '}<strong>the academy</strong>{' '}(the official
+ art establishment, in France the Acad&eacute;mie with its school and its Salon, in Britain the Royal Academy,
+ the system that trained the artists and controlled what the public got to see) and stayed the official
+ training of European painting for the rest of the nineteenth century. To learn to paint was, for generations, to learn
+ to draw the way David drew. Which means that every later revolt in art defined itself against these rules.
+ When the Realists insisted on painting their own grubby century instead of antiquity, when the Impressionists
+ dissolved the firm contour into flecks of bright color, when the whole avant-garde that followed tore up the
+ academy&rsquo;s requirements one by one, they were all, in their different ways, pushing against the wall
+ Neoclassicism built. A movement that worshipped the rules of the ancient past ended up supplying the modern
+ rules that everyone after would need to break.
+ </p>
+ <p style={proseStyle}>
+ One last twist sits in the name. The painters never called themselves Neoclassical. They spoke of &ldquo;the
+ true style&rdquo; or &ldquo;the correct style&rdquo; or, in France, of{' '}<em>le go&ucirc;t grec</em>, the Greek
+ taste. The word{' '}<em>Neoclassicism</em>{' '}was pinned on the movement much later, commonly dated to the 1880s,
+ and it began life as an insult, a way of calling David&rsquo;s school &ldquo;pseudo-classical,&rdquo; warmed-over
+ antiquity, the real thing&rsquo;s pale copy. The label that now sits respectably over a whole room of the Louvre
+ started as a sneer.
+ </p>
+ <p style={proseStyle}>
+ Neoclassicism is the moment European painting decided art should be serious again: a school for virtue drawn
+ from the Greeks and Romans, hard line doing the work, a Rococo it found pretty and empty left behind. It found
+ its creed in a scholar and its body in David, and then history grabbed it and made the same stripped, sculptural
+ style the official art of a Revolution and an Empire. Its drawing-first rules became the academy, and the academy
+ became the thing every restless painter of the next hundred years was born to fight.
+ </p>
+ </article>
+
+ <MeanwhileSheet
+ region="Brussels"
+ title="The master dies where the regicide had to."
+ body="There is a grim symmetry to how David ended. He had served the Republic, voted to kill the king, then served Napoleon's Empire. When the monarchy returned to France after Napoleon's fall, a man who was both a regicide and a Bonapartist had no safe place at home. David went into exile in Brussels and died there in 1825, and France would not take his body back. The painter who made his country's heroes for thirty years was buried abroad by the country he had painted."
+ />
+ </>)
+
+// ════ ROMANTICISM movement read ════
+// ── Romanticism palettes (figure fallbacks) ──
+const RO_GOYA = ['#5a4434', '#33241a', '#100a06'] as [string, string, string]
+const RO_BLACK = ['#4a3a2c', '#281c14', '#0a0604'] as [string, string, string]
+const RO_RAFT = ['#6b5240', '#3a281c', '#120c08'] as [string, string, string]
+const RO_DELACROIX = ['#a8482a', '#5a2418', '#1a0c08'] as [string, string, string]
+const RO_SUNSET = ['#c87a2a', '#7a3014', '#1c0e08'] as [string, string, string]
+const RO_FOG = ['#6a7480', '#3a4450', '#12161c'] as [string, string, string]
+const RO_STONE = ['#8a7a5a', '#4a3c2a', '#14100a'] as [string, string, string]
+const RO_GREEN = ['#5a7042', '#3a4a28', '#141a10'] as [string, string, string]
+const RO_NIGHT = ['#7a3a30', '#3a1c18', '#0e0606'] as [string, string, string]
+const RO_VISION = ['#c8a23a', '#7a5818', '#1c1408'] as [string, string, string]
+
+// ── Per-artist PD-rights lines (every artist dies by 1851; Delacroix 1863) ──
+const PD_GOYA = 'Public domain worldwide (Francisco Goya died 1828). Wikimedia Commons.'
+const PD_GERICAULT = 'Public domain worldwide (Théodore Géricault died 1824). Wikimedia Commons.'
+const PD_DELACROIX = 'Public domain worldwide (Eugène Delacroix died 1863). Wikimedia Commons.'
+const PD_TURNER = 'Public domain worldwide (J.M.W. Turner died 1851). Wikimedia Commons.'
+const PD_FRIEDRICH = 'Public domain worldwide (Caspar David Friedrich died 1840). Wikimedia Commons.'
+const PD_CONSTABLE = 'Public domain worldwide (John Constable died 1837). Wikimedia Commons.'
+const PD_FUSELI = 'Public domain worldwide (Henry Fuseli died 1825). Wikimedia Commons.'
+const PD_BLAKE = 'Public domain worldwide (William Blake died 1827). Wikimedia Commons.'
+
+
+// ── 1. The revolt of feeling ────────────────────────────────
+const RevoltNarrative: Narrative = ({ accent }) => (<>
+ <article style={{ padding: '18px 18px 40px' }}>
+ <SectionHeader accent={accent} label="Europe · c.1800" title="A mood, not a movement" first />
+ <p style={proseStyle}>
+ <DropCap accent={accent}>R</DropCap>
+ omanticism is the one chapter of art history with no headquarters. It had no leader, no club, no
+ manifesto, no founding dinner where everyone agreed on the rules. It was a temperament, a shared
+ mood that surfaced at roughly the same moment in four countries among painters who, for the most
+ part, never met: Goya alone in Madrid, G&eacute;ricault and Delacroix making scandals in Paris,
+ Turner and Constable arguing two sides of an English sky, Friedrich praying in front of the fog in
+ Dresden. They had no program to sign. What they had in common was a conviction that{' '}<em>how you
+ feel about the world is as real a subject for a painting as the world itself</em>.
+ </p>
+ <p style={proseStyle}>
+ To see what that revolt was against, look at what it was answering. The reigning style was{' '}<strong>Neoclassicism</strong>{' '}(the cool, sober art of Greek and Roman models, line over color,
+ finish over feeling), and its master was Jacques-Louis David, official painter first to the French
+ Revolution and then to Napoleon. A David picture is built like a Roman frieze (the carved horizontal band of figures
+ that runs across a classical temple, flat and marching in a row): clear hard contour,
+ figures lit evenly and modeled like carved marble, every edge finished, the brushwork sanded
+ invisible, the mood austere and morally controlled. His{' '}<em>Oath of the Horatii</em>{' '}(1784) lines
+ three brothers up like statues swearing on cue. Reason and order rule, and the thing carrying the
+ picture is the line, the drawn contour you could trace with a pencil.
+ </p>
+
+ <SectionHeader accent={accent} label="The other side of the Revolution" title="The hangover after the dream" />
+ <p style={proseStyle}>
+ The Romantics were not painting a different period. They were painting the same one (the French
+ Revolution, the rise and fall of Napoleon, the failed hopes of the years after) from the opposite
+ emotional angle. Where Neoclassicism saw the Revolution&rsquo;s heroic clarity and painted civic
+ virtue, the Romantics lived through its hangover and painted what the hangover felt like:
+ disillusion, the horror of war, the loneliness of the individual, and the pull of the nation.
+ David painted the dream. The next generation painted the morning after.
+ </p>
+
+ <SectionHeader accent={accent} label="The new great subject" title="The sublime" />
+ <p style={proseStyle}>
+ They also found a subject the academy (the official art institutions that controlled training and
+ the Salon exhibitions) had no slot for. Its name, borrowed from a philosopher, is
+ the{' '}<strong>sublime</strong>. In 1757 the Irish thinker Edmund Burke had drawn a line between two
+ ways a thing can move us. The{' '}<em>beautiful</em>{' '}is smooth, delicate, symmetrical, easy to take
+ in. The{' '}<em>sublime</em>{' '}is the opposite: terror, vastness, obscurity, overwhelming power, the
+ feeling you get standing under a cliff or in a storm, dwarfed and a little afraid. Burke argued the
+ sublime was the stronger of the two, and the Romantics took him at his word. Nature too big and too
+ terrifying to master became their great theme, the human figure shrunk to a speck inside it. A
+ Neoclassical hero commands the scene. A Romantic figure is about to be swallowed by it.
+ </p>
+ <p style={proseStyle}>
+ So the rules invert, one by one. Color carries the emotion instead of line containing the form.
+ The brushwork shows instead of hiding. The composition heaves on a diagonal instead of standing in
+ a calm row. And the subject stops being virtue calmly depicted and becomes feeling itself, the
+ sublime, the individual, the nation, and the nightmare, all painted with visible heat. What follows
+ is that one idea, told four national ways: the darkness in Spain, the scandal in France, the
+ dissolving light in Britain, the silence in Germany.
+ </p>
+ </article>
+
+ <MeanwhileSheet
+ region="England"
+ title="The poets got there first."
+ body="The temperament was literary before it was much of anything in paint. In 1798 Wordsworth and Coleridge published Lyrical Ballads, and the Preface Wordsworth added to it in 1800 is about as close to a Romantic creed as anyone wrote down: poetry, he said, is &lsquo;the spontaneous overflow of powerful feelings.&rsquo; Byron, Goethe, and the German Sturm und Drang (German for &lsquo;storm and stress,&rsquo; a late-1700s movement that exalted raw emotion and revolt over reason) were saying versions of the same thing. The painters were joining a conversation already in progress."
+ />
+ </>)
+
+
+// ── 2. The visionaries: dream, nightmare, the inner eye ─────
+const VisionariesNarrative: Narrative = ({ accent, onZoom }) => (<>
+ <article style={{ padding: '18px 18px 40px' }}>
+ <SectionHeader accent={accent} label="London · 1781–1794" title="Painting the inside of the head" first />
+ <p style={proseStyle}>
+ <DropCap accent={accent}>O</DropCap>
+ ne whole side of the temperament went looking inward, into dream, nightmare, and vision, and it got
+ there earliest of all. The new great subject was not always a mountain or a battlefield. Sometimes
+ it was the irrational mind itself, the things that come loose when the daylight world lets go. Two
+ painters working in Britain mapped that inner country a generation before Goya, Delacroix, or Turner
+ made a mark, and they could hardly have been less alike: a Swiss showman who staged horror like
+ theatre, and an English visionary who saw God and argued with him.
+ </p>
+
+ <SectionHeader accent={accent} label="Fuseli · The Nightmare" title="A demon on the sleeper's chest" />
+ <p style={proseStyle}>
+ Henry Fuseli (1741&ndash;1825) was Swiss-born (christened Johann Heinrich F&uuml;ssli in Zurich) and
+ spent his career in London, where he rose to Keeper of the Royal Academy, the institution that ran
+ the official art world. (That same Academy had admitted only two women among its thirty-four founders
+ in 1768 and would elect no other woman as a full member for more than a century and a half, the
+ closed door most women painters of this generation worked behind.) Fuseli painted the supernatural,
+ the erotic, and the uncanny, and his one unforgettable picture is{' '}<em>The Nightmare</em>{' '}of 1781.
+ </p>
+ <PaintingFigure
+ onZoom={onZoom}
+ palette={RO_NIGHT}
+ imageUrl={NRO_IMG.fuseliNightmare}
+ ratio="5/4"
+ alt="Fuseli, The Nightmare"
+ caption={<>A woman in white sprawls back across a bed in deep sleep, arms flung down. A small dark incubus squats on her chest and stares out at you, and a blind-eyed horse&rsquo;s head pushes through the curtains behind. Sleep painted as something that sits on you.</>}
+ credit={<>Fuseli,{' '}<em>The Nightmare</em>, 1781 &middot; oil on canvas &middot; 3 ft 4 in &times; 4 ft 2 in &middot; Detroit Institute of Arts</>}
+ rights={PD_FUSELI}
+ />
+ <p style={proseStyle}>
+ A woman in white lies thrown back across a bed, deep asleep, her arms hanging to the floor. On her
+ chest crouches a small dark{' '}<em>incubus</em>{' '}(a demon folklore said pressed down on sleepers in
+ the night), squatting and staring straight out at the viewer. Behind, through a gap in the curtains,
+ a horse&rsquo;s head pushes in with blank, glowing eyes, half a pun on the word{' '}<em>night-mare</em>{' '}and half pure dread. Nothing is explained. The picture simply hands you the feeling of a bad dream as
+ a thing with weight, sitting on a sleeping body. It was painted in 1781, about eighteen years before
+ Goya pulled the first proof of his{' '}<em>Caprichos</em>, which means the nightmare strand of
+ Romanticism was already circulating in London while the Enlightenment was still in full confidence.
+ </p>
+
+ <SectionHeader accent={accent} label="Blake · The Ancient of Days" title="The figure with the compass" />
+ <p style={proseStyle}>
+ William Blake (1757&ndash;1827) was a poet, painter, and printmaker who lived nearly unknown, made
+ his own mythology, and invented his own way of printing it. He etched a design in relief on a copper
+ plate, printed it in color, then hand-tinted every single copy with watercolor, so no two are quite
+ the same.{' '}<em>The Ancient of Days</em>{' '}(1794) was the frontispiece to one of his prophetic books,
+ and it is tiny, only about nine inches tall, with the force of something enormous.
+ </p>
+ <PaintingFigure
+ onZoom={onZoom}
+ palette={RO_VISION}
+ imageUrl={NRO_IMG.blakeAncientDays}
+ ratio="3/4"
+ alt="Blake, The Ancient of Days"
+ caption={<>A muscular figure crouches inside a blazing disc of sun, leans down out of it into the dark, and stretches a pair of compasses toward the void below. Creation imagined as an act of measuring and limiting. Hand-colored by Blake, about nine inches tall.</>}
+ credit={<>Blake,{' '}<em>The Ancient of Days</em>, 1794 &middot; relief etching with watercolor &middot; about 9 in &times; 6&frac12; in &middot; various collections</>}
+ rights={PD_BLAKE}
+ />
+ <p style={proseStyle}>
+ A crouching figure leans out of a circle of fierce light into the dark and reaches down with a pair
+ of compasses (the drawing tool, two hinged legs for scribing a circle), opening them over the void
+ below. Most viewers read him as God measuring out creation. Blake meant something stranger: the
+ figure is Urizen, his own invented god of cold reason and limits, and the act of measuring is not
+ praised here but distrusted, reason caging the infinite. Either way the image burns. Blake was, as
+ the story goes, hand-coloring a copy of this very plate in the days before he died in 1827, singing,
+ a fitting exit for a man who spent his life painting what he saw with the inner eye and trusted that
+ sight over the visible world.
+ </p>
+ </article>
+ </>)
+
+
+// ── 3. Goya, alone in the dark ──────────────────────────────
+const GoyaNarrative: Narrative = ({ accent, onZoom }) => (<>
+ <article style={{ padding: '18px 18px 40px' }}>
+ <SectionHeader accent={accent} label="Madrid · 1799–1823" title="The deaf court painter" first />
+ <p style={proseStyle}>
+ <DropCap accent={accent}>F</DropCap>
+ rancisco Goya (1746&ndash;1828) is the proof that Romanticism is a mood and not a movement, because
+ he belonged to no movement at all. He was the court painter to a crumbling Spanish monarchy, a man
+ who had spent years turning out cheerful tapestry cartoons (full-size design drawings that weavers
+ copied to make tapestries, not comic pictures), and then in 1793 a violent illness left
+ him stone deaf. Cut off inside his own silence, he turned away from the prettiness and toward the
+ nightmare, and he got there a generation before anyone in Paris. He had no school, no followers, and
+ no manifesto. He had a country falling apart and an unblinking eye.
+ </p>
+
+ <SectionHeader accent={accent} label="Los Caprichos, plate 43" title="When reason falls asleep" />
+ <p style={proseStyle}>
+ The turn shows first in print. In 1799 Goya published{' '}<em>Los Caprichos</em>, a set of eighty
+ etchings (prints pulled from a design bitten into a metal plate with acid) skewering the
+ superstition, vanity, and cruelty of Spanish society. Plate 43 became its motto. A man, an artist,
+ has slumped asleep over his desk, and out of the dark behind him pours a swarm of owls and bats and
+ a watching wildcat. The caption reads{' '}<em>El sue&ntilde;o de la raz&oacute;n produce monstruos</em>.
+ The Spanish word{' '}<em>sue&ntilde;o</em>{' '}means both &ldquo;sleep&rdquo; and &ldquo;dream,&rdquo; so
+ the line reads two ways at once: the sleep of reason produces monsters, and the dream of reason does
+ too. Either way it is the Enlightenment&rsquo;s confidence stood on its head. Reason is not in
+ command here. It has nodded off, and the dark has come out to play.
+ </p>
+ <PaintingFigure
+ onZoom={onZoom}
+ palette={RO_BLACK}
+ imageUrl={NRO_IMG.sleepReason}
+ ratio="3/4"
+ alt="Goya, The Sleep of Reason Produces Monsters (Los Caprichos plate 43)"
+ caption={<>An artist asleep at his desk while owls and bats boil out of the dark behind him. The motto of the whole series, and of the temperament: when reason dozes, the monsters come out.</>}
+ credit={<>Goya,{' '}<em>The Sleep of Reason Produces Monsters</em>, Los Caprichos plate 43, 1799 &middot; etching and aquatint &middot; The Metropolitan Museum of Art, New York</>}
+ rights={PD_GOYA}
+ />
+ <p style={proseStyle}>
+ He could still paint the court itself with the same cold honesty. The{' '}<em>Family of Charles
+ IV</em>{' '}(1800&ndash;01) lines the Spanish royal family up in gold and medals, with Goya himself
+ half in shadow at his easel behind them, a quiet nod to Vel&aacute;zquez doing the same thing in{' '}<em>Las Meninas</em>{' '}a century and a half before. Later critics loved to call the royals
+ grotesque, as if Goya had smuggled a caricature past his stupid patrons. That reading is
+ interpretation, not documented fact: the family voiced no displeasure, and one school of scholars
+ thinks he simply painted them as they saw themselves. It is a sharper picture if you drop the wink
+ and let the plain, unflattered faces do their own work.
+ </p>
+
+ <SectionHeader accent={accent} label="The Third of May 1808" title="A firing squad in the dark" />
+ <p style={proseStyle}>
+ Then Napoleon&rsquo;s armies came over the Pyrenees, and Goya found his great subject. On 2 May 1808
+ the people of Madrid rose against the French occupation; the next night the French shot the captured
+ rebels in batches outside the city. Six years later Goya painted the reprisal as{' '}<em>The Third of
+ May 1808</em>{' '}(1814), nearly nine feet tall and over eleven wide, the size the academy reserved for
+ the deaths of saints and heroes. He spent it on anonymous slaughter.
+ </p>
+ <PaintingFigure
+ onZoom={onZoom}
+ palette={RO_GOYA}
+ imageUrl={NRO_IMG.thirdOfMay}
+ ratio="5/4"
+ alt="Goya, The Third of May 1808"
+ caption={<>A faceless line of rifles on the right, a heap of the already-dead on the left, and in the center one man in a glaring white shirt flinging his arms wide under a lantern, lit like a martyr the instant before the volley.</>}
+ credit={<>Goya,{' '}<em>The Third of May 1808</em>, 1814 &middot; 8 ft 9&frac12; in &times; 11 ft 4&frac12; in &middot; Museo del Prado, Madrid</>}
+ rights={PD_GOYA}
+ />
+ <p style={proseStyle}>
+ Look at how it is built. On the right the firing squad is a faceless machine, a row of identical
+ rifles and the backs of identical hats, no man to blame and no man to plead with. On the left, the
+ victims: a heap of the already-shot, a crowd hiding its eyes, and at the center one figure in a
+ blazing white shirt thrown into the light of a single lantern, arms flung wide. He is lit like a
+ martyr and his open hands carry the faint dark marks of a crucifixion, but there is no heaven over
+ him, only a sleeping town and a black sky. The art historian Kenneth Clark called this the first
+ great picture that could be called &ldquo;revolutionary in every sense of the word, in style, in
+ subject, and in intention.&rdquo; It is often called the first modern painting of war, and you can
+ see why: no glory, no flag, no order to the killing, just a man about to die and a machine that will
+ do it without looking at his face.
+ </p>
+ <p style={proseStyle}>
+ He was no pure outsider, though, and the picture is sharper if you do not pretend he was. Goya was a
+ survivor first. He had kept his court salary under Joseph Bonaparte, the French-installed king he
+ painted the massacre against, and when the Spanish crown came back he swore his loyalty to the
+ restored Ferdinand VII and went on collecting it. The man who painted the most unforgiving picture of
+ the French occupation had served the occupiers and the monarchy both, the deaf court painter who
+ outlasted every regime that ran Madrid. That is not hypocrisy so much as the cost of staying alive
+ and employed while the country changed hands around him, and it is part of what makes the
+ unflinching honesty of the work so strange. He saw everything clearly and signed up with whoever was
+ winning.
+ </p>
+
+ <SectionHeader accent={accent} label="The Black Paintings" title="The murals nobody was meant to see" />
+ <p style={proseStyle}>
+ The last and darkest turn Goya painted for an audience of one: himself. Around 1819 he bought a
+ farmhouse outside Madrid (it was already nicknamed the Quinta del Sordo, the House of the Deaf Man,
+ by coincidence, after a previous owner), and between about 1819 and 1823, old and bitter and living
+ through another wave of repression, he covered its walls directly in oil with fourteen of the most
+ frightening images in European art. He never titled them. He never exhibited them. He never meant
+ them to leave the house. The names we use are all later, hung on the murals by a friend who
+ catalogued them after Goya&rsquo;s death.
+ </p>
+ <PaintingFigure
+ onZoom={onZoom}
+ palette={RO_BLACK}
+ imageUrl={NRO_IMG.saturn}
+ ratio="2/3"
+ alt="Goya, Saturn Devouring His Son"
+ caption={<>The Titan Saturn, eyes blown wide, cramming the small headless body of his own child into his mouth. Painted straight onto a dining-room wall, for no one, by a deaf old man who had given up on the daylight world.</>}
+ credit={<>Goya,{' '}<em>Saturn Devouring His Son</em>, c.1819&ndash;23 &middot; 4 ft 8&frac12; in &times; 2 ft 8 in &middot; mural transferred to canvas &middot; Museo del Prado, Madrid</>}
+ rights={PD_GOYA}
+ />
+ <p style={proseStyle}>
+ The blackest of them hung in his dining room. We call it{' '}<em>Saturn Devouring His Son</em>: the
+ old Roman Titan Saturn (the Greeks called him Cronus), who in the myth ate his own children to keep
+ one from overthrowing him, caught here mid-bite, eyes blown wide with something between terror and
+ madness, cramming a small headless body into his mouth. This is what Goya chose to look at over
+ dinner. The murals survived because, decades after his death, a restorer named Salvador
+ Mart&iacute;nez Cubells peeled them off the plaster and transferred them to canvas around 1874 for a
+ French baron who owned the house. They went on show in Paris, and eventually fourteen of them came
+ to the Prado in Madrid, where they hang now. (A fifteenth wandered off into a private collection.)
+ Goya had painted the nightmare with no one to see it, which is about as far from a manifesto as
+ painting gets.
+ </p>
+ </article>
+ </>)
+
+
+// ── 4. Géricault and the raft ───────────────────────────────
+const RaftNarrative: Narrative = ({ accent, onZoom }) => (<>
+ <article style={{ padding: '18px 18px 40px' }}>
+ <SectionHeader accent={accent} label="Paris · 1818–1819" title="A national disgrace, painted huge" first />
+ <p style={proseStyle}>
+ <DropCap accent={accent}>I</DropCap>
+ n France the temperament arrived not in a private house but on the biggest wall in Paris, as a
+ public scandal. Th&eacute;odore G&eacute;ricault (1791&ndash;1824) was rich, restless, and barely
+ twenty-seven, and he found his subject in a fresh national disgrace. In 1816 a French naval frigate
+ called the{' '}<em>M&eacute;duse</em>, run aground off the African coast by an incompetent captain who
+ owed his command to politics, had been abandoned by its officers. About 150 of the lowlier
+ passengers and crew were packed onto a hastily lashed-together raft and cut loose to drift. Thirteen
+ days later, fifteen were still alive. What had happened on the raft (starvation, madness, mutiny,
+ cannibalism) became a scandal the restored monarchy desperately wanted forgotten.
+ </p>
+ <p style={proseStyle}>
+ G&eacute;ricault went after it like a reporter. He tracked down two of the survivors, the surgeon
+ Henri Savigny and the engineer Alexandre Corr&eacute;ard, and interviewed them. He had the
+ raft&rsquo;s carpenter build him a scale model. He went to the Beaujon hospital morgue to sketch
+ corpses, studied the faces of the dying, and kept severed limbs in his studio until friends called
+ the place a charnel house; for the colors of dead flesh he even borrowed a severed head from an
+ asylum. (The lurid story that he hoarded freshly guillotined heads is a later embellishment; drop
+ it.) Then he painted the result at the scale of history painting, the grand mode the academy kept
+ for gods and kings: sixteen feet tall and twenty-three feet wide.
+ </p>
+ <PaintingFigure
+ onZoom={onZoom}
+ palette={RO_RAFT}
+ imageUrl={NRO_IMG.raftMedusa}
+ ratio="3/2"
+ alt="Géricault, The Raft of the Medusa"
+ caption={<>A raft of the dead and the barely-living heaped into a straining pyramid, every body leaning toward the upper right, where a Black sailor at the summit waves a scrap of cloth at a ship so small on the horizon you have to hunt for it. Hope painted as a speck.</>}
+ credit={<>G&eacute;ricault,{' '}<em>The Raft of the Medusa</em>, 1818&ndash;19 &middot; 16 ft 1 in &times; 23 ft 6 in &middot; Mus&eacute;e du Louvre, Paris</>}
+ rights={PD_GERICAULT}
+ />
+ <p style={proseStyle}>
+ The composition is the whole argument. G&eacute;ricault piles the figures into a pyramid that
+ climbs from the dead slumping off the front of the raft, up through the despairing and the dying, to
+ a single straining peak: a Black man, hoisted on his fellows&rsquo; shoulders (often identified with
+ the sailor Jean Charles), waving a rag at a ship so tiny on the horizon you have to look twice to
+ find it. Look at who G&eacute;ricault put at the literal summit of the picture, the one body lifted
+ above all the others and reaching toward rescue. In 1819, with France&rsquo;s slavery and abolition
+ debates still live, he placed a Black man at the top of the pyramid of hope, the single figure on
+ whom every chance of survival now hangs. Two diagonals cross the raft, one of bodies,
+ one of the wind in the makeshift sail, and they pull against each other so the whole thing feels
+ like it is heaving on the swell. There is no hero. There is no order. There is a heap of ordinary
+ men, painted with the size and seriousness once spent on the deaths of saints, straining toward a
+ hope the size of a fly. Shown at the official Salon (the State&rsquo;s great annual exhibition, the
+ one show where a French career was made or broken) in 1819, it took private horror and a buried
+ government embarrassment and bolted them to the most public wall in the country. The new temperament
+ had gone loud.
+ </p>
+ <p style={proseStyle}>
+ G&eacute;ricault did not get to build on it. A few years later he died at thirty-two from the slow
+ ruin of a riding accident, a meteor who crossed the sky once. But he had a friend at his side in
+ those years, a younger painter who had even posed for one of the raft&rsquo;s dead figures, and that
+ friend would carry the French banner for the next forty years.
+ </p>
+ </article>
+ </>)
+
+
+// ── 5. Delacroix, color and revolt ──────────────────────────
+const DelacroixNarrative: Narrative = ({ accent, onZoom }) => (<>
+ <article style={{ padding: '18px 18px 40px' }}>
+ <SectionHeader accent={accent} label="Paris · 1827–1834" title="Géricault's heir" first />
+ <p style={proseStyle}>
+ <DropCap accent={accent}>E</DropCap>
+ ug&egrave;ne Delacroix (1798&ndash;1863) became the public face of French Romanticism and the
+ champion of its central technical claim: that color, not line, is the soul of a picture. That put
+ him at war with the Neoclassical camp and its captain, Ingres, who defended the supremacy of the
+ drawn line for decades. The two snarled at each other across the Salon like the two halves of one
+ argument, which is exactly what they were. Ingres said a painting was a perfect drawing, colored in.
+ Delacroix said the color{' '}<em>was</em>{' '}the painting, and the drawing could look after itself.
+ </p>
+
+ <SectionHeader accent={accent} label="The Death of Sardanapalus" title="The fanaticism of ugliness" />
+ <p style={proseStyle}>
+ His first great provocation came straight out of a poem. Lord Byron, the Romantic poet whose work
+ fed half the painters of the age, had written a play about Sardanapalus, a last Assyrian king who,
+ with his city falling and defeat certain, has everything he owns destroyed before it can be taken
+ from him. Delacroix painted the moment in 1827, nearly thirteen feet tall and over sixteen feet wide.
+ </p>
+ <PaintingFigure
+ onZoom={onZoom}
+ palette={RO_DELACROIX}
+ imageUrl={NRO_IMG.sardanapalus}
+ ratio="4/3"
+ alt="Delacroix, The Death of Sardanapalus"
+ caption={<>The king reclines on a vast red bed, calm in the middle of a hurricane of his own making, while his slaves stab his concubines and slaughter his horses around him. All hot color and writhing diagonal, with no still place for the eye to rest.</>}
+ credit={<>Delacroix,{' '}<em>The Death of Sardanapalus</em>, 1827 &middot; 12 ft 10 in &times; 16 ft 3 in &middot; Mus&eacute;e du Louvre, Paris</>}
+ rights={PD_DELACROIX}
+ />
+ <p style={proseStyle}>
+ The king lies on an enormous blood-red bed, propped on one elbow, watching with terrible calm while
+ his concubines are stabbed, his slaves cut down, and his horses dragged shrieking to the slaughter
+ around him. The whole canvas tilts and writhes; there is no level line anywhere, no still surface, no
+ cool gray to rest the eye. Everything is heat and motion and gleaming flesh, the diagonal pushed
+ until the picture seems to be sliding off its own bottom corner. The Salon of 1827 was appalled. One
+ critic called it the &ldquo;fanaticism of ugliness,&rdquo; which Delacroix could have stitched on a
+ banner. It is the anti-David: where the{' '}<em>Oath of the Horatii</em>{' '}stands its figures in a calm
+ stone row, Sardanapalus drowns its figures in a flood of red.
+ </p>
+
+ <SectionHeader accent={accent} label="Liberty Leading the People" title="July 1830, not 1789" />
+ <p style={proseStyle}>
+ Three years later he painted the picture everyone half-remembers, and almost everyone dates wrong.{' '}<em>Liberty Leading the People</em>{' '}does not show the French Revolution of 1789. It commemorates a
+ second, smaller revolution: the three days of July 1830 (the French call them the{' '}<em>Trois
+ Glorieuses</em>, the Three Glorious Days) when the people of Paris rose and toppled the restored king
+ Charles X. Delacroix watched it from the sidelines and painted his response within months.
+ </p>
+ <PaintingFigure
+ onZoom={onZoom}
+ palette={RO_SUNSET}
+ imageUrl={NRO_IMG.liberty}
+ ratio="5/4"
+ alt="Delacroix, Liberty Leading the People"
+ caption={<>A bare-breasted woman in a Phrygian cap strides over the barricade dead, the tricolor in one hand and a musket in the other, an armed crowd surging up behind her out of the gunsmoke. She is not a person. She is Liberty herself, walking out of the canvas toward you.</>}
+ credit={<>Delacroix,{' '}<em>Liberty Leading the People</em>, 1830 &middot; 8 ft 6 in &times; 10 ft 8 in &middot; Mus&eacute;e du Louvre, Paris</>}
+ rights={PD_DELACROIX}
+ />
+ <p style={proseStyle}>
+ The bare-breasted woman at the center, striding over the bodies on the barricade with the tricolor
+ in one hand and a musket in the other, is not a real woman and not a portrait of anyone. She is an{' '}<strong>allegory</strong>{' '}(a figure who stands for an idea), Liberty herself, or France, the figure
+ the French call Marianne. The soft cloth cap she wears, the{' '}<strong>Phrygian cap</strong>, was the
+ ancient Roman badge of a freed slave and became the symbol of the Revolution, so a viewer in 1830
+ read her at a glance. Around her, real Parisians: a top-hatted gentleman with a hunting gun, a boy
+ with two pistols, a worker in a smock, the rich and the poor at the same barricade. (The legend that
+ the top-hatted man is Delacroix himself is just that, a legend; he did not fight.) Liberty does not
+ stand still and pose like a Neoclassical goddess. She walks toward you, out of the gunsmoke, off the
+ front of the canvas. It made Delacroix the official voice of French Romanticism.
+ </p>
+
+ <SectionHeader accent={accent} label="Morocco · 1832" title="The East as a screen" />
+ <p style={proseStyle}>
+ In 1832 Delacroix sailed for North Africa, attached to a French diplomatic mission to Morocco, and
+ the trip lit a lifelong fascination. Out of it came{' '}<em>Women of Algiers</em>{' '}(1834) and a string
+ of harem and hunt and street scenes that fed a whole nineteenth-century European fashion called{' '}<strong>Orientalism</strong>: the &ldquo;Orient,&rdquo; meaning North Africa and the Middle East,
+ painted by Western artists as a place of erotic languor, exotic color, and timeless mystery. The
+ pictures are real and often beautiful, and they are also a projection. The people in them are mostly
+ props for a Western daydream, an East imagined more than observed, the harem as a fantasy a European
+ man could never actually have entered. It is one of the strands Romanticism handed forward, beauty
+ and a blind spot wound together in the same canvas.
+ </p>
+ </article>
+ </>)
+
+
+// ── 6. Turner, light eating the world ───────────────────────
+const TurnerNarrative: Narrative = ({ accent, onZoom }) => (<>
+ <article style={{ padding: '18px 18px 40px' }}>
+ <SectionHeader accent={accent} label="Britain · 1839–1844" title="The man who painted weather" first />
+ <p style={proseStyle}>
+ <DropCap accent={accent}>B</DropCap>
+ ritain answered the temperament two opposite ways, and the wilder of the two was J.M.W. Turner
+ (1775&ndash;1851). Turner began as a brilliant, conventional landscape painter and spent fifty years
+ dissolving that training, pushing paint until the solid world melted into light, steam, and weather.
+ Late Turner barely has edges. A ship, a sun, a storm: all of it goes soupy and luminous, the subject
+ half-drowned in atmosphere, the picture coming closer to abstraction than anything in Europe would
+ manage again for sixty years. He was painting the sublime directly, nature&rsquo;s overwhelming
+ power, and discovering that the best way to paint something overwhelming is to let it overwhelm the
+ picture too.
+ </p>
+
+ <SectionHeader accent={accent} label="The Fighting Temeraire" title="Sail handed to steam" />
+ <p style={proseStyle}>
+ Some of it is elegy. The{' '}<em>Fighting Temeraire</em>{' '}(1839) shows HMS{' '}<em>Temeraire</em>, a
+ great warship that had fought at Trafalgar, being towed up the Thames at sunset to be broken up for
+ scrap.
+ </p>
+ <PaintingFigure
+ onZoom={onZoom}
+ palette={RO_SUNSET}
+ imageUrl={NRO_IMG.fightingTemeraire}
+ ratio="4/3"
+ alt="Turner, The Fighting Temeraire"
+ caption={<>The old warship rises ghostly white and gold on the left, all tall masts and dignity, hauled along by a squat black steam tug belching dark smoke, the two of them lit by a sunset that looks like the end of an age. Which it was.</>}
+ credit={<>Turner,{' '}<em>The Fighting Temeraire</em>, 1839 &middot; 2 ft 11&frac34; in &times; 3 ft 11&frac78; in &middot; The National Gallery, London</>}
+ rights={PD_TURNER}
+ />
+ <p style={proseStyle}>
+ The old ship rises pale and golden and almost ghostly, all tall masts and last dignity, dragged
+ along by a squat, dark, business-like steam tug coughing black smoke into the gold. Turner stages it
+ against one of his great sunsets, so the scene reads at once as a thing happening on a river and as a
+ thing happening to a century: the age of sail handed over to the age of steam, beauty towed off by
+ the machine. He never sold it. He called it his &ldquo;darling.&rdquo;
+ </p>
+
+ <SectionHeader accent={accent} label="The Slave Ship" title="A sunset over a crime" />
+ <p style={proseStyle}>
+ The most unsettling of them looks, at first glance, like pure color. The{' '}<em>Slave Ship</em>{' '}(1840) is a blaze of blood-red and gold, a violent sunset over a heaving sea, with a ship driven off
+ toward the back and a storm (a &ldquo;Typhon,&rdquo; in the period spelling) coming on. Then you read
+ the foreground.
+ </p>
+ <PaintingFigure
+ onZoom={onZoom}
+ palette={RO_SUNSET}
+ imageUrl={NRO_IMG.slaveShip}
+ ratio="4/3"
+ alt="Turner, The Slave Ship"
+ caption={<>A furnace of red and gold sky over a wild sea. Down in the bloodied foreground, half-lost in the spray, are shackled human legs and reaching hands and the dark shapes of fish closing in. The beauty and the horror are the same brushstrokes.</>}
+ credit={<>Turner,{' '}<em>The Slave Ship</em>, 1840 &middot; 2 ft 11&frac34; in &times; 4 ft &frac14; in &middot; Museum of Fine Arts, Boston</>}
+ rights={PD_TURNER}
+ />
+ <p style={proseStyle}>
+ Down in the water, half-swallowed by the spray, are shackled human legs and reaching hands, with
+ fish gathering. Turner&rsquo;s full title names the subject:{' '}<em>Slavers Throwing overboard the
+ Dead and Dying</em>. The picture is built on a real and specific horror, the 1781 massacre aboard a
+ British slave ship called the{' '}<em>Zong</em>, whose crew threw roughly 132 enslaved Africans
+ overboard alive so the owners could claim insurance on them as &ldquo;cargo&rdquo; lost at sea.
+ Turner exhibited it in 1840, the year the World Anti-Slavery Convention met in London, and he had
+ likely been reading the abolitionist Thomas Clarkson&rsquo;s history of the slave trade. Britain had
+ abolished slavery in its empire only seven years before, and the Atlantic trade was still being
+ fought over. This is a painting made against the slave trade, by a man who turned the full force of
+ his sunset on a crime. The beauty is not decoration laid over the horror. It is the same paint.
+ </p>
+
+ <SectionHeader accent={accent} label="Rain, Steam and Speed · the mast story" title="The machine, painted as weather" />
+ <p style={proseStyle}>
+ By 1844 Turner could take the newest, hardest, most modern thing in Britain, the railway, and turn
+ even that to vapor.{' '}<em>Rain, Steam and Speed</em>{' '}sends a Great Western Railway locomotive
+ hurtling across Brunel&rsquo;s new bridge at Maidenhead through a storm of golden mist, the black
+ engine the one near-solid thing in a picture otherwise made entirely of weather. The most up-to-date
+ machine in the country, painted as a kind of charging cloud.
+ </p>
+ <PaintingFigure
+ onZoom={onZoom}
+ palette={RO_SUNSET}
+ imageUrl={NRO_IMG.rainSteamSpeed}
+ ratio="4/3"
+ alt="Turner, Rain, Steam and Speed"
+ caption={<>A black locomotive comes straight at you out of a golden blur of rain and steam, crossing a bridge that has half-dissolved into the weather. The newest machine in Britain, painted as if it were a storm front.</>}
+ credit={<>Turner,{' '}<em>Rain, Steam and Speed &mdash; The Great Western Railway</em>, 1844 &middot; 2 ft 11&frac34; in &times; 4 ft &frac18; in &middot; The National Gallery, London</>}
+ rights={PD_TURNER}
+ />
+ <p style={proseStyle}>
+ Turner himself supplied the legend that goes with all this weather. About a storm picture from
+ 1842, he told friends that he had had himself lashed to a ship&rsquo;s mast for four hours so he
+ could watch the blizzard and live to paint it. It is a wonderful story and almost certainly not
+ true: no records confirm the steamer he named ever sailed that night, and the tale comes from Turner
+ and no one else. He liked people to believe he had stared the sublime in the face. Whether he was
+ strapped to a mast or warm in his studio, the pictures look the same, which is the point. He had
+ found a way to make paint behave like weather, and after him a landscape no longer had to hold still.
+ </p>
+ </article>
+ </>)
+
+
+// ── 7. Constable, the English weather ───────────────────────
+const ConstableNarrative: Narrative = ({ accent, onZoom }) => (<>
+ <article style={{ padding: '18px 18px 40px' }}>
+ <SectionHeader accent={accent} label="Suffolk · 1821" title="The other English answer" first />
+ <p style={proseStyle}>
+ <DropCap accent={accent}>I</DropCap>
+ f Turner&rsquo;s sublime was cosmic, John Constable&rsquo;s (1776&ndash;1837) was intimate. Where
+ Turner chased storms, shipwrecks, and the ends of ages, Constable stayed home and painted the small
+ patch of Suffolk countryside he had grown up in, the mills, the meadows, and above all the moving
+ English sky over the River Stour. He thought the sky was the real subject of a landscape, &ldquo;the
+ chief organ of sentiment,&rdquo; and he studied clouds the way other men studied anatomy. His
+ Romanticism is not the firing squad or the barricade. It is the feeling of a particular field on a
+ particular damp afternoon, observed so closely it turns into love.
+ </p>
+ <PaintingFigure
+ onZoom={onZoom}
+ palette={RO_GREEN}
+ imageUrl={NRO_IMG.hayWain}
+ ratio="3/2"
+ alt="Constable, The Hay Wain"
+ caption={<>A horse-drawn hay cart pauses midstream in a shallow river, a cottage to the left, a meadow opening to the right, and overhead a huge restless English sky doing most of the work. Nothing happens, and that is the point.</>}
+ credit={<>Constable,{' '}<em>The Hay Wain</em>, 1821 &middot; 4 ft 3&frac14; in &times; 6 ft &frac34; in &middot; The National Gallery, London</>}
+ rights={PD_CONSTABLE}
+ />
+ <p style={proseStyle}>
+ The{' '}<em>Hay Wain</em>{' '}(1821) is the quietest famous picture of the age. A{' '}<em>hay wain</em>{' '}is
+ a horse-drawn cart for hauling hay, and here one has paused in the shallow River Stour at Flatford on
+ an ordinary working day. A cottage sits to the left, a flat green meadow opens to the right, a dog
+ watches from the bank, and over all of it spreads an enormous, restless, half-clouded sky that takes
+ up nearly half the canvas and does most of the emotional work. Nothing is happening. No god, no
+ battle, no nightmare. Constable&rsquo;s claim is the gentlest version of the whole Romantic case:
+ that the actual weather over an actual field, looked at hard enough, is worth a wall.
+ </p>
+ <p style={proseStyle}>
+ Up close his real radicalism shows. The green is not one smooth tone but a thousand flecks of
+ broken color, and he scattered tiny dabs and flicks of white across the picture (critics called them
+ &ldquo;Constable&rsquo;s snow&rdquo;) to catch the way light glints off wet leaves and ruffled water.
+ He was painting not the things but the light coming off the things, which is the discovery the
+ Impressionists would build a movement on forty years later. The English barely noticed at first. The
+ French did. When the{' '}<em>Hay Wain</em>{' '}was shown at the Paris Salon of 1824 it won a gold medal,
+ and the story goes that Delacroix, seeing its fresh broken color, went home and reworked the
+ background of one of his own paintings. The two wings of British Romanticism, one cosmic and one
+ intimate, both ended up pointing the same way, toward a future where light itself was the subject.
+ </p>
+ </article>
+ </>)
+
+
+// ── 8. Friedrich and the German silence ─────────────────────
+const FriedrichNarrative: Narrative = ({ accent, onZoom }) => (<>
+ <article style={{ padding: '18px 18px 40px' }}>
+ <SectionHeader accent={accent} label="Dresden · 1808–1818" title="Landscape as religion" first />
+ <p style={proseStyle}>
+ <DropCap accent={accent}>I</DropCap>
+ n Germany the temperament turned inward and went quiet. Caspar David Friedrich (1774&ndash;1840)
+ painted lonely, God-haunted landscapes that feel less like views than like prayers. His great
+ invention is a small one and you cannot unsee it once you have it: the{' '}<strong>R&uuml;ckenfigur</strong>{' '}(German for &ldquo;back figure&rdquo;), a person seen from behind,
+ standing at the edge of the picture and gazing into the vast space beyond. We do not see the
+ figure&rsquo;s face. We stand where they stand and look where they look, out into an enormous,
+ silent nature. It is the sublime made personal and devotional: not nature as spectacle, but nature
+ as the place a soul goes to feel its own smallness.
+ </p>
+
+ <SectionHeader accent={accent} label="The Monk by the Sea" title="Almost nothing at all" />
+ <p style={proseStyle}>
+ He pushed it furthest early, in{' '}<em>The Monk by the Sea</em>{' '}(1808&ndash;10), one of the most
+ radical landscapes anyone had painted.
+ </p>
+ <PaintingFigure
+ onZoom={onZoom}
+ palette={RO_FOG}
+ imageUrl={NRO_IMG.monkBySea}
+ ratio="3/2"
+ alt="Friedrich, The Monk by the Sea"
+ caption={<>A tiny dark monk on a thin strip of pale dune at the very bottom of the canvas. Above him, almost the entire picture is a single vast wash of sea and sky with nothing in it. The emptiest landscape of its century, and on purpose.</>}
+ credit={<>Friedrich,{' '}<em>The Monk by the Sea</em>, 1808&ndash;10 &middot; 3 ft 7&frac14; in &times; 5 ft 7&frac12; in &middot; Alte Nationalgalerie, Berlin</>}
+ rights={PD_FRIEDRICH}
+ />
+ <p style={proseStyle}>
+ There is almost nothing in it. A thin strip of pale dune at the bottom, a single tiny monk standing
+ on it, and above him a wall of sea and sky, nearly empty, taking up the whole rest of the canvas. No
+ trees, no ship, no framing, none of the props a landscape was supposed to lean on. Just one small
+ human and an enormous, indifferent expanse of nothing. The writer Heinrich von Kleist said standing
+ in front of it felt as if your eyelids had been cut off, there was nothing to stop the looking. It
+ is the sublime stripped down to its bones: a figure dwarfed to a speck before the infinite, which is
+ either God or the void, and Friedrich leaves you to decide which.
+ </p>
+
+ <SectionHeader accent={accent} label="Wanderer above the Sea of Fog" title="The icon of the lone soul" />
+ <p style={proseStyle}>
+ His most famous picture is the one image that has become shorthand for the whole movement. In{' '}<em>Wanderer above the Sea of Fog</em>{' '}(about 1818) a man in a dark green coat stands on a rocky
+ crag, his back to us, looking out over a sea of fog from which jagged peaks rise like islands.
+ </p>
+ <PaintingFigure
+ onZoom={onZoom}
+ palette={RO_FOG}
+ imageUrl={NRO_IMG.wanderer}
+ ratio="4/5"
+ alt="Friedrich, Wanderer above the Sea of Fog"
+ caption={<>A man in a dark coat stands on a crag with his back to us, looking out over a sea of fog with rock peaks breaking through it. We never see his face. We stand behind him and look where he looks, into the unknowable.</>}
+ credit={<>Friedrich,{' '}<em>Wanderer above the Sea of Fog</em>, c.1818 &middot; 3 ft 1&frac38; in &times; 2 ft 5&frac12; in &middot; Hamburger Kunsthalle, Hamburg</>}
+ rights={PD_FRIEDRICH}
+ />
+ <p style={proseStyle}>
+ We never see his face, only the back of a solitary man at the top of the world, master of nothing,
+ contemplating a view that has no bottom. Who he is stays uncertain. The reddish hair has made some
+ think it a self-portrait; another reading says the figure is a particular army officer, which would
+ make the picture a patriotic memorial. Friedrich is not telling, and the not-telling is the point.
+ The figure is anyone, is you, is the Romantic individual alone with the infinite. It is the exact
+ inverse of a David hero. David&rsquo;s men face us and command the scene; Friedrich&rsquo;s man turns
+ away and is swallowed by it. The whole revolt of feeling fits in that one turned back.
+ </p>
+ </article>
+
+ <MeanwhileSheet
+ region="Dresden"
+ title="The nearest thing to a creed."
+ body="Friedrich wrote down something close to a Romantic instruction, in lines that reach English only as a circulated translation: the artist, he said, &lsquo;should not only paint what he sees before him, but also what he sees in himself.&rsquo; Close the bodily eye, he advised, so you may see the picture first with the eye of the spirit, then paint what you saw in the dark. It is as good a one-sentence summary of the temperament as anyone managed."
+ />
+ </>)
+
+
+// ── 9. The afterlife ────────────────────────────────────────
+const AfterlifeNarrative: Narrative = ({ accent, onZoom }) => (<>
+ <article style={{ padding: '18px 18px 40px' }}>
+ <SectionHeader accent={accent} label="After · c.1850 onward" title="What feeling left behind" first />
+ <p style={proseStyle}>
+ <DropCap accent={accent}>R</DropCap>
+ omanticism never ended so much as it dispersed, because a temperament cannot disband. It had no
+ club to dissolve. Its painters simply died (Goya in 1828, G&eacute;ricault young in 1824, Friedrich
+ in 1840, Constable in 1837, Turner in 1851, Delacroix last of all in 1863) and its ideas leaked into
+ everything that came after. Three of those streams ran furthest.
+ </p>
+ <p style={proseStyle}>
+ The first stream is landscape. Constable&rsquo;s and Turner&rsquo;s loose, weather-driven, light-
+ chasing way of painting the outdoors fed straight into the Barbizon painters (a group who went to
+ the French countryside to paint nature from life) and from there into{' '}<strong>Impressionism</strong>, the movement that would build its whole project on putting real
+ light on canvas. When Monet painted a sunrise as a smear of orange over gray water, he was finishing
+ something Turner had started. The second stream is the exotic: Delacroix&rsquo;s Morocco pictures
+ seeded the long nineteenth-century vogue for Orientalism, beautiful, problematic, and everywhere by
+ mid-century.
+ </p>
+ <p style={proseStyle}>
+ The third stream is the largest, and it is really the whole modern idea of art. Romanticism is the
+ moment European painting decided that feeling is a legitimate subject, that the brushstroke is
+ allowed to show, that color can outrank line, and that a single artist&rsquo;s private vision is
+ worth a wall. Every one of those propositions had been a heresy under David. Within a century they
+ were simply what painting was. The quarrel Romanticism picked with Neoclassicism (feeling against
+ reason, color against line, the individual against the order) turned out to be the hinge the rest of
+ the nineteenth century swung on, and a fair amount of the twentieth.
+ </p>
+ <p style={proseStyle}>
+ The strange thing, looking back, is that it was won by a movement that never existed. There was no
+ Romantic manifesto, because there was no Romantic movement to sign one, just painters in Madrid,
+ Paris, London, and Dresden who mostly never met and shared a mood instead of a program. The nearest
+ thing to a creed came secondhand, from the writers and critics: Wordsworth defining poetry as the
+ spontaneous overflow of powerful feelings, Friedrich telling painters to shut the bodily eye and
+ paint what they saw within, Delacroix arguing for color in the privacy of his journal, and the poet
+ Charles Baudelaire pinning it down a generation later, that Romanticism lived &ldquo;neither in choice of
+ subjects, nor in exact truth, but in a way of feeling.&rdquo; No headquarters, no rulebook, no leader.
+ A firing squad, a raft, a barricade, a storm, and a lone man before the fog. A temperament, and it
+ reset the whole course of European painting.
+ </p>
+ </article>
+ </>)
+
 export const MOVEMENT_NARRATIVES: Record<string, Record<string, Narrative>> = {
+ neoclassicism: {
+  creed: CreedNarrative,
+  line: LineNarrative,
+  revolution: RevolutionNarrative,
+  ingres: IngresNarrative,
+  rules: RulesNarrative,
+ },
+ romanticism: {
+  revolt: RevoltNarrative,
+  visionaries: VisionariesNarrative,
+  goya: GoyaNarrative,
+  raft: RaftNarrative,
+  delacroix: DelacroixNarrative,
+  turner: TurnerNarrative,
+  constable: ConstableNarrative,
+  friedrich: FriedrichNarrative,
+  afterlife: AfterlifeNarrative,
+ },
  cubism: {
  before: BeforeNarrative,
  analytic: AnalyticNarrative,

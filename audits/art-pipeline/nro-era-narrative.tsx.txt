@@ -1,0 +1,472 @@
+// ============================================================================
+// NRO ERA READ: "Lay of the land", Neoclassical & Romantic era (nro, c.1750-1850)
+// The era ARGUMENT: Reason vs Feeling. NOT a movement checklist; NOT a duplicate
+// of the two movement reads. Authored ONLY from audits/art-pipeline/nro-era-factpack.md.
+// Ready to paste into src/app/art/[eraId]/s/[sectionId]/era-narratives.tsx.
+// ============================================================================
+//
+// ── IMPORTS (already present in era-narratives.tsx; add NRO_IMG + italicStyle) ──
+// import {
+//   DropCap, SectionHeader, PaintingFigure, MeanwhileSheet,
+//   proseStyle, italicStyle, AMBER,
+//   type Narrative,
+// } from '@/components/mode/art-reader'
+// import { NRO_IMG } from '@/lib/art-content-nro'
+//
+// NOTE on rights: the shared PD_RIGHTS const reads "first published before 1931"
+// (the Modern-era US-copyright case). This era is pre-1900 / PD WORLDWIDE, so it
+// uses its own rights line below, not PD_RIGHTS.
+
+// ── Palette tones (mirror art-content-nro.ts; declare locally in the reader) ──
+const STONE: [string, string, string] = ['#8a7a5a', '#4a3c2a', '#14100a']
+const STEEL: [string, string, string] = ['#5a6470', '#2e3640', '#10141a']
+const OXBLOOD: [string, string, string] = ['#a8482a', '#5a2418', '#1a0c08']
+const SUNSET: [string, string, string] = ['#c87a2a', '#7a3014', '#1c0e08']
+const FOG: [string, string, string] = ['#6a7480', '#3a4450', '#12161c']
+
+// Every work here is pre-1900 = public domain worldwide; no rights problem at all.
+const PD_WORLD = 'Public domain worldwide. Wikimedia Commons.'
+
+// ── 0. Lay of the land ──────────────────────────────────────
+const LandNarrative: Narrative = ({ accent, onZoom }) => (<>
+  <article style={{ padding: '18px 18px 40px' }}>
+    <SectionHeader accent={accent} label="Europe · around 1760" title="A girl on a swing, and what came for her" first />
+    <p style={proseStyle}>
+      <DropCap accent={accent}>L</DropCap>
+      ook at the picture the next hundred years set out to destroy. A girl in a froth of pink silk swings out over
+      a garden, kicking one slipper into the air, while a young man hidden in the bushes below gazes happily up her
+      billowing skirts and an old servant works the ropes, oblivious. This is Jean-Honoré Fragonard&rsquo;s{' '}<em>The Swing</em>{' '}(1767), and it is the perfect emblem of{' '}<strong>Rococo</strong>{' '}(the light, ornamental,
+      aristocratic style of the mid-eighteenth century, made for the private pleasure of a small rich world). The
+      colors are pastel, the brushwork is feathery, the whole thing is weightless. It is beautiful, and it is about
+      nothing at all except delight. To the generation coming up behind it, that was the problem.
+    </p>
+    <PaintingFigure
+      onZoom={onZoom}
+      palette={SUNSET}
+      imageUrl={NRO_IMG.fragonardSwing}
+      ratio="4/5"
+      alt="Fragonard, The Swing: a girl in pink swings over a garden, kicking off a slipper, a hidden admirer below"
+      caption={<>The thing the era set out to bury. Fragonard&rsquo;s{' '}<em>Swing</em>: flirtation, a hidden lover, a flying slipper. Pretty, weightless, and made for a rich world&rsquo;s private amusement.</>}
+      credit={<>Jean-Honoré Fragonard,{' '}<em>The Swing</em>, 1767 · 2 ft 7⅞ in × 2 ft 1¼ in · Wallace Collection, London</>}
+      rights={PD_WORLD}
+    />
+    <p style={proseStyle}>
+      What came for the swing was a single long argument, fought out in paint across about a century, roughly 1750
+      to 1850, over one question the whole modern age would inherit: is the truest art the one that orders the world
+      by reason, or the one that tells the truth of feeling? Two answers came back, and they could not have been more
+      opposed. The first, in clean hard line, said reason. The second, in hot loud color, said feeling. They are the
+      two halves of this era, and the thing to hold onto from the start is that they did not take turns. They
+      overlapped, and they fought.
+    </p>
+
+    <SectionHeader accent={accent} label="The first answer · reason" title="Greek heroes and a German with a phrase" />
+    <p style={proseStyle}>
+      The first answer is the one later historians would label{' '}<strong>Neoclassicism</strong>{' '}(the revival of Greek
+      and Roman models in art; the word is a much later coinage, an 1880s invention, and no painter in 1780 ever
+      called himself one). It did not arrive from a single cause. The{' '}<strong>Enlightenment</strong>{' '}(the
+      eighteenth-century intellectual movement that prized reason, clarity, and civic virtue) made antiquity its
+      model for everything. At the same time the antique was coming up out of the ground: the buried Roman towns of{' '}<strong>Herculaneum</strong>{' '}(dug from 1738) and{' '}<strong>Pompeii</strong>{' '}(from 1748) were handing Europe
+      real Roman rooms, objects, and wall-paintings for the first time. And a German scholar named{' '}<strong>Johann
+      Joachim Winckelmann</strong>, who could not paint at all, gave the whole thing its motto. In a slim 1755 essay
+      he told artists to stop inventing and imitate the Greeks, whose supreme quality he named as &ldquo;a noble
+      simplicity and quiet grandeur.&rdquo; The creed of an art of severe, drawn, moral pictures was written, fittingly,
+      by a critic.
+    </p>
+    <p style={proseStyle}>
+      The look that answered him was the opposite of the swing in every part. Out went the pastel and the boudoir.
+      In came clear contour and drawing (<strong>line</strong>{' '}carrying the picture, not soft color), a smooth finish
+      that hid the brushstroke so figures read like carved marble, a shallow stage like a Roman frieze (a band of
+      figures arranged in a shallow line across the surface, like a carved relief on a Greek temple), and subjects
+      from Greek and Roman history chosen for a moral lesson: sacrifice, duty, dying for your country. This was
+      painting as ethics. And it was not only men&rsquo;s work: Angelica Kauffman painted Neoclassical history at the
+      top rank and was one of only two women among the founders of Britain&rsquo;s Royal Academy in 1768, while
+      Elisabeth Vig&eacute;e Le Brun, Marie Antoinette&rsquo;s own portraitist, was the most sought-after painter of
+      faces in pre-Revolutionary France.
+    </p>
+
+    <SectionHeader accent={accent} label="David" title="The man who painted the oath, then lived it" />
+    <p style={proseStyle}>
+      Its engine was{' '}<strong>Jacques-Louis David</strong>{' '}(1748&ndash;1825). His{' '}<em>Oath of the Horatii</em>{' '}(1784&ndash;85), nearly fourteen feet wide, sets three Roman brothers reaching to swear on their father&rsquo;s
+      outstretched swords that they will die for the city. The men on the left are a single block of rigid resolve,
+      every arm a straight line; the women on the right have collapsed into a soft knot of grief. The whole canvas is
+      pulled as taut as the oath itself. Where Fragonard had put a swing, David put a vow. Painted five years before
+      the storming of the Bastille, it would read, soon enough, like a summons to put the republic above the self.
+    </p>
+    <PaintingFigure
+      onZoom={onZoom}
+      palette={STONE}
+      imageUrl={NRO_IMG.oathHoratii}
+      ratio="16/9"
+      alt="David, Oath of the Horatii: three brothers swear on their father's swords while women grieve at right"
+      caption={<>The hinge of the era. Three brothers swear to die for Rome, rigid male resolve at left, the women collapsing at right, every line as tight as the oath. Pleasure replaced by duty.</>}
+      credit={<>Jacques-Louis David,{' '}<em>Oath of the Horatii</em>, 1784&ndash;85 · 10 ft 10 in × 13 ft 11 in · Louvre, Paris</>}
+      rights={PD_WORLD}
+    />
+    <p style={proseStyle}>
+      Then David did something almost no painter ever does: he stopped depicting the drama and walked into it. When the
+      Revolution came, he became its image-maker. He was elected a deputy to the National Convention, voted for the
+      death of King Louis XVI and signed the warrant (a regicide), sat on a committee that signed arrest orders, and
+      staged the Revolution&rsquo;s great public festivals as its artistic director in all but title. His{' '}<em>Death
+      of Marat</em>{' '}(1793) turned the murder of a radical journalist, stabbed in his medicinal bath, into a tender,
+      austere martyrdom, pen still in his dead hand: propaganda and a genuinely great painting at the same time. After
+      his side fell from power he was jailed; he later resurfaced as First Painter to a new master, the Emperor
+      Napoleon. The official style of reason was now the official style of a Revolution, and then of an empire.
+    </p>
+
+    <SectionHeader accent={accent} label="The earthquake" title="The ground the whole era stands on" />
+    <p style={proseStyle}>
+      That is the thing to understand before the second answer arrives: under all of this runs one continuous political
+      upheaval, and the painting tracks it move for move. The chain goes Enlightenment, then the French Revolution
+      from 1789, then the execution of the king in 1793, then a young general named Napoleon seizing power in 1799 and
+      crowning himself Emperor in 1804, then his final defeat at Waterloo in 1815, then the old royal family put back
+      on the throne (the Restoration), then one more rising in 1830 that knocked a king off again. Art and politics
+      here are not two stories laid side by side. They are the same story. David served the Revolution and the Empire;
+      the painters coming next would paint the wreckage and the recoil.
+    </p>
+
+    <SectionHeader accent={accent} label="The second answer · feeling" title="A firing squad, a raft, a barricade" />
+    <p style={proseStyle}>
+      The second answer revolted against the cold of reason itself. Later critics would call it{' '}<strong>Romanticism</strong>, and the name fools almost everyone, so settle it now: it has nothing to do with
+      romance or love. The word comes from &ldquo;romance&rdquo; in the old sense of a medieval verse tale written in
+      the everyday Romance languages, and the movement is about intensity, not affection: emotion, imagination, the
+      individual, the nation, dream and nightmare. Its targets were exactly Neoclassicism&rsquo;s virtues. Against the
+      cool antique it set the present and its terrors. Against clean line it set{' '}<strong>color</strong>{' '}and visible,
+      agitated brushwork. And against serene beauty it set the{' '}<strong>sublime</strong>: a feeling theorized by the
+      writer Edmund Burke in 1757, the pleasurable dread we get from vastness, power, and terror seen from a safe
+      remove (a storm watched from shore, an Alp from the valley floor). The Romantics painted what the philosophers
+      had described.
+    </p>
+    <p style={proseStyle}>
+      It had no leader and no single country. In Madrid,{' '}<strong>Francisco Goya</strong>{' '}painted{' '}<em>The Third
+      of May 1808</em>: a faceless French firing squad mowing down Madrid civilians in the dark, the central victim
+      flinging up his arms in a glaring white shirt, lit like a martyr before the muzzles, a dead man already crumpled
+      in his own blood. No heroism, no order, just modern slaughter. In Paris,{' '}<strong>Théodore Géricault</strong>{' '}heaped the survivors of a real, recent shipwreck onto{' '}<em>The Raft of the Medusa</em>, a canvas the size of a
+      wall, the dead and dying piled into a straining pyramid, a Black man at its very summit reaching toward a speck of
+      a rescue ship on the horizon: a current-events scandal painted at the giant scale once kept for gods and kings. And{' '}<strong>Eugène
+      Delacroix</strong>{' '}painted the 1830 rising itself in{' '}<em>Liberty Leading the People</em>, a bare-breasted
+      allegorical Liberty striding over the barricade dead, the tricolor in one hand and a musket in the other,
+      leading a ragged crowd through the gunsmoke.
+    </p>
+    <PaintingFigure
+      onZoom={onZoom}
+      palette={OXBLOOD}
+      imageUrl={NRO_IMG.thirdOfMay}
+      ratio="16/9"
+      alt="Goya, The Third of May 1808: a faceless firing squad guns down a man in a white shirt with arms flung up"
+      caption={<>The other answer. Goya&rsquo;s firing squad guns down Madrid civilians at night; the man in white throws up his arms before the muzzles. No order, no glory, just terror. And Goya (1746&ndash;1828) was David&rsquo;s near-exact contemporary.</>}
+      credit={<>Francisco Goya,{' '}<em>The Third of May 1808</em>, 1814 · 8 ft 9½ in × 11 ft 4⅝ in · Museo del Prado, Madrid</>}
+      rights={PD_WORLD}
+    />
+    <p style={proseStyle}>
+      Britain and Germany took the sublime out to sea and up the mountain. J.M.W. Turner&rsquo;s{' '}<em>The Slave
+      Ship</em>{' '}(1840) burns a whole sky and sea orange and blood-red over a slaver that has thrown sick and dying
+      enslaved Africans overboard to claim them on insurance as cargo lost at sea (the real 1781 Zong massacre behind
+      it), the drowning bodies half-dissolved into pure turbulent light. Caspar David
+      Friedrich&rsquo;s{' '}<em>Wanderer above the Sea of Fog</em>{' '}(c.1818) puts a single dark-coated man, seen from
+      behind, on a crag above a swirling ocean of mist: the individual standing small before the infinite, the
+      cleanest image of the whole Romantic idea that nature is something to be felt, not measured.
+    </p>
+
+    <SectionHeader accent={accent} label="One era, two answers" title="Why they belong in the same century" />
+    <p style={proseStyle}>
+      The temptation is to line these two up in order, reason first and feeling after, the way a textbook stacks its
+      chapters. The dates forbid it.{' '}<strong>David (1748&ndash;1825) and Goya (1746&ndash;1828) were born two years
+      apart and died three years apart</strong>; the arch-rationalist and the painter of the firing squad lived almost
+      exactly the same life, at the same time, in neighboring countries. A generation on, the line-and-color quarrel
+      had two living champions who snarled at each other across the same Paris exhibition for decades: Ingres, who
+      carried David&rsquo;s primacy of drawing into the next age, and Delacroix, who answered with color and motion.
+      They were not a sequence. They were a standing argument.
+    </p>
+    <p style={proseStyle}>
+      And they are two faces of one coin, because they share more than they admit. Both reject the weightless Rococo
+      pleasure of the swing. Both take their subjects with deadly seriousness. Both ride the same flood of revolution
+      and war: Neoclassicism became the face of the Revolution&rsquo;s optimism, Romanticism painted its hangover, its
+      carnage, and its longing. They split on one question only, whether the answer to a violent century is{' '}<strong>order</strong>{' '}(reason, line, the calm antique) or{' '}<strong>intensity</strong>{' '}(feeling, color, the
+      sublime). That is why the era is told as an argument and not a timeline.
+    </p>
+
+    <SectionHeader accent={accent} label="The handoff" title="A third man who threw out both" />
+    <p style={proseStyle}>
+      The argument did not end with a winner. It ended when a third position walked in and rejected both sides at once.
+      Around mid-century Gustave Courbet and{' '}<strong>Realism</strong>{' '}threw out the antique gods{' '}<em>and</em>{' '}the
+      Romantic storms together, and painted only the plain, contemporary, unidealized present: stone-breakers, a
+      country funeral, peasants, at the same grand scale David had reserved for heroes and Delacroix for catastrophe.
+      No ideal past, no heightened feeling, just the ordinary now. That refusal of both wings is the door into the
+      Modern era this app covers next, where the line-versus-color fight these painters started would go on organizing
+      French art for another half-century. The swing was buried, the oath was sworn, the firing squad had fired, and
+      the argument they began was about to become the whole modern question: what is a painting for?
+    </p>
+  </article>
+
+  <MeanwhileSheet
+    accent={accent}
+    region="Europe, beyond the canvas"
+    title="The same feeling, in words and music."
+    body="The painting did not turn toward feeling alone. The decades around 1800 are the Age of Revolutions (America 1776, France 1789, the risings of 1830 and 1848), and Romanticism ran in lockstep across every art: Goethe and the German Sturm und Drang, Wordsworth and Byron, Beethoven and then Berlioz, all turning at once to feeling, nature, the individual, and the nation. The label 'Romanticism' even reached painting from this literary world first."
+  />
+</>)
+
+// ── 1. Reason ───────────────────────────────────────────────
+const ReasonNarrative: Narrative = ({ accent, onZoom }) => (<>
+  <article style={{ padding: '18px 18px 40px' }}>
+    <SectionHeader accent={accent} label="Rome · the 1760s" title="The case for order" first />
+    <p style={proseStyle}>
+      <DropCap accent={accent}>T</DropCap>
+      he reason wing built its whole case on a single conviction: that the way out of a frivolous, decadent present was
+      to go back to the antique and copy its severity. Its bible was Winckelmann&rsquo;s 1755 essay calling for &ldquo;a
+      noble simplicity and quiet grandeur,&rdquo; and its method was drawing. A young painter trained for years on{' '}<strong>line</strong>{' '}before he was trusted with serious color, because in this faith the contour is the truth of
+      a thing and color is mere decoration laid on top. The ideal surface was{' '}<em>fini</em>{' '}(a finish blended so
+      smooth you could not find a brushstroke if you searched), so the figures would read like polished marble rather
+      than like paint. Beauty, in this view, has rules, the ancients knew them, and the job is to learn them.
+    </p>
+    <p style={proseStyle}>
+      The subjects matched the method. This was{' '}<strong>history painting</strong>{' '}(grand scenes from myth, scripture,
+      and ancient history, the most prestigious kind a painter could attempt), and the scenes were chosen for their
+      moral charge: a Roman swearing to die for the city, a philosopher drinking poison rather than recant. The point
+      was never just to show a beautiful body. The point was to hold up a stoic ancient virtue as a mirror for a soft
+      modern age. Art as a public lesson, not a private delight.
+    </p>
+
+    <SectionHeader accent={accent} label="What order looks like" title="Stillness you could set a clock by" />
+    <p style={proseStyle}>
+      Stand in front of one of these pictures and the first thing it does is stop time. Everything is held at the one
+      frozen instant that carries the most meaning, the way a stage freezes the second the curtain lifts. The figures
+      stand in a shallow band close to the front, as if on a narrow stone ledge with a wall just behind them, so nothing
+      recedes into deep space to pull the eye away. Their edges are hard and exact and the brushwork is sanded off until
+      skin and cloth read like polished marble; the color is local and severe, stone gray and steel and the dull red of
+      dried blood, never a pretty pastel. And the whole moral of the picture is loaded into a single gesture you cannot
+      miss. This is a style built to be understood at a glance and obeyed.
+    </p>
+    <p style={proseStyle}>
+      David&rsquo;s{' '}<em>Oath of the Horatii</em>{' '}is the copybook of it. Three brothers throw their arms out in one
+      rigid line toward the swords their father lifts, every limb straightened to the same taut angle, a block of male
+      resolve machined to a single edge; the women at the right have melted into a soft curve of grief, and the two
+      halves do not touch. Three round arches behind sort the canvas into its parts: the men, the weapons, the cost.
+      Nothing blurs, nothing moves, nothing is in doubt. The{' '}<em>Death of Marat</em>{' '}strips the same method almost
+      to nothing and shows how much it can still carry: a murdered man slumped in his bath, one bare arm hanging
+      straight to the floor with the pen still in the fingers, the wound and the dropped knife rendered exactly, and
+      above all of it a great empty brown void doing the work an altarpiece&rsquo;s gold once did. The reason style can
+      hold a whole martyrdom in an arm and a blank wall.
+    </p>
+    <p style={proseStyle}>
+      That economy is also the style&rsquo;s open secret. An art built to embody virtue turned out to be exquisitely
+      built to serve power: the same severe line that swore the Horatii&rsquo;s oath went on to serve a Revolution and
+      then an Emperor without changing its look, which is the lesson the feeling wing would seize on.
+    </p>
+
+    <SectionHeader accent={accent} label="Ingres" title="Line made voluptuous" />
+    <p style={proseStyle}>
+      David&rsquo;s pupil{' '}<strong>Jean-Auguste-Dominique Ingres</strong>{' '}(1780&ndash;1867) carried the primacy of
+      line into the next generation and made it strange. His{' '}<em>La Grande Odalisque</em>{' '}(1814) is a reclining
+      harem nude (an{' '}<em>odalisque</em>{' '}is a woman of a sultan&rsquo;s household) whose cool back is drawn
+      impossibly, sinuously long; critics joked she had two or three vertebrae too many. Ingres had bent anatomy itself
+      in the service of pure, flowing contour, proof that the worship of line could become as sensuous and as willful as
+      anything the colorists did. He would spend forty years as the defender of drawing for{' '}<strong>the
+      academy</strong>{' '}(the official art establishment, in France the Acad&eacute;mie with its school and its Salon,
+      that trained painters and controlled which pictures the public got to see) against the rising tide of color, the
+      standing rebuttal to everything the second wing of the era believed.
+    </p>
+    <PaintingFigure
+      onZoom={onZoom}
+      palette={STONE}
+      imageUrl={NRO_IMG.grandeOdalisque}
+      ratio="16/9"
+      alt="Ingres, La Grande Odalisque: a reclining nude seen from behind with an impossibly long, smooth back"
+      caption={<>Line carried to the edge of anatomy. Ingres draws his nude&rsquo;s back too long on purpose, bending the body to the curve, the cool primacy of drawing pushed all the way into the exotic and the strange.</>}
+      credit={<>Ingres,{' '}<em>La Grande Odalisque</em>, 1814 · 3 ft × 5 ft 4 in · Louvre, Paris</>}
+      rights={PD_WORLD}
+    />
+  </article>
+</>)
+
+// ── 2. Feeling ──────────────────────────────────────────────
+const FeelingNarrative: Narrative = ({ accent, onZoom }) => (<>
+  <article style={{ padding: '18px 18px 40px' }}>
+    <SectionHeader accent={accent} label="Madrid · Paris · London · Dresden" title="The case for feeling" first />
+    <p style={proseStyle}>
+      <DropCap accent={accent}>T</DropCap>
+      he feeling wing had no academy, no leader, and no manifesto, just painters scattered across four countries who
+      mostly never met and shared a temperament rather than a program. What they shared was a set of refusals. Where
+      reason wanted calm, they wanted intensity. Where reason drew a clean edge, they let edges dissolve and the
+      brushstroke show, so{' '}<strong>color</strong>, not line, carried the emotion. Where reason held up the serene
+      antique, they reached for the present, the medieval, the exotic, the dream, and above all the{' '}<strong>sublime</strong>: Burke&rsquo;s terror-and-grandeur, the overwhelming thing that thrills precisely because
+      it could destroy you. The truest subject was no longer virtue calmly depicted. It was whatever overwhelms us.
+    </p>
+
+    <SectionHeader accent={accent} label="The look" title="What feeling does to a wall" />
+    <p style={proseStyle}>
+      Stand back from a roomful of these pictures and the style announces itself before any one subject does. The edges
+      have gone soft. Where the reason wing sealed every contour and sanded the brushwork until the figures looked
+      carved, here the edges bleed into their surroundings and the stroke is left showing, loaded and visible, so the
+      paint reads as something a hand shoved around in a hurry. Nothing stands in a calm row. The compositions tip and
+      spiral on the diagonal, weighted hard into one corner, so the whole picture seems to heave or slide rather than
+      hold still. Color has taken over the work line used to do: the feeling is carried by a furnace of red, a bruised
+      storm-gray, a glare of white, not by the drawing under it. And the light is no longer the even, sourceless glow
+      that let a David figure read like a statue. It is thrown for drama, raked across the dark, tearing one face or one
+      gesture out of a surrounding blackness. The reason wing built its pictures to be understood. The feeling wing
+      built them to hit you before you understand anything.
+    </p>
+
+    <SectionHeader accent={accent} label="The grand wall, turned on itself" title="The scale of gods, handed to a disaster" />
+    <p style={proseStyle}>
+      The clearest single proof of the new way of seeing is the French painter Th&eacute;odore G&eacute;ricault&rsquo;s{' '}<em>The Raft of the Medusa</em>{' '}(1818&ndash;19), sixteen feet of it. It keeps the colossal scale the reason
+      wing reserved for Roman heroes and gods and hands it instead to the survivors of a real, recent, squalid
+      shipwreck: castaways heaped on a few lashed planks, the dead sliding off the front edge, the living straining up
+      through a pyramid of bodies toward a speck of a rescue ship on the far horizon. Look at how unstable it is. Two
+      diagonals cross the raft and pull against each other, so the whole mass feels like it is lifting on the swell;
+      nothing in it is level, nothing is at rest. A Black man, hoisted on his fellows&rsquo; shoulders, stands at the
+      very apex of the pyramid, the highest and most hopeful point in the painting, waving a rag at the horizon. There
+      is the feeling style&rsquo;s whole answer to reason in one canvas: not a moral held calmly up for study, but a
+      catastrophe flung at you at the size once kept for the death of kings.
+    </p>
+    <PaintingFigure
+      onZoom={onZoom}
+      palette={OXBLOOD}
+      imageUrl={NRO_IMG.raftMedusa}
+      ratio="16/9"
+      alt="Géricault, The Raft of the Medusa: survivors heaped on a raft strain toward a speck of a ship on the horizon"
+      caption={<>Disaster at the scale of gods and kings. G&eacute;ricault piles the survivors of a real shipwreck into a heaving pyramid, the dead sliding off the front, a Black man at the apex waving toward a ship so far off you have to hunt for it. Sixteen feet of current-events horror.</>}
+      credit={<>Th&eacute;odore G&eacute;ricault,{' '}<em>The Raft of the Medusa</em>, 1818&ndash;19 · 16 ft 1 in × 23 ft 6 in · Louvre, Paris</>}
+      rights={PD_WORLD}
+    />
+    <p style={proseStyle}>
+      The same charge runs through the wing&rsquo;s other great public pictures, every one of them taking the grand wall
+      and aiming it at horror or revolt instead of virtue: Goya&rsquo;s faceless firing squad working in the dark,
+      Delacroix&rsquo;s bare-breasted Liberty climbing a barricade through the gunsmoke. The subject changed from the
+      ideal to the unbearable, and the paint changed to match it.
+    </p>
+
+    <SectionHeader accent={accent} label="The sublime, out of doors" title="Nature too vast to master" />
+    <p style={proseStyle}>
+      The other half of feeling went outside, into weather and wilderness, where the sublime really lived, and there the
+      human figure shrank instead of commanding. Turner dissolved a slave ship and a steam train alike into furnaces of
+      light until the subject all but vanished into pure color. The German painter Caspar David Friedrich set a lone
+      man on a crag above a sea of fog and let him stand small and speechless under an immense sky. Where a David hero
+      plants himself at the front of the stage and rules it, the Romantic figure turns its back to us and is very nearly
+      swallowed by what it looks at. Reason measured the world from outside. Feeling stood inside it and trembled.
+    </p>
+    <PaintingFigure
+      onZoom={onZoom}
+      palette={FOG}
+      imageUrl={NRO_IMG.wanderer}
+      ratio="4/5"
+      alt="Friedrich, Wanderer above the Sea of Fog: a lone man seen from behind on a crag above a sea of swirling mist"
+      caption={<>The whole Romantic idea in one figure. A lone man on a summit, seen from behind, gazing over an ocean of mist: the individual small before the infinite. Nature is something to be felt here, not surveyed.</>}
+      credit={<>Caspar David Friedrich,{' '}<em>Wanderer above the Sea of Fog</em>, c.1818 · 3 ft 1¼ in × 2 ft 5½ in · Hamburger Kunsthalle, Hamburg</>}
+      rights={PD_WORLD}
+    />
+  </article>
+</>)
+
+// ── 3. The quarrel ──────────────────────────────────────────
+const QuarrelNarrative: Narrative = ({ accent, onZoom }) => (<>
+  <article style={{ padding: '18px 18px 40px' }}>
+    <SectionHeader accent={accent} label="The dates that ruin the textbook" title="They were never in line" first />
+    <p style={proseStyle}>
+      <DropCap accent={accent}>T</DropCap>
+      he tidy version of this era has reason come first and feeling come after, as if a country tired of order and
+      switched to passion one decade. The lives ruin it. David and Goya were near-twins in age, born two years
+      apart, dead three years apart, working through the exact same wars in neighboring countries: the most severe of
+      the rationalists and the bleakest of the proto-Romantics were not a before-and-after, they were contemporaries
+      glaring across the Pyrenees. The two tendencies did not succeed each other. They ran side by side for a hundred
+      years, competing the whole way.
+    </p>
+
+    <SectionHeader accent={accent} label="Ingres versus Delacroix" title="The argument given two faces" />
+    <p style={proseStyle}>
+      The quarrel even had named champions in the same room. For decades the Paris exhibition was the stage for a
+      running feud between Ingres, who held that drawing was the honest skeleton of art and color a mere cosmetic, and
+      Delacroix, who held that color and feeling were the living thing and Ingres&rsquo;s perfect line a corpse. Critics
+      lined up behind one or the other; a young painter had to choose a side. It was the era&rsquo;s central question,
+      order against intensity, shrunk down to two men who genuinely could not stand the sight of each other&rsquo;s work.
+    </p>
+
+    <SectionHeader accent={accent} label="Two faces of one coin" title="What they could not see they shared" />
+    <p style={proseStyle}>
+      And yet, step back, and the two wings look less like enemies than like brothers who refuse to admit the
+      resemblance. Both began by rejecting the same thing, the weightless Rococo pleasure of Fragonard&rsquo;s swing.
+      Both treated painting as a serious moral and public act, not a decoration for a salon wall. Both seized the giant
+      scale of history painting and aimed it at the great matters of their century. And both were carried on the same
+      flood of revolution and war, the one painting its hopes, the other its wreckage. They were two answers to one
+      question, not two unrelated styles, which is the only reason it makes sense to call this single, fractious century
+      a single era at all.
+    </p>
+    <p style={proseStyle}>
+      Hold the two emblems side by side and the argument is right there on the surface: the oath and the firing squad.
+      David lines his Romans up like statues, evenly lit, every edge finished, the brushwork hidden, the feeling held
+      under iron control. Goya throws his light like a thrown bottle, lets the dark eat half the canvas, and gives the
+      reason wing no order to hold onto at all, only terror. Same century, same wars, opposite faith. That is the era,
+      in two pictures.
+    </p>
+  </article>
+</>)
+
+// ── 4. The handoff ──────────────────────────────────────────
+const HandoffNarrative: Narrative = ({ accent }) => (<>
+  <article style={{ padding: '18px 18px 40px' }}>
+    <SectionHeader accent={accent} label="Around 1850" title="The man who refused both" first />
+    <p style={proseStyle}>
+      <DropCap accent={accent}>A</DropCap>
+      n argument with two sides usually ends when one side wins. This one ended differently, when a third man arrived
+      and threw out both. Around mid-century Gustave Courbet looked at the reason wing&rsquo;s idealized antique gods
+      and the feeling wing&rsquo;s heightened storms and decided he wanted neither. He would paint only the plain,
+      contemporary, unidealized present, and he would paint it big. Two laborers breaking rock by a road, a whole
+      provincial village turned out for a funeral, peasants and stone and ordinary dirt, given the grand scale David
+      had kept for Roman heroes and Delacroix had filled with catastrophe. No ideal past. No sublime terror. Just the
+      ordinary now, painted as if it mattered as much as a god.
+    </p>
+    <p style={proseStyle}>
+      This was{' '}<strong>Realism</strong>, and it is the hinge into the next era. By rejecting{' '}<em>both</em>{' '}the
+      idealized past of Neoclassicism and the raised pulse of Romanticism, Courbet opened the long modern argument
+      about what a painting is even for, the argument the Modern era carries from here. The line-versus-color fight
+      that Ingres and Delacroix waged did not die with them either; it went on organizing French painting for another
+      fifty years, straight into the academic establishment that the Impressionists would later have to fight.
+    </p>
+
+    <SectionHeader accent={accent} label="What the century settled" title="The question it handed on" />
+    <p style={proseStyle}>
+      So between roughly 1750 and 1850, European painting argued out, in pictures, a question the whole modern age would
+      inherit: is the truest art the one that orders the world by reason, or the one that tells the truth of feeling?
+      Neoclassicism answered with line, the antique, and civic virtue, and became the face of a Revolution. Romanticism
+      answered with color, nature, and the sublime, and painted the era&rsquo;s terrors and longings. The two never
+      took turns; they overlapped and fought, both of them riding the same flood of revolution and war. And when
+      Realism finally walked away from both to paint only the plain present, the swing long buried and the oath long
+      sworn, the modern age had begun.
+    </p>
+  </article>
+</>)
+
+// ── ERA_NARRATIVES sub-object (add under the existing `mod` entry) ──
+// export const ERA_NARRATIVES: Record<string, Record<string, Narrative>> = {
+//   mod: { ... },
+   nro: {
+     land: LandNarrative,
+     reason: ReasonNarrative,
+     feeling: FeelingNarrative,
+     quarrel: QuarrelNarrative,
+     handoff: HandoffNarrative,
+   },
+// }
+
+// ============================================================================
+// sections: WorkSection[] for NRO_ERA (replaces the empty `sections: []`).
+// First id MUST be `land` (the "Lay of the land" card links here). 5 chapters.
+// ============================================================================
+const NRO_ERA_SECTIONS = [
+  { id: 'land', eyebrow: 'Lay of the land', dateLabel: 'c. 1750–1850', title: 'One century, two answers', blurb: 'A girl on a swing, the oath that buried her, a firing squad, a raft, and a barricade. One argument, Reason against Feeling, riding a hundred years of revolution.', progress: 0 },
+  { id: 'reason', eyebrow: 'Neoclassicism', dateLabel: 'c. 1750–1830', title: 'The case for order', blurb: 'Line over color, the antique revived, civic virtue, and a German with a phrase. David paints the oath, then walks into the Revolution and lives it.', progress: 1 / 4 },
+  { id: 'feeling', eyebrow: 'Romanticism', dateLabel: 'c. 1780–1850', title: 'The case for feeling', blurb: 'Color over line and the sublime, with no leader and no manifesto. Goya, Géricault, Delacroix, Turner, and Friedrich answer reason with terror, paint, and fog.', progress: 2 / 4 },
+  { id: 'quarrel', eyebrow: 'The argument', dateLabel: 'They overlapped', title: 'Two faces of one coin', blurb: 'Not a sequence but a feud. David and Goya are near-twins; Ingres and Delacroix snarl across the Salon for decades. Why one fractious century is one era.', progress: 3 / 4 },
+  { id: 'handoff', eyebrow: 'The handoff', dateLabel: 'Around 1850', title: 'The man who refused both', blurb: 'Courbet and Realism throw out the antique gods and the Romantic storms together, paint only the plain present, and open the Modern era.', progress: 1 },
+]
+
+// In src/lib/art-content-nro.ts, set NRO_ERA.sections = NRO_ERA_SECTIONS
+// (inline the array literal; this name is just for the scratch file).
+
+// ============================================================================
+// NRO_IMG KEYS USED (all confirmed present in src/lib/art-content-nro.ts):
+//   fragonardSwing, oathHoratii, thirdOfMay, grandeOdalisque,
+//   raftMedusa, wanderer
+// (Named in prose without an inline figure: deathMarat, slaveShip, liberty; all
+//  exist as keys if a later pass wants to add their figures.)
+// ============================================================================

@@ -1,0 +1,637 @@
+// ════════════════════════════════════════════════════════════
+// NEOCLASSICISM movement read — 7 chapters. Authored gates-first from
+// audits/art-pipeline/nro-neoclassicism-factpack.md ONLY. House voice;
+// figures inline (every work pre-1900 → public domain worldwide).
+// PASTE TARGETS:
+//   • palettes + PD-rights consts → top of movement-narratives.tsx
+//   • the 7 Narrative functions   → movement-narratives.tsx
+//   • the `neoclassicism: { ... }` sub-object → MOVEMENT_NARRATIVES map
+//   • the `sections: [...]` array → the NEOCLASSICISM const in art-content-nro.ts
+//     (which already imports NRO_IMG); the narratives file imports NRO_IMG too.
+// NOTE: movement-narratives.tsx must `import { NRO_IMG } from '@/lib/art-content-nro'`
+//       (the Realism block imports ART_IMG; Neoclassicism uses NRO_IMG).
+// ════════════════════════════════════════════════════════════
+
+// ── Neoclassicism palettes (figure fallbacks) + per-artist rights lines ──
+const N_STONE = ['#8a7a5a', '#4a3c2a', '#14100a'] as [string, string, string]
+const N_STEEL = ['#5a6470', '#2e3640', '#10141a'] as [string, string, string]
+const N_BLOOD = ['#8a4830', '#4a2418', '#160a06'] as [string, string, string]
+const N_ROCOCO = ['#c8a6c0', '#9a7a6a', '#3a2c28'] as [string, string, string]
+const N_GOLD = ['#a8884a', '#5a4420', '#16100a'] as [string, string, string]
+const PD_DAVID = 'Public domain worldwide (Jacques-Louis David died 1825). Wikimedia Commons.'
+const PD_INGRES = 'Public domain worldwide (Jean-Auguste-Dominique Ingres died 1867). Wikimedia Commons.'
+const PD_FRAGONARD = 'Public domain worldwide (Jean-Honoré Fragonard died 1806). Wikimedia Commons.'
+const PD_VIGEE = 'Public domain worldwide (Élisabeth Vigée Le Brun died 1842). Wikimedia Commons.'
+const PD_KAUFFMAN = 'Public domain worldwide (Angelica Kauffman died 1807). Wikimedia Commons.'
+const PD_GROS = 'Public domain worldwide (Antoine-Jean Gros died 1835). Wikimedia Commons.'
+
+// ── 1. A scholar's creed and a buried city ──────────────────
+const CreedNarrative: Narrative = ({ accent, onZoom }) => (<>
+ <article style={{ padding: '18px 18px 40px' }}>
+ <SectionHeader accent={accent} label="Europe · 1750s" title="Tired of pretty" first />
+ <p style={proseStyle}>
+ <DropCap accent={accent}>M</DropCap>
+ ost movements begin by inventing something new. This one begins by deciding that everything new had been
+ a mistake, and that the way forward was a thousand years back. Around the middle of the eighteenth century
+ the educated classes of Europe grew tired of the art they had, which was{' '}<strong>Rococo</strong>{' '}(the
+ light, ornamental style of the early 1700s, all pastel color, curling lines, and aristocratic flirtation).
+ Rococo was made to please a small rich world, and it pleased it expertly. The Neoclassicists looked at it
+ and saw a dessert trolley where a meal should be.
+ </p>
+ <p style={proseStyle}>
+ The picture they pointed to as proof was Jean-Honoré Fragonard&rsquo;s{' '}<em>The Swing</em>{' '}(painted around
+ 1767). A young woman in a froth of pink kicks a slipper into the air as she swings through a feathery green
+ garden; below her, half-hidden in the bushes, a young man lies back to look straight up her billowing
+ skirts, while an unsuspecting older man works the ropes behind. It is witty, it is gorgeous, it is paint
+ turned to whipped cream, and it is about nothing on earth except pleasure. That, said the new generation,
+ was exactly the problem. Art had become a toy.
+ </p>
+ <PaintingFigure
+ onZoom={onZoom}
+ palette={N_ROCOCO}
+ imageUrl={NRO_IMG.fragonardSwing}
+ ratio="4/5"
+ alt="Fragonard, The Swing"
+ caption={<>The Rococo at its most charming and most weightless: a girl swinging in pink, kicking off a slipper, while a hidden lover peers up her skirts. Pastel, curving, feathery, and about nothing but delight. This is the art the Neoclassicists set out to bury.</>}
+ credit={<>Fragonard,{' '}<em>The Swing</em>, c.1767 · Wallace Collection, London</>}
+ rights={PD_FRAGONARD}
+ />
+
+ <SectionHeader accent={accent} label="Reason wants an art" title="The age of Reason needs a look" />
+ <p style={proseStyle}>
+ The hunger for something sterner had a source, and it was the{' '}<strong>Enlightenment</strong>{' '}(the
+ eighteenth-century movement of thinkers who put reason, evidence, and public-spiritedness above tradition
+ and royal authority). An age that prized clarity, order, and civic virtue (the idea that a good citizen
+ owes duty to the community, not just to himself) wanted an art to match: serious, rational, and morally
+ useful, the opposite of Rococo&rsquo;s private fun. The obvious model lay in the deep past. Ancient Greece
+ and the Roman Republic had built a civilization on exactly those public virtues, and their sculpture had
+ already been admired for centuries as the high-water mark of human art. The way forward, plainly, was the
+ way back: to{' '}<strong>antiquity</strong>{' '}(the world of the ancient Greeks and Romans), to be imitated
+ rather than improved upon.
+ </p>
+ <p style={proseStyle}>
+ Then antiquity, conveniently, came up out of the ground. For centuries the buried Roman towns near Naples
+ had been a rumor under the farmland. Now they were dug. The excavation of{' '}<strong>Herculaneum</strong>{' '}
+ began in 1738 and of{' '}<strong>Pompeii</strong>{' '}in 1748, both towns smothered by Vesuvius in AD 79 and
+ sealed ever since, both now ordered open under Charles of Bourbon, the King of Naples. For the first time
+ Europeans were looking not at later copies of Roman art but at Roman daily life itself, the rooms, the
+ wall paintings, the furniture, the design, lifted whole out of the ash. It was as if the ancient world had
+ sent up a sample crate. Artists and aristocrats poured south to see it, and the new craze for the antique
+ acquired a name in France even before it had a doctrine:{' '}<em>le go&ucirc;t grec</em>, &ldquo;the Greek
+ taste,&rdquo; current by 1757.
+ </p>
+
+ <SectionHeader accent={accent} label="Winckelmann" title="A creed written by a man who couldn't paint" />
+ <p style={proseStyle}>
+ The doctrine arrived next, and it came not from a painter but from a scholar. Johann Joachim Winckelmann
+ (1717&ndash;1768) was a German librarian and antiquarian, often called the father of art history, a man
+ who loved Greek sculpture with an intensity that reads today like a religious conversion. In 1755, in
+ Dresden, he published a slim essay (its first printing ran to about fifty copies) with a long title that
+ amounts to a single command:{' '}<em>Thoughts on the Imitation of Greek Works in Painting and Sculpture</em>.
+ Stop inventing, it told artists. Stop chasing novelty. The road to greatness runs through imitating the
+ Greeks, and the supreme quality of Greek art, the thing every painter should chase, he named in a phrase
+ that became the whole movement&rsquo;s motto:{' '}<strong>&ldquo;a noble simplicity and quiet
+ grandeur&rdquo;</strong>{' '}({' '}<em>eine edle Einfalt und eine stille Gr&ouml;&szlig;e</em>{' '}in his
+ German), in both pose and expression. Not drama. Not display. A calm, restrained, dignified gravity, like
+ a Greek statue that has nothing left to prove.
+ </p>
+ <p style={proseStyle}>
+ One honest footnote travels with that famous line. The English everyone now quotes, &ldquo;quiet
+ grandeur,&rdquo; is the modern standard translation. When the line first crossed into English, in the
+ Swiss-British painter Henry Fuseli&rsquo;s translation of 1765, it read &ldquo;a noble simplicity and{' '}<em>sedate</em>{' '}
+ grandeur.&rdquo; The sense is the same; the smoother wording is later. It is a small thing, but Winckelmann
+ wrote the creed of an art obsessed with getting the antique exactly right, so it is worth getting his own
+ words exactly right too.
+ </p>
+ <p style={proseStyle}>
+ So the founding text of a movement of severe, drawn, moral paintings is a piece of art criticism, written
+ by a man who could not paint. The first to try translating it into an actual picture was Winckelmann&rsquo;s
+ own friend, the German painter Anton Raphael Mengs, whose ceiling fresco (a painting laid straight onto
+ wet plaster){' '}<em>Parnassus</em>{' '}of 1761 (Apollo among the Muses, arranged with the cool clarity of a{' '}
+ <strong>frieze</strong>, a band of figures set in a shallow line across the surface, like the carved relief
+ that runs across a temple) is often called the first programmatic Neoclassical painting: the doctrine turned,
+ gingerly, into paint. It would take another thirty years, and a
+ Frenchman with no gift for gentleness, to turn the creed into something that could frighten people.
+ </p>
+ </article>
+
+ <MeanwhileSheet
+ region="Rome"
+ title="Everyone is studying in the same ruins."
+ body="The movement was international because its school was a single city. Through these decades Rome was the finishing academy of European art, and now Pompeii was the field trip. Winckelmann, Mengs, the sculptor Canova, the painters Angelica Kauffman and Benjamin West all passed through the same ancient streets. They came home from different countries having looked at the same stones, which is why a German's creed could become a Frenchman's revolution."
+ />
+ </>)
+
+// ── 2. David draws the line ─────────────────────────────────
+const LineNarrative: Narrative = ({ accent, onZoom }) => (<>
+ <article style={{ padding: '18px 18px 40px' }}>
+ <SectionHeader accent={accent} label="Jacques-Louis David" title="The man who made the creed a body" first />
+ <p style={proseStyle}>
+ <DropCap accent={accent}>J</DropCap>
+ acques-Louis David (1748&ndash;1825) was the painter Neoclassicism had been waiting for: French, fiercely
+ ambitious, and possessed of a hardness of hand that suited the new severity exactly. He had trained in the
+ usual way, won the{' '}<strong>Prix de Rome</strong>{' '}(the state prize that paid for years of study in
+ Italy) that sent young French painters to Rome, and there, among the ruins and the
+ antique sculpture Winckelmann worshipped, he burned the Rococo out of himself. What he came back with was a
+ way of painting that looked like nothing the Salon was used to. To see the size of the change, it helps to
+ set his breakthrough beside the Fragonard.
+ </p>
+ <p style={proseStyle}>
+ Where Fragonard&rsquo;s color is pastel, David&rsquo;s is severe and local: stone gray, steel, the dull
+ red of dried blood, each thing its own plain color with no sugary haze over it. Where Fragonard&rsquo;s
+ brushwork is feathery and shows, David&rsquo;s is smooth to the point of invisibility, so that his figures
+ read like carved and painted marble rather than strokes of paint. Where Fragonard composes on swinging soft
+ curves, David lines his figures up across a shallow stage like a carved relief on a Roman tomb, the action
+ pressed right to the front and lit hard from the side. And where Fragonard&rsquo;s subject is a flirtation,
+ David&rsquo;s is a vow to die. The single deepest swap is the one the whole movement turns on: clear
+ <strong> line</strong>{' '}replaces soft color as the thing that carries the picture. You could trace every
+ figure in a David with a pencil and lose almost nothing. That is{' '}<strong>line over color</strong>, the
+ conviction that drawing (the firm edge, the contour) is the true bones of painting and color only its skin.
+ </p>
+
+ <SectionHeader accent={accent} label="Oath of the Horatii" title="Three swords and a vow" />
+ <p style={proseStyle}>
+ The picture that announced all of this was the{' '}<em>Oath of the Horatii</em>, painted in Rome in 1784 and
+ shown at the Salon (the official annual exhibition in Paris, the one show that made or broke a French
+ career) the next year. The story is from early Roman legend: three brothers of the Horatii family step
+ forward to fight three champions of a rival city, settling a war by single combat to spare both armies.
+ David paints the moment of their oath. Look at the structure of it. On the left, the three brothers throw
+ out their arms in a single rigid salute toward their father, every line of their bodies taut and parallel,
+ soldiers turned to clenched springs. In the center the old father lifts up three swords in his fists, the
+ bright steel the hard focus of the whole canvas. And on the right, in a heap of soft curves that pointedly
+ break the men&rsquo;s straight lines, the women of the family collapse, weeping, already grieving the deaths
+ the men have not yet died. Three round arches behind divide the scene into the men, the swords, and the
+ women: duty, the weapon, and the cost.
+ </p>
+ <PaintingFigure
+ onZoom={onZoom}
+ palette={N_STONE}
+ imageUrl={NRO_IMG.oathHoratii}
+ ratio="5/4"
+ alt="David, Oath of the Horatii"
+ caption={<>Three brothers fling out their arms in a single rigid salute; their father lifts three swords; the women crumple in grief at the right. Hard line, a shallow friezelike stage, severe local color, and a subject of stark civic duty. The image that announced the new style.</>}
+ credit={<>David,{' '}<em>Oath of the Horatii</em>, 1784&ndash;85 · 10 ft 10 in &times; 13 ft 11 in · Louvre, Paris</>}
+ rights={PD_DAVID}
+ />
+ <p style={proseStyle}>
+ A word of care about what this picture is, because it is almost always told wrong. It is endlessly
+ described as a deliberate call to revolution, a prophecy of 1789 painted to summon France to overthrow its
+ king. It was nothing of the kind. The{' '}<em>Oath of the Horatii</em>{' '}was a royal commission, ordered for
+ the Crown through the comte d&rsquo;Angiviller, the official who ran the king&rsquo;s buildings and art, and
+ it was painted in 1784, five full years before the Revolution began. Its subject, men sacrificing
+ everything private for the good of the state, became a revolutionary banner only later, read back into the
+ picture once France had a revolution to read it through. David did not paint a prophecy. He painted the
+ king&rsquo;s commission about Roman duty, in a style hard enough that history could pick it up afterward and
+ carry it.
+ </p>
+
+ <SectionHeader accent={accent} label="The Death of Socrates" title="Reason takes the poison" />
+ <p style={proseStyle}>
+ Three years on, David painted the calmest and perhaps the most perfect statement of the whole creed:{' '}
+ <em>The Death of Socrates</em>{' '}(1787). The Greek philosopher Socrates, condemned to death by an Athenian
+ court for his teaching and offered the choice of execution, has chosen to drink a cup of hemlock (a deadly
+ poison) rather than flee or recant. David paints the instant before he drinks. Socrates sits upright on his
+ prison cot, his body that of a much younger and stronger man than he was, one hand reaching almost
+ absent-mindedly for the cup a turned-away jailer holds out, the{' '}<em>other</em>{' '}hand raised with a
+ finger pointed up, because he is still in the middle of making a point. He is arguing as he dies. Around him
+ his students fall apart, clutching their heads, looking away, unable to watch; the man holding out the
+ poison cannot meet his eye. Only Socrates is steady. It is the movement&rsquo;s ideal in a single body:
+ reason facing death without the smallest tremor, still teaching as the dark comes up. Everything the style
+ stood for (clarity, restraint, moral seriousness, a calm gravity drawn with a hard edge) is concentrated in
+ that raised, pointing hand.
+ </p>
+ <PaintingFigure
+ onZoom={onZoom}
+ palette={N_STONE}
+ imageUrl={NRO_IMG.deathSocrates}
+ ratio="3/2"
+ alt="David, The Death of Socrates"
+ caption={<>Socrates reaches for the cup of poison without looking at it, his other hand still raised in mid-argument, calm among students who cannot bear to watch. Reason meeting death without a flinch. The whole Neoclassical creed compressed into one pointing finger.</>}
+ credit={<>David,{' '}<em>The Death of Socrates</em>, 1787 · 4 ft 3 in &times; 6 ft 5&frac14; in · The Metropolitan Museum of Art, New York</>}
+ rights={PD_DAVID}
+ />
+ </article>
+ </>)
+
+// ── 3. The official style of the Revolution ─────────────────
+const RevolutionNarrative: Narrative = ({ accent, onZoom }) => (<>
+ <article style={{ padding: '18px 18px 40px' }}>
+ <SectionHeader accent={accent} label="Paris · 1789" title="The painter becomes a politician" first />
+ <p style={proseStyle}>
+ <DropCap accent={accent}>W</DropCap>
+ hen the French Revolution came in 1789, David did not merely cheer it from the studio. He climbed inside
+ it. He is the rare case of a great painter who became, for a few violent years, an actual revolutionary
+ official, and the facts of it are worth stating plainly, neither softened nor sensationalized, because they
+ are how the severe Roman style became the literal look of the new French state.
+ </p>
+ <p style={proseStyle}>
+ David was elected a deputy to the{' '}<strong>National Convention</strong>{' '}(the revolutionary assembly that
+ governed France and abolished the monarchy). He sat with the{' '}<strong>Montagnards</strong>, the most
+ radical faction, and when the deposed king Louis XVI was put on trial, David voted for his execution, making
+ himself a{' '}<strong>regicide</strong>{' '}(a killer of a king); his royalist wife divorced him over the vote.
+ He joined the Jacobin Club, the engine room of the radical Revolution, became an ally of its leader
+ Maximilien Robespierre, sat on the feared Committee of General Security that hunted the Revolution&rsquo;s
+ enemies, and for a stretch served as President of the Convention itself. Contemporaries called him &ldquo;the
+ Robespierre of the brush.&rdquo; And he ran the Revolution&rsquo;s images: he designed and staged its great
+ public festivals and funerals as vast open-air Neoclassical theater, antiquity brought to life in the streets
+ of Paris, the most famous being the Festival of the Supreme Being in June 1794 (a vast open-air pageant
+ staged to swap out Christian worship for a new state religion of reason and civic virtue).
+ </p>
+
+ <SectionHeader accent={accent} label="The Death of Marat" title="A murdered man painted as a saint" />
+ <p style={proseStyle}>
+ Out of all that came the strangest and greatest picture of his career, and one of the strangest in all of
+ European art: a piece of government propaganda that is also a masterpiece. Jean-Paul Marat was a radical
+ journalist and a fellow Montagnard deputy, a friend of David&rsquo;s, who suffered from a painful skin
+ disease that forced him to spend hours soaking in a medicinal bath, where he also worked. On 13 July 1793 a
+ young woman named Charlotte Corday, who blamed him for the Revolution&rsquo;s bloodshed, talked her way into
+ his rooms and stabbed him to death in that bath. The Convention asked David, Marat&rsquo;s friend and the
+ Revolution&rsquo;s image-maker, to paint him. What he produced was{' '}<em>The Death of Marat</em>{' '}(1793).
+ </p>
+ <p style={proseStyle}>
+ It shows almost nothing, and that is its power. Marat lies slumped sideways in the bath, dead, the wound
+ under his collarbone the only violence visible, a white turban around his head, his face calm and almost
+ tender. One bare arm hangs down out of the bath and across a plain wooden packing box, the pen still loose in
+ the fingers; the other hand still holds the letter Corday used to get in. A spreading bloodstain darkens the
+ water. And above all of it, taking up the entire top half of the canvas, is nothing: a great dim empty void
+ of brown wall. Anyone raised on Christian painting recognizes the shape instantly. The slumped body, the
+ fallen arm, the bare skin, the somber emptiness, this is the composition of a{' '}<strong>piet&agrave;</strong>{' '}
+ or a deposition (the standard image of Christ&rsquo;s dead body taken down from the cross and mourned), the
+ holiest image in Western art. David has lifted that sacred shape and emptied the God out of it. A murdered
+ revolutionary is laid out as a secular martyr, scripture without heaven, propaganda raised to the pitch of a
+ holy relic. It is, at once, a thing made to whip up a faction and a genuinely great painting, and it does not
+ stop being either by being the other.
+ </p>
+ <PaintingFigure
+ onZoom={onZoom}
+ palette={N_BLOOD}
+ imageUrl={NRO_IMG.deathMarat}
+ ratio="4/5"
+ alt="David, The Death of Marat"
+ caption={<>The murdered Marat slumped dead in his bath, pen still in his fallen hand, a plain wooden box at his side, and above him a vast empty void. David borrows the shape of a pietà (Christ taken down from the cross) and empties the God out of it. A revolutionary painted as a secular saint.</>}
+ credit={<>David,{' '}<em>The Death of Marat</em>, 1793 · 5 ft 5 in &times; 4 ft 2&frac38; in · Royal Museums of Fine Arts of Belgium, Brussels</>}
+ rights={PD_DAVID}
+ />
+
+ <SectionHeader accent={accent} label="Napoleon" title="The same brush, a new master" />
+ <p style={proseStyle}>
+ The radical Revolution devoured itself. When Robespierre fell in the coup of July 1794 (the{' '}
+ <strong>Thermidor</strong>, named for the month in the Revolution&rsquo;s new calendar), David, his ally, was
+ arrested and jailed, and was lucky to be released under an amnesty the next year. He had backed the losing
+ side of a terror, and he needed a new patron. He found one in the soldier who rose out of the
+ Revolution&rsquo;s wreckage to make himself emperor: Napoleon Bonaparte. David rallied to him completely and
+ became his official painter, the image-maker of the Empire as he had been of the Republic.
+ </p>
+ <p style={proseStyle}>
+ His grandest piece of Napoleonic myth-making is{' '}<em>Napoleon Crossing the Alps</em>{' '}(painted 1801&ndash;05).
+ Bonaparte sits a rearing white horse on a mountain pass, his cloak streaming straight out in a gold-and-red
+ banner, one gauntleted hand thrown up to point the way over the mountains, his face cool and certain in the
+ middle of a storm. In the rock beneath the horse&rsquo;s hooves are carved three names: Bonaparte, and below
+ him Hannibal and Charlemagne, the two earlier conquerors who had crossed the same Alps, so that the picture
+ quietly enrolls Napoleon in a line of legends. It is heroic myth, not reporting. The real Napoleon made the
+ crossing days after his army, in fair weather, on the back of a sure-footed mule led by a guide, which is
+ sensible and unpaintable. David gave the legend the horse. There are five versions of the picture; the first,
+ commissioned by Charles IV of Spain, hangs at the Ch&acirc;teau de Malmaison.
+ </p>
+ <PaintingFigure
+ onZoom={onZoom}
+ palette={N_STEEL}
+ imageUrl={NRO_IMG.napoleonAlps}
+ ratio="4/5"
+ alt="David, Napoleon Crossing the Alps"
+ caption={<>Bonaparte on a rearing white horse, cloak streaming, pointing the way over the pass, the names of Hannibal and Charlemagne carved in the rock beneath him. Heroic legend, not reportage. The real crossing was made on a mule, in fair weather, behind the army.</>}
+ credit={<>David,{' '}<em>Napoleon Crossing the Alps</em>, 1801&ndash;05 · 8 ft 6&frac38; in &times; 7 ft 3 in · Ch&acirc;teau de Malmaison, Rueil-Malmaison</>}
+ rights={PD_DAVID}
+ />
+ <p style={proseStyle}>
+ So the same severe style, born to preach Roman civic virtue, served first a Republic that killed its king and
+ then an Empire that crowned a general. The look did not change. The owner did. Neoclassicism is the rare case
+ in the history of art of a style that became, for a generation, a government&rsquo;s official propaganda
+ machine, with its greatest painter sitting inside the government running it.
+ </p>
+
+ <SectionHeader accent={accent} label="Élisabeth Vigée Le Brun" title="The royalist who painted the Queen" />
+ <p style={proseStyle}>
+ While David was bending the official art world toward the Republic, the most sought-after portrait painter in
+ France was at work on the woman that Republic would behead. &Eacute;lisabeth Vig&eacute;e Le Brun
+ (1755&ndash;1842) became Marie Antoinette&rsquo;s favored portraitist around 1778, painting the Queen and her
+ family more than thirty times, and she was one of the most successful painters of the whole age, of either
+ sex, with something near six hundred and sixty portraits to her name by the end. In 1783 she was admitted to
+ the{' '}<strong>Acad&eacute;mie royale</strong>{' '}(France&rsquo;s official art establishment, the body that
+ trained painters, ran the Salon, and decided what the public was allowed to see), one of a tiny handful of
+ women ever let in.
+ </p>
+ <p style={proseStyle}>
+ The Revolution that handed David his power made her a fugitive. A committed royalist bound to the doomed
+ court, she fled Paris at midnight on 5 October 1789, the night the crowd set out to march on Versailles, and
+ spent the next twelve years working her way across Italy, Austria, Russia, and Germany, painting aristocrats
+ in one capital after another until an amnesty let her come home. Late in life she set the whole journey down
+ in three volumes of memoirs that shaped how the age would be remembered. The same upheaval runs through both
+ careers from opposite ends: David stayed and voted to kill the king, and Vig&eacute;e Le Brun packed in the
+ dark and ran. The same Acad&eacute;mie, the same decade, opposite sides of the same blade.
+ </p>
+ <PaintingFigure
+ onZoom={onZoom}
+ palette={N_ROCOCO}
+ imageUrl={NRO_IMG.vigeeDaughter}
+ ratio="4/5"
+ alt="Vigée Le Brun, Self-portrait with Her Daughter Julie"
+ caption={<>The painter holds her young daughter Julie, both of them looking straight out at us, and she is smiling with her lips parted and her teeth showing, which the academic rulebook of the day flatly forbade in a serious portrait. Warmth turned into a quiet rule-break.</>}
+ credit={<>Vig&eacute;e Le Brun,{' '}<em>Self-portrait with Her Daughter Julie</em>, 1786 · 3 ft 5 in &times; 2 ft 9 in · Louvre, Paris</>}
+ rights={PD_VIGEE}
+ />
+ </article>
+
+ <MeanwhileSheet
+ region="Paris"
+ title="The Revolution is also an antique costume drama."
+ body="David's politics and his classicism were one thing, not two. The Revolution dressed itself in ancient Rome on purpose: it called its assembly a Senate's heir, named months and virtues after Roman models, and staged its festivals as classical processions, which David designed. The same men who admired the stoic Romans of his paintings were trying, in deadly earnest, to be them. The art and the politics were quoting the same dead republic."
+ />
+ </>)
+
+// ── 4. Ingres and the cult of line ──────────────────────────
+const IngresNarrative: Narrative = ({ accent, onZoom }) => (<>
+ <article style={{ padding: '18px 18px 40px' }}>
+ <SectionHeader accent={accent} label="Jean-Auguste-Dominique Ingres" title="The pupil who outlived the cause" first />
+ <p style={proseStyle}>
+ <DropCap accent={accent}>D</DropCap>
+ avid&rsquo;s most gifted pupil carried the creed deep into a century that was busy abandoning it.
+ Jean-Auguste-Dominique Ingres (1780&ndash;1867) trained in David&rsquo;s studio and made line, the firm
+ contour, the primacy of drawing, into a lifelong religion. His battle cry was that &ldquo;a thing well drawn
+ is always well painted&rdquo;: get the drawing right, he insisted, and the picture is essentially made;
+ color is only a finish coat. He held that position with a stubbornness that outlasted the whole
+ Neoclassical moment, and it set up the central fight of the era, which arrives at the end of this story.
+ </p>
+ <p style={proseStyle}>
+ First he, too, dressed power. His{' '}<em>Napoleon I on his Imperial Throne</em>{' '}(1806) shows the emperor
+ seated dead front, frozen and symmetrical, swallowed in ivory, gold, and white ermine, holding the scepter
+ and the hand of justice, staring out without expression. It is less a portrait of a man than an icon of an
+ office, deliberately stiff and cold, closer to a gilded Byzantine emperor (the rigid, frontal, gold-ground
+ icon style of medieval Eastern Christianity, built to feel timeless rather than alive) or a pagan god of
+ judgment than to anything alive. Ingres has pushed line and finish all the way into ritual rigidity. The Salon of 1806 disliked
+ it, finding it strange and frozen, which it is, on purpose.
+ </p>
+ <PaintingFigure
+ onZoom={onZoom}
+ palette={N_GOLD}
+ imageUrl={NRO_IMG.napoleonThrone}
+ ratio="2/3"
+ alt="Ingres, Napoleon I on his Imperial Throne"
+ caption={<>Napoleon enthroned head-on, frozen and symmetrical in ivory, gold, and ermine, an icon of an office rather than a likeness of a man. Ingres pushes line and finish all the way into ritual stiffness, closer to a Byzantine emperor than to a living general.</>}
+ credit={<>Ingres,{' '}<em>Napoleon I on his Imperial Throne</em>, 1806 · 8 ft 6 in &times; 5 ft 3&frac34; in · Mus&eacute;e de l&rsquo;Arm&eacute;e, Paris</>}
+ rights={PD_INGRES}
+ />
+
+ <SectionHeader accent={accent} label="Grande Odalisque" title="A back with too many bones" />
+ <p style={proseStyle}>
+ Ingres&rsquo;s most famous picture is where his worship of line tips into something almost perverse. The{' '}
+ <em>Grande Odalisque</em>{' '}(1814) shows an{' '}<strong>odalisque</strong>{' '}(a woman of a harem, the
+ enclosed women&rsquo;s quarters of an Ottoman household) reclining with her back to us, turning her cool,
+ blank face over one shoulder. The harem here is pure invention. Ingres never set foot in the East; the
+ cool tiled scene is an{' '}<strong>Orientalist</strong>{' '}fantasy (a European daydream of an imagined
+ East, conjured to license a nude and a whiff of the exotic), a projection of the Ottoman world rather
+ than a report from it, owed the same plain honesty as the harem scenes Delacroix would later paint after
+ actually traveling to Morocco. It was painted for
+ Napoleon&rsquo;s sister Caroline Murat, the Queen of Naples. And the back is wrong. Ingres has drawn it
+ impossibly long and smooth, a perfect unbroken S-curve of pale flesh that no real spine could produce, because
+ he cared more about the sweep of the line than about the skeleton underneath it. When the picture was shown at
+ the Salon of 1819, critics jeered that the woman had two or three vertebrae too many, an insult aimed squarely
+ at Ingres&rsquo;s competence as a draughtsman: he can&rsquo;t even count the bones in a back. The funny part is
+ that they undercounted. When a team of doctors actually measured the distortion in a 2004 study, they found it
+ came to roughly five extra vertebrae, with the pelvis pulled out of true as well, and argued it was no error
+ at all but a deliberate stretch, anatomy bent on purpose for the sake of the curve. The 1819 critics thought
+ they had caught a mistake. They had caught a choice.
+ </p>
+ <PaintingFigure
+ onZoom={onZoom}
+ palette={N_STONE}
+ imageUrl={NRO_IMG.grandeOdalisque}
+ ratio="16/9"
+ alt="Ingres, La Grande Odalisque"
+ caption={<>A reclining nude seen from behind, her back drawn into one long, impossibly smooth S-curve of flesh. Critics in 1819 sneered that she had two or three vertebrae too many; a 2004 study measured nearer five, and called it deliberate. Line bent past anatomy for the sake of the curve.</>}
+ credit={<>Ingres,{' '}<em>La Grande Odalisque</em>, 1814 · 3 ft &times; 5 ft 4 in · Louvre, Paris</>}
+ rights={PD_INGRES}
+ />
+
+ <SectionHeader accent={accent} label="The Apotheosis of Homer" title="A closed pantheon of genius" />
+ <p style={proseStyle}>
+ Late in his career Ingres painted the movement&rsquo;s grandest summary and, in a way, its tombstone. The{' '}
+ <em>Apotheosis of Homer</em>{' '}(1827) was made as a ceiling for the Louvre, and an{' '}
+ <strong>apotheosis</strong>{' '}is the raising of a person to the rank of a god. It shows the ancient Greek
+ poet Homer enthroned before a Greek temple, crowned by a winged figure of Victory, while the great writers and
+ artists of all the centuries since are ranged below him in perfect symmetry, paying homage, an entire Western
+ tradition lined up to bow to its source. It is severe, balanced, frozen, and backward-facing: genius treated
+ as a closed and finished club, with the door shut behind antiquity. Painted the same decade in which a younger
+ generation was breaking loudly toward color and feeling, it reads now as Neoclassicism gazing fixedly at the
+ past while the present walked off in the other direction.
+ </p>
+ <PaintingFigure
+ onZoom={onZoom}
+ palette={N_STONE}
+ imageUrl={NRO_IMG.apotheosisHomer}
+ ratio="3/2"
+ alt="Ingres, The Apotheosis of Homer"
+ caption={<>Homer enthroned and crowned by Victory before a Greek temple, the great writers and artists of every age ranged below him in perfect symmetry to pay homage. Late Neoclassicism as a closed pantheon of genius, gazing at the past with the door shut behind it.</>}
+ credit={<>Ingres,{' '}<em>The Apotheosis of Homer</em>, 1827 · 12 ft 8 in &times; 16 ft 9&frac12; in · Louvre, Paris</>}
+ rights={PD_INGRES}
+ />
+
+ <SectionHeader accent={accent} label="Beyond David" title="The movement was bigger than one studio" />
+ <p style={proseStyle}>
+ France and David dominate the story, but the antique revival ran across borders and across every medium. In
+ Rome the sculptor Antonio Canova carved the same calm, idealized antiquity in white marble. In Britain the
+ American-born painter Benjamin West painted a modern death at the grand scale once kept for ancient heroes.
+ And the movement had women at its very founding, working at the top of it.
+ </p>
+ <p style={proseStyle}>
+ Angelica Kauffman (1741&ndash;1807), Swiss-born and working between London and Rome, was one of only two
+ women, with the flower painter Mary Moser, among the thirty-four artists who founded the{' '}
+ <strong>Royal Academy of Arts</strong>{' '}in London in 1768 (Britain&rsquo;s official art establishment, the
+ institution that trained painters and decided who got shown, the British twin of the French Acad&eacute;mie).
+ It was not a door that stayed open. The Royal Academy would not elect another woman a full member until 1936,
+ a gap of one hundred and sixty-eight years. And Kauffman did not work the genres women were usually steered
+ into, portraits and still life. She painted history (large narrative scenes drawn from myth and antiquity),
+ the category the academies ranked highest and guarded most jealously, and she painted it at the level of the
+ men who founded the school beside her.
+ </p>
+ <PaintingFigure
+ onZoom={onZoom}
+ palette={N_GOLD}
+ imageUrl={NRO_IMG.kauffmanAriadne}
+ ratio="3/2"
+ alt="Kauffman, Ariadne Abandoned by Theseus"
+ caption={<>Ariadne, left on the shore of Naxos as the ship of Theseus slips away behind her, painted by one of the two women who founded the Royal Academy. Kauffman worked in history painting, the most prestigious and most fiercely male-guarded category of all.</>}
+ credit={<>Kauffman,{' '}<em>Ariadne Abandoned by Theseus</em>, 1774</>}
+ rights={PD_KAUFFMAN}
+ />
+ </article>
+
+ <MeanwhileSheet
+ region="London"
+ title="Two founders allowed in only as pictures on the wall."
+ body="The limit on the two women is caught, without meaning to be, in Johann Zoffany's group portrait of the Royal Academicians (1771–72). The male founders gather together in person, a roomful of artists at work. Kauffman and Moser appear only as two framed portraits hanging on the wall behind them, in the room but not of it. Founders of the academy, painted as pictures on its wall."
+ />
+ </>)
+
+// ── 5. The rules everyone broke ─────────────────────────────
+const RulesNarrative: Narrative = ({ accent, onZoom }) => (<>
+ <article style={{ padding: '18px 18px 40px' }}>
+ <SectionHeader accent={accent} label="Line vs color" title="The fight that became the academy" first />
+ <p style={proseStyle}>
+ <DropCap accent={accent}>I</DropCap>
+ ngres did not carry the cult of line into the nineteenth century unopposed. The other half of the era grew up
+ directly against him, and the quarrel between them became the spine of the whole period. On one side stood the{' '}
+ <strong>Ingristes</strong>, Ingres&rsquo;s camp, who held that drawing was the foundation of all good
+ painting. On the other stood the{' '}<strong>colorists</strong>, led by the young Romantic Eug&egrave;ne
+ Delacroix, who held that color and emotion and movement were the living heart of a picture and that
+ Ingres&rsquo;s cool perfect line was a corpse. It was an old fight in fresh clothes: a century and a half
+ earlier French painters had split exactly this way over the merits of drawing versus color, and now Ingres and
+ Delacroix were fighting it again across the Salon, line against color, calm against passion, the antique
+ against the storm.
+ </p>
+ <p style={proseStyle}>
+ That opposing camp was{' '}<strong>Romanticism</strong>, Neoclassicism&rsquo;s sibling and opposite, which grew
+ up inside the same era answering reason with feeling, line with color, the calm Greek with the shipwreck and
+ the firing squad. The two did not take turns politely. They overlapped and snarled at each other for decades,
+ which is why this stretch of European painting is best understood not as one style following another but as a
+ single argument, Reason against Feeling, carried on by people who genuinely could not stand each other&rsquo;s
+ work.
+ </p>
+
+ <SectionHeader accent={accent} label="Antoine-Jean Gros" title="The storm rises inside the temple" />
+ <p style={proseStyle}>
+ The tidy version of the story is that Romanticism attacked Neoclassicism from the outside. It is half true.
+ The other half is that Romanticism grew up inside David&rsquo;s own studio, in the work of his most
+ celebrated pupil. Antoine-Jean Gros (1771&ndash;1835) kept everything David had drilled into him, the
+ monumental scale, the grand history-painting ambition, the public subject, and poured into it exactly what
+ David had drained out: vivid color, raw feeling, the horror of war. The civic format stayed; the cool blood
+ ran hot.
+ </p>
+ <p style={proseStyle}>
+ His{' '}<em>Bonaparte Visiting the Plague Victims of Jaffa</em>{' '}(1804) takes a Davidian machine and fills
+ it with sickness and dread. In a plague hospital on the Syrian coast, Napoleon stands bare-handed among the
+ dying and reaches out to touch the swollen sore on a stricken soldier&rsquo;s body. Look closely at what the
+ picture is doing, because the honest account matters. The visit was real; Napoleon did go to the plague
+ hospital at Jaffa in 1799. The touch is the construction. The image deliberately borrows the old legend of
+ the royal touch (the belief that a true king could heal disease with his bare hand), and it was made to bury
+ a darker rumor, that Napoleon had ordered plague-stricken soldiers dosed with fatal opium so they would not
+ slow his retreat. Gros recasts a possible murderer as a healer-king. The propaganda lives in that
+ outstretched hand, painted with a Romantic intensity a full generation before Romanticism had a name.
+ </p>
+ <PaintingFigure
+ onZoom={onZoom}
+ palette={N_BLOOD}
+ imageUrl={NRO_IMG.grosJaffa}
+ ratio="4/3"
+ alt="Gros, Bonaparte Visiting the Plague Victims of Jaffa"
+ caption={<>Napoleon stands bare-handed in a plague hospital and reaches to touch a dying soldier&rsquo;s sore, the gesture of the old healer-king. The visit happened; the touch is a propaganda construction. David&rsquo;s grand civic format filled with horror and color, Romanticism stirring inside the Neoclassical machine.</>}
+ credit={<>Gros,{' '}<em>Bonaparte Visiting the Plague Victims of Jaffa</em>, 1804 · 17 ft 5 in &times; 23 ft 7 in · Louvre, Paris</>}
+ rights={PD_GROS}
+ />
+ <p style={proseStyle}>
+ Four years later{' '}<em>Napoleon on the Battlefield of Eylau</em>{' '}(1808) drops even the flattery and
+ shows the field the morning after the slaughter, a frozen plain of corpses and begging wounded with the
+ Emperor riding numbly through the wreckage. That unflinching horror is the Romantic core planted inside a
+ government commission, and Gros&rsquo;s pupils carried it forward: the young men who would build
+ Romanticism, G&eacute;ricault and Delacroix among them, learned the grand scale and the high feeling
+ from him. Gros himself never made his peace with the movement he had helped father. When the critics turned
+ on his late return to cold classical subjects, he drowned himself in 1835. He had proved that the storm
+ could rise from inside the temple, that the rebellion against the severe style was partly bred by the severe
+ style itself.
+ </p>
+
+ <SectionHeader accent={accent} label="The afterlife" title="The wall every later rebel pushed against" />
+ <p style={proseStyle}>
+ Whatever the colorists thought of it, Neoclassicism won the long argument in one decisive way: it became the
+ rulebook. David&rsquo;s and Ingres&rsquo;s drawing-first discipline (master the contour, study the antique,
+ finish the surface, choose a serious subject) hardened into{' '}<strong>the academy</strong>{' '}(the official
+ art establishment, in France the Acad&eacute;mie with its school and its Salon, in Britain the Royal Academy,
+ the system that trained the artists and controlled what the public got to see) and stayed the official
+ training of European painting for the rest of the nineteenth century. To learn to paint was, for generations, to learn
+ to draw the way David drew. Which means that every later revolt in art defined itself against these rules.
+ When the Realists insisted on painting their own grubby century instead of antiquity, when the Impressionists
+ dissolved the firm contour into flecks of bright color, when the whole avant-garde that followed tore up the
+ academy&rsquo;s requirements one by one, they were all, in their different ways, pushing against the wall
+ Neoclassicism built. A movement that worshipped the rules of the ancient past ended up supplying the modern
+ rules that everyone after would need to break.
+ </p>
+ <p style={proseStyle}>
+ One last twist sits in the name. The painters never called themselves Neoclassical. They spoke of &ldquo;the
+ true style&rdquo; or &ldquo;the correct style&rdquo; or, in France, of{' '}<em>le go&ucirc;t grec</em>, the Greek
+ taste. The word{' '}<em>Neoclassicism</em>{' '}was pinned on the movement much later, commonly dated to the 1880s,
+ and it began life as an insult, a way of calling David&rsquo;s school &ldquo;pseudo-classical,&rdquo; warmed-over
+ antiquity, the real thing&rsquo;s pale copy. The label that now sits respectably over a whole room of the Louvre
+ started as a sneer.
+ </p>
+ <p style={proseStyle}>
+ Neoclassicism is the moment European painting decided art should be serious again: a school for virtue drawn
+ from the Greeks and Romans, hard line doing the work, a Rococo it found pretty and empty left behind. It found
+ its creed in a scholar and its body in David, and then history grabbed it and made the same stripped, sculptural
+ style the official art of a Revolution and an Empire. Its drawing-first rules became the academy, and the academy
+ became the thing every restless painter of the next hundred years was born to fight.
+ </p>
+ </article>
+
+ <MeanwhileSheet
+ region="Brussels"
+ title="The master dies where the regicide had to."
+ body="There is a grim symmetry to how David ended. He had served the Republic, voted to kill the king, then served Napoleon's Empire. When the monarchy returned to France after Napoleon's fall, a man who was both a regicide and a Bonapartist had no safe place at home. David went into exile in Brussels and died there in 1825, and France would not take his body back. The painter who made his country's heroes for thirty years was buried abroad by the country he had painted."
+ />
+ </>)
+
+// ════════════════════════════════════════════════════════════
+// MOVEMENT_NARRATIVES sub-object — paste into the export map in
+// movement-narratives.tsx (alongside real:, imp:, etc.)
+// ════════════════════════════════════════════════════════════
+//  neoclassicism: {
+//    creed: CreedNarrative,
+//    line: LineNarrative,
+//    revolution: RevolutionNarrative,
+//    ingres: IngresNarrative,
+//    rules: RulesNarrative,
+//  },
+
+// ════════════════════════════════════════════════════════════
+// sections array — paste into the NEOCLASSICISM const (art-content-nro.ts),
+// replacing `sections: []`. Five chapters, ids match the narrative keys above.
+// ════════════════════════════════════════════════════════════
+//  sections: [
+//    { id: 'creed', eyebrow: 'The founding text', dateLabel: '1738–1761', title: 'A scholar’s creed and a buried city', blurb: 'Europe tires of Rococo prettiness, the buried Roman cities come up out of the ground, and a German scholar tells painters to imitate the Greeks and chase a noble simplicity and quiet grandeur.', progress: 1 / 5 },
+//    { id: 'line', eyebrow: 'David', dateLabel: '1784–1787', title: 'David draws the line', blurb: 'A Frenchman with a hard hand turns the creed into a body: the Oath of the Horatii and the Death of Socrates, severe color, a frieze stage, and clear line over soft color.', progress: 2 / 5 },
+//    { id: 'revolution', eyebrow: 'Revolution & Empire', dateLabel: '1789–1805', title: 'The official style of the Revolution', blurb: 'David the regicide deputy stages the Revolution’s festivals and paints the murdered Marat as a secular saint, then serves Napoleon’s Empire. Meanwhile Élisabeth Vigée Le Brun, Marie Antoinette’s painter, flees the same Revolution into a 12-year exile.', progress: 3 / 5 },
+//    { id: 'ingres', eyebrow: 'Ingres', dateLabel: '1806–1827', title: 'Ingres and the cult of line', blurb: 'David’s pupil carries drawing deep into the century: a frozen imperial icon, the impossibly long back of the Grande Odalisque, a closed pantheon of genius. Then the movement widens past France to Canova and to Angelica Kauffman, a founder of the Royal Academy.', progress: 4 / 5 },
+//    { id: 'rules', eyebrow: 'Line vs color & after', dateLabel: '1820s onward', title: 'The rules everyone broke', blurb: 'Ingres fights Delacroix’s colorists, Gros proves Romanticism grew partly from inside David’s studio, the drawing-first discipline becomes the academy every later movement breaks against, and the name "Neoclassicism" gets pinned on later, half as an insult.', progress: 1 },
+//  ],
+
+
+// ════════════════════════════════════════════════════════════
+// NOTE TO COORDINATOR — chapters, ids, and image keys used
+// ════════════════════════════════════════════════════════════
+// Chapter count: 5 (the fact-pack §9 suggested-shape; the brief's "~7"
+//   beats are all present but consolidate cleanly into 5 — roots+text into ch1,
+//   the David canon split across ch2 (Oath/Socrates) and ch3 (Marat/Napoleon),
+//   Ingres ch4, line-vs-color + afterlife ch5).
+//
+// Ids / titles:
+//   1. creed       — A scholar's creed and a buried city
+//   2. line        — David draws the line
+//   3. revolution  — The official style of the Revolution
+//   4. ingres      — Ingres and the cult of line
+//   5. rules       — The rules everyone broke
+//
+// NRO_IMG keys used (all confirmed present in src/lib/art-content-nro.ts):
+//   fragonardSwing, oathHoratii, deathSocrates, deathMarat, napoleonAlps,
+//   grandeOdalisque, napoleonThrone, apotheosisHomer,
+//   vigeeDaughter (ch3), kauffmanAriadne (ch4), grosJaffa (ch5)
+//   (11 inline figures; grosEylau named in ch5 prose but not shown; davidPhoto /
+//   ingresPhoto / kauffmanPhoto and other portraits are page-furniture, not inline.)
+//
+// PACK GAPS HIT: none. Every date, dimension, name, and the one quote
+//   ("a noble simplicity and quiet grandeur" + the Fuseli "sedate" hedge)
+//   trace to the pack. Hedges applied: Oath = royal commission painted 1784
+//   before 1789 (not painted-to-incite); "sedate grandeur" is Fuseli's 1765
+//   wording, "quiet grandeur" the modern form (not put in Fuseli's mouth);
+//   the 1819 vertebrae remark presented anonymously (no Kératry); 1819 "two or
+//   three" vs 2004 "~five, deliberate" kept as two separate claims; Malmaison
+//   (not Charlottenburg) named for Napoleon Crossing the Alps; "Neoclassicism"
+//   flagged as a later, originally-pejorative label.

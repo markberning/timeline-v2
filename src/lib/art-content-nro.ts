@@ -103,6 +103,23 @@ export const NRO_IMG: Record<string, string> = {
     'https://upload.wikimedia.org/wikipedia/commons/5/55/Hamburg%2C_Kunsthalle%2C_Gerhard_von_K%C3%BCgelgen%2C_Bildnis_von_Caspar_David_Friedrich.jpg',
   constablePhoto:
     'https://upload.wikimedia.org/wikipedia/commons/3/30/ConstableSelfPortrait.png',
+
+  // ── Additions from the comprehensiveness + framing gates (born-verified via
+  //    the Commons API; all pre-1900, PD worldwide). Gros = the Davidian-to-
+  //    Romantic bridge; Fuseli/Blake = the dream/nightmare strand; Vigée Le Brun
+  //    + Kauffman = the era's major women painters. ──
+  grosJaffa:
+    'https://upload.wikimedia.org/wikipedia/commons/1/19/Antoine-Jean_Gros_-_Bonaparte_visitant_les_pestif%C3%A9r%C3%A9s_de_Jaffa.jpg',
+  grosEylau:
+    'https://upload.wikimedia.org/wikipedia/commons/4/4b/Napoleon_on_the_Battlefield_of_Eylau_%28Antoine-Jean_Gros%29.jpg',
+  fuseliNightmare:
+    'https://upload.wikimedia.org/wikipedia/commons/5/56/John_Henry_Fuseli_-_The_Nightmare.JPG',
+  blakeAncientDays:
+    'https://upload.wikimedia.org/wikipedia/commons/b/b1/The_Ancient_of_Days_by_William_Blake.jpg',
+  vigeeDaughter:
+    'https://upload.wikimedia.org/wikipedia/commons/c/cb/%C3%89lisabeth-Louise_Vig%C3%A9e-Le_Brun_-_Madame_Vig%C3%A9e-Le_Brun_et_sa_fille_%281786%29.JPG',
+  kauffmanAriadne:
+    'https://upload.wikimedia.org/wikipedia/commons/a/ac/Angelica_Kauffmann%2C_Ariadne_Abandoned_by_Theseus%2C_1774.jpg',
 }
 
 // Era palette tones used as card/lineage gradients (stone/steel/blood for the
@@ -242,7 +259,13 @@ export const NEOCLASSICISM: ArtMovementContent = {
     { year: 1827, name: 'The Apotheosis of Homer', artist: 'Ingres', img: NRO_IMG.apotheosisHomer },
   ],
   // Chaptered narrative authored in a later pass.
-  sections: [],
+  sections: [
+    { id: 'creed', eyebrow: 'The founding text', dateLabel: '1738–1761', title: 'A scholar’s creed and a buried city', blurb: 'Europe tires of Rococo prettiness, the buried Roman cities come up out of the ground, and a German scholar tells painters to imitate the Greeks and chase a noble simplicity and quiet grandeur.', progress: 1 / 5 },
+    { id: 'line', eyebrow: 'David', dateLabel: '1784–1787', title: 'David draws the line', blurb: 'A Frenchman with a hard hand turns the creed into a body: the Oath of the Horatii and the Death of Socrates, severe color, a frieze stage, and clear line over soft color.', progress: 2 / 5 },
+    { id: 'revolution', eyebrow: 'Revolution & Empire', dateLabel: '1789–1805', title: 'The official style of the Revolution', blurb: 'David the regicide deputy stages the Revolution’s festivals and paints the murdered Marat as a secular saint, then serves Napoleon’s Empire. Meanwhile Élisabeth Vigée Le Brun, Marie Antoinette’s painter, flees the same Revolution into a 12-year exile.', progress: 3 / 5 },
+    { id: 'ingres', eyebrow: 'Ingres', dateLabel: '1806–1827', title: 'Ingres and the cult of line', blurb: 'David’s pupil carries drawing deep into the century: a frozen imperial icon, the impossibly long back of the Grande Odalisque, a closed pantheon of genius. Then the movement widens past France to Canova and to Angelica Kauffman, a founder of the Royal Academy.', progress: 4 / 5 },
+    { id: 'rules', eyebrow: 'Line vs color & after', dateLabel: '1820s onward', title: 'The rules everyone broke', blurb: 'Ingres fights Delacroix’s colorists, Gros proves Romanticism grew partly from inside David’s studio, the drawing-first discipline becomes the academy every later movement breaks against, and the name "Neoclassicism" gets pinned on later, half as an insult.', progress: 1 },
+  ],
 }
 
 // ─────────────────────────────────────────────────────────────
@@ -386,7 +409,17 @@ export const ROMANTICISM: ArtMovementContent = {
     { year: 1844, name: 'Rain, Steam and Speed', artist: 'Turner', img: NRO_IMG.rainSteamSpeed },
   ],
   // Chaptered narrative authored in a later pass.
-  sections: [],
+  sections: [
+    { id: 'revolt', eyebrow: 'The temperament', dateLabel: 'c.1800', title: 'The revolt of feeling', blurb: 'Against David’s cool reason and line, a mood with no leader and no manifesto: color, emotion, and the sublime, nature too vast and terrifying to master.', progress: 1 / 9 },
+    { id: 'visionaries', eyebrow: 'Fuseli & Blake · Britain', dateLabel: '1781–1794', title: 'The visionaries', blurb: 'The dream-and-nightmare strand, earliest of all: Fuseli’s incubus crouched on a sleeper’s chest and Blake’s compass-wielding god, the irrational mind painted before Goya pulled his first print.', progress: 2 / 9 },
+    { id: 'goya', eyebrow: 'Goya · Spain', dateLabel: '1799–1823', title: 'Goya, alone in the dark', blurb: 'A deaf court painter gets there a generation early: the Caprichos, the firing squad of the Third of May, and the Black Paintings he put on his own walls for no one.', progress: 3 / 9 },
+    { id: 'raft', eyebrow: 'Géricault · France', dateLabel: '1818–1819', title: 'Géricault and the raft', blurb: 'A fresh national shipwreck scandal, researched like journalism and painted at the scale of gods: a pyramid of the dead and dying straining toward a speck of rescue.', progress: 4 / 9 },
+    { id: 'delacroix', eyebrow: 'Delacroix · France', dateLabel: '1827–1834', title: 'Delacroix, color and revolt', blurb: 'Géricault’s heir and color’s champion against Ingres’s line: the Sardanapalus scandal, Liberty on the 1830 barricade, and the Orientalist mirage.', progress: 5 / 9 },
+    { id: 'turner', eyebrow: 'Turner · Britain', dateLabel: '1839–1844', title: 'Turner, light eating the world', blurb: 'The cosmic English answer: a Trafalgar veteran towed to scrap, a sunset over the Zong massacre, a locomotive painted as weather, and the mast story he almost certainly made up.', progress: 6 / 9 },
+    { id: 'constable', eyebrow: 'Constable · Britain', dateLabel: '1821', title: 'Constable’s weather', blurb: 'The intimate English answer: a hay cart in a Suffolk river under a huge moving sky, broken color catching the light, a gold medal in Paris, and a debt the Impressionists would collect.', progress: 7 / 9 },
+    { id: 'friedrich', eyebrow: 'Friedrich · Germany', dateLabel: '1808–1818', title: 'Friedrich and the silence', blurb: 'Landscape as prayer: the back-turned figure facing the infinite, a near-empty sea and sky, and a lone wanderer above the fog who is the exact inverse of a David hero.', progress: 8 / 9 },
+    { id: 'afterlife', eyebrow: 'After', dateLabel: 'c.1850→', title: 'What feeling left behind', blurb: 'Landscape into Impressionism, Delacroix into Orientalism, and the whole modern license: feeling as subject, the visible brushstroke, color over line. A movement that never existed, and won.', progress: 1 },
+  ],
 }
 
 // ─────────────────────────────────────────────────────────────
@@ -444,12 +477,12 @@ export const NRO_ERA: ArtEraContent = {
   ],
   movements: [NEO_CARD, ROM_CARD],
   anchorPainters: [
-    { name: 'David', role: 'The severe master', palette: STONE },
-    { name: 'Ingres', role: 'Line', palette: STONE },
-    { name: 'Goya', role: 'The dark', palette: OXBLOOD },
-    { name: 'Géricault', role: 'The raft', palette: OXBLOOD },
-    { name: 'Delacroix', role: 'Color and revolt', palette: SUNSET },
-    { name: 'Turner', role: 'Light and the sublime', palette: SUNSET },
+    { name: 'David', role: 'The severe master', palette: STONE, photo: NRO_IMG.davidPhoto },
+    { name: 'Ingres', role: 'Line', palette: STONE, photo: NRO_IMG.ingresPhoto },
+    { name: 'Goya', role: 'The dark', palette: OXBLOOD, photo: NRO_IMG.goyaPhoto },
+    { name: 'Géricault', role: 'The raft', palette: OXBLOOD, photo: NRO_IMG.gericaultPhoto },
+    { name: 'Delacroix', role: 'Color and revolt', palette: SUNSET, photo: NRO_IMG.delacroixPhoto },
+    { name: 'Turner', role: 'Light and the sublime', palette: SUNSET, photo: NRO_IMG.turnerPhoto },
   ],
   lineage: {
     parents: [
@@ -497,5 +530,11 @@ export const NRO_ERA: ArtEraContent = {
     imgLabel: 'David swears the era in',
   },
   // Chaptered era narrative authored in a later pass.
-  sections: [],
+  sections: [
+  { id: 'land', eyebrow: 'Lay of the land', dateLabel: 'c. 1750–1850', title: 'One century, two answers', blurb: 'A girl on a swing, the oath that buried her, a firing squad, a raft, and a barricade. One argument, Reason against Feeling, riding a hundred years of revolution.', progress: 0 },
+  { id: 'reason', eyebrow: 'Neoclassicism', dateLabel: 'c. 1750–1830', title: 'The case for order', blurb: 'Line over color, the antique revived, civic virtue, and a German with a phrase. David paints the oath, then walks into the Revolution and lives it.', progress: 1 / 4 },
+  { id: 'feeling', eyebrow: 'Romanticism', dateLabel: 'c. 1780–1850', title: 'The case for feeling', blurb: 'Color over line and the sublime, with no leader and no manifesto. Goya, Géricault, Delacroix, Turner, and Friedrich answer reason with terror, paint, and fog.', progress: 2 / 4 },
+  { id: 'quarrel', eyebrow: 'The argument', dateLabel: 'They overlapped', title: 'Two faces of one coin', blurb: 'Not a sequence but a feud. David and Goya are near-twins; Ingres and Delacroix snarl across the Salon for decades. Why one fractious century is one era.', progress: 3 / 4 },
+  { id: 'handoff', eyebrow: 'The handoff', dateLabel: 'Around 1850', title: 'The man who refused both', blurb: 'Courbet and Realism throw out the antique gods and the Romantic storms together, paint only the plain present, and open the Modern era.', progress: 1 },
+  ],
 }
