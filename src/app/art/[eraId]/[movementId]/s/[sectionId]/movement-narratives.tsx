@@ -99,7 +99,7 @@ const BeforeNarrative: Narrative = ({ accent, onZoom }) => (
         was finished: five women, a slash of curtain, a little still life, and two faces dragged halfway into
         masks. Picasso called it, bluntly,{' '}<em>the brothel of Avignon</em>; the loftier title we use now —
         <em> Les Demoiselles d&rsquo;Avignon</em>{' '}— was a later, more respectable coat of paint applied by his
-        friends. The picture has its own five-chapter story one level down. Here it matters as the starting
+        friends. The picture has its own five-chapter story. Here it matters as the starting
         gun.
       </p>
 
@@ -251,7 +251,7 @@ const ShardsNarrative: Narrative = ({ accent, onZoom }) => (
 
       <SectionHeader accent={accent} label="Salle 41 · spring 1911" title="The public meets Cubism — without its inventors" />
       <p style={proseStyle}>
-        Here is the strange part. The two men who invented Cubism barely showed it in public; Kahnweiler sold
+        The two men who invented Cubism barely showed it in public; Kahnweiler sold
         their work privately, mostly to foreign collectors, which kept the prices steady and the scandals to a
         minimum. So when Paris finally met &ldquo;Cubism&rdquo; as a public outrage — at the Salon des
         Indépendants of 1911, the big open exhibition that, unlike the official Salon, had no jury to keep
@@ -263,8 +263,7 @@ const ShardsNarrative: Narrative = ({ accent, onZoom }) => (
       </p>
       <p style={proseStyle}>
         It was the perfect modern story: the laboratory builds the bomb in private, and the public first meets
-        it through the people who carried it out of the building. Those carriers — the Salon Cubists — get the
-        next chapter, because they did the one thing Picasso and Braque flatly refused to do. They explained
+        it through the people who carried it out of the building. The Salon Cubists spread the style because they did the one thing Picasso and Braque flatly refused to do. They explained
         themselves.
       </p>
       <p style={proseStyle}>
@@ -431,7 +430,7 @@ const AfterNarrative: Narrative = ({ accent, onZoom }) => (
         handed the rest of the century its grammar.
       </p>
       <p style={italicStyle}>
-        To watch it all begin in a single object, drop one level down to{' '}<em>Les Demoiselles d&rsquo;Avignon</em>
+        The first painting where it all begins is{' '}<em>Les Demoiselles d&rsquo;Avignon</em>
         — the canvas that fired the starting gun.
       </p>
     </article>
@@ -462,8 +461,7 @@ const WhyRealismNarrative: Narrative = ({ accent }) => (
         people can topple a throne, why are they good enough to paint only as scenery?
       </p>
       <p style={proseStyle}>
-        Because scenery is what they had always been. Remember the system the rest of this era runs on (the
-        “Lay of the land” read, one level up): a single State-run ladder, topped by the{' '}<strong>Salon</strong>{' '}(the official annual exhibition, the one show in France where a painter’s career was
+        Because scenery is what they had always been. The era runs on a single jury-and-rebellion system: a single State-run ladder, topped by the{' '}<strong>Salon</strong>{' '}(the official annual exhibition, the one show in France where a painter’s career was
         made or buried), policed by a jury that prized{' '}<strong>history painting</strong>{' '}— grand scenes
         from myth, scripture and ancient history, the human body at heroic size — as the only subject serious
         enough to earn a man real glory. At the very bottom of that ranked menu of approved subjects, the{' '}<strong>hierarchy of genres</strong>, sat plain modern life: a field, a workshop, a bowl of fruit. Gods
@@ -489,7 +487,7 @@ const WhyRealismNarrative: Narrative = ({ accent }) => (
         It sounds obvious now. That obviousness is the surest sign of how completely they won. But set it against
         what the Salon was rewarding in these very years — its most celebrated painter, Alexandre Cabanel (the
         academy’s reigning star), and his{' '}<em>Birth of Venus</em>, a nude deity sliding along a wave with a
-        finish so licked-smooth the paint disappears (as the era overview shows) — and you see the size of the
+        finish so licked-smooth the paint disappears — and you see the size of the
         heresy. The Realists wanted paint that{' '}<em>looked like paint</em>, surfaces with the trowel marks left
         in, and they wanted to point that rough, honest handling at the least heroic subjects available. It was,
         in the Western tradition, the first time a band of painters made a deliberate movement out of insisting
@@ -512,7 +510,7 @@ const WhyRealismNarrative: Narrative = ({ accent }) => (
         artists who got somewhere first. Realism is where that idea gets its first real face in modern painting:
         a small group running out ahead of respectable taste, taking the abuse, and dragging the rest of art
         behind them. The man riding point was a barrel-chested provincial with an ego the size of a cathedral,
-        and the next chapter is mostly his.
+        and Courbet dominates what follows.
       </p>
     </article>
 
@@ -540,8 +538,7 @@ const GauntletNarrative: Narrative = ({ accent, onZoom }) => (
       <p style={proseStyle}>
         So he did the unthinkable, twice, in a single year. In 1849 he painted two laborers — one old, one young
         — breaking rock by the roadside,{' '}<em>The Stone Breakers</em>, and in 1849–1850 he painted an entire
-        village funeral in his hometown,{' '}<em>A Burial at Ornans</em>. The era overview introduces both as the
-        opening salvo against the jury. Here we get closer — close enough to see what was actually on the
+        village funeral in his hometown,{' '}<em>A Burial at Ornans</em>. Both were opening salvos against the jury. Closer up, you can see what was actually on the
         canvases, and why two pictures of nobodies frightened people the way a cannon frightens people.
       </p>
 
@@ -560,8 +557,8 @@ const GauntletNarrative: Narrative = ({ accent, onZoom }) => (
         The Dresden museum officially lists it as “missing,” and it is generally presumed destroyed; the exact
         fate is disputed — one widely repeated account has it lost in transit toward the fortress of Königstein
         along with 153 other works from the collection, but that is one version, not settled record. Either way,
-        it was never viewable again. What survives are reproductions, like the desaturated one below — so when
-        this read describes{' '}<em>The Stone Breakers</em>, it is describing a ghost, reconstructed from copies of
+        it was never viewable again. What survives are reproductions, like the desaturated one below — so
+        <em>The Stone Breakers</em>{' '}now reaches us only as a ghost, reconstructed from copies of
         a thing that is gone. There is a grim aptness to it: the great picture of the people history grinds up was
         itself ground up by history.
       </p>
@@ -626,8 +623,7 @@ const PavilionNarrative: Narrative = ({ accent, onZoom }) => (
         biggest, most ambitious canvases, including the huge new picture he considered his summary statement,{' '}<em>The Painter’s Studio</em>.
       </p>
       <p style={proseStyle}>
-        It is worth pausing on what that picture actually shows, because the refusal makes more sense once you
-        have looked.{' '}<em>The Painter’s Studio</em>{' '}is an enormous, almost stage-like scene with Courbet
+        The refusal makes more sense once you see what the picture actually shows.{' '}<em>The Painter’s Studio</em>{' '}is an enormous, almost stage-like scene with Courbet
         himself seated dead center at his easel, a nude model at his shoulder and a small boy looking on, while
         two crowds flank him — on one side the poor, the workers, the down-and-out of real France; on the other
         his friends, patrons and fellow thinkers, the world of art and ideas. He subtitled it, with
@@ -649,8 +645,7 @@ const PavilionNarrative: Narrative = ({ accent, onZoom }) => (
         A rejected painter in 1855 had two normal options: sulk, or try again next year. Courbet invented a
         third. He leased a plot of ground a stone’s throw from the official exhibition, built his own building on
         it at his own expense, hung the refused pictures inside, charged the public admission, and bolted a sign
-        over the door reading, simply,{' '}<strong>Du Réalisme</strong>{' '}— <em>On Realism</em>. The era overview
-        names it the Pavilion of Realism and leaves it there, as a gesture. The gesture is worth slowing down for,
+        over the door reading, simply,{' '}<strong>Du Réalisme</strong>{' '}— <em>On Realism</em>. The Pavilion of Realism is worth slowing down for,
         because it is one of the founding acts of the modern art world: a painter, told no by the official
         machine, simply walked around it and set up his own machine across the street. Roughly the
         nineteenth-century equivalent of being turned down by every gallery in town and renting the empty shop
@@ -669,8 +664,8 @@ const PavilionNarrative: Narrative = ({ accent, onZoom }) => (
       </p>
       <p style={proseStyle}>
         His statement set out the aim of his painting as “to translate the customs, the ideas, the appearance of
-        my epoch, according to my own estimation.” Read it slowly, because the whole movement is folded into that
-        one sentence.{' '}<em>My epoch</em>{' '}— not antiquity, not scripture, but now.{' '}<em>The customs, the
+        my epoch, according to my own estimation.” The whole movement is folded into that
+        one sentence:{' '}<em>My epoch</em>{' '}— not antiquity, not scripture, but now.{' '}<em>The customs, the
         ideas, the appearance</em>{' '}— ordinary contemporary life, exactly the rung the academy ranked lowest.{' '}<em>According to my own estimation</em>{' '}— by my judgment, not the jury’s. In one line he relocated the
         authority over what counts as art from the State to the individual artist, which is a thing the rest of
         this era will spend a hundred years confirming. It is the difference between a restaurant that serves only
@@ -992,7 +987,7 @@ const ReachNarrative: Narrative = ({ accent, onZoom }) => (
         of the previous chapter) standing in the doorway between the two generations — would soon say something
         subtler: paint not the thing that is there, but the thing you actually see, the flicker of light on it in
         a single passing moment. That is the move from Realism to Impressionism, and it is less a break than a
-        relay (the Impressionists get their own telling, one chapter along in the era overview). Courbet had
+        relay (the Impressionists get their own chapter). Courbet had
         thrown the door open by insisting the present was worth painting. The Impressionists walked through it and
         started painting the light.
       </p>
@@ -1058,8 +1053,7 @@ const WhyImpNarrative: Narrative = ({ accent, onZoom }) => (
 
       <SectionHeader accent={accent} label="The machine" title="One jury, one door, one approved kind of beauty" />
       <p style={proseStyle}>
-        To understand why, you need the machine that ran French art, which the Realism chapter covers in full;
-        here it is in one breath. There was essentially one door to a career, the{' '}<strong>Salon</strong>{' '}&mdash; the gigantic official exhibition the State ran each year, the single show where a French painter was
+        To understand why, you need the machine that ran French art. In one breath: there was essentially one door to a career, the{' '}<strong>Salon</strong>{' '}&mdash; the gigantic official exhibition the State ran each year, the single show where a French painter was
         made or buried. A jury decided what hung. And the jury was not running on arbitrary snobbery: the academy
         had a coherent program, a whole theory of what art was{' '}<em>for</em>. Art should morally uplift; it
         should treat the noblest, most legible subjects in a fixed hierarchy &mdash;{' '}<strong>history painting</strong>{' '}(gods, saints, kings, ancient heroes, the human body at heroic size) ranked at the very top, mere
@@ -1080,8 +1074,7 @@ const WhyImpNarrative: Narrative = ({ accent, onZoom }) => (
 
       <SectionHeader accent={accent} label="The patriarch" title="Manet lights the fuse and refuses to leave the building" />
       <p style={proseStyle}>
-        One man had already detonated this contradiction, loudly, and he was older than the rest.{' '}<strong>Édouard Manet</strong>{' '}(1832&ndash;1883) is the figure you have to get exactly right, because almost
-        everyone gets him wrong. In 1863 he showed{' '}<em>Le Déjeuner sur l&rsquo;herbe</em>{' '}&mdash; a naked
+        One man had already detonated this contradiction, loudly, and he was older than the rest.{' '}<strong>Édouard Manet</strong>{' '}(1832&ndash;1883) is the most misread figure in Impressionism. In 1863 he showed{' '}<em>Le Déjeuner sur l&rsquo;herbe</em>{' '}&mdash; a naked
         woman picnicking, perfectly at ease, beside two fully clothed modern gentlemen, staring straight out at
         the viewer with no mythological excuse whatsoever. Two years later came{' '}<em>Olympia</em>. Stand in
         front of it and what jumps you is how{' '}<em>blunt</em>{' '}it is: a nude propped on her pillows, but
@@ -1102,7 +1095,7 @@ const WhyImpNarrative: Narrative = ({ accent, onZoom }) => (
         center, the novelist Émile Zola defending him, and the rest leaning in.
       </p>
       <p style={proseStyle}>
-        But here is the nuance you must never blur:{' '}<strong>Manet was not an Impressionist, and he never became one.</strong>{' '}He never once exhibited in any of the eight shows the group would later stage. For all that
+        The distinction matters:{' '}<strong>Manet was not an Impressionist, and he never became one.</strong>{' '}He never once exhibited in any of the eight shows the group would later stage. For all that
         he lit their fuse and traded influence with them, his deepest wish was the one thing they were rebelling
         against &mdash; official approval, a medal at the Salon, recognition from the very machine they were
         walking away from. He submitted to that jury his whole life. Call him the reluctant patriarch who stayed
@@ -1111,7 +1104,7 @@ const WhyImpNarrative: Narrative = ({ accent, onZoom }) => (
       </p>
       <p style={proseStyle}>
         So that is the wall. A generation that could see the modern city perfectly, a jury that would never let it
-        through, and an admired older man who showed them it could be done but refused to do it{' '}<em>with</em>{' '}them. The only way out was to stop knocking on the official door &mdash; and build their own. But first they
+        through, and an admired older man who showed them it could be done but refused to do it{' '}<em>with</em>{' '}them. The only way out was to stop knocking on the official door &mdash; and build their own. They
         had to figure out how to paint what they were actually seeing.
       </p>
       <PaintingFigure
@@ -1140,8 +1133,8 @@ const EyeImpNarrative: Narrative = ({ accent, onZoom }) => (
     <article style={{ padding: '18px 18px 40px' }}>
       <SectionHeader accent={accent} label="The riverbank" title="Paint what you actually see" first />
       <p style={proseStyle}>
-        <DropCap accent={accent}>H</DropCap>
-        ere is a small experiment you can run right now. Look at a shadow on a sunny day &mdash; a shadow on snow
+        <DropCap accent={accent}>L</DropCap>
+        ook at a shadow on a sunny day &mdash; a shadow on snow
         is best, but pale pavement will do. You have always been told shadows are gray, or black. Look harder. On
         a bright day that shadow is faintly{' '}<em>blue</em>. Your brain, which knows perfectly well that snow is
         &ldquo;white&rdquo; and shadow is &ldquo;dark,&rdquo; has been quietly lying to you your whole life,
@@ -1165,7 +1158,7 @@ const EyeImpNarrative: Narrative = ({ accent, onZoom }) => (
         light, rather than working it up later from sketches in a dim studio. You cannot fake the actual color of
         a cloud at four o&rsquo;clock; you have to be standing under it. (Two pieces of kit made this practical
         &mdash; ready-made oil paint in collapsible metal tubes, an American invention of the 1840s, and the
-        folding{' '}<em>box easel</em>{' '}you could sling on your back. Useful, both of them; but neither one{' '}<em>invented</em>{' '}outdoor painting, as we&rsquo;ll see in a moment.)
+        folding{' '}<em>box easel</em>{' '}you could sling on your back. Useful, both of them; but neither one{' '}<em>invented</em>{' '}outdoor painting &mdash; the Barbizon painters had been working outside for decades.)
       </p>
       <p style={proseStyle}>
         Second,{' '}<strong>broken color</strong>{' '}and{' '}<strong>optical mixing</strong>. Instead of carefully
@@ -1188,7 +1181,7 @@ const EyeImpNarrative: Narrative = ({ accent, onZoom }) => (
         Fourth, the{' '}<strong>visible stroke</strong>. They let the brushwork{' '}<em>show</em>{' '}&mdash; the
         jab, the smear, the drag of loaded paint &mdash; instead of sanding it down to invisible{' '}<em>fini</em>. The picture wears its own making on its face. To a Salon eye trained on porcelain finish,
         this didn&rsquo;t look like daring. It looked unfinished, like a rough sketch someone had the gall to
-        frame. (Hold that thought; it becomes the joke that names the whole movement.)
+        frame. (That title, meant as a sneer, became the movement's name.)
       </p>
 
       <SectionHeader accent={accent} label="London" title="Turner, Constable, and a dealer in exile" />
@@ -1199,8 +1192,7 @@ const EyeImpNarrative: Narrative = ({ accent, onZoom }) => (
         private masterclass in painting air rather than objects. And London handed them something even more
         practical than a lesson: the dealer{' '}<strong>Paul Durand-Ruel</strong>, who had moved his own stock to
         London to keep it safe from the war, was there too. The man who would spend the next forty years keeping
-        the movement financially alive met two of its founders as refugees in a foreign city. (More on him in
-        Chapter 4 &mdash; he is the hinge the whole market turns on.)
+        the movement financially alive met two of its founders as refugees in a foreign city. (Durand-Ruel, who kept the movement solvent through years of rejection, gets his full story later.)
       </p>
 
       <SectionHeader accent={accent} label="The tube" title="A useful myth, gently disarmed" />
@@ -1408,7 +1400,7 @@ const GroupImpNarrative: Narrative = ({ accent, onZoom }) => (
         intersection, the cobbles and the great wedge of a new apartment block rendered with an almost
         architectural exactness. He didn&rsquo;t just pay for the modern city to be painted. He painted it
         himself, harder-edged than anyone. (He also left so much of his collection to the French state in his will
-        that the bequest set off a fight &mdash; a story this reading saves for its last chapter.)
+        that the bequest set off a fight.)
       </p>
 
       <SectionHeader accent={accent} label="The dealer" title="Durand-Ruel bets everything, twice" />
@@ -1470,11 +1462,10 @@ const WomenImpNarrative: Narrative = ({ accent, onZoom }) => (
     <article style={{ padding: '18px 18px 40px' }}>
       <SectionHeader accent={accent} label="Paris" title="The women, in the rooms they were allowed" first />
       <p style={proseStyle}>
-        <DropCap accent={accent}>H</DropCap>
-        ere is a fact the tote-bag version of Impressionism quietly drops: some of the movement&rsquo;s founders,
+        <DropCap accent={accent}>T</DropCap>
+        he tote-bag version of Impressionism quietly drops something: some of the movement&rsquo;s founders,
         its most loyal members, and its sharpest operators were women &mdash; and the reason their paintings look
-        the way they look is not a gentle preference for domestic things. It is a{' '}<em>wall</em>. We need to name
-        the wall plainly, because softening it is exactly how their achievement gets misread.
+        the way they look is not a gentle preference for domestic things. It is a{' '}<em>wall</em>.
       </p>
       <p style={proseStyle}>
         A respectable bourgeois woman in 1870s Paris could not go where the male Impressionists went. She could
@@ -1557,9 +1548,8 @@ const DegasImpNarrative: Narrative = ({ accent, onZoom }) => (
     <article style={{ padding: '18px 18px 40px' }}>
       <SectionHeader accent={accent} label="The studio" title="Degas and the indoor eye" first />
       <p style={proseStyle}>
-        <DropCap accent={accent}>N</DropCap>
-        ow for the man who breaks every rule you have just learned, including the ones his own movement was built
-        on.
+        <DropCap accent={accent}>D</DropCap>
+        egas broke the movement's own rules from the start, including the ones he had helped establish.
       </p>
       <p style={proseStyle}>
         If &ldquo;Impressionism&rdquo; means going outdoors to paint the changing light, then{' '}<strong>Edgar Degas</strong>{' '}was not an Impressionist &mdash; and he would have agreed with you, loudly. Degas{' '}<em>never painted outdoors.</em>{' '}He scorned the whole plein-air religion; he worked in his studio, from
@@ -1737,8 +1727,7 @@ const LastImpNarrative: Narrative = ({ accent, onZoom }) => (
       <p style={proseStyle}>
         So that is how it ends. The cooperative dissolved; there was no ninth exhibition. What came after &mdash;
         Seurat&rsquo;s dots, Cézanne&rsquo;s slow architecture out in Provence, and the wilder painters still to
-        come &mdash; belongs to the next chapter, the one usually filed under{' '}<strong>Post-Impressionism</strong>: the generation that grew up{' '}<em>on</em>{' '}Impressionism and then spent
-        its life arguing with it. That is a story for another reading. This one ends where it should &mdash; with
+        come &mdash; belongs to what came after. That is a story for another reading. This one ends where it should &mdash; with
         a movement that started life as a joke about an unfinished seascape, won its long argument not by
         outlasting a jury but by building a market the jury couldn&rsquo;t control (Durand-Ruel, the Americans,
         the whole network of dealers and collectors), changed the way Western art saw and painted light, and then
@@ -1876,7 +1865,7 @@ const FivePostImpNarrative: Narrative = ({ accent }) => (
         (1844&ndash;1926) kept working, increasingly under the influence of the Japanese prints that Lautrec and the
         Nabis would also seize on. Berthe Morisot (1841&ndash;1895) painted through the early Post-Impressionist
         decade and died in 1895. Paul Signac, &Eacute;mile Bernard, Bonnard, Vuillard &mdash; the field around the
-        five anchors is most of the next chapters&rsquo; true subject, and we&rsquo;ll meet them in Chapter 7. The
+        five anchors is most of the following chapters&rsquo; true subject. The
         five are the figures Fry put on the wall; they are not the only figures who were painting.
       </p>
 
@@ -1969,7 +1958,7 @@ const CezannePostImpNarrative: Narrative = ({ accent, onZoom }) => (
 
       <SectionHeader accent={accent} label="15 April 1904" title="One sentence" />
       <p style={proseStyle}>
-        This is where C&eacute;zanne accidentally gives modernism its catechism.
+        Here Cézanne arrives at the three principles every modernist painter after him used.
       </p>
       <p style={proseStyle}>
         A young painter named{' '}<strong>&Eacute;mile Bernard</strong>{' '}(1868&ndash;1941), formerly close to
@@ -2007,7 +1996,7 @@ const CezannePostImpNarrative: Narrative = ({ accent, onZoom }) => (
       <p style={proseStyle}>
         Picasso would say, later, that{' '}<em>&ldquo;C&eacute;zanne was my one and only master.&rdquo;</em>{' '}Within
         months of the 1907 retrospective Picasso was painting{' '}<em>Les Demoiselles d&rsquo;Avignon</em>{' '}&mdash; the
-        picture with which Cubism begins. (The Cubism page is the next door over.) The cumulative effect of the late
+        picture with which Cubism begins. (Cubism picked this up directly.) The cumulative effect of the late
         C&eacute;zannes coming out of Aix into Paris is the single most concentrated transmission line in modern
         art. The mountain refused to dissolve, and the young men in Paris saw it.
       </p>
@@ -2584,7 +2573,7 @@ const FryPostImpNarrative: Narrative = ({ accent, onZoom }) => (
         and Dresden and London picked up the pieces and ran with them.
       </p>
       <p style={proseStyle}>
-        That generation&rsquo;s room is the next door over.
+        That generation built what came after.
       </p>
       <PaintingFigure
         onZoom={onZoom}
@@ -2852,7 +2841,7 @@ const CollioureNarrative: Narrative = ({ accent, onZoom }) => (
         <em>Woman with a Hat</em>, his wife Am&eacute;lie shown with her face stroked in greens, violets and
         oranges. Derain, for his part, had painted the Collioure harbor that summer in the same blaze. None of
         it had a name yet, no critic had insulted it, no group had formed, no word like &ldquo;Fauvism&rdquo;
-        existed. That is the quiet fact this read most wants you to keep: the movement was fully invented, on
+        existed. The key thing to keep: the movement was fully invented, on
         canvas, in a fishing port, before the art world had any idea what to call it or any chance to be
         appalled. The appalling came in the autumn, in Paris, in a room that would get a nickname.
       </p>
@@ -3269,7 +3258,6 @@ const FuturismPressNarrative: Narrative = ({ accent, onZoom }) => (
         So Futurism is two things at once from its very first sentence. On one side, a real and electrifying
         revolution in art, the movement that taught Western painting how to show motion. On the other, the
         movement that turned art into a recruiting poster for war and, in its founder&rsquo;s case, for fascism.
-        The chapters that follow keep both in view, and the last one has to put them back together.
       </p>
     </article>
 
@@ -3319,7 +3307,7 @@ const FuturismPaintersNarrative: Narrative = ({ accent, onZoom }) => (
 
       <SectionHeader accent={accent} label="The starting point" title="Italian Divisionism" />
       <p style={proseStyle}>
-        Here is the thing the textbooks often skip: at this moment, in 1910, these men were not yet doing
+        The textbooks tend to skip this: at this moment, in 1910, these men were not yet doing
         anything that looks like the Futurism you have seen. They were not Cubists, they had not yet been to
         Paris, and their canvases shimmer with an entirely Italian technique called{' '}
         <strong>Divisionism</strong>. Divisionism is the Italian cousin of the French pointillism of Georges
@@ -3484,7 +3472,7 @@ const FuturismSpeedNarrative: Narrative = ({ accent, onZoom }) => (
         the lady&rsquo;s walking feet stuttered into a little row of steps. It is what your eye actually does
         when something moves too fast to fix, multiplied and laid out on the canvas. A camera could freeze that
         dog in one crisp instant; what a camera cannot do, and what Balla is after, is to hold all the instants
-        at once. If you only remember one Futurist image, this is the one.
+        at once. This is the Futurist image that held.
       </p>
 
       <SectionHeader accent={accent} label="The riot" title="Carr&agrave;&rsquo;s Funeral of the Anarchist Galli" />
@@ -3713,7 +3701,7 @@ const FuturismWarNarrative: Narrative = ({ accent, onZoom }) => (
 
       <SectionHeader accent={accent} label="The rot" title="Marinetti and fascism" />
       <p style={proseStyle}>
-        That is the tragedy. Here is the disgrace, and the read does not get to skip it. Marinetti did not stop.
+        That is the tragedy. The disgrace: Marinetti did not stop.
         In 1919, with Alceste De Ambris, he co-wrote the{' '}<strong>Fascist Manifesto</strong>, the founding
         platform of Benito Mussolini&rsquo;s new movement, published in Mussolini&rsquo;s own paper that June.
         Marinetti had been there at the founding meeting in Milan that March. He was a genuine, founding-era
@@ -3952,8 +3940,8 @@ const DadaUrinalNarrative: Narrative = ({ accent, onZoom }) => (
         other way: Duchamp openly told his own sister a woman had fronted the entry, which is hardly what a man
         covering up a stolen idea would do, and identifies the friend as another associate, Louise Norton.
         Mainstream museums still credit Duchamp; the Baroness case rests on stylistic affinity and circumstantial
-        ties. The honest position is that the debate is real and unresolved, and this read will not pretend to
-        settle it. What it does cleanly is puncture the myth of the lone male genius: the most famous artwork of
+        ties. The honest position is that the debate is real and unresolved, and it may never be
+        settled. What the episode does cleanly is puncture the myth of the lone male genius: the most famous artwork of
         the century may not even have a single sure author.
       </p>
 
@@ -4308,8 +4296,7 @@ const SurManifestoNarrative: Narrative = ({ accent, onZoom }) => (
         what came next. The Romanian poet Tristan Tzara wanted to keep Dada a pure machine for nonsense with no
         destination. A young French poet named{' '}<strong>André Breton</strong>{' '}wanted to point all that energy
         somewhere. Breton was a man of imperious certainty, the kind who states a definition as if it were a
-        command and dares you to disagree, and he won the Paris circle. The read right before this one tells that
-        fight in full. What matters here is the handoff: Surrealism is Dada&rsquo;s serious wing. It kept the
+        command and dares you to disagree, and he won the Paris circle. What matters here is the handoff: Surrealism is Dada&rsquo;s serious wing. It kept the
         chance, the collage and the appetite for scandal, and it pointed them at a target Dada never had, the
         unconscious mind.
       </p>
@@ -4506,8 +4493,8 @@ const SurDreamNarrative: Narrative = ({ accent, onZoom }) => (
         rubber glove side by side to a wall, a green ball below, a train on the horizon, an utterly calm picture
         of an utterly impossible arrangement. Nothing melts and nothing screams; the dread comes from the silence
         and the wrongness of the light. Ernst, Tanguy, Dal&iacute; and Magritte all drank from de Chirico. He is
-        the literal visual DNA of the movement, which is exactly why his pictures, and not the more famous later
-        ones, are the images you can actually see in this read.
+        the literal visual DNA of the movement, which is why his earlier pictures, not the more famous later
+        ones, are the ones in public collections.
       </p>
       <PaintingFigure
         onZoom={onZoom}
@@ -4523,7 +4510,7 @@ const SurDreamNarrative: Narrative = ({ accent, onZoom }) => (
       <SectionHeader accent={accent} label="Dalí" title="The clocks, and the man who would not stop talking" />
       <p style={proseStyle}>
         The showman of the stream was the Spaniard{' '}<strong>Salvador Dal&iacute;</strong>, who joined around
-        1929 and painted the single most famous Surrealist image. Here we hit the central problem of this read:
+        1929 and painted the single most famous Surrealist image. There is a catch:
         the picture cannot be shown, because{' '}<em>The Persistence of Memory</em>{' '}(1931) is still under
         copyright. So take it in words, and it is worth the slow look. The light is hard and clear, a deserted
         luminous shoreline running back to the gold cliffs of Dal&iacute;&rsquo;s own Catalan coast. At the left
@@ -5354,7 +5341,7 @@ const AbexCrownNarrative: Narrative = ({ accent }) => (
         The Impressionists, the Cubists, the Surrealists were all Paris stories. Then the war broke Europe, and
         the capital of art moved across an ocean. By the late 1940s the new thing in painting came out of New
         York, and for the first time the rest of the world looked to America to see what came next. That, at
-        least, is the standard account, and it is the one large fact this read sits on (it is a widely held
+        least, is the standard account, and it is the one large fact behind the story (it is a widely held
         judgment more than a measured fact, but by the early 1950s the art world was unmistakably watching New
         York). How it happened is a story of refugees, a New Deal jobs program, a teacher with a German accent,
         and a bomb. It is also, fair warning, a movement whose painters held a frankly enormous opinion of what
@@ -5402,7 +5389,7 @@ const AbexCrownNarrative: Narrative = ({ accent }) => (
         York and Provincetown that nearly every American modernist passed through. He preached &ldquo;push and
         pull,&rdquo; that flat patches of color, arranged right, can make a flat canvas seem to advance and
         recede without ever pretending to be a window. He taught the Americans to treat a painting as an object
-        in its own right rather than a picture of something. (Lee Krasner, important later in this read, studied
+        in its own right rather than a picture of something. (Lee Krasner studied
         with him.)
       </p>
       <p style={proseStyle}>
@@ -5495,11 +5482,11 @@ const AbexArenaNarrative: Narrative = ({ accent }) => (
         moving and marking, frozen on the surface. The canvas, Rosenberg wrote, had become &ldquo;an arena in
         which to act.&rdquo; Two warnings, both load-bearing. First, it is a critic&rsquo;s word, coined in 1952,
         not a name the painters chose; Pollock never called himself an action painter. Second, it describes this
-        wing only. The color-field painters in the next chapter are not action painters, and calling them that
+        wing only. The color-field painters are not action painters, and calling them that
         gets the whole movement wrong. And the legend oversells the originality: pouring paint had been tried
         before, and the deeper idea, letting the unconscious and chance compose, came straight from Surrealist
         automatism. What Pollock did was build a whole new way of painting out of it, at a scale and commitment
-        nobody had matched. That is the honest claim, and it is plenty.
+        nobody had matched. That is the claim, and it is plenty.
       </p>
 
       <SectionHeader accent={accent} label="de Kooning, Kline" title="The Woman, and the girders" />
@@ -5650,7 +5637,7 @@ const AbexCriticsNarrative: Narrative = ({ accent }) => (
 
       <SectionHeader accent={accent} label="Rosenberg" title="The painting as an event" />
       <p style={proseStyle}>
-        Here is a thing the legend leaves out: the painters did not make their own reputations alone. Two New
+        The legend leaves out something: the painters did not make their own reputations alone. Two New
         York critics did much of it for them, and they could not stand each other. The first was{' '}
         <strong>Harold Rosenberg</strong>, the poet-critic of the pair, who drank with the painters at the Cedar
         and wrote about painting as if he were flinging the paint himself, all heat and motion. In December 1952
@@ -5759,7 +5746,7 @@ const AbexCutNarrative: Narrative = ({ accent }) => (
         treated as a minor character in a story about men.
       </p>
       <p style={proseStyle}>
-        Here is the sharpest version of the injustice. Two younger painters, Morris Louis and Kenneth Noland, saw{' '}
+        The injustice sharpens here: two younger painters, Morris Louis and Kenneth Noland, saw{' '}
         <em>Mountains and Sea</em>, picked up Frankenthaler&rsquo;s soak-stain, and built it into Color Field
         painting, and it was those two men, not the woman who invented the method, who collected most of the
         founding credit for the movement that grew straight out of her experiment. A young woman worked out how
@@ -5805,11 +5792,8 @@ const AbexWeaponNarrative: Narrative = ({ accent }) => (
         alcoholic, and his drinking got worse as his fame grew and his painting stalled. On the night of 11
         August 1956, drunk, he drove his car off a road near his home in Springs and crashed into the trees. He
         was killed, and so was a young woman riding with him, Edith Metzger; a second passenger, Ruth Kligman,
-        survived. Pollock was forty-four. There is nothing romantic in it, and it is worth resisting the urge to
-        make the death part of the legend, the way the legend wants. A man whose drinking had worsened as his
-        fame grew drank himself into a state where he killed himself and an innocent passenger with a car. The
-        heroic-genius story tends to launder that into tragic poetry, which is one more thing the honest version
-        refuses to do.
+        survived. Pollock was forty-four. There is nothing romantic in it, and the legend tends to launder the death into tragic poetry. A man whose drinking had worsened as his
+        fame grew drank himself into a state where he killed himself and an innocent passenger with a car.
       </p>
 
       <SectionHeader accent={accent} label="What it left" title="The center, and the reaction" />
@@ -5824,8 +5808,8 @@ const AbexWeaponNarrative: Narrative = ({ accent }) => (
       </p>
       <p style={proseStyle}>
         The two movements that came next had a simpler choice: match this art&rsquo;s huge, earnest,
-        self-serious scale, or mock it.{' '}<strong>Pop Art</strong>, built in a read parallel to this one, chose
-        mockery, trading the heroic inward self for the cool surfaces of advertising, comics and the supermarket.{' '}
+        self-serious scale, or mock it.{' '}<strong>Pop Art</strong>{' '}chose mockery,
+        trading the heroic inward self for the cool surfaces of advertising, comics and the supermarket.{' '}
         <strong>Minimalism</strong>{' '}kept the scale and dumped the soul, holding onto the big empty field but
         stripping out the drama and the personality for something impersonal, industrial and literal. Either way,
         the next generation needed something enormous to push against, and Abstract Expressionism was it.

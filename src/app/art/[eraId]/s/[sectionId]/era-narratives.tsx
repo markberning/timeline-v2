@@ -126,7 +126,7 @@ const LandNarrative: Narrative = ({ accent, onZoom }) => (
         imperial collection by the Emperor,{' '}<strong>Napoleon III</strong>, straight off the wall. Cabanel was
         elected to the Académie des Beaux-Arts that same year and handed a professorship at the École the next —
         the institution rewarding the man who had painted its perfect picture and then handing him the next
-        generation to train. Keep this canvas in your eye, because almost everything the coming rebels did, they
+        generation to train. Almost everything the coming rebels did, they
         did{' '}<em>against</em>{' '}it.
       </p>
       <PaintingFigure
@@ -181,8 +181,7 @@ const LandNarrative: Narrative = ({ accent, onZoom }) => (
         Académie&rsquo;s serene certainty with two reckless words:{' '}<em>make it new</em>. These restless newcomers,
         running out ahead of respectable taste, are what the era will keep calling the{' '}<strong>avant-garde</strong>{' '}(a military term, the scouts who go out in front of the main army, borrowed for the artists who got somewhere
         first). And the very first of them would not bother arguing with the jury at all. When the world&rsquo;s
-        fair turned his pictures down, he simply built his own tent across the street — and that is where the next
-        chapter begins.
+        fair turned his pictures down, he simply built his own tent across the street.
       </p>
     </article>
 
@@ -455,8 +454,7 @@ const BreakNarrative: Narrative = ({ accent, onZoom }) => (
         rights={PD_RIGHTS}
       />
       <p style={proseStyle}>
-        Cubism is the pivot of the whole era, which is why it has its own read one level down — six chapters on
-        Picasso, Braque, collage and the war that broke them apart. What matters here is the door it left open.
+        Cubism is the pivot of the whole era: Picasso, Braque, collage, and the war that broke them apart. What matters here is the door it left open.
         If a painting owes nothing to color-as-description (Matisse) and nothing to single-point perspective
         (Cubism), then it owes nothing to the visible world at all. From this moment, abstraction is only a
         matter of nerve.
@@ -536,8 +534,7 @@ const UnconsciousNarrative: Narrative = ({ accent }) => (
         n 1924 the poet{' '}<strong>André Breton</strong>{' '}published the{' '}<em>Surrealist Manifesto</em>{' '}and turned the
         inward turn into a programme. Where Dada had only mocked,{' '}<strong>Surrealism</strong>{' '}had a faith: that
         Sigmund Freud was right, that the unconscious mind was the realer self, and that art&rsquo;s job was to
-        slip past the rational guard and let the dream out. (Avant-garde, by the way — a phrase you will keep
-        meeting — just means the leading edge, the scouts who run out ahead of the army.) The painters split into
+        slip past the rational guard and let the dream out. (Avant-garde just means the leading edge, the scouts who run out ahead of the army.) The painters split into
         two camps. One — <strong>Max Ernst</strong>, the Catalan{' '}<strong>Joan Miró</strong>, the Frenchman{' '}<strong> André Masson</strong>{' '}— chased{' '}<em>automatism</em>: doodling, scraping paint over rough surfaces,
         and otherwise letting chance and the twitching hand outrun the conscious mind.
       </p>
@@ -558,7 +555,7 @@ const UnconsciousNarrative: Narrative = ({ accent }) => (
         href="https://www.moma.org/collection/works/79018"
       />
       <p style={proseStyle}>
-        Sit with that irony for a second. Dalí spent his life cultivating the most irrational public image in
+        Dalí spent his life cultivating the most irrational public image in
         art — a movement devoted to dreams and the unconscious — and the thing now standing between you and his
         most famous painting is the single most rational, bureaucratic instrument civilization owns: United
         States copyright law. Works first published before 1931 are public domain in the US; 1931 and after are

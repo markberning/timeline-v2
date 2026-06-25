@@ -855,7 +855,7 @@ export const REALISM: ArtMovementContent = {
   chain: { name: 'Movements of the Modern era', index: 1, total: 10 },
   hook: 'Courbet hangs a stone-breaker where the Salon kept its gods.',
   hookLong:
-    'Around 1848 a handful of painters made a deliberate movement out of an almost rude idea: paint the real, ordinary, contemporary world, laborers, peasants, the urban poor, at the size and seriousness the academy had always reserved for myth and kings. It was the first shot in the whole modern revolt, and everything restless that follows is still answering it.',
+    'Around 1848 a handful of painters made a deliberate movement out of an almost rude idea: paint the real, ordinary, contemporary world, laborers, peasants, the urban poor, at the size and seriousness the academy had always reserved for myth and kings. It was the first shot in the modern revolt, and a lot of what followed was answering it.',
   heroImage: ART_IMG.courbetBurial,
   heroFit: 'cover',
   heroFocus: '50% 52%',
@@ -1148,7 +1148,7 @@ export const POST_IMP: ArtMovementContent = {
   chain: { name: 'Movements of the Modern era', index: 3, total: 10 },
   hook: 'Five painters who never agreed about anything got grouped together by an English critic in a London gallery twenty-four years after the youngest of them had painted his best picture.',
   hookLong:
-    '“Post-Impressionism” is one of the strangest labels in art history, because the people inside it were not a movement, did not meet, did not write a manifesto, and were mostly dead by the time anyone called them this. Roger Fry, an English critic with a London gallery to fill in the autumn of 1910, needed an umbrella name for a roomful of French pictures that came after Impressionism but weren’t Fauvism or Cubism yet. He picked Post-Impressionists almost on the fly, and the name stuck to five very different painters working in five different cities, mostly in disagreement with one another, all of them answering Impressionism in their own way. Cézanne wanted weight. Van Gogh wanted feeling. Gauguin wanted flat color and symbol. Seurat wanted science. Toulouse-Lautrec wanted the modern dance hall. Five answers, one room.',
+    '“Post-Impressionism” is a strange label: the people inside it were not a movement, did not meet, did not write a manifesto, and were mostly dead by the time anyone called them this. Roger Fry, an English critic with a London gallery to fill in the autumn of 1910, needed an umbrella name for a roomful of French pictures that came after Impressionism but weren’t Fauvism or Cubism yet. He picked Post-Impressionists almost on the fly, and the name stuck to five very different painters working in five different cities, mostly in disagreement with one another, all of them answering Impressionism in their own way. Cézanne wanted weight. Van Gogh wanted feeling. Gauguin wanted flat color and symbol. Seurat wanted science. Toulouse-Lautrec wanted the modern dance hall. Five answers, one room.',
   heroImage: ART_IMG.seuratGrandeJatte,
   heroFit: 'cover',
   heroFocus: '50% 50%',
