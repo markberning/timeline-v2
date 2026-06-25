@@ -438,7 +438,7 @@ export interface EraMovement {
   portrait?: boolean // tall work → card renders image-LEFT / text-right (else image-on-top)
   credit?: string // art credit shown bold at the end of the card when imageUrl is set (artist · current location)
 }
-export interface AnchorPainter { name: string; role: string; palette: Palette }
+export interface AnchorPainter { name: string; role: string; palette: Palette; id?: string; photo?: string }
 
 // The "Lay of the land" entry card on an era page (links to the era read at
 // /art/{eraId}/s/land). Per-era so each era frames its own world, not Modern's.
@@ -526,12 +526,12 @@ export const MODERN_ERA: ArtEraContent = {
     { id: 'pop', name: 'Pop Art', range: '1956–1970', accent: ART_ACCENTS.violet, size: 'm', hook: 'A soup can, but with conviction. Warhol’s factory; Lichtenstein’s dots.', palette: ['#ff3e7f', '#1f1f1f', '#7adff0'], imageUrl: ART_IMG.warholSoup, credit: 'Warhol, Campbell’s Soup Cans, 1962 · MoMA · shown small, fair use' },
   ],
   anchorPainters: [
-    { name: 'Cézanne', role: 'The bridge', palette: ['#5a7042', '#8a7848', '#1c1a12'] },
-    { name: 'Monet', role: 'Light, water', palette: ['#3a6a8a', '#c8c050', '#1c2a30'] },
-    { name: 'Picasso', role: 'The fault line', palette: ['#c0a06c', '#3d3a2e', '#8a6b3a'] },
-    { name: 'Matisse', role: 'Color', palette: ['#bf2f25', '#d6cf3f', '#1c1c1c'] },
-    { name: 'Duchamp', role: 'The provocateur', palette: ['#1c1c1c', '#a0a0a0', '#d6cf3f'] },
-    { name: 'Pollock', role: 'The action', palette: ['#1c1c1c', '#d6cf3f', '#bf2f25'] },
+    { id: 'cezanne', name: 'Cézanne', role: 'The bridge', palette: ['#5a7042', '#8a7848', '#1c1a12'], photo: ART_IMG.cezannePhoto },
+    { id: 'monet', name: 'Monet', role: 'Light, water', palette: ['#3a6a8a', '#c8c050', '#1c2a30'], photo: ART_IMG.monetPhoto },
+    { id: 'picasso', name: 'Picasso', role: 'The fault line', palette: ['#c0a06c', '#3d3a2e', '#8a6b3a'], photo: ART_IMG.picassoPhoto },
+    { id: 'matisse', name: 'Matisse', role: 'Color', palette: ['#bf2f25', '#d6cf3f', '#1c1c1c'], photo: ART_IMG.matissePhoto },
+    { id: 'duchamp', name: 'Duchamp', role: 'The provocateur', palette: ['#1c1c1c', '#a0a0a0', '#d6cf3f'], photo: ART_IMG.duchampPhoto },
+    { id: 'pollock', name: 'Pollock', role: 'The action', palette: ['#1c1c1c', '#d6cf3f', '#bf2f25'], photo: ART_IMG.pollockPhoto },
   ],
   lineage: {
     parents: [ { label: 'Neoclassical & Romantic', mode: 'art' }, { label: 'Industrial Revolution', mode: 'civ' }, { label: 'Photography', mode: 'civ' } ],
