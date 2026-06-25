@@ -41,6 +41,7 @@ import {
 import {
   ART_ARTIST_CONTENT,
   ART_WORK_CONTENT,
+  ART_MOVEMENT_CONTENT,
   type ArtArtistContent,
   type Palette,
 } from '@/lib/art-content'
@@ -247,10 +248,12 @@ export function ArtArtistPage({ artistId }: { artistId: string }) {
   }
 
   const accent = a.accent
+  // The artist's home movement (the roster he belongs to) gives the full breadcrumb trail.
+  const homeMv = Object.values(ART_MOVEMENT_CONTENT).find(m => m.artists.some(ar => ar.id === a.id))
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column', height: '100dvh', background: 'var(--background)', color: 'var(--foreground)' }}>
-      <ArtChrome crumbs={artArtistCrumbs(a.name)} accent={accent} />
+      <ArtChrome crumbs={artArtistCrumbs(a.name, homeMv?.eraId, homeMv?.id)} accent={accent} />
       <ArtPageShell>
         <ArtHero
           eyebrow="ART · ARTIST"

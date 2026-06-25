@@ -105,9 +105,19 @@ export function artWorkCrumbs(eraId: string, eraName: string, movementId: string
     { label: workName, short: workShort, options: artistsWorksOptions(eraId, movementId), active: true, currentLabel: workName },
   ]
 }
-export function artArtistCrumbs(artistName: string): Crumb[] {
-  const opts: CrumbOption[] = Object.values(ART_ARTIST_CONTENT).map(a => ({ label: a.name, href: `/art/artist/${a.id}` }))
-  return [{ label: artistName, options: opts, active: true, currentLabel: artistName }]
+export function artArtistCrumbs(artistName: string, eraId?: string, movementId?: string): Crumb[] {
+  // Full trail (Era › Movement › Artist) when we know the artist's home movement;
+  // the leaf carries the same Artists/Works picker the work pages use.
+  const era = eraId ? ART_ERAS.find(e => e.id === eraId) : undefined
+  const mv = movementId ? ART_MOVEMENT_CONTENT[movementId] : undefined
+  const crumbs: Crumb[] = []
+  if (era) crumbs.push({ label: era.name, href: `/art/${era.id}`, options: eraOptions(), currentLabel: era.name })
+  if (mv && eraId) crumbs.push({ label: mv.name, href: `/art/${eraId}/${mv.id}`, options: movementOptions(eraId), currentLabel: mv.name })
+  const leafOpts: CrumbOption[] = (eraId && movementId)
+    ? artistsWorksOptions(eraId, movementId)
+    : Object.values(ART_ARTIST_CONTENT).map(a => ({ label: a.name, href: `/art/artist/${a.id}` }))
+  crumbs.push({ label: artistName, options: leafOpts, active: true, currentLabel: artistName })
+  return crumbs
 }
 
 // ─────────────────────────────────────────────────────────────

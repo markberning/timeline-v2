@@ -28,7 +28,7 @@ export function ArtArtistLightPage({ artistId }: { artistId: string }) {
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column', height: '100dvh', background: 'var(--background)', color: 'var(--foreground)' }}>
-      <ArtChrome crumbs={artArtistCrumbs(a.name)} accent={accent} />
+      <ArtChrome crumbs={artArtistCrumbs(a.name, a.eraId, a.movementId)} accent={accent} />
       <ArtPageShell>
         {/* Header block — name, vitals, role tag */}
         <div style={{ padding: '18px 18px 4px' }}>
