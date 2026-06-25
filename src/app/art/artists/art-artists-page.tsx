@@ -48,7 +48,7 @@ export function ArtArtistsPage() {
                 <div style={{ display: 'flex', gap: 12, overflowX: 'auto', scrollbarWidth: 'none', padding: '0 18px' }}>
                   {mv.artists.map(a => (
                     <Link key={a.id || a.name} href={a.id ? `/art/artist/${a.id}` : `/art/${mv.eraId}/${mv.id}`} style={{ flexShrink: 0, width: 88, display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 6, textDecoration: 'none', color: INK }}>
-                      <ArtistAvatar photo={a.photo} palette={a.palette} />
+                      <ArtistAvatar photo={a.photo} id={a.id} palette={a.palette} />
                       <div style={{ textAlign: 'center' }}>
                         <div style={{ fontFamily: SERIF, fontSize: 13.5, lineHeight: 1.18, letterSpacing: -0.1, color: INK }}>{a.name}</div>
                         <div style={{ marginTop: 2, fontFamily: SANS, fontSize: 11, letterSpacing: 0.2, color: FAINT }}>{a.role || a.years}</div>

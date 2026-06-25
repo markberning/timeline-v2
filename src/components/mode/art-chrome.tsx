@@ -53,6 +53,22 @@ function workOptions(eraId: string, movementId: string): CrumbOption[] {
   if (!mv) return []
   return mv.works.map(w => ({ label: w.name, href: ART_WORK_CONTENT[w.id] ? `/art/${eraId}/${movementId}/${w.id}` : undefined, disabled: !ART_WORK_CONTENT[w.id] }))
 }
+// The movement's roster artists, each linking to its artist page.
+function artistOptions(movementId: string): CrumbOption[] {
+  const mv = ART_MOVEMENT_CONTENT[movementId]
+  if (!mv) return []
+  return mv.artists.filter(a => a.id).map(a => ({ label: a.name, href: `/art/artist/${a.id}` }))
+}
+// One trailing picker offering both the movement's artists and its works,
+// grouped under headings — the breadcrumb's "Artists / Works" leaf.
+function artistsWorksOptions(eraId: string, movementId: string): CrumbOption[] {
+  const artists = artistOptions(movementId)
+  const works = workOptions(eraId, movementId).filter(o => o.href)
+  const opts: CrumbOption[] = []
+  if (artists.length) opts.push({ label: 'Artists', heading: true }, ...artists)
+  if (works.length) opts.push({ label: 'Works', heading: true }, ...works)
+  return opts
+}
 // Every authored work in an era (across its movements) — for the era page's
 // "Works" picker crumb.
 function eraWorkOptions(eraId: string): CrumbOption[] {
@@ -74,19 +90,19 @@ export function artEraCrumbs(eraId: string, eraName: string): Crumb[] {
   return crumbs
 }
 export function artMovementCrumbs(eraId: string, eraName: string, movementId: string, movementName: string): Crumb[] {
-  const works = workOptions(eraId, movementId).filter(o => o.href)
+  const aw = artistsWorksOptions(eraId, movementId)
   const crumbs: Crumb[] = [
     { label: eraName, href: `/art/${eraId}`, options: eraOptions(), currentLabel: eraName },
     { label: movementName, options: movementOptions(eraId), active: true, currentLabel: movementName },
   ]
-  if (works.length) crumbs.push({ label: 'Works', options: works })
+  if (aw.length) crumbs.push({ label: 'Artists / Works', options: aw })
   return crumbs
 }
 export function artWorkCrumbs(eraId: string, eraName: string, movementId: string, movementName: string, workId: string, workName: string, workShort?: string): Crumb[] {
   return [
     { label: eraName, href: `/art/${eraId}`, options: eraOptions(), currentLabel: eraName },
     { label: movementName, href: `/art/${eraId}/${movementId}`, options: movementOptions(eraId), currentLabel: movementName },
-    { label: workName, short: workShort, options: workOptions(eraId, movementId), active: true, currentLabel: workName },
+    { label: workName, short: workShort, options: artistsWorksOptions(eraId, movementId), active: true, currentLabel: workName },
   ]
 }
 export function artArtistCrumbs(artistName: string): Crumb[] {
@@ -309,14 +325,17 @@ export function ArtAtAGlance({ summary, stats, faceoff, extras }: { summary: str
 // A circular artist headshot — a born-verified portrait/self-portrait where we
 // have one, biased up to the face (objectPosition), with a graceful fall back to
 // the artist's palette gradient when there's no photo or it fails to load.
-export function ArtistAvatar({ photo, palette }: { photo?: string; palette: Palette }) {
+export function ArtistAvatar({ photo, palette, id }: { photo?: string; palette: Palette; id?: string }) {
   const [failed, setFailed] = useState(false)
-  const showImg = !!photo && !failed
+  // Movement rosters rarely carry a photo; borrow the portrait from the
+  // artist-page registry so the circle shows a face, not a gradient.
+  const src = photo ?? (id ? ART_ARTIST_LIGHT[id]?.photo : undefined)
+  const showImg = !!src && !failed
   return (
     <div style={{ width: 64, height: 64, borderRadius: 999, overflow: 'hidden', position: 'relative', background: `linear-gradient(135deg, ${palette[0]}, ${palette[1]} 55%, ${palette[2]})`, boxShadow: 'inset 0 0 0 2px color-mix(in srgb, var(--foreground) 15%, transparent)' }}>
       {showImg && (
         // eslint-disable-next-line @next/next/no-img-element
-        <img src={photo} alt="" aria-hidden loading="lazy" onError={() => setFailed(true)} style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', objectPosition: '50% 18%', filter: 'sepia(0.12) saturate(0.9) contrast(1.02)' }} />
+        <img src={src} alt="" aria-hidden loading="lazy" onError={() => setFailed(true)} style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', objectPosition: '50% 18%', filter: 'sepia(0.12) saturate(0.9) contrast(1.02)' }} />
       )}
     </div>
   )
@@ -331,12 +350,9 @@ export function ArtistsStrip({ artists, label = 'Artists' }: { artists: { id?: s
       </div>
       <div style={{ display: 'flex', gap: 12, overflowX: 'auto', scrollbarWidth: 'none', padding: '0 16px' }}>
         {artists.map(a => {
-          // Roster entries rarely carry their own photo; fall back to the
-          // artist-page registry so the circle shows a face, not a gradient.
-          const photo = a.photo ?? (a.id ? ART_ARTIST_LIGHT[a.id]?.photo : undefined)
           const card = (
             <>
-              <ArtistAvatar photo={photo} palette={a.palette} />
+              <ArtistAvatar photo={a.photo} id={a.id} palette={a.palette} />
               <div style={{ textAlign: 'center' }}>
                 <div style={{ fontFamily: SERIF, fontSize: 13.5, lineHeight: 1.18, letterSpacing: -0.1, color: INK }}>{a.name}</div>
                 <div style={{ marginTop: 2, fontFamily: SANS, fontSize: 11, letterSpacing: 0.2, color: FAINT }}>{a.role || a.years}</div>
