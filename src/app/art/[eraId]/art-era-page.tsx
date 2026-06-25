@@ -49,9 +49,9 @@ import { ART_ERAS } from '@/lib/art-data'
 import {
   ART_ERA_CONTENT,
   ART_MOVEMENT_CONTENT,
-  ART_IMG,
   MODERN_MAP_HUBS,
   type EraMovement,
+  type EraLandCard,
   type Palette,
 } from '@/lib/art-content'
 
@@ -127,26 +127,15 @@ function ArtCard({ b, accent, href }: { b: ArtCardData; accent: string; href?: s
 // "Lay of the land" intro card, then one card per movement. A movement card
 // links to its movement page only when that movement is authored.
 // ─────────────────────────────────────────────────────────────
-function MovementsTimeline({ eraId, movements, accent }: { eraId: string; movements: EraMovement[]; accent: string }) {
+function MovementsTimeline({ eraId, movements, accent, landCard }: { eraId: string; movements: EraMovement[]; accent: string; landCard: EraLandCard }) {
   return (
     <div style={{ position: 'relative', paddingTop: 26, paddingBottom: 4 }}>
       <div style={{ position: 'absolute', left: CORD_X, top: 8, bottom: 8, width: 1, background: BORDER_STRONG }} />
-      <div style={{ position: 'absolute', left: 70, top: 12, fontFamily: SANS, fontSize: 10, letterSpacing: 1.6, fontWeight: 700, color: accent, textTransform: 'uppercase', background: 'var(--background)', padding: '0 6px' }}>
+      <div style={{ position: 'absolute', left: 70, top: 12, fontFamily: SANS, fontSize: 11, letterSpacing: 1.6, fontWeight: 700, color: accent, textTransform: 'uppercase', background: 'var(--background)', padding: '0 6px' }}>
         {movements.length} movements
       </div>
       <div style={{ paddingTop: 14 }}>
-        <ArtCard accent={accent} href={`/art/${eraId}/s/land`} b={{
-          mo: '1848', year: '–60',
-          name: 'Lay of the land',
-          place: 'Paris · the world before the revolt',
-          blurb: 'One ladder, owned by the State: the Académie trained the painters, the Salon showed them, a medal made a career. Then photography, paint in tubes and a rebuilt Paris quietly load the gun.',
-          size: 'm',
-          palette: ['#6b5a3a', '#3a2e1c', '#14100a'],
-          imageUrl: ART_IMG.salonHang,
-          focus: '50% 42%',
-          credit: 'Martini after Ramberg, Salon of 1787 (engraving) · The Met',
-          imgLabel: 'The Salon hung floor-to-ceiling',
-        }} />
+        <ArtCard accent={accent} href={`/art/${eraId}/s/land`} b={landCard} />
         {movements.map(m => {
           const authored = !!ART_MOVEMENT_CONTENT[m.id]
           return (
@@ -200,7 +189,7 @@ function EraDossierMap({ accent }: { accent: string }) {
     <div style={{ padding: '20px 16px 22px', borderBottom: `1px solid ${BORDER}` }}>
       <div style={{ display: 'flex', alignItems: 'baseline', justifyContent: 'space-between', marginBottom: 12, gap: 8 }}>
         <Eyebrow>Where modern art happened</Eyebrow>
-        <div style={{ fontFamily: SANS, fontSize: 10, color: FAINT, letterSpacing: 0.3, textAlign: 'right' }}>Paris for ninety years — then New York</div>
+        <div style={{ fontFamily: SANS, fontSize: 11, color: FAINT, letterSpacing: 0.3, textAlign: 'right' }}>Paris for ninety years — then New York</div>
       </div>
       <div style={{ borderRadius: 6, overflow: 'hidden', border: `1px solid ${BORDER}`, background: CARD_BG }}>
         <svg viewBox={`0 0 ${VB_W} ${VB_H}`} width="100%" style={{ display: 'block' }} role="img" aria-label="Schematic map: modern art's center of gravity moves from Paris to New York around 1940.">
@@ -280,7 +269,7 @@ export function ArtEraPage({ eraId }: { eraId: string }) {
               This era&rsquo;s chapters are coming soon.
             </div>
             <div style={{ marginTop: 14 }}>
-              <Link href="/art/mod" style={{ fontFamily: SANS, fontSize: 12, fontWeight: 600, letterSpacing: 0.3, color: ART_ACCENT, textDecoration: 'none' }}>
+              <Link href="/art/mod" style={{ fontFamily: SANS, fontSize: 12.5, fontWeight: 600, letterSpacing: 0.3, color: ART_ACCENT, textDecoration: 'none' }}>
                 Read the Modern era →
               </Link>
             </div>
@@ -328,7 +317,7 @@ export function ArtEraPage({ eraId }: { eraId: string }) {
             accent={accent}
           />
           <div style={{ padding: '16px 18px 4px' }}>
-            <p style={{ margin: 0, fontFamily: SERIF, fontSize: 15, lineHeight: 1.5, color: MUTED, textWrap: 'pretty' }}>{era.hookLong}</p>
+            <p style={{ margin: 0, fontFamily: SERIF, fontSize: 16, lineHeight: 1.55, color: MUTED, textWrap: 'pretty' }}>{era.hookLong}</p>
           </div>
           {/* primary doorway into the era's chaptered narrative */}
           {era.sections.length > 0 && (
@@ -364,7 +353,7 @@ export function ArtEraPage({ eraId }: { eraId: string }) {
           <ArtistsStrip artists={era.anchorPainters} label="Painters who anchor the era" />
         </div>
         <div id="sec-movements" style={secStyle}>
-          <MovementsTimeline eraId={era.id} movements={era.movements} accent={accent} />
+          <MovementsTimeline eraId={era.id} movements={era.movements} accent={accent} landCard={era.landCard} />
         </div>
       </ArtPageShell>
       {lb && <Lightbox src={lb.src} alt={lb.cap} caption={lb.cap} onClose={() => setLb(null)} />}

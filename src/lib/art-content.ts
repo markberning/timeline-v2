@@ -436,6 +436,24 @@ export interface EraMovement {
 }
 export interface AnchorPainter { name: string; role: string; palette: Palette }
 
+// The "Lay of the land" entry card on an era page (links to the era read at
+// /art/{eraId}/s/land). Per-era so each era frames its own world, not Modern's.
+export interface EraLandCard {
+  mo: string
+  year: string
+  name: string
+  place: string
+  blurb: string
+  size: 's' | 'm' | 'l' | 'xl'
+  palette: Palette
+  imgLabel?: string
+  imageUrl?: string
+  focus?: string
+  imageAspect?: string
+  portrait?: boolean
+  credit?: string
+}
+
 export interface ArtEraContent {
   id: string
   name: string
@@ -462,6 +480,8 @@ export interface ArtEraContent {
   whatChanged?: WhatChanged
   // "The manifesto", the era's founding document, if it had one (rare at era altitude).
   manifesto?: Manifesto
+  // The "Lay of the land" entry card shown atop the movements timeline.
+  landCard: EraLandCard
   // The era's own long-form narrative: chaptered prose entered via the "Read the
   // full story" button under the hook. The prose itself lives in the reader
   // (modern-narratives.tsx); this is only the chapter metadata.
@@ -530,6 +550,18 @@ export const MODERN_ERA: ArtEraContent = {
       'The modern era is the slow-motion demolition of that agreement. Realism put real labourers where the gods had been; Impressionism dissolved solid form into light; Cubism broke the single viewpoint; then Kandinsky took the last step and dissolved the subject altogether. The boats, waves and apocalyptic riders he began with vanish into pure colour and line, a picture that refuses to be a window onto anything but itself.',
       'That is the thread that makes 1850–1970 one era and not a string of unrelated styles: each movement attacks a different rule of the old picture, its subjects, its space, its surface, its very duty to depict, until almost nothing of the window is left. Modern art isn’t a single look. It is the century painting spent taking itself apart.',
     ],
+  },
+  landCard: {
+    mo: '1848', year: '–60',
+    name: 'Lay of the land',
+    place: 'Paris · the world before the revolt',
+    blurb: 'One ladder, owned by the State: the Académie trained the painters, the Salon showed them, a medal made a career. Then photography, paint in tubes and a rebuilt Paris quietly load the gun.',
+    size: 'm',
+    palette: ['#6b5a3a', '#3a2e1c', '#14100a'],
+    imageUrl: ART_IMG.salonHang,
+    focus: '50% 42%',
+    credit: 'Martini after Ramberg, Salon of 1787 (engraving) · The Met',
+    imgLabel: 'The Salon hung floor-to-ceiling',
   },
   sections: [
     { id: 'land', eyebrow: 'Lay of the land', dateLabel: 'c. 1850', title: 'The world before the revolt', blurb: 'One ladder, owned by the State, and the modern world quietly loading the gun to kick it over.', progress: 0 },
