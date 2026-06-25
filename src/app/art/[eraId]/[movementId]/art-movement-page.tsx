@@ -322,7 +322,7 @@ export function ArtMovementPage({ eraId, movementId }: { eraId: string; movement
     // horizontal scroll (user, locked 2026-05-25), and 6 chips already fill it. The
     // manifesto SECTION still renders right after The break; it's reached by scrolling.
     { id: 'sec-influence', label: 'Influence' },
-    { id: 'sec-details', label: 'Details' },
+    { id: 'sec-artists', label: 'Artists' },
     { id: 'sec-works', label: 'Works' },
     ...(hasCanon ? [{ id: 'sec-canon', label: 'Canon' }] : []),
   ]
@@ -378,12 +378,15 @@ export function ArtMovementPage({ eraId, movementId }: { eraId: string; movement
         <div id="sec-influence" style={secStyle}>
           <InfluenceFlow accent={accent} lineage={mv.lineage} title={mv.name} range={mv.range} hubImage={mv.heroImage} hubPalette={mv.works[0].palette} summary={mv.influenceSummary} />
         </div>
+        {/* the makers — own anchored section, reached by the 'Artists' jump chip */}
+        <div id="sec-artists" style={secStyle}>
+          <ArtistsStrip artists={mv.artists} label={`${mv.name} artists`} />
+        </div>
         {/* secondary detail — always visible, reached via the jump-bar */}
         <div id="sec-details" style={secStyle}>
           <div style={{ padding: '16px 16px 2px' }}><Eyebrow color={accent}>The details</Eyebrow></div>
           <StatsRow stats={mv.stats} accent={accent} actions={hasCanon ? { 'Canonical works': goToCanon } : undefined} />
           <ArtFaceoff items={mv.factions} />
-          <ArtistsStrip artists={mv.artists} label={`${mv.name} artists`} />
           <ParallelsList parallels={mv.parallels} />
         </div>
         <div id="sec-works" style={secStyle}>

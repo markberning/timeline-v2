@@ -15,7 +15,7 @@ import { WarHeader } from '@/components/mode/war-header'
 import '../../app/war-civil-war/war-skin.css'
 import { ART_ACCENT, artAlpha } from '@/lib/art-data'
 import { ART_ERAS } from '@/lib/art-data'
-import { ART_MOVEMENT_CONTENT, ART_WORK_CONTENT, ART_ARTIST_CONTENT, type ArtStat, type ArtSide, type Palette, type HeroImage, type WhatChanged, type Manifesto } from '@/lib/art-content'
+import { ART_MOVEMENT_CONTENT, ART_WORK_CONTENT, ART_ARTIST_CONTENT, ART_ARTIST_LIGHT, type ArtStat, type ArtSide, type Palette, type HeroImage, type WhatChanged, type Manifesto } from '@/lib/art-content'
 
 export const SANS = 'var(--font-geist-sans)'
 export const SERIF = 'var(--font-lora)'
@@ -331,9 +331,12 @@ export function ArtistsStrip({ artists, label = 'Artists' }: { artists: { id?: s
       </div>
       <div style={{ display: 'flex', gap: 12, overflowX: 'auto', scrollbarWidth: 'none', padding: '0 16px' }}>
         {artists.map(a => {
+          // Roster entries rarely carry their own photo; fall back to the
+          // artist-page registry so the circle shows a face, not a gradient.
+          const photo = a.photo ?? (a.id ? ART_ARTIST_LIGHT[a.id]?.photo : undefined)
           const card = (
             <>
-              <ArtistAvatar photo={a.photo} palette={a.palette} />
+              <ArtistAvatar photo={photo} palette={a.palette} />
               <div style={{ textAlign: 'center' }}>
                 <div style={{ fontFamily: SERIF, fontSize: 13.5, lineHeight: 1.18, letterSpacing: -0.1, color: INK }}>{a.name}</div>
                 <div style={{ marginTop: 2, fontFamily: SANS, fontSize: 11, letterSpacing: 0.2, color: FAINT }}>{a.role || a.years}</div>
