@@ -748,3 +748,43 @@ shipped: the **break** (`whatChanged`) and the **manifesto** (`absent`).
   `ART_MOVEMENT_CONTENT` + `MOVEMENT_NARRATIVES` under `imp`. tsc + eslint clean; static
   build green (shipped-page guard: all 103 civs); deployed; movement page + 7 sections live
   and verified on prod. Artifacts in `audits/art-pipeline/impressionism-*`.
+
+## Proof run 11 — DONE (2026-06-25) — the Neoclassical & Romantic era (ERA + 2 MOVEMENTS, 19 ch)
+The whole **NRO era** (`nro`, c.1750–1850) in one gated pass: the era read (5 ch, the
+Reason-vs-Feeling *argument*) + Neoclassicism (5 ch) + Romanticism (9 ch). Authored from
+three born-verified fact packs into a committed skeleton (empty `sections[]`), then run
+end-to-end: 5 Sonnet critics in parallel (batched by axis, each covering all three reads) →
+coordinator reconcile → new-material fact-pack → 3 parallel Opus revisers (one per read) →
+mechanical splice → build → ship. Gate yield earned its keep again:
+- **Fact-check** (web) — clean drafts; ONE must-fix (Delacroix's *Sardanapalus* called
+  "thirteen feet wide" — that's its height; now "thirteen feet tall and over sixteen feet
+  wide," agreeing with its own credit) + minor dim roundings + a Baudelaire quote precision.
+  Confirmed the legends are framed right (the Winckelmann "quiet grandeur" trap, the Turner
+  mast story, the Goya Black Paintings untitled/unexhibited, Liberty = July 1830 not 1789).
+- **Framing** — the era's signature axis, the women: Angelica Kauffman moved out of a sidebar
+  into the body (RA founder, 1 of 2 women among 34); **Élisabeth Vigée Le Brun** added (new
+  material, fact-checked first); the **Black man at the apex of Géricault's *Raft*** named
+  (uncontested visual fact, the era's most significant compositional choice); Orientalism in
+  Ingres's *Grande Odalisque* named plainly.
+- **Comprehensiveness** — two MUST-ADDs, both fact-checked before writing in: **Gros** (the
+  David-to-Romanticism bridge — grand civic format filled with Romantic horror) into
+  Neoclassicism; **Fuseli + Blake** (the dream/nightmare strand the read promised but never
+  showed) as a new **"Visionaries"** chapter → Romanticism grew from 8 to 9 sections.
+- **Storytelling** — the era "Feeling" chapter was re-listing painters at movement altitude
+  and duplicating the opener → rewritten to describe what Romanticism *looks like on the wall*
+  (dissolving edges, visible stroke, diagonal composition, color over line) anchored on a
+  single fresh image; "Reason" strengthened from David-biography to *what order looks like*;
+  a muted summary paragraph promoted to body; a recycled Hay Wain figure cut.
+- **Clarity** — glossed the comprehension-breakers: *frieze*, *the academy*, *tapestry
+  cartoons* (the false cognate — preparatory weaver designs, not comics), *Sturm und Drang*.
+- **Image gate 6 (coordinator)** — 36 skeleton URLs + 6 additions ALL verified via the
+  Commons API (existence + correct md5-hash dir + PD-worldwide tier), sidestepping the
+  upload-host's 429 storm; the curl load-check is unreliable on this network (rate-limited),
+  the API is not. Also fixed the era + Modern artist strips (real portraits, not gradients).
+- **Voice gate 8** — `lint-art-voice --strict` = 0 across all three reads, before AND after
+  the splice (the AUTHOR VOICE CONTRACT was pasted into every reviser brief).
+- **Integration** — palette-const collisions (`STONE/STEEL/...`/`PD_WORLD`) between the era
+  draft and the shared reader files resolved by an `NRO_*` rename + a once-declared preamble;
+  the 5 era components `Nro`-prefixed (LandNarrative collided with `mod`'s). tsc + eslint
+  clean; static build green (shipped-page guard: all 109 civs); all 19 routes generate;
+  pushed (auto-deploy from `main`). Artifacts in `audits/art-pipeline/nro-*`.
