@@ -1807,7 +1807,7 @@ const FivePostImpNarrative: Narrative = ({ accent }) => (<>
 
  <SectionHeader accent={accent} label="The five, one line each" title="A table of contents, in faces" />
  <p style={proseStyle}>
- Treat this chapter as the table of contents. Each anchor gets a longer chapter of his own; these are the
+ These are the short versions; each anchor gets a longer read of his own. These are the
  tags.
  </p>
  <p style={proseStyle}>
@@ -4751,7 +4751,7 @@ const PopBritainNarrative: Narrative = ({ accent, onZoom }) => (<>
  The people who first turned it into art were a loose circle of young artists, critics and architects who
  met at the Institute of Contemporary Arts in London. They called themselves the{' '}
  <strong>Independent Group</strong>{' '}(an informal discussion club, not a school or a gallery), first
- convening in the winter of 1952. Two of them carry this chapter: the sculptor and collagist{' '}
+ convening in the winter of 1952. Two of them carry the story here: the sculptor and collagist{' '}
  <strong>Eduardo Paolozzi</strong>, who had the eye, and the painter{' '}<strong>Richard Hamilton</strong>,
  who supplied the theory. Around them sat photographers, designers and critics, including{' '}
  <strong>Lawrence Alloway</strong>, usually credited with first attaching the phrase &ldquo;Pop art&rdquo;
@@ -5006,7 +5006,7 @@ const PopDebateNarrative: Narrative = ({ accent }) => (<>
  years earlier Harvey had designed the cardboard shipping carton for Brillo soap pads, the red, white and
  blue box in any stockroom. Now here it was, rebuilt in plywood, silkscreened to look exactly like his
  carton, stacked in a gallery, selling as a Warhol. None of the money, and none of the credit, was coming
- to him. Hold that scene, because it is the whole argument of this chapter in one room: a piece of
+ to him. Hold that scene, because it is the whole argument in one room: a piece of
  throwaway commercial design, lifted without credit, turned into expensive fine art, and nobody quite able
  to say whether that is theft, homage, a brilliant idea, or all three at once.
  </p>

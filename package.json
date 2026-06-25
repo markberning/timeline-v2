@@ -12,6 +12,8 @@
     "start": "next start",
     "lint": "eslint",
     "lint:links": "tsx scripts/lint-links.ts",
+    "lint:art-voice": "node scripts/lint-art-voice.mjs",
+    "lint:phil-voice": "node scripts/lint-philosophy-voice.mjs",
     "ship:check": "node scripts/ship-check.mjs",
     "audit:events": "node --env-file=.env.local scripts/audit-events.mjs",
     "audit:crosslinks": "node --env-file=.env.local scripts/audit-crosslinks.mjs",

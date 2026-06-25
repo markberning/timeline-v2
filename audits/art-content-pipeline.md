@@ -189,6 +189,56 @@ Mirrors War's five, re-pointed at art, plus two art-specific structural gates:
    — a lower level goes DEEPER, it does not copy-paste the level above. Flag
    contradictions (MUST-FIX) and redundant duplication (SHOULD-FIX). Run whenever a
    new level is added to an already-authored branch.
+8. **Deterministic voice gate** (`scripts/lint-art-voice.mjs`, NO LLM — the art analog
+   of `lint-philosophy-voice.mjs`). Pure-regex scan of every reader-facing prose file
+   (`era-narratives.tsx`, `movement-narratives.tsx`, `art-section-reader.tsx`,
+   `art-content.ts`). It exists because the storytelling critic kept letting the same
+   tics through — the build it catches is the one the 2026-06 hand-sweep had to undo.
+   **Two tiers:**
+   - **STRICT (`--strict`, ship-blocking, must be 0):** the LOCKED voice rules. The
+     "the single most common thing said about this painting is also wrong, and getting
+     it right unlocks the whole work" meta device (the user-flagged Flag failure) and
+     its family (`unlocks the work`, `the most common thing/mistake`, `the key to the
+     work`); app-navigation in prose (`scroll down`, `the artists section`); artifact
+     self-reference (`this page / section / chapter`); chapter-signposting (`as we
+     saw / will see`, `we'll come back`, `in the next section`, `earlier/later in this
+     read`, `by the end of this read`); **em-dashes** (the true `—` / `&mdash;` only;
+     the en-dash `–` in date ranges like `1863–1935` is correct and left alone — title/
+     credit/year metadata fields are also exempt); gratuitous `**` bold; `the wise
+     reader`-style condescension. A STRICT hit is (almost) always real — fix the prose,
+     never loosen the rule to dodge it.
+   - **SOFT (advisory, reported not blocking):** judgment-call tics that are often
+     legitimate in art writing (`the whole point`, `here is the part`, `it is worth
+     pausing/flagging`, `the honest answer is`, `what's striking is`, `the genius of`).
+     The author + storytelling critic decide case by case; the report exists so a tic
+     that has *run wild* across a build (e.g. `the whole point` 25×) gets noticed.
+   Run `npm run lint:art-voice` (report) / `node scripts/lint-art-voice.mjs --strict`
+   (gate). New scope is zero-tolerance on STRICT. When a real new tic slips a build,
+   ADD it to the linter (STRICT if unambiguous, else SOFT) and sweep to 0 — same
+   discipline as the philosophy voice linter (`feedback_philosophy_voice_linter`).
+
+## AUTHOR VOICE CONTRACT (paste verbatim into EVERY art author brief)
+Per `feedback_build_it_right_first_time` — the gates check, they do not clean up. The
+author writes it right the first time by following this contract, which front-loads the
+exact patterns gate #8 will reject:
+- **Tell the story. Never narrate the artifact.** No "this page / section / chapter",
+  no "in this read", no "treat this as a table of contents", no "as we saw / as we'll
+  see / we'll come back / in the next section". The reader knows they're reading; don't
+  describe the reading. Point at the displayed image as "here" / "shown here" if needed.
+- **No meta-importance framing.** Never "the single most common thing said about this
+  is wrong", "the most common mistake", "the key to the whole work", "what unlocks it".
+  If a popular belief is wrong, just state the correction plainly.
+- **No em-dashes (`—`) in prose.** Use parentheses for definitions, or commas/periods.
+  (En-dashes in numeric date ranges are fine: `1863–1935`.)
+- **No `**bold**`** in prose; use `<strong>` only where the existing reads do, sparingly.
+- **Don't coach or condescend.** No "the wise/careful reader", "you might be tempted",
+  "keep this in mind". Trust a sharp reader. Second person *to direct the eye* is fine
+  in art ("look at the river", "your eye settles") — that is looking, not coaching.
+- **Earn the wit; don't manufacture it.** Dry asides land when a real fact earns them
+  (VOICE LOCKS above). Avoid the SOFT-list crutches ("the whole point", "here is the
+  part", "it is worth pausing", "the honest answer is") — say the thing.
+- **Comparisons are the #1 tool** (VOICE LOCK b). Reach for the analogy that makes a
+  reader *see* it, not more art-world vocabulary.
 
 ## `kind` — every section is era / movement / work / artist
 | | **era** | **movement** | **work** | **artist** |

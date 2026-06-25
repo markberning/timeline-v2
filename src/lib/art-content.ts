@@ -921,7 +921,7 @@ export const REALISM: ArtMovementContent = {
     prose: [
       'Realism’s manifesto is not a sheet with a dozen signatures. It is a single page Courbet wrote to hand out at the door of his own tent, the Pavilion of Realism he threw up beside the 1855 world’s fair after its jury rejected his two biggest canvases (the Painter’s Studio and the Burial). A manifesto smuggled in as an exhibition catalogue.',
       'What it claims is the whole movement in miniature: he did not pick the label, he accepted it; and his one aim is to paint his own century exactly as he finds it, its people, its manners, its look, with no gods borrowed from myth and nothing prettied up. Art made of the present tense. Living art.',
-      'A Burial at Ornans had already made that argument in paint five years earlier (its own read in this app); this page just says out loud what the ten-foot canvas had said in oil. The picture declared it first. The catalogue gave it words, and a name.',
+      'A Burial at Ornans had already made that argument in paint five years earlier; the catalogue just says out loud what the ten-foot canvas had said in oil. The picture declared it first. The catalogue gave it words, and a name.',
     ],
     sourceUrl: 'https://www.gettydocents.org/wp-content/uploads/Gustave-Courbet-Realist-Manifesto.pdf',
     sourceLabel: 'Read Courbet’s Realist Manifesto (1855)',

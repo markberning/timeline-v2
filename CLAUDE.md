@@ -57,9 +57,11 @@ surface checklist its ship-gate enforces. See
   non-map print/photo; use a map only if nothing else.** Hero/card = match aspect to
   frame (no portrait in the landscape hero band), crop print mats/borders.
 - **art** — `audits/art-content-pipeline.md` (5 critic gates — fact / storytelling
-  +looking / comprehensiveness / clarity / framing — + image-rights + nesting; every
-  era/movement carries the "break" block, every movement the "manifesto" block or an
-  explicit `absent`).
+  +looking / comprehensiveness / clarity / framing — + image-rights + nesting + a
+  **deterministic voice gate** `scripts/lint-art-voice.mjs --strict` (the art analog of
+  the philosophy voice linter; STRICT tier blocks ship, SOFT tier advises) and the
+  pasted-into-every-brief **AUTHOR VOICE CONTRACT**; every era/movement carries the
+  "break" block, every movement the "manifesto" block or an explicit `absent`).
 - **music** — `audits/music-content-pipeline.md` (the art/war analog; music content
   not yet started, so the doc is ready before the first article, never after — already
   carries the "hear the break" + manifesto/founding-statement requirements).
