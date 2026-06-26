@@ -120,6 +120,45 @@ export const NRO_IMG: Record<string, string> = {
     'https://upload.wikimedia.org/wikipedia/commons/c/cb/%C3%89lisabeth-Louise_Vig%C3%A9e-Le_Brun_-_Madame_Vig%C3%A9e-Le_Brun_et_sa_fille_%281786%29.JPG',
   kauffmanAriadne:
     'https://upload.wikimedia.org/wikipedia/commons/a/ac/Angelica_Kauffmann%2C_Ariadne_Abandoned_by_Theseus%2C_1774.jpg',
+
+  // ── Canon + lineage concept images ──
+  // Three missing canon works (born-verified via Commons API, all pre-1900 PD):
+  mengsParnassus:
+    'https://upload.wikimedia.org/wikipedia/commons/7/73/Anton_Raphael_Mengs_-_Parnassus_%28FondazioneTorlonia%29.jpg',
+  westWolfe:
+    'https://upload.wikimedia.org/wikipedia/commons/f/f8/The_Death_of_General_Wolfe_B.West%2C1770.jpg',
+  canovaPsyche:
+    'https://upload.wikimedia.org/wikipedia/commons/d/d7/Psyche_Revived_by_Cupid%27s_Kiss_2.jpg',
+
+  // Lineage concept nodes — representative PD works, reused across eras
+  // where the same concept label repeats.
+  apolloBelvedere:
+    // "Antiquity" (NEOCLASSICISM.parents) + "Antiquity & Pompeii" (NRO_ERA.parents)
+    'https://upload.wikimedia.org/wikipedia/commons/e/e6/Belvedere_Apollo_Pio-Clementino_Inv1015.jpg',
+  pompeiiFresko:
+    // "Pompeii excavated" (NEOCLASSICISM.parents) — House of the Vettii fresco
+    'https://upload.wikimedia.org/wikipedia/commons/a/a3/Ancient_Roman_frescos_in_the_House_of_the_Vettii_%28Pompeii%29-6.jpg',
+  enlightenmentPlate:
+    // "The Enlightenment" (NEOCLASSICISM.parents + NRO_ERA.parents) — Encyclopédie frontispiece
+    'https://upload.wikimedia.org/wikipedia/commons/f/fd/Encyclopedie_frontispice_full.jpg',
+  rubensGraces:
+    // "Baroque color" (ROMANTICISM.parents) + "Baroque" (NRO_ERA.parents) — Rubens, The Three Graces, c.1635, Prado
+    'https://upload.wikimedia.org/wikipedia/commons/f/f5/The_Three_Graces%2C_by_Peter_Paul_Rubens%2C_from_Prado_in_Google_Earth.jpg',
+  martinSublime:
+    // "The sublime (Burke)" (ROMANTICISM.parents) — John Martin, Belshazzar's Feast, 1820
+    'https://upload.wikimedia.org/wikipedia/commons/e/ec/John_Martin_-_Belshazzar%27s_Feast_-_Google_Art_Project.jpg',
+  byronPortrait:
+    // "Romantic literature" (ROMANTICISM.parents) — Thomas Phillips, Lord Byron in Albanian dress, 1813
+    'https://upload.wikimedia.org/wikipedia/commons/e/ee/Lord_Byron_in_Albanian_dress.jpg',
+  delacroixWomenAlgiers:
+    // "Orientalism" (ROMANTICISM.children) — Delacroix, Women of Algiers in Their Apartment, 1834
+    'https://upload.wikimedia.org/wikipedia/commons/9/9d/Eug%C3%A8ne_Delacroix_-_The_Women_of_Algiers%2C_1834.jpg',
+  courbetBurial:
+    // "Realism" (NEOCLASSICISM.children + NRO_ERA.children) — Courbet, A Burial at Ornans, 1849–50
+    'https://upload.wikimedia.org/wikipedia/commons/a/a0/Gustave_Courbet_-_A_Burial_at_Ornans_-_Google_Art_Project_2.jpg',
+  cezanneVictoire:
+    // "Modern" (NRO_ERA.children) — Cézanne (d.1906, PD worldwide), Mont Sainte-Victoire, c.1882–85, MET
+    'https://upload.wikimedia.org/wikipedia/commons/7/7d/Paul_C%C3%A9zanne_-_Mont_Sainte-Victoire_and_the_Viaduct_of_the_Arc_River_Valley_%28Metropolitan_Museum_of_Art%29.jpg',
 }
 
 // Era palette tones used as card/lineage gradients (stone/steel/blood for the
@@ -198,14 +237,14 @@ export const NEOCLASSICISM: ArtMovementContent = {
   lineage: {
     parents: [
       { label: 'Rococo', mode: 'art', img: NRO_IMG.fragonardSwing, palette: SUNSET, note: 'gave: a target to revolt against' },
-      { label: 'Antiquity', mode: 'civ', palette: STONE, note: 'gave: subjects, figures, the frieze stage' },
-      { label: 'Pompeii excavated', mode: 'civ', palette: STONE, note: 'gave: real Roman rooms and design' },
-      { label: 'The Enlightenment', mode: 'civ', palette: STEEL, note: 'gave: reason and civic virtue' },
+      { label: 'Antiquity', mode: 'civ', img: NRO_IMG.apolloBelvedere, palette: STONE, note: 'gave: subjects, figures, the frieze stage' },
+      { label: 'Pompeii excavated', mode: 'civ', img: NRO_IMG.pompeiiFresko, palette: STONE, note: 'gave: real Roman rooms and design' },
+      { label: 'The Enlightenment', mode: 'civ', img: NRO_IMG.enlightenmentPlate, palette: STEEL, note: 'gave: reason and civic virtue' },
     ],
     children: [
       { label: 'Romanticism', mode: 'art', img: NRO_IMG.raftMedusa, palette: OXBLOOD, note: 'took: the line-vs-color fight, as its opposite' },
       { label: 'Academic art', mode: 'art', img: NRO_IMG.apotheosisHomer, palette: STONE, note: 'took: drawing-first training' },
-      { label: 'Realism', mode: 'art', palette: STONE, note: 'took: the rules it would break' },
+      { label: 'Realism', mode: 'art', img: NRO_IMG.courbetBurial, palette: STONE, note: 'took: the rules it would break' },
     ],
   },
   influenceSummary:
@@ -247,11 +286,11 @@ export const NEOCLASSICISM: ArtMovementContent = {
     sourceLabel: 'Read Fuseli’s 1765 translation of Winckelmann',
   },
   canon: [
-    { year: 1761, name: 'Parnassus (ceiling)', artist: 'Mengs' },
-    { year: 1770, name: 'The Death of General Wolfe', artist: 'Benjamin West' },
+    { year: 1761, name: 'Parnassus (ceiling)', artist: 'Mengs', img: NRO_IMG.mengsParnassus },
+    { year: 1770, name: 'The Death of General Wolfe', artist: 'Benjamin West', img: NRO_IMG.westWolfe },
     { year: 1784, name: 'Oath of the Horatii', artist: 'David', img: NRO_IMG.oathHoratii },
     { year: 1787, name: 'The Death of Socrates', artist: 'David', img: NRO_IMG.deathSocrates },
-    { year: 1793, name: 'Psyche Revived by Cupid’s Kiss', artist: 'Canova' },
+    { year: 1793, name: "Psyche Revived by Cupid’s Kiss", artist: 'Canova', img: NRO_IMG.canovaPsyche },
     { year: 1793, name: 'The Death of Marat', artist: 'David', img: NRO_IMG.deathMarat },
     { year: 1801, name: 'Napoleon Crossing the Alps', artist: 'David', img: NRO_IMG.napoleonAlps },
     { year: 1806, name: 'Napoleon I on his Imperial Throne', artist: 'Ingres', img: NRO_IMG.napoleonThrone },
@@ -343,14 +382,14 @@ export const ROMANTICISM: ArtMovementContent = {
   lineage: {
     parents: [
       { label: 'Neoclassicism', mode: 'art', img: NRO_IMG.oathHoratii, palette: STONE, note: 'gave: the foil it revolted against' },
-      { label: 'The sublime (Burke)', mode: 'civ', palette: FOG, note: 'gave: terror and vastness as a subject' },
-      { label: 'Romantic literature', mode: 'civ', palette: SUNSET, note: 'gave: feeling, the Byronic hero, the nation' },
-      { label: 'Baroque color', mode: 'art', palette: OXBLOOD, note: 'gave: the loose colorist tradition' },
+      { label: 'The sublime (Burke)', mode: 'civ', img: NRO_IMG.martinSublime, palette: FOG, note: 'gave: terror and vastness as a subject' },
+      { label: 'Romantic literature', mode: 'civ', img: NRO_IMG.byronPortrait, palette: SUNSET, note: 'gave: feeling, the Byronic hero, the nation' },
+      { label: 'Baroque color', mode: 'art', img: NRO_IMG.rubensGraces, palette: OXBLOOD, note: 'gave: the loose colorist tradition' },
     ],
     children: [
       { label: 'Barbizon & Realism', mode: 'art', img: NRO_IMG.hayWain, palette: ['#5a7042', '#3a4a28', '#141a10'], note: 'took: loose, weather-true landscape' },
       { label: 'Impressionism', mode: 'art', img: NRO_IMG.rainSteamSpeed, palette: SUNSET, note: 'took: dissolved light, color over line' },
-      { label: 'Orientalism', mode: 'art', palette: SUNSET, note: 'took: the exotic, from Delacroix’s Morocco' },
+      { label: 'Orientalism', mode: 'art', img: NRO_IMG.delacroixWomenAlgiers, palette: SUNSET, note: "took: the exotic, from Delacroix’s Morocco" },
     ],
   },
   influenceSummary:
@@ -477,23 +516,23 @@ export const NRO_ERA: ArtEraContent = {
   ],
   movements: [NEO_CARD, ROM_CARD],
   anchorPainters: [
-    { name: 'David', role: 'The severe master', palette: STONE, photo: NRO_IMG.davidPhoto },
-    { name: 'Ingres', role: 'Line', palette: STONE, photo: NRO_IMG.ingresPhoto },
-    { name: 'Goya', role: 'The dark', palette: OXBLOOD, photo: NRO_IMG.goyaPhoto },
-    { name: 'Géricault', role: 'The raft', palette: OXBLOOD, photo: NRO_IMG.gericaultPhoto },
-    { name: 'Delacroix', role: 'Color and revolt', palette: SUNSET, photo: NRO_IMG.delacroixPhoto },
-    { name: 'Turner', role: 'Light and the sublime', palette: SUNSET, photo: NRO_IMG.turnerPhoto },
+    { id: 'david', name: 'David', role: 'The severe master', palette: STONE, photo: NRO_IMG.davidPhoto },
+    { id: 'ingres', name: 'Ingres', role: 'Line', palette: STONE, photo: NRO_IMG.ingresPhoto },
+    { id: 'goya', name: 'Goya', role: 'The dark', palette: OXBLOOD, photo: NRO_IMG.goyaPhoto },
+    { id: 'gericault', name: 'Géricault', role: 'The raft', palette: OXBLOOD, photo: NRO_IMG.gericaultPhoto },
+    { id: 'delacroix', name: 'Delacroix', role: 'Color and revolt', palette: SUNSET, photo: NRO_IMG.delacroixPhoto },
+    { id: 'turner', name: 'Turner', role: 'Light and the sublime', palette: SUNSET, photo: NRO_IMG.turnerPhoto },
   ],
   lineage: {
     parents: [
       { label: 'Rococo', mode: 'art', img: NRO_IMG.fragonardSwing, palette: SUNSET, note: 'gave: the pleasure-art it buried' },
-      { label: 'Antiquity & Pompeii', mode: 'civ', palette: STONE, note: 'gave: the antique, freshly excavated' },
-      { label: 'The Enlightenment', mode: 'civ', palette: STEEL, note: 'gave: reason, and Burke’s sublime' },
-      { label: 'Baroque', mode: 'art', palette: OXBLOOD, note: 'gave: color and drama, to Romanticism' },
+      { label: 'Antiquity & Pompeii', mode: 'civ', img: NRO_IMG.apolloBelvedere, palette: STONE, note: 'gave: the antique, freshly excavated' },
+      { label: 'The Enlightenment', mode: 'civ', img: NRO_IMG.enlightenmentPlate, palette: STEEL, note: "gave: reason, and Burke’s sublime" },
+      { label: 'Baroque', mode: 'art', img: NRO_IMG.rubensGraces, palette: OXBLOOD, note: 'gave: color and drama, to Romanticism' },
     ],
     children: [
-      { label: 'Realism', mode: 'art', palette: STONE, note: 'took: a target, rejecting both wings' },
-      { label: 'Modern', mode: 'art', palette: ['#7c3aed', '#3d2a6a', '#150f24'], note: 'took: the line-vs-color axis' },
+      { label: 'Realism', mode: 'art', img: NRO_IMG.courbetBurial, palette: STONE, note: 'took: a target, rejecting both wings' },
+      { label: 'Modern', mode: 'art', img: NRO_IMG.cezanneVictoire, palette: ['#7c3aed', '#3d2a6a', '#150f24'], note: 'took: the line-vs-color axis' },
       { label: 'Impressionism', mode: 'art', img: NRO_IMG.rainSteamSpeed, palette: SUNSET, note: 'took: loose brushwork and dissolving light' },
     ],
   },
@@ -524,10 +563,10 @@ export const NRO_ERA: ArtEraContent = {
     place: 'Paris · Rome · one century, two answers',
     blurb: 'A single century of European painting, told as one argument with two answers. Reason against Feeling, line against color, the antique against the storm, riding one continuous political earthquake from the French Revolution through Napoleon to 1830.',
     size: 'm',
-    palette: STONE,
-    imageUrl: NRO_IMG.oathHoratii,
-    credit: 'David, Oath of the Horatii, 1784–85 · Louvre, Paris',
-    imgLabel: 'David swears the era in',
+    palette: FOG,
+    imageUrl: NRO_IMG.wanderer,
+    credit: 'Caspar David Friedrich, Wanderer above the Sea of Fog, c.1818 · Hamburger Kunsthalle, Hamburg',
+    imgLabel: 'One figure, facing the century',
   },
   // Chaptered era narrative authored in a later pass.
   sections: [

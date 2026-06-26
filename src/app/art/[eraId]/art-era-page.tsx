@@ -292,7 +292,7 @@ export function ArtEraPage({ eraId }: { eraId: string }) {
     { id: 'sec-overview', label: 'Overview' },
     ...(hasBreak ? [{ id: 'sec-break', label: 'Break' }] : []),
     ...(hasManifesto ? [{ id: 'sec-manifesto', label: 'Voice' }] : []),
-    { id: 'sec-map', label: 'Map' },
+    ...(eraId === 'mod' ? [{ id: 'sec-map', label: 'Map' }] : []),
     { id: 'sec-details', label: 'Details' },
     { id: 'sec-movements', label: 'Movements' },
   ]
@@ -300,7 +300,7 @@ export function ArtEraPage({ eraId }: { eraId: string }) {
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column', height: '100dvh', background: 'var(--background)', color: 'var(--foreground)' }}>
-      <ArtChrome crumbs={artEraCrumbs('mod', era.name)} accent={accent} />
+      <ArtChrome crumbs={artEraCrumbs(era.id, era.name)} accent={accent} />
       <ArtPageShell>
         <SectionNav accent={accent} items={navItems} />
         <div id="sec-overview" style={secStyle}>
@@ -341,10 +341,12 @@ export function ArtEraPage({ eraId }: { eraId: string }) {
             <ManifestoBlock m={era.manifesto} accent={accent} />
           </div>
         )}
-        {/* signature visual — always visible */}
-        <div id="sec-map" style={secStyle}>
-          <EraDossierMap accent={accent} />
-        </div>
+        {/* signature visual — the city-hub map is Modern-specific (Paris→New York) */}
+        {era.id === 'mod' && (
+          <div id="sec-map" style={secStyle}>
+            <EraDossierMap accent={accent} />
+          </div>
+        )}
         {/* secondary detail — now inline, no accordion (matches movement page) */}
         <div id="sec-details" style={secStyle}>
           <div style={{ padding: '16px 16px 2px' }}><Eyebrow color={accent}>The details</Eyebrow></div>
